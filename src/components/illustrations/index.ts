@@ -1,0 +1,13 @@
+export { default as TimelineSVG } from './TimelineSVG';
+export { default as ComparisonSVG } from './ComparisonSVG';
+export { default as GaugeSVG } from './GaugeSVG';
+export { default as FlowchartSVG } from './FlowchartSVG';
+export { default as PieChartSVG } from './PieChartSVG';
+export { default as IllustrationPlaceholder } from './IllustrationPlaceholder';
+export { default as ChapterIllustration } from './ChapterIllustration';
+export { default as MoneyTimelineSVG } from './MoneyTimelineSVG';
+export { default as SamosaPriceChart } from './SamosaPriceChart';
+export { default as BankDepositFlowSVG } from './BankDepositFlowSVG';
+export { default as InterestSpreadSVG } from './InterestSpreadSVG';
+export { default as InflationThiefSVG } from './InflationThiefSVG';
+export { default as RBIFunctionsSVG } from './RBIFunctionsSVG';

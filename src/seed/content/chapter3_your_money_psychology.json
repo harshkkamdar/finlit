@@ -1,0 +1,1895 @@
+{
+  "chapterId": "chapter-3",
+  "title": "Your Money Psychology",
+  "subtitle": "Why your brain is terrible at money, and what to do about it",
+  "color": "#7C3AED",
+  "accentColor": "#A78BFA",
+  "emoji": "🧠",
+  "estimatedDuration": "60-75 minutes",
+  "learningObjectives": [
+    "Distinguish between wants and needs without guilt-tripping yourself",
+    "Recognize opportunity cost in everyday decisions",
+    "Identify FOMO, anchoring, and social comparison as they happen",
+    "Understand present bias and why 'Future You' keeps getting sacrificed",
+    "Know your own money personality type and what it means for your habits"
+  ],
+  "lessons": [
+    {
+      "lessonId": "lesson-3-1",
+      "title": "Wants vs. Needs",
+      "subtitle": "The line is blurrier than you think",
+      "estimatedReadingTime": "9 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Quick question: Is Zomato a want or a need? If you are starving at midnight, your brain screams **need**. Your bank account whispers **want**. And honestly? Both have a point. This is the thing nobody tells you about the wants vs. needs debate. It is not as black-and-white as your textbook made it sound."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A teen staring at their phone with a Zomato notification, thought bubbles showing a need badge and a want badge fighting",
+            "src": "/illustrations/ch3/l1-zomato-dilemma.png",
+            "prompt": "Indian teen sitting on bed at night looking at phone with food delivery notification, two thought bubbles above head showing a green NEED badge and red WANT badge clashing, purple color palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here is the classic version: needs are things you literally cannot survive without. Food, water, shelter, basic clothing. Wants are everything else. Clean, simple, done. Except real life does not work that way."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Needs",
+            "definition": "Things essential for basic survival and functioning: food, shelter, clothing, healthcare, transportation to work or school."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Wants",
+            "definition": "Things that improve quality of life but are not strictly essential. You could survive without them, even if it would be annoying."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "thinking",
+            "text": "Wait, so is a smartphone a want or a need? Because literally everything is online now. College assignments, UPI payments, even booking a train ticket."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "That is exactly the grey zone. In 2005, a smartphone was a pure want. Today, if your job applications, bank account, and college work are all on your phone, it starts feeling like a need. Context changes everything."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Marketers spend billions of rupees every year specifically to move things from the 'want' column into the 'need' column in your brain. That 'limited edition' tag? That 'everyone has one' ad? Pure psychology. You are the target."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here is a real framework: ask yourself, 'What is the actual function here?' Food is a need. A balanced meal you cooked at home? Need. A Butter Chicken from Zomato with delivery charges and surge pricing? That is a want wearing a need's costume. You needed to eat. You *wanted* that specific thing, delivered that conveniently."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A spectrum bar from clear needs on the left to clear wants on the right, with a foggy grey zone in the middle",
+            "src": "/illustrations/ch3/l1-wants-needs-spectrum.png",
+            "prompt": "Horizontal gradient bar from deep purple (left, labeled NEEDS) to light lavender (right, labeled WANTS), with a foggy middle zone labeled The Grey Zone. Left icons: water bottle, roof, basic food. Middle icons: smartphone, internet, gym. Right icons: gaming console, designer shoes, food delivery. Purple palette (#8E44AD), clean flat educational style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The grey zone is where most of your money goes. And that is okay, because life is not just about survival. But the grey zone is also where most financial stress comes from, because that is where your brain starts lying to you about what you actually need."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Emotional Spending",
+            "definition": "Buying things not because you need them or even truly want them, but because you are bored, stressed, sad, or trying to feel better. Also called 'retail therapy.' It works for about 20 minutes."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "The danger zone is when your 'wants' convince your brain they are 'needs.' The ₹1,200 sneakers are not a need. The ₹999 Spotify subscription is not a need. The Netflix subscription your whole family uses *might* be borderline. Know the difference."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A teen at a checkout screen pausing to ask themselves whether this purchase solves a problem or fills a feeling",
+            "src": "/illustrations/ch3/l1-pause-before-purchase.png",
+            "prompt": "Indian teen holding phone with a shopping cart checkout screen, a pause symbol floating between them and the phone, two labels: 'Solving a problem?' and 'Filling a feeling?' in speech bubbles, purple color palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here is a better question than 'want or need?' Try asking: **'What am I actually buying this for?'** Are you ordering Zomato because you are genuinely hungry and cooking is not possible right now? Legit. Are you ordering at 11pm because you are bored and the app notification said '20% off'? That is a want, possibly an emotional one."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Try this: Before any unplanned purchase, ask 'Am I solving a problem, or filling a feeling?' If it is a feeling, note it. You can still buy it. But at least you know what is actually happening."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The real skill is not eliminating wants. It is being honest about which is which. Once you can see it clearly, you can make a real choice. Spend on the want because you actually want it. Or save the money because something else matters more. But make it a *choice*, not a reflex."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "sorting",
+          "prompt": "Sort these into Needs, Wants, or The Grey Zone",
+          "categories": ["Need", "Grey Zone", "Want"],
+          "items": [
+            { "text": "Monthly bus pass for college commute", "correctCategory": "Need" },
+            { "text": "Zomato order when you have food at home", "correctCategory": "Want" },
+            { "text": "A smartphone (for a student)", "correctCategory": "Grey Zone" },
+            { "text": "New wireless earbuds (you have working wired ones)", "correctCategory": "Want" },
+            { "text": "Medicines prescribed by a doctor", "correctCategory": "Need" },
+            { "text": "Gym membership", "correctCategory": "Grey Zone" },
+            { "text": "Designer sneakers for school", "correctCategory": "Want" },
+            { "text": "Groceries for the week", "correctCategory": "Need" }
+          ],
+          "explanation": "The grey zone is real, a smartphone is borderline essential for students today but a ₹80,000 iPhone is a want. A gym membership promotes health (need-ish) but there are cheaper alternatives (want-ish). Needs keep you alive and functional. Wants make life better. The grey zone is where you need to make a judgment call.",
+          "xpValue": 15
+        },
+        {
+          "type": "scenario",
+          "scenario": "Arjun earns ₹25,000 a month as a junior graphic designer. He tells his friend: 'I *need* the Adobe Creative Cloud subscription (₹1,675/month). I *need* the new drawing tablet (₹15,000). I *need* noise-canceling headphones to focus.' His current setup: a 2-year-old laptop, a basic mouse, and he's been delivering good work for 8 months.",
+          "prompt": "Which of Arjun's 'needs' is most genuinely justified?",
+          "options": [
+            { "text": "The Adobe subscription, it's his core work tool", "isCorrect": true },
+            { "text": "The drawing tablet, every designer needs one", "isCorrect": false },
+            { "text": "The noise-canceling headphones, focus is essential", "isCorrect": false },
+            { "text": "All three, he's a professional", "isCorrect": false }
+          ],
+          "explanation": "Adobe CC is legitimately a professional need for a graphic designer, without it, he can't do his job. But he's been delivering good work for 8 months without the tablet or premium headphones. Those are wants that *feel* like professional needs. Professionals want better tools. That's valid. But 'want' isn't 'need.'",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "What is 'emotional spending'?",
+          "options": [
+            { "text": "Buying expensive things as gifts for people you love", "isCorrect": false },
+            { "text": "Spending money to manage feelings like boredom, stress, or sadness", "isCorrect": true },
+            { "text": "Getting emotional when you check your bank balance", "isCorrect": false },
+            { "text": "Buying things on a whim without thinking", "isCorrect": false }
+          ],
+          "explanation": "Emotional spending is when you buy things not because you need them or even truly want them, but because you're feeling something uncomfortable and shopping makes it go away (briefly). It's retail therapy. It works for about 20 minutes, then the feeling comes back, plus you spent money.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "A want can become a need depending on your situation and context.",
+          "correctAnswer": true,
+          "explanation": "100% true. A car is a pure want in Mumbai (amazing public transport) but a genuine need if you live in a small town with no buses. Internet was a want in 2000, it's essentially a need in 2025. Context matters. The question is always: what does *this specific thing* do *for you, specifically*?",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-multi",
+          "prompt": "Which of these are signs that a 'want' is disguising itself as a 'need'? (Select all that apply)",
+          "options": [
+            { "text": "You're buying a newer version of something that still works fine", "isCorrect": true },
+            { "text": "You feel you 'deserve' it after a hard week", "isCorrect": true },
+            { "text": "You need it to literally do your job", "isCorrect": false },
+            { "text": "Your friend has it and you feel left out without it", "isCorrect": true },
+            { "text": "You haven't eaten and need food", "isCorrect": false }
+          ],
+          "explanation": "Upgrading things that work fine, 'deserving' purchases after stress, and social pressure are classic want-disguised-as-need patterns. Actually needing something for work, or literal survival needs like food, those are genuine. The emotional or social pressure ones are where your brain lies to you most convincingly.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "It's 11:30pm. You have food in the kitchen, rice and dal from this morning. But you just got a Zomato notification: 'Late Night Special, 30% off your favourites.' You open the app. You're not particularly hungry. You're bored and a little tired from studying.",
+          "prompt": "What type of spending would ordering right now be?",
+          "options": [
+            { "text": "A genuine need, you haven't eaten properly", "isCorrect": false },
+            { "text": "A smart want, the discount makes it rational", "isCorrect": false },
+            { "text": "Emotional spending triggered by boredom and a marketing nudge", "isCorrect": true },
+            { "text": "A grey zone purchase", "isCorrect": false }
+          ],
+          "explanation": "You have food. You're not hungry. You're bored, tired, and a notification woke up your brain's reward system. The 30% off isn't saving you money, it's making you spend money you weren't going to spend. This is textbook emotional spending + marketing manipulation. The notification existed because Zomato knows this exact scenario.",
+          "xpValue": 15
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-3-2",
+      "title": "Opportunity Cost",
+      "subtitle": "Every choice kills another choice",
+      "estimatedReadingTime": "8 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "You just spent ₹800 on a concert ticket. Cool. But here is the thing that economics textbooks call **opportunity cost** and that we will just call the Ghost of Money Spent: that ₹800 cannot also be 4 months of Spotify Premium, or half of new headphones, or two solid meals out with your best friend. The concert was real. But so is everything you *did not* buy."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Opportunity Cost",
+            "definition": "The value of the best thing you gave up by making a choice. Every yes is also a no to everything else you could have done with that time or money."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A fork in the road showing one path with a purchase and another ghostly path with what you gave up",
+            "src": "/illustrations/ch3/l2-opportunity-cost-fork.png",
+            "prompt": "Two-panel illustration. Left panel: a teen walks down a bright road holding a gaming console, smiling. Right panel (faded, ghostly, 50% opacity): the same teen on a different road holding a savings piggy bank and a skill certificate. A small ghost icon floats between the panels. Caption: Every choice has a ghost. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "This is not about guilt. You are not supposed to agonize over every purchase. It is just useful to *see* the trade-off clearly. When you buy something, you are not just saying yes to that thing. You are saying no to everything else those rupees could have done."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "confused",
+            "text": "But I earned that money. Why should I feel bad about spending it on something I want?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "You should not feel bad! Opportunity cost is not about guilt. It is about seeing what you are trading. If the concert is worth more to you than 4 months of Spotify, great. Just make it a conscious choice, not a blind one."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Opportunity cost is not just about money. It is time too. Every hour you spend watching reels is an hour you did not spend learning a skill, exercising, or sleeping. Every choice has a ghost."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here is where it gets real: Most people only see the thing they are buying, not the thing they are giving up. The ₹300 Starbucks becomes invisible once you have drunk it. But ₹300 every day for a year? That is ₹1,09,500. Spent on what? That is the question."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A daily coffee cup multiplying into a huge pile of money over 365 days",
+            "src": "/illustrations/ch3/l2-daily-habit-cost.png",
+            "prompt": "Single coffee cup on the left with a multiplication arrow showing 365 days, resulting in a massive pile of rupee notes totalling 1,09,500 on the right. Small icons show alternative uses: a laptop, a trip to Goa, investment growth. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "The economist who shaped modern opportunity cost thinking, Frederic Bastiat, called this 'the seen and the unseen.' The thing you buy is what you see. Everything you could have done with that money is what you do not see. Most financial mistakes happen in the unseen."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Think about the last time you said 'I cannot afford that.' What if the real answer was not that you did not have enough money, but that you already *chose* where to put it? You might not be broke. You might just have already spent the money on other things."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two job offer letters, one with higher pay now and one with lower pay but better future growth",
+            "src": "/illustrations/ch3/l2-job-opportunity-cost.png",
+            "prompt": "Two offer letters side by side. Left: Company A, 30000 per month, plain office background. Right: Company B, 22000 per month but with icons showing mentorship, skills training, and a growth arrow reaching 70000. A thought bubble with a scale weighing both. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Opportunity cost also applies to big life decisions. Taking a job that pays ₹30,000/month instead of one that pays ₹22,000 sounds obvious. Until you realize the lower-paying job includes skills training that could get you to ₹70,000 in two years. The *opportunity cost* of chasing the higher salary *right now* might be a lower ceiling *later*."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "The Seen and the Unseen",
+            "definition": "The 'seen' is the purchase or choice you made. The 'unseen' is every alternative use of that money or time that you gave up. Good financial thinking means making the unseen visible before you decide."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Trade-off",
+            "definition": "A situation where gaining one thing requires giving up another. Every financial decision involves trade-offs, and recognizing them is the first step to making better choices."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Try this: When you are about to spend ₹500 or more on something unplanned, ask 'What is the opportunity cost?' Name the thing you are giving up. Then decide. You will make better choices just by making the trade-off visible."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The goal is not to make you second-guess everything. It is to make the invisible trade-off *visible*. Once you can see the ghost, you can decide whether the thing you are buying is actually worth it. Sometimes it absolutely is. A concert with your friends might be worth ₹800 of Spotify. Only you can make that call, but make it consciously."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "scenario",
+          "scenario": "Priya has ₹5,000 saved. She can either: (A) Buy a new outfit for a cousin's wedding and wear it once, or (B) Use it as the first month's SIP into a mutual fund she's been meaning to start, and borrow an outfit from her friend for the wedding.",
+          "prompt": "What is the opportunity cost of buying the outfit?",
+          "options": [
+            { "text": "Nothing, she earned the money and can spend it how she likes", "isCorrect": false },
+            { "text": "The start of a regular investment habit and the first ₹5,000 in her portfolio", "isCorrect": true },
+            { "text": "Looking good at the wedding", "isCorrect": false },
+            { "text": "The borrowed outfit", "isCorrect": false }
+          ],
+          "explanation": "Opportunity cost is the *best alternative* you gave up. Priya's best alternative wasn't 'nothing', it was starting her investment journey. That first SIP is also psychologically important: it builds a habit. The outfit is real. The compounding investment she didn't start is the ghost.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "You spend ₹200 every day on chai and snacks from the college canteen. What is the approximate opportunity cost per year?",
+          "options": [
+            { "text": "₹6,000", "isCorrect": false },
+            { "text": "₹36,500", "isCorrect": false },
+            { "text": "₹73,000", "isCorrect": true },
+            { "text": "₹24,000", "isCorrect": false }
+          ],
+          "explanation": "₹200 × 365 days = ₹73,000 per year. That's a decent laptop, a trip to Goa with friends, or a year of solid SIP investing. The chai isn't bad, but knowing the annual total helps you decide if it's actually how you want to allocate ₹73,000 of your income.",
+          "xpValue": 10
+        },
+        {
+          "type": "sorting",
+          "prompt": "For each decision, identify what the opportunity cost is",
+          "categories": ["The Choice Made", "The Opportunity Cost (Ghost)"],
+          "items": [
+            { "text": "Buying a ₹15,000 gaming console", "correctCategory": "The Choice Made" },
+            { "text": "4 months of savings toward a laptop upgrade", "correctCategory": "The Opportunity Cost (Ghost)" },
+            { "text": "Spending Sunday watching 6 hours of web series", "correctCategory": "The Choice Made" },
+            { "text": "6 hours of learning a new skill or working on a side project", "correctCategory": "The Opportunity Cost (Ghost)" },
+            { "text": "Ordering Zomato every day this week (₹1,400 total)", "correctCategory": "The Choice Made" },
+            { "text": "A full weekend trip budget with friends next month", "correctCategory": "The Opportunity Cost (Ghost)" }
+          ],
+          "explanation": "Opportunity cost is always the *best* thing you gave up when you made your choice. The gaming console is fun, but the ghost is the laptop you needed for work. The web series is relaxing, but the ghost is the skill that could have changed your career. Neither choice is wrong. But see both sides before you choose.",
+          "xpValue": 15
+        },
+        {
+          "type": "true-false",
+          "prompt": "Opportunity cost only applies to money decisions, not time decisions.",
+          "correctAnswer": false,
+          "explanation": "Time has an opportunity cost too, sometimes a bigger one than money. Every hour you spend somewhere is an hour not spent somewhere else. You can always earn more money. You can't get back time. The opportunity cost of time is often the sneakiest one.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Rohan got two internship offers. Company A pays ₹15,000/month with no skill development. Company B pays ₹8,000/month but it's at a fast-growing startup where he'll learn product design, get a mentor, and potentially get a full-time offer at ₹60,000/month in a year.",
+          "prompt": "What is the opportunity cost if Rohan picks Company A?",
+          "options": [
+            { "text": "₹7,000 per month in salary", "isCorrect": false },
+            { "text": "Skill development, mentorship, and a potential high-paying career path", "isCorrect": true },
+            { "text": "A reliable income", "isCorrect": false },
+            { "text": "Nothing, higher pay is always better", "isCorrect": false }
+          ],
+          "explanation": "Picking Company A means gaining ₹7,000/month extra, but the opportunity cost is potentially a fast-track career at a startup, a mentor, and a role that could triple his salary within a year. The ₹7,000 today might cost him ₹52,000/month in future earning power. This is why opportunity cost is about the *best alternative*, not just any alternative.",
+          "xpValue": 15
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-3-3",
+      "title": "FOMO, Impulse Buying & Social Comparison",
+      "subtitle": "Your brain vs. the algorithm",
+      "estimatedReadingTime": "11 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Your friend just posted a story from a rooftop restaurant. The aesthetic is *perfect*. The food looks incredible. Your other friends are there. And you are sitting at home in old shorts eating yesterday's dinner. You know what is coming. That quiet anxiety that you are missing out on something. That is **FOMO**, and it has a direct line to your wallet."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "FOMO (Fear Of Missing Out)",
+            "definition": "The anxiety that others are having better experiences than you, and that you are being left out. Marketers and social media platforms are specifically designed to trigger it."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A teen scrolling Instagram seeing friends at a fancy restaurant while sitting alone at home",
+            "src": "/illustrations/ch3/l3-fomo-scrolling.png",
+            "prompt": "Split scene: left side shows an Indian teen sitting alone on a couch scrolling phone, looking envious. Right side shows the phone screen with a glamorous rooftop restaurant photo with friends laughing. A FOMO anxiety wave radiates from the phone. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here is what is actually happening when FOMO hits: Your brain detects a social threat (being left out), activates the same stress response it would for physical danger, and then finds the fastest way to make the discomfort go away. Sometimes that means joining the plan. Sometimes it means opening an app and buying something. Both are your brain trying to fix a social anxiety with spending."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "worried",
+            "text": "Okay but is it really FOMO if I genuinely want to be there? Like, my friends are having fun and I am not. That is a real feeling."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "thinking",
+            "text": "It is a real feeling. But ask yourself: did you want to go *before* you saw the story? Or did the story create the want? If you were happily reading a book until that notification popped up, the feeling was manufactured. That is the FOMO test."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Instagram does not show you the parts where people were sitting in awkward silence, or when the food took 45 minutes, or when two friends had a fight on the way home. You are comparing your real life to someone else's highlight reel. And then spending money to close that gap."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now let us talk about **impulse buying**, FOMO's first cousin. Someone drops a limited edition sneaker. Your phone sends a notification. 'Only 50 pairs left.' 'Drops in 10 minutes.' Suddenly your heart is racing, your fingers are typing your UPI PIN, and you own a ₹8,000 shoe you were not planning to buy two hours ago. What happened?"
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Impulse Buying",
+            "definition": "Buying something without planning to, triggered by emotion, urgency, or a moment of excitement, not actual need or deliberate desire."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A sneaker drop page with countdown timer, limited stock warning, and crossed out original price, all labeled as manipulation tactics",
+            "src": "/illustrations/ch3/l3-sneaker-drop-tactics.png",
+            "prompt": "A phone screen showing a sneaker product page with manipulation tactics labeled: countdown timer labeled URGENCY, only 50 left labeled SCARCITY, original price crossed out labeled ANCHORING, others are viewing this labeled SOCIAL PROOF. Arrows point to each tactic. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Those sneakers were not an accident. Every part of that experience was engineered: the countdown timer (urgency), the limited quantity (scarcity), the original price crossed out in red (anchoring), the 'others are viewing this item' notification (social proof). You were not making a decision. You were being played."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Anchoring",
+            "definition": "When your brain gets 'anchored' to a number (usually a higher original price) and judges everything relative to it. A ₹5,000 item 'discounted' to ₹3,000 feels like a deal, even if ₹3,000 is still too much for your budget."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "The average Indian Gen Z consumer spends 3+ hours daily on social media. Studies show that social media exposure directly increases 'social comparison' behaviour and spending. Instagram was found to be the biggest driver of what researchers call 'aspirational consumption', buying things to *look* like the life you want, not to actually *build* it."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "**Social comparison** is when you measure yourself against other people. You see a classmate's new phone. You notice your friend's wardrobe. You check someone's LinkedIn and feel behind. This is completely human, but it gets dangerous when it starts driving your spending. Because the standard you are comparing yourself to is infinite. There is always someone with more."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A split showing someone's real messy room versus the aesthetic Instagram version they posted, and another person feeling inadequate looking at it",
+            "src": "/illustrations/ch3/l3-social-comparison-reality.png",
+            "prompt": "Two-panel comic illustration. Panel 1: A messy room, teen taking a carefully framed photo of the one clean corner with good lighting. Their phone screen shows a beautiful aesthetic shot. Panel 2: Another teen in their own room scrolling, sees the aesthetic photo, looks around at their own room, feels the comparison. Caption: You are comparing their highlight reel to your behind-the-scenes. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "The 24-hour rule: Any unplanned purchase over ₹500, wait 24 hours before buying. Add it to your cart. Sleep on it. If you wake up and still want it, go for it. If you forgot about it, you just saved yourself some money."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The fix is not to delete Instagram or become a monk. It is to build a small gap between the impulse and the action. That gap is where your real brain lives. The 24-hour rule is a simple test: if you still want it tomorrow, it is more likely a real want. If you forget about it, it was FOMO. Simple test. Very effective."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "A website shows a jacket originally priced at ₹4,000, now 'on sale' for ₹2,200. You weren't looking for a jacket. You feel like you're 'saving ₹1,800.' What psychological trick is being used?",
+          "options": [
+            { "text": "FOMO", "isCorrect": false },
+            { "text": "Anchoring", "isCorrect": true },
+            { "text": "Loss aversion", "isCorrect": false },
+            { "text": "Social comparison", "isCorrect": false }
+          ],
+          "explanation": "Anchoring. Your brain grabbed onto ₹4,000 as the 'real' price and everything now gets measured against it. But you're not saving ₹1,800, you're spending ₹2,200 you didn't plan to spend. The anchor (₹4,000) is doing all the work here. The real saving would be spending ₹0 on something you weren't shopping for.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Sneaker drop alert. Air Jordan limited edition, only 200 pairs in India. A countdown timer on Nike's app shows 8 minutes left. The original retail price was ₹12,000. Resell value after drop is showing ₹18,000 on GOAT. You have ₹12,000 in savings. Your current sneakers are fine.",
+          "prompt": "Which of these is NOT a psychological manipulation technique being used in this scenario?",
+          "options": [
+            { "text": "Scarcity (only 200 pairs)", "isCorrect": false },
+            { "text": "Urgency (countdown timer)", "isCorrect": false },
+            { "text": "Your genuine taste in sneaker aesthetics", "isCorrect": true },
+            { "text": "Social proof / resell hype (the ₹18,000 GOAT price)", "isCorrect": false }
+          ],
+          "explanation": "Scarcity, urgency, and social proof (the hype around resell value) are all engineered into the experience. Your genuine taste, actually loving a particular shoe design, is a real preference, not a manipulation. The problem is separating your real preference from the manufactured hype. If you'd still want it just sitting in a quiet shop with no timer, no limited quantity, and no resell value... that's more likely genuine.",
+          "xpValue": 15
+        },
+        {
+          "type": "sorting",
+          "prompt": "Match each spending trigger to the psychological bias behind it",
+          "categories": ["FOMO", "Anchoring", "Impulse Buying", "Social Comparison"],
+          "items": [
+            { "text": "Buying a concert ticket because all your friends are going", "correctCategory": "FOMO" },
+            { "text": "Feeling like ₹3,000 is a steal because the original price was ₹7,000", "correctCategory": "Anchoring" },
+            { "text": "Adding things to cart while mindlessly scrolling at midnight", "correctCategory": "Impulse Buying" },
+            { "text": "Upgrading your phone because your junior in college has a newer model", "correctCategory": "Social Comparison" },
+            { "text": "Buying festival clothes because you don't want to be the only one without new outfits", "correctCategory": "FOMO" },
+            { "text": "Feeling like ₹500 is cheap for a coffee because you just read a menu with ₹900 drinks", "correctCategory": "Anchoring" }
+          ],
+          "explanation": "These are the four most common psychological triggers for unplanned spending: FOMO (anxiety about missing social experiences), anchoring (a high reference price making normal prices seem cheap), impulse buying (emotion overriding planning), and social comparison (spending to keep up with others' visible lifestyles). Knowing which is which is the first step to catching yourself mid-trigger.",
+          "xpValue": 15
+        },
+        {
+          "type": "true-false",
+          "prompt": "The 24-hour rule (waiting a day before an unplanned purchase) is effective because most impulse buying is driven by temporary emotional states.",
+          "correctAnswer": true,
+          "explanation": "Exactly right. Impulse purchases are emotionally driven, excitement, FOMO, stress. These feelings are temporary. After 24 hours, the emotion fades and your rational brain gets to vote too. Studies show the majority of 'impulse' items that people sleep on are never purchased. That gap between feeling and action is where good decisions live.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Meera scrolls Instagram for 2 hours. She sees: influencer haul posts, friends' vacation photos, aesthetic home décor reels. She's in her hostel room. She opens Myntra and spends ₹2,300 on clothes. Later she can't explain exactly why she bought them or when she decided to.",
+          "prompt": "What best describes what happened to Meera?",
+          "options": [
+            { "text": "She found things she genuinely needed", "isCorrect": false },
+            { "text": "Social comparison + impulse buying triggered by social media consumption", "isCorrect": true },
+            { "text": "She made a deliberate decision to refresh her wardrobe", "isCorrect": false },
+            { "text": "She was anchored by a sale price", "isCorrect": false }
+          ],
+          "explanation": "Meera went from scrolling → comparison → feeling inadequate → emotional discomfort → shopping to fix the feeling. This is the exact pipeline social media is designed to create. She wasn't shopping for clothes. The clothes shopping was the outlet for a social comparison spiral. The fact that she can't explain the decision is the tell, it wasn't rational.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "You see a limited-time Flipkart Big Billion Days deal. A ₹6,000 Bluetooth speaker is showing at ₹3,200. You feel you must buy it NOW or miss the deal forever. What should you do first?",
+          "options": [
+            { "text": "Buy immediately, deals like this don't come back", "isCorrect": false },
+            { "text": "Check if you actually need/wanted a speaker before today", "isCorrect": true },
+            { "text": "Share the deal with friends so they can decide for you", "isCorrect": false },
+            { "text": "Add it to cart and upgrade to express delivery", "isCorrect": false }
+          ],
+          "explanation": "The first question to ask is always: Did I want this before I saw the deal? If the answer is no, the 'deal' is just manufacturing a want from scratch. The urgency is real (it might expire). But urgency is a tool to stop you from thinking. Take 30 seconds to ask: 'Was I looking for a speaker yesterday?' If not, the sale is doing all the work.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-3-4",
+      "title": "Why Future You Always Loses",
+      "subtitle": "Present bias and the war between today-you and tomorrow-you",
+      "estimatedReadingTime": "10 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Here is a question: Would you rather have ₹1,000 right now, or ₹1,200 a month from now? Most people say ₹1,000. Now try this: Would you rather have ₹1,000 in 12 months, or ₹1,200 in 13 months? Now most people say ₹1,200. But wait. The gap is the same. One month, ₹200 extra. Why is your answer different just because both options are in the future?"
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two versions of the same person, Today You relaxing and spending freely versus Future You stressed and broke",
+            "src": "/illustrations/ch3/l4-today-vs-future-you.png",
+            "prompt": "Two-character illustration of the same Indian teen. Left: Today You, casual, chilling on a bean bag, phone in hand, food delivered, happy expression. Right: Future You (6 months later label), frazzled hair, empty wallet visible, bills on table, stressed expression. A bridge arrow connects them. Caption: Today You is robbing Future You. Purple palette (#8E44AD), friendly comic flat style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "That inconsistency is your brain being human. Psychologists call it **present bias**, the tendency to overvalue things you get *right now* versus the same things you would get later. It is not stupidity. It is ancient wiring. Your ancestors who preferred food today over a promise of food next week survived longer."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Present Bias",
+            "definition": "The tendency to give disproportionately more weight to present rewards over future rewards, even when the future reward is objectively better. 'Now' always feels more real than 'later.'"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "surprised",
+            "text": "Wait, so when I keep telling myself I will start saving 'next month' and it has been four months... that is present bias? I thought I was just bad with money."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "confident",
+            "text": "You are not bad with money. Your brain is wired to prefer now over later. Every human has this. The trick is not willpower. It is building systems that save automatically so your present-biased brain never gets a vote."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Present bias is why you tell yourself you will 'start saving next month' every month for 14 months straight. Future You seems like someone else's problem. And then Future You arrives, broke, and is not thrilled."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Present bias shows up everywhere. You will spend 4 hours binge-watching a show instead of studying for an exam in two days. You will eat the Domino's pizza today instead of the healthy meal you said you would start Monday. You will skip the SIP this month because your wallet is 'thin right now', and next month the same thing happens."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Hyperbolic Discounting",
+            "definition": "The way humans dramatically reduce the value of future rewards the closer they get to the present. A reward tomorrow feels much better than one in a week, but a reward in 51 weeks feels almost the same as one in 52 weeks."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A graph showing how the perceived value of a reward drops steeply as it gets closer to the present",
+            "src": "/illustrations/ch3/l4-hyperbolic-discounting.png",
+            "prompt": "Simple graph with time on x-axis and perceived value on y-axis. A steep curve shows how value drops dramatically as a reward moves from 'right now' to 'soon' but barely changes between 'far future' and 'slightly further future.' Labels point out the steep drop zone. Purple palette (#8E44AD), clean educational flat style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now meet **loss aversion**, present bias's scary big sibling. Nobel Prize winning research by Kahneman and Tversky found that humans feel the pain of a loss about **twice as intensely** as they feel the pleasure of an equal gain. Losing ₹500 hurts more than finding ₹500 feels good. This is why you panic-sell investments when they drop 10%, but hold calmly when they rise 10%."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Loss Aversion",
+            "definition": "The psychological tendency to feel losses more intensely than equivalent gains. Losing ₹100 feels roughly twice as bad as gaining ₹100 feels good. This makes people avoid risk even when the risk is worth taking."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Daniel Kahneman, the psychologist who identified loss aversion, won the Nobel Prize in Economics in 2002, despite being a psychologist, not an economist. His insight was simple: humans are not rational money machines. We are emotional beings making financial decisions, and that changes everything."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "An uneven scale showing losses weighing twice as much as equivalent gains",
+            "src": "/illustrations/ch3/l4-loss-aversion-scale.png",
+            "prompt": "A balance scale tilted heavily to one side. Left pan: a small weight labeled 'Lost ₹500' pulling the scale down hard, with a sad face. Right pan: an identical weight labeled 'Found ₹500' barely lifting, with a small smile. The tilt shows losses feel 2x heavier. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here is the good news: once you can *see* present bias, you can hack it. The classic hack is **automation**. Instead of relying on Future You's willpower, set up a system so money moves before Today You gets to spend it. Auto-debit SIPs on payday. A separate savings account you do not check. Tomorrow becomes the default, not the sacrifice."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "The single most powerful personal finance move: Automate savings on payday. Set up an auto-transfer on the 1st of every month, moving money to a savings or investment account before you see it. Today You never had the money. Future You is taken care of."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The other hack is **pre-commitment**: making a deal with yourself before the temptation hits. Decide on your food delivery budget on Sunday evening when you are full, not at 10pm on Thursday when you are hungry and tired. Pre-commit to the number. Then when the urge hits, your earlier, calmer self already made the decision."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Pre-commitment",
+            "definition": "Making a decision in advance when you are calm and rational, so your future self is bound by it when emotions kick in. Odysseus tying himself to the mast is the original pre-commitment device."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "You plan to start a ₹2,000/month SIP 'next month' for the third month in a row. Which behavioral bias best explains this pattern?",
+          "options": [
+            { "text": "Loss aversion", "isCorrect": false },
+            { "text": "Anchoring", "isCorrect": false },
+            { "text": "Present bias", "isCorrect": true },
+            { "text": "Social comparison", "isCorrect": false }
+          ],
+          "explanation": "This is classic present bias, the future cost (giving up ₹2,000) is always easier to accept when it's 'next month' rather than 'right now.' But 'next month' never arrives because when that month comes, it's now the present, and the same bias kicks in again. The fix is pre-commitment: set up the SIP today, auto-debit on the 1st. Make Future You's discipline automatic.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Siddharth has ₹10,000 in a mutual fund. The market drops and his fund is now worth ₹8,500. He panics and withdraws everything to 'stop the bleeding.' Three months later, the market recovers and his fund would have been worth ₹11,200. His friend Ananya kept her identical investment and earned ₹1,200 in profit. Siddharth locked in a ₹1,500 loss.",
+          "prompt": "Which bias caused Siddharth to make the wrong decision?",
+          "options": [
+            { "text": "Present bias, he wanted money now", "isCorrect": false },
+            { "text": "Loss aversion, the pain of watching it fall felt unbearable", "isCorrect": true },
+            { "text": "FOMO, he saw others profiting", "isCorrect": false },
+            { "text": "Anchoring, he was fixated on ₹10,000 as the 'real' value", "isCorrect": false }
+          ],
+          "explanation": "Loss aversion. The temporary ₹1,500 loss on paper felt psychologically unbearable, because losses feel twice as painful as gains feel good. So Siddharth acted to stop the pain, turning a temporary paper loss into a real, permanent loss. Ananya didn't feel any better watching it fall, but she understood that paper losses aren't real until you sell. Long-term investing requires overriding loss aversion.",
+          "xpValue": 15
+        },
+        {
+          "type": "true-false",
+          "prompt": "Loss aversion means people always avoid risks, which is the smart financial move.",
+          "correctAnswer": false,
+          "explanation": "Loss aversion makes people *irrationally* risk-averse, not smartly cautious. Avoiding a 10% risk of losing ₹100 even when there's a 90% chance of gaining ₹200 is irrational, but loss aversion pushes you there anyway. Smart investing often requires taking calculated risks that feel uncomfortable. Loss aversion makes people avoid good risks because the potential loss feels disproportionately terrible.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "It's Wednesday at 9pm. You have an exam Friday. You're tired and decide to 'study from tomorrow morning.' Thursday morning arrives. You sleep in, tell yourself you'll study after lunch. After lunch you watch 3 hours of YouTube, and study for 45 minutes before sleeping, feeling stressed. This pattern has repeated 4 times this semester.",
+          "prompt": "What is the smartest way to break this cycle?",
+          "options": [
+            { "text": "Rely on willpower, next time you'll be more disciplined", "isCorrect": false },
+            { "text": "Pre-commit: book a library slot on Thursday morning before you sleep on Wednesday night", "isCorrect": true },
+            { "text": "Start studying only when you feel motivated", "isCorrect": false },
+            { "text": "Tell a friend to push you to study, accountability is the answer", "isCorrect": false }
+          ],
+          "explanation": "Pre-commitment is the fix for present bias, not willpower. By booking the library slot on Wednesday night (when you're rational and the exam feels important), you've committed your future self before the Thursday-morning laziness kicks in. Willpower depends on the same brain that's already given up 4 times. Systems beat willpower every time.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-multi",
+          "prompt": "Which of these are examples of pre-commitment to manage present bias? (Select all that apply)",
+          "options": [
+            { "text": "Setting up a SIP auto-debit on payday", "isCorrect": true },
+            { "text": "Deciding on your monthly restaurant budget when you're full, not hungry", "isCorrect": true },
+            { "text": "Telling yourself you'll 'try harder' next month", "isCorrect": false },
+            { "text": "Putting your gym shoes out the night before so you see them when you wake up", "isCorrect": true },
+            { "text": "Waiting until you feel motivated to start saving", "isCorrect": false }
+          ],
+          "explanation": "Pre-commitment means building a system that acts on your behalf before temptation arrives. Auto-SIP, budgeting when calm, laying out gym shoes, all of these are decisions made by your rational self that your future, lazier, hungrier self is bound by. 'Try harder' and 'wait for motivation' are the opposite, they rely on willpower in the moment, which present bias reliably defeats.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Kahneman and Tversky's research showed that the pain of losing ₹1,000 feels roughly how much worse than the pleasure of gaining ₹1,000?",
+          "options": [
+            { "text": "Exactly the same", "isCorrect": false },
+            { "text": "About twice as painful", "isCorrect": true },
+            { "text": "10x more painful", "isCorrect": false },
+            { "text": "Slightly more painful", "isCorrect": false }
+          ],
+          "explanation": "Kahneman and Tversky found losses feel approximately 2x more intense than equivalent gains. This is why financial anxiety is so powerful, the fear of losing your savings hurts twice as much as the hope of growing them feels good. Understanding this helps you not make panicky decisions when markets dip or when you see your balance drop temporarily.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-3-5",
+      "title": "Your Money Personality Quiz",
+      "subtitle": "Which type are you, and what does it mean?",
+      "estimatedReadingTime": "12 minutes (including quiz)",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "You have learned about wants vs. needs, opportunity cost, FOMO, impulse buying, and present bias. Here is the thing though: everyone *knows* about these biases. But not everyone responds to them the same way. That is because your relationship with money is not just logic. It is shaped by your personality, how you grew up, what money meant in your house, and what you are afraid of."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Five different money personality types represented as distinct characters with unique visual traits",
+            "src": "/illustrations/ch3/l5-money-personalities.png",
+            "prompt": "Five distinct Indian teen characters standing in a row, each representing a money personality. The Saver holds a piggy bank, the Spender holds shopping bags, the Investor holds a growth chart, the Avoider covers their eyes, the Risk-Taker holds dice and a crypto symbol. Purple palette (#8E44AD), bold flat educational illustration style"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Researchers who study **money psychology** have found that most people develop a dominant money personality, a default mode for how they think about, earn, save, and spend money. It is not fixed forever. But knowing yours is like turning on the lights in a room you have been bumping around in."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Money Personality",
+            "definition": "Your default emotional and behavioral patterns around money: how you feel about it, what you do with it under stress, and what motivates your financial decisions. Shaped by psychology, upbringing, and experience."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "thinking",
+            "text": "I feel like I am a mix. Like sometimes I save obsessively, and then I go on a random shopping spree and blow it all. Does that make me broken?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "happy",
+            "text": "Not even a little! Most people are a mix. The quiz helps you find your *dominant* type, the one that shows up most under pressure. Once you know it, you can play to your strengths and watch your blind spots."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "There is no 'good' or 'bad' money personality. The Spender is not bad; they are great at enjoying life and being generous. The Saver is not better; they might be too afraid to invest or enjoy what they earn. The goal is knowing your type so you can play to your strengths and watch your blind spots."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The five types you will meet in this quiz: **The Saver**, **The Spender**, **The Investor**, **The Avoider**, and **The Risk-Taker**. Most people are a mix, but one usually dominates. Answer honestly. There is no wrong answer and nobody is judging you."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A mirror with a question mark reflecting back, representing self-discovery through the money personality quiz",
+            "src": "/illustrations/ch3/l5-money-mirror.png",
+            "prompt": "A stylized mirror on a stand with a large question mark reflected in it. Around the mirror, small icons represent the five personality types: piggy bank, shopping bag, growth chart, covered eyes, dice. A teen stands in front looking curious. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Financial Self-Awareness",
+            "definition": "The ability to recognize your own patterns, triggers, and default behaviors around money. It is the foundation of every good financial decision because you cannot fix what you cannot see."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Answer based on what you *actually do*, not what you think you *should* do. The quiz is only useful if it is honest. Nobody is grading you."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "After the quiz, you will get your type, your superpowers, your blind spots, and one specific thing to watch out for. Then, and this is the real point, you will know how your money psychology shows up in real life. So the next time you are standing in front of a sneaker drop or a Zomato notification, you know exactly which version of yourself is making the decision."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A teen looking at their quiz result on a phone with a lightbulb moment, seeing their money personality type",
+            "src": "/illustrations/ch3/l5-quiz-result-lightbulb.png",
+            "prompt": "Indian teen looking at phone screen showing a quiz result card with a personality type badge. A lightbulb glows above their head in an aha moment. Around them, faded icons of past spending decisions (sneakers, food delivery, savings jar) connect back to the personality type. Purple palette (#8E44AD), flat educational illustration style"
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Behavioral Patterns",
+            "definition": "Repeated actions or reactions that happen almost automatically, especially under stress or excitement. Your spending patterns reveal your money personality in ways that your conscious mind often misses."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Research shows that your money personality is heavily shaped by what you saw growing up. If your parents argued about money, you might become an Avoider. If your family celebrated purchases, you might be a natural Spender. Understanding where your patterns come from makes them easier to work with."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Understanding money is not just about interest rates and budgets. It is about understanding *yourself*. The smartest financial move you will ever make is getting to know the version of you that makes money decisions, and deciding if you like what you see. Ready for the quiz? Let us find out who you are with money."
+          }
+        }
+      ],
+      "exercises": []
+    }
+  ],
+  "moneyPersonalityQuiz": {
+    "quizId": "money-personality-quiz-3-5",
+    "title": "What's Your Money Personality?",
+    "subtitle": "8 questions. No right answers. Hold up a mirror.",
+    "description": "Answer honestly based on what you actually do, not what you think you should do. Each question maps to personality dimensions. At the end, you'll see your dominant money type.",
+    "scoringMethod": "weighted-tally",
+    "personalityTypes": [
+      {
+        "typeId": "saver",
+        "name": "The Saver",
+        "emoji": "🐿️",
+        "tagline": "You've always got something set aside",
+        "description": "You genuinely enjoy watching your balance grow and you feel deeply uncomfortable spending money on things that feel 'wasteful.' You're reliable, prepared, and never scrambling for cash at the end of the month. Your emergency fund is probably already a thing.",
+        "superpower": "You're financially safe and rarely stressed about money. You can handle unexpected expenses, you don't live paycheck to paycheck, and you're building a foundation everyone else envies.",
+        "blindSpot": "You might be so focused on saving that you forget to *use* your money, or invest it. Cash sitting in a savings account loses value to inflation every year. Also, it's okay to enjoy money sometimes.",
+        "watchOut": "Under-investing and over-saving, when your money earns less than inflation, you're technically losing wealth even as your balance grows.",
+        "celerity": "The most prepared person in the room."
+      },
+      {
+        "typeId": "spender",
+        "name": "The Spender",
+        "emoji": "🎉",
+        "tagline": "Life is short, money is made to move",
+        "description": "You love treating yourself and people around you. Money feels like a tool for experiences, not something to be hoarded. You're fun, generous, and you know how to enjoy your earnings. The problem is that 'Future You' sometimes wonders where it all went.",
+        "superpower": "You're great at enjoying life, being generous, and creating experiences. You're not stressed about spending, you see money as a flow, not a pile. People love being around you for this energy.",
+        "blindSpot": "Short-term thinking can leave you vulnerable. No emergency fund, no savings habit, relying on income that might not always come. One bad month can become a crisis.",
+        "watchOut": "Lifestyle inflation, every time your income goes up, your expenses go up with it, and savings never quite happen.",
+        "celerity": "The most fun person to travel with, but maybe don't look at their bank account before a trip."
+      },
+      {
+        "typeId": "investor",
+        "name": "The Investor",
+        "emoji": "📈",
+        "tagline": "Every rupee should be doing a job",
+        "description": "You think about where your money is going and expect it to work for you. You've probably already looked into SIPs, mutual funds, or at least thought about it. You see money as a tool to build the future, not just get through the month.",
+        "superpower": "You're wired for long-term thinking. You can delay gratification, you understand that today's small sacrifice becomes tomorrow's financial freedom, and you don't panic when markets dip.",
+        "blindSpot": "You can get so focused on optimization that you over-think, over-research, and under-act. Paralysis by analysis is real. Also, you might under-spend on present experiences that genuinely matter.",
+        "watchOut": "Over-researching without executing, spending six months comparing mutual funds instead of just starting a ₹500/month SIP.",
+        "celerity": "The person who will have the most interesting financial life at 35."
+      },
+      {
+        "typeId": "avoider",
+        "name": "The Avoider",
+        "emoji": "🙈",
+        "tagline": "Money stuff is stressful, I'll deal with it later",
+        "description": "You find money conversations overwhelming and tend to avoid looking at your bank balance, your bills, or your spending patterns. It's not that you don't care, it's that the whole topic feels like a lot. So you just... don't look.",
+        "superpower": "Often deeply empathetic, value-driven, and not materialistic. You care about things beyond money, relationships, experiences, creativity. Money just isn't your main focus.",
+        "blindSpot": "Avoidance doesn't make financial problems smaller. It makes them bigger. Unread credit card bills, unchecked subscriptions, ignored tax filing, silence makes things worse.",
+        "watchOut": "Debt accumulation and financial surprises, by the time you look, there might be a lot to deal with. Small problems compound quietly.",
+        "celerity": "The most likely to be surprised by their own bank balance, in both directions."
+      },
+      {
+        "typeId": "risk-taker",
+        "name": "The Risk-Taker",
+        "emoji": "🎲",
+        "tagline": "High risk, high reward, let's go",
+        "description": "You're drawn to the exciting end of money decisions, crypto, stocks, side hustles, new opportunities. You're not afraid of losing, in fact, the thrill of a big win motivates you. You move fast and you're not waiting for 'perfect.'",
+        "superpower": "You spot opportunities others miss. You're willing to try things that others hesitate at, and occasionally you'll hit something huge. Your appetite for action means you actually do things.",
+        "blindSpot": "Risk without knowledge is just gambling. The confidence that comes with your personality type can lead to large losses on things you didn't fully understand. 'High risk' has 'risk' in the name.",
+        "watchOut": "Overconfidence in new or complex financial products, crypto, F&O trading, MLM schemes. High conviction ≠ good research.",
+        "celerity": "The person in the group chat sharing the next big thing, sometimes it's a gem, sometimes it's a cautionary tale."
+      }
+    ],
+    "questions": [
+      {
+        "questionId": "mpq-1",
+        "question": "It's the 5th of the month. You just got paid. What do you actually do first?",
+        "options": [
+          {
+            "text": "Move a fixed amount to savings immediately, before I spend anything",
+            "scores": { "saver": 3, "investor": 1 }
+          },
+          {
+            "text": "Check what bills are due, then figure out what I have to spend freely",
+            "scores": { "spender": 2, "avoider": 1 }
+          },
+          {
+            "text": "Invest a chunk into SIPs or stocks, then budget the rest",
+            "scores": { "investor": 3, "risk-taker": 1 }
+          },
+          {
+            "text": "Transfer some to investments immediately and look for any new opportunities",
+            "scores": { "risk-taker": 3, "investor": 1 }
+          },
+          {
+            "text": "Honestly? It kind of just... gets spent. I don't really have a system.",
+            "scores": { "avoider": 3, "spender": 1 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-2",
+        "question": "Your favorite sneakers just dropped in a limited edition colorway. They're ₹7,500, a bit of a stretch. What happens?",
+        "options": [
+          {
+            "text": "I buy them. YOLO. I work hard and I deserve things I love.",
+            "scores": { "spender": 3, "risk-taker": 1 }
+          },
+          {
+            "text": "I track the resell value and buy as an investment if margins look good.",
+            "scores": { "risk-taker": 3, "investor": 1 }
+          },
+          {
+            "text": "I really want them but I'll wait a week and see if I still want them. If yes, maybe.",
+            "scores": { "saver": 2, "investor": 1 }
+          },
+          {
+            "text": "I put them in my wishlist and check my budget. Can I fit it in this month without cutting elsewhere?",
+            "scores": { "saver": 3, "investor": 1 }
+          },
+          {
+            "text": "I close the app. I feel vaguely stressed. I'll think about it later.",
+            "scores": { "avoider": 3 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-3",
+        "question": "How often do you actually check your bank balance?",
+        "options": [
+          {
+            "text": "Every day or every few days, I like knowing exactly where I stand.",
+            "scores": { "saver": 3, "investor": 1 }
+          },
+          {
+            "text": "When I need to make a bigger purchase or transfer money.",
+            "scores": { "spender": 2, "risk-taker": 1 }
+          },
+          {
+            "text": "A few times a month. I track my portfolio more than my bank balance.",
+            "scores": { "investor": 3 }
+          },
+          {
+            "text": "Honestly, not often. I kinda know roughly, but I don't check until I have to.",
+            "scores": { "avoider": 3, "spender": 1 }
+          },
+          {
+            "text": "Only when I'm deciding whether to make a move on something exciting.",
+            "scores": { "risk-taker": 3 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-4",
+        "question": "A friend pitches you a new crypto coin they've been researching. 'Bro, this is the next big thing. Get in now.' You have ₹5,000 to spare. What do you do?",
+        "options": [
+          {
+            "text": "Hard pass. I don't invest in things I don't understand, and this sounds sus.",
+            "scores": { "saver": 3 }
+          },
+          {
+            "text": "I spend 2-3 days researching it myself. If I get convinced, I'll put in a small amount.",
+            "scores": { "investor": 3, "risk-taker": 1 }
+          },
+          {
+            "text": "I put in ₹2,000, worst case I lose it. Best case I'm early on something big.",
+            "scores": { "risk-taker": 3 }
+          },
+          {
+            "text": "I'd feel pressured, feel bad saying no to my friend, then probably not do it but feel guilty.",
+            "scores": { "avoider": 3, "spender": 1 }
+          },
+          {
+            "text": "What's crypto? I'll just listen and nod and hope they don't ask if I'm in.",
+            "scores": { "avoider": 3 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-5",
+        "question": "End of the month. You have ₹3,000 left over. What do you actually do with it?",
+        "options": [
+          {
+            "text": "Add it to savings, that's what leftover money is for.",
+            "scores": { "saver": 3 }
+          },
+          {
+            "text": "Honestly? Something fun. I worked all month. This is the bonus round.",
+            "scores": { "spender": 3 }
+          },
+          {
+            "text": "Move it to my investment account. It's too small to matter much, but the habit matters.",
+            "scores": { "investor": 3, "saver": 1 }
+          },
+          {
+            "text": "Put it toward something high-potential, maybe top up my trading account.",
+            "scores": { "risk-taker": 3 }
+          },
+          {
+            "text": "It'll probably just kind of... get spent on small stuff. I won't really decide anything.",
+            "scores": { "avoider": 3, "spender": 1 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-6",
+        "question": "Your friends are planning a group trip to Manali. Estimated cost: ₹12,000. You can technically afford it, but it would wipe your savings for the month. What do you feel?",
+        "options": [
+          {
+            "text": "Genuinely torn. The trip sounds amazing but losing my savings buffer makes me anxious.",
+            "scores": { "saver": 3 }
+          },
+          {
+            "text": "I'm in. Experiences > savings. I'll make the money back. Let's go.",
+            "scores": { "spender": 3, "risk-taker": 1 }
+          },
+          {
+            "text": "I'd go if I can figure out how to either cut costs or rebuild savings next month.",
+            "scores": { "investor": 2, "saver": 1 }
+          },
+          {
+            "text": "I'd want to go but feel stressed about the logistics. I might say yes and then panic later.",
+            "scores": { "avoider": 3, "spender": 1 }
+          },
+          {
+            "text": "I'd skip unless the trip had some angle, like meeting people who could open career doors.",
+            "scores": { "investor": 3 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-7",
+        "question": "How do you feel when you think about your financial future (retirement, long-term savings, etc.)?",
+        "options": [
+          {
+            "text": "I've already thought about this. I have a rough plan and I'm executing it.",
+            "scores": { "investor": 3, "saver": 1 }
+          },
+          {
+            "text": "It's too far away to stress about. I'll figure it out when I'm older.",
+            "scores": { "spender": 3, "avoider": 1 }
+          },
+          {
+            "text": "I think about it a lot. I want to be financially free early, not just comfortable.",
+            "scores": { "investor": 2, "risk-taker": 2 }
+          },
+          {
+            "text": "I know I should care but every time I try to think about it I get overwhelmed and close the tab.",
+            "scores": { "avoider": 3 }
+          },
+          {
+            "text": "I'm banking on making big money moves in the next few years that will sort it out.",
+            "scores": { "risk-taker": 3 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-8",
+        "question": "You see an Instagram reel of your college batchmate living it up in London, fancy flat, nice clothes, great social life. You're in your hometown saving for a goal. What do you feel?",
+        "options": [
+          {
+            "text": "Genuinely happy for them, but also reconfirmed in my own plan. I know where I'm going.",
+            "scores": { "investor": 3, "saver": 1 }
+          },
+          {
+            "text": "Immediate FOMO. Within 20 minutes I've Googled flights and looked at what 'London life' costs.",
+            "scores": { "spender": 3, "risk-taker": 1 }
+          },
+          {
+            "text": "I screenshot it for inspiration and think about what moves I need to make to get there faster.",
+            "scores": { "risk-taker": 3, "investor": 1 }
+          },
+          {
+            "text": "A bit of comparison anxiety. I close the app and feel weird for a bit.",
+            "scores": { "avoider": 2, "spender": 1, "saver": 1 }
+          },
+          {
+            "text": "Slight pang of FOMO but also genuine curiosity about their financial situation. Sustainable?",
+            "scores": { "saver": 2, "investor": 1 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-9",
+        "question": "What does 'financial success' mean to you, right now?",
+        "options": [
+          {
+            "text": "Having a solid emergency fund and no financial anxiety.",
+            "scores": { "saver": 3 }
+          },
+          {
+            "text": "Being able to afford the experiences and things I love without guilt.",
+            "scores": { "spender": 3 }
+          },
+          {
+            "text": "Having my money grow faster than inflation while I sleep.",
+            "scores": { "investor": 3 }
+          },
+          {
+            "text": "Not having to think about money constantly, some peace around it.",
+            "scores": { "avoider": 3 }
+          },
+          {
+            "text": "Building something big enough to retire early or take big swings.",
+            "scores": { "risk-taker": 3 }
+          }
+        ]
+      },
+      {
+        "questionId": "mpq-10",
+        "question": "You've been putting off filing your taxes or checking a financial account you've been avoiding. Why?",
+        "options": [
+          {
+            "text": "Honestly, I filed last week. Why would I procrastinate on this?",
+            "scores": { "saver": 3, "investor": 1 }
+          },
+          {
+            "text": "It's just so boring. I'll get to it eventually.",
+            "scores": { "spender": 2, "avoider": 1 }
+          },
+          {
+            "text": "I don't love admin stuff, but I schedule it so it gets done even if it's not fun.",
+            "scores": { "investor": 2, "saver": 1 }
+          },
+          {
+            "text": "Every time I look at it, something new stresses me out and I just close it.",
+            "scores": { "avoider": 3 }
+          },
+          {
+            "text": "I'm waiting for the right moment, when I have a bigger move to make alongside it.",
+            "scores": { "risk-taker": 2, "avoider": 1 }
+          }
+        ]
+      }
+    ]
+  },
+  "simulation": {
+    "simulationId": "sim-chapter-3",
+    "title": "The Weekend",
+    "description": "It's Friday evening. You have ₹3,000. Your friends are texting. The algorithm is watching. Your biases are ready. Can you make it to Sunday with your money, and your sanity, intact?",
+    "startingWallet": 3000,
+    "optimalWalletOutcome": 1500,
+    "badgeId": "money-mind",
+    "badgeThreshold": {
+      "type": "combined",
+      "conditions": [
+        { "type": "wallet_minimum", "value": 1500, "description": "End with ₹1,500 or more" },
+        { "type": "bias_identifications", "value": 4, "description": "Correctly identify 4 out of 5 psychological biases highlighted" }
+      ]
+    },
+    "biasTracker": {
+      "totalBiases": 5,
+      "biases": [
+        { "biasId": "fomo-1", "name": "FOMO", "nodeId": "node-2a" },
+        { "biasId": "anchor-1", "name": "Anchoring", "nodeId": "node-4b" },
+        { "biasId": "impulse-1", "name": "Impulse Buying", "nodeId": "node-6a" },
+        { "biasId": "social-1", "name": "Social Comparison", "nodeId": "node-8" },
+        { "biasId": "present-1", "name": "Present Bias", "nodeId": "node-10a" }
+      ]
+    },
+    "startNodeId": "node-1",
+    "nodes": [
+      {
+        "nodeId": "node-1",
+        "narrative": "Friday, 6:30pm. You've got ₹3,000 in your wallet, a mix of pocket money and some tutoring fees you collected this week. Your phone buzzes. It's your friend group: 'Tonight yaar? New rooftop bar just opened in Bandra. Insta says it's insane. Aryan already confirmed, Priya too. You in? 💃'",
+        "timeSkip": null,
+        "choices": [
+          {
+            "text": "Yes! Go to the rooftop bar (estimated ₹600-800 including Uber)",
+            "nextNodeId": "node-2a",
+            "walletImpact": -700,
+            "feedback": "Chip raises an eyebrow. 'The rooftop bar looks sick on Instagram. Just saying, you didn't want to go anywhere before you saw that notification.'"
+          },
+          {
+            "text": "Suggest a house party at someone's place instead, same friends, fraction of the cost",
+            "nextNodeId": "node-2b",
+            "walletImpact": -150,
+            "feedback": "Chip approves. 'The friendship is the thing. The rooftop is the set dressing. Nice move.'"
+          },
+          {
+            "text": "Skip tonight, you genuinely want a rest night, and you'll see them tomorrow",
+            "nextNodeId": "node-2c",
+            "walletImpact": 0,
+            "feedback": "Chip nods. 'JOMO (Joy of Missing Out) is underrated. Your bed is free. Your wallet is intact.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-2a",
+        "narrative": "The rooftop is stunning. You're already glad you came. The menu arrives. Regular drinks start at ₹350. Cocktails at ₹650. Your friend orders a round for the table. 'I'll get the first one, you guys cover the next round?' There are 5 of you.\n\n🧠 BIAS ALERT: What's happening here psychologically?",
+        "timeSkip": null,
+        "biasQuestion": {
+          "prompt": "Your friend just anchored you to a ₹650 drink as the baseline. What bias is at work?",
+          "options": [
+            { "text": "FOMO, you're afraid of missing the social experience", "isCorrect": false, "biasId": null },
+            { "text": "Anchoring, the expensive first round makes ₹350 drinks feel 'cheap' by comparison", "isCorrect": true, "biasId": "anchor-1" },
+            { "text": "Loss aversion, you don't want to lose your friend's goodwill", "isCorrect": false, "biasId": null },
+            { "text": "Present bias, you want to enjoy now and worry later", "isCorrect": false, "biasId": null }
+          ]
+        },
+        "choices": [
+          {
+            "text": "Order a cocktail when your round comes (₹650 × 5 = ₹3,250, split: ₹650 your share of the round)",
+            "nextNodeId": "node-3a",
+            "walletImpact": -650,
+            "feedback": "Chip's wincing. 'You just spent ₹650 because someone else spent ₹650 first. That's anchoring doing its thing.'"
+          },
+          {
+            "text": "Order a regular drink (₹350) when your round comes, explain you're keeping it light",
+            "nextNodeId": "node-3b",
+            "walletImpact": -350,
+            "feedback": "Chip nods. 'Broke the anchor. Your friends are fine with it. Good.'"
+          },
+          {
+            "text": "Opt out of rounds, buy your own drinks at your own pace",
+            "nextNodeId": "node-3b",
+            "walletImpact": -350,
+            "feedback": "Chip approves. 'Round systems are social spending traps. You saw it and stepped out. Respect.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-2b",
+        "narrative": "The house party plan works. You're at Aryan's place, splitting a Swiggy order for the group (₹150 your share), your own drinks from the store. The night is great, better than expected. Your friends share the rooftop bar photos and it looks amazing. For a moment you feel a pang.",
+        "timeSkip": null,
+        "biasQuestion": {
+          "prompt": "That pang you felt looking at the rooftop photos, what bias is it?",
+          "options": [
+            { "text": "Anchoring, the rooftop price is stuck in your head", "isCorrect": false, "biasId": null },
+            { "text": "FOMO, the fear that you missed out on something better", "isCorrect": true, "biasId": "fomo-1" },
+            { "text": "Present bias, you're worried about the future", "isCorrect": false, "biasId": null },
+            { "text": "Loss aversion, you lost a fun evening", "isCorrect": false, "biasId": null }
+          ]
+        },
+        "choices": [
+          {
+            "text": "Brush it off, you're having fun here and your wallet is healthier",
+            "nextNodeId": "node-3b",
+            "walletImpact": 0,
+            "feedback": "Chip: 'That FOMO lasted about 30 seconds. The fun here is lasting all night. Good call.'"
+          },
+          {
+            "text": "Text the group 'we should head there for a bit?', the FOMO is strong",
+            "nextNodeId": "node-3a",
+            "walletImpact": -500,
+            "feedback": "Chip sighs. 'You were having a good time for free. Then FOMO arrived and cost you ₹500. Classic.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-2c",
+        "narrative": "Quiet Friday night at home. You read, watch something, sleep early. Perfect. The next morning, Saturday, you wake up to a group notification: 'Brunch?? That new café in Andheri, seen it on Instagram, looks incredible. Everyone confirmed 12pm.'",
+        "timeSkip": "Saturday morning...",
+        "choices": [
+          {
+            "text": "Go! You skipped last night, you're in for this one",
+            "nextNodeId": "node-4a",
+            "walletImpact": 0,
+            "feedback": "Chip: 'Fair trade. You saved last night, investing in real connection today. Just watch the menu.'"
+          },
+          {
+            "text": "Suggest a cheaper place, 'I know a great South Indian place near there, quarter the price?'",
+            "nextNodeId": "node-4b",
+            "walletImpact": 0,
+            "feedback": "Chip: 'The value was always the people. The aesthetic café is the packaging.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3a",
+        "narrative": "Late Friday night. You've spent more than you planned. You Uber home (₹180). Saturday morning arrives with a headache and a slightly sad wallet check. You've got ₹1,170 left (if you started with ₹3,000 and spent ₹700 + ₹650 + ₹300 food + ₹180 Uber). Your friend texts: 'Bhai, that gaming bundle is on sale on Steam today only, 70% off! ₹800 for ₹2,800 worth of games. You NEED this.'",
+        "timeSkip": "Saturday morning...",
+        "choices": [
+          {
+            "text": "Buy the bundle, it IS a great deal and games last forever",
+            "nextNodeId": "node-5a",
+            "walletImpact": -800,
+            "feedback": "Chip's doing math. 'You have ₹1,170 left for the weekend. You just spent ₹800 on games you'll play later. The 'deal' didn't save you money. It spent money you already didn't have.'"
+          },
+          {
+            "text": "Check your actual budget before deciding, how much do you have left for the whole weekend?",
+            "nextNodeId": "node-5b",
+            "walletImpact": 0,
+            "feedback": "Chip: 'Pause before purchase. This is what it looks like. Good.'"
+          },
+          {
+            "text": "Skip it, gaming bundles come around every sale season",
+            "nextNodeId": "node-5b",
+            "walletImpact": 0,
+            "feedback": "Chip: 'True. The Steam sale happens approximately every 3 months. 'Today only' is rarely only today.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3b",
+        "narrative": "Saturday morning. Good night, wallet relatively intact. You've got a healthy cushion left. Your Instagram algorithm has been watching your recent searches (sneakers, food places, tech deals) and your Explore page is a warzone of ads. You see a pair of sneakers: 'WAS ₹6,999, NOW ₹3,499. Only 3 left in your size.'\n\n🧠 BIAS ALERT: Three manipulation techniques are firing simultaneously here.",
+        "timeSkip": "Saturday morning...",
+        "biasQuestion": {
+          "prompt": "Name the bias that makes ₹3,499 feel cheap because ₹6,999 was shown first",
+          "options": [
+            { "text": "FOMO", "isCorrect": false, "biasId": null },
+            { "text": "Impulse buying", "isCorrect": false, "biasId": null },
+            { "text": "Anchoring", "isCorrect": true, "biasId": "anchor-1" },
+            { "text": "Social comparison", "isCorrect": false, "biasId": null }
+          ]
+        },
+        "choices": [
+          {
+            "text": "Buy the sneakers, you've been eyeing a pair like this for a while, and this is genuinely a good price",
+            "nextNodeId": "node-4b",
+            "walletImpact": -3499,
+            "feedback": "Chip: 'Were you looking for sneakers before this ad? Just asking.'"
+          },
+          {
+            "text": "Add to wishlist and apply the 24-hour rule, if you still want them tomorrow, maybe",
+            "nextNodeId": "node-4a",
+            "walletImpact": 0,
+            "feedback": "Chip does a little celebration. '24-hour rule. Impulse kryptonite. Beautiful.'"
+          },
+          {
+            "text": "Close Instagram entirely, the Explore page is a spending trap and you know it",
+            "nextNodeId": "node-4a",
+            "walletImpact": 0,
+            "feedback": "Chip: 'The algorithm cannot sell you anything if you aren't watching. This is power.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4a",
+        "narrative": "Saturday afternoon. You're meeting Priya and Rohan for a walk, no plans, no budget pressure. You pass a food court and everyone's hungry. A new bubble tea place has a massive banner: 'INTRODUCTORY OFFER: Buy 2 get 1 FREE. Today only. ₹350/drink.' Your group naturally gravitates toward it.",
+        "timeSkip": null,
+        "choices": [
+          {
+            "text": "Get bubble tea, it's a treat and the deal is good. ₹350.",
+            "nextNodeId": "node-6a",
+            "walletImpact": -350,
+            "feedback": "Chip: 'Totally valid. You made a deliberate choice for a small treat. This is fine.'"
+          },
+          {
+            "text": "You're not really into bubble tea, skip it and get a ₹50 chai from the stall next door",
+            "nextNodeId": "node-6a",
+            "walletImpact": -50,
+            "feedback": "Chip: 'Didn't spend money just because the group was spending. Nice self-awareness.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4b",
+        "narrative": "Saturday afternoon. You're at the Instagram-famous café. The menu arrives. The cheapest thing is ₹180. The 'aesthetic' plates everyone's been photographing are ₹450-600. Your friends start ordering the photogenic stuff.\n\n🧠 BIAS ALERT: What's happening here?",
+        "timeSkip": null,
+        "biasQuestion": {
+          "prompt": "You feel pressure to order the expensive 'aesthetic' food because everyone else is. What bias is this?",
+          "options": [
+            { "text": "Anchoring, the menu prices are anchoring you high", "isCorrect": false, "biasId": null },
+            { "text": "Social comparison, spending to match others' choices", "isCorrect": true, "biasId": "social-1" },
+            { "text": "Present bias, you just want to enjoy right now", "isCorrect": false, "biasId": null },
+            { "text": "Loss aversion, you fear losing social status", "isCorrect": false, "biasId": null }
+          ]
+        },
+        "choices": [
+          {
+            "text": "Order the aesthetic plate (₹500), you're here, might as well do it properly",
+            "nextNodeId": "node-6a",
+            "walletImpact": -500,
+            "feedback": "Chip: 'The photo looks great. Social comparison won this round. At least you're aware of it now.'"
+          },
+          {
+            "text": "Order what you actually want from the menu, regardless of what others are getting (₹250)",
+            "nextNodeId": "node-6a",
+            "walletImpact": -250,
+            "feedback": "Chip: 'You ordered for your taste, not for the table's expectations. That's the move.'"
+          },
+          {
+            "text": "Be honest with friends, 'I'm keeping it light today, not judging you guys' (₹180)",
+            "nextNodeId": "node-6a",
+            "walletImpact": -180,
+            "feedback": "Chip respects it. 'Normalized being honest about budget. Good friends won't care. And they didn't.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5a",
+        "narrative": "You bought the gaming bundle. You have ₹370 left for the rest of the weekend. That evening, you get a message from home: your phone data pack expired and costs ₹199 to renew. You need data to submit an assignment due Monday morning.",
+        "timeSkip": "Saturday evening...",
+        "choices": [
+          {
+            "text": "Renew data (₹199), assignment > games. Use the last ₹370 carefully for Sunday.",
+            "nextNodeId": "node-7-low",
+            "walletImpact": -199,
+            "feedback": "Chip: 'Needs before wants. The games can wait. The assignment can't. Good prioritization under pressure.'"
+          },
+          {
+            "text": "Borrow ₹200 from a friend, you'll return it next week",
+            "nextNodeId": "node-7-low",
+            "walletImpact": 0,
+            "feedback": "Chip quietly: 'Borrowing for a basic expense because you spent on a game deal... this is what being cash-poor feels like. The sale price wasn't the real cost.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5b",
+        "narrative": "You checked your budget before the gaming bundle decision. Smart. You have a healthy amount left for the weekend. Saturday afternoon, you're bored at home and you open Flipkart 'just to browse.' An ad for a smartwatch: 'EMI ₹799/month. No-cost. 6 months.' You don't have a smartwatch. The original price is ₹9,500, crossed out. Sale price: ₹5,600. It looks really nice.\n\n🧠 BIAS ALERT: What's pulling you here?",
+        "timeSkip": "Saturday afternoon...",
+        "biasQuestion": {
+          "prompt": "'No-cost EMI' makes the ₹5,600 smartwatch feel like ₹799. And ₹5,600 feels cheap because ₹9,500 is crossed out. How many biases are firing?",
+          "options": [
+            { "text": "Just one, anchoring on the ₹9,500 price", "isCorrect": false, "biasId": null },
+            { "text": "Two: anchoring (₹9,500 crossed out) + present bias (small monthly payment feels painless)", "isCorrect": true, "biasId": "impulse-1" },
+            { "text": "FOMO, you don't want to miss the sale", "isCorrect": false, "biasId": null },
+            { "text": "Social comparison, your friends have smartwatches", "isCorrect": false, "biasId": null }
+          ]
+        },
+        "choices": [
+          {
+            "text": "Buy it on EMI, ₹799/month feels so manageable",
+            "nextNodeId": "node-6b",
+            "walletImpact": -799,
+            "feedback": "Chip sighs. 'EMI makes ₹5,600 invisible. You don't feel ₹5,600. You feel ₹799. But 6 months of ₹799 is ₹4,794, and that's coming out of every future month's budget. Present bias + anchoring just won.'"
+          },
+          {
+            "text": "Close Flipkart, I was just browsing, not shopping for a watch",
+            "nextNodeId": "node-6a",
+            "walletImpact": 0,
+            "feedback": "Chip: 'The browsing was never innocent. Flipkart knew what it was doing. So did you, which is why you closed it.'"
+          },
+          {
+            "text": "Add to wishlist, if I still want it in a week and can plan for it, maybe",
+            "nextNodeId": "node-6a",
+            "walletImpact": 0,
+            "feedback": "Chip: 'Wishlist over impulse buy. Deliberate over reactive. That's growth.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-6a",
+        "narrative": "Saturday evening. You're home, wallet still reasonably healthy. You promised yourself you'd start setting aside ₹500/month as savings, beginning this weekend. The money is right there. But your phone notifications are showing: a new restaurant opened, there's a movie everyone's going to see, and your friend just texted asking if you want to come to Sunday's cricket match (₹400 entry + expenses).\n\n🧠 BIAS ALERT: This is the classic present bias moment.",
+        "timeSkip": "Saturday evening...",
+        "biasQuestion": {
+          "prompt": "You keep telling yourself you'll start saving 'from next month.' That's been happening for 3 months. What bias explains this?",
+          "options": [
+            { "text": "FOMO, you're afraid of missing out on spending opportunities", "isCorrect": false, "biasId": null },
+            { "text": "Loss aversion, saving feels like losing money", "isCorrect": false, "biasId": null },
+            { "text": "Present bias, future saving always loses to present spending", "isCorrect": true, "biasId": "present-1" },
+            { "text": "Anchoring, you're anchored to a higher lifestyle standard", "isCorrect": false, "biasId": null }
+          ]
+        },
+        "choices": [
+          {
+            "text": "Transfer ₹500 to savings right now, before any other decision, 'pay yourself first'",
+            "nextNodeId": "node-8",
+            "walletImpact": -500,
+            "feedback": "Chip does a victory dance. 'The ₹500 is gone before you can spend it. Future You says thank you. This is what beating present bias looks like.'"
+          },
+          {
+            "text": "Do it after the weekend, save 'whatever's left'",
+            "nextNodeId": "node-8",
+            "walletImpact": 0,
+            "feedback": "Chip sighs. 'Whatever is left is almost always nothing. 'Save what's left' is how people never save. Present bias: 1, Future You: 0.'"
+          },
+          {
+            "text": "This month's different, go to the cricket match and save double next month",
+            "nextNodeId": "node-8",
+            "walletImpact": -400,
+            "feedback": "Chip: 'Next month will also be different. In the same direction. That's what present bias feels like from the inside.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-6b",
+        "narrative": "You bought the smartwatch on EMI. ₹799 will leave your account for 6 months. Saturday evening, you're happy with the purchase. But you realize you also have a ₹349 Netflix subscription, ₹199 Spotify, ₹399 Amazon Prime, and ₹249 cloud storage that all auto-renew monthly. You've been meaning to 'audit' these for months.",
+        "timeSkip": "Saturday evening...",
+        "choices": [
+          {
+            "text": "Add them up and cancel the ones you barely use",
+            "nextNodeId": "node-8",
+            "walletImpact": 400,
+            "feedback": "Chip: 'Subscription audit done. You recovered ₹400+/month you weren't even thinking about. The awareness is the win.'"
+          },
+          {
+            "text": "'I'll do it later', it's the weekend and this is boring",
+            "nextNodeId": "node-8",
+            "walletImpact": 0,
+            "feedback": "Chip: 'Later never comes. These subscriptions are quietly bleeding ₹1,196/month. But sure. Later.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-7-low",
+        "narrative": "Sunday morning. You've got very little left. You didn't plan for this weekend and it shows. Your parents ask if you need money. The honest answer is yes, but the honest reason is a combination of choices you made. This is what a bad financial weekend teaches you.",
+        "timeSkip": "Sunday morning...",
+        "choices": [
+          {
+            "text": "Be honest with yourself: which specific moment this weekend would you do differently?",
+            "nextNodeId": "node-end-poor",
+            "walletImpact": 0,
+            "feedback": "Chip: 'This is actually the win. Not the money, the reflection. Most people just wait for the next paycheck and repeat it.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-8",
+        "narrative": "Sunday morning. Your friend Aarav shares a screenshot in the group: 'Bro I invested ₹500 last year in this meme coin, it's now ₹11,000. You should have joined when I told you!' Three others react with '😭😭 wish I had.' You feel a familiar sensation.\n\n🧠 BIAS ALERT: What are you feeling right now?",
+        "timeSkip": "Sunday morning...",
+        "biasQuestion": {
+          "prompt": "Seeing your friend's crypto gain and feeling like you 'missed out', identify the bias",
+          "options": [
+            { "text": "Present bias, you want gains now", "isCorrect": false, "biasId": null },
+            { "text": "Anchoring, the ₹11,000 number has anchored your expectations", "isCorrect": false, "biasId": null },
+            { "text": "FOMO + social comparison, anxiety about missing a gain others made", "isCorrect": true, "biasId": "fomo-1" },
+            { "text": "Loss aversion, you feel like you lost money by not investing", "isCorrect": false, "biasId": null }
+          ]
+        },
+        "choices": [
+          {
+            "text": "Ask for the coin name and put in ₹1,000, this could still moon",
+            "nextNodeId": "node-9a",
+            "walletImpact": -1000,
+            "feedback": "Chip's very worried now. 'Investing because of FOMO and social comparison, in a coin you know nothing about, after seeing one win screenshot... this is the most dangerous combo in finance.'"
+          },
+          {
+            "text": "Congratulate Aarav, but recognize this is survivorship bias (he only shows his wins)",
+            "nextNodeId": "node-9b",
+            "walletImpact": 0,
+            "feedback": "Chip beams. 'SURVIVORSHIP BIAS awareness! For every Aarav with a 22x meme coin, there are 50 people who lost everything on the same bet. You didn't see their screenshots.'"
+          },
+          {
+            "text": "Feel the FOMO, name it, then move on, you have your own plan",
+            "nextNodeId": "node-9b",
+            "walletImpact": 0,
+            "feedback": "Chip: 'Name it and it loses half its power. That's not a life hack. That's psychology.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-9a",
+        "narrative": "You put ₹1,000 into the meme coin. Sunday afternoon, it drops 40%. Your ₹1,000 is worth ₹600. Aarav is quiet in the chat. The Sunday you planned for other things is now spent anxiously checking an app.",
+        "timeSkip": "Sunday afternoon...",
+        "choices": [
+          {
+            "text": "Panic and sell, cut your losses now",
+            "nextNodeId": "node-end-bad",
+            "walletImpact": -400,
+            "feedback": "Chip gently: 'Loss aversion made you sell at the worst time. The bigger lesson: FOMO investment + loss aversion reaction = guaranteed loss scenario.'"
+          },
+          {
+            "text": "Hold, what goes down can come back up",
+            "nextNodeId": "node-end-bad",
+            "walletImpact": 0,
+            "feedback": "Chip: 'For actual good assets, holding through dips makes sense. For meme coins you bought on FOMO? This is just hoping. Note to self: research before investing.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-9b",
+        "narrative": "Smart call. Sunday afternoon. You've had a good weekend overall, some spending, some saving, some quality time. You've got money left over. Then: 'SURPRISE EVENT, your auto driver turns out to be the nicest person ever and you give him a ₹100 tip you didn't plan.' Just because. Some spending is just good.",
+        "timeSkip": "Sunday afternoon...",
+        "choices": [
+          {
+            "text": "Tip generously, ₹100 for a genuinely good interaction is worth it",
+            "nextNodeId": "node-10a",
+            "walletImpact": -100,
+            "feedback": "Chip smiles. 'This is what money is FOR. Not every spending decision is a bias. Some of it is just being human and decent.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-10a",
+        "narrative": "Sunday evening. Weekend recap time. You open your wallet tracker and look at how ₹3,000 moved over 2 days. Some decisions you're proud of. One or two you'd do differently. That's the whole game, not perfection. Awareness.\n\n🧠 FINAL REFLECTION: This chapter was about patterns. Which did you recognize in yourself most?",
+        "timeSkip": "Sunday evening...",
+        "biasQuestion": {
+          "prompt": "Which psychological pattern showed up most often in YOUR decisions this weekend (or in real life)?",
+          "options": [
+            { "text": "FOMO, I hate feeling left out and it shows in what I spend on", "isCorrect": true, "biasId": "fomo-1" },
+            { "text": "Anchoring, sales and 'original prices' affect me more than I'd like", "isCorrect": true, "biasId": "anchor-1" },
+            { "text": "Present bias, I keep delaying saving/investing for 'next month'", "isCorrect": true, "biasId": "present-1" },
+            { "text": "Social comparison, I sometimes buy things because of what others have or do", "isCorrect": true, "biasId": "social-1" }
+          ],
+          "note": "All answers here are 'correct', the point is self-recognition. This is the bias tracker check-in."
+        },
+        "choices": [
+          {
+            "text": "Head home, good weekend, good lessons, wallet still has something left",
+            "nextNodeId": "node-end-good",
+            "walletImpact": 0,
+            "feedback": "Chip: 'That's the target. Not perfection. Just awareness + enough left over to do it again next weekend.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-end-good",
+        "narrative": "Weekend done. Wallet above ₹1,500. Biases identified, named, sometimes beaten. You didn't win every moment, but you were *awake* for all of them. That's the whole point of this chapter. Money psychology isn't about willpower. It's about seeing the thing that's happening to you, and then choosing. Chip is impressed. And a little emotional, honestly.",
+        "timeSkip": "Monday morning...",
+        "choices": [],
+        "isEnd": true,
+        "outcomeType": "excellent",
+        "outcomeTitle": "Money Mind Activated 🧠",
+        "outcomeDescription": "You ended the weekend with your wallet and your self-awareness both intact. You spotted biases in real time, made deliberate choices, and didn't let FOMO, anchoring, or present bias run the show. This is what financial intelligence actually looks like."
+      },
+      {
+        "nodeId": "node-end-bad",
+        "narrative": "The weekend ended with a lesson you paid for. The crypto bet that came from FOMO. The panic sell that came from loss aversion. The balance that came from a series of unexamined impulses. Here's the thing, this is how most people learn. Painful, but real. And now you know what it *feels like* from the inside. That's actually worth something.",
+        "timeSkip": "Monday morning...",
+        "choices": [],
+        "isEnd": true,
+        "outcomeType": "poor",
+        "outcomeTitle": "Expensive Weekend, Priceless Lesson 📉",
+        "outcomeDescription": "FOMO and loss aversion teamed up and hit your wallet this weekend. The good news: you've now felt these biases in action, not as theory, but as real decisions and real consequences. Most people need to live through this before they can see it. You just fast-forwarded that education."
+      },
+      {
+        "nodeId": "node-end-poor",
+        "narrative": "You ran out of runway this weekend. But you're sitting here, reflecting on exactly which moment was the turning point. That's not nothing, that's actually the most important skill. Most people don't do this. They just wait for the next paycheck and repeat the same weekend. You're doing the harder thing: figuring out why.",
+        "timeSkip": "Monday morning...",
+        "choices": [],
+        "isEnd": true,
+        "outcomeType": "okay",
+        "outcomeTitle": "Broke But Self-Aware 🔍",
+        "outcomeDescription": "The wallet took a hit this weekend, but the reflection at the end is what separates this from just a bad weekend. You identified the moment. That means next time, you'll see it coming. Financial awareness isn't built from perfect weekends, it's built from honest post-mortems."
+      }
+    ]
+  },
+  "dailyChallenges": [
+    {
+      "date": null,
+      "type": "scenario",
+      "title": "The Flash Sale Trap",
+      "content": {
+        "scenario": "Myntra is running a 'Grand Fashion Festival.' A jacket you saw once, 3 weeks ago, shows up in your feed: 'WAS ₹3,999, NOW ₹1,799. ONLY 2 LEFT IN YOUR SIZE.' A countdown timer says 4 hours. You weren't shopping today.",
+        "prompt": "Which combination of psychological tricks is being used on you right now?",
+        "options": [
+          { "text": "FOMO only, you'll miss the deal", "isCorrect": false },
+          { "text": "Anchoring (₹3,999 crossed out) + Scarcity (2 left) + Urgency (4 hour timer)", "isCorrect": true },
+          { "text": "Social comparison, others are buying this", "isCorrect": false },
+          { "text": "Present bias, buy now, regret later", "isCorrect": false }
+        ],
+        "explanation": "Three classic tricks in one screenshot. Anchoring makes ₹1,799 feel like a steal by showing ₹3,999 first. Scarcity ('only 2 left') creates panic about missing it. The countdown creates urgency so you don't think too long. The jacket isn't wrong, but the decision should be made without the manipulation, not because of it. Chip says: Close the tab. Search for the jacket tomorrow on its own. If you still want it then, go get it."
+      },
+      "xpReward": 25,
+      "requiredChaptersCompleted": 3
+    },
+    {
+      "date": null,
+      "type": "scenario",
+      "title": "The SIP That Never Started",
+      "content": {
+        "scenario": "For the fourth month in a row, you tell yourself: 'I'll start my ₹1,000/month SIP from next month. This month was a bit tight.' Your bank balance shows ₹4,200 on the 28th, not actually that tight.",
+        "prompt": "What's really happening here?",
+        "options": [
+          { "text": "You genuinely don't have enough money to save right now", "isCorrect": false },
+          { "text": "Present bias, Future You keeps losing to Today You every single month", "isCorrect": true },
+          { "text": "Loss aversion, investing feels like losing money", "isCorrect": false },
+          { "text": "You need to earn more before starting to invest", "isCorrect": false }
+        ],
+        "explanation": "Present bias hits differently when you look at 4 months of 'next month.' You had ₹4,200 available. The SIP didn't happen because today's spending always feels more real than future saving. The fix: set up the SIP auto-debit for the 1st of next month *right now*, before Today You decides otherwise. Future You will thank you. Present You will barely notice."
+      },
+      "xpReward": 25,
+      "requiredChaptersCompleted": 3
+    },
+    {
+      "date": null,
+      "type": "quiz",
+      "title": "Quick Bias Check",
+      "content": {
+        "prompt": "Your friend posts about a ₹12,000 profit on crypto. You put ₹5,000 into the same coin based on their recommendation without researching it. Which TWO biases drove this decision?",
+        "options": [
+          { "text": "Anchoring + Loss aversion", "isCorrect": false },
+          { "text": "FOMO + Social comparison", "isCorrect": true },
+          { "text": "Present bias + Impulse buying", "isCorrect": false },
+          { "text": "Emotional spending + Opportunity cost blindness", "isCorrect": false }
+        ],
+        "explanation": "FOMO (fear of missing the next wave of gains) + social comparison (if they're winning, I should be too) is the classic combination that drives unresearched investment decisions. This is also called 'herd behavior', doing what others are doing without independent thinking. The cryptocurrency market is full of people who lost money precisely because they followed winners' screenshots, not winners' research."
+      },
+      "xpReward": 20,
+      "requiredChaptersCompleted": 3
+    },
+    {
+      "date": null,
+      "type": "mini-simulation",
+      "title": "The Group Chat Pressure",
+      "description": "Your friend group is planning an expensive birthday dinner for someone. The venue: ₹1,800/head minimum. You have ₹2,500 for the week. Can you handle the social and financial pressure?",
+      "startingWallet": 2500,
+      "nodes": [
+        {
+          "nodeId": "dc-node-1",
+          "narrative": "The group chat votes for a fancy restaurant. ₹1,800 minimum spend per person. Most of your friends can afford it. You have ₹2,500 total for the week and rent is due Friday.",
+          "choices": [
+            {
+              "text": "Go and spend ₹1,800, it's their birthday, you can manage",
+              "nextNodeId": "dc-node-2a",
+              "walletImpact": -1800,
+              "feedback": "Chip: 'Social comparison just spent half your week's budget. The birthday was real. The financial stress coming is also real.'"
+            },
+            {
+              "text": "Suggest joining for dessert/drinks after dinner only, same love, less spend",
+              "nextNodeId": "dc-node-2b",
+              "walletImpact": -400,
+              "feedback": "Chip: 'You showed up. You celebrated. You didn't bankrupt your week. Smart and socially graceful.'"
+            },
+            {
+              "text": "Be honest with the birthday person privately: 'I can't do this place but let me treat you to lunch next week'",
+              "nextNodeId": "dc-node-2b",
+              "walletImpact": -300,
+              "feedback": "Chip: 'This is actually the most meaningful option. Personal. Thoughtful. And within your actual means.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "dc-node-2a",
+          "narrative": "It's Thursday. Rent is due tomorrow. You have ₹700 left. You need ₹1,500. You have to ask your parents for help. They don't ask why, but you know why.",
+          "choices": [
+            {
+              "text": "Accept the help and commit to never letting social pressure override your budget again",
+              "nextNodeId": "dc-end-bad",
+              "walletImpact": 0,
+              "feedback": "Chip: 'The lesson cost ₹1,500 and a conversation with your parents. That's not the worst price for a financial education.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "dc-node-2b",
+          "narrative": "You have ₹2,100+ left. Rent is covered. The birthday friend texted you separately: 'Hey, I actually really appreciated you coming just for dessert. That meant more than some people who were there the whole time but on their phones.' Turns out presence > price.",
+          "choices": [
+            {
+              "text": "Feel good about this. Budget intact, friendship intact, no stress.",
+              "nextNodeId": "dc-end-good",
+              "walletImpact": 0,
+              "feedback": "Chip: 'Money is a tool. Relationships are the point. This was both.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "dc-end-good",
+          "narrative": "Week ended fine. Rent paid. Friendship solid. Wallet healthy. Social comparison got nothing from you this week.",
+          "choices": [],
+          "isEnd": true,
+          "outcomeTitle": "Budget AND friendship? Both.",
+          "outcomeDescription": "You found a way to show up for someone you care about without letting social pressure blow your budget. That's a real skill, and one most people your age don't have yet."
+        },
+        {
+          "nodeId": "dc-end-bad",
+          "narrative": "Expensive lesson. But you know exactly what happened and why. That's more than most people get.",
+          "choices": [],
+          "isEnd": true,
+          "outcomeTitle": "Paid for a lesson in social pressure.",
+          "outcomeDescription": "This is what social comparison feels like from the inside: you spent money you didn't have because you didn't want to seem like you didn't have it. It happens to almost everyone at least once. The question is whether it happens twice."
+        }
+      ],
+      "xpReward": 40,
+      "requiredChaptersCompleted": 3
+    }
+  ]
+}

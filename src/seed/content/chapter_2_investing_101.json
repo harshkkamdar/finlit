@@ -1,0 +1,2326 @@
+{
+  "chapter": 2,
+  "title": "Investing 101",
+  "accentColor": "Royal Blue",
+  "vibe": "Empowering. 'You can actually do this.'",
+  "totalLessons": 7,
+  "researchAndOutline": {
+    "keyConcepts": [
+      "Saving vs. Investing - why parking money in a savings account loses to inflation",
+      "Compound Interest - the math, the magic, real examples with Indian rates",
+      "Rule of 72 - quick mental math for doubling time",
+      "Risk vs. Return spectrum - savings account → FD → debt MF → equity MF → stocks",
+      "Mutual Funds & SIPs - pooled investing, NAV, expense ratio, SIP autopilot",
+      "Diversification - asset allocation, correlation, not all eggs in one basket",
+      "Starting Early - time as the biggest advantage, age 15 vs 25 compounding gap"
+    ],
+    "realWorldIndianData": {
+      "savingsAccountRate": "3-4% (SBI currently 2.7% for < ₹10Cr, most banks 3-4%)",
+      "fdRates": "6-7.5% (SBI 6.5-7.1% for 1-5 year FDs, 2024-2025)",
+      "inflationRate": "5-6% average CPI India over last decade",
+      "nifty50Returns": {
+        "1year": "Varies widely (-10% to +30%)",
+        "10year_CAGR": "~12-13% (Nifty 50 from ~6,000 in 2014 to ~22,000+ in 2024)",
+        "20year_CAGR": "~14-15% (Nifty 50 from ~2,000 in 2004 to ~22,000+ in 2024)",
+        "note": "These are nominal returns; real returns (after inflation) are lower"
+      },
+      "sipExamples": {
+        "₹1000_monthly_10years_12percent": "₹2,32,339 (invested: ₹1,20,000, gains: ₹1,12,339)",
+        "₹1000_monthly_20years_12percent": "₹9,99,148 (invested: ₹2,40,000, gains: ₹7,59,148)",
+        "₹5000_monthly_10years_12percent": "₹11,61,695 (invested: ₹6,00,000, gains: ₹5,61,695)"
+      },
+      "ruleOf72Examples": {
+        "savingsAccount_3.5percent": "72/3.5 = ~20.6 years to double",
+        "fd_7percent": "72/7 = ~10.3 years to double",
+        "nifty_12percent": "72/12 = 6 years to double",
+        "nifty_15percent": "72/15 = 4.8 years to double"
+      },
+      "mutualFundCategories": [
+        "Equity Funds (large-cap, mid-cap, small-cap, flexi-cap)",
+        "Debt Funds (liquid, short-term, gilt)",
+        "Hybrid Funds (balanced advantage, aggressive hybrid)",
+        "Index Funds (Nifty 50, Sensex tracking)",
+        "ELSS (tax-saving, 3-year lock-in)"
+      ],
+      "dematAccountProviders": "Zerodha, Groww, Upstox, Paytm Money, Angel One"
+    },
+    "learningObjectives": [
+      "Explain why saving alone doesn't grow wealth (inflation eats returns)",
+      "Calculate compound interest and understand exponential growth",
+      "Use the Rule of 72 to estimate doubling time for any rate",
+      "Describe the risk-return tradeoff and place instruments on the spectrum",
+      "Explain what a mutual fund is, how SIPs work, and why they suit beginners",
+      "Apply the concept of diversification to a simple portfolio",
+      "Quantify the advantage of starting to invest at 15 vs 25"
+    ],
+    "currentRelevantEvents": [
+      "India's UPI-based investment apps (Groww, Zerodha) making investing accessible to teens",
+      "Nifty 50 crossing 22,000+ levels in 2024 - record highs",
+      "RBI repo rate decisions affecting FD and savings rates",
+      "Increasing financial literacy push by SEBI for young investors",
+      "Rise of index funds and passive investing in India"
+    ]
+  },
+  "lessons": [
+    {
+      "lessonId": "2.1",
+      "title": "Saving vs. Investing: Why Saving Isn't Enough",
+      "estimatedReadingTime": "10 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Pop quiz: You put ₹1,00,000 in a savings account in 2015. You didn't touch it for 10 years. How much do you have now?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "thinking",
+            "text": "Hmm, with like 3.5% interest, maybe ₹1,40,000 ish? That's a decent chunk of free money, right?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "At 3.5% interest, you'd have about ₹1,41,060. Sounds like a win. You made ₹41,060 doing absolutely nothing. Except there's a catch."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A plate of biryani with price tags showing ₹200 in 2015 and ₹350 in 2025",
+            "src": "/illustrations/ch2/l1-biryani-inflation.png",
+            "prompt": "A vibrant plate of biryani with two price tags floating above it. Left tag says 2015: ₹200, right tag says 2025: ₹350. Background has a subtle upward arrow showing rising prices. Blue color palette (#4A90D9), bold flat educational illustration style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "That plate of biryani that cost ₹200 in 2015? It costs about ₹350 now. Your movie ticket went from ₹200 to ₹350. Your ₹1,41,060 buys roughly the same stuff that ₹1,00,000 bought in 2015. Your money grew in number, but not in power."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Purchasing Power",
+            "definition": "What your money can actually buy. If prices rise faster than your money grows, your purchasing power drops, even if your bank balance goes up."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "India's inflation has averaged about 5-6% per year over the last decade. Your savings account gives you 3.5%. That means you're losing 1.5-2.5% of your purchasing power every single year, just by keeping money in savings."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "So if saving is slowly losing, what's the alternative? Investing. And no, they're not the same thing."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Saving",
+            "definition": "Parking your money somewhere safe (savings account, FD) where it earns a small, guaranteed return. The goal is safety and quick access."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Saving means your money is there when you need it. But investing means putting your money into something that has the potential to grow significantly over time, like stocks, mutual funds, or real estate. The goal of investing is growth, making your money work harder than you do."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Investing",
+            "definition": "Putting your money into assets (stocks, mutual funds, bonds, real estate) that have the potential to grow in value over time, in exchange for accepting some level of risk."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Comparison chart showing savings account growth vs Nifty 50 growth vs inflation over 20 years",
+            "src": "/illustrations/ch2/l1-savings-vs-investing-chart.png",
+            "prompt": "Three lines on a chart starting from ₹1,00,000 in 2004. Gray dashed line for inflation reaching about ₹2,65,000. Light blue line for savings account at 3.5% reaching ₹1,99,000. Bold blue (#4A90D9) line for Nifty 50 at 14% reaching ₹13,74,000. Massive visual gap between the three. Clean, educational flat illustration style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "If you'd put that same ₹1,00,000 into a Nifty 50 index fund in 2004, it would be worth roughly ₹13-14 lakhs by 2024. Not ₹1.4 lakhs. Thirteen lakhs. Same money, same effort (literally zero), wildly different result."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "Think of it this way. Your savings account is a parking lot. Your investments are a highway. You need the parking lot to stop and rest. But if you want to actually get somewhere, you need the highway."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "This doesn't mean you should put ALL your money into stocks and zero into savings. Savings accounts are for money you'll need soon, like rent, emergencies, or next month's expenses. Investing is for money you won't touch for 5+ years. Both have a job."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A parking lot and a highway side by side representing saving vs investing",
+            "src": "/illustrations/ch2/l1-parking-vs-highway.png",
+            "prompt": "Split image showing a safe parking lot on the left with a car parked (labeled Saving, Safe but stationary) and an open highway on the right with a car moving fast (labeled Investing, Moving toward your goals). Blue color palette (#4A90D9), bold flat shapes, educational style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "So here's the bottom line: saving is essential for your safety net. But if you want your money to actually grow, to beat inflation and build real wealth over time, you need to invest. And the best part? You can start with as little as ₹100 a month."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Most adults don't even understand the savings-vs-investing gap. You're already ahead. Saving protects your money. Investing grows it. If all your money sits in a savings account for years, inflation is quietly eating it."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "If inflation is 6% and your savings account gives 3.5% interest, what's actually happening to your money's purchasing power each year?",
+          "options": [
+            {
+              "text": "It's growing by 3.5%",
+              "isCorrect": false
+            },
+            {
+              "text": "It's shrinking by about 2.5%",
+              "isCorrect": true
+            },
+            {
+              "text": "It's staying the same",
+              "isCorrect": false
+            },
+            {
+              "text": "It's growing by 9.5%",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Your money earns 3.5% but prices rise 6%. Net effect: 3.5% - 6% = -2.5%. Your bank balance goes up, but what it can buy goes down. It's like running on a treadmill that's going faster than you.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Priya gets ₹50,000 as a gift from her grandparents when she turns 15. She plans to use it when she's 25 for a big purchase. She's deciding between putting it all in a savings account (3.5%) or investing it in an index fund (average 12% returns).",
+          "prompt": "After 10 years, roughly how much more would Priya have if she invests vs. saves?",
+          "options": [
+            {
+              "text": "About ₹20,000 more",
+              "isCorrect": false
+            },
+            {
+              "text": "About ₹50,000 more",
+              "isCorrect": false
+            },
+            {
+              "text": "About ₹85,000 more",
+              "isCorrect": true
+            },
+            {
+              "text": "About ₹5,000 more",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Savings: ₹50,000 × (1.035)^10 = ₹70,530. Investing: ₹50,000 × (1.12)^10 = ₹1,55,292. Difference: ₹1,55,292 - ₹70,530 = ₹84,762. That's roughly ₹85,000 more, almost double her original gift, just by choosing to invest instead of save.",
+          "xpValue": 15
+        },
+        {
+          "type": "sorting",
+          "prompt": "Sort these into 'Saving' or 'Investing'",
+          "categories": [
+            "Saving",
+            "Investing"
+          ],
+          "items": [
+            {
+              "text": "Money in an SBI savings account",
+              "correctCategory": "Saving"
+            },
+            {
+              "text": "Buying a Nifty 50 index fund",
+              "correctCategory": "Investing"
+            },
+            {
+              "text": "Fixed Deposit for 1 year",
+              "correctCategory": "Saving"
+            },
+            {
+              "text": "Monthly SIP in a mutual fund",
+              "correctCategory": "Investing"
+            },
+            {
+              "text": "Cash in your UPI wallet",
+              "correctCategory": "Saving"
+            },
+            {
+              "text": "Buying shares of Reliance on Zerodha",
+              "correctCategory": "Investing"
+            }
+          ],
+          "explanation": "Saving = low risk, low return, easy access (savings accounts, FDs, cash). Investing = higher potential return, some risk, longer time horizon (stocks, mutual funds, SIPs). FDs are technically a 'savings instrument', they're guaranteed and low-risk. The line blurs a bit, but the key is: are you accepting risk for higher growth?",
+          "xpValue": 15
+        },
+        {
+          "type": "true-false",
+          "prompt": "A savings account is the best place to keep all your money long-term because it's 100% safe.",
+          "correctAnswer": false,
+          "explanation": "While savings accounts are safe from market risk (your ₹1,000 won't become ₹800), they're NOT safe from inflation. If your money grows at 3.5% but prices rise at 6%, you're losing purchasing power every year. 'Safe' depends on what risk you're measuring, market risk or inflation risk.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Which analogy best describes the difference between saving and investing?",
+          "options": [
+            {
+              "text": "Saving is a parking lot; investing is a highway",
+              "isCorrect": true
+            },
+            {
+              "text": "Saving is risky; investing is safe",
+              "isCorrect": false
+            },
+            {
+              "text": "Saving is for rich people; investing is for everyone",
+              "isCorrect": false
+            },
+            {
+              "text": "Saving and investing are basically the same thing",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A parking lot keeps your car safe but doesn't take you anywhere. A highway has some risk (traffic, speed) but actually gets you to your destination. You need both, but relying only on the parking lot means you'll never move forward financially.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "2.2",
+      "title": "Compound Interest: The Magic Trick",
+      "estimatedReadingTime": "12 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Albert Einstein (allegedly) called compound interest the eighth wonder of the world. Whether he actually said that or not, the point stands. Compound interest is the single most powerful concept in all of finance. And it's weirdly simple."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "confused",
+            "text": "Compound interest? That sounds like something from a maths textbook. Is it really that important?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Let's start with its boring cousin: simple interest. You put ₹10,000 in a bank. It pays 10% per year. Every year, you earn ₹1,000. After 5 years: ₹15,000. After 10 years: ₹20,000. It's the same ₹1,000 every year because the interest is always calculated on your original ₹10,000."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Simple Interest",
+            "definition": "Interest calculated only on the original amount (principal). The interest earned each year stays the same. Formula: Principal x Rate x Time."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now here's where things get spicy. With compound interest, your interest earns interest. Year 1: you earn ₹1,000 on your ₹10,000. But in Year 2, you earn 10% on ₹11,000 (your original plus last year's interest). That's ₹1,100. In Year 3, it's 10% on ₹12,100, which is ₹1,210."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A snowball rolling downhill getting bigger, representing compound interest growth",
+            "src": "/illustrations/ch2/l2-snowball-compounding.png",
+            "prompt": "A snowball at the top of a hill, small, rolling downhill and getting progressively bigger at each stage. Labels at each stage show the growing amounts: ₹10,000, ₹11,000, ₹12,100, ₹13,310. The snowball at the bottom is massive. Blue color palette (#4A90D9), bold flat educational illustration style."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Compound Interest",
+            "definition": "Interest calculated on the original amount PLUS all the interest you've already earned. Your interest earns interest, which earns more interest. It grows exponentially, not linearly."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "₹10,000 at 10% simple interest for 30 years = ₹40,000. That same ₹10,000 at 10% compound interest for 30 years = ₹1,74,494. Compound interest gave you over 4x more than simple interest. Same rate. Same starting amount. Just math doing its thing."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The formula looks scary but isn't: A = P x (1 + r)^n. A is your final amount. P is what you started with (principal). r is the annual interest rate as a decimal. n is the number of years. That's it. That's the whole thing."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Principal",
+            "definition": "The original amount of money you invest or deposit, before any interest is added."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Compound interest growth curve showing ₹5,000 growing over 40 years at 12%",
+            "src": "/illustrations/ch2/l2-compound-growth-curve.png",
+            "prompt": "A growth chart showing ₹5,000 invested at 12% annually. Key markers at Year 0 (₹5,000), Year 6 (₹9,869), Year 12 (₹19,461), Year 24 (₹75,747), Year 40 (₹4,65,259). The curve is flat at first then shoots up dramatically. First 10 years labeled 'The Boring Years' and last 10 years labeled 'The Magic Years'. Blue (#4A90D9) gradient fill under curve. Clean educational style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "See that curve? The first 10 years are kinda boring, your ₹5,000 becomes about ₹15,529. Nice but not life-changing. But look at years 30-40. Your money goes from ₹1,49,400 to ₹4,65,259. It adds over ₹3 lakhs in the LAST 10 years alone."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "happy",
+            "text": "It's like a Netflix show. Season 1 is slow and you almost quit. But then season 4 hits and it's absolutely insane. Don't quit in season 1."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "This is why time is the most important ingredient in investing. Not the amount. Not the rate. Time. The longer your money compounds, the more insane the growth gets."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "One more thing that makes compound interest even more powerful: compounding frequency. Your money can compound annually (once a year), quarterly (4 times), monthly (12 times), or even daily. The more frequently it compounds, the faster it grows."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Side-by-side bar chart comparing simple vs compound interest over 10, 20, and 30 years",
+            "src": "/illustrations/ch2/l2-simple-vs-compound-bars.png",
+            "prompt": "Three pairs of bars for 10, 20, and 30 year time periods. Left bar in each pair (light gray) shows simple interest result, right bar (bold blue #4A90D9) shows compound interest result. At 10 years the bars are similar. At 20 they diverge. At 30 years the compound bar towers over the simple one. Labels show exact amounts. Clean flat educational illustration."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Most bank FDs compound quarterly. Most mutual fund returns are effectively compounding daily since the NAV changes every day. This is another reason investments in the market often outperform fixed deposits; not just higher rates, but more frequent compounding."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Compound interest makes your interest earn interest. It starts slow but grows exponentially over time. The two things that matter most: how much time you give it, and not withdrawing early. Start early, be patient, and let the snowball roll."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "calculator",
+          "title": "Compound Interest Calculator",
+          "inputs": [
+            {
+              "label": "Starting amount (₹)",
+              "key": "principal",
+              "default": 10000
+            },
+            {
+              "label": "Annual interest rate (%)",
+              "key": "rate",
+              "default": 12
+            },
+            {
+              "label": "Years",
+              "key": "years",
+              "default": 10
+            }
+          ],
+          "formula": "principal * Math.pow(1 + rate/100, years)",
+          "outputLabel": "Your money grows to",
+          "followUpQuestion": {
+            "prompt": "If you invest ₹10,000 at 12% for 10 years with compound interest, roughly how much do you get?",
+            "options": [
+              {
+                "text": "₹22,000",
+                "isCorrect": false
+              },
+              {
+                "text": "₹31,058",
+                "isCorrect": true
+              },
+              {
+                "text": "₹45,000",
+                "isCorrect": false
+              },
+              {
+                "text": "₹1,20,000",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "₹10,000 × (1.12)^10 = ₹31,058. That's more than triple your money! With simple interest, you'd only have ₹22,000 (₹10,000 + ₹1,200 × 10). Compound interest gave you an extra ₹9,058 for free."
+          },
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "What's the key difference between simple and compound interest?",
+          "options": [
+            {
+              "text": "Simple interest uses higher rates",
+              "isCorrect": false
+            },
+            {
+              "text": "Compound interest calculates interest on principal + accumulated interest",
+              "isCorrect": true
+            },
+            {
+              "text": "Simple interest is only for savings accounts",
+              "isCorrect": false
+            },
+            {
+              "text": "Compound interest only works for rich people",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "With simple interest, you earn interest only on your original amount. With compound interest, each period's interest is added to the base, so you earn interest on your interest. Over time, this creates exponential growth.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Twins Aarav and Anika both invest ₹1,00,000 at 10% compound interest. Aarav checks his balance obsessively every month. Anika doesn't look at it for 20 years. After 20 years, Aarav has withdrawn ₹50,000 over the years for impulse buys. Anika hasn't touched hers.",
+          "prompt": "Anika's untouched ₹1,00,000 at 10% for 20 years is now worth approximately:",
+          "options": [
+            {
+              "text": "₹3,00,000",
+              "isCorrect": false
+            },
+            {
+              "text": "₹6,72,750",
+              "isCorrect": true
+            },
+            {
+              "text": "₹2,00,000",
+              "isCorrect": false
+            },
+            {
+              "text": "₹10,00,000",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "₹1,00,000 × (1.10)^20 = ₹6,72,750. By not touching her money, Anika turned ₹1 lakh into nearly ₹6.73 lakhs. The lesson: every rupee you pull out breaks the compounding chain. Let it snowball.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Why does compound interest grow faster in later years compared to early years?",
+          "options": [
+            {
+              "text": "The interest rate increases over time",
+              "isCorrect": false
+            },
+            {
+              "text": "The base amount keeps getting bigger as interest is added each year",
+              "isCorrect": true
+            },
+            {
+              "text": "Banks give bonus interest to loyal customers",
+              "isCorrect": false
+            },
+            {
+              "text": "Inflation pushes the returns up",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "The rate stays the same, but the base keeps growing. 12% of ₹10,000 is ₹1,200. But 12% of ₹1,00,000 (which your ₹10,000 became after many years) is ₹12,000. Same percentage, bigger number. That's the snowball effect.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "If you invest ₹10,000 at 10% compound interest for 30 years, you'll end up with ₹40,000.",
+          "correctAnswer": false,
+          "explanation": "₹40,000 is what you'd get with simple interest (₹10,000 + ₹1,000 × 30). With compound interest, ₹10,000 at 10% for 30 years = ₹1,74,494. That's over 4x more! This is the whole point, compound interest crushes simple interest over long periods.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "2.3",
+      "title": "Rule of 72: How Fast Does Your Money Double?",
+      "estimatedReadingTime": "8 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Quick, if you invest money at 8% per year, how long does it take to double? Don't worry, you don't need a calculator. You just need the number 72."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Rule of 72",
+            "definition": "A quick mental math formula: 72 divided by the annual interest rate equals the approximate years to double your money. Works for any rate between 2% and 20%. Example: at 12%, money doubles in about 6 years."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "surprised",
+            "text": "Wait, that's it? Just divide 72 by the rate? No fancy calculator or anything?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "That's really it. At 8%: 72 divided by 8 = 9 years to double. At 12%: 72 divided by 12 = 6 years. At 6%: 72 divided by 6 = 12 years. No calculator app. No Excel. Just 72 divided by the rate."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Why 72? It's not exact. It's an approximation based on the natural logarithm of 2. But it's close enough for mental math, and way easier than pulling out ln(2) at a dinner party."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Comparison showing doubling time for different Indian investment options using Rule of 72",
+            "src": "/illustrations/ch2/l3-doubling-time-comparison.png",
+            "prompt": "Five horizontal bars showing doubling time. SBI Savings Account (2.7%): 26.7 years. Bank FD (7%): 10.3 years. PPF (7.1%): 10.1 years. Nifty 50 Index Fund (12%): 6 years. Historical Nifty best decade (15%): 4.8 years. Shorter bars are more filled with blue (#4A90D9). Progress bar visual style, bold flat educational illustration."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Look at that difference. Your money in a savings account takes nearly 27 years to double. In a Nifty index fund, it takes about 6 years. That means while savings-account-you is celebrating your first doubling, market-investor-you has doubled FOUR TIMES."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Doubling Time",
+            "definition": "The number of years it takes for an investment to double in value. Use the Rule of 72 to estimate it quickly: 72 divided by the annual return rate."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Let's do the math: ₹10,000 at 12% doubles every 6 years. After 6 years: ₹20,000. After 12: ₹40,000. After 18: ₹80,000. After 24: ₹1,60,000. After 30: ₹3,20,000. ₹10,000 turned into ₹3.2 lakhs with nothing but patience."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here's the thing, the Rule of 72 also works in reverse. You can use it to figure out how fast inflation eats your money. If inflation is 6%, your money's purchasing power halves in 72 divided by 6 = 12 years. That ₹100 note in your pocket? In 12 years, it'll buy what ₹50 buys today."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A ₹100 note shrinking in size over 12 years due to 6% inflation",
+            "src": "/illustrations/ch2/l3-inflation-shrinks-money.png",
+            "prompt": "A ₹100 note shown at full size on the left, then progressively smaller at 4 year intervals (Year 0, Year 4, Year 8, Year 12). At Year 12 it is half the original size with a label saying 'Buys only ₹50 worth of stuff'. Blue (#4A90D9) timeline underneath. Bold flat educational illustration style."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "confident",
+            "text": "You can also use it to detect scams. If someone says they'll double your money in 3 years, that's 72 divided by 3, which is 24% per year. No legitimate investment consistently delivers 24% with zero risk. If it's 'guaranteed', it's almost certainly a scam."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A scam detector showing Rule of 72 math exposing a fake promise",
+            "src": "/illustrations/ch2/l3-scam-detector.png",
+            "prompt": "A magnifying glass hovering over a WhatsApp message that says 'Double your money in 2 years GUARANTEED.' The magnifying glass reveals the math: 72 / 2 = 36% annual returns with a red X and the text 'Not even Warren Buffett does this consistently.' Blue (#4A90D9) and red accents, educational flat style."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "72 divided by rate = years to double. Use it to compare investments, check inflation damage, and detect scams. It's the most useful 2-second calculation you'll ever learn."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "calculator",
+          "title": "Rule of 72 Calculator",
+          "inputs": [
+            {
+              "label": "Annual return rate (%)",
+              "key": "rate",
+              "default": 12
+            }
+          ],
+          "formula": "72 / rate",
+          "outputLabel": "Approximate years to double",
+          "followUpQuestion": {
+            "prompt": "Using the Rule of 72, how long does it take money to double at 8% annual return?",
+            "options": [
+              {
+                "text": "6 years",
+                "isCorrect": false
+              },
+              {
+                "text": "8 years",
+                "isCorrect": false
+              },
+              {
+                "text": "9 years",
+                "isCorrect": true
+              },
+              {
+                "text": "12 years",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "72 ÷ 8 = 9 years. Simple! At 8%, your ₹1,000 becomes ₹2,000 in about 9 years, ₹4,000 in 18 years, and ₹8,000 in 27 years."
+          },
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "A savings account gives 3.5% interest. Using the Rule of 72, approximately how long until your money doubles?",
+          "options": [
+            {
+              "text": "About 7 years",
+              "isCorrect": false
+            },
+            {
+              "text": "About 14 years",
+              "isCorrect": false
+            },
+            {
+              "text": "About 20.5 years",
+              "isCorrect": true
+            },
+            {
+              "text": "About 35 years",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "72 ÷ 3.5 = 20.57 years. Over TWENTY years for your money to just double. Meanwhile, at 12% in the market, it would double in 6 years, meaning it could double more than three times in those same 20 years.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Your uncle's friend says he has an 'amazing investment opportunity' that will triple your money in 4 years. Guaranteed. No risk.",
+          "prompt": "If tripling in 4 years means roughly doubling in ~2.5 years, what annual return is he promising? (Use Rule of 72)",
+          "options": [
+            {
+              "text": "About 15%, ambitious but possible",
+              "isCorrect": false
+            },
+            {
+              "text": "About 29%, unrealistically high and definitely suspicious",
+              "isCorrect": true
+            },
+            {
+              "text": "About 8%, seems normal",
+              "isCorrect": false
+            },
+            {
+              "text": "About 50%, but maybe he's just really good",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "To double in ~2.5 years: 72 ÷ 2.5 = ~29% per year. No legitimate investment consistently delivers 29% returns with zero risk. Even the best fund managers in India average 15-18% in great years. If it sounds too good to be true, Chip says it IS too good to be true.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "If inflation is 6% per year, how long does it take for your money's purchasing power to halve?",
+          "options": [
+            {
+              "text": "6 years",
+              "isCorrect": false
+            },
+            {
+              "text": "12 years",
+              "isCorrect": true
+            },
+            {
+              "text": "18 years",
+              "isCorrect": false
+            },
+            {
+              "text": "72 years",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "72 ÷ 6 = 12 years. The Rule of 72 works for losses too. At 6% inflation, ₹100 today will feel like ₹50 in 12 years. Your ₹100 note is still a ₹100 note, but it'll only buy half as much.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "Using the Rule of 72, money invested at 12% doubles approximately every 6 years.",
+          "correctAnswer": true,
+          "explanation": "72 ÷ 12 = 6. This is the classic example. At 12% (roughly what Nifty 50 has returned historically), ₹1 lakh becomes ₹2 lakhs in 6 years, ₹4 lakhs in 12, ₹8 lakhs in 18, and ₹16 lakhs in 24 years. All from doing nothing except waiting.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "2.4",
+      "title": "Risk vs. Return: Higher Risk = Higher Reward?",
+      "estimatedReadingTime": "10 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Imagine two cricket bets. Bet A: India wins the toss, you get ₹110 back on your ₹100 (safe, happens about 50% of the time). Bet B: Virat Kohli scores a century in the next match, you get ₹500 back on your ₹100 (exciting, happens maybe 10-15% of the time)."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "thinking",
+            "text": "Bet B sounds way more exciting though. I mean, ₹500 for ₹100? Who wouldn't want that?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Bet A is low risk, low reward. Bet B is high risk, high reward. Investing works exactly the same way. The more risk you're willing to take, the higher your potential return, but also the higher your potential loss."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Risk",
+            "definition": "The chance that your investment could lose value or earn less than expected. Higher risk means more uncertainty; your returns could be amazing OR terrible."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Risk-return spectrum showing Indian investment options from savings account to individual stocks",
+            "src": "/illustrations/ch2/l4-risk-return-spectrum.png",
+            "prompt": "A diagonal arrow going from bottom-left (low risk, low return) to top-right (high risk, high return). Plotted along it: Savings Account (3-4%), Fixed Deposits (6-7%), Government Bonds/PPF (7-7.5%), Debt Mutual Funds (6-8%), Hybrid Funds (8-10%), Index Funds (12-15%), Equity Mutual Funds (12-18%), Individual Stocks (-50% to +100%). Blue (#4A90D9) gradient for the arrow, small icons for each. Educational flat style."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Return",
+            "definition": "The profit or loss you earn on an investment, usually expressed as a percentage. A 12% return on ₹10,000 means you earned ₹1,200."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Notice the pattern? The stuff that barely grows (savings accounts, FDs) is also the stuff that almost never loses money. The stuff that can make you serious money (stocks, equity funds) is also the stuff that can drop 30% in a bad year."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "The Nifty 50 dropped about 38% during the COVID crash in March 2020. Then it went up over 100% in the next year. If you invested at the absolute worst day, the peak before the 2008 crash, and held for 10 years, you'd still have made about 10% annually."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "So 'higher risk = higher reward' is true on average, over long periods. It doesn't mean you'll definitely make more money by taking more risk. It means you could make more, or could lose more. That's what risk literally means: uncertainty."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Volatility",
+            "definition": "How much an investment's price swings up and down over time. High volatility = big swings (exciting but scary). Low volatility = smooth and steady (boring but predictable)."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two graphs side by side showing a smooth FD line vs a volatile stock market line over 10 years",
+            "src": "/illustrations/ch2/l4-smooth-vs-volatile.png",
+            "prompt": "Two mini charts side by side. Left chart shows a smooth, steadily rising line labeled 'FD at 7%' with barely any bumps. Right chart shows a jagged, roller-coaster line labeled 'Nifty 50' that dips and spikes but ends much higher overall. Both start at ₹1,00,000. FD ends around ₹2 lakhs, Nifty ends around ₹3.1 lakhs. Blue (#4A90D9) color palette, clean educational flat style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here's what most people get wrong: they think risk is about losing money forever. But for most investments, risk is really about time. There's no 15-year period in Indian stock market history where you'd have lost money. Not one."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "That's why financial people keep saying 'time in the market beats timing the market.' You don't need to predict when the market will go up or down. You just need to stay invested long enough for the ups to outweigh the downs."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A timeline showing every major Indian market crash and recovery since 2000",
+            "src": "/illustrations/ch2/l4-crash-recovery-timeline.png",
+            "prompt": "A horizontal timeline from 2000 to 2024 showing the Nifty 50 line. Major crashes are marked with red dips (2001 dot-com, 2008 financial crisis, 2020 COVID) but the overall trend goes strongly upward from 1000 to 22000+. Each recovery is labeled with how long it took. Blue (#4A90D9) for the main line, red markers for crashes. Clean educational style."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "There's no 'right' risk level. A 15-year-old with decades ahead can afford more risk than a 55-year-old retiring soon. Your risk appetite should match your time horizon. If your investments keep you up at night, you've taken too much risk."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Risk and return are linked; higher potential returns come with higher uncertainty. But time reduces risk dramatically. If you have 10+ years, you can afford to take more risk because short-term drops don't matter if you stay invested."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "sorting",
+          "prompt": "Sort these investments from LOWEST risk to HIGHEST risk",
+          "categories": [
+            "Lowest Risk",
+            "Low-Medium Risk",
+            "Medium-High Risk",
+            "Highest Risk"
+          ],
+          "items": [
+            {
+              "text": "SBI Savings Account (3.5%)",
+              "correctCategory": "Lowest Risk"
+            },
+            {
+              "text": "Government PPF (7.1%)",
+              "correctCategory": "Low-Medium Risk"
+            },
+            {
+              "text": "Nifty 50 Index Fund",
+              "correctCategory": "Medium-High Risk"
+            },
+            {
+              "text": "Individual stock (e.g., buying shares of one startup)",
+              "correctCategory": "Highest Risk"
+            },
+            {
+              "text": "Bank Fixed Deposit (7%)",
+              "correctCategory": "Lowest Risk"
+            },
+            {
+              "text": "Equity Mutual Fund (large-cap)",
+              "correctCategory": "Medium-High Risk"
+            }
+          ],
+          "explanation": "Savings accounts and FDs have near-zero risk, your money is protected (up to ₹5 lakh by DICGC). PPF is government-backed but locked in for 15 years. Index funds and equity MFs fluctuate but have strong long-term returns. Individual stocks are the wildest ride, one company can go from hero to zero.",
+          "xpValue": 15
+        },
+        {
+          "type": "scenario",
+          "scenario": "Your cousin Rahul just turned 18 and got ₹2,00,000 from selling a bike. He won't need the money for at least 10 years. He's choosing between: (A) Put it all in a 7% FD, or (B) Put it in a Nifty 50 index fund averaging 12% historically.",
+          "prompt": "What's the strongest argument FOR option B (the index fund)?",
+          "options": [
+            {
+              "text": "Index funds never lose money",
+              "isCorrect": false
+            },
+            {
+              "text": "With a 10-year horizon, short-term volatility matters less, and 12% dramatically outperforms 7% over a decade",
+              "isCorrect": true
+            },
+            {
+              "text": "FDs are scams",
+              "isCorrect": false
+            },
+            {
+              "text": "Everyone on social media says stocks are better",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "At 7% for 10 years: ₹2,00,000 → ₹3,93,430. At 12% for 10 years: ₹2,00,000 → ₹6,21,170. That's ₹2.28 lakhs MORE with the index fund. And with a 10-year horizon, he can ride out any short-term drops. The risk is real but manageable over this timeframe.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "What does 'volatility' mean in investing?",
+          "options": [
+            {
+              "text": "How quickly you can sell your investment",
+              "isCorrect": false
+            },
+            {
+              "text": "How much an investment's price swings up and down",
+              "isCorrect": true
+            },
+            {
+              "text": "The maximum amount you can lose",
+              "isCorrect": false
+            },
+            {
+              "text": "How popular an investment is",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Volatility measures price swings, big ups AND big downs. High volatility doesn't mean 'bad investment.' It means the ride is bumpy. Stocks are volatile short-term but tend to grow long-term. The bumps are the price you pay for higher returns.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "There has never been a 15-year period in Indian stock market history where investors lost money.",
+          "correctAnswer": true,
+          "explanation": "For the Nifty 50, every single 15-year rolling period has delivered positive returns. Even if you invested at the absolute peak before a crash, 15 years of patience always recovered your money AND made a profit. This is why time horizon matters so much.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Which statement about risk is MOST accurate?",
+          "options": [
+            {
+              "text": "All risk is bad and should be avoided",
+              "isCorrect": false
+            },
+            {
+              "text": "Risk means you will definitely lose money",
+              "isCorrect": false
+            },
+            {
+              "text": "Risk is the price you pay for the potential of higher returns",
+              "isCorrect": true
+            },
+            {
+              "text": "Only rich people can afford to take risk",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Risk isn't the enemy, it's the trade-off. Without risk, you're stuck with savings-account returns that don't even beat inflation. The smart approach isn't to avoid risk entirely, but to take the *right amount* of risk based on your time horizon and goals.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "2.5",
+      "title": "Mutual Funds & SIPs: Investing on Autopilot",
+      "estimatedReadingTime": "12 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Okay so you're convinced investing is smart. But here's the problem: picking individual stocks is HARD. Even professional fund managers with MBAs and Bloomberg terminals get it wrong half the time. So what's a regular person supposed to do?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "confused",
+            "text": "Yeah, I don't have time to research 500 companies. I've got exams. Is there like a pre-made combo meal for investing?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Enter mutual funds, basically a bunch of people pool their money together, and a professional fund manager invests it for them. Think of it like a group food order. Everyone puts in money, one person picks the restaurant, and everyone gets to eat."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Mutual Fund",
+            "definition": "A pool of money collected from many investors, managed by a professional fund manager who invests it in stocks, bonds, or other assets. You own 'units' of the fund proportional to how much you invested."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Diagram showing many small investors pooling money into one mutual fund managed by a professional",
+            "src": "/illustrations/ch2/l5-mutual-fund-pool.png",
+            "prompt": "Multiple small figures on the left, each holding a rupee coin, with arrows flowing into a central large pool labeled 'Mutual Fund'. A professional fund manager figure stands next to the pool, directing the money into different assets (stocks, bonds, gold icons) on the right. Blue (#4A90D9) color palette, bold flat educational style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "When you invest in a mutual fund, you buy 'units.' Each unit has a price called the NAV (Net Asset Value). If the NAV is ₹50 and you invest ₹5,000, you own 100 units. If the NAV goes up to ₹60, your 100 units are now worth ₹6,000."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "NAV (Net Asset Value)",
+            "definition": "The price of one unit of a mutual fund. It's calculated daily by dividing the total value of the fund's investments by the number of units. NAV goes up = your investment grows."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "There are multiple types of mutual funds: Equity funds invest in stocks (12-18% returns). Debt funds invest in bonds (6-8%, less volatile). Index funds copy the Nifty 50 or Sensex (cheap and effective). ELSS funds save you tax under Section 80C (3-year lock-in)."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now here's the real game-changer for beginners: SIP, or Systematic Investment Plan. Instead of investing a big lump sum at once, you invest a fixed amount every month, like ₹500 or ₹1,000, automatically deducted from your bank account."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "SIP (Systematic Investment Plan)",
+            "definition": "Investing a fixed amount in a mutual fund every month, automatically. It removes the stress of 'when to invest' and builds a habit. You can start with as little as ₹100/month on some platforms."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "confident",
+            "text": "₹1,000 a month SIP in a Nifty 50 index fund for 20 years at 12% returns gives you about ₹9,99,148. You only invested ₹2,40,000 total. The remaining ₹7,59,148 is pure compound interest magic."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Illustration showing rupee cost averaging with a SIP buying more units when prices are low",
+            "src": "/illustrations/ch2/l5-rupee-cost-averaging.png",
+            "prompt": "A bar chart showing 6 months of a ₹1,000 SIP. Month 1: NAV ₹100, 10 units. Month 2: NAV ₹80 (market dip), 12.5 units (taller bar). Month 3: NAV ₹90, 11.1 units. Month 4: NAV ₹110, 9.1 units (shorter bar). Month 5: NAV ₹105, 9.5 units. Month 6: NAV ₹120, 8.3 units. Taller blue (#4A90D9) bars on dip months to show you buy more units when price is low. Clean educational flat style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "SIPs have a superpower called rupee cost averaging. Since you invest the same amount every month, you automatically buy more units when prices are low and fewer when prices are high. You don't need to time the market; the math does it for you."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Start with a Nifty 50 index fund SIP. It's boring. It's basic. And it'll probably outperform 80% of the 'expert' stock picks your uncle's WhatsApp group recommends. Boring is beautiful."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "One important thing: mutual funds charge a fee called the expense ratio. This is a percentage of your investment that goes to the fund house for managing your money. Active funds charge 1-2%. Index funds charge 0.1-0.5%. Over decades, this difference adds up to lakhs."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two stacks of coins showing how a 1% expense ratio difference costs lakhs over 30 years",
+            "src": "/illustrations/ch2/l5-expense-ratio-impact.png",
+            "prompt": "Two tall stacks of coins side by side. Left stack (taller, bright blue #4A90D9) labeled '0.5% expense ratio: ₹2.62 Cr after 30 years'. Right stack (shorter, faded blue) labeled '1.5% expense ratio: ₹2.00 Cr after 30 years'. A red label between them says 'That 1% difference cost you ₹62 lakhs.' Starting investment ₹10 lakhs at 12%. Bold flat educational style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Getting started is ridiculously easy. Download any app like Groww, Zerodha, or Paytm Money. Complete your KYC (takes 10 minutes), pick an index fund, set up a ₹500 monthly SIP, and forget about it. You're now an investor."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Mutual funds let you invest in a professionally managed, diversified portfolio with very little money. SIPs make it automatic and remove the 'when should I invest?' stress. Start with an index fund SIP; it's the simplest, cheapest, and most effective way to begin."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "What is a mutual fund, in simple terms?",
+          "options": [
+            {
+              "text": "A savings account with higher interest",
+              "isCorrect": false
+            },
+            {
+              "text": "A pool of money from many investors, managed by a professional",
+              "isCorrect": true
+            },
+            {
+              "text": "A government bond that pays monthly",
+              "isCorrect": false
+            },
+            {
+              "text": "A loan you give to a company",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A mutual fund collects money from many investors and a professional fund manager invests it across stocks, bonds, or other assets. You own units proportional to your investment. It's group investing with expert management.",
+          "xpValue": 10
+        },
+        {
+          "type": "calculator",
+          "title": "SIP Returns Calculator",
+          "inputs": [
+            {
+              "label": "Monthly SIP amount (₹)",
+              "key": "monthly",
+              "default": 1000
+            },
+            {
+              "label": "Expected annual return (%)",
+              "key": "rate",
+              "default": 12
+            },
+            {
+              "label": "Years",
+              "key": "years",
+              "default": 20
+            }
+          ],
+          "formula": "monthly * (((Math.pow(1 + rate/1200, years * 12)) - 1) / (rate/1200)) * (1 + rate/1200)",
+          "outputLabel": "Your SIP grows to",
+          "followUpQuestion": {
+            "prompt": "A ₹5,000/month SIP at 12% for 10 years gives you approximately:",
+            "options": [
+              {
+                "text": "₹6,00,000 (just what you invested)",
+                "isCorrect": false
+              },
+              {
+                "text": "₹8,50,000",
+                "isCorrect": false
+              },
+              {
+                "text": "₹11,61,695",
+                "isCorrect": true
+              },
+              {
+                "text": "₹20,00,000",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "You invest ₹5,000 × 12 months × 10 years = ₹6,00,000 total. But with 12% compounding, it grows to about ₹11,61,695. That's ₹5,61,695 in gains, almost doubling your total investment, all from a monthly SIP."
+          },
+          "xpValue": 15
+        },
+        {
+          "type": "scenario",
+          "scenario": "Two friends start investing. Meera invests ₹60,000 as a lump sum in January when the NAV is ₹100. Dev invests ₹5,000/month for 12 months via SIP. The NAV fluctuated between ₹80 and ₹120 during the year.",
+          "prompt": "What's the main advantage Dev has with his SIP approach?",
+          "options": [
+            {
+              "text": "He earns higher returns guaranteed",
+              "isCorrect": false
+            },
+            {
+              "text": "His average cost per unit is likely lower because he bought more units when prices were low",
+              "isCorrect": true
+            },
+            {
+              "text": "SIPs are tax-free",
+              "isCorrect": false
+            },
+            {
+              "text": "He can withdraw anytime without penalty",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "This is rupee cost averaging in action. When the NAV dipped to ₹80, Dev's ₹5,000 bought 62.5 units (instead of 50 at ₹100). When it rose to ₹120, he only bought 41.7 units. Over the year, his average cost per unit is likely lower than Meera's fixed ₹100. It's not guaranteed to beat lump sum, but it removes the risk of bad timing.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-multi",
+          "prompt": "Which of these are TRUE about index funds? (Select all that apply)",
+          "options": [
+            {
+              "text": "They copy a market index like Nifty 50",
+              "isCorrect": true
+            },
+            {
+              "text": "They have lower expense ratios than actively managed funds",
+              "isCorrect": true
+            },
+            {
+              "text": "They guarantee you won't lose money",
+              "isCorrect": false
+            },
+            {
+              "text": "They often outperform actively managed funds over long periods",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "Index funds simply replicate an index (like Nifty 50), charge very low fees (0.1-0.5% vs 1-2% for active funds), and data shows they beat most active funds over 10+ year periods. But they still carry market risk, if Nifty drops, your index fund drops too. No guarantees.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Why does the expense ratio matter, even if it's 'just 1%'?",
+          "options": [
+            {
+              "text": "It doesn't matter, 1% is nothing",
+              "isCorrect": false
+            },
+            {
+              "text": "Over decades, even 1% compounds into lakhs of rupees in lost returns",
+              "isCorrect": true
+            },
+            {
+              "text": "It only matters for investments over ₹1 crore",
+              "isCorrect": false
+            },
+            {
+              "text": "The expense ratio is a one-time fee",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "On ₹10,00,000 invested for 30 years at 12%, a 0.5% expense ratio vs. a 1.5% expense ratio means the difference between about ₹2.62 crores and ₹2.00 crores. That 1% difference cost you ₹62 lakhs over 30 years. Small percentages, huge impact over time.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "2.6",
+      "title": "Diversification: Don't Put All Eggs in One Basket",
+      "estimatedReadingTime": "10 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Picture this: You've saved ₹50,000. You put ALL of it into one stock, a hot fintech startup everyone's talking about. The stock goes up 40% in 3 months. You're a genius. Then the company's CEO gets caught in a fraud scandal. The stock drops 70% overnight. Your ₹70,000 is now ₹21,000."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "worried",
+            "text": "Yikes. That's terrifying. So what, you just split your money between a bunch of random things and hope for the best?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Not random, but yes, you split it. Now imagine a different version: you spread that ₹50,000 across 5 investments. Some stocks, an index fund, a debt fund, maybe gold. The fintech stock still crashes, but it was only ₹10,000 of your portfolio. Your total is down maybe 10%, not 70%."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Diversification",
+            "definition": "Spreading your investments across different assets, sectors, and types so that a loss in one doesn't destroy your entire portfolio. The goal: reduce risk without necessarily reducing returns."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two baskets of eggs, one with all eggs in one basket cracking, another with eggs spread across multiple baskets",
+            "src": "/illustrations/ch2/l6-eggs-in-baskets.png",
+            "prompt": "Left side: one basket holding all 10 eggs, tipping over with eggs cracking (labeled 'All in one stock'). Right side: 4 smaller baskets each holding 2-3 eggs, all stable (labeled 'Diversified portfolio'). A checkmark on the right side, an X on the left. Blue (#4A90D9) color palette, bold flat educational illustration style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "There are three levels of diversification. Level 1: Across asset classes. Mix stocks with bonds, debt funds, and maybe gold. If the stock market crashes, your debt funds and gold might hold steady or even go up."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "In 2020, when Indian stocks crashed 38% in March due to COVID, gold prices in India went UP about 28% that same year. If your portfolio had both stocks and gold, the gold would've cushioned the blow. That's diversification doing its job."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Level 2: Within asset classes. If you're in stocks, don't just own one company. Own stocks from different sectors like IT, banking, pharma, and consumer goods. If the tech sector has a bad year, pharma might be having a great one."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A pie chart showing a sample diversified portfolio for a beginner",
+            "src": "/illustrations/ch2/l6-diversified-portfolio-pie.png",
+            "prompt": "A pie chart showing a sample beginner portfolio. Slices: Nifty 50 Index Fund (40%, royal blue #4A90D9), Mid-Cap Equity Fund (20%, medium blue), Debt Fund (15%, light blue), International Fund (10%, teal), Gold Fund (10%, amber), Emergency Cash (5%, gray). Title: 'A Sample Diversified Portfolio.' Each slice has a small icon. Clean flat educational style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Level 3: Across geographies. India's market is great, but some years international markets do better. Having some exposure to US markets through international mutual funds adds another layer of protection."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Correlation",
+            "definition": "How closely two investments move together. High correlation means they go up and down together. Low or negative correlation means when one goes up, the other might go down. For diversification, you want low correlation."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "Here's a common mistake. Owning 5 different equity mutual funds and thinking you're diversified. If all 5 invest in the same large-cap stocks, you basically own the same thing five times. That's fake diversification. Check what's actually inside your funds."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two portfolios compared during a market crash, one diversified and one all-equity",
+            "src": "/illustrations/ch2/l6-crash-comparison.png",
+            "prompt": "Two side-by-side bar charts showing portfolio performance during a market crash. Left chart (100% equity): drops from ₹1 lakh to ₹62,000 (red, -38%). Right chart (60% equity, 25% debt, 15% gold): drops from ₹1 lakh to only ₹81,400 (blue #4A90D9, -18.6%). Labels show the difference in loss. Clean educational flat illustration style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The good news? If you're investing through a Nifty 50 index fund, you're already diversified across 50 of India's biggest companies in multiple sectors. It's instant diversification in one product. Add a debt fund and a gold fund, and you've got a solid, simple, diversified portfolio."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Simplified recipe: 60% equity (index fund), 20% debt fund, 10% gold fund, 10% international fund. Adjust as you get older (more debt, less equity). That's it. You're more diversified than most adults."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Diversification means spreading your money so no single bad event can wreck your portfolio. Invest across asset classes (stocks, bonds, gold), across sectors, and ideally across geographies. A Nifty 50 index fund plus a debt fund plus a gold fund is a great starting point."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "sorting",
+          "prompt": "Sort these into 'Well Diversified' or 'Poorly Diversified' portfolios",
+          "categories": [
+            "Well Diversified",
+            "Poorly Diversified"
+          ],
+          "items": [
+            {
+              "text": "100% in one pharma stock",
+              "correctCategory": "Poorly Diversified"
+            },
+            {
+              "text": "50% Nifty index fund + 30% debt fund + 20% gold",
+              "correctCategory": "Well Diversified"
+            },
+            {
+              "text": "5 different large-cap equity funds (all holding similar stocks)",
+              "correctCategory": "Poorly Diversified"
+            },
+            {
+              "text": "40% Indian equity + 20% international equity + 25% debt + 15% gold",
+              "correctCategory": "Well Diversified"
+            },
+            {
+              "text": "All money in SBI Fixed Deposit",
+              "correctCategory": "Poorly Diversified"
+            },
+            {
+              "text": "Mix of Nifty 50 fund, mid-cap fund, debt fund, and gold ETF",
+              "correctCategory": "Well Diversified"
+            }
+          ],
+          "explanation": "True diversification means spreading across different TYPES of assets, not just different names. Five equity funds = one type. One stock = zero diversification. A mix of equity, debt, gold, and international investments gives you real protection because they don't all move in the same direction.",
+          "xpValue": 15
+        },
+        {
+          "type": "scenario",
+          "scenario": "In March 2020, the Nifty 50 dropped 38% due to COVID-19. But gold prices rose 28% that year, and government bonds stayed stable. Neha had 100% in equity funds. Arjun had 60% equity, 25% debt, 15% gold.",
+          "prompt": "Whose portfolio was better protected during the crash?",
+          "options": [
+            {
+              "text": "Neha's, she had more money in the high-growth option",
+              "isCorrect": false
+            },
+            {
+              "text": "Arjun's, his debt and gold holdings cushioned the equity crash",
+              "isCorrect": true
+            },
+            {
+              "text": "Both were equally affected",
+              "isCorrect": false
+            },
+            {
+              "text": "Neither, they should have kept everything in a savings account",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Neha's portfolio dropped the full 38%. Arjun's: equity portion dropped 38% (60% × -38% = -22.8%), debt stayed flat, gold rose (15% × +28% = +4.2%). Net impact on Arjun: roughly -18.6% vs Neha's -38%. And by the time markets recovered, Arjun had a head start because he lost less.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "What does 'correlation' mean in the context of diversification?",
+          "options": [
+            {
+              "text": "How much return two investments give",
+              "isCorrect": false
+            },
+            {
+              "text": "How closely two investments move in the same direction",
+              "isCorrect": true
+            },
+            {
+              "text": "How expensive two investments are",
+              "isCorrect": false
+            },
+            {
+              "text": "How popular two investments are on Groww",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Correlation measures whether investments move together. Stocks and equity mutual funds = high correlation (both follow the market). Stocks and gold = low/negative correlation (gold often rises when stocks fall). For diversification to work, you want to own investments with LOW correlation to each other.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "Owning 10 different stocks in the IT sector is a well-diversified stock portfolio.",
+          "correctAnswer": false,
+          "explanation": "Owning 10 IT stocks means you're concentrated in one sector. If the IT sector has a bad year (like during the dot-com bust), ALL your stocks could drop together. Real diversification means spreading across different sectors, IT, banking, pharma, FMCG, energy, so one sector's bad year doesn't tank your whole portfolio.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "What's the simplest way for a beginner to get instant diversification?",
+          "options": [
+            {
+              "text": "Buy 50 individual stocks",
+              "isCorrect": false
+            },
+            {
+              "text": "Invest in a Nifty 50 index fund",
+              "isCorrect": true
+            },
+            {
+              "text": "Put everything in gold",
+              "isCorrect": false
+            },
+            {
+              "text": "Open 5 savings accounts at different banks",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A Nifty 50 index fund automatically gives you ownership in 50 of India's largest companies across multiple sectors (IT, banking, energy, pharma, auto, FMCG). One investment, instant diversification across sectors and companies. Add a debt fund and gold fund for asset class diversification too.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "2.7",
+      "title": "Starting Early: Why Age 15 Beats Age 25",
+      "estimatedReadingTime": "10 minutes",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "This is the lesson that changes everything. If you take only ONE thing from this entire chapter, let it be this: the most important factor in investing is not how much you invest. It's when you start."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "thinking",
+            "text": "Really? Even if I can only invest like ₹500 a month right now? That doesn't seem like it would matter much."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Let's meet three friends who all invest in the same fund earning 12% annually, but start at different ages. Ananya starts a ₹2,000/month SIP at age 15, invests for only 10 years, then stops at 25. Total invested: ₹2,40,000."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Bharat starts the same ₹2,000/month SIP at age 25. He invests every single month for 30 years, all the way until age 55. Total invested: ₹7,20,000. Chetan starts at 35 and invests for 20 years. Total invested: ₹4,80,000."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Bar chart comparing three investors who started at different ages, showing Ananya with the most despite investing the least",
+            "src": "/illustrations/ch2/l7-start-early-comparison.png",
+            "prompt": "Three vertical bars. Ananya (royal blue #4A90D9): started at 15, invested ₹2,40,000, has ₹1.39 crores at 55. Bharat (medium blue): started at 25, invested ₹7,20,000, has ₹70.6 lakhs at 55. Chetan (light blue): started at 35, invested ₹4,80,000, has ₹19.98 lakhs at 55. Bottom portion of each bar shows invested amount in darker shade, top shows compound growth. Ananya's bar towers over others. Bold flat educational style."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Ananya invested ₹2.4 lakhs and ended up with ₹1.39 CRORES. Bharat invested THREE TIMES more money and ended up with about ₹70.6 lakhs. Starting 10 years earlier, even with less money, crushed it."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Let's verify Ananya's math. She invests ₹2,000/month for 10 years at 12%. Her SIP grows to about ₹4,64,678 by age 25. Then she stops investing but leaves the money for 30 more years. ₹4,64,678 multiplied by (1.12)^30 = ₹1,39,21,721. Over ₹1.39 crores from ₹2.4 lakhs invested."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Time Horizon",
+            "definition": "How long you plan to keep your money invested before you need it. Longer time horizons allow more compounding, more recovery from dips, and generally bigger returns."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "The secret is those extra years of compounding on a bigger base. Ananya's money had 40 total years to grow. Bharat's had a maximum of 30 years. Each extra year at the END of a long investment adds way more than a year at the beginning."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two growth curves showing early starter vs late starter, with the early starter's curve soaring higher",
+            "src": "/illustrations/ch2/l7-early-vs-late-curves.png",
+            "prompt": "Two exponential growth curves on the same chart from age 15 to 55. Ananya's curve (bold blue #4A90D9) starts at 15, rises steeply and reaches ₹1.39 Cr. Bharat's curve (lighter blue) starts at 25 and reaches ₹70.6 lakhs. A bracket shows 'These 10 extra years' between age 15-25. The gap between curves widens dramatically after age 40. Clean flat educational style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "\"But I'm only 15, where do I get money to invest?\" Fair question. ₹500 a month is ₹17 a day. That's less than a samosa and chai. Birthday money, Diwali gifts, helping with a part-time gig; even small amounts matter because you have the ONE thing money can't buy: time."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "₹500/month started at age 15, invested at 12% until age 55 = about ₹59.41 lakhs. Total invested: just ₹2,40,000. That's ₹500 a month turning into nearly 60 lakhs. Your future self would literally hug you."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A teen setting up a SIP on a phone app with a guardian looking on",
+            "src": "/illustrations/ch2/l7-teen-investing-app.png",
+            "prompt": "An Indian teen sitting at a table, smiling, looking at a phone showing an investment app screen with a SIP setup page. A parent or guardian sits nearby, guiding them. The phone screen shows 'Monthly SIP: ₹500' and a blue Start button. Warm blue (#4A90D9) tones, bold flat educational illustration style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "For minors (under 18), your parents can open a mutual fund account in your name with them as guardians. Many apps like Groww support this. Once you turn 18, the account transfers to you. There's literally no barrier to starting right now."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Starting to invest at 15 instead of 25 can mean the difference between ₹1.39 crores and ₹70 lakhs, even if you invest LESS total money. Time plus compound interest is the most powerful wealth-building tool in existence. The best time to start is NOW."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "scenario",
+          "scenario": "Diya starts a ₹1,000/month SIP at age 15 and invests for only 10 years (until 25), then stops. Eshan starts the same ₹1,000/month SIP at age 25 and invests for 30 years (until 55). Both earn 12% returns. By age 55:",
+          "prompt": "Who has more money at 55, and why?",
+          "options": [
+            {
+              "text": "Eshan, because he invested 3x more money",
+              "isCorrect": false
+            },
+            {
+              "text": "They have about the same",
+              "isCorrect": false
+            },
+            {
+              "text": "Diya, because her money had 30 extra years to compound after she stopped",
+              "isCorrect": true
+            },
+            {
+              "text": "Neither, you need to invest continuously to beat the other person",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Diya invests ₹1,20,000 total → about ₹2,32,339 by age 25 → compounds for 30 more years → about ₹69,60,861 at 55. Eshan invests ₹3,60,000 total → SIP for 30 years → about ₹35,29,914 at 55. Diya invested 3x LESS money but has about 2x MORE. That's the insane power of an early start.",
+          "xpValue": 15
+        },
+        {
+          "type": "calculator",
+          "title": "Your SIP Future Value Calculator",
+          "inputs": [
+            {
+              "label": "Monthly SIP (₹)",
+              "key": "monthly",
+              "default": 2000
+            },
+            {
+              "label": "Your current age",
+              "key": "startAge",
+              "default": 15
+            },
+            {
+              "label": "Target age",
+              "key": "endAge",
+              "default": 55
+            },
+            {
+              "label": "Expected return (%)",
+              "key": "rate",
+              "default": 12
+            }
+          ],
+          "formula": "monthly * (((Math.pow(1 + rate/1200, (endAge - startAge) * 12)) - 1) / (rate/1200)) * (1 + rate/1200)",
+          "outputLabel": "Your corpus at target age",
+          "followUpQuestion": {
+            "prompt": "₹2,000/month from age 15 to 55 at 12% gives roughly:",
+            "options": [
+              {
+                "text": "₹25 lakhs",
+                "isCorrect": false
+              },
+              {
+                "text": "₹1 crore",
+                "isCorrect": false
+              },
+              {
+                "text": "₹2.37 crores",
+                "isCorrect": true
+              },
+              {
+                "text": "₹50 lakhs",
+                "isCorrect": false
+              }
+            ],
+            "explanation": "40 years of ₹2,000/month at 12% = approximately ₹2,37,64,840. Total invested: just ₹9,60,000. The remaining ₹2.28 crores is pure compound interest. This is why starting at 15 is genuinely life-changing."
+          },
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "₹500/month at 12% for 40 years (starting at age 15) grows to about ₹59.41 lakhs. How much of that is your actual investment?",
+          "options": [
+            {
+              "text": "₹59.41 lakhs (all of it)",
+              "isCorrect": false
+            },
+            {
+              "text": "₹28 lakhs (about half)",
+              "isCorrect": false
+            },
+            {
+              "text": "₹2,40,000 (₹500 × 480 months)",
+              "isCorrect": true
+            },
+            {
+              "text": "₹6,00,000",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "₹500 × 12 months × 40 years = ₹2,40,000. That's only about 4% of the final amount. The remaining 96% (₹57 lakhs) is compound interest doing its thing. You put in ₹2.4 lakhs and got back ₹59.41 lakhs. Time is the real investor here.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "A 15-year-old can invest in mutual funds in India if a parent or guardian opens the account for them.",
+          "correctAnswer": true,
+          "explanation": "Minors can invest in mutual funds through a guardian (parent/legal guardian) who manages the account. Apps like Groww and Zerodha support minor accounts. When you turn 18, the account is transferred to your name. There's no minimum age to start building wealth, only a minimum KYC requirement.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Why does starting 10 years earlier have such a massive impact on final wealth?",
+          "options": [
+            {
+              "text": "Because banks give better rates to younger investors",
+              "isCorrect": false
+            },
+            {
+              "text": "Because those extra 10 years allow compound interest to multiply on a much larger base in later years",
+              "isCorrect": true
+            },
+            {
+              "text": "Because inflation is lower when you're younger",
+              "isCorrect": false
+            },
+            {
+              "text": "Because the stock market performs better for early investors",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Compound interest is exponential, it grows faster and faster over time. Each extra year at the END of a long investment period adds way more than a year at the beginning. Starting 10 years earlier means your money hits those explosive later years with a MUCH bigger base. That's why Ananya's ₹2.4 lakhs beat Bharat's ₹7.2 lakhs.",
+          "xpValue": 10
+        }
+      ]
+    }
+  ],
+  "simulation": {
+    "title": "The 10-Year Plan",
+    "description": "You're 18. You just got ₹5,000 as a gift from your grandmother. She said, 'Make it grow.' Over the next 10 simulated years, you'll face market booms, crashes, life events, and temptations. Your goal: grow your money as smartly as possible.",
+    "startingWallet": 5000,
+    "optimalWalletOutcome": 27000,
+    "badgeId": "patient-investor",
+    "badgeThreshold": {
+      "type": "wallet_percentage",
+      "value": 0.8
+    },
+    "startNodeId": "node-1",
+    "nodes": [
+      {
+        "nodeId": "node-1",
+        "narrative": "You have ₹5,000 from your grandmother and a Groww account your dad helped you set up. The Nifty 50 has been doing well, up 15% in the last year. Your friend says he's been making money buying individual stocks. The question is: what do you do with your ₹5,000?",
+        "timeSkip": null,
+        "choices": [
+          {
+            "text": "Put it all into a Nifty 50 index fund SIP (₹500/month for 10 months)",
+            "nextNodeId": "node-2a",
+            "walletImpact": 0,
+            "feedback": "Chip nods approvingly. 'SIP into an index fund? Boring. Perfect. This is exactly what smart money does.'"
+          },
+          {
+            "text": "Buy shares of that one hot stock your friend recommended",
+            "nextNodeId": "node-2b",
+            "walletImpact": 0,
+            "feedback": "Chip raises an eyebrow. 'All your money into one stock based on a friend's tip? Bold. Let's see how this plays out.'"
+          },
+          {
+            "text": "Split it: ₹3,000 in an index fund, ₹2,000 in a debt fund",
+            "nextNodeId": "node-2c",
+            "walletImpact": 0,
+            "feedback": "Chip's impressed. 'Diversification from day one? Your grandmother would be proud.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-2a",
+        "narrative": "Year 1 ends. Your SIP has been running smoothly. The Nifty returned about 12% this year. Your ₹5,000 is now worth about ₹5,600. Not life-changing, but you're in the game. Then you get your first part-time job, tutoring younger students. You're earning ₹3,000/month extra.",
+        "timeSkip": "1 year later...",
+        "choices": [
+          {
+            "text": "Increase your SIP to ₹1,000/month from your tutoring income",
+            "nextNodeId": "node-3-steady",
+            "walletImpact": 600,
+            "feedback": "Chip's doing a happy dance. 'Earning money AND investing it? This is how wealth is built. One boring step at a time.'"
+          },
+          {
+            "text": "Save the tutoring money in your bank account, the market might crash",
+            "nextNodeId": "node-3-cautious",
+            "walletImpact": 300,
+            "feedback": "Chip shrugs. 'Cash in a savings account earns 3.5%. Your index fund earned 12%. But sure, play it safe.'"
+          },
+          {
+            "text": "Spend the tutoring money, you deserve new headphones and some fun",
+            "nextNodeId": "node-3-spend",
+            "walletImpact": -500,
+            "feedback": "Chip looks worried. 'Everyone deserves fun. But every ₹1,000 you invest now could be ₹10,000+ in 20 years. Just saying.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-2b",
+        "narrative": "Year 1 ends. That hot stock your friend recommended? It went up 30% in the first 3 months. You felt like a genius. Then the company missed its earnings targets and the stock dropped 25%. Your ₹5,000 is now worth about ₹4,875. Your friend says, 'Hold on, it'll bounce back.'",
+        "timeSkip": "1 year later...",
+        "choices": [
+          {
+            "text": "Sell the stock and move everything into a Nifty 50 index fund",
+            "nextNodeId": "node-3-steady",
+            "walletImpact": -125,
+            "feedback": "Chip exhales. 'Lesson learned: one stock is a bet, not an investment. Switching to an index fund is the smart recovery move.'"
+          },
+          {
+            "text": "Hold the stock, it'll come back eventually, right?",
+            "nextNodeId": "node-3-hope",
+            "walletImpact": -200,
+            "feedback": "Chip's biting nails. 'Hope isn't a strategy. But sometimes single stocks do recover. Let's see...'"
+          },
+          {
+            "text": "Double down, buy more of the same stock at the 'discount'",
+            "nextNodeId": "node-3-yolo",
+            "walletImpact": -400,
+            "feedback": "Chip is panicking. 'Buying more of a falling stock without understanding why it fell? That's not 'buying the dip', that's catching a falling knife.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-2c",
+        "narrative": "Year 1 ends. Your diversified portfolio did well. The index fund portion (₹3,000) grew about 12% to ₹3,360. The debt fund (₹2,000) grew about 7% to ₹2,140. Total: ₹5,500. Steady and balanced. You also started tutoring and earn ₹3,000/month extra.",
+        "timeSkip": "1 year later...",
+        "choices": [
+          {
+            "text": "Start a ₹1,500/month SIP: ₹1,000 in index fund, ₹500 in debt fund",
+            "nextNodeId": "node-3-steady",
+            "walletImpact": 700,
+            "feedback": "Chip is beaming. 'Diversified SIP with increasing contributions? You're investing like someone twice your age. In a good way.'"
+          },
+          {
+            "text": "Move everything into the index fund, equity is clearly better",
+            "nextNodeId": "node-3-aggressive",
+            "walletImpact": 500,
+            "feedback": "Chip tilts head. 'Equity IS better long-term. But removing all your debt fund cushion? Risky if the market dips.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3-steady",
+        "narrative": "Year 3. You've been investing consistently. Your portfolio has grown to about ₹14,000. Then... CRASH. A global recession hits. The Nifty drops 30% in two months. Your WhatsApp is full of panic. News channels are screaming. Your portfolio shows ₹9,800. Bright red.",
+        "timeSkip": "2 years later... a market crash hits.",
+        "choices": [
+          {
+            "text": "Don't panic. Continue your SIP as usual and wait it out",
+            "nextNodeId": "node-4-diamond",
+            "walletImpact": 0,
+            "feedback": "Chip is glowing. 'Diamond hands! Your SIP just bought units at a DISCOUNT. When the market recovers, and it always has, those cheap units will be worth a fortune.'"
+          },
+          {
+            "text": "Sell everything to 'protect' your money",
+            "nextNodeId": "node-4-panic",
+            "walletImpact": -4200,
+            "feedback": "Chip winces. 'You just sold at the bottom. The loss is now locked in. This is exactly how most people destroy their wealth, they panic.'"
+          },
+          {
+            "text": "Invest EXTRA money during the crash, everything is on sale",
+            "nextNodeId": "node-4-brave",
+            "walletImpact": 2000,
+            "feedback": "Chip's jaw drops. 'You're buying when everyone else is selling?! This is literally what Warren Buffett does. Be greedy when others are fearful.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3-cautious",
+        "narrative": "Year 3. Your index fund has grown to about ₹8,000 and you have ₹10,000 in your savings account. Then the market crashes 30%. Your ₹8,000 becomes ₹5,600. But your savings are safe. Friends who were fully invested are panicking.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Move some savings into the market while it's low, buy the dip!",
+            "nextNodeId": "node-4-brave",
+            "walletImpact": 1500,
+            "feedback": "Chip is cheering. 'NOW you're using that cash smartly. Buying during a crash is one of the best moves in investing.'"
+          },
+          {
+            "text": "Stay in savings. The crash proves markets are too dangerous.",
+            "nextNodeId": "node-4-scared",
+            "walletImpact": 0,
+            "feedback": "Chip sighs. 'The market has recovered from EVERY crash in history. Sitting in cash means you'll miss the recovery. But Chip understands the fear.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3-spend",
+        "narrative": "Year 3. Your original ₹5,000 investment grew to about ₹7,000 in the index fund. But you've been spending most of your tutoring income. When the market crashes 30%, your ₹7,000 drops to ₹4,900. And you have almost no savings cushion.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Start investing seriously now, better late than never",
+            "nextNodeId": "node-4-latestart",
+            "walletImpact": -800,
+            "feedback": "Chip's relieved. 'Two years of spending feels fun in the moment. But you could've had double this amount. The good news? You still have time. Let's go.'"
+          },
+          {
+            "text": "Withdraw the ₹4,900, you need it for a trip with friends",
+            "nextNodeId": "node-4-withdrawall",
+            "walletImpact": -5000,
+            "feedback": "Chip is heartbroken. 'You sold at the bottom AND spent it all. Grandmother's gift: gone. This is the worst possible outcome.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3-hope",
+        "narrative": "Year 3. That stock you held onto? It never recovered. The company actually went bankrupt after an accounting scandal. Your investment is worth ₹200. Meanwhile, a Nifty index fund would've turned your ₹5,000 into ₹7,000 by now (even with the crash).",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Accept the loss. Start fresh with an index fund using your tutoring income",
+            "nextNodeId": "node-4-latestart",
+            "walletImpact": -4800,
+            "feedback": "Chip's gentle. 'The tuition cost of learning to diversify: ₹4,800. Expensive, but you'll never make this mistake again. Let's rebuild.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3-yolo",
+        "narrative": "Year 3. You doubled down on the stock. It kept falling. The company went bankrupt after a fraud scandal. Your entire investment is gone. ₹5,000 → ₹0.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Start completely from scratch with proper diversified investing",
+            "nextNodeId": "node-4-latestart",
+            "walletImpact": -5000,
+            "feedback": "Chip hugs you. 'You lost everything, but you're still here and learning. Most successful investors have a failure story. This is yours. Now let's never do that again.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-3-aggressive",
+        "narrative": "Year 3. Your all-equity portfolio had great returns, up to about ₹13,000! Then the market crashes 30%. Your portfolio drops to ₹9,100. No debt fund cushion to soften the blow. Friends with balanced portfolios only dropped 15-18%.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Hold steady and keep investing. The crash is temporary.",
+            "nextNodeId": "node-4-diamond",
+            "walletImpact": -500,
+            "feedback": "Chip respects the courage. 'All-equity is a rough ride in crashes. But if you can handle the volatility, the recovery will be sweet.'"
+          },
+          {
+            "text": "Rebalance: move 25% into a debt fund for cushioning",
+            "nextNodeId": "node-4-diamond",
+            "walletImpact": 200,
+            "feedback": "Chip nods wisely. 'Learning from experience. Adding some debt fund protection after seeing a crash firsthand, that's growth.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4-diamond",
+        "narrative": "Year 5. The market has FULLY recovered from the crash and hit new all-time highs. Your portfolio is now worth about ₹22,000. Those units you bought during the crash? They've nearly doubled. You also got a better-paying part-time job. Then your college friend comes to you with a 'crypto opportunity', he says he turned ₹10,000 into ₹50,000 in a month.",
+        "timeSkip": "2 years later... markets hit all-time highs.",
+        "choices": [
+          {
+            "text": "Ignore the crypto hype. Stick to your plan.",
+            "nextNodeId": "node-5-final-good",
+            "walletImpact": 3000,
+            "feedback": "Chip high-fives you. 'FOMO is the enemy of wealth. Your boring index fund has been quietly crushing it while crypto bros ride the roller coaster.'"
+          },
+          {
+            "text": "Put ₹5,000 into crypto, just a small bet, FOMO is real",
+            "nextNodeId": "node-5-crypto",
+            "walletImpact": -1000,
+            "feedback": "Chip looks nervous. 'A small bet on crypto is okay if you can afford to lose it entirely. But remember: crypto is speculation, not investing.'"
+          },
+          {
+            "text": "Go all-in on crypto, it's clearly the future",
+            "nextNodeId": "node-5-crypto-yolo",
+            "walletImpact": -10000,
+            "feedback": "Chip is screaming internally. 'You're pulling out a decade of disciplined investing to gamble on crypto? Chip needs to sit down.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4-panic",
+        "narrative": "Year 5. You sold everything during the crash. The market has now FULLY recovered and hit new highs. That ₹9,800 you sold? If you'd held it, it would be worth about ₹22,000 now. Your ₹9,800 has been sitting in a savings account earning 3.5%, and is now worth about ₹10,500. You missed a 100%+ recovery.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Painful lesson learned. Get back into the market with a SIP.",
+            "nextNodeId": "node-5-recovery",
+            "walletImpact": 0,
+            "feedback": "Chip's proud of the comeback. 'You locked in a loss, but you're getting back in. The market has decades of growth ahead. You haven't lost, you've delayed.'"
+          },
+          {
+            "text": "Markets are rigged. Keep everything in savings from now on.",
+            "nextNodeId": "node-end-mediocre",
+            "walletImpact": 0,
+            "feedback": "Chip is sad. 'Markets aren't rigged, they're volatile. The people who stayed invested through the crash are now richer than ever. Sitting in savings means you'll never catch up.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4-brave",
+        "narrative": "Year 5. GENIUS MOVE. You invested extra during the crash, buying units at rock-bottom prices. The market recovered fully. Those crash-time purchases nearly TRIPLED in value. Your portfolio is now worth about ₹26,000. You feel invincible.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Stay humble. Keep the SIP going. Don't change what works.",
+            "nextNodeId": "node-5-final-good",
+            "walletImpact": 4000,
+            "feedback": "Chip whispers: 'This is the way. Discipline beats intelligence. Keep going.'"
+          },
+          {
+            "text": "You're clearly a natural, try active stock picking now",
+            "nextNodeId": "node-5-overconfident",
+            "walletImpact": -2000,
+            "feedback": "Chip facepalms. 'Buying during a crash isn't genius, it's just discipline. Active stock picking is a whole different game. Overconfidence is the enemy of good investors.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4-scared",
+        "narrative": "Year 5. You kept everything in savings while the market recovered spectacularly. Your savings at 3.5% grew slowly. Meanwhile, the Nifty nearly doubled from its crash lows. You have about ₹12,000 total. If you'd invested during the crash, you could have ₹25,000+.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Okay, finally start a SIP. Time to overcome the fear.",
+            "nextNodeId": "node-5-recovery",
+            "walletImpact": 0,
+            "feedback": "Chip cheers quietly. 'Late is better than never. You missed the best buying opportunity in years, but there will be others. The key is getting started.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4-latestart",
+        "narrative": "Year 5. You've been investing properly for 2 years now. Your rebuilt portfolio is about ₹8,000. It's not as much as it could've been, but you've learned hard lessons and you're building good habits. A sudden expense comes up, your laptop dies and you need ₹6,000 for a new one.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Use savings (not investments) for the laptop. Never sell investments for emergencies.",
+            "nextNodeId": "node-5-recovery",
+            "walletImpact": -2000,
+            "feedback": "Chip approves. 'THIS is why emergency funds exist. Pulling from investments breaks compounding. You chose right.'"
+          },
+          {
+            "text": "Sell some investments for the laptop, you need it for work",
+            "nextNodeId": "node-5-recovery",
+            "walletImpact": -4000,
+            "feedback": "Chip understands but is sad. 'Sometimes you have no choice. But this is why Lesson 1 was 'build an emergency fund first.' Next time, you'll be prepared.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-4-withdrawall",
+        "narrative": "Year 5. Your investment is completely gone. You have nothing invested. Your friends who stayed the course have portfolios of ₹15,000-₹25,000. Grandmother asks how your investment is doing.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Start from zero. It's embarrassing but necessary.",
+            "nextNodeId": "node-end-poor",
+            "walletImpact": 0,
+            "feedback": "Chip's being gentle. 'You spent the gift, missed the crash recovery, and have nothing to show for 5 years. But you're 23, you still have 30+ years. Start now.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5-final-good",
+        "narrative": "Year 10. A full decade of disciplined investing. Markets went up, crashed, recovered, and went up again. Through it all, you kept your SIP running. You added money when you could. You didn't panic during crashes. Your portfolio sits at about ₹28,000. You started with ₹5,000.",
+        "timeSkip": "5 years later... Year 10.",
+        "choices": [],
+        "isEnd": true,
+        "endOutcome": "excellent",
+        "endSummary": "You turned ₹5,000 into ₹28,000 through discipline, patience, and smart diversification. You survived a market crash, ignored crypto FOMO, and kept investing consistently. Chip is doing a full dance routine. Your grandmother? She always knew you'd figure it out."
+      },
+      {
+        "nodeId": "node-5-crypto",
+        "narrative": "Year 7. The crypto market crashed 60%. Your ₹5,000 crypto bet is now worth ₹2,000. But your main portfolio (₹17,000 in index/mutual funds) is fine and growing. The crypto loss stings but didn't destroy you.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Write off the crypto loss. Focus 100% on your proven mutual fund strategy.",
+            "nextNodeId": "node-end-good",
+            "walletImpact": -1000,
+            "feedback": "Chip nods. 'Small crypto loss, big lesson. Your core portfolio is healthy. That's what diversification looks like, one bet fails, the rest hold up.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5-crypto-yolo",
+        "narrative": "Year 7. The crypto market crashed 60%. You went all-in, remember? Your ₹22,000 portfolio that you moved to crypto is now worth ₹8,800. A decade of work, mostly gone. Meanwhile, friends who stayed in index funds? Their portfolios are worth ₹25,000+.",
+        "timeSkip": "2 years later...",
+        "choices": [
+          {
+            "text": "Accept the devastating loss. Move remaining money back to index funds.",
+            "nextNodeId": "node-end-poor",
+            "walletImpact": -8000,
+            "feedback": "Chip is speechless. 'FOMO and greed wiped out years of smart investing. The hardest lesson: speculation is not investing. But you're still young enough to rebuild.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5-overconfident",
+        "narrative": "Year 8. Your stock picks were a mixed bag. Two went up, three went down. Net result: you underperformed the index fund by about 5%. Those active trades also had brokerage fees that ate into returns. If you'd just kept the SIP going, you'd have ₹4,000 more.",
+        "timeSkip": "3 years later...",
+        "choices": [
+          {
+            "text": "Go back to boring index fund SIP. Active trading isn't worth it.",
+            "nextNodeId": "node-end-good",
+            "walletImpact": -2000,
+            "feedback": "Chip smiles knowingly. 'Most professional fund managers can't beat the index consistently. You tried, you learned, and now you're back to what works.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5-recovery",
+        "narrative": "Year 10. You had a rough start, late entry, some wrong moves. But you course-corrected. Your portfolio has grown to about ₹14,000. Not as much as it could've been if you'd been disciplined from the start, but you're invested, you're learning, and you have decades ahead.",
+        "timeSkip": "5 years later... Year 10.",
+        "choices": [],
+        "isEnd": true,
+        "endOutcome": "okay",
+        "endSummary": "You made mistakes, panic selling, late starts, or missed opportunities. But you got back in the game. Your ₹14,000 portfolio is a foundation, not a finish line. The real win? You learned lessons that most people don't learn until their 40s. Chip says: 'The next decade is where your real wealth gets built.'"
+      },
+      {
+        "nodeId": "node-end-good",
+        "narrative": "Year 10. Through some detours, a crypto gamble, an overconfident stock-picking phase, or a late start, you've ended up with about ₹21,000. Not the optimal outcome, but still a solid 4x return on your initial ₹5,000. You've learned what works and what doesn't.",
+        "timeSkip": "Year 10.",
+        "choices": [],
+        "isEnd": true,
+        "endOutcome": "good",
+        "endSummary": "You made some mistakes but always course-corrected. The crypto loss or the stock-picking experiment? Those were tuition fees. Your core strategy, SIP, index funds, patience, proved itself. Chip says: 'Imperfect investing beats perfect procrastination. You're set up for an amazing next decade.'"
+      },
+      {
+        "nodeId": "node-end-mediocre",
+        "narrative": "Year 10. Your money has been sitting in a savings account and FDs. It's now about ₹11,500. Safe? Yes. But inflation adjusted, your purchasing power barely grew. Friends who stayed invested through the crash and recovery have ₹20,000-28,000.",
+        "timeSkip": "Year 10.",
+        "choices": [],
+        "isEnd": true,
+        "endOutcome": "mediocre",
+        "endSummary": "You chose safety over growth. Your money didn't lose nominal value, but inflation ate most of the returns. The market crash scared you permanently, and that fear cost you about ₹15,000 in potential gains. Chip says: 'Safety feels good in the short term but costs you in the long term. It's not too late to start investing, but the sooner, the better.'"
+      },
+      {
+        "nodeId": "node-end-poor",
+        "narrative": "Year 10. After losing most or all of your investments to concentrated bets, panic selling, or spending, you're starting from scratch. Your portfolio is about ₹4,000, less than what your grandmother gave you a decade ago.",
+        "timeSkip": "Year 10.",
+        "choices": [],
+        "isEnd": true,
+        "endOutcome": "poor",
+        "endSummary": "It's been a tough decade. Concentrated stock bets, panic selling, crypto FOMO, or simply spending your investments, the money is mostly gone. But here's the thing: you're 28. You have 30+ working years ahead. Every lesson you learned the hard way means you won't repeat it. Chip says: 'The best investors aren't the ones who never fell. They're the ones who got back up. Your real investing journey starts NOW.'"
+      }
+    ]
+  },
+  "dailyChallenges": [
+    {
+      "date": null,
+      "type": "scenario",
+      "title": "The SIP Skip Dilemma",
+      "content": {
+        "scenario": "Your ₹2,000 monthly SIP auto-debit is due tomorrow. You've had an expensive month, birthday party, new earphones, eating out. Your bank balance is ₹3,200. Pausing the SIP for one month would give you breathing room.",
+        "prompt": "What's the smartest move?",
+        "options": [
+          {
+            "text": "Skip the SIP this month, one month won't matter",
+            "isCorrect": false
+          },
+          {
+            "text": "Let the SIP run, consistency matters more than one tough month",
+            "isCorrect": true
+          },
+          {
+            "text": "Cancel the SIP entirely, investing is stressing you out",
+            "isCorrect": false
+          },
+          {
+            "text": "Withdraw from your investments to cover expenses",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "One skipped SIP might seem harmless, but the habit of skipping is what kills long-term wealth. That ₹2,000 invested today at 12% for 30 years becomes ₹59,920. Missing one month is missing sixty thousand rupees in future value. Tighten this month's spending instead. Chip says: 'Your SIP is a promise to your future self. Don't break it for earphones.'"
+      },
+      "xpReward": 25,
+      "requiredChaptersCompleted": 2
+    },
+    {
+      "date": null,
+      "type": "quiz",
+      "title": "Rule of 72 Speed Round",
+      "content": {
+        "prompt": "Your friend says an investment will double your money in 4 years. Using the Rule of 72, what annual return is this implying?",
+        "options": [
+          {
+            "text": "4%",
+            "isCorrect": false
+          },
+          {
+            "text": "18%",
+            "isCorrect": true
+          },
+          {
+            "text": "12%",
+            "isCorrect": false
+          },
+          {
+            "text": "72%",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "72 ÷ 4 years = 18% annual return. That's very high but not impossible for equity markets in a good run. If someone promises this 'guaranteed,' be suspicious, but as an expected average, 18% for a high-risk equity bet is within the realm of possibility. Chip says: 'Always do the Rule of 72 math when someone talks about doubling money.'"
+      },
+      "xpReward": 25,
+      "requiredChaptersCompleted": 2
+    },
+    {
+      "date": null,
+      "type": "scenario",
+      "title": "The WhatsApp Stock Tip",
+      "content": {
+        "scenario": "Your uncle forwards a WhatsApp message: 'GUARANTEED 200% returns in 6 months! Invest ₹10,000 in XYZ Crypto Token. Only 50 spots left!' Three of your cousins have already invested.",
+        "prompt": "What should you do?",
+        "options": [
+          {
+            "text": "Invest ₹10,000, your cousins are in, so it must be legit",
+            "isCorrect": false
+          },
+          {
+            "text": "Invest a small amount like ₹1,000 to test it",
+            "isCorrect": false
+          },
+          {
+            "text": "Ignore it completely, guaranteed 200% in 6 months is a massive red flag",
+            "isCorrect": true
+          },
+          {
+            "text": "Forward it to more people so everyone can benefit",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Rule of 72 check: 200% in 6 months implies your money TRIPLES in half a year. To just double in 6 months would need 72÷0.5 = 144% annual returns. No legitimate investment delivers that. 'Guaranteed' high returns + urgency ('only 50 spots') + WhatsApp forwards = classic Ponzi/scam pattern. Chip says: 'The only thing guaranteed here is that someone's losing their money. Don't let it be you.'"
+      },
+      "xpReward": 25,
+      "requiredChaptersCompleted": 2
+    }
+  ],
+  "chapterMetadata": {
+    "totalContentBlocks": 127,
+    "totalExercises": 35,
+    "totalSimulationNodes": 24,
+    "totalDailyChallenges": 3,
+    "estimatedTotalReadingTime": "72 minutes",
+    "exerciseTypeDistribution": {
+      "mcq-single": 14,
+      "mcq-multi": 1,
+      "scenario": 6,
+      "sorting": 3,
+      "true-false": 5,
+      "calculator": 4
+    }
+  }
+}

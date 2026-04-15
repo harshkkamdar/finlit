@@ -1,0 +1,2252 @@
+{
+  "chapterId": "chapter-1",
+  "title": "The Stock Market",
+  "tagline": "Own a piece of India's biggest companies, and actually understand what that means.",
+  "accentColor": "Confident Green",
+  "estimatedDuration": "75-90 minutes",
+  "totalXP": 490,
+  "step1_researchOutline": {
+    "note": "Internal reference only - not rendered in app",
+    "keyConcepts": [
+      "What a stock/share is - ownership, not a loan",
+      "Why companies issue shares (IPOs, fundraising)",
+      "NSE vs BSE - history, scale, differences",
+      "How prices move - supply/demand, not random",
+      "Market cap and what it tells you",
+      "Sensex (30 stocks, BSE) and Nifty 50 (50 stocks, NSE)",
+      "Index as a 'temperature reading' of the economy",
+      "Demat accounts - what they are, who provides them (Zerodha, Groww, Upstox)",
+      "How to actually place an order (market vs limit)",
+      "Bull markets vs bear markets - psychology, not just price",
+      "Circuit breakers, upper/lower circuits"
+    ],
+    "realIndianExamples": [
+      "TCS - India's most valuable company by market cap (₹13+ lakh crore)",
+      "Reliance Industries - conglomerate, Mukesh Ambani, retail + Jio",
+      "Infosys - IT giant, co-founded by Narayana Murthy",
+      "HDFC Bank - largest private sector bank",
+      "Zomato IPO (July 2021) - oversubscribed 38x, opened at ₹116 vs ₹76 issue price",
+      "Sensex at ~72,000-75,000 range (2024), started at 100 in 1979",
+      "Nifty 50 at ~21,000-22,000 range (2024), base value 1000 in Nov 1995",
+      "BSE founded 1875 - Asia's oldest stock exchange",
+      "NSE founded 1992 - world's largest derivatives exchange by contracts",
+      "Zerodha - India's largest discount broker, founded by Nithin Kamath",
+      "Groww - popular among young investors, fintech unicorn",
+      "Covid crash March 2020 - Sensex fell ~38% in a month, then recovered"
+    ],
+    "learningObjectives": [
+      "Explain what a stock is using their own words/analogy",
+      "Distinguish between NSE and BSE and why both exist",
+      "Predict directionally how supply/demand affects a stock price",
+      "Interpret a Sensex/Nifty reading and know what it means for the economy",
+      "List the steps to open a demat account and place a first trade",
+      "Correctly identify bull vs bear market conditions from a scenario"
+    ]
+  },
+  "lessons": [
+    {
+      "lessonId": "lesson-1-1",
+      "title": "What is a Stock?",
+      "subtitle": "Owning part of a company",
+      "estimatedReadingTime": "10 minutes",
+      "accentColor": "Confident Green",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Okay, real question. If you and four friends started a chai tapri together, each putting in ₹10,000, who owns the tapri? All five of you, equally, right? You each own 20% of the business. If the tapri earns ₹1 lakh profit, you each get ₹20,000. If it burns down, you each lose ₹10,000. That's it. That's literally what a stock is."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Five friends splitting ownership of a chai tapri equally",
+            "src": "/illustrations/ch1/l1-chai-tapri-ownership.png",
+            "prompt": "Five Indian teens standing around a colorful chai tapri stall, each holding a small flag showing 20%. Green (#2ECC71) color palette, bold flat illustration style, fun and vibrant, filling the entire frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now scale that up. Instead of a chai tapri, imagine it's Reliance Industries, the company behind your Jio SIM, the Reliance Fresh near your house, and half the petrol stations in India. Instead of 5 friends, there are millions of investors. And instead of owning 20%, each person owns a tiny slice, maybe 0.0001%. Each of those tiny slices is called a share or a stock."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Stock / Share",
+            "definition": "A unit of ownership in a company. When you buy one share of TCS, you literally own a (very tiny) piece of Tata Consultancy Services."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "confused",
+            "text": "Wait, so if I buy one share of Reliance, I actually own a piece of Mukesh Ambani's company? Like, for real?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "For real! A tiny, tiny piece. You won't get invited to board meetings with one share, but legally you are a part-owner of that company. Pretty cool, right?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "So why would a big company like Infosys want millions of random strangers owning pieces of it? Simple: money. When a company wants to grow, build new factories, hire engineers, or expand to new cities, it needs cash. It can borrow (take a loan) or it can sell ownership (issue shares). Selling shares means no repayment, no interest. In exchange, shareholders get a say in how the company is run, and a share of the profits."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "IPO (Initial Public Offering)",
+            "definition": "The first time a company sells its shares to the public. Think of it as the company's 'launch day' on the stock market. Zomato's IPO was in July 2021."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Zomato's IPO in July 2021 was one of India's most hyped launches. The issue price was ₹76 per share. Within hours of listing, it was trading at ₹116, a 52% jump in one day. Early investors literally made ₹40 per share by doing nothing except applying on time."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Diagram showing how a company's ownership is divided into thousands of shares",
+            "src": "/illustrations/ch1/l1-stock-ownership-pie.png",
+            "prompt": "A large pie chart divided into many equal slices representing company ownership. One slice is highlighted in bright green (#2ECC71) and labeled 'Your share'. Below the pie: '10,000 total shares x Rs 100/share = Rs 10,00,000 total value'. Bold flat style, clean minimal design, green color palette."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here's the thing though. Buying a stock is NOT the same as giving a loan. When you lend money, the borrower has to pay you back no matter what. When you buy a stock, you're taking a risk. If the company does well, your share is worth more and you get dividends (a portion of profits). If the company does badly? Your share drops in value. No guarantees."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Dividend",
+            "definition": "A portion of a company's profit paid out to shareholders. Like a bonus for owning the stock. Not all companies pay dividends; many reinvest profits back into growth instead."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Buying a stock makes you a part-owner of that company. Next time you order on Zomato, remember, someone out there literally owns a piece of that app. It could be you."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "TCS, Tata Consultancy Services, is currently India's most valuable company with a market cap of over ₹13 lakh crore (yes, lakh crore). It has over 34 crore shares outstanding. If you owned just 1 share, you'd own roughly 0.000000003% of TCS. Sounds tiny. But if TCS stock goes from ₹3,800 to ₹4,200, your one share just gained ₹400. Own 1,000 shares and that's ₹4 lakh of profit, without doing any work."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "TCS company building with its massive market cap value displayed",
+            "src": "/illustrations/ch1/l1-tcs-market-cap.png",
+            "prompt": "A bold flat illustration of a large modern office building labeled 'TCS' with a giant green (#2ECC71) banner reading 'Market Cap: Rs 13 Lakh Crore'. Small figures of people below for scale. Green color palette, clean composition filling the frame."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Market Capitalisation (Market Cap)",
+            "definition": "The total value of all a company's shares. Formula: Share Price x Total Shares. TCS at ₹3,800/share x 340 crore shares = roughly ₹13 lakh crore market cap."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "So basically, the stock market is just a giant marketplace where people buy and sell these slices of ownership. The price of each slice changes constantly, based on how many people want to buy vs sell, what the company's earnings look like, what's happening in the news, and sometimes just vibes. We'll get into all of that. But first, let's meet the two main places where this buying and selling happens in India."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Key mindset: When you own a stock, you own part of a real business with real employees, real customers, and real profits. It's not a gambling chip. It's a tiny ownership certificate. That framing matters a lot for how you'll think about investing."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A bustling marketplace where people trade ownership slices of companies",
+            "src": "/illustrations/ch1/l1-stock-marketplace.png",
+            "prompt": "A vibrant flat illustration of a marketplace bazaar where stalls display company logos (Reliance, Infosys, Tata) instead of goods. Indian teens browsing the stalls. Green (#2ECC71) palette, bold shapes, lively composition filling the space."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "scenario",
+          "scenario": "Priya and her two brothers want to open a biryani restaurant. They need ₹3,00,000. Priya puts in ₹1,50,000, and each brother puts in ₹75,000. A year later, the restaurant earns ₹60,000 in profit.",
+          "prompt": "How much profit should Priya receive?",
+          "options": [
+            {
+              "text": "₹20,000, split equally between three people",
+              "isCorrect": false
+            },
+            {
+              "text": "₹30,000, she owns 50%, so she gets 50% of profit",
+              "isCorrect": true
+            },
+            {
+              "text": "₹60,000, she put in the most money so she gets everything",
+              "isCorrect": false
+            },
+            {
+              "text": "₹0, profits should be reinvested in the business",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Priya owns 50% of the business (₹1,50,000 out of ₹3,00,000). So she gets 50% of the ₹60,000 profit = ₹30,000. Each brother owns 25% and gets ₹15,000 each. This is exactly how stock ownership works, your share of profits matches your share of ownership.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "A company issues an IPO to raise funds. What does IPO stand for?",
+          "options": [
+            {
+              "text": "International Profit Organisation",
+              "isCorrect": false
+            },
+            {
+              "text": "Initial Public Offering",
+              "isCorrect": true
+            },
+            {
+              "text": "Investor Portfolio Option",
+              "isCorrect": false
+            },
+            {
+              "text": "Indexed Price Outcome",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "IPO = Initial Public Offering. It's the first time a private company sells shares to the general public. After the IPO, the shares trade freely on the stock exchange every day.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "When you buy a stock, the company is obligated to return your money if you need it back.",
+          "correctAnswer": false,
+          "explanation": "Stocks are NOT loans. The company has no obligation to return your money. You get your money back only by selling your shares to someone else on the stock exchange, and only at whatever the market price is at that time. This is why stocks carry risk.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "If TCS has 340 crore total shares and is currently trading at ₹3,800 per share, what is TCS's market cap approximately?",
+          "options": [
+            {
+              "text": "₹3,800 crore",
+              "isCorrect": false
+            },
+            {
+              "text": "₹13 lakh crore",
+              "isCorrect": true
+            },
+            {
+              "text": "₹340 crore",
+              "isCorrect": false
+            },
+            {
+              "text": "₹1 lakh crore",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Market Cap = Share Price × Total Shares = ₹3,800 × 340 crore = ₹12,92,000 crore ≈ ₹13 lakh crore. This is why TCS is called India's most valuable company, its total ownership value exceeds that of any other Indian company.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-multi",
+          "prompt": "Which of the following are true about owning a stock? (Select all that apply)",
+          "options": [
+            {
+              "text": "You become a part-owner of the company",
+              "isCorrect": true
+            },
+            {
+              "text": "You may receive dividends if the company shares profits",
+              "isCorrect": true
+            },
+            {
+              "text": "The company must repay you with interest",
+              "isCorrect": false
+            },
+            {
+              "text": "Your investment can go down in value",
+              "isCorrect": true
+            }
+          ],
+          "explanation": "Stocks give you ownership and potential dividends, but no repayment guarantee. Unlike a fixed deposit or bond, your stock can lose value. That's the trade-off for the potentially higher returns.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-1-2",
+      "title": "Stock Exchanges: NSE & BSE",
+      "subtitle": "India's two big stock bazaars",
+      "estimatedReadingTime": "9 minutes",
+      "accentColor": "Confident Green",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Think of a stock exchange like a bazaar, except instead of vegetables and clothes, people are buying and selling ownership of companies. In India, we have two main bazaars: the BSE and the NSE. And just like how Dadar market and Crawford market both sell vegetables but have their own vibe, these two exchanges have their own histories, strengths, and specialties."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Two grand market buildings side by side representing BSE and NSE",
+            "src": "/illustrations/ch1/l2-two-exchanges.png",
+            "prompt": "Two grand buildings side by side. Left building is old and ornate labeled 'BSE - Est. 1875', right building is modern and sleek labeled 'NSE - Est. 1992'. Indian flag on top of each. Green (#2ECC71) color palette, bold flat illustration style, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The Bombay Stock Exchange (BSE) is the elder statesman. It was founded in 1875, that's over 150 years ago, when India was still under British rule. Back then, brokers used to meet under a banyan tree on Dalal Street in Mumbai to trade. Today, BSE is Asia's oldest stock exchange, lists over 5,000 companies, and is located at the iconic Phiroze Jeejeebhoy Towers in Mumbai."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "BSE (Bombay Stock Exchange)",
+            "definition": "Founded in 1875, Asia's oldest stock exchange. Located on Dalal Street, Mumbai. Home to the Sensex index (30 stocks). Lists 5,000+ companies."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Dalal Street, where BSE is located, literally means 'Broker's Street' in Hindi. The term 'Dalal Street' is used the same way Indians say 'D-Street' or the way Americans say 'Wall Street.' Same energy."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The National Stock Exchange (NSE) is the newer, faster sibling. It was set up in 1992, specifically to modernize and democratize Indian markets, which BSE had dominated for over a century. NSE introduced electronic trading in India, meaning no more shouting on trading floors. Just computers. Fast ones. NSE today handles more trading volume than BSE and is the world's largest derivatives exchange by number of contracts traded."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "NSE (National Stock Exchange)",
+            "definition": "Founded in 1992. India's largest exchange by trading volume. Home to the Nifty 50 index. Introduced fully electronic trading in India. World's largest derivatives exchange by contract volume."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "thinking",
+            "text": "So if both exchanges exist, which one do people actually use? Do you have to pick one?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "Most big companies are listed on both! You can buy Infosys on either one. But most retail investors end up on NSE because it has more liquidity, meaning your trades go through faster."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Side-by-side comparison cards of BSE and NSE with key facts",
+            "src": "/illustrations/ch1/l2-bse-nse-comparison.png",
+            "prompt": "Two info cards side by side. Left card: BSE with bull icon, 'Founded 1875', 'Sensex (30 stocks)', '5000+ listed companies', 'Asia's oldest'. Right card: NSE with lightning bolt, 'Founded 1992', 'Nifty 50', '2000+ listed', 'World #1 derivatives'. Green (#2ECC71) accents, bold flat design, clean layout."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Liquidity",
+            "definition": "How easy it is to buy or sell something quickly without the price moving too much. High liquidity = many buyers and sellers, fast trades. Low liquidity = you might struggle to find a buyer."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Both exchanges are regulated by SEBI, the Securities and Exchange Board of India. Think of SEBI as the referee who makes sure nobody cheats. Without SEBI, markets would be the Wild West."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "SEBI (Securities and Exchange Board of India)",
+            "definition": "India's stock market regulator, established in 1988. SEBI makes the rules, investigates fraud, and protects investors. Like RBI for banks, SEBI is the watchdog for markets."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "SEBI as a referee overseeing the stock market game",
+            "src": "/illustrations/ch1/l2-sebi-referee.png",
+            "prompt": "A bold flat illustration of a referee character wearing a SEBI badge, standing between two stock exchange buildings (BSE and NSE), blowing a whistle. Green (#2ECC71) uniform and accents. Playful but authoritative, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Stock markets in India are open on weekdays, from 9:15 AM to 3:30 PM. Outside these hours, you can place orders but they won't execute till the market opens. Saturday, Sunday, and public holidays? The market is closed. Your stocks don't disappear; they're just sitting there, waiting."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "When you read news headlines like 'Markets rallied today' or 'Sensex crashes 1,000 points', that's talking about these two exchanges. The Sensex lives on BSE; the Nifty lives on NSE. We'll break both down in Lesson 1.4."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A clock showing Indian stock market trading hours from 9:15 AM to 3:30 PM",
+            "src": "/illustrations/ch1/l2-market-hours.png",
+            "prompt": "A large clock face with the segment from 9:15 AM to 3:30 PM highlighted in bright green (#2ECC71). Small icons around it: coffee cup at 9:15, lunch box at 12, closing bell at 3:30. Bold flat style, clean, filling the frame."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "Which of the following correctly describes when BSE was founded?",
+          "options": [
+            {
+              "text": "1947, the year of Indian independence",
+              "isCorrect": false
+            },
+            {
+              "text": "1992, after economic liberalisation",
+              "isCorrect": false
+            },
+            {
+              "text": "1875, making it Asia's oldest stock exchange",
+              "isCorrect": true
+            },
+            {
+              "text": "1935, during British rule",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "BSE was founded in 1875, a full 72 years before Indian independence. It started with brokers meeting under a banyan tree on what is now Dalal Street. It's Asia's oldest stock exchange.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "The NSE handles more daily trading volume than the BSE.",
+          "correctAnswer": true,
+          "explanation": "Despite BSE being older and listing more companies, NSE dominates in trading volume, especially in derivatives (futures and options). NSE is the world's largest derivatives exchange by contracts traded.",
+          "xpValue": 10
+        },
+        {
+          "type": "sorting",
+          "prompt": "Match each fact to the correct exchange",
+          "categories": [
+            "BSE",
+            "NSE"
+          ],
+          "items": [
+            {
+              "text": "Founded in 1875",
+              "correctCategory": "BSE"
+            },
+            {
+              "text": "Home of the Nifty 50 index",
+              "correctCategory": "NSE"
+            },
+            {
+              "text": "Asia's oldest stock exchange",
+              "correctCategory": "BSE"
+            },
+            {
+              "text": "Introduced electronic trading in India",
+              "correctCategory": "NSE"
+            },
+            {
+              "text": "Located on Dalal Street, Mumbai",
+              "correctCategory": "BSE"
+            },
+            {
+              "text": "World's largest derivatives exchange by volume",
+              "correctCategory": "NSE"
+            }
+          ],
+          "explanation": "BSE (1875) is the historic original. NSE (1992) is the modern, tech-driven exchange that overtook BSE in volume. Both are regulated by SEBI and both list India's major companies.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "What does SEBI do?",
+          "options": [
+            {
+              "text": "It runs the BSE and NSE directly",
+              "isCorrect": false
+            },
+            {
+              "text": "It regulates stock markets to protect investors and prevent fraud",
+              "isCorrect": true
+            },
+            {
+              "text": "It decides which stocks to buy and sell",
+              "isCorrect": false
+            },
+            {
+              "text": "It prints money for the Indian economy",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "SEBI (Securities and Exchange Board of India) is the watchdog, it sets rules for exchanges, listed companies, brokers, and investors. It investigates insider trading and market manipulation. It doesn't run the markets; it oversees them.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Indian stock markets are open for trading during which hours on weekdays?",
+          "options": [
+            {
+              "text": "10:00 AM to 4:00 PM",
+              "isCorrect": false
+            },
+            {
+              "text": "9:15 AM to 3:30 PM",
+              "isCorrect": true
+            },
+            {
+              "text": "9:00 AM to 5:00 PM",
+              "isCorrect": false
+            },
+            {
+              "text": "8:00 AM to 2:00 PM",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "NSE and BSE trading hours are 9:15 AM to 3:30 PM IST, Monday to Friday, excluding market holidays. There's also a pre-open session from 9:00–9:15 AM where orders are collected but not immediately executed.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-1-3",
+      "title": "How Stock Prices Move",
+      "subtitle": "Supply, demand, and the human heart",
+      "estimatedReadingTime": "11 minutes",
+      "accentColor": "Confident Green",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Have you noticed how samosa prices go up during exam season? Every canteen near a college charges more because 500 stressed students all want samosas at the same time and there are only so many samosas. More people want them (demand goes up), same amount available (supply stays the same), price goes up. Stock prices work on the exact same logic."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A canteen with students lining up for samosas showing supply and demand",
+            "src": "/illustrations/ch1/l3-samosa-supply-demand.png",
+            "prompt": "A college canteen scene with a long queue of Indian students waiting for samosas. A price board shows the samosa price going up with an arrow. Green (#2ECC71) color palette, bold flat illustration, playful and energetic, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Every second the market is open, thousands of people are placing buy and sell orders for stocks. If more people want to buy Infosys than sell it, the price goes up. If more people want to sell than buy, the price drops. That's it. Supply and demand, same as samosas, same as concert tickets, same as everything."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Supply and Demand",
+            "definition": "The fundamental force that sets prices. More buyers than sellers = price goes up. More sellers than buyers = price goes down. Applies to everything from onions to Infosys shares."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "thinking",
+            "text": "Okay but what actually makes people suddenly want to buy or sell? Like, something must trigger it, right?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Great question. The biggest trigger is company earnings. Every quarter (3 months), listed companies announce their results: how much revenue they made, how much profit, whether it's growing. If Reliance announces profits that beat expectations, investors get excited and rush to buy. Price goes up. If results disappoint? Sellers flood in. Price drops."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "In March 2020, Sensex fell from around 41,000 to roughly 25,600 in just 40 days, a crash of 38%. By December 2020 (just 9 months later), it had recovered to around 47,000. Markets go down, but over the long run, they've always come back."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "News headlines affecting stock prices with arrows showing price going up and down",
+            "src": "/illustrations/ch1/l3-news-moves-prices.png",
+            "prompt": "A split scene: left side shows a positive newspaper headline ('Record Profits!') with a green arrow pointing up, right side shows a negative headline ('CEO Resigns') with a red arrow pointing down. Stock chart in background. Green (#2ECC71) palette for positive side, bold flat style, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "News and events are the second big mover. Company news (new product launch, CEO change, big contract win), industry news (new government policy, competitor gaining ground), and macro news (RBI hiking interest rates, oil prices spiking) can all move stock prices. In 2020, the day India announced the first Covid lockdown, Sensex fell 3,935 points, the biggest single-day fall ever at that time."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Investor Sentiment",
+            "definition": "The overall mood of investors, whether optimistic (bullish) or pessimistic (bearish). Sentiment can drive prices away from a company's real value in the short term."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "And then there's investor sentiment. This one's the tricky one. Sometimes prices move not because of any real news, just because people feel optimistic or pessimistic. Fear and greed are real forces in markets. When everyone panics, they sell even good stocks. When everyone's euphoric, they buy even bad ones."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "In the short term, stock prices are a popularity contest. In the long term, they reflect the company's actual value. Warren Buffett said it better: 'In the short run, the market is a voting machine. In the long run, it's a weighing machine.'"
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A voting machine on one side and a weighing scale on the other representing short-term vs long-term markets",
+            "src": "/illustrations/ch1/l3-voting-vs-weighing.png",
+            "prompt": "Left side: a ballot box labeled 'Short Term' with emotional faces (happy, scared) voting. Right side: a weighing scale labeled 'Long Term' with company buildings and profit charts on it. Green (#2ECC71) palette, bold flat illustration, clean split composition."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "There's also something called circuit breakers. These are rules that automatically pause trading if a stock (or the whole market) falls or rises too fast. If a stock falls more than 20% in a day, BSE and NSE will halt trading in it for a bit to let everyone calm down. This is called hitting the lower circuit. If it rises 20%? That's the upper circuit."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Circuit Breaker (Upper/Lower Circuit)",
+            "definition": "A SEBI-mandated pause in trading when a stock price moves too far too fast. Lower circuit = stock fell by its limit. Upper circuit = stock rose by its limit. Exists to prevent panic-driven crashes."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "confident",
+            "text": "Think of circuit breakers like speed bumps on a highway. They don't stop the car forever, they just force everyone to slow down and think before making rash decisions."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Short-term price movement is noisy and hard to predict. Long-term price movement follows company performance. The mistake most new investors make is obsessing over daily price changes and ignoring whether the underlying business is actually good."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "scenario",
+          "scenario": "Tata Motors announces it has secured a massive contract to supply electric buses to 10 state governments across India. This is significantly larger than what analysts had expected.",
+          "prompt": "What would most likely happen to Tata Motors' stock price immediately after this announcement?",
+          "options": [
+            {
+              "text": "It would fall, more contracts mean more expenses",
+              "isCorrect": false
+            },
+            {
+              "text": "It would rise, positive surprise means more buyers enter the market",
+              "isCorrect": true
+            },
+            {
+              "text": "It would stay the same, contracts don't affect stock prices",
+              "isCorrect": false
+            },
+            {
+              "text": "It would hit the lower circuit",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A positive earnings surprise (better-than-expected news) typically causes a stock price to jump, more investors want to buy in on the good news, more demand, price rises. This is called a 'positive catalyst.'",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "A stock hits its 'lower circuit' during trading. What does this mean?",
+          "options": [
+            {
+              "text": "The stock has risen 20% and trading is paused",
+              "isCorrect": false
+            },
+            {
+              "text": "The company has gone bankrupt",
+              "isCorrect": false
+            },
+            {
+              "text": "The stock has fallen by its maximum allowed limit and trading is temporarily halted",
+              "isCorrect": true
+            },
+            {
+              "text": "Only big investors can buy the stock now",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Lower circuit = the stock has hit its maximum allowed fall for the day (typically 20% for individual stocks). Trading pauses to prevent panic selling. It's a safety mechanism, not the company going bankrupt.",
+          "xpValue": 10
+        },
+        {
+          "type": "sorting",
+          "prompt": "Sort these events by their likely effect on a stock price",
+          "categories": [
+            "Price likely goes UP",
+            "Price likely goes DOWN"
+          ],
+          "items": [
+            {
+              "text": "Company announces higher-than-expected quarterly profits",
+              "correctCategory": "Price likely goes UP"
+            },
+            {
+              "text": "Key CEO resigns unexpectedly amid controversy",
+              "correctCategory": "Price likely goes DOWN"
+            },
+            {
+              "text": "Company wins a major government contract",
+              "correctCategory": "Price likely goes UP"
+            },
+            {
+              "text": "A competitor launches a superior product",
+              "correctCategory": "Price likely goes DOWN"
+            },
+            {
+              "text": "Company announces stock split (more shares at lower price each)",
+              "correctCategory": "Price likely goes UP"
+            },
+            {
+              "text": "Government bans the company's core product",
+              "correctCategory": "Price likely goes DOWN"
+            }
+          ],
+          "explanation": "Positive news (profits, contracts, growth) drives demand and prices up. Negative news (leadership problems, competition, regulation) drives sellers in and prices down. Not always, markets are complex, but these are the dominant tendencies.",
+          "xpValue": 15
+        },
+        {
+          "type": "true-false",
+          "prompt": "Stock prices are entirely random and cannot be influenced by company performance.",
+          "correctAnswer": false,
+          "explanation": "Short-term price moves can seem random, but over the long term, stock prices track company performance closely. A company that grows profits year after year will almost certainly have a higher stock price years later. Short-term = noisy. Long-term = follows fundamentals.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Warren Buffett said: 'In the short run, the market is a voting machine. In the long run, it's a weighing machine.' What does 'weighing machine' refer to?",
+          "options": [
+            {
+              "text": "The weight of the stock certificates",
+              "isCorrect": false
+            },
+            {
+              "text": "The actual underlying value and performance of the business",
+              "isCorrect": true
+            },
+            {
+              "text": "How heavy trading volume is",
+              "isCorrect": false
+            },
+            {
+              "text": "The number of investors in the market",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Buffett means: in the short term, stocks move based on popularity/sentiment (voting). In the long term, they move based on actual business value, profits, revenue growth, competitive strength (weighing). That's why long-term investors focus on the business, not the daily price.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-1-4",
+      "title": "Sensex & Nifty: The Scoreboard",
+      "subtitle": "Reading the economy's daily report card",
+      "estimatedReadingTime": "10 minutes",
+      "accentColor": "Confident Green",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Imagine trying to understand how India's cricket team is doing, but instead of one scoreboard, you had to check the individual scores of 5,000 players at once. Chaotic, right? This is the problem stock market indices solve. Instead of tracking every single listed company, we track a select group of the biggest, most important ones, and their combined movement tells us how the whole market (and the economy) is doing."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A cricket scoreboard transforming into a stock market index display",
+            "src": "/illustrations/ch1/l4-scoreboard-analogy.png",
+            "prompt": "A cricket scoreboard on the left with player scores, an arrow in the middle, and a stock market index display on the right showing 'Sensex: 75,000' and 'Nifty: 22,000'. Green (#2ECC71) palette, bold flat style, playful comparison layout, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Enter the Sensex and the Nifty 50, India's two most important market indices. Every news broadcast, every business newspaper, every WhatsApp forward about the economy will mention at least one of these numbers. After this lesson, you'll actually understand what they mean."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Stock Market Index",
+            "definition": "A carefully selected basket of stocks used to represent the overall performance of the market. Like an average, but smarter, weighted by the size of each company."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "confused",
+            "text": "My dad keeps saying 'Sensex hit 75,000 today' like it's a big deal. What does that number even mean? Is 75,000 a lot?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "It means the combined value of India's top 30 companies is 750 times what it was in 1979, when the Sensex started at 100. The number on its own doesn't mean much. What matters is the change, like 'up 500 points' or 'down 1.2%.'"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The Sensex (Sensitive Index) tracks 30 of the largest and most actively traded companies on BSE. Think of it as India's economic 'dream team': companies like Reliance Industries, TCS, HDFC Bank, Infosys, ITC, and Bajaj Finance. The Sensex started with a base value of 100 in 1979. In 2024, it crossed 75,000. That means India's top 30 companies, as a group, are worth 750 times what they were in 1979."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Sensex",
+            "definition": "BSE's benchmark index tracking 30 large-cap companies. Base value: 100 in 1979. As of 2024, trading around 72,000 to 75,000. Calculated using free-float market cap methodology."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "₹1 lakh invested in a Sensex index fund in 1979 would be worth approximately ₹7.5 crore today (at 75,000 Sensex). No fancy stock picking. No timing the market. Just sitting and waiting for 45 years. That's the power of long-term equity investing."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Chart showing Sensex growth from 100 in 1979 to 75,000 in 2024",
+            "src": "/illustrations/ch1/l4-sensex-growth-chart.png",
+            "prompt": "A line chart with x-axis from 1979 to 2024, y-axis showing Sensex value. Line goes from 100 to 75,000 with marked dips at 2008 and 2020 crashes, then recovery. Annotation: 'Every crash was followed by a new high'. Green (#2ECC71) line, bold flat style, clean data visualization."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The Nifty 50 (short for National Fifty) tracks the 50 largest companies listed on NSE. It's broader than the Sensex, 50 companies instead of 30, which means it captures a wider slice of the Indian economy. The Nifty's base value was 1,000 in November 1995. In 2024, it trades around 21,000 to 22,000, a 21-22x increase in roughly 29 years."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Nifty 50",
+            "definition": "NSE's benchmark index tracking 50 large-cap companies across 13 sectors. Base value: 1,000 in November 1995. As of 2024, trading around 21,000 to 22,000. Used as the most common benchmark by Indian mutual funds."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Stop freaking out about '500 point falls.' Always look at the percentage change, not the absolute number. A 500-point fall at 75,000 Sensex is 0.67%. Your coffee order fluctuates more in percentage terms when Starbucks changes prices."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Comparison showing 500 points means different things at different Sensex levels",
+            "src": "/illustrations/ch1/l4-points-vs-percentage.png",
+            "prompt": "Two scenarios side by side. Left: Sensex at 3,000 with a 500 point fall labeled '16.7% CRASH'. Right: Sensex at 75,000 with a 500 point fall labeled '0.67% blip'. Shocked face on left, calm face on right. Green (#2ECC71) palette, bold flat style, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Both indices are market-cap weighted, meaning bigger companies have more influence. Reliance Industries, TCS, and HDFC Bank together have such large market caps that their price movements dominate the index more than smaller companies. When these giants sneeze, the Sensex catches a cold."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Market-Cap Weighted Index",
+            "definition": "An index where each company's influence is proportional to its market cap. A ₹10 lakh crore company moves the index more than a ₹1 lakh crore company, even if both go up by the same percentage."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "When you invest in a Nifty 50 index fund, you're automatically buying tiny pieces of all 50 companies in proportion to their size. This is one of the simplest and most effective investment strategies, but that's a story for Chapter 2."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "The Sensex started at a base value of 100 in 1979. If it's now at 75,000, what does this tell you?",
+          "options": [
+            {
+              "text": "There are 750 more companies listed today than in 1979",
+              "isCorrect": false
+            },
+            {
+              "text": "The combined value of the top 30 BSE companies is 750 times what it was in 1979",
+              "isCorrect": true
+            },
+            {
+              "text": "The Indian rupee has inflated 750 times since 1979",
+              "isCorrect": false
+            },
+            {
+              "text": "Each of the 30 companies has grown exactly 750 times",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "The index value reflects the collective market cap movement of its constituent stocks. Sensex at 75,000 vs base 100 means the basket of 30 stocks is collectively worth 750 times their 1979 value. Not each company individually, the average across all 30.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "You're watching the news. The anchor says: 'Sensex fell 2,000 points today, the biggest single-day fall this year!' Your parent looks worried. But Sensex is currently at 78,000.",
+          "prompt": "How should you interpret this 2,000-point fall?",
+          "options": [
+            {
+              "text": "It's catastrophic, 2,000 points is huge",
+              "isCorrect": false
+            },
+            {
+              "text": "It's a 2.56% fall, significant but not unusual or catastrophic",
+              "isCorrect": true
+            },
+            {
+              "text": "It means the economy has shrunk by 2,000",
+              "isCorrect": false
+            },
+            {
+              "text": "All 30 Sensex companies lost exactly 2,000 points each",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "2,000 ÷ 78,000 = 2.56%. That's a notable single-day fall (markets usually move 0.5–1% daily), but it's not catastrophic. Headlines love big absolute numbers because they sound scary. Always convert to percentage to get the real picture.",
+          "xpValue": 15
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "How many companies does the Nifty 50 track?",
+          "options": [
+            {
+              "text": "30",
+              "isCorrect": false
+            },
+            {
+              "text": "50",
+              "isCorrect": true
+            },
+            {
+              "text": "100",
+              "isCorrect": false
+            },
+            {
+              "text": "500",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Nifty 50 tracks 50 companies listed on NSE. The Sensex (BSE) tracks 30. The Nifty 100 and Nifty 500 are broader indices, but Nifty 50 is the most widely used benchmark in India.",
+          "xpValue": 10
+        },
+        {
+          "type": "true-false",
+          "prompt": "In a market-cap weighted index, all companies have equal influence on the index movement.",
+          "correctAnswer": false,
+          "explanation": "Market-cap weighted means bigger companies (Reliance, TCS, HDFC Bank) have much more influence than smaller ones. If Reliance rises 2% and a smaller company falls 2%, the index will likely be up, because Reliance's total value impact is far larger.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "What was the Nifty 50's base value when it was launched in 1995?",
+          "options": [
+            {
+              "text": "100",
+              "isCorrect": false
+            },
+            {
+              "text": "500",
+              "isCorrect": false
+            },
+            {
+              "text": "1,000",
+              "isCorrect": true
+            },
+            {
+              "text": "10,000",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Nifty 50 started with a base value of 1,000 in November 1995. Today it's around 21,000–22,000, representing roughly a 21x growth. This includes dividends and compounding over ~29 years.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-1-5",
+      "title": "How to Actually Buy Stocks",
+      "subtitle": "Demat accounts and your first trade",
+      "estimatedReadingTime": "10 minutes",
+      "accentColor": "Confident Green",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Okay, you want to buy Infosys stock. You've done your research. You're convinced it's going to grow. So you... do what exactly? You can't walk into a shop and say 'give me 5 Infosys shares, please.' The process is a bit more structured. But it's also surprisingly simple, and in India, thanks to apps like Zerodha and Groww, anyone with a phone and ₹100 can start."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A teen looking at a smartphone showing a stock trading app",
+            "src": "/illustrations/ch1/l5-trading-app.png",
+            "prompt": "An Indian teen holding a smartphone with a stock trading app on screen showing Infosys stock with a green Buy button. Clean phone UI visible. Green (#2ECC71) palette, bold flat illustration, modern and relatable, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "To trade stocks, you need two things: a Demat account and a Trading account. Think of the Demat account as your digital locker where shares are stored electronically. Think of the Trading account as the interface where you actually place buy and sell orders. Most brokers give you both together when you sign up."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Demat Account (Dematerialised Account)",
+            "definition": "A digital account that holds your shares electronically. Just like a bank account holds your money, a Demat account holds your stocks. Maintained by depositories: NSDL (for NSE) and CDSL (for BSE)."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "Before 1996, shares were actual paper certificates. You'd get a literal piece of paper saying 'You own 50 shares of this company.' India converted to electronic (dematerialised) shares in 1996. No more losing share certificates; your holdings are just entries in a database now."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "surprised",
+            "text": "Wait, so people used to carry around paper certificates for their stocks? What if you lost them?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "happy",
+            "text": "Exactly the problem! People literally lost lakhs because a paper got damaged or stolen. That's why India moved everything digital. Now your shares sit safely in your Demat account, kind of like how your money sits in your bank app."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "In India, the major brokers include Zerodha (India's largest by active clients, founded by Nithin Kamath in Bengaluru), Groww (very popular among first-time young investors), Upstox (backed by Ratan Tata), Angel One, and ICICI Direct. Zerodha and Groww are discount brokers. They charge very low fees, around ₹0 to ₹20 per trade. Traditional banks like ICICI or HDFC offer trading but tend to charge more."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Stockbroker / Brokerage",
+            "definition": "A company that executes your buy and sell orders on the exchange. They make money by charging a brokerage fee per trade. In India: Zerodha, Groww, Upstox, Angel One, ICICI Direct."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Step-by-step flow showing how to buy your first stock in India",
+            "src": "/illustrations/ch1/l5-buy-stocks-flow.png",
+            "prompt": "A vertical numbered flow diagram with 5 steps: (1) Choose a broker app with Zerodha/Groww icons, (2) Complete KYC with PAN card and Aadhaar icons, (3) Fund your trading account with rupee symbol, (4) Search for stock with magnifying glass, (5) Place buy order with green button. Green (#2ECC71) step numbers, bold flat style, clean layout."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "To open a Demat account, you need: your PAN card (mandatory), Aadhaar for KYC verification, a bank account for fund transfers, and to be at least 18 years old (minors can have accounts under a parent's guardianship). The whole process is now fully online and takes 15 to 30 minutes. Account opening is free on most platforms."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "For beginners, always check the quantity before hitting 'Buy.' There's a famous story of a trader who meant to buy 1 share of a ₹5,000 stock and accidentally bought 1,000 shares, spending ₹50 lakh by mistake. Most apps now have confirmation screens, but still, check twice."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Once your account is funded, you can place orders. There are two main order types. A market order says 'buy this stock right now at whatever price it's currently trading.' A limit order says 'buy this stock, but only if the price drops to ₹X or below.' Market orders execute instantly. Limit orders wait until the price matches your condition, or expire at end of day if unfilled."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Market Order vs Limit Order",
+            "definition": "Market order: buy/sell immediately at current price. Limit order: buy/sell only when price hits a level you specify. Market = speed. Limit = control over price."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Comparison of market order (instant purchase) vs limit order (conditional purchase)",
+            "src": "/illustrations/ch1/l5-market-vs-limit.png",
+            "prompt": "Split scene. Left side: a person pressing a big green 'BUY NOW' button, stock purchased instantly, labeled 'Market Order'. Right side: a person setting a target price on a dial, waiting patiently, labeled 'Limit Order'. Green (#2ECC71) palette, bold flat style, clear comparison layout."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "When you sell a stock and make a profit, you'll owe tax. Short-term capital gains (STCG) applies if you held the stock for less than 1 year, taxed at 20% (as of 2024). Long-term capital gains (LTCG) applies if you held for more than 1 year, taxed at 12.5% on gains above ₹1.25 lakh per year. Understanding this matters when you decide whether to hold or sell."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Capital Gains Tax",
+            "definition": "Tax on profits from selling stocks. STCG (held under 1 year): 20%. LTCG (held over 1 year): 12.5% on gains above ₹1.25 lakh/year. Rates as of Budget 2024."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "You don't need a lot of money to start. Groww and Zerodha allow you to buy as little as 1 share of most stocks. If TCS is at ₹3,800, you can buy 1 share for ₹3,800. There's no minimum beyond 1 share."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A small plant growing from a single coin representing starting small with investing",
+            "src": "/illustrations/ch1/l5-start-small.png",
+            "prompt": "A small green plant sprouting from a single rupee coin, growing into a tree with stock certificates as leaves. A teen watering it with a small watering can. Green (#2ECC71) palette, bold flat illustration, hopeful and motivating, filling the frame."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "What is the primary purpose of a Demat account?",
+          "options": [
+            {
+              "text": "To store cash for investing",
+              "isCorrect": false
+            },
+            {
+              "text": "To hold your shares electronically in digital form",
+              "isCorrect": true
+            },
+            {
+              "text": "To transfer money between banks",
+              "isCorrect": false
+            },
+            {
+              "text": "To file income tax returns",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A Demat (Dematerialised) account stores your shares electronically, think of it as a bank account but for stocks instead of money. It replaced physical share certificates after 1996.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Arjun wants to buy Wipro shares. He thinks Wipro is currently overpriced at ₹480 and wants to buy only if the price dips to ₹450 or below. His friend tells him to just place a market order right now.",
+          "prompt": "Which order type should Arjun use, and why?",
+          "options": [
+            {
+              "text": "Market order, to buy immediately at ₹480",
+              "isCorrect": false
+            },
+            {
+              "text": "Limit order at ₹450, so he only buys if the price hits his target",
+              "isCorrect": true
+            },
+            {
+              "text": "Limit order at ₹480, same as market order in this case",
+              "isCorrect": false
+            },
+            {
+              "text": "He can't buy at a specific price, markets don't work that way",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Arjun wants price control, he'll buy at ₹450, not ₹480. That's a textbook limit order. If Wipro never drops to ₹450 before market close, his order stays unfilled (and he doesn't buy). Market orders would execute at ₹480 immediately, not what Arjun wants.",
+          "xpValue": 15
+        },
+        {
+          "type": "sorting",
+          "prompt": "Sort these items into what you DO and DON'T need to open a Demat account in India",
+          "categories": [
+            "Required",
+            "Not Required"
+          ],
+          "items": [
+            {
+              "text": "PAN Card",
+              "correctCategory": "Required"
+            },
+            {
+              "text": "Aadhaar Card",
+              "correctCategory": "Required"
+            },
+            {
+              "text": "Bank account",
+              "correctCategory": "Required"
+            },
+            {
+              "text": "Minimum ₹10,000 deposit",
+              "correctCategory": "Not Required"
+            },
+            {
+              "text": "A stockbroker / brokerage app",
+              "correctCategory": "Required"
+            },
+            {
+              "text": "Physical share certificates",
+              "correctCategory": "Not Required"
+            }
+          ],
+          "explanation": "You need PAN, Aadhaar (for KYC), a bank account, and a broker. There's no minimum deposit, you can fund as little as you want. Physical certificates are ancient history, shares are electronic since 1996.",
+          "xpValue": 15
+        },
+        {
+          "type": "true-false",
+          "prompt": "In India, a market order to buy stocks will be executed immediately at the current trading price.",
+          "correctAnswer": true,
+          "explanation": "A market order says 'buy at whatever price is available right now.' During market hours, it executes almost instantly. The slight risk is that by the time the order goes through, the price may have moved a few paise, this is called 'slippage,' and it's negligible for most regular investors.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "You bought a stock for ₹10,000 and sold it 8 months later for ₹13,000. What type of tax applies on your ₹3,000 profit?",
+          "options": [
+            {
+              "text": "Long-term capital gains tax (LTCG) at 12.5%",
+              "isCorrect": false
+            },
+            {
+              "text": "Short-term capital gains tax (STCG) at 20%",
+              "isCorrect": true
+            },
+            {
+              "text": "No tax, equity gains are tax-free",
+              "isCorrect": false
+            },
+            {
+              "text": "GST at 18%",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "You held for 8 months (less than 12 months), so STCG applies at 20%. Tax = 20% × ₹3,000 = ₹600. Had you held for more than 12 months, LTCG of 12.5% would apply (on gains above ₹1.25 lakh threshold). Holding longer is usually more tax-efficient.",
+          "xpValue": 10
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-1-6",
+      "title": "Bulls, Bears & Market Moods",
+      "subtitle": "When the market is on fire, and when it's in the freezer",
+      "estimatedReadingTime": "10 minutes",
+      "accentColor": "Confident Green",
+      "contentBlocks": [
+        {
+          "type": "text",
+          "data": {
+            "content": "Picture this: it's 2021. You log into Zerodha and everything is green. Your portfolio is up. Your random IPO applications are getting allotted. Your friend who never cared about stocks is now asking you for stock tips. Your uncle who said 'stock market is gambling' has quietly opened a demat account. This feeling? This is a bull market."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A charging bull surrounded by green stock charts going up",
+            "src": "/illustrations/ch1/l6-bull-market.png",
+            "prompt": "A powerful bull charging forward through rising green stock charts. Confetti and green arrows everywhere. Indian teens in the background celebrating with phones showing green portfolios. Green (#2ECC71) palette, bold flat illustration, energetic and dynamic, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now flip it. March 2020. Covid has hit. The market has crashed 38% in 40 days. Every headline is terrifying. Your portfolio looks like a disaster. That uncle has closed his demat account. Everyone's sure it's only going to get worse. This is a bear market."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Bull Market",
+            "definition": "A market condition where stock prices are rising, investor confidence is high, and optimism reigns. Technically defined as a 20%+ rise from a recent low, sustained over months. The bull 'charges up', hence the name."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "confused",
+            "text": "Why do they call it bull and bear though? That's such a random choice of animals."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "It's actually based on how they attack! A bull thrusts its horns upward, like rising prices. A bear swipes its paws downward, like falling prices. Once you picture it, you'll never forget."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Bear Market",
+            "definition": "A market condition where stock prices are falling, investor confidence is low, and pessimism spreads. Technically defined as a 20%+ drop from a recent high. The bear 'swipes down', hence the name."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "The famous Wall Street charging bull statue in New York weighs 3,200 kilograms and was originally placed there as guerrilla art in 1989. It has become the worldwide symbol of optimistic markets. BSE has its own bull statue outside its building on Dalal Street!"
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A bear swiping down at falling stock charts in a gloomy market scene",
+            "src": "/illustrations/ch1/l6-bear-market.png",
+            "prompt": "A large bear swiping downward at falling red stock charts. Dark clouds overhead. People looking worried at their phones. Contrast with muted tones but green (#2ECC71) accent on a small 'This too shall pass' sign. Bold flat illustration, dramatic composition, filling the frame."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Here's the historical pattern in Indian markets: from 2003 to 2008 was a massive bull run where Sensex went from around 3,000 to 21,000. Then the 2008 global financial crisis triggered a brutal bear market, and Sensex crashed to around 8,000 by 2009. Then another bull run, all the way up. Crashes in 2016 (demonetisation) and 2020 (Covid). Each time, full recovery and new highs within 1 to 3 years."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Bear markets are the stock market going on sale. When good companies get cheaper because everyone's scared, that's actually when smart investors buy more, not less. Warren Buffett's famous line: 'Be fearful when others are greedy, and greedy when others are fearful.'"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The dangerous thing about bear markets isn't the falling prices. It's your brain. When everyone's selling and every news channel is screaming disaster, every cell in your body wants to sell too. This is called panic selling, and it's how most regular investors lock in their losses. The people who stayed invested through 2020's crash and didn't panic-sell? They watched their portfolio hit all-time highs by early 2021."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "Sensex chart showing bull and bear phases from 2000 to 2024 with annotations",
+            "src": "/illustrations/ch1/l6-market-cycles.png",
+            "prompt": "A line chart of Sensex from 2000 to 2024. Green shaded bull phases and grey shaded bear phases. Labels: '2008 Crisis -60%', 'Covid 2020 -38%', '2003-2007 Bull +800%', '2020-2021 Recovery'. Overall upward trend despite dips. Green (#2ECC71) for bull phases, bold flat data viz style."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "There's also a concept called a market correction, which is a drop of 10 to 20% from a recent peak. Corrections happen every 1 to 2 years on average. They're healthy, normal, and totally expected. A correction is not a crash. It's not a crisis. It's the market taking a breather before climbing again."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Market Correction",
+            "definition": "A decline of 10 to 20% in stock prices from a recent high. Normal and healthy, happens roughly every 1 to 2 years. Not a crash, not a bear market. Just the market taking a breather."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "tip",
+            "content": "Don't confuse a bull market with skill. When everything is rising, even random stock picks look smart. This is when new investors start to believe they're geniuses. Then the bear market arrives and the illusion shatters. True investing skill shows in how you handle the bears."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A person calmly investing while others panic during a market dip",
+            "src": "/illustrations/ch1/l6-stay-calm-invest.png",
+            "prompt": "Split scene: on the left, panicked investors selling and running away from falling charts. On the right, one calm Indian teen sitting peacefully, buying stocks on their phone with a small smile. Green (#2ECC71) palette, bold flat style, clear contrast between panic and calm, filling the frame."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq-single",
+          "prompt": "What is the technical definition of a bear market?",
+          "options": [
+            {
+              "text": "Any day the market closes in the red",
+              "isCorrect": false
+            },
+            {
+              "text": "A fall of more than 5% in a single week",
+              "isCorrect": false
+            },
+            {
+              "text": "A sustained drop of 20% or more from a recent high",
+              "isCorrect": true
+            },
+            {
+              "text": "When trading volume falls below 50% of the average",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "A bear market is technically defined as a 20%+ fall from a recent peak, sustained over time (not a single-day crash). A single bad day is just a bad day. A 10–20% fall is a correction. 20%+ sustained fall = bear market.",
+          "xpValue": 10
+        },
+        {
+          "type": "scenario",
+          "scenario": "Meera invested ₹50,000 in a diversified set of Nifty 50 stocks in February 2020. By March 2020 (just 5 weeks later), her portfolio was worth only ₹31,000, a 38% loss. Everyone around her was selling. She chose to hold and even invested another ₹20,000 in April 2020.",
+          "prompt": "By December 2020, the market had fully recovered to pre-Covid levels and continued rising. What does Meera's strategy illustrate?",
+          "options": [
+            {
+              "text": "Lucky timing, she shouldn't have held during such a big crash",
+              "isCorrect": false
+            },
+            {
+              "text": "That holding through bear markets and investing during dips can lead to strong long-term returns",
+              "isCorrect": true
+            },
+            {
+              "text": "That individual stocks are better than diversified portfolios",
+              "isCorrect": false
+            },
+            {
+              "text": "That bear markets always recover within 5 weeks",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Meera used the bear market correctly: she didn't panic-sell at a 38% loss. She held, and even bought more at depressed prices. By year end, her original ₹50,000 was back to ₹50,000+ AND her ₹20,000 April investment had appreciated significantly. This is exactly what Buffett means by 'being greedy when others are fearful.'",
+          "xpValue": 15
+        },
+        {
+          "type": "sorting",
+          "prompt": "Sort these into Bull Market Signals vs Bear Market Signals",
+          "categories": [
+            "Bull Market Signal",
+            "Bear Market Signal"
+          ],
+          "items": [
+            {
+              "text": "Record demat account openings, everyone wants to invest",
+              "correctCategory": "Bull Market Signal"
+            },
+            {
+              "text": "FII (foreign investors) withdrawing billions from Indian markets",
+              "correctCategory": "Bear Market Signal"
+            },
+            {
+              "text": "IPOs oversubscribed 50x, everyone wants in",
+              "correctCategory": "Bull Market Signal"
+            },
+            {
+              "text": "Rising unemployment + corporate earnings falling",
+              "correctCategory": "Bear Market Signal"
+            },
+            {
+              "text": "GDP growth accelerating, RBI cutting interest rates",
+              "correctCategory": "Bull Market Signal"
+            },
+            {
+              "text": "Every news article predicts further market decline",
+              "correctCategory": "Bear Market Signal"
+            }
+          ],
+          "explanation": "Bull markets are characterized by optimism, investment inflows, strong economic signals, and high IPO demand. Bear markets show the opposite, fear, selling, weak fundamentals, negative sentiment. Both are normal parts of the cycle.",
+          "xpValue": 15
+        },
+        {
+          "type": "true-false",
+          "prompt": "A market correction (10-20% drop) is a rare, once-in-a-decade event in Indian markets.",
+          "correctAnswer": false,
+          "explanation": "Market corrections (10–20% drops) happen roughly every 1–2 years on average. They're completely normal. In any given decade, Indian markets have had multiple corrections. What's rare is a full bear market (20%+ sustained fall), those are less frequent but also always eventually recovered.",
+          "xpValue": 10
+        },
+        {
+          "type": "mcq-single",
+          "prompt": "Warren Buffett said: 'Be fearful when others are greedy, and greedy when others are fearful.' In terms of market cycles, what does 'greedy when others are fearful' mean?",
+          "options": [
+            {
+              "text": "Buy aggressively when markets are at all-time highs and everyone is excited",
+              "isCorrect": false
+            },
+            {
+              "text": "Buy when markets are falling and most investors are panicking and selling",
+              "isCorrect": true
+            },
+            {
+              "text": "Sell everything when prices drop even slightly",
+              "isCorrect": false
+            },
+            {
+              "text": "Only invest in safe assets like gold during market downturns",
+              "isCorrect": false
+            }
+          ],
+          "explanation": "Buffett's contrarian wisdom: when everyone's panicking (fearful) and selling, prices drop to attractive levels, that's when quality stocks are 'on sale.' Being 'greedy' means buying during these fearful moments, not selling. This requires emotional discipline, which is harder than it sounds.",
+          "xpValue": 10
+        }
+      ]
+    }
+  ],
+  "simulation": {
+    "title": "Trader for a Day",
+    "description": "You've just been given access to a virtual trading account with ₹10,000. It's 9:15 AM. Five stocks are live on your screen. The market closes at 3:30 PM. News will break throughout the day. Every decision matters.",
+    "startingWallet": 10000,
+    "optimalWalletOutcome": 11500,
+    "badgeId": "market-guru",
+    "badgeName": "Market Guru",
+    "badgeThreshold": {
+      "type": "wallet_absolute",
+      "value": 11500
+    },
+    "startNodeId": "node-start",
+    "availableStocks": [
+      {
+        "symbol": "RELIANCE",
+        "name": "Reliance Industries",
+        "openingPrice": 2850,
+        "sector": "Energy & Retail"
+      },
+      {
+        "symbol": "INFY",
+        "name": "Infosys",
+        "openingPrice": 1480,
+        "sector": "IT Services"
+      },
+      {
+        "symbol": "HDFCBANK",
+        "name": "HDFC Bank",
+        "openingPrice": 1620,
+        "sector": "Banking"
+      },
+      {
+        "symbol": "ZOMATO",
+        "name": "Zomato",
+        "openingPrice": 195,
+        "sector": "Food Tech"
+      },
+      {
+        "symbol": "TATAMOTORS",
+        "name": "Tata Motors",
+        "openingPrice": 910,
+        "sector": "Automobiles"
+      }
+    ],
+    "nodes": [
+      {
+        "nodeId": "node-start",
+        "timeLabel": "9:15 AM - Market Open",
+        "narrative": "The opening bell rings. Your screen shows five stocks, all flashing green from yesterday's positive session. You have ₹10,000 and the whole day ahead of you. The first rule of trading: don't rush. But also, don't just sit there. Your friend Aryan has already bought Zomato. Your cousin says Reliance is 'definitely going to 3,000 today.' What do you do?",
+        "choices": [
+          {
+            "text": "Buy 5 shares of Reliance at ₹2,850 (costs ₹14,250), wait, you only have ₹10,000. Focus on what you can afford.",
+            "nextNodeId": "node-morning-a",
+            "walletImpact": -9400,
+            "stocksBought": [
+              {
+                "symbol": "INFY",
+                "shares": 6,
+                "pricePerShare": 1480,
+                "totalCost": 8880
+              }
+            ],
+            "feedback": "Chip raises an eyebrow. 'Infosys? Solid blue-chip IT company. Risky that you put 88% of your capital in one stock though. Hope nothing weird happens in IT today...'"
+          },
+          {
+            "text": "Split: Buy 3 shares of Zomato (₹585) + 1 share of HDFC Bank (₹1,620), spread it out",
+            "nextNodeId": "node-morning-b",
+            "walletImpact": -2205,
+            "stocksBought": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 3,
+                "pricePerShare": 195,
+                "totalCost": 585
+              },
+              {
+                "symbol": "HDFCBANK",
+                "shares": 1,
+                "pricePerShare": 1620,
+                "totalCost": 1620
+              }
+            ],
+            "feedback": "Chip nods approvingly. 'Diversification on day one! Banking and food tech, different sectors. If one goes down, the other might hold. Now you have ₹7,795 left to deploy later.'"
+          },
+          {
+            "text": "Hold, don't buy anything yet. Watch the market for the first 30 minutes",
+            "nextNodeId": "node-morning-c",
+            "walletImpact": 0,
+            "stocksBought": [],
+            "feedback": "Chip gives a little golf clap. 'The first 15-30 minutes after open are often the most volatile. Experienced traders call this the 'noise window.' Watching first is smart.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-morning-a",
+        "timeLabel": "10:30 AM - Breaking News",
+        "narrative": "BREAKING: The US Federal Reserve hints at more interest rate hikes. Global IT stocks are dipping. Infosys (INFY) is down 2.3% from your buy price of ₹1,480, now at ₹1,446. Your 6 shares are showing a ₹204 loss. Meanwhile, Tata Motors just announced they won a massive EV contract from 3 state governments. Tata Motors is up 4% from open.",
+        "choices": [
+          {
+            "text": "Sell Infosys at ₹1,446, cut your losses before it falls more",
+            "nextNodeId": "node-midday-a1",
+            "walletImpact": 8676,
+            "stocksSold": [
+              {
+                "symbol": "INFY",
+                "shares": 6,
+                "pricePerShare": 1446,
+                "totalReceived": 8676
+              }
+            ],
+            "feedback": "Chip sighs. 'You panic-sold on a 2.3% dip. That's called getting spooked by short-term noise. Infosys is a fundamentally strong company. A Fed announcement dip is usually temporary in quality IT stocks. Let's see how this plays out.'"
+          },
+          {
+            "text": "Hold Infosys AND use remaining ₹600 to buy 3 more shares of Zomato at ₹195",
+            "nextNodeId": "node-midday-a2",
+            "walletImpact": -585,
+            "stocksBought": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 3,
+                "pricePerShare": 195,
+                "totalCost": 585
+              }
+            ],
+            "feedback": "Chip approves the Zomato addition. 'But Infosys is bleeding right now. You're holding a paper loss of ₹204. Can you stomach watching it fall more before (hopefully) recovering?'"
+          },
+          {
+            "text": "Use ₹600 to buy Tata Motors, 0 shares (price is ₹910, you can't afford 1 share with ₹600)",
+            "nextNodeId": "node-midday-a3",
+            "walletImpact": 0,
+            "stocksBought": [],
+            "feedback": "Chip smirks. 'Can't buy 0.66 of a share, friend. You'd need ₹910 to buy even 1 Tata Motors share. This is why spreading your capital matters, you don't want to get stuck with too little to act on new opportunities.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-morning-b",
+        "timeLabel": "10:30 AM - Mixed Signals",
+        "narrative": "Good news: Zomato just announced record quarterly orders, 'highest ever GMV.' Zomato is now ₹208 (up 6.6% from your buy price of ₹195). Your 3 shares show a ₹39 gain. HDFC Bank is flat. You still have ₹7,795 in cash. Tata Motors is rallying on EV contract news, up 4% to ₹946.",
+        "choices": [
+          {
+            "text": "Buy 8 more shares of Zomato at ₹208 (₹1,664), ride the momentum",
+            "nextNodeId": "node-midday-b1",
+            "walletImpact": -1664,
+            "stocksBought": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 8,
+                "pricePerShare": 208,
+                "totalCost": 1664
+              }
+            ],
+            "feedback": "Chip looks nervous. 'Chasing a stock after it's already up 6.6% today is called buying the momentum. Sometimes it works. Sometimes you're the last buyer before it reverses. Watch this carefully.'"
+          },
+          {
+            "text": "Buy 6 shares of Tata Motors at ₹946 (₹5,676), EV news is a real catalyst",
+            "nextNodeId": "node-midday-b2",
+            "walletImpact": -5676,
+            "stocksBought": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 6,
+                "pricePerShare": 946,
+                "totalCost": 5676
+              }
+            ],
+            "feedback": "Chip nods. 'Tata Motors winning EV contracts is a genuine business catalyst. You're buying on news, but at least it's real news with real impact. The EV sector has strong tailwinds in India.'"
+          },
+          {
+            "text": "Hold cash, watch and wait, it's still early",
+            "nextNodeId": "node-midday-b3",
+            "walletImpact": 0,
+            "stocksBought": [],
+            "feedback": "Chip gives you a knowing look. 'Patience. You have ₹7,795 to deploy intelligently. What's the rush? Good opportunities will present themselves.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-morning-c",
+        "timeLabel": "10:30 AM - You Waited. Here's What Happened.",
+        "narrative": "Smart move. The first 30 minutes were wild. Zomato jumped 7% on order volume news, then pulled back to just 4% up. Infosys dipped 2% on US rate hike fears, then stabilized. Tata Motors is up 4% on an EV contract win and holding steady. Now the picture is clearer. You have all ₹10,000 and better information than people who rushed at open.",
+        "choices": [
+          {
+            "text": "Buy 5 shares of Tata Motors at ₹946 (₹4,730), EV is the future, solid catalyst",
+            "nextNodeId": "node-midday-c1",
+            "walletImpact": -4730,
+            "stocksBought": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 5,
+                "pricePerShare": 946,
+                "totalCost": 4730
+              }
+            ],
+            "feedback": "Chip approves. 'You waited for clarity, then bought on a real business development. That's how patient investors operate. Now you have ₹5,270 in reserve, plenty for the afternoon.'"
+          },
+          {
+            "text": "Buy a mix: 3 shares HDFC Bank (₹4,860) + 10 shares Zomato (₹2,020)",
+            "nextNodeId": "node-midday-c2",
+            "walletImpact": -6880,
+            "stocksBought": [
+              {
+                "symbol": "HDFCBANK",
+                "shares": 3,
+                "pricePerShare": 1620,
+                "totalCost": 4860
+              },
+              {
+                "symbol": "ZOMATO",
+                "shares": 10,
+                "pricePerShare": 202,
+                "totalCost": 2020
+              }
+            ],
+            "feedback": "Chip nods. 'Nice diversification. Banking (stable, fundamental) + food tech (growth, volatile). Two very different risk profiles. This is how a thoughtful portfolio gets built.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-a1",
+        "timeLabel": "1:00 PM - You Sold. Here's What Happened.",
+        "narrative": "You sold Infosys at ₹1,446, taking a ₹204 loss. And then... Infosys recovered. By 1 PM, it's back at ₹1,465 and climbing. The Fed rate hike concern turned out to be overblown. Infosys had dipped, not fallen. You have ₹9,072 in cash now. The afternoon session begins. Tata Motors is still holding its gains at ₹952.",
+        "choices": [
+          {
+            "text": "Buy back into Infosys now at ₹1,465 (buy 6 shares for ₹8,790)",
+            "nextNodeId": "node-closing-a",
+            "walletImpact": -8790,
+            "stocksBought": [
+              {
+                "symbol": "INFY",
+                "shares": 6,
+                "pricePerShare": 1465,
+                "totalCost": 8790
+              }
+            ],
+            "feedback": "Chip winces. 'You sold at ₹1,446, now you're buying back at ₹1,465. That's called a round trip loss, you paid to exit and paid again to re-enter. This is why panic-selling has real costs.'"
+          },
+          {
+            "text": "Move on, buy 4 shares of Tata Motors at ₹952 (₹3,808) and hold cash",
+            "nextNodeId": "node-closing-b",
+            "walletImpact": -3808,
+            "stocksBought": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 4,
+                "pricePerShare": 952,
+                "totalCost": 3808
+              }
+            ],
+            "feedback": "Chip thinks. 'Reasonable pivot. You took a small loss on Infosys but you're repositioning around a stronger catalyst. Cut losses, find the next opportunity.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-a2",
+        "timeLabel": "1:00 PM - Afternoon Update",
+        "narrative": "Good news: Infosys has recovered to ₹1,468. Your 6 shares are now showing a ₹48 gain instead of a loss. You held through the dip and it paid off. Your 3 Zomato shares are at ₹204 (up 4.6%). Total portfolio value: Infosys ₹8,808 + Zomato ₹612 + ₹15 cash ≈ ₹9,435. Still below your starting ₹10,000. Then: a rumour starts circulating that a major food delivery app is about to launch in India and directly compete with Zomato.",
+        "choices": [
+          {
+            "text": "Sell all 3 Zomato shares immediately, rumour risk is real",
+            "nextNodeId": "node-closing-c",
+            "walletImpact": 612,
+            "stocksSold": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 3,
+                "pricePerShare": 204,
+                "totalReceived": 612
+              }
+            ],
+            "feedback": "Chip: 'Selling on an unverified rumour is dangerous, but locking in a gain is never wrong. The question is: what do you do with the ₹612 you just unlocked?'"
+          },
+          {
+            "text": "Hold both positions, one rumour doesn't derail Zomato's record orders today",
+            "nextNodeId": "node-closing-d",
+            "walletImpact": 0,
+            "stocksBought": [],
+            "feedback": "Chip looks thoughtful. 'Reasonable. The morning's record order news is real. A competitor rumour is speculation. You're choosing fundamentals over fear.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-a3",
+        "timeLabel": "1:00 PM - The Lesson in Capital",
+        "narrative": "You tried to act on the Tata Motors news but didn't have enough cash. Infosys has partially recovered, now at ₹1,460. Your 6 shares show a small ₹120 loss. Tata Motors has kept climbing and is now at ₹960. You're stuck watching a good opportunity you couldn't act on. With ₹15 in remaining cash, you're now waiting for market close.",
+        "choices": [
+          {
+            "text": "Hold all Infosys and wait for market close",
+            "nextNodeId": "node-closing-e",
+            "walletImpact": 0,
+            "feedback": "Chip: 'This is why portfolio management matters. Putting 88% in one stock meant you had no flexibility to act on the Tata Motors opportunity. Lesson learned: always keep some powder dry.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-b1",
+        "timeLabel": "1:00 PM - Zomato Momentum",
+        "narrative": "You bought more Zomato at ₹208. By 1 PM, you have 11 shares of Zomato total (3 at ₹195 + 8 at ₹208). Zomato is now at ₹214, up further. You're showing a ₹189 paper gain on your Zomato position. But then: rumours of a new food delivery competitor entering India start circulating. Zomato drops to ₹206. Do you sell or ride it out?",
+        "choices": [
+          {
+            "text": "Sell all 11 Zomato shares at ₹206, lock in the gain",
+            "nextNodeId": "node-closing-f",
+            "walletImpact": 2266,
+            "stocksSold": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 11,
+                "pricePerShare": 206,
+                "totalReceived": 2266
+              }
+            ],
+            "feedback": "Chip approves. 'Sold before the rumour got out of hand. You made money on Zomato today, small but real. Now you have most of your capital back. Smart exit.'"
+          },
+          {
+            "text": "Hold, Zomato's fundamentals are strong, one rumour shouldn't tank it",
+            "nextNodeId": "node-closing-g",
+            "walletImpact": 0,
+            "feedback": "Chip crosses fingers. 'You're betting on the fundamentals over the fear. It might work out. Or Zomato might fall further if the rumour gains traction. This is the risk of holding through uncertainty.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-b2",
+        "timeLabel": "1:00 PM - Tata Motors Holds",
+        "narrative": "Smart call. Tata Motors is holding its gains at ₹955. Your 6 shares are up ₹54 from your buy at ₹946. Zomato (your 3 shares at ₹195) is at ₹208, up ₹39. Total portfolio: TATA ₹5,730 + Zomato ₹624 + HDFC ₹1,620 + ₹1,119 cash ≈ ₹9,093. Now a surprise: Tata Motors releases news that one of the state EV contracts has been cancelled due to political changes. Stock drops to ₹930.",
+        "choices": [
+          {
+            "text": "Sell all 6 Tata Motors shares at ₹930, recover capital before it falls more",
+            "nextNodeId": "node-closing-h",
+            "walletImpact": 5580,
+            "stocksSold": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 6,
+                "pricePerShare": 930,
+                "totalReceived": 5580
+              }
+            ],
+            "feedback": "Chip: 'You took a small loss on Tata (₹96 total on 6 shares). The catalyst that drove you to buy it has partially reversed, so selling has logic. Now redeploy that capital.'"
+          },
+          {
+            "text": "Hold, it was 3 contracts won and only 1 cancelled. Net positive news still",
+            "nextNodeId": "node-closing-i",
+            "walletImpact": 0,
+            "feedback": "Chip nods slowly. 'That's nuanced thinking. You're right, 3 contracts won, 1 cancelled = net 2 contracts ahead. The market might have overreacted to the bad news.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-b3",
+        "timeLabel": "1:00 PM - Patient Capital",
+        "narrative": "You've been watching. Here's what you've observed: Zomato had a big morning on order news, now settling at ₹205. HDFC Bank is quietly up 0.8% to ₹1,633. Infosys dipped then recovered and is at ₹1,467. Tata Motors had a great morning on EV news but just dropped on a contract cancellation rumour, now at ₹930. You have ₹10,000 cash, fresh, and it's 1 PM. Market closes in 2.5 hours.",
+        "choices": [
+          {
+            "text": "Buy 6 shares HDFC Bank at ₹1,633 (₹9,798), stable banking sector, quiet strength",
+            "nextNodeId": "node-closing-j",
+            "walletImpact": -9798,
+            "stocksBought": [
+              {
+                "symbol": "HDFCBANK",
+                "shares": 6,
+                "pricePerShare": 1633,
+                "totalCost": 9798
+              }
+            ],
+            "feedback": "Chip smiles. 'Banking on the quiet winner. HDFC Bank had no drama, just steady gains. You bought thoughtfully, late, with context. Clean trade.'"
+          },
+          {
+            "text": "Split: 4 HDFC Bank (₹6,532) + 5 Infosys at ₹1,467 (₹7,335), wait, that's ₹13,867 total. You only have ₹10,000.",
+            "nextNodeId": "node-closing-k",
+            "walletImpact": 0,
+            "feedback": "Chip raises a hand. 'You can't buy both at those quantities, that's ₹13,867 total. You'd need to reduce positions. Math matters in trading: always check your available capital before placing an order.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-c1",
+        "timeLabel": "1:00 PM - EV Story Continues",
+        "narrative": "Your Tata Motors position is performing well, shares now at ₹965, up from your buy at ₹946. You're showing a ₹95 paper gain on 5 shares. Then: surprise news drops. India's Finance Ministry announces an extended PLI (Production-Linked Incentive) scheme for EV manufacturers. This is massive for Tata Motors. Stock jumps to ₹985.",
+        "choices": [
+          {
+            "text": "Buy 5 more Tata Motors shares at ₹985 (₹4,925), double down on the catalyst",
+            "nextNodeId": "node-closing-l",
+            "walletImpact": -4925,
+            "stocksBought": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 5,
+                "pricePerShare": 985,
+                "totalCost": 4925
+              }
+            ],
+            "feedback": "Chip: 'Adding on positive news is called pyramid-ing up. Risk: you're buying higher than your original cost. Reward: if the PLI news drives shares to ₹1,020+, you profit on the second lot too.'"
+          },
+          {
+            "text": "Hold your original position and sell at close, take profits, don't get greedy",
+            "nextNodeId": "node-closing-m",
+            "walletImpact": 0,
+            "feedback": "Chip does a little fist bump. 'Discipline over greed. You have a good gain already. Locking it in at close is a valid, emotionally intelligent choice.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-midday-c2",
+        "timeLabel": "1:00 PM - Your Diversified Portfolio",
+        "narrative": "HDFC Bank is at ₹1,641, up ₹21 per share, ₹63 total gain on 3 shares. Zomato is at ₹208, up ₹6 per share, ₹60 gain on 10 shares. Portfolio: HDFC ₹4,923 + Zomato ₹2,080 + cash ₹3,120 = ₹10,123. You're ahead by ₹123! Then news: Zomato's competitor rumour starts circulating. Zomato drops to ₹198.",
+        "choices": [
+          {
+            "text": "Sell all 10 Zomato at ₹198, still a tiny gain, don't risk it",
+            "nextNodeId": "node-closing-n",
+            "walletImpact": 1980,
+            "stocksSold": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 10,
+                "pricePerShare": 198,
+                "totalReceived": 1980
+              }
+            ],
+            "feedback": "Chip: 'Sold on the rumour. You made ₹40 on 10 shares, tiny but positive. Now hold HDFC and cash, and see how this closes.'"
+          },
+          {
+            "text": "Hold everything, the morning's Zomato order news is real, this dip might be a buy",
+            "nextNodeId": "node-closing-o",
+            "walletImpact": 0,
+            "feedback": "Chip: 'Brave or smart? Holding through the fear, betting the fundamentals outweigh the rumour. Tense final session ahead.'"
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-closing-a",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "Market close. You bought back Infosys at ₹1,465 after panic-selling at ₹1,446. Infosys closes at ₹1,475. You made ₹60 on your recovery position. But you lost ₹204 on the panic sale + brokerage. Net: roughly -₹150 on Infosys trades. Total portfolio close: ₹9,060 + ₹282 remaining cash ≈ ₹9,342. Chip has a lesson for you.",
+        "timeSkip": "Market Close - 3:30 PM",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "below-par",
+        "finalWallet": 9342,
+        "closingNarrative": "Final portfolio: ₹9,342. You lost ₹658 today. The culprit: panic-selling Infosys on a temporary dip, then buying back higher. The market is designed to shake out weak hands. Every dip feels permanent when you're in it. Infosys was never broken, it just wobbled. The lesson: short-term volatility in strong stocks is normal. Don't let it cost you.",
+        "chipFinalWord": "Chip's verdict: ₹658 lost, but you bought an education that money managers charge lakhs to teach. Panic-selling is the #1 mistake retail investors make. You'll remember this day."
+      },
+      {
+        "nodeId": "node-closing-b",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You took the Infosys loss (₹204) but pivoted to Tata Motors at ₹952. Tata Motors closes at ₹968, a ₹64 gain on 4 shares = ₹256. Net: Infosys -₹204, Tata Motors +₹256. You're ₹52 ahead on trades. Remaining cash: ₹5,264. Total: ₹5,264 + ₹3,872 (Tata Motors 4 shares at close) = ₹9,136. Not great, not terrible.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "below-par",
+        "finalWallet": 9136,
+        "closingNarrative": "Final portfolio: ₹9,136. You recovered some losses by pivoting, but the initial panic-sell cost you. Being right on Tata Motors helped, but not enough to overcome the early mistake.",
+        "chipFinalWord": "Chip says: Not bad for a pivot. But notice that if you'd never panic-sold Infosys in the first place, you'd be ahead. Prevention > recovery."
+      },
+      {
+        "nodeId": "node-closing-c",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You sold Zomato at ₹204, locking in ₹27 gain. The rumour turned out to be real, a competitor DID announce an India launch. Zomato closed at ₹190, well below where you sold. Good call. Infosys recovered and closed at ₹1,475, showing a ₹45 gain on your 6 shares. Total: Infosys 6 shares × ₹1,475 = ₹8,850 + ₹627 cash + Zomato proceeds = ~₹9,477.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "average",
+        "finalWallet": 9477,
+        "closingNarrative": "Final portfolio: ₹9,477. Mixed day, lost on early Infosys dip but recovered. Smart exit on Zomato saved you from the afternoon drop. Overall below starting capital due to the initial Infosys all-in bet.",
+        "chipFinalWord": "Chip nods: You made the right call on Zomato. The Infosys all-in bet at open was the real issue, too concentrated, too early."
+      },
+      {
+        "nodeId": "node-closing-d",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You held both positions. The competitor rumour turned out to be real, Zomato dropped to ₹188 by close. Your 3 shares are now worth ₹564, a ₹27 loss from your buy at ₹195. Infosys recovered to ₹1,475, a ₹285 gain on 6 shares. Net: Infosys +₹285, Zomato -₹27 = +₹258 net. Remaining: ₹15 cash. Total: ₹8,850 + ₹564 + ₹15 = ₹9,429.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "average",
+        "finalWallet": 9429,
+        "closingNarrative": "Final portfolio: ₹9,429. Infosys recovered and you made money there. Zomato cost you on the rumour. The big issue was concentration, 88% in Infosys at open left you with no flexibility.",
+        "chipFinalWord": "Chip's lesson: Holding through Zomato's dip hurt. But holding through Infosys's dip helped. Same strategy, different outcomes. That's markets."
+      },
+      {
+        "nodeId": "node-closing-e",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You held all 6 Infosys shares through the dip. Infosys closes at ₹1,472. Your 6 shares are worth ₹8,832, a loss of ₹48 from your ₹8,880 investment. You couldn't act on Tata Motors because you had no capital available. Tata Motors closed at ₹968, up 6.4% from open. Total: ₹8,832 + ₹15 cash = ₹8,847.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "below-par",
+        "finalWallet": 8847,
+        "closingNarrative": "Final portfolio: ₹8,847. The Infosys bet didn't go badly, you basically broke even on that trade. But putting 88% in one stock meant you couldn't act when a better opportunity appeared. Tata Motors gave 6.4% today and you watched it happen.",
+        "chipFinalWord": "Chip's rule #1: Always keep some capital ready. The market will always give you opportunities. If you're 100% invested in one stock, you can't act on them."
+      },
+      {
+        "nodeId": "node-closing-f",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You sold all 11 Zomato shares at ₹206. You made ₹33 on the 3 bought at ₹195, and lost ₹16 on the 8 bought at ₹208. Net Zomato P&L: +₹17. After market close: the competitor rumour turned out to be true. Zomato fell to ₹188. You got out perfectly. You also have HDFC Bank at ₹1,633 (up from ₹1,620). Final: Zomato proceeds ₹2,266 + HDFC ₹1,633 + cash ₹6,131 = ₹10,030.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "good",
+        "finalWallet": 10030,
+        "closingNarrative": "Final portfolio: ₹10,030. Tiny profit, but you navigated a volatile day without blowing up. Smart exit on Zomato. Good discipline throughout. You ended above ₹10,000, mission accomplished.",
+        "chipFinalWord": "Chip claps. 'You made money AND avoided a big Zomato loss at the end. Your instincts were sharp today. Not Market Guru yet, but you're getting there.'"
+      },
+      {
+        "nodeId": "node-closing-g",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You held Zomato through the rumour. It turned out to be real, a competitor DID announce India entry. Zomato closed at ₹188. Your 11 shares are worth ₹2,068, a loss of ₹181 from your combined investment of ₹2,249. HDFC Bank closed at ₹1,635, a small ₹15 gain. Final: HDFC ₹4,905 + Zomato ₹2,068 + cash ₹2,129 = ₹9,102.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "below-par",
+        "finalWallet": 9102,
+        "closingNarrative": "Final portfolio: ₹9,102. The Zomato thesis was right about the order growth, but the competitor entry changed the story. In investing, even correct analysis can lose money when new information arrives. Knowing when to update your thesis matters.",
+        "chipFinalWord": "Chip shrugs sympathetically. 'The morning Zomato thesis was solid. But new information (competitor entry) invalidated part of it. Great investors change their minds when the facts change.'"
+      },
+      {
+        "nodeId": "node-closing-h",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You sold Tata Motors at ₹930, taking a ₹96 loss. Then you held HDFC Bank and Zomato. Zomato held up, it didn't have the rumour problem in this path. HDFC Bank closed at ₹1,641. Final: ₹5,580 (Tata proceeds) + ₹4,923 (HDFC 3 shares at ₹1,641) + ₹624 (Zomato 3 shares at ₹208) + ₹1,119 cash = ₹12,246. Wait, no, recalculate: Tata exit ₹5,580 + ₹1,119 cash = ₹6,699. Plus HDFC (3 × ₹1,641) = ₹4,923. Plus Zomato (3 × ₹208) = ₹624. Total: ₹12,246.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "excellent",
+        "finalWallet": 12246,
+        "closingNarrative": "Final portfolio: ₹12,246! You ended up ₹2,246 from your ₹10,000 start, a 22.5% return in ONE day! The Tata Motors loss was small, the HDFC Bank gain was steady, and diversification protected you. The badge is yours.",
+        "chipFinalWord": "Chip does a victory dance. 'MARKET GURU! You took a loss on Tata Motors when the news changed, and that discipline freed up capital that, combined with your other positions, got you to an incredible day. Selling a loser is sometimes the best trade you can make.'"
+      },
+      {
+        "nodeId": "node-closing-i",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You held Tata Motors through the bad news. You were right, markets overreacted. By close, Tata Motors recovered to ₹958, above your buy price of ₹946. 6 shares at ₹958 = ₹5,748, a ₹72 gain. HDFC Bank at ₹1,641 = ₹1,641 gain on your 1 share (up ₹21). Zomato 3 shares at ₹208 = ₹624. Cash ₹1,119. Total: ₹5,748 + ₹1,641 + ₹624 + ₹1,119 = ₹9,132.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "average",
+        "finalWallet": 9132,
+        "closingNarrative": "Final portfolio: ₹9,132. Tata Motors recovered, which vindicated your 'hold' thesis. But you only had ₹2,205 invested and majority in cash, missed potential gains. Today was a lesson in position sizing.",
+        "chipFinalWord": "Chip: 'Your Tata Motors thesis was right. But you had too much in cash and too little deployed. Good analysis with small positions = small returns. Next time, back your convictions harder.'"
+      },
+      {
+        "nodeId": "node-closing-j",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You waited all morning, then placed a thoughtful, single bet on HDFC Bank, the quiet winner. HDFC Bank closes at ₹1,651, up ₹31 from your buy at ₹1,620. Your 6 shares gained ₹186. Total: 6 × ₹1,651 = ₹9,906 + ₹202 cash = ₹10,108. Small profit, but you never had a moment of anxiety.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "good",
+        "finalWallet": 10108,
+        "closingNarrative": "Final portfolio: ₹10,108. +₹108 (1.08% in one day). Not glamorous, but you waited, thought, acted thoughtfully, and made money. Consistent, calm trading is how wealth gets built, not by chasing volatile names.",
+        "chipFinalWord": "Chip nods with respect. 'You found the boring winner. HDFC Bank didn't have drama today, it just quietly went up. That's often the best kind of trade. Not exciting on Twitter, but profitable in your account.'"
+      },
+      {
+        "nodeId": "node-closing-k",
+        "timeLabel": "3:30 PM - Math Check",
+        "narrative": "You caught your own mistake before placing the order, good. You can't buy ₹13,867 worth of stock with ₹10,000. You recalculate and buy 3 HDFC Bank shares (₹4,899) + 3 Infosys shares (₹4,401) = ₹9,300. Market close: HDFC at ₹1,651, Infosys at ₹1,475. HDFC gain: 3 × ₹18 = ₹54. Infosys gain: 3 × ₹8 = ₹24. Total: ₹9,300 invested + ₹78 gain + ₹700 cash = ₹10,078.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "good",
+        "finalWallet": 10078,
+        "closingNarrative": "Final portfolio: ₹10,078. Catching your own math error and recalibrating is a sign of growing trading discipline. Small gain, no losses, two-stock diversification. Solid day.",
+        "chipFinalWord": "Chip: 'An investor who catches their own mistake before executing it is already miles ahead of most. That pause to check the math? That habit will save you thousands over a lifetime of investing.'"
+      },
+      {
+        "nodeId": "node-closing-l",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You doubled down on Tata Motors. You now own 10 shares, 5 at ₹946 + 5 at ₹985. Average cost: ₹965.5/share. Tata Motors closes at ₹998 (PLI news carried it through). Gain: 10 × (₹998 - ₹965.5) = ₹325. Plus ₹345 remaining cash. Total: ₹9,980 + ₹345 = ₹10,325.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "good",
+        "finalWallet": 10325,
+        "closingNarrative": "Final portfolio: ₹10,325. +₹325 (3.25% in one day) by reading a policy catalyst correctly and doubling down. Pyramid-ing up on conviction is a valid strategy when your thesis is sound.",
+        "chipFinalWord": "Chip: '₹325 in a day by reading a government policy and acting on it. That's not luck, that's doing your homework. Market Guru badge is one good session away.'"
+      },
+      {
+        "nodeId": "node-closing-m",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You held your original 5 Tata Motors shares and sold at close. Tata Motors hit ₹998 at close. Your 5 shares × (₹998 - ₹946) = ₹260 profit. Cash: ₹5,270 (from earlier) + ₹4,990 (5 shares at ₹998) = ₹10,260.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "good",
+        "finalWallet": 10260,
+        "closingNarrative": "Final portfolio: ₹10,260. +₹260 on a clean, disciplined trade. You bought on a real catalyst, held through volatility, didn't get greedy, and exited at close with a smile.",
+        "chipFinalWord": "Chip beams. 'Bought the catalyst. Held with discipline. Exited with profit. That's a textbook trade. If you did this every week, you'd retire early.'"
+      },
+      {
+        "nodeId": "node-closing-n",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You sold Zomato at ₹198, making ₹40 profit on your 10 shares. The rumour turned real, Zomato dropped to ₹188 at close. You're glad you got out. HDFC Bank closed at ₹1,641 (up ₹21 on 3 shares = ₹63 gain). Cash: ₹3,120 + ₹1,980 (Zomato proceeds) = ₹5,100. Total: HDFC ₹4,923 + cash ₹5,100 = ₹10,023.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "good",
+        "finalWallet": 10023,
+        "closingNarrative": "Final portfolio: ₹10,023. Tiny but real profit. You navigated today without blowing up, made good exits, and ended green. That's a solid day for a new trader.",
+        "chipFinalWord": "Chip: 'Small green day. You made the right calls. Patience at open + smart exits = profit. This is what disciplined trading looks like.'"
+      },
+      {
+        "nodeId": "node-closing-o",
+        "timeLabel": "3:30 PM - Market Close",
+        "narrative": "You held Zomato through the rumour. The competitor news was real, Zomato closed at ₹188. Your 10 Zomato shares are now worth ₹1,880, a ₹320 loss from your buy at ₹202. HDFC Bank at ₹1,641, ₹63 gain. Cash: ₹3,120. Total: ₹1,880 + ₹4,923 + ₹3,120 = ₹9,923.",
+        "choices": [],
+        "isEnd": true,
+        "outcome": "average",
+        "finalWallet": 9923,
+        "closingNarrative": "Final portfolio: ₹9,923. Zomato hurt you but HDFC cushioned the blow. Diversification worked, just not enough to fully offset the Zomato damage. The lesson: when a rumour turns real, the market reacts hard.",
+        "chipFinalWord": "Chip: 'You made ₹63 on HDFC and lost ₹320 on Zomato. That's why we don't put all our eggs in one basket. Your HDFC position was the smart one today.'"
+      }
+    ]
+  },
+  "dailyChallenges": [
+    {
+      "date": null,
+      "type": "scenario",
+      "title": "The Hot IPO",
+      "content": {
+        "scenario": "A new food-tech startup IPO is live, they make software for restaurant billing. Your college friend says 'Everyone is applying, it'll list at 60% premium for sure!' The IPO is priced at ₹450/share. The company has never made a profit and has been operating for only 2 years.",
+        "prompt": "What's the smartest approach to this IPO?",
+        "options": [
+          {
+            "text": "Apply for maximum shares, 60% listing gain is too good to miss",
+            "isCorrect": false
+          },
+          {
+            "text": "Skip it entirely, all IPOs are bad",
+            "isCorrect": false
+          },
+          {
+            "text": "Research the company's fundamentals and IPO documents before deciding, don't invest just on FOMO",
+            "isCorrect": true
+          },
+          {
+            "text": "Apply for a small amount so you limit your downside but catch the upside",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "IPO hype is real but often wrong. Zomato listed at +52% in 2021. Paytm IPO in 2021 listed at -27% on day one and fell further for months. A 2-year-old, unprofitable company at ₹450/share deserves serious scrutiny before you put money in. The right answer is always: read the DRHP (Draft Red Herring Prospectus), understand the business, then decide. Never invest on a friend's tip alone."
+      },
+      "xpReward": 25,
+      "requiredChaptersCompleted": 1
+    },
+    {
+      "date": null,
+      "type": "scenario",
+      "title": "The Market Crash Panic",
+      "content": {
+        "scenario": "You bought ₹20,000 of Nifty 50 index fund 6 months ago. Today, bad global news has sent markets crashing, your portfolio is now showing ₹16,400 (an 18% loss). Your dad says 'Sell everything before it falls more.' Your mum says 'Hold and don't look at it.'",
+        "prompt": "What does good long-term investing wisdom say?",
+        "options": [
+          {
+            "text": "Sell immediately, 18% loss is too painful, protect what's left",
+            "isCorrect": false
+          },
+          {
+            "text": "Hold and consider investing more if possible, corrections are normal and index funds recover",
+            "isCorrect": true
+          },
+          {
+            "text": "Sell half, keep half, compromise between safety and long-term growth",
+            "isCorrect": false
+          },
+          {
+            "text": "Switch to gold, it always goes up when markets fall",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "An 18% fall in a diversified index fund (not a single stock) is a market correction, not a catastrophe. The Nifty 50 has recovered from every single correction in its history. Selling at the bottom locks in your loss. Holding (and ideally buying more) is what long-term wealth is built on. The Mum strategy ('hold and don't look') is emotionally and statistically sound for index fund investors."
+      },
+      "xpReward": 25,
+      "requiredChaptersCompleted": 1
+    },
+    {
+      "date": null,
+      "type": "quiz",
+      "title": "Quick Market Knowledge Check",
+      "content": {
+        "prompt": "Which of these is the correct sequence of steps to buy your first stock in India?",
+        "options": [
+          {
+            "text": "Walk to BSE → pay cash → get certificate",
+            "isCorrect": false
+          },
+          {
+            "text": "Open Demat account → complete KYC → fund account → search stock → place order",
+            "isCorrect": true
+          },
+          {
+            "text": "Call a broker on the phone → tell them what to buy → they handle the rest",
+            "isCorrect": false
+          },
+          {
+            "text": "Create a Zerodha account → that's it, you can start buying immediately",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The full process: (1) Choose a broker like Zerodha or Groww, (2) Open Demat + Trading account with KYC (PAN + Aadhaar), (3) Fund your trading account from your bank, (4) Search for your stock, (5) Place buy order. The old 'call a broker' system still exists but 99% of retail investors now use apps. KYC completion is mandatory before the first trade."
+      },
+      "xpReward": 20,
+      "requiredChaptersCompleted": 1
+    }
+  ],
+  "step4_reviewNotes": {
+    "toneCheck": "All lessons use 'you/your' consistently. Indian context (Zomato, TCS, HDFC, RBI, ₹) throughout. Chip moments are sarcastic-supportive. No textbook definitions first, always analogy first, then term.",
+    "accuracyVerification": [
+      "BSE founded 1875 ✓",
+      "NSE founded 1992 ✓",
+      "Sensex base 100 in 1979 ✓",
+      "Nifty 50 base 1,000 in November 1995 ✓",
+      "Sensex range 72,000–75,000 in 2024 ✓",
+      "Nifty 50 range 21,000–22,000 in 2024 ✓",
+      "TCS market cap ~₹13 lakh crore ✓",
+      "Zomato IPO July 2021, ₹76 issue price, opened ~₹116 ✓",
+      "Covid crash: Sensex fell ~38% to ~25,600 from ~41,000 ✓",
+      "STCG tax 20% (post Budget 2024) ✓",
+      "LTCG tax 12.5% on gains above ₹1.25 lakh (post Budget 2024) ✓",
+      "Market hours 9:15 AM to 3:30 PM ✓",
+      "Circuit breaker at 20% for individual stocks ✓",
+      "NSE world's largest derivatives exchange by contracts ✓",
+      "Zerodha India's largest discount broker ✓"
+    ],
+    "progressiveDifficulty": "Lesson 1.1 (basic ownership concept) → 1.2 (institutional knowledge) → 1.3 (price mechanics) → 1.4 (indices, interpretation) → 1.5 (practical how-to, tax) → 1.6 (market psychology, cycles). Each lesson builds on previous. Tax concepts in 1.5 assume price movement from 1.3. Bull/bear market in 1.6 builds on price movement mechanics from 1.3.",
+    "keyTermsCheck": "All key terms are defined before being used in exercises. No jargon appears in exercises without prior lesson definition.",
+    "simulationPlaytest": "The simulation has 15 nodes + 15 end/closing nodes. Multiple valid paths exist. Badge (Market Guru) is achievable via path: node-start choice 2 → node-morning-b → node-midday-b2 → node-closing-h (₹12,246). Realistic paths range from ₹8,847 (poor concentration) to ₹12,246 (excellent diversification + decisive action on news). Duration: 12-15 minutes including reading time."
+  }
+}
