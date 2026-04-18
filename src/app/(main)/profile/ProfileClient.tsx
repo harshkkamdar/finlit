@@ -13,7 +13,9 @@ import {
   Download,
   Brain,
   ArrowRight,
+  LogOut,
 } from 'lucide-react';
+import { signOut } from 'next-auth/react';
 import { createAvatar } from '@dicebear/core';
 import * as adventurer from '@dicebear/adventurer';
 import Card from '@/components/ui/Card';
@@ -223,7 +225,7 @@ export default function ProfileClient({
       {/* Top section: User info card */}
       <motion.div variants={itemVariants}>
         <Card variant="elevated" className="!p-8">
-          <div className="flex items-start gap-8">
+          <div className="flex items-start gap-8 relative">
             {/* Avatar */}
             <div className="shrink-0">
               <div className="w-[120px] h-[120px] rounded-full overflow-hidden border-4 border-primary-light shadow-lg">
@@ -309,6 +311,15 @@ export default function ProfileClient({
                 </div>
               </div>
             </div>
+
+            {/* Logout button */}
+            <button
+              onClick={() => signOut({ redirectTo: '/login' })}
+              className="absolute top-0 right-0 flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium text-muted hover:text-error hover:bg-error/10 transition-colors"
+            >
+              <LogOut className="w-4 h-4" />
+              Log out
+            </button>
           </div>
         </Card>
       </motion.div>

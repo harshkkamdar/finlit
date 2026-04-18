@@ -8,7 +8,9 @@ import {
   Trophy,
   TrendingUp,
   User,
+  LogOut,
 } from 'lucide-react';
+import { signOut } from 'next-auth/react';
 
 const navItems = [
   { icon: BookOpen, label: 'Learn', href: '/dashboard' },
@@ -84,8 +86,8 @@ export default function IconRail() {
         })}
       </div>
 
-      {/* Profile at bottom */}
-      <div className="mb-4">
+      {/* Profile & Logout at bottom */}
+      <div className="mb-4 flex flex-col items-center gap-1">
         <Link
           href="/profile"
           className={`
@@ -110,6 +112,17 @@ export default function IconRail() {
             Profile
           </div>
         </Link>
+
+        <button
+          onClick={() => signOut({ redirectTo: '/login' })}
+          className="relative w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-150 group hover:bg-white/[0.06]"
+          title="Log out"
+        >
+          <LogOut className="w-[18px] h-[18px] text-white/40 group-hover:text-red-400 transition-colors" strokeWidth={1.8} />
+          <div className="absolute left-full ml-2 px-2 py-1 rounded-md bg-dark text-[11px] font-medium text-white/80 whitespace-nowrap opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-150 shadow-lg">
+            Log out
+          </div>
+        </button>
       </div>
     </nav>
   );
