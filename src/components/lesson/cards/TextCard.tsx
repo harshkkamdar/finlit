@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, type ReactNode } from 'react';
+import { useState, useRef, type ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // ── Inline Markdown Parser ────────────────────────────────────────────────────
@@ -48,6 +48,41 @@ interface InlineKeyTermProps {
 
 function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const [position, setPosition] = useState<'above' | 'below'>('above');
+  const lastTouchRef = useRef(0);
+
+  function computePosition(el: HTMLElement) {
+    const rect = el.getBoundingClientRect();
+    setPosition(rect.top < 200 ? 'below' : 'above');
+  }
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    e.preventDefault();
+    lastTouchRef.current = Date.now();
+    if (!showTooltip) computePosition(e.currentTarget as HTMLElement);
+    setShowTooltip((prev) => !prev);
+  };
+
+  const handleClick = (e: React.MouseEvent) => {
+    // Skip synthesized click after touch
+    if (Date.now() - lastTouchRef.current < 500) return;
+    e.preventDefault();
+    if (!showTooltip) computePosition(e.currentTarget as HTMLElement);
+    setShowTooltip((prev) => !prev);
+  };
+
+  const handleMouseEnter = (e: React.MouseEvent) => {
+    computePosition(e.currentTarget as HTMLElement);
+    setShowTooltip(true);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      if (!showTooltip) computePosition(e.currentTarget as HTMLElement);
+      setShowTooltip((prev) => !prev);
+    }
+  };
 
   return (
     <span className="relative inline-block">
@@ -58,26 +93,43 @@ function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
           ['--highlight-border' as string]: chapterColor,
           ['--highlight-color-hover' as string]: hexToRgba(chapterColor, 0.25),
         }}
-        onMouseEnter={() => setShowTooltip(true)}
+        onMouseEnter={handleMouseEnter}
         onMouseLeave={() => setShowTooltip(false)}
+        onClick={handleClick}
+        onTouchEnd={handleTouchEnd}
+        onKeyDown={handleKeyDown}
+        role="button"
+        tabIndex={0}
+        aria-label={`${term}: ${definition}`}
       >
         {term}
       </span>
       <AnimatePresence>
         {showTooltip && (
           <motion.div
-            initial={{ opacity: 0, y: -6 }}
+            initial={{ opacity: 0, y: position === 'above' ? -6 : 6 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
+            exit={{ opacity: 0, y: position === 'above' ? -6 : 6 }}
             transition={{ duration: 0.2, ease: [0.25, 1, 0.5, 1] }}
-            className="absolute left-0 bottom-full mb-2.5 z-30 bg-dark text-white text-sm px-4 py-3.5 rounded-xl shadow-2xl w-[320px] font-body leading-relaxed"
-            style={{ boxShadow: '0 8px 32px rgba(26,26,46,0.4)' }}
+            className={`absolute z-30 bg-dark text-white text-sm px-4 py-3.5 rounded-xl shadow-2xl font-body leading-relaxed ${
+              position === 'above'
+                ? 'bottom-full mb-2.5 left-1/2 -translate-x-1/2'
+                : 'top-full mt-2.5 left-1/2 -translate-x-1/2'
+            }`}
+            style={{
+              boxShadow: '0 8px 32px rgba(26,26,46,0.4)',
+              width: 'min(320px, calc(100vw - 48px))',
+            }}
           >
             <p className="font-display font-semibold mb-1" style={{ color: chapterColor }}>
               {term}
             </p>
             <p className="text-white/85 leading-relaxed">{definition}</p>
-            <div className="absolute -bottom-1.5 left-5 w-3 h-3 bg-dark rotate-45 rounded-[1px]" />
+            <div
+              className={`absolute w-3 h-3 bg-dark rotate-45 rounded-[1px] left-1/2 -translate-x-1/2 ${
+                position === 'above' ? '-bottom-1.5' : '-top-1.5'
+              }`}
+            />
           </motion.div>
         )}
       </AnimatePresence>

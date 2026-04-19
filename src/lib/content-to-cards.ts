@@ -138,134 +138,25 @@ function chunkSentences(sentences: string[], chunkSize: number): string[] {
   return chunks;
 }
 
-// ── Quick Check Generation ────────────────────────────────────────────────────
-
-/**
- * Generate a quick check question from a key-term block.
- */
-function generateKeyTermQuickCheck(
-  term: string,
-  definition: string,
-  id: string
-): QuickCheckCard {
-  const wrongAnswers = generateWrongAnswers(definition);
-
-  // Shuffle options — put correct answer at a random position
-  const options: QuickCheckOption[] = [
-    { text: definition, isCorrect: true },
-    ...wrongAnswers.map((text) => ({ text, isCorrect: false })),
-  ];
-
-  // Deterministic shuffle based on term length to be consistent
-  const shuffled = shuffleWithSeed(options, term.length);
-
-  return {
-    id,
-    type: 'quick-check',
-    question: `What is ${term}?`,
-    options: shuffled,
-  };
-}
-
-/**
- * Generate a quick check from text content — "Which of these is true?"
- */
-function generateTextQuickCheck(
-  textContent: string,
-  id: string
-): QuickCheckCard | null {
-  const sentences = splitSentences(textContent);
-  if (sentences.length < 1) return null;
-
-  // Pick the most substantive sentence (longest) as the correct answer
-  const sortedByLength = [...sentences].sort((a, b) => b.length - a.length);
-  const correctStatement = sortedByLength[0];
-
-  // Create two wrong alternatives by negating/altering the statement
-  const wrongOptions = generateWrongStatements(correctStatement);
-
-  const options: QuickCheckOption[] = [
-    { text: correctStatement, isCorrect: true },
-    ...wrongOptions.map((text) => ({ text, isCorrect: false })),
-  ];
-
-  const shuffled = shuffleWithSeed(options, textContent.length);
-
-  return {
-    id,
-    type: 'quick-check',
-    question: 'Which of these is true?',
-    options: shuffled,
-  };
-}
-
-/**
- * Generate plausible wrong answers for a definition.
- */
-function generateWrongAnswers(definition: string): string[] {
-  const words = definition.split(' ');
-
-  // Strategy 1: Swap key adjectives/verbs to create wrong definitions
-  const wrong1 = words.length > 4
-    ? `A process that is unrelated to ${words.slice(Math.floor(words.length / 2)).join(' ')}`
-    : `The opposite of ${definition.toLowerCase()}`;
-
-  const wrong2 = words.length > 3
-    ? `A term used in a completely different context than ${words.slice(0, 3).join(' ').toLowerCase()}`
-    : `Something entirely different from what this describes`;
-
-  return [wrong1, wrong2];
-}
-
-/**
- * Generate wrong statements from a correct one.
- */
-function generateWrongStatements(correct: string): string[] {
-  // Strategy: negate or add "not" to the statement
-  const negated = correct.includes(' is ')
-    ? correct.replace(' is ', ' is not ')
-    : correct.includes(' are ')
-    ? correct.replace(' are ', ' are not ')
-    : `It is not true that ${correct.charAt(0).toLowerCase()}${correct.slice(1)}`;
-
-  // Strategy 2: Replace with a generically wrong statement
-  const generic = correct.length > 50
-    ? `${correct.split(' ').slice(0, 4).join(' ')} has no practical applications in real life.`
-    : 'This concept has been completely disproven by modern research.';
-
-  return [negated, generic];
-}
-
-/**
- * Deterministic shuffle based on a numeric seed.
- */
-function shuffleWithSeed<T>(array: T[], seed: number): T[] {
-  const result = [...array];
-  let s = seed;
-  for (let i = result.length - 1; i > 0; i--) {
-    s = ((s * 1103515245 + 12345) & 0x7fffffff);
-    const j = s % (i + 1);
-    [result[i], result[j]] = [result[j], result[i]];
-  }
-  return result;
-}
+// ── Quick Check Generation — REMOVED ─────────────────────────────────────────
+//
+// Auto-generated quick checks produced garbled, truncated, incoherent wrong
+// answers (e.g., "A process that is unrelated to of TCS..."). The algorithm
+// mangled sentence fragments to create distractors, which never worked.
+//
+// Quick checks now ONLY come from explicitly authored content in the JSON files.
+// No auto-generation.
 
 // ── Main Conversion ───────────────────────────────────────────────────────────
-
-const QUICK_CHECK_INTERVAL = 5; // Insert a quick check after every 5 teach cards
 
 /**
  * Convert an array of ContentBlocks into a deck of LessonCards.
  *
- * Two-pass approach:
- * Pass 1: Convert all blocks to cards, merging images with adjacent text
- * Pass 2: Insert quick checks at intervals
- *
- * This ensures quick checks never land between a text card and its image.
+ * Converts all blocks to cards, merging images with adjacent text.
+ * No auto-generated quick checks — only authored content from the JSON.
  */
 export function convertBlocksToCards(blocks: ContentBlock[]): LessonCard[] {
-  // ── Pass 1: Convert blocks, merge images with text ────────────────────────
-  const rawCards: LessonCard[] = [];
+  const cards: LessonCard[] = [];
   let cardIndex = 0;
 
   for (let blockIdx = 0; blockIdx < blocks.length; blockIdx++) {
@@ -278,7 +169,7 @@ export function convertBlocksToCards(blocks: ContentBlock[]): LessonCard[] {
       };
 
       // Try to merge with the PREVIOUS text card
-      const lastCard = rawCards[rawCards.length - 1];
+      const lastCard = cards[cards.length - 1];
       if (lastCard && lastCard.type === 'text' && !lastCard.illustration) {
         lastCard.illustration = imgData;
         continue;
@@ -291,7 +182,7 @@ export function convertBlocksToCards(blocks: ContentBlock[]): LessonCard[] {
         if (textCards.length > 0) {
           textCards[0].illustration = imgData;
           for (const card of textCards) {
-            rawCards.push(card);
+            cards.push(card);
             cardIndex++;
           }
           blockIdx++; // skip the next text block since we consumed it
@@ -300,48 +191,15 @@ export function convertBlocksToCards(blocks: ContentBlock[]): LessonCard[] {
       }
 
       // Fallback: standalone visual card
-      rawCards.push(convertImageBlock(block.data, cardIndex));
+      cards.push(convertImageBlock(block.data, cardIndex));
       cardIndex++;
       continue;
     }
 
     const blockCards = convertSingleBlock(block, cardIndex);
     for (const card of blockCards) {
-      rawCards.push(card);
+      cards.push(card);
       cardIndex++;
-    }
-  }
-
-  // ── Pass 2: Insert quick checks at intervals ──────────────────────────────
-  const cards: LessonCard[] = [];
-  let teachCardsSinceLastCheck = 0;
-  const pendingKeyTerms: Array<{ term: string; definition: string }> = [];
-  const pendingTextBlocks: string[] = [];
-  let qcIndex = rawCards.length;
-
-  for (const card of rawCards) {
-    cards.push(card);
-    teachCardsSinceLastCheck++;
-
-    // Track content for quick check generation
-    if (card.type === 'key-term') {
-      pendingKeyTerms.push({ term: card.term, definition: card.definition });
-    } else if (card.type === 'text') {
-      pendingTextBlocks.push(card.text);
-    }
-
-    // Insert a quick check after every QUICK_CHECK_INTERVAL teach cards
-    if (teachCardsSinceLastCheck >= QUICK_CHECK_INTERVAL) {
-      const quickCheck = generateQuickCheck(
-        pendingKeyTerms,
-        pendingTextBlocks,
-        `qc-${qcIndex}`
-      );
-      if (quickCheck) {
-        cards.push(quickCheck);
-        qcIndex++;
-      }
-      teachCardsSinceLastCheck = 0;
     }
   }
 
@@ -369,6 +227,8 @@ function convertSingleBlock(
     case 'dialogue':
       return [convertDialogueBlock(block.data, startIndex)];
     default:
+      // Unknown block types (including future hand-authored 'quick-check' blocks
+      // added directly to content JSON) are silently skipped.
       return [];
   }
 }
@@ -475,29 +335,3 @@ function convertDialogueBlock(
   };
 }
 
-/**
- * Pick the best quick check to generate from accumulated content.
- * Prefers key-term checks; falls back to text-based checks.
- */
-function generateQuickCheck(
-  keyTerms: Array<{ term: string; definition: string }>,
-  textBlocks: string[],
-  id: string
-): QuickCheckCard | null {
-  // Prefer generating from the most recent key term
-  if (keyTerms.length > 0) {
-    const lastTerm = keyTerms[keyTerms.length - 1];
-    // Remove it so we don't repeat
-    keyTerms.pop();
-    return generateKeyTermQuickCheck(lastTerm.term, lastTerm.definition, id);
-  }
-
-  // Fall back to text-based
-  if (textBlocks.length > 0) {
-    const lastText = textBlocks[textBlocks.length - 1];
-    textBlocks.pop();
-    return generateTextQuickCheck(lastText, id);
-  }
-
-  return null;
-}

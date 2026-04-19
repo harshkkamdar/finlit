@@ -503,6 +503,13 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "Social Comparison",
+            "definition": "The tendency to measure your own life, possessions, and status against other people's, especially what you see on social media. It drives spending because you start buying things to close the gap between your life and someone else's highlight reel."
+          }
+        },
+        {
           "type": "text",
           "data": {
             "content": "**Social comparison** is when you measure yourself against other people. You see a classmate's new phone. You notice your friend's wardrobe. You check someone's LinkedIn and feel behind. This is completely human, but it gets dangerous when it starts driving your spending. Because the standard you are comparing yourself to is infinite. There is always someone with more."

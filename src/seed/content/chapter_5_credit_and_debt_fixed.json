@@ -88,7 +88,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Credit is simply the ability to get money, goods, or services now and pay for them later. Every time someone takes a home loan, buys on EMI, or swipes a credit card, they're using credit. In India alone, over 100 million credit cards are active right now. Credit is everywhere."
+            "content": "Credit is simply the ability to get money, goods, or services now and pay for them later. Every time someone takes a home loan, buys something on monthly instalments, or swipes a credit card, they're using credit. In India alone, over 100 million credit cards are active right now. Credit is everywhere."
           }
         },
         {
@@ -232,7 +232,7 @@
         },
         {
           "type": "scenario",
-          "scenario": "Priya takes a ₹5,00,000 home loan. The bank says: 'If you miss 3 consecutive payments, we have the right to seize the property.' Rahul takes a ₹50,000 personal loan. The bank says: 'If you miss payments, we'll report you to CIBIL and can take legal action, but we can't take any specific asset from you.'",
+          "scenario": "Priya takes a ₹5,00,000 home loan. The bank says: 'If you miss 3 consecutive payments, we have the right to seize the property.' Rahul takes a ₹50,000 personal loan. The bank says: 'If you miss payments, we'll report you to credit bureaus and can take legal action, but we can't take any specific asset from you.'",
           "prompt": "Which loan is secured and which is unsecured?",
           "options": [
             {
@@ -312,7 +312,7 @@
               "correctCategory": "Unsecured Credit"
             }
           ],
-          "explanation": "Secured = specific asset pledged (home, car, gold). Unsecured = no asset, just your creditworthiness and CIBIL score. Secured loans are typically cheaper because the lender has a safety net.",
+          "explanation": "Secured = specific asset pledged (home, car, gold). Unsecured = no asset, just the lender's trust that you'll repay. Secured loans are typically cheaper because the lender has a safety net if you stop paying.",
           "xpValue": 15
         }
       ]
@@ -455,24 +455,6 @@
           "type": "mcq-single",
           "prompt": "Sneha has a credit card with 3% monthly interest (36% APR). She has a ₹20,000 balance and pays nothing for one month. How much does she owe at the end of the month?",
           "options": [
-            {
-              "text": "₹20,000 (interest doesn't start for 30 days)",
-              "isCorrect": false
-            },
-            {
-              "text": "₹20,600 (3% of ₹20,000 = ₹600)",
-              "isCorrect": true
-            },
-            {
-              "text": "₹27,200 (36% of ₹20,000)",
-              "isCorrect": false
-            },
-            {
-              "text": "₹21,000 (flat ₹1,000 fee)",
-              "isCorrect": false
-            }
-          ],
-          "_correctedOptions": [
             {
               "text": "₹20,000 (interest doesn't start for 30 days)",
               "isCorrect": false
@@ -906,7 +888,7 @@
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Some employers in India now check CIBIL scores before hiring for finance-related roles. Some landlords check before offering a flat. Your credit score is becoming a general-purpose reputation score, not just a loan tool."
+            "content": "You can check your own CIBIL score for free once a year at cibil.com. Checking your own score is a 'soft inquiry' and does NOT lower it. Only loan or credit card applications trigger 'hard inquiries' that affect it."
           }
         },
         {
@@ -1267,23 +1249,23 @@
           "prompt": "What is Karan's debt-to-income ratio if he takes the education loan, and is this considered healthy?",
           "options": [
             {
-              "text": "44%, above healthy, but this is good debt so it's worth it",
-              "isCorrect": true
+              "text": "44%, borderline but manageable since it's good debt",
+              "isCorrect": false
             },
             {
               "text": "28%, well within healthy range",
               "isCorrect": false
             },
             {
-              "text": "56%, dangerous and he should not take it",
-              "isCorrect": false
+              "text": "56%, above the danger zone, but temporarily worth it because the other debts end soon and the MBA boosts his income",
+              "isCorrect": true
             },
             {
               "text": "33%, exactly at the safe limit",
               "isCorrect": false
             }
           ],
-          "explanation": "Total monthly debt: ₹8,000 + ₹5,000 + ₹12,000 = ₹25,000. DTI: ₹25,000 ÷ ₹45,000 = 55.6%... wait, that's high. But the calculation changes context: his car loan ends in 18 months and phone in 12 months. His near-future DTI drops dramatically. The education loan builds long-term value (₹35,000/month salary jump). This is a case where good debt math justifies a temporarily high DTI, provided he has an emergency fund.",
+          "explanation": "Total monthly debt: ₹8,000 + ₹5,000 + ₹12,000 = ₹25,000. DTI: ₹25,000 / ₹45,000 = 55.6%, above the 50% danger zone. But context matters: his car loan ends in 18 months and phone EMI in 12 months. After those end, his DTI drops to ₹12,000 / ₹45,000 = 26.7%, well within healthy range. The education loan also builds long-term value (₹35,000/month salary jump). A temporarily high DTI can be justified if it's driven by good debt and you have an emergency fund to ride out the tight months.",
           "xpValue": 15
         },
         {

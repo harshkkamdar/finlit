@@ -65,7 +65,7 @@
           "type": "key-term",
           "data": {
             "term": "Fixed Expenses",
-            "definition": "Costs that stay the same every month regardless of what you do. Phone plan, subscriptions, tuition fees, EMIs."
+            "definition": "Costs that stay the same every month regardless of what you do. Phone plan, subscriptions, tuition fees, loan instalments."
           }
         },
         {
@@ -79,6 +79,13 @@
           "type": "text",
           "data": {
             "content": "**Variable expenses** change every month depending on your choices. How many times you ate out, whether you took an auto or walked, that impulse buy on Flipkart. This is where your real control lives. You can't easily change your phone plan. But you 100% control how many bubble teas you order this week."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Variable Expenses",
+            "definition": "Costs that change from month to month depending on your choices. Eating out, transport, shopping, entertainment. This is where you have the most control over your spending."
           }
         },
         {
@@ -134,12 +141,12 @@
           "items": [
             { "text": "Rent (₹9,500/month)", "correctCategory": "Fixed" },
             { "text": "Grocery shopping (₹3,200 this month)", "correctCategory": "Variable" },
-            { "text": "Phone EMI (₹1,800/month)", "correctCategory": "Fixed" },
+            { "text": "Phone loan instalment (₹1,800/month)", "correctCategory": "Fixed" },
             { "text": "Auto fares this week (₹450)", "correctCategory": "Variable" },
             { "text": "Netflix subscription (₹199/month)", "correctCategory": "Fixed" },
             { "text": "Weekend dinner with friends (₹800)", "correctCategory": "Variable" }
           ],
-          "explanation": "Fixed expenses are locked in, rent and EMIs don't care if you had a slow month. Variable expenses are in your control. That's exactly where your budgeting focus should go: reduce the variables, not stress about the fixed.",
+          "explanation": "Fixed expenses are locked in — rent and loan payments don't care if you had a slow month. Variable expenses are in your control. That's exactly where your budgeting focus should go: reduce the variables, not stress about the fixed.",
           "xpValue": 15
         },
         {
@@ -156,7 +163,7 @@
         },
         {
           "type": "scenario",
-          "scenario": "Priya gets ₹25,000/month salary. Her fixed expenses: rent ₹8,000, phone EMI ₹1,200, insurance ₹500. Her variable expenses last month: groceries ₹3,500, eating out ₹4,200, transport ₹1,800, shopping ₹3,000, misc ₹1,500.",
+          "scenario": "Priya gets ₹25,000/month salary. Her fixed expenses: rent ₹8,000, phone loan instalment ₹1,200, insurance ₹500. Her variable expenses last month: groceries ₹3,500, eating out ₹4,200, transport ₹1,800, shopping ₹3,000, misc ₹1,500.",
           "prompt": "How much did Priya actually save this month?",
           "options": [
             { "text": "₹0, she spent everything", "isCorrect": false },
@@ -171,7 +178,7 @@
           "type": "true-false",
           "prompt": "Variable expenses are impossible to reduce because you need them to survive.",
           "correctAnswer": false,
-          "explanation": "Variable expenses are literally the ones you have the most control over! Eating out vs. cooking, Ola vs. metro, branded shampoo vs. generic, these are all choices. Fixed expenses (rent, EMIs) are much harder to change quickly.",
+          "explanation": "Variable expenses are literally the ones you have the most control over! Eating out vs. cooking, Ola vs. metro, branded shampoo vs. generic — these are all choices. Fixed expenses (rent, loan payments) are much harder to change quickly.",
           "xpValue": 10
         },
         {
@@ -211,6 +218,13 @@
           "type": "text",
           "data": {
             "content": "Great news, Priya. There IS a simple answer. It's called the **50/30/20 Rule**, and it's been around since the early 2000s because it actually works. The idea: every rupee you earn goes into one of three buckets. Needs: 50%. Wants: 30%. Savings: 20%. That's it. Done."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Take-Home Income",
+            "definition": "The actual money you receive after any deductions like taxes or PF. This is the number you use for budgeting, not your gross salary."
           }
         },
         {
@@ -259,13 +273,6 @@
           "type": "text",
           "data": {
             "content": "**Wants** are the things that make life fun but aren't survival. Eating out with friends, Netflix, new clothes, that 500-rupee coffee at Starbucks. The 30% bucket says you absolutely get to enjoy life. Just within a number."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Take-Home Income",
-            "definition": "The actual money you receive after any deductions like taxes or PF. This is the number you use for the 50/30/20 split, not your gross salary."
           }
         },
         {
@@ -345,11 +352,11 @@
           "prompt": "Which 50/30/20 bucket is Meera most over-budget in?",
           "options": [
             { "text": "Needs, her fixed costs are too high", "isCorrect": false },
-            { "text": "Wants, she's spending more than 30% on lifestyle", "isCorrect": true },
-            { "text": "Savings, she's not saving enough", "isCorrect": false },
+            { "text": "Wants, she's spending more than 30% on lifestyle", "isCorrect": false },
+            { "text": "Savings, she's not saving enough compared to the 20% target", "isCorrect": true },
             { "text": "She's perfectly balanced", "isCorrect": false }
           ],
-          "explanation": "Meera's Needs (rent + groceries + transport + phone): ₹13,849, that's 53% of income, close to target. Her Wants (eating out + OTTs + gym + clothes): ₹7,697, that's 30%, on target. Her Savings: ₹3,000, that's only 11.5%, under target. So actually Savings is her biggest issue! But her Wants at the edge of budget means any additional impulse purchase will push her into deficit.",
+          "explanation": "Meera's Needs (rent + groceries + transport + phone): ₹13,849, that's 53% of income, slightly over but close. Her Wants (eating out + OTTs + gym + clothes): ₹7,697, that's about 30%, right on target. Her Savings: ₹3,000, that's only 11.5%, well under the 20% target of ₹5,200. To fix this, she'd need to trim her Needs or Wants to free up another ₹2,200 for savings.",
           "xpValue": 15
         },
         {
@@ -359,14 +366,14 @@
           "items": [
             { "text": "Rent for shared flat", "correctCategory": "Needs (50%)" },
             { "text": "Weekend trip to Coorg", "correctCategory": "Wants (30%)" },
-            { "text": "Monthly SIP investment", "correctCategory": "Savings (20%)" },
+            { "text": "Monthly SIP (auto-investing in a mutual fund)", "correctCategory": "Savings (20%)" },
             { "text": "Mobile data plan (₹349)", "correctCategory": "Needs (50%)" },
             { "text": "Dinner at a restaurant", "correctCategory": "Wants (30%)" },
             { "text": "Emergency fund top-up", "correctCategory": "Savings (20%)" },
             { "text": "Electricity bill", "correctCategory": "Needs (50%)" },
             { "text": "New pair of sneakers", "correctCategory": "Wants (30%)" }
           ],
-          "explanation": "Needs = survival basics. Wants = quality of life. Savings = future you. The tricky ones: a basic phone plan is a Need; eating out is always a Want; SIPs and emergency fund contributions both count as Savings.",
+          "explanation": "Needs = survival basics. Wants = quality of life. Savings = future you. The tricky ones: a basic phone plan is a Need; eating out is always a Want; auto-investments (like SIPs in mutual funds) and emergency fund contributions both count as Savings.",
           "xpValue": 15
         },
         {
@@ -378,7 +385,7 @@
         },
         {
           "type": "mcq-single",
-          "prompt": "Rahul's phone dies and he needs to buy a replacement to work (he's a delivery driver). He buys a basic smartphone on EMI, ₹1,500/month. Which budget bucket does this EMI belong in?",
+          "prompt": "Rahul's phone dies and he needs to buy a replacement to work (he's a delivery driver). He buys a basic smartphone on monthly instalments, ₹1,500/month. Which budget bucket does this instalment belong in?",
           "options": [
             { "text": "Wants (30%), it's a phone, which is a luxury", "isCorrect": false },
             { "text": "Needs (50%), it's required for his income", "isCorrect": true },
@@ -717,15 +724,15 @@
       "exercises": [
         {
           "type": "scenario",
-          "scenario": "Aditya earns ₹22,000/month from his first job. He sits down on the 1st of the month and writes out his plan: Rent ₹7,500, Groceries ₹3,000, Transport ₹1,200, Phone ₹299, Eating out ₹2,000, Entertainment ₹800, Clothes ₹1,000, Emergency fund ₹2,000, Savings ₹1,500. He then tracks every expense during the month. At month-end his total spending is ₹20,500, exactly what he allocated.",
+          "scenario": "Aditya earns ₹22,000/month from his first job. He sits down on the 1st of the month and writes out his plan: Rent ₹7,500, Groceries ₹3,000, Transport ₹1,200, Phone ₹299, Eating out ₹2,000, Entertainment ₹800, Clothes ₹1,201, Emergency fund ₹3,000, Savings ₹3,000. Every rupee has a job. He then tracks every expense during the month to make sure he sticks to the plan.",
           "prompt": "Which budgeting method is Aditya using?",
           "options": [
             { "text": "50/30/20 only", "isCorrect": false },
             { "text": "Zero-based budgeting", "isCorrect": true },
-            { "text": "Pay-yourself-last method", "isCorrect": false },
-            { "text": "Envelope method", "isCorrect": false }
+            { "text": "The 50/30/20 rule with no tracking", "isCorrect": false },
+            { "text": "Spending whatever feels right each month", "isCorrect": false }
           ],
-          "explanation": "Aditya assigned every rupee a purpose, so Income minus All Allocations = ₹1,500 unallocated, which he presumably put toward savings or kept as buffer. The key is that nothing is 'floating', everything has a category. That's zero-based budgeting.",
+          "explanation": "Aditya assigned every rupee of his ₹22,000 a specific purpose: ₹7,500 + ₹3,000 + ₹1,200 + ₹299 + ₹2,000 + ₹800 + ₹1,201 + ₹3,000 + ₹3,000 = ₹22,000. Income minus all allocations equals zero. Nothing is unplanned, nothing is 'floating'. That's zero-based budgeting.",
           "xpValue": 15
         },
         {
@@ -745,7 +752,7 @@
           "prompt": "Rajan gets a ₹5,000 raise (now ₹35,000/month). Sort these responses to his new income into Smart Move vs. Lifestyle Creep",
           "categories": ["Smart Move", "Lifestyle Creep"],
           "items": [
-            { "text": "Increase SIP by ₹2,000/month", "correctCategory": "Smart Move" },
+            { "text": "Increase monthly savings or investments by ₹2,000/month", "correctCategory": "Smart Move" },
             { "text": "Move from shared flat to solo apartment (+₹5,000 rent)", "correctCategory": "Lifestyle Creep" },
             { "text": "Upgrade eating out budget from ₹2,000 to ₹5,000/month", "correctCategory": "Lifestyle Creep" },
             { "text": "Keep expenses the same, put ₹5,000 into emergency fund faster", "correctCategory": "Smart Move" },
@@ -983,7 +990,7 @@
       },
       {
         "nodeId": "node-2c",
-        "narrative": "Rent paid, ₹20,500 remaining. Week 1 groceries needed. Your phone is also running low on storage and showing ads for a new mid-range phone (₹12,999 on Flipkart, ₹1,083/month EMI). Your current phone works, it's just slow.",
+        "narrative": "Rent paid, ₹20,500 remaining. Week 1 groceries needed. Your phone is also running low on storage and showing ads for a new mid-range phone (₹12,999 on Flipkart, ₹1,083/month in instalments). Your current phone works, it's just slow.",
         "timeSkip": "Day 3...",
         "choices": [
           {
@@ -993,7 +1000,7 @@
             "feedback": "Chip smiles. 'Phone is functional. Food is essential. Correct priorities.'"
           },
           {
-            "text": "Buy the phone on EMI (₹1,083/month) + groceries (₹2,500)",
+            "text": "Buy the phone on instalments (₹1,083/month) + groceries (₹2,500)",
             "nextNodeId": "node-3c",
             "walletImpact": -3583,
             "feedback": "Chip squints. 'New phone, working phone already, no emergency fund. This is a want dressed as a need. Just saying.'"
@@ -1062,7 +1069,7 @@
             "text": "Pay both, work tool ₹850 and birthday dinner ₹1,200",
             "nextNodeId": "node-4f",
             "walletImpact": -2050,
-            "feedback": "Chip: 'Work needs covered, friend covered. But with a phone EMI now running, every rupee counts.'"
+            "feedback": "Chip: 'Work needs covered, friend covered. But with a phone instalment now running, every rupee counts.'"
           },
           {
             "text": "Pay work tool, skip dinner (₹850)",

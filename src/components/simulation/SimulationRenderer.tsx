@@ -238,7 +238,7 @@ function TimeSkipOverlay({
   reducedMotion: boolean;
 }) {
   useEffect(() => {
-    const timer = setTimeout(onDone, reducedMotion ? 100 : 2200);
+    const timer = setTimeout(onDone, reducedMotion ? 100 : 3500);
     return () => clearTimeout(timer);
   }, [onDone, reducedMotion]);
 
@@ -1113,8 +1113,8 @@ export default function SimulationRenderer({
         setScore((prev) => prev + choice.scoreImpact!);
       }
 
-      // Transition after delay
-      const delay = choice.feedback ? 2200 : 800;
+      // Transition after delay — give users time to read feedback
+      const delay = choice.feedback ? 5000 : 800;
       setTimeout(() => {
         setActiveFeedback(null);
         setActiveStockChoice(null);

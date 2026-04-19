@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, type ComponentType } from 'react';
+import { useState, useEffect, type ComponentType } from 'react';
 import { ImageIcon } from 'lucide-react';
 import {
   MoneyTimelineSVG,
@@ -152,6 +152,20 @@ export default function VisualCard({
   chapterColor,
 }: VisualCardProps) {
   const [imageError, setImageError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  // Preload direct-path images
+  useEffect(() => {
+    if (src && src.startsWith('/')) {
+      setImageLoaded(false);
+      let cancelled = false;
+      const img = new window.Image();
+      img.onload = () => { if (!cancelled) setImageLoaded(true); };
+      img.onerror = () => { if (!cancelled) setImageError(true); };
+      img.src = src;
+      return () => { cancelled = true; };
+    }
+  }, [src]);
 
   // 1. Direct path resolution — if src starts with '/', use it as-is
   if (src && src.startsWith('/') && !imageError) {
@@ -159,15 +173,25 @@ export default function VisualCard({
       <div className="lesson-card !p-0 overflow-hidden">
         <div className="h-[2px]" style={{ backgroundColor: chapterColor }} />
         <div
-          className="flex items-center justify-center px-6 py-8"
+          className="flex items-center justify-center px-6 py-8 min-h-[200px]"
           style={{ backgroundColor: `${hexToRgba(chapterColor, 0.04)}` }}
         >
-          <img
-            src={src}
-            alt={alt}
-            className="max-h-[340px] w-auto object-contain drop-shadow-sm"
-            onError={() => setImageError(true)}
-          />
+          {!imageLoaded ? (
+            <div className="flex flex-col items-center gap-3">
+              <div
+                className="w-12 h-12 rounded-full skeleton"
+                style={{ backgroundColor: hexToRgba(chapterColor, 0.1) }}
+              />
+              <div className="h-3 w-32 rounded skeleton" style={{ backgroundColor: hexToRgba(chapterColor, 0.08) }} />
+            </div>
+          ) : (
+            <img
+              src={src}
+              alt={alt}
+              className="max-h-[340px] w-auto object-contain drop-shadow-sm"
+              onError={() => setImageError(true)}
+            />
+          )}
         </div>
       </div>
     );

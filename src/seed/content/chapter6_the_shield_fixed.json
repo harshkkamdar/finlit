@@ -152,17 +152,17 @@
           }
         },
         {
+          "type": "text",
+          "data": {
+            "content": "**Urgency** is the closer. It prevents you from doing the one thing that would expose every scam: **pausing and thinking**. 'This offer is only valid for the next 15 minutes.' 'Your SIM will be deactivated in 2 hours.' 'The officer is already on his way.' Time pressure is artificial. Always."
+          }
+        },
+        {
           "type": "dialogue",
           "data": {
             "character": "arjun",
             "expression": "explaining",
             "text": "Think of it like this. Fear makes you panic, Greed makes you dream, and Urgency makes sure you do not stop to think. A scammer just needs two of the three and you are already in trouble."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "**Urgency** is the closer. It prevents you from doing the one thing that would expose every scam: **pausing and thinking**. 'This offer is only valid for the next 15 minutes.' 'Your SIM will be deactivated in 2 hours.' 'The officer is already on his way.' Time pressure is artificial. Always."
           }
         },
         {
@@ -205,6 +205,13 @@
           "data": {
             "variant": "fun-fact",
             "content": "India's cybercrime helpline, 1930, received over 1.5 million calls in 2023. That is roughly one call every 20 seconds. You are not alone, and this is very, very common."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "KYC (Know Your Customer)",
+            "definition": "A verification process where banks and financial companies confirm your identity using documents like Aadhaar, PAN, and address proof. Banks do require KYC updates occasionally, but they notify you through their official app or registered mail, never through WhatsApp messages or random phone calls."
           }
         }
       ],
@@ -359,6 +366,13 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "QR Code Payment",
+            "definition": "A method of paying via UPI by scanning a Quick Response code. Scanning always initiates a payment FROM you. You can never receive money by scanning a QR code."
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "chip-says",
@@ -440,13 +454,6 @@
           "type": "text",
           "data": {
             "content": "Another growing scam: **fake merchant QR codes**. Someone swaps the QR code at a small shop with their own. You scan what you think is the food stall's code, but the money goes to a scammer. The shop owner does not know. You paid. Nobody received it legitimately. Always check that the name shown on your UPI app matches who you think you are paying before entering your PIN."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "QR Code Payment",
-            "definition": "A method of paying via UPI by scanning a Quick Response code. Scanning always initiates a payment FROM you. You can never receive money by scanning a QR code."
           }
         },
         {
@@ -668,6 +675,13 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "OTP Forwarding Malware",
+            "definition": "Malicious apps hidden on your phone that silently forward your incoming SMS messages, including OTPs, to scammers. Usually installed from suspicious links or unofficial app stores."
+          }
+        },
+        {
           "type": "text",
           "data": {
             "content": "There is also **OTP forwarding malware**: apps that hide in your phone and automatically forward all incoming SMSes (including OTPs) to scammers. This is why you should never install apps from outside the Play Store or App Store, especially ones sent to you via WhatsApp links."
@@ -678,13 +692,6 @@
           "data": {
             "variant": "tip",
             "content": "Simple OTP hygiene: (1) Never share an OTP with anyone on a call. (2) Never type an OTP into a website you did not navigate to yourself. (3) If your phone loses signal suddenly, call your operator immediately. (4) Enable SIM lock or port protection, most operators offer this."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "OTP Forwarding Malware",
-            "definition": "Malicious apps hidden on your phone that silently forward your incoming SMS messages, including OTPs, to scammers. Usually installed from suspicious links or unofficial app stores."
           }
         },
         {
@@ -809,11 +816,11 @@
               "isCorrect": true
             },
             {
-              "text": "They have a professional-sounding IVR before connecting you to a 'representative'",
+              "text": "They have a professional-sounding automated menu (press 1 for English, press 2 for Hindi) before connecting you to a 'representative'",
               "isCorrect": true
             }
           ],
-          "explanation": "All five are red flags. Scammers call YOU (banks only call for pre-scheduled callbacks or post-complaint follow-ups). They create urgency. They use leaked data to sound credible. They reframe OTP sharing as protective. And they use professional IVR systems, you can literally buy a fake bank IVR setup for ₹5,000 online. None of this indicates legitimacy.",
+          "explanation": "All five are red flags. Scammers call YOU (banks only call for pre-scheduled callbacks or post-complaint follow-ups). They create urgency. They use leaked data to sound credible. They reframe OTP sharing as protective. And they use professional automated phone menus that sound just like a real bank's system, you can literally buy a fake one for Rs 5,000 online. None of this indicates legitimacy.",
           "xpValue": 10
         }
       ]
@@ -824,6 +831,13 @@
       "subtitle": "Investment Scams, Ponzi Schemes & Fake Trading Apps",
       "estimatedReadingTime": "11 minutes",
       "contentBlocks": [
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Ponzi Scheme",
+            "definition": "A fake investment where returns to existing investors are paid using money from new investors, not from real profits. Works until new investors dry up, then collapses completely. Named after Charles Ponzi, who ran one in 1920."
+          }
+        },
         {
           "type": "text",
           "data": {
@@ -842,13 +856,6 @@
           "type": "text",
           "data": {
             "content": "In 2010-2011, Speak Asia Online promised Rs 11,000 per month to anyone who paid Rs 11,000 to join and filled out online surveys. About 2 million Indians signed up. The surveys were fake. The money came from new joiners, not from any real business. Classic Ponzi. When new joiners dried up, it collapsed."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Ponzi Scheme",
-            "definition": "A fake investment where returns to existing investors are paid using money from new investors, not from real profits. Works until new investors dry up, then collapses completely. Named after Charles Ponzi, who ran one in 1920."
           }
         },
         {
@@ -894,6 +901,13 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "SEBI (Securities and Exchange Board of India)",
+            "definition": "The regulatory body that oversees all stock market activity in India. Anyone giving investment advice for money must be registered with SEBI. Check registration at sebi.gov.in before investing."
+          }
+        },
+        {
           "type": "dialogue",
           "data": {
             "character": "arjun",
@@ -913,13 +927,6 @@
             "alt": "A fake trading app showing fake profits with withdrawal fees that never end",
             "src": "/illustrations/ch6/l4-fake-app.png",
             "prompt": "A phone showing a professional-looking trading app with fake profits displayed. A pop-up says Pay Rs 8000 withdrawal fee. Behind the phone, the profits are shown as smoke or illusion dissolving. Blue (#2980B9) palette, flat educational illustration."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "SEBI (Securities and Exchange Board of India)",
-            "definition": "The regulatory body that oversees all stock market activity in India. Anyone giving investment advice for money must be registered with SEBI. Check registration at sebi.gov.in before investing."
           }
         },
         {
@@ -1165,16 +1172,16 @@
           }
         },
         {
-          "type": "text",
-          "data": {
-            "content": "Practical things to set up with your elders: (1) Add DND to their number via 1909 to reduce scam calls. (2) Show them how to hang up and call you first when any 'authority' calls asking for money or info. (3) Lock their Aadhaar biometrics. (4) Add transaction alerts on their bank accounts so you get notified of any unusual activity."
-          }
-        },
-        {
           "type": "key-term",
           "data": {
             "term": "DND (Do Not Disturb)",
             "definition": "A TRAI service activated by calling 1909. It blocks unsolicited marketing and spam calls and SMSes to your number, reducing the chance of scam calls reaching your phone."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Practical things to set up with your elders: (1) Add DND to their number via 1909 to reduce scam calls. (2) Show them how to hang up and call you first when any 'authority' calls asking for money or info. (3) Lock their Aadhaar biometrics. (4) Add transaction alerts on their bank accounts so you get notified of any unusual activity."
           }
         },
         {
@@ -1339,11 +1346,25 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "FIR (First Information Report)",
+            "definition": "A written document prepared by police when they receive information about a crime. Filing an FIR is your legal right and is mandatory for the police to register for amounts above Rs 1 lakh. It strengthens your fraud recovery case."
+          }
+        },
+        {
           "type": "image",
           "data": {
             "alt": "Emergency 30-minute action flowchart for fraud victims",
             "src": "/illustrations/ch6/l6-fraud-flowchart.png",
             "prompt": "A vertical 5-step emergency flowchart with clock icons. Step 1 (0-5 min): Call Bank. Step 2 (5-15 min): Call 1930. Step 3 (15-30 min): File at cybercrime.gov.in. Step 4 (Day 1-3): File FIR. Step 5 (Ongoing): Track status. Blue (#2980B9) background, flat educational illustration."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Chargeback",
+            "definition": "A bank-initiated reversal of a transaction that was fraudulent. Success depends on how quickly you report it. The money must still be in the destination account for reversal to work. Faster means better chances."
           }
         },
         {
@@ -1395,13 +1416,6 @@
           }
         },
         {
-          "type": "key-term",
-          "data": {
-            "term": "Chargeback",
-            "definition": "A bank-initiated reversal of a transaction that was fraudulent. Success depends on how quickly you report it. The money must still be in the destination account for reversal to work. Faster means better chances."
-          }
-        },
-        {
           "type": "image",
           "data": {
             "alt": "A phone screen showing evidence that should be saved after a fraud",
@@ -1413,13 +1427,6 @@
           "type": "text",
           "data": {
             "content": "**What are the real chances of recovery?** Honest answer: it depends on speed and the type of fraud. UPI frauds reported within the first hour have better recovery rates because funds can still be in transit. Investment scam money is harder to recover since it often gets broken into small transfers quickly. But even partial recovery is possible, and the reports you file contribute to patterns that help catch scammers."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "FIR (First Information Report)",
-            "definition": "A written document prepared by police when they receive information about a crime. Filing an FIR is your legal right and is mandatory for the police to register for amounts above Rs 1 lakh. It strengthens your fraud recovery case."
           }
         },
         {
@@ -2150,7 +2157,7 @@
       "Voice cloning caveat: Accurately noted as emerging threat, not overstated"
     ],
     "progressiveDifficulty": "6.1 establishes psychology (conceptual). 6.2-6.3 move to specific mechanics (UPI, OTP). 6.4 covers more complex investment fraud. 6.5 applies knowledge to protecting others (requires synthesis). 6.6 is procedural, what to do after the fact. Simulation reinforces all lessons in rapid succession. Daily challenges extend to edge cases.",
-    "keyTermsCheck": "All key terms (Social Engineering, Vishing, Phishing, UPI Collect Request, Screen Mirroring Scam, OTP, SIM Swap Fraud, Ponzi Scheme, Pump and Dump, SEBI, AePS, Digital Arrest, Chargeback, 1930 helpline) defined before first use in exercises.",
+    "keyTermsCheck": "All key terms (Social Engineering, Vishing, Phishing, KYC, QR Code Payment, UPI Collect Request, Screen Mirroring Scam, OTP, OTP Forwarding Malware, SIM Swap Fraud, Ponzi Scheme, Pump and Dump, SEBI, AePS, Digital Arrest, DND, Chargeback, FIR, 1930 helpline) defined before first use in content and exercises.",
     "chipMomentsPerLesson": {
       "6.1": 3,
       "6.2": 2,

@@ -336,14 +336,14 @@
         {
           "type": "text",
           "data": {
-            "content": "The National Stock Exchange (NSE) is the newer, faster sibling. It was set up in 1992, specifically to modernize and democratize Indian markets, which BSE had dominated for over a century. NSE introduced electronic trading in India, meaning no more shouting on trading floors. Just computers. Fast ones. NSE today handles more trading volume than BSE and is the world's largest derivatives exchange by number of contracts traded."
+            "content": "The National Stock Exchange (NSE) is the newer, faster sibling. It was set up in 1992, specifically to modernize and democratize Indian markets, which BSE had dominated for over a century. NSE introduced electronic trading in India, meaning no more shouting on trading floors. Just computers. Fast ones. NSE today handles more trading volume than BSE and is the world's largest exchange for derivatives (advanced financial contracts based on stocks, like futures and options, which you'll learn about in later chapters) by number of contracts traded."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "NSE (National Stock Exchange)",
-            "definition": "Founded in 1992. India's largest exchange by trading volume. Home to the Nifty 50 index. Introduced fully electronic trading in India. World's largest derivatives exchange by contract volume."
+            "definition": "Founded in 1992. India's largest exchange by trading volume. Home to the Nifty 50 index. Introduced fully electronic trading in India. World's largest exchange for derivatives (advanced contracts based on stocks) by contract volume."
           }
         },
         {
@@ -450,7 +450,7 @@
           "type": "true-false",
           "prompt": "The NSE handles more daily trading volume than the BSE.",
           "correctAnswer": true,
-          "explanation": "Despite BSE being older and listing more companies, NSE dominates in trading volume, especially in derivatives (futures and options). NSE is the world's largest derivatives exchange by contracts traded.",
+          "explanation": "Despite BSE being older and listing more companies, NSE dominates in trading volume, especially in derivatives (advanced financial contracts like futures and options, which are covered in later chapters). NSE is the world's largest exchange for derivatives by contracts traded.",
           "xpValue": 10
         },
         {
@@ -482,7 +482,7 @@
               "correctCategory": "BSE"
             },
             {
-              "text": "World's largest derivatives exchange by volume",
+              "text": "World's largest exchange for advanced trading contracts (derivatives) by volume",
               "correctCategory": "NSE"
             }
           ],
@@ -740,7 +740,7 @@
               "correctCategory": "Price likely goes DOWN"
             },
             {
-              "text": "Company announces stock split (more shares at lower price each)",
+              "text": "Company expands into 5 new countries, showing strong growth",
               "correctCategory": "Price likely goes UP"
             },
             {
@@ -844,14 +844,14 @@
           "type": "key-term",
           "data": {
             "term": "Sensex",
-            "definition": "BSE's benchmark index tracking 30 large-cap companies. Base value: 100 in 1979. As of 2024, trading around 72,000 to 75,000. Calculated using free-float market cap methodology."
+            "definition": "BSE's benchmark index tracking 30 of India's biggest companies. Base value: 100 in 1979. As of 2024, trading around 72,000 to 75,000. Weighted by each company's market cap, so the biggest companies influence the index more."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "₹1 lakh invested in a Sensex index fund in 1979 would be worth approximately ₹7.5 crore today (at 75,000 Sensex). No fancy stock picking. No timing the market. Just sitting and waiting for 45 years. That's the power of long-term equity investing."
+            "content": "₹1 lakh invested in a Sensex index fund (a simple investment that automatically buys all the stocks in the Sensex in proportion to their size) in 1979 would be worth approximately ₹7.5 crore today (at 75,000 Sensex). No fancy stock picking. No timing the market. Just sitting and waiting for 45 years. That's the power of long-term investing."
           }
         },
         {
@@ -872,7 +872,7 @@
           "type": "key-term",
           "data": {
             "term": "Nifty 50",
-            "definition": "NSE's benchmark index tracking 50 large-cap companies across 13 sectors. Base value: 1,000 in November 1995. As of 2024, trading around 21,000 to 22,000. Used as the most common benchmark by Indian mutual funds."
+            "definition": "NSE's benchmark index tracking 50 of India's biggest companies across 13 sectors. Base value: 1,000 in November 1995. As of 2024, trading around 21,000 to 22,000. The most widely used benchmark for measuring stock market performance in India."
           }
         },
         {
@@ -1099,7 +1099,7 @@
         {
           "type": "text",
           "data": {
-            "content": "To open a Demat account, you need: your PAN card (mandatory), Aadhaar for KYC verification, a bank account for fund transfers, and to be at least 18 years old (minors can have accounts under a parent's guardianship). The whole process is now fully online and takes 15 to 30 minutes. Account opening is free on most platforms."
+            "content": "To open a Demat account, you need: your PAN card (mandatory), Aadhaar for KYC (Know Your Customer) verification, which is just the process of proving your identity, a bank account for fund transfers, and to be at least 18 years old (minors can have accounts under a parent's guardianship). The whole process is now fully online and takes 15 to 30 minutes. Account opening is free on most platforms."
           }
         },
         {
@@ -1469,7 +1469,7 @@
               "correctCategory": "Bull Market Signal"
             },
             {
-              "text": "FII (foreign investors) withdrawing billions from Indian markets",
+              "text": "Foreign investors pulling billions out of Indian markets",
               "correctCategory": "Bear Market Signal"
             },
             {
@@ -1520,7 +1520,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Buffett's contrarian wisdom: when everyone's panicking (fearful) and selling, prices drop to attractive levels, that's when quality stocks are 'on sale.' Being 'greedy' means buying during these fearful moments, not selling. This requires emotional discipline, which is harder than it sounds.",
+          "explanation": "Buffett's go-against-the-crowd wisdom: when everyone's panicking (fearful) and selling, prices drop to attractive levels, that's when quality stocks are 'on sale.' Being 'greedy' means buying during these fearful moments, not selling. This requires emotional discipline, which is harder than it sounds.",
           "xpValue": 10
         }
       ]
@@ -1588,7 +1588,7 @@
                 "totalCost": 8880
               }
             ],
-            "feedback": "Chip raises an eyebrow. 'Infosys? Solid blue-chip IT company. Risky that you put 88% of your capital in one stock though. Hope nothing weird happens in IT today...'"
+            "feedback": "Chip raises an eyebrow. 'Infosys? Solid, well-established IT company. Risky that you put 88% of your capital in one stock though. Hope nothing weird happens in IT today...'"
           },
           {
             "text": "Split: Buy 3 shares of Zomato (₹585) + 1 share of HDFC Bank (₹1,620), spread it out",
@@ -1651,7 +1651,7 @@
                 "totalCost": 585
               }
             ],
-            "feedback": "Chip approves the Zomato addition. 'But Infosys is bleeding right now. You're holding a paper loss of ₹204. Can you stomach watching it fall more before (hopefully) recovering?'"
+            "feedback": "Chip approves the Zomato addition. 'But Infosys is bleeding right now. You're holding a paper loss of ₹204, meaning the value has dropped but you haven't actually sold, so you haven't locked in the loss yet. Can you stomach watching it fall more before (hopefully) recovering?'"
           },
           {
             "text": "Use ₹600 to buy Tata Motors, 0 shares (price is ₹910, you can't afford 1 share with ₹600)",
@@ -1666,7 +1666,7 @@
       {
         "nodeId": "node-morning-b",
         "timeLabel": "10:30 AM - Mixed Signals",
-        "narrative": "Good news: Zomato just announced record quarterly orders, 'highest ever GMV.' Zomato is now ₹208 (up 6.6% from your buy price of ₹195). Your 3 shares show a ₹39 gain. HDFC Bank is flat. You still have ₹7,795 in cash. Tata Motors is rallying on EV contract news, up 4% to ₹946.",
+        "narrative": "Good news: Zomato just announced record quarterly orders, 'highest ever total order value.' Zomato is now ₹208 (up 6.6% from your buy price of ₹195). Your 3 shares show a ₹39 gain. HDFC Bank is flat. You still have ₹7,795 in cash. Tata Motors is rallying on EV contract news, up 4% to ₹946.",
         "choices": [
           {
             "text": "Buy 8 more shares of Zomato at ₹208 (₹1,664), ride the momentum",
@@ -1914,7 +1914,7 @@
       {
         "nodeId": "node-midday-c1",
         "timeLabel": "1:00 PM - EV Story Continues",
-        "narrative": "Your Tata Motors position is performing well, shares now at ₹965, up from your buy at ₹946. You're showing a ₹95 paper gain on 5 shares. Then: surprise news drops. India's Finance Ministry announces an extended PLI (Production-Linked Incentive) scheme for EV manufacturers. This is massive for Tata Motors. Stock jumps to ₹985.",
+        "narrative": "Your Tata Motors position is performing well, shares now at ₹965, up from your buy at ₹946. You're showing a ₹95 paper gain on 5 shares. Then: surprise news drops. India's Finance Ministry announces an extended PLI (Production-Linked Incentive) scheme for EV manufacturers, basically the government is offering cash rewards to companies that make more electric vehicles in India. This is massive for Tata Motors. Stock jumps to ₹985.",
         "choices": [
           {
             "text": "Buy 5 more Tata Motors shares at ₹985 (₹4,925), double down on the catalyst",
@@ -2026,7 +2026,7 @@
       {
         "nodeId": "node-closing-f",
         "timeLabel": "3:30 PM - Market Close",
-        "narrative": "You sold all 11 Zomato shares at ₹206. You made ₹33 on the 3 bought at ₹195, and lost ₹16 on the 8 bought at ₹208. Net Zomato P&L: +₹17. After market close: the competitor rumour turned out to be true. Zomato fell to ₹188. You got out perfectly. You also have HDFC Bank at ₹1,633 (up from ₹1,620). Final: Zomato proceeds ₹2,266 + HDFC ₹1,633 + cash ₹6,131 = ₹10,030.",
+        "narrative": "You sold all 11 Zomato shares at ₹206. You made ₹33 on the 3 bought at ₹195, and lost ₹16 on the 8 bought at ₹208. Net Zomato profit: +₹17. After market close: the competitor rumour turned out to be true. Zomato fell to ₹188. You got out perfectly. You also have HDFC Bank at ₹1,633 (up from ₹1,620). Final: Zomato proceeds ₹2,266 + HDFC ₹1,633 + cash ₹6,131 = ₹10,030.",
         "choices": [],
         "isEnd": true,
         "outcome": "good",
@@ -2161,7 +2161,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "IPO hype is real but often wrong. Zomato listed at +52% in 2021. Paytm IPO in 2021 listed at -27% on day one and fell further for months. A 2-year-old, unprofitable company at ₹450/share deserves serious scrutiny before you put money in. The right answer is always: read the DRHP (Draft Red Herring Prospectus), understand the business, then decide. Never invest on a friend's tip alone."
+        "explanation": "IPO hype is real but often wrong. Zomato listed at +52% in 2021. Paytm IPO in 2021 listed at -27% on day one and fell further for months. A 2-year-old, unprofitable company at ₹450/share deserves serious scrutiny before you put money in. The right answer is always: read the company's IPO document (called the prospectus), understand how the business makes money and whether it's growing, then decide. Never invest on a friend's tip alone."
       },
       "xpReward": 25,
       "requiredChaptersCompleted": 1

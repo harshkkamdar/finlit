@@ -81,7 +81,7 @@ export default function QuickCheckCard({
       </div>
 
       {/* Question */}
-      <h3 className="font-display text-xl font-semibold text-dark mb-6 leading-snug">
+      <h3 className="font-display text-2xl font-bold text-dark mb-6 leading-snug">
         {question}
       </h3>
 

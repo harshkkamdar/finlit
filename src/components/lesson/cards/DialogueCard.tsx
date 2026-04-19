@@ -102,13 +102,15 @@ export default function DialogueCard({
       style={{ background: `linear-gradient(180deg, ${hexToRgba(accent, 0.02)}, ${hexToRgba(accent, 0.08)})` }}
     >
       {/* Character sprite — bottom left, large, filling ~38% width */}
-      <div className="absolute bottom-0 left-0 w-[38%] max-w-[260px]">
+      {/* overflow-hidden clips any filename/label text baked into the bottom of character PNGs */}
+      <div className="absolute bottom-0 left-0 w-[38%] max-w-[260px] overflow-hidden">
         <Image
           src={spriteSrc}
-          alt={`${config.name} looking ${expr}`}
+          alt=""
+          role="presentation"
           width={260}
           height={260}
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-contain scale-110 origin-top"
         />
       </div>
 

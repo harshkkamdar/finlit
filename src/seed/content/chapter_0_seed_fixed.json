@@ -433,7 +433,7 @@
           "type": "true-false",
           "prompt": "In India today, every rupee in circulation is backed by an equivalent amount of gold held by the RBI.",
           "correctAnswer": false,
-          "explanation": "India, like almost every country, abandoned the gold standard decades ago. The rupee's value comes from government declaration and public trust, not gold reserves. The RBI does hold gold as part of forex reserves, but it doesn't 'back' individual notes.",
+          "explanation": "India, like almost every country, abandoned the gold standard decades ago. The rupee's value comes from government declaration and public trust, not gold reserves. The RBI does hold gold as part of its foreign exchange (forex) reserves, but it doesn't 'back' individual notes.",
           "xpValue": 10
         },
         {
@@ -442,7 +442,7 @@
           "prompt": "What does this situation best illustrate?",
           "options": [
             {
-              "text": "The danger of deflation",
+              "text": "The danger of not having enough banks in a country",
               "isCorrect": false
             },
             {
@@ -613,7 +613,7 @@
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Food alone makes up nearly 46% of India's CPI basket, way more than in Western countries. This means when onion prices skyrocket (and they always do eventually), it hits India's inflation numbers hard. Onions literally influence interest rates."
+            "content": "Food alone makes up nearly 46% of India's inflation measurement basket, way more than in Western countries. This means when onion prices skyrocket (and they always do eventually), it hits India's inflation numbers hard. Onions literally influence interest rates."
           }
         },
         {
@@ -699,7 +699,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "At 6% inflation over 10 years, prices roughly double (using the Rule of 72: 72/6 = 12 years to double). So her ₹1,00,000 can now buy only about half what it could a decade ago. She still has the same number, but the purchasing power has been cut nearly in half. This is why leaving money idle is risky.",
+          "explanation": "At 6% inflation over 10 years, prices roughly double. Here's a handy shortcut: divide 72 by the inflation rate to estimate how many years it takes for prices to double. So 72 divided by 6 gives you about 12 years. After 10 years, her ₹1,00,000 can buy only about half what it could a decade ago. She still has the same number, but the purchasing power has been cut nearly in half. This is why leaving money idle is risky.",
           "xpValue": 15
         },
         {
@@ -1093,7 +1093,7 @@
         {
           "type": "text",
           "data": {
-            "content": "And there's more than just interest. Banks also earn from: transaction fees (that 20 rupee charge for a NEFT transfer), forex services (exchanging currency), insurance commissions (when a banker sells you insurance at the counter), and ATM fees (beyond free transactions). All of these add up to what's called non-interest income."
+            "content": "And there's more than just interest. Banks also earn from: transaction fees (that 20 rupee charge for a bank transfer), forex services (exchanging currency), insurance commissions (when a banker sells you insurance at the counter), and ATM fees (beyond free transactions). All of these add up to what's called non-interest income."
           }
         },
         {
@@ -1142,7 +1142,7 @@
         {
           "type": "text",
           "data": {
-            "content": "The rate at which banks lend to their best customers is called MCLR, Marginal Cost of Funds-based Lending Rate. It's the floor rate. Your home loan, car loan, and personal loan are all calculated as MCLR plus a spread based on your risk profile."
+            "content": "Banks have a base rate, the lowest interest rate they'll offer to anyone, called MCLR (Marginal Cost of Funds-based Lending Rate). Think of it as the starting price. Your actual loan rate is this base rate plus an extra percentage based on how risky the bank thinks you are. So your home loan, car loan, and personal loan rates all start from MCLR and go up from there."
           }
         },
         {
@@ -1199,7 +1199,7 @@
               "correctCategory": "Interest Income"
             },
             {
-              "text": "₹20 fee for NEFT transfer",
+              "text": "₹20 fee for a bank-to-bank transfer",
               "correctCategory": "Non-Interest Income"
             },
             {
@@ -1368,7 +1368,7 @@
           "type": "key-term",
           "data": {
             "term": "Repo Rate",
-            "definition": "The rate at which the RBI lends money to commercial banks. When repo rate goes up, it becomes costlier for banks to borrow, so banks raise loan rates, you pay more for EMIs, people borrow and spend less, and inflation cools."
+            "definition": "The rate at which the RBI lends money to commercial banks. When repo rate goes up, it becomes costlier for banks to borrow, so banks raise loan rates, you pay more for EMIs (Equated Monthly Instalments, the fixed monthly payments on loans), people borrow and spend less, and inflation cools."
           }
         },
         {
@@ -1860,7 +1860,7 @@
       },
       {
         "nodeId": "node-end-complete",
-        "narrative": "You started with 10 kg of rice and a hunger problem. You watched the barter system fail, helped invent currency, navigated inflation, survived demonetization, and ended up with a QR code. Money isn't magic, it's a technology humans invented to solve a very simple problem: trading should be easy. Every rupee, every UPI beep, every SIP deduction is built on 5,000 years of this idea: we agree this has value, so it does.",
+        "narrative": "You started with 10 kg of rice and a hunger problem. You watched the barter system fail, helped invent currency, navigated inflation, survived demonetization, and ended up with a QR code. Money isn't magic, it's a technology humans invented to solve a very simple problem: trading should be easy. Every rupee, every UPI beep, every automatic investment you set up is built on 5,000 years of this idea: we agree this has value, so it does.",
         "timeSkip": null,
         "chipComment": "Chip's most proud moment: 'Most adults don't know this story. You do now. And understanding where money came from? That's the foundation for understanding everything else about it.'",
         "choices": [],

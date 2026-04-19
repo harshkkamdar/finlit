@@ -428,6 +428,13 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "NAV (Net Asset Value)",
+            "definition": "The price of one unit of a mutual fund, calculated daily. Think of it like the 'share price' of a mutual fund. When the NAV goes up, your investment grows. You'll learn more about this when we cover mutual funds in a later lesson."
+          }
+        },
+        {
           "type": "text",
           "data": {
             "content": "Most bank FDs compound quarterly. Most mutual fund returns are effectively compounding daily since the NAV changes every day. This is another reason investments in the market often outperform fixed deposits; not just higher rates, but more frequent compounding."
@@ -606,7 +613,7 @@
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Why 72? It's not exact. It's an approximation based on the natural logarithm of 2. But it's close enough for mental math, and way easier than pulling out ln(2) at a dinner party."
+            "content": "Why 72? It's not exact. It's an approximation based on complex math formulas (the natural logarithm of 2, if you ever encounter it in senior maths). But it's close enough for mental math, and way easier than doing advanced calculations at a dinner party."
           }
         },
         {
@@ -898,6 +905,27 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "PPF (Public Provident Fund)",
+            "definition": "A government-backed savings scheme in India with a 15-year lock-in period. Currently offers around 7.1% interest, fully guaranteed by the government. Very safe, but your money is locked in for a long time."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Equity Mutual Fund",
+            "definition": "A mutual fund that primarily invests in stocks (equity). Higher risk than debt funds or FDs, but also higher potential returns (12-18% historically). Comes in varieties like large-cap (big stable companies), mid-cap, and small-cap (smaller, riskier companies)."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Nifty 50 Index Fund",
+            "definition": "A mutual fund that copies the Nifty 50 index by buying shares of India's 50 largest companies in the same proportion as the index. It gives you instant diversification across sectors and has historically returned about 12-15% annually over long periods."
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "chip-says",
@@ -1055,7 +1083,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Enter mutual funds, basically a bunch of people pool their money together, and a professional fund manager invests it for them. Think of it like a group food order. Everyone puts in money, one person picks the restaurant, and everyone gets to eat."
+            "content": "Enter mutual funds. A mutual fund is like everyone in your class chipping in money and hiring a professional to invest it for you. You don't need to pick stocks yourself, someone who does it for a living handles it. Think of it like a group food order: everyone puts in money, one person picks the restaurant, and everyone gets to eat."
           }
         },
         {
@@ -1096,6 +1124,12 @@
         {
           "type": "text",
           "data": {
+            "content": "Here's a key difference you should know: active funds vs. index funds. An active fund has a fund manager who tries to pick the best stocks and beat the market. An index fund simply copies a market index like the Nifty 50, buying all 50 stocks in the same proportion. Think of it this way: an active fund is like hiring a chef to cook you something amazing (sometimes they nail it, sometimes they don't). An index fund is like ordering the set menu, you get the whole market, no guesswork. Index funds are cheaper (lower fees) and, surprisingly, they beat most active funds over 10+ year periods."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
             "content": "Now here's the real game-changer for beginners: SIP, or Systematic Investment Plan. Instead of investing a big lump sum at once, you invest a fixed amount every month, like ₹500 or ₹1,000, automatically deducted from your bank account."
           }
         },
@@ -1123,6 +1157,13 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "Rupee Cost Averaging",
+            "definition": "A benefit of SIPs where investing a fixed amount regularly means you automatically buy more units when prices are low and fewer when prices are high. Over time, this lowers your average cost per unit without you having to time the market."
+          }
+        },
+        {
           "type": "text",
           "data": {
             "content": "SIPs have a superpower called rupee cost averaging. Since you invest the same amount every month, you automatically buy more units when prices are low and fewer when prices are high. You don't need to time the market; the math does it for you."
@@ -1136,9 +1177,30 @@
           }
         },
         {
+          "type": "key-term",
+          "data": {
+            "term": "Active Fund",
+            "definition": "A mutual fund where a professional fund manager actively picks stocks and tries to beat the market. Charges higher fees (1-2% expense ratio) because you're paying for their expertise and research."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Index Fund",
+            "definition": "A mutual fund that simply copies a market index (like Nifty 50) by buying all the stocks in that index in the same proportion. Charges very low fees (0.1-0.5%) because there's no active stock picking involved."
+          }
+        },
+        {
           "type": "text",
           "data": {
             "content": "One important thing: mutual funds charge a fee called the expense ratio. This is a percentage of your investment that goes to the fund house for managing your money. Active funds charge 1-2%. Index funds charge 0.1-0.5%. Over decades, this difference adds up to lakhs."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Expense Ratio",
+            "definition": "The annual fee a mutual fund charges you for managing your money, expressed as a percentage of your total investment. A 1% expense ratio on ₹1,00,000 means you pay ₹1,000 per year in fees. Lower is better."
           }
         },
         {

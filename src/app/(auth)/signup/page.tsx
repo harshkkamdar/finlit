@@ -259,9 +259,13 @@ export default function SignupPage() {
           </form>
 
           {/* Disclaimer */}
-          <p className="text-xs text-muted/70 font-body text-center mt-4">
-            This platform is for educational purposes only. FinLit is not
-            directly affiliated with any government or private agency.
+          <p className="text-[11px] text-muted/60 font-body text-center mt-4 leading-relaxed">
+            By creating an account, you acknowledge that FinLit is for
+            educational purposes only and does not constitute financial
+            advice. We are not SEBI-registered advisors. Any financial
+            decisions you make are your own responsibility. Information
+            may be simplified for learning and may not reflect current
+            market conditions.
           </p>
 
           {/* Footer link */}
