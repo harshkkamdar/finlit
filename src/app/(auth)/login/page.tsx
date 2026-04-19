@@ -105,6 +105,12 @@ export default function LoginPage() {
           </Button>
         </form>
 
+        {/* Disclaimer */}
+        <p className="text-xs text-muted/70 font-body text-center mt-4">
+          This platform is for educational purposes only. FinLit is not
+          directly affiliated with any government or private agency.
+        </p>
+
         {/* Footer link */}
         <p className="text-center mt-6 text-sm font-body text-muted">
           Don&apos;t have an account?{" "}

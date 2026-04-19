@@ -64,7 +64,7 @@ export const chapters = [
     title: "The Shield - Fraud Protection",
     subtitle: "Protect yourself",
     description:
-      "Arm yourself against the growing wave of financial fraud, from fake UPI requests and phishing links to OTP scams and Ponzi schemes. Learn to spot red flags, protect your digital payments, and understand what to do if you ever become a victim. This chapter could save you lakhs.",
+      "Arm yourself against the growing wave of financial fraud, from fake UPI requests and phishing links to OTP scams and Ponzi schemes. Learn to spot red flags, protect your digital payments, and understand what to do if you ever become a victim. This chapter could save you lakhs (hundreds of thousands).",
     colorAccent: "#2980B9",
     iconUrl: "/icons/chapter-6.svg",
     order: 6,

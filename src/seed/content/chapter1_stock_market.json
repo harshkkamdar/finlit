@@ -54,7 +54,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Okay, real question. If you and four friends started a chai tapri together, each putting in ₹10,000, who owns the tapri? All five of you, equally, right? You each own 20% of the business. If the tapri earns ₹1 lakh profit, you each get ₹20,000. If it burns down, you each lose ₹10,000. That's it. That's literally what a stock is."
+            "content": "Okay, real question. If you and four friends started a tea shop together, each putting in ₹10,000, who owns the shop? All five of you, equally, right? You each own 20% of the business. If the shop earns ₹1 lakh profit, you each get ₹20,000. If it burns down, you each lose ₹10,000. That's it. That's literally what a stock is."
           }
         },
         {
@@ -68,7 +68,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Now scale that up. Instead of a chai tapri, imagine it's Reliance Industries, the company behind your Jio SIM, the Reliance Fresh near your house, and half the petrol stations in India. Instead of 5 friends, there are millions of investors. And instead of owning 20%, each person owns a tiny slice, maybe 0.0001%. Each of those tiny slices is called a share or a stock."
+            "content": "Now scale that up. Instead of a tea shop, imagine it's Reliance Industries, the company behind your Jio SIM, the Reliance Fresh near your house, and half the petrol stations in India. Instead of 5 friends, there are millions of investors. And instead of owning 20%, each person owns a tiny slice, maybe 0.0001%. Each of those tiny slices is called a share or a stock."
           }
         },
         {
@@ -188,7 +188,7 @@
       "exercises": [
         {
           "type": "scenario",
-          "scenario": "Priya and her two brothers want to open a biryani restaurant. They need ₹3,00,000. Priya puts in ₹1,50,000, and each brother puts in ₹75,000. A year later, the restaurant earns ₹60,000 in profit.",
+          "scenario": "Priya and her two brothers want to open a restaurant. They need ₹3,00,000. Priya puts in ₹1,50,000, and each brother puts in ₹75,000. A year later, the restaurant earns ₹60,000 in profit.",
           "prompt": "How much profit should Priya receive?",
           "options": [
             {

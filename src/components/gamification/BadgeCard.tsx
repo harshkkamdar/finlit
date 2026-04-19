@@ -104,14 +104,38 @@ export default function BadgeCard({
         )}
       </div>
 
+      {/* Category pill */}
+      {!isSecretLocked && (
+        <span
+          className={`mt-2.5 text-[9px] uppercase tracking-wider font-body px-2 py-0.5 rounded-full ${
+            earned
+              ? 'bg-accent/10 text-accent'
+              : 'bg-gray-100 text-gray-400'
+          }`}
+        >
+          {badge.category}
+        </span>
+      )}
+
       {/* Name */}
       <p
-        className={`mt-2.5 text-sm font-display font-semibold leading-tight max-w-[100px] ${
+        className={`mt-1.5 text-sm font-display font-semibold leading-tight max-w-[120px] ${
           earned ? 'text-dark' : 'text-gray-400'
         }`}
       >
         {isSecretLocked ? '???' : badge.name}
       </p>
+
+      {/* Description */}
+      {!isSecretLocked && (
+        <p
+          className={`mt-1 text-[11px] leading-snug font-body max-w-[120px] ${
+            earned ? 'text-muted' : 'text-gray-400/70'
+          }`}
+        >
+          {badge.description}
+        </p>
+      )}
 
       {/* Earned date */}
       {earned && earnedAt && (

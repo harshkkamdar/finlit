@@ -14,6 +14,7 @@ import {
   Brain,
   ArrowRight,
   LogOut,
+  RefreshCw,
 } from 'lucide-react';
 import { signOut } from 'next-auth/react';
 import { createAvatar } from '@dicebear/core';
@@ -138,12 +139,18 @@ export default function ProfileClient({
   const [isEditingName, setIsEditingName] = useState(false);
   const [editName, setEditName] = useState(user.name);
   const [currentName, setCurrentName] = useState(user.name);
+  const [isEditingAge, setIsEditingAge] = useState(false);
+  const [editAge, setEditAge] = useState(String(user.age));
+  const [currentAge, setCurrentAge] = useState(user.age);
+  const [ageError, setAgeError] = useState<string | null>(null);
+  const [currentAvatarSeed, setCurrentAvatarSeed] = useState(user.avatarSeed);
+  const [rerollingAvatar, setRerollingAvatar] = useState(false);
   const [saving, setSaving] = useState(false);
   const [downloading, setDownloading] = useState(false);
   const [nameError, setNameError] = useState<string | null>(null);
   const [downloadError, setDownloadError] = useState<string | null>(null);
 
-  const avatarUri = generateAvatar(user.avatarSeed);
+  const avatarUri = generateAvatar(currentAvatarSeed);
 
   const earnedCount = badges.filter((b) => b.earned).length;
   const totalCount = badges.length;
@@ -183,6 +190,59 @@ export default function ProfileClient({
     } finally {
       setSaving(false);
       setIsEditingName(false);
+    }
+  }
+
+  async function handleSaveAge() {
+    const parsed = parseInt(editAge, 10);
+    if (!parsed || parsed < 1 || parsed === currentAge) {
+      setIsEditingAge(false);
+      setEditAge(String(currentAge));
+      return;
+    }
+
+    setSaving(true);
+    setAgeError(null);
+    try {
+      const res = await fetch('/api/users/me', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ age: parsed }),
+      });
+
+      if (res.ok) {
+        setCurrentAge(parsed);
+        setEditAge(String(parsed));
+      } else {
+        setAgeError('Failed to update age. Please try again.');
+        setEditAge(String(currentAge));
+      }
+    } catch {
+      setAgeError('Network error. Please check your connection and try again.');
+      setEditAge(String(currentAge));
+    } finally {
+      setSaving(false);
+      setIsEditingAge(false);
+    }
+  }
+
+  async function handleRerollAvatar() {
+    const newSeed = Math.random().toString(36).substring(2, 10);
+    setRerollingAvatar(true);
+    try {
+      const res = await fetch('/api/users/me', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ avatarSeed: newSeed }),
+      });
+
+      if (res.ok) {
+        setCurrentAvatarSeed(newSeed);
+      }
+    } catch {
+      // silently fail -- avatar stays the same
+    } finally {
+      setRerollingAvatar(false);
     }
   }
 
@@ -227,7 +287,7 @@ export default function ProfileClient({
         <Card variant="elevated" className="!p-8">
           <div className="flex items-start gap-8 relative">
             {/* Avatar */}
-            <div className="shrink-0">
+            <div className="shrink-0 relative">
               <div className="w-[120px] h-[120px] rounded-full overflow-hidden border-4 border-primary-light shadow-lg">
                 <img
                   src={avatarUri}
@@ -237,6 +297,15 @@ export default function ProfileClient({
                   className="w-full h-full object-cover"
                 />
               </div>
+              <button
+                onClick={handleRerollAvatar}
+                disabled={rerollingAvatar}
+                title="New avatar"
+                aria-label="Re-roll avatar"
+                className="absolute bottom-0 right-0 w-8 h-8 rounded-full bg-primary text-white shadow-md flex items-center justify-center hover:bg-primary/90 transition-colors disabled:opacity-50"
+              >
+                <RefreshCw className={`w-4 h-4 ${rerollingAvatar ? 'animate-spin' : ''}`} />
+              </button>
             </div>
 
             {/* Info */}
@@ -299,11 +368,65 @@ export default function ProfileClient({
                 <p className="text-sm text-error font-body mb-1">{nameError}</p>
               )}
 
+              {/* Age error */}
+              {ageError && (
+                <p className="text-sm text-error font-body mb-1">{ageError}</p>
+              )}
+
               {/* Meta info */}
               <div className="flex items-center gap-4 text-sm text-muted font-body">
                 <div className="flex items-center gap-1.5">
                   <UserIcon className="w-4 h-4" />
-                  <span>{user.age} years old</span>
+                  {isEditingAge ? (
+                    <div className="flex items-center gap-1.5">
+                      <input
+                        type="number"
+                        min={1}
+                        value={editAge}
+                        onChange={(e) => setEditAge(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') handleSaveAge();
+                          if (e.key === 'Escape') {
+                            setIsEditingAge(false);
+                            setEditAge(String(currentAge));
+                          }
+                        }}
+                        autoFocus
+                        className="w-16 rounded-md border border-border bg-white px-2 py-0.5 text-sm font-body text-dark focus:outline-none focus:ring-2 focus:ring-primary/40"
+                      />
+                      <span>years old</span>
+                      <button
+                        onClick={handleSaveAge}
+                        disabled={saving}
+                        aria-label="Save age"
+                        className="min-w-[28px] min-h-[28px] p-1 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors flex items-center justify-center"
+                      >
+                        <Check className="w-3.5 h-3.5" />
+                      </button>
+                      <button
+                        onClick={() => {
+                          setIsEditingAge(false);
+                          setEditAge(String(currentAge));
+                        }}
+                        aria-label="Cancel editing age"
+                        className="min-w-[28px] min-h-[28px] p-1 rounded-md bg-fill-muted text-muted hover:bg-border transition-colors flex items-center justify-center"
+                      >
+                        <X className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  ) : (
+                    <div className="flex items-center gap-1">
+                      <span>{currentAge} years old</span>
+                      <button
+                        onClick={() => setIsEditingAge(true)}
+                        className="p-1 rounded-md text-muted hover:bg-fill-muted hover:text-dark transition-colors"
+                        title="Edit age"
+                        aria-label="Edit age"
+                      >
+                        <Pencil className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  )}
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Calendar className="w-4 h-4" />
@@ -420,7 +543,7 @@ export default function ProfileClient({
             </Badge>
           </div>
 
-          <div className="grid grid-cols-4 gap-5 sm:grid-cols-5">
+          <div className="grid grid-cols-3 gap-6 sm:grid-cols-4">
             {sortedBadges.map((badge) => (
               <BadgeCard
                 key={badge._id}

@@ -40,6 +40,8 @@ export async function PATCH(request: Request) {
     const allowedFields: Record<string, boolean> = {
       name: true,
       moneyPersonality: true,
+      age: true,
+      avatarSeed: true,
     };
 
     const updates: Record<string, unknown> = {};
@@ -68,6 +70,24 @@ export async function PATCH(request: Request) {
         { error: "moneyPersonality must be a string" },
         { status: 400 }
       );
+    }
+
+    if (updates.age !== undefined) {
+      if (typeof updates.age !== "number" || !Number.isInteger(updates.age) || updates.age < 1) {
+        return Response.json(
+          { error: "Age must be a positive integer" },
+          { status: 400 }
+        );
+      }
+    }
+
+    if (updates.avatarSeed !== undefined) {
+      if (typeof updates.avatarSeed !== "string" || (updates.avatarSeed as string).trim().length === 0) {
+        return Response.json(
+          { error: "avatarSeed must be a non-empty string" },
+          { status: 400 }
+        );
+      }
     }
 
     const user = await User.findByIdAndUpdate(

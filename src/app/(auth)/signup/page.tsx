@@ -258,6 +258,12 @@ export default function SignupPage() {
             </Button>
           </form>
 
+          {/* Disclaimer */}
+          <p className="text-xs text-muted/70 font-body text-center mt-4">
+            This platform is for educational purposes only. FinLit is not
+            directly affiliated with any government or private agency.
+          </p>
+
           {/* Footer link */}
           <p className="text-center mt-5 text-sm font-body text-muted">
             Already have an account?{" "}

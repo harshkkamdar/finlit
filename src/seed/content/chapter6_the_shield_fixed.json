@@ -439,7 +439,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Another growing scam: **fake merchant QR codes**. Someone swaps the QR code at a small shop with their own. You scan what you think is the dosa stall's code, but the money goes to a scammer. The shop owner does not know. You paid. Nobody received it legitimately. Always check that the name shown on your UPI app matches who you think you are paying before entering your PIN."
+            "content": "Another growing scam: **fake merchant QR codes**. Someone swaps the QR code at a small shop with their own. You scan what you think is the food stall's code, but the money goes to a scammer. The shop owner does not know. You paid. Nobody received it legitimately. Always check that the name shown on your UPI app matches who you think you are paying before entering your PIN."
           }
         },
         {

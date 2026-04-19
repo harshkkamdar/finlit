@@ -125,7 +125,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Fast forward to 2016. India gets UPI, Unified Payments Interface. Suddenly, the chai wala at the corner accepts Google Pay. Your auto driver has a QR code. You can split a dinner bill in 4 seconds. Money isn't even paper anymore, it's just numbers on a screen."
+            "content": "Fast forward to 2016. India gets UPI, Unified Payments Interface. Suddenly, the street vendor at the corner accepts Google Pay. Your cab driver has a QR code. You can split a dinner bill in 4 seconds. Money isn't even paper anymore, it's just numbers on a screen."
           }
         },
         {
@@ -213,7 +213,7 @@
               "correctCategory": "Ancient/Barter Era"
             },
             {
-              "text": "UPI payment to a chai wala",
+              "text": "UPI payment to a street vendor",
               "correctCategory": "Digital Era"
             },
             {
@@ -302,7 +302,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Here's the honest answer: because the Government of India says so, and because you, and every shopkeeper, auto driver, and vegetable vendor in the country, agrees. That's it. There's no gold sitting in a vault somewhere backing up each note. It's pure, collective trust."
+            "content": "Here's the honest answer: because the Government of India says so, and because you, and every shopkeeper, cab driver, and vegetable vendor in the country, agrees. That's it. There's no gold sitting in a vault somewhere backing up each note. It's pure, collective trust."
           }
         },
         {

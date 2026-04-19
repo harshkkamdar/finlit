@@ -14,6 +14,7 @@ import {
 import { useState, useMemo, useCallback, type ReactNode } from 'react';
 import type { ContentBlock } from '@/types';
 import { isFormulaSafe } from '@/lib/formula-sanitizer';
+import NumberSystemTooltip from '@/components/ui/NumberSystemTooltip';
 
 // ── Props ────────────────────────────────────────────────────────────────────
 
@@ -972,6 +973,11 @@ export default function LessonRenderer({ blocks, chapterColor }: LessonRendererP
 
   return (
     <div className="flex flex-col gap-6">
+      {/* Indian number system reference — sticky top-right */}
+      <div className="flex justify-end sticky top-4 z-20">
+        <NumberSystemTooltip />
+      </div>
+
       {blocks.map((block, index) => {
         const Renderer = BLOCK_RENDERERS[block.type];
         if (!Renderer) return null;

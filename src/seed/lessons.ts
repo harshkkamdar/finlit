@@ -25,7 +25,7 @@ export const lessons = [
           type: "callout",
           data: {
             variant: "tip",
-            text: "Fun fact: India's cowrie shells were so widely used as currency that they were accepted from Africa to China. The word 'kaudi' (cowrie) is still used in Hindi to mean something of tiny value, 'kaudi ki value nahi hai!'",
+            text: "Fun fact: India's cowrie shells were so widely used as currency that they were accepted from Africa to China. The word 'kaudi' (cowrie) is still used to mean something of tiny value.",
           },
         },
         {
@@ -236,7 +236,7 @@ export const lessons = [
           type: "text",
           data: {
             paragraphs: [
-              "Imagine your friend opens a chai stall and needs Rs 10,000 to buy better equipment. You give them Rs 5,000 in exchange for 50% of the profits. Congratulations, you essentially just bought 'stock' in their business! When a real company does this at a massive scale, it issues shares (also called stocks or equity) that anyone can buy.",
+              "Imagine your friend opens a tea shop and needs Rs 10,000 to buy better equipment. You give them Rs 5,000 in exchange for 50% of the profits. Congratulations, you essentially just bought 'stock' in their business! When a real company does this at a massive scale, it issues shares (also called stocks or equity) that anyone can buy.",
               "When a company like Zomato or Nykaa wants to raise money from the public for the first time, it does an Initial Public Offering (IPO). The company decides how many shares to sell and at what price. After the IPO, these shares are traded on stock exchanges, people buy and sell them freely, and the price fluctuates based on supply and demand, company performance, and market sentiment.",
               "Owning a share makes you a part-owner of the company. If you own 100 shares of Infosys out of its ~415 crore total shares, you own a tiny fraction. But you still have rights, you can vote on major company decisions, receive dividends (a share of profits), and benefit if the stock price rises. Of course, if the company performs poorly, your shares lose value too.",
             ],
@@ -882,7 +882,7 @@ export const lessons = [
             paragraphs: [
               "A budget isn't a punishment, it's a plan that tells your money where to go instead of wondering where it went. The most popular and beginner-friendly budgeting framework is the 50/30/20 rule: 50% of your after-tax income goes to needs, 30% to wants, and 20% to savings and investments.",
               "Let's say you earn Rs 40,000 per month after taxes. Under the 50/30/20 rule: Rs 20,000 goes to needs (rent, groceries, utilities, insurance, transport), Rs 12,000 goes to wants (eating out, shopping, entertainment, subscriptions), and Rs 8,000 goes to savings and investments (emergency fund, SIPs, debt repayment). These are starting guidelines, you can adjust them to your situation.",
-              "The first step to budgeting is tracking. For one month, write down every single expense, yes, even that Rs 20 chai. Most people are shocked to discover how much they spend on small, forgettable purchases. Digital payment apps like Google Pay and PhonePe actually make this easier, you can review your transaction history to see exactly where your money goes.",
+              "The first step to budgeting is tracking. For one month, write down every single expense, yes, even that Rs 20 tea. Most people are shocked to discover how much they spend on small, forgettable purchases. Digital payment apps like Google Pay and PhonePe actually make this easier, you can review your transaction history to see exactly where your money goes.",
             ],
           },
         },

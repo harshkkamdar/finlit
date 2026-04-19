@@ -6,6 +6,7 @@ import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { convertBlocksToCards } from '@/lib/content-to-cards';
 import type { LessonCard } from '@/lib/content-to-cards';
 import type { ContentBlock } from '@/types';
+import NumberSystemTooltip from '@/components/ui/NumberSystemTooltip';
 import TextCard from '@/components/lesson/cards/TextCard';
 import KeyTermCard from '@/components/lesson/cards/KeyTermCard';
 import CalloutCard from '@/components/lesson/cards/CalloutCard';
@@ -235,6 +236,8 @@ export default function LessonCardDeck({
             )}
           </span>
 
+          {/* Indian number system reference */}
+          <NumberSystemTooltip />
         </div>
 
         {/* Progress track */}
