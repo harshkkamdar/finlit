@@ -47,7 +47,7 @@ const ContentBlockSchema = new Schema(
   {
     type: {
       type: String,
-      enum: ["text", "callout", "key-term", "image", "interactive", "dialogue"],
+      enum: ["text", "callout", "key-term", "image", "interactive", "dialogue", "quick-check"],
       required: true,
     },
     data: { type: Schema.Types.Mixed, default: {} },

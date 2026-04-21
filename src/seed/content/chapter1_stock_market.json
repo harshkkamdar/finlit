@@ -54,7 +54,13 @@
         {
           "type": "text",
           "data": {
-            "content": "Okay, real question. If you and four friends started a tea shop together, each putting in ₹10,000, who owns the shop? All five of you, equally, right? You each own 20% of the business. If the shop earns ₹1 lakh profit, you each get ₹20,000. If it burns down, you each lose ₹10,000. That's it. That's literally what a stock is."
+            "content": "You and four friends pool in ₹10,000 each to start a chai tapri near your college. Five people, ₹50,000 total. Each of you owns 20% of the business. If the tapri earns ₹1 lakh profit, you each pocket ₹20,000. If it shuts down tomorrow, you each lose ₹10,000."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "That 20% slice you hold? That's literally what a stock is. Ownership of a business, split into pieces."
           }
         },
         {
@@ -68,7 +74,13 @@
         {
           "type": "text",
           "data": {
-            "content": "Now scale that up. Instead of a tea shop, imagine it's Reliance Industries, the company behind your Jio SIM, the Reliance Fresh near your house, and half the petrol stations in India. Instead of 5 friends, there are millions of investors. And instead of owning 20%, each person owns a tiny slice, maybe 0.0001%. Each of those tiny slices is called a share or a stock."
+            "content": "Now scale that up massively. Instead of a chai tapri, picture Reliance Industries -- the company behind your Jio SIM, the Reliance Fresh store near your house, and half the petrol pumps you see on any highway. Instead of 5 friends, millions of investors each own a tiny slice. Maybe 0.0001%."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Each of those tiny slices has a name. It's called a share (or a stock). You buy one, you own a piece of that giant company. For real."
           }
         },
         {
@@ -83,7 +95,7 @@
           "data": {
             "character": "priya",
             "expression": "confused",
-            "text": "Wait, so if I buy one share of Reliance, I actually own a piece of Mukesh Ambani's company? Like, for real?"
+            "text": "Wait, so if I buy one share of Reliance, I actually own a piece of Mukesh Ambani's company? Like, for real for real?"
           }
         },
         {
@@ -91,27 +103,56 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "For real! A tiny, tiny piece. You won't get invited to board meetings with one share, but legally you are a part-owner of that company. Pretty cool, right?"
+            "text": "Haan yaar, for real! A tiny piece, obviously. You won't get invited to board meetings with one share. But legally? You are a part-owner of Reliance. Pretty sick, right?"
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "If you buy one share of Reliance Industries, what do you become?",
+            "options": [
+              { "text": "A lender who is owed money by Reliance", "isCorrect": false },
+              { "text": "A part-owner of Reliance Industries", "isCorrect": true },
+              { "text": "An employee of Reliance Industries", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "So why would a big company like Infosys want millions of random strangers owning pieces of it? Simple: money. When a company wants to grow, build new factories, hire engineers, or expand to new cities, it needs cash. It can borrow (take a loan) or it can sell ownership (issue shares). Selling shares means no repayment, no interest. In exchange, shareholders get a say in how the company is run, and a share of the profits."
+            "content": "So why would a massive company like Infosys want millions of strangers owning pieces of it? Simple answer: money. When a company wants to grow -- build new offices, hire thousands of engineers, expand to new countries -- it needs serious cash."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "It can borrow that cash (take a loan). Or it can sell ownership slices (issue shares). Selling shares means no repayment, no interest. In exchange, shareholders get a vote in how the company is run and a cut of the profits."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "IPO (Initial Public Offering)",
-            "definition": "The first time a company sells its shares to the public. Think of it as the company's 'launch day' on the stock market. Zomato's IPO was in July 2021."
+            "definition": "The first time a company sells its shares to the public. Think of it as the company's 'grand opening' on the stock market. Zomato's IPO was in July 2021."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Zomato's IPO in July 2021 was one of India's most hyped launches. The issue price was ₹76 per share. Within hours of listing, it was trading at ₹116, a 52% jump in one day. Early investors literally made ₹40 per share by doing nothing except applying on time."
+            "content": "Zomato's IPO in July 2021 was one of India's most hyped launches ever. The issue price was ₹76 per share. Within hours of listing, it hit ₹116 -- a 52% jump in a single day. Early investors made ₹40 per share by literally doing nothing except applying on time."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Why does a company like Infosys issue shares through an IPO?",
+            "options": [
+              { "text": "To give free money to the public", "isCorrect": false },
+              { "text": "To raise funds for growth without taking loans", "isCorrect": true },
+              { "text": "Because SEBI forces every company to sell shares", "isCorrect": false },
+              { "text": "To reduce the number of employees", "isCorrect": false }
+            ]
           }
         },
         {
@@ -125,27 +166,51 @@
         {
           "type": "text",
           "data": {
-            "content": "Here's the thing though. Buying a stock is NOT the same as giving a loan. When you lend money, the borrower has to pay you back no matter what. When you buy a stock, you're taking a risk. If the company does well, your share is worth more and you get dividends (a portion of profits). If the company does badly? Your share drops in value. No guarantees."
+            "content": "Here's the crucial difference you need to nail down. Buying a stock is NOT giving a loan. When you lend money, the borrower has to pay you back no matter what. Stocks don't work like that."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "If the company does well, your share becomes worth more and you might get dividends (a cut of the profits). If the company tanks? Your share drops in value. Zero guarantees. That's the trade-off for potentially much higher returns."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Dividend",
-            "definition": "A portion of a company's profit paid out to shareholders. Like a bonus for owning the stock. Not all companies pay dividends; many reinvest profits back into growth instead."
+            "definition": "A portion of a company's profit paid out to shareholders. Like a thank-you bonus for owning the stock. Not all companies pay dividends; many reinvest profits into growth instead."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Zomato's IPO in 2021 was priced at ₹76 per share. What happened on listing day?",
+            "options": [
+              { "text": "It fell to ₹50, losing investors money", "isCorrect": false },
+              { "text": "It stayed exactly at ₹76", "isCorrect": false },
+              { "text": "It jumped to ₹116, a 52% gain", "isCorrect": true },
+              { "text": "Trading was halted due to low demand", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Buying a stock makes you a part-owner of that company. Next time you order on Zomato, remember, someone out there literally owns a piece of that app. It could be you."
+            "content": "Buying a stock = owning a piece of a real business. Next time you order on Zomato, remember -- someone out there literally owns a slice of that app. Could be your neighbour. Could be you."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "TCS, Tata Consultancy Services, is currently India's most valuable company with a market cap of over ₹13 lakh crore (yes, lakh crore). It has over 34 crore shares outstanding. If you owned just 1 share, you'd own roughly 0.000000003% of TCS. Sounds tiny. But if TCS stock goes from ₹3,800 to ₹4,200, your one share just gained ₹400. Own 1,000 shares and that's ₹4 lakh of profit, without doing any work."
+            "content": "Let's talk numbers. TCS (Tata Consultancy Services) is India's most valuable company, worth over ₹13 lakh crore. It has over 34 crore shares out there. Owning 1 share means you own roughly 0.000000003% of TCS."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Sounds pointless? Not when prices move. If TCS goes from ₹3,800 to ₹4,200, your one share just made you ₹400. Own 1,000 shares? That's ₹4 lakh of profit. While you were attending class."
           }
         },
         {
@@ -160,20 +225,31 @@
           "type": "key-term",
           "data": {
             "term": "Market Capitalisation (Market Cap)",
-            "definition": "The total value of all a company's shares. Formula: Share Price x Total Shares. TCS at ₹3,800/share x 340 crore shares = roughly ₹13 lakh crore market cap."
+            "definition": "The total value of all a company's shares combined. Formula: Share Price x Total Shares. TCS at ₹3,800/share x 340 crore shares = roughly ₹13 lakh crore market cap."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "How is a company's market capitalisation calculated?",
+            "options": [
+              { "text": "Annual revenue minus expenses", "isCorrect": false },
+              { "text": "Share price multiplied by total number of shares", "isCorrect": true },
+              { "text": "Total dividend payments over 10 years", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "So basically, the stock market is just a giant marketplace where people buy and sell these slices of ownership. The price of each slice changes constantly, based on how many people want to buy vs sell, what the company's earnings look like, what's happening in the news, and sometimes just vibes. We'll get into all of that. But first, let's meet the two main places where this buying and selling happens in India."
+            "content": "So the stock market is basically a giant bazaar where people buy and sell these ownership slices. The price of each slice changes every second based on how many people want to buy vs sell, the company's earnings, the news cycle, and honestly sometimes just vibes. We'll unpack all of it. But first, let's meet the two places where all this buying and selling actually happens in India."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Key mindset: When you own a stock, you own part of a real business with real employees, real customers, and real profits. It's not a gambling chip. It's a tiny ownership certificate. That framing matters a lot for how you'll think about investing."
+            "content": "Key mindset shift: when you own a stock, you own part of a real business with real employees, real customers, and real profits. It's not a lottery ticket. It's a tiny ownership certificate. That framing will completely change how you think about investing."
           }
         },
         {
@@ -302,7 +378,13 @@
         {
           "type": "text",
           "data": {
-            "content": "Think of a stock exchange like a bazaar, except instead of vegetables and clothes, people are buying and selling ownership of companies. In India, we have two main bazaars: the BSE and the NSE. And just like how Dadar market and Crawford market both sell vegetables but have their own vibe, these two exchanges have their own histories, strengths, and specialties."
+            "content": "You know how every city has that one famous market? Chandni Chowk in Delhi, Crawford Market in Mumbai, T. Nagar in Chennai. A stock exchange is basically that -- a marketplace. Except instead of vegetables and clothes, people here buy and sell ownership of companies."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "India has two main exchanges: the BSE and the NSE. They both do the same job, but they've got very different backstories."
           }
         },
         {
@@ -316,7 +398,7 @@
         {
           "type": "text",
           "data": {
-            "content": "The Bombay Stock Exchange (BSE) is the elder statesman. It was founded in 1875, that's over 150 years ago, when India was still under British rule. Back then, brokers used to meet under a banyan tree on Dalal Street in Mumbai to trade. Today, BSE is Asia's oldest stock exchange, lists over 5,000 companies, and is located at the iconic Phiroze Jeejeebhoy Towers in Mumbai."
+            "content": "Picture this: it's 1875, India is under British rule, and a group of stockbrokers are meeting under a banyan tree on a street in Mumbai to trade shares. That street is now called Dalal Street. And that informal gathering became the Bombay Stock Exchange -- Asia's oldest stock exchange. Today, BSE lists over 5,000 companies and sits in the iconic Phiroze Jeejeebhoy Towers."
           }
         },
         {
@@ -330,13 +412,30 @@
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Dalal Street, where BSE is located, literally means 'Broker's Street' in Hindi. The term 'Dalal Street' is used the same way Indians say 'D-Street' or the way Americans say 'Wall Street.' Same energy."
+            "content": "Dalal Street literally means 'Broker's Street' in Hindi. When Indians say 'D-Street is rallying,' it's the same energy as Americans saying 'Wall Street is up.' Same vibe, desi version."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Which stock exchange is Asia's oldest, founded in 1875?",
+            "options": [
+              { "text": "NSE (National Stock Exchange)", "isCorrect": false },
+              { "text": "BSE (Bombay Stock Exchange)", "isCorrect": true },
+              { "text": "Shanghai Stock Exchange", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The National Stock Exchange (NSE) is the newer, faster sibling. It was set up in 1992, specifically to modernize and democratize Indian markets, which BSE had dominated for over a century. NSE introduced electronic trading in India, meaning no more shouting on trading floors. Just computers. Fast ones. NSE today handles more trading volume than BSE and is the world's largest exchange for derivatives (advanced financial contracts based on stocks, like futures and options, which you'll learn about in later chapters) by number of contracts traded."
+            "content": "Fast forward to 1992. BSE had dominated Indian markets for over a century, but it was still old-school -- noisy trading floors, handwritten slips, zero transparency. The government set up the National Stock Exchange to modernize everything. NSE brought fully electronic trading to India. No more shouting. Just computers. Fast ones."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Today NSE handles way more daily trading volume than BSE and is the world's largest exchange for derivatives (advanced financial contracts like futures and options -- don't worry, those come in later chapters) by number of contracts."
           }
         },
         {
@@ -351,7 +450,7 @@
           "data": {
             "character": "priya",
             "expression": "thinking",
-            "text": "So if both exchanges exist, which one do people actually use? Do you have to pick one?"
+            "text": "So if both exchanges exist, which one do people actually use? Do you have to pick one like picking between Zomato and Swiggy?"
           }
         },
         {
@@ -359,7 +458,7 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "Most big companies are listed on both! You can buy Infosys on either one. But most retail investors end up on NSE because it has more liquidity, meaning your trades go through faster."
+            "text": "Nah, most big companies like Infosys are listed on both! But most of us end up trading on NSE because it has more liquidity -- basically your orders get filled faster there."
           }
         },
         {
@@ -378,10 +477,28 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "NSE handles more daily trading volume than BSE. What does 'liquidity' mean in this context?",
+            "options": [
+              { "text": "The exchange has more cash reserves", "isCorrect": false },
+              { "text": "How easy it is to buy or sell quickly without the price moving too much", "isCorrect": true },
+              { "text": "The number of companies listed on the exchange", "isCorrect": false },
+              { "text": "How often the exchange is open for trading", "isCorrect": false }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now, who makes sure nobody cheats in this giant marketplace? Enter SEBI -- the Securities and Exchange Board of India. Think of SEBI as the referee. It makes the rules, investigates fraud, and protects investors like you and me. Just like RBI watches over banks, SEBI watches over the stock market."
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Both exchanges are regulated by SEBI, the Securities and Exchange Board of India. Think of SEBI as the referee who makes sure nobody cheats. Without SEBI, markets would be the Wild West."
+            "content": "Without SEBI, stock markets would be the Wild West -- insider trading everywhere, companies faking their numbers, brokers running off with your money. SEBI is the reason you can trust that the game is (mostly) fair."
           }
         },
         {
@@ -400,16 +517,39 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "What is SEBI's role in the Indian stock market?",
+            "options": [
+              { "text": "It decides which stocks investors should buy", "isCorrect": false },
+              { "text": "It runs the BSE and NSE directly", "isCorrect": false },
+              { "text": "It regulates markets, protects investors, and investigates fraud", "isCorrect": true }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "Stock markets in India are open on weekdays, from 9:15 AM to 3:30 PM. Outside these hours, you can place orders but they won't execute till the market opens. Saturday, Sunday, and public holidays? The market is closed. Your stocks don't disappear; they're just sitting there, waiting."
+            "content": "One more thing you should know: stock markets in India are open weekdays only, from 9:15 AM to 3:30 PM. Saturdays, Sundays, and public holidays? Closed. Your stocks don't vanish though -- they just sit there in your account, chilling till Monday."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "When are Indian stock markets open for trading?",
+            "options": [
+              { "text": "24/7, like crypto exchanges", "isCorrect": false },
+              { "text": "Weekdays 9:15 AM to 3:30 PM, excluding public holidays", "isCorrect": true },
+              { "text": "Only on days when Sensex is positive", "isCorrect": false },
+              { "text": "Weekdays 10:00 AM to 4:00 PM", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "When you read news headlines like 'Markets rallied today' or 'Sensex crashes 1,000 points', that's talking about these two exchanges. The Sensex lives on BSE; the Nifty lives on NSE. We'll break both down in Lesson 1.4."
+            "content": "When headlines say 'Markets rallied today' or 'Sensex crashes 1,000 points,' they're talking about these two exchanges. The Sensex lives on BSE; the Nifty lives on NSE. We'll break both down in Lesson 1.4."
           }
         },
         {
@@ -549,7 +689,13 @@
         {
           "type": "text",
           "data": {
-            "content": "Have you noticed how samosa prices go up during exam season? Every canteen near a college charges more because 500 stressed students all want samosas at the same time and there are only so many samosas. More people want them (demand goes up), same amount available (supply stays the same), price goes up. Stock prices work on the exact same logic."
+            "content": "Exam season at any college canteen. Five hundred stressed-out students all want samosas at the same time. The canteen has maybe 200. What happens to the price? It goes up, obviously. More people want them, supply can't keep up, and the canteen uncle starts charging ₹15 instead of ₹10."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Stock prices work on the exact same logic. No different from samosas."
           }
         },
         {
@@ -563,7 +709,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Every second the market is open, thousands of people are placing buy and sell orders for stocks. If more people want to buy Infosys than sell it, the price goes up. If more people want to sell than buy, the price drops. That's it. Supply and demand, same as samosas, same as concert tickets, same as everything."
+            "content": "Every second the market is open, thousands of people are placing buy and sell orders. More people want to buy Infosys than sell it? Price goes up. More people dumping Infosys than buying? Price drops. That's literally it. Supply and demand."
           }
         },
         {
@@ -574,24 +720,46 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "What happens when demand for a stock exceeds supply (more buyers than sellers)?",
+            "options": [
+              { "text": "Price drops because sellers are confident", "isCorrect": false },
+              { "text": "Price rises because buyers compete with each other", "isCorrect": true },
+              { "text": "Price stays the same because SEBI controls it", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "dialogue",
           "data": {
             "character": "priya",
             "expression": "thinking",
-            "text": "Okay but what actually makes people suddenly want to buy or sell? Like, something must trigger it, right?"
+            "text": "Okay I get supply and demand. But kya farak padta hai what triggers it? Like, why do people suddenly decide to buy or sell a stock on a random Tuesday?"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Great question. The biggest trigger is company earnings. Every quarter (3 months), listed companies announce their results: how much revenue they made, how much profit, whether it's growing. If Reliance announces profits that beat expectations, investors get excited and rush to buy. Price goes up. If results disappoint? Sellers flood in. Price drops."
+            "content": "The biggest trigger is company earnings. Every quarter (3 months), listed companies announce their results -- revenue, profit, growth rate. If Reliance beats expectations, investors get excited and rush to buy. Price climbs. If results disappoint? Sellers flood in and the price sinks."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "In March 2020, Sensex fell from around 41,000 to roughly 25,600 in just 40 days, a crash of 38%. By December 2020 (just 9 months later), it had recovered to around 47,000. Markets go down, but over the long run, they've always come back."
+            "content": "In March 2020, when Covid lockdowns were announced, Sensex fell from around 41,000 to roughly 25,600 in just 40 days -- a crash of 38%. But here's the twist: by December 2020, just 9 months later, it had bounced back to 47,000. Patience literally paid."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A company announces quarterly profits that beat analyst expectations. What is the most likely immediate effect on its stock price?",
+            "options": [
+              { "text": "Price drops because higher profits mean higher taxes", "isCorrect": false },
+              { "text": "Price stays flat because earnings are already priced in", "isCorrect": false },
+              { "text": "Price rises because more investors want to buy on the good news", "isCorrect": true }
+            ]
           }
         },
         {
@@ -605,27 +773,27 @@
         {
           "type": "text",
           "data": {
-            "content": "News and events are the second big mover. Company news (new product launch, CEO change, big contract win), industry news (new government policy, competitor gaining ground), and macro news (RBI hiking interest rates, oil prices spiking) can all move stock prices. In 2020, the day India announced the first Covid lockdown, Sensex fell 3,935 points, the biggest single-day fall ever at that time."
+            "content": "News and events are the second big mover. New product launch, CEO change, government policy shift, competitor gaining ground, RBI hiking interest rates, oil prices spiking -- all of these shake stock prices. The day India announced its first Covid lockdown, Sensex fell 3,935 points. That was the biggest single-day fall ever at the time."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Investor Sentiment",
-            "definition": "The overall mood of investors, whether optimistic (bullish) or pessimistic (bearish). Sentiment can drive prices away from a company's real value in the short term."
+            "definition": "The overall mood of investors -- whether optimistic (bullish) or pessimistic (bearish). Sentiment can push prices away from a company's real value in the short term. Think of it as the market's 'mood swings.'"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "And then there's investor sentiment. This one's the tricky one. Sometimes prices move not because of any real news, just because people feel optimistic or pessimistic. Fear and greed are real forces in markets. When everyone panics, they sell even good stocks. When everyone's euphoric, they buy even bad ones."
+            "content": "And then there's the tricky one: investor sentiment. Sometimes prices move not because of any actual news, but because people collectively feel optimistic or scared. Fear and greed are real forces. When everyone panics, they sell even strong companies. When everyone's euphoric, they buy garbage."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "In the short term, stock prices are a popularity contest. In the long term, they reflect the company's actual value. Warren Buffett said it better: 'In the short run, the market is a voting machine. In the long run, it's a weighing machine.'"
+            "content": "Short term, the stock market is basically a popularity contest. Long term, it's a reality check. Warren Buffett nailed it: 'In the short run, the market is a voting machine. In the long run, it's a weighing machine.' Remember that line -- it'll save you money someday."
           }
         },
         {
@@ -637,9 +805,20 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Sensex fell 38% in 40 days during March 2020. By December 2020, what had happened?",
+            "options": [
+              { "text": "It kept falling and took 5 years to recover", "isCorrect": false },
+              { "text": "It recovered fully and hit new highs around 47,000", "isCorrect": true },
+              { "text": "SEBI shut down trading until the crisis was over", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "There's also something called circuit breakers. These are rules that automatically pause trading if a stock (or the whole market) falls or rises too fast. If a stock falls more than 20% in a day, BSE and NSE will halt trading in it for a bit to let everyone calm down. This is called hitting the lower circuit. If it rises 20%? That's the upper circuit."
+            "content": "Now here's a safety net you should know about: circuit breakers. If a stock falls or rises too fast in a single day, the exchange automatically pauses trading on it. Think of it like speed bumps on a highway. A stock down 20% in one day hits its 'lower circuit' -- trading freezes. Up 20%? 'Upper circuit.' It forces everyone to breathe before making rash decisions."
           }
         },
         {
@@ -650,18 +829,30 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "A stock has hit its 'upper circuit' for the day. What does this mean?",
+            "options": [
+              { "text": "The company has reached its maximum market cap", "isCorrect": false },
+              { "text": "The stock has risen by its maximum allowed limit and trading is paused", "isCorrect": true },
+              { "text": "The stock can only be sold, not bought", "isCorrect": false },
+              { "text": "The company is about to be delisted from the exchange", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "dialogue",
           "data": {
             "character": "arjun",
             "expression": "confident",
-            "text": "Think of circuit breakers like speed bumps on a highway. They don't stop the car forever, they just force everyone to slow down and think before making rash decisions."
+            "text": "Circuit breakers are like speed bumps on a highway, yaar. They don't stop the car permanently -- they just force everyone to chill and think before doing something stupid."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Short-term price movement is noisy and hard to predict. Long-term price movement follows company performance. The mistake most new investors make is obsessing over daily price changes and ignoring whether the underlying business is actually good."
+            "content": "Short-term price movement is noisy and unpredictable. Long-term price movement follows how the actual business performs. The biggest mistake new investors make? Obsessing over daily price changes while ignoring whether the company is actually any good."
           }
         }
       ],
@@ -794,7 +985,13 @@
         {
           "type": "text",
           "data": {
-            "content": "Imagine trying to understand how India's cricket team is doing, but instead of one scoreboard, you had to check the individual scores of 5,000 players at once. Chaotic, right? This is the problem stock market indices solve. Instead of tracking every single listed company, we track a select group of the biggest, most important ones, and their combined movement tells us how the whole market (and the economy) is doing."
+            "content": "Imagine you want to know how India's cricket team is doing, but instead of one scoreboard, you have to check the individual scores of 5,000 players at once. Chaos, right? That's the problem stock market indices solve."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Instead of tracking every single listed company, you track a select group of the biggest, most important ones. Their combined movement tells you how the overall market -- and the economy -- is doing."
           }
         },
         {
@@ -808,14 +1005,25 @@
         {
           "type": "text",
           "data": {
-            "content": "Enter the Sensex and the Nifty 50, India's two most important market indices. Every news broadcast, every business newspaper, every WhatsApp forward about the economy will mention at least one of these numbers. After this lesson, you'll actually understand what they mean."
+            "content": "Meet the Sensex and the Nifty 50 -- India's two headline-making market indices. Every news broadcast, every business newspaper, every uncle's WhatsApp forward about the economy mentions at least one. After this lesson, you'll actually know what those numbers mean."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Stock Market Index",
-            "definition": "A carefully selected basket of stocks used to represent the overall performance of the market. Like an average, but smarter, weighted by the size of each company."
+            "definition": "A carefully selected basket of stocks used to represent the overall performance of the market. Like an average, but smarter -- weighted by the size of each company."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What problem does a stock market index like the Sensex solve?",
+            "options": [
+              { "text": "It sets the price of individual stocks each day", "isCorrect": false },
+              { "text": "It tracks a select group of top companies so you can gauge overall market performance", "isCorrect": true },
+              { "text": "It prevents stocks from falling below a minimum price", "isCorrect": false }
+            ]
           }
         },
         {
@@ -823,7 +1031,7 @@
           "data": {
             "character": "priya",
             "expression": "confused",
-            "text": "My dad keeps saying 'Sensex hit 75,000 today' like it's a big deal. What does that number even mean? Is 75,000 a lot?"
+            "text": "My dad keeps saying 'Sensex hit 75,000 today' like it's some huge deal. What does that number even mean? Is 75,000 good?"
           }
         },
         {
@@ -831,13 +1039,13 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "It means the combined value of India's top 30 companies is 750 times what it was in 1979, when the Sensex started at 100. The number on its own doesn't mean much. What matters is the change, like 'up 500 points' or 'down 1.2%.'"
+            "text": "It means the combined value of India's top 30 companies is 750 times what it was in 1979 when Sensex started at 100. But honestly, the number alone doesn't say much. What matters is the change -- like 'up 500 points' or 'down 1.2%.'"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The Sensex (Sensitive Index) tracks 30 of the largest and most actively traded companies on BSE. Think of it as India's economic 'dream team': companies like Reliance Industries, TCS, HDFC Bank, Infosys, ITC, and Bajaj Finance. The Sensex started with a base value of 100 in 1979. In 2024, it crossed 75,000. That means India's top 30 companies, as a group, are worth 750 times what they were in 1979."
+            "content": "The Sensex (short for Sensitive Index) tracks 30 of the biggest, most actively traded companies on BSE. India's economic dream team: Reliance, TCS, HDFC Bank, Infosys, ITC, Bajaj Finance. It started at a base value of 100 in 1979. In 2024, it crossed 75,000. That means these 30 companies, as a group, are worth 750x what they were 45 years ago."
           }
         },
         {
@@ -851,7 +1059,7 @@
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "₹1 lakh invested in a Sensex index fund (a simple investment that automatically buys all the stocks in the Sensex in proportion to their size) in 1979 would be worth approximately ₹7.5 crore today (at 75,000 Sensex). No fancy stock picking. No timing the market. Just sitting and waiting for 45 years. That's the power of long-term investing."
+            "content": "If someone had invested ₹1 lakh in a Sensex index fund in 1979, it would be worth roughly ₹7.5 crore today. No stock picking, no timing the market. Just parking money and waiting for 45 years. That's the power of long-term compounding."
           }
         },
         {
@@ -863,9 +1071,21 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "How many companies does the Sensex track, and on which exchange?",
+            "options": [
+              { "text": "50 companies on NSE", "isCorrect": false },
+              { "text": "30 companies on BSE", "isCorrect": true },
+              { "text": "100 companies on both BSE and NSE", "isCorrect": false },
+              { "text": "30 companies on NSE", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "The Nifty 50 (short for National Fifty) tracks the 50 largest companies listed on NSE. It's broader than the Sensex, 50 companies instead of 30, which means it captures a wider slice of the Indian economy. The Nifty's base value was 1,000 in November 1995. In 2024, it trades around 21,000 to 22,000, a 21-22x increase in roughly 29 years."
+            "content": "The Nifty 50 (short for National Fifty) tracks the 50 largest companies on NSE. It's broader than the Sensex -- 50 companies across 13 sectors instead of 30 -- so it captures a wider slice of India's economy. Nifty's base value was 1,000 in November 1995. In 2024, it's around 21,000 to 22,000. That's a 21-22x increase in roughly 29 years."
           }
         },
         {
@@ -879,7 +1099,7 @@
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Stop freaking out about '500 point falls.' Always look at the percentage change, not the absolute number. A 500-point fall at 75,000 Sensex is 0.67%. Your coffee order fluctuates more in percentage terms when Starbucks changes prices."
+            "content": "Stop freaking out about '500 point falls.' Always look at the percentage change, not the absolute number. A 500-point fall when Sensex is at 75,000 is just 0.67%. Your chai costs fluctuate more than that when the doodh-wala changes prices."
           }
         },
         {
@@ -891,9 +1111,20 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "The Sensex falls 1,000 points when it is at 75,000. What percentage drop is this?",
+            "options": [
+              { "text": "10%", "isCorrect": false },
+              { "text": "About 1.33%", "isCorrect": true },
+              { "text": "About 7.5%", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "Both indices are market-cap weighted, meaning bigger companies have more influence. Reliance Industries, TCS, and HDFC Bank together have such large market caps that their price movements dominate the index more than smaller companies. When these giants sneeze, the Sensex catches a cold."
+            "content": "Both Sensex and Nifty are market-cap weighted. This means the bigger the company, the more it influences the index. Reliance, TCS, and HDFC Bank are so massive that when they move, the entire index moves with them. When these giants sneeze, the Sensex catches a cold."
           }
         },
         {
@@ -904,10 +1135,22 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "In a market-cap weighted index, which company has more influence on the index value?",
+            "options": [
+              { "text": "Every company has equal influence regardless of size", "isCorrect": false },
+              { "text": "The company with the highest market cap has the most influence", "isCorrect": true },
+              { "text": "The company with the highest share price has the most influence", "isCorrect": false },
+              { "text": "The newest company added to the index", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "When you invest in a Nifty 50 index fund, you're automatically buying tiny pieces of all 50 companies in proportion to their size. This is one of the simplest and most effective investment strategies, but that's a story for Chapter 2."
+            "content": "When you invest in a Nifty 50 index fund, you automatically buy tiny pieces of all 50 companies in proportion to their size. It's one of the simplest and most effective investment strategies out there -- but that's a story for Chapter 2."
           }
         }
       ],
@@ -1028,7 +1271,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Okay, you want to buy Infosys stock. You've done your research. You're convinced it's going to grow. So you... do what exactly? You can't walk into a shop and say 'give me 5 Infosys shares, please.' The process is a bit more structured. But it's also surprisingly simple, and in India, thanks to apps like Zerodha and Groww, anyone with a phone and ₹100 can start."
+            "content": "So you've decided you want to buy Infosys stock. You've read up, you're convinced. Now what? You can't exactly walk into a shop and say 'bhaiya, 5 Infosys de do.' But the real process is surprisingly simple -- and in India today, anyone with a phone and ₹100 can start."
           }
         },
         {
@@ -1042,7 +1285,7 @@
         {
           "type": "text",
           "data": {
-            "content": "To trade stocks, you need two things: a Demat account and a Trading account. Think of the Demat account as your digital locker where shares are stored electronically. Think of the Trading account as the interface where you actually place buy and sell orders. Most brokers give you both together when you sign up."
+            "content": "You need two things: a Demat account and a Trading account. Your Demat account is your digital locker -- it stores your shares electronically, like a bank account stores money. Your Trading account is the interface where you actually place buy and sell orders. Most brokers bundle both together when you sign up."
           }
         },
         {
@@ -1056,7 +1299,18 @@
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Before 1996, shares were actual paper certificates. You'd get a literal piece of paper saying 'You own 50 shares of this company.' India converted to electronic (dematerialised) shares in 1996. No more losing share certificates; your holdings are just entries in a database now."
+            "content": "Before 1996, shares were actual paper certificates. You'd get a literal piece of paper saying 'You own 50 shares of Tata Steel.' People lost lakhs when certificates got damaged, stolen, or eaten by termites. India went fully digital in 1996. Now your holdings are just entries in a database -- no termite risk."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What are the two accounts you need to trade stocks in India?",
+            "options": [
+              { "text": "Savings account and current account", "isCorrect": false },
+              { "text": "Demat account and trading account", "isCorrect": true },
+              { "text": "PAN account and Aadhaar account", "isCorrect": false }
+            ]
           }
         },
         {
@@ -1064,7 +1318,7 @@
           "data": {
             "character": "priya",
             "expression": "surprised",
-            "text": "Wait, so people used to carry around paper certificates for their stocks? What if you lost them?"
+            "text": "Wait, people used to carry around paper certificates for their stocks?! What if you lost them?"
           }
         },
         {
@@ -1072,13 +1326,13 @@
           "data": {
             "character": "arjun",
             "expression": "happy",
-            "text": "Exactly the problem! People literally lost lakhs because a paper got damaged or stolen. That's why India moved everything digital. Now your shares sit safely in your Demat account, kind of like how your money sits in your bank app."
+            "text": "Exactly yaar! People literally lost lakhs because a piece of paper got damaged. That's why India moved everything digital. Now your shares sit safely in your Demat account -- same vibe as money sitting in your Google Pay."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "In India, the major brokers include Zerodha (India's largest by active clients, founded by Nithin Kamath in Bengaluru), Groww (very popular among first-time young investors), Upstox (backed by Ratan Tata), Angel One, and ICICI Direct. Zerodha and Groww are discount brokers. They charge very low fees, around ₹0 to ₹20 per trade. Traditional banks like ICICI or HDFC offer trading but tend to charge more."
+            "content": "India's major brokers: Zerodha (largest by active clients, started by Nithin Kamath in Bengaluru), Groww (super popular with first-time young investors), Upstox (backed by Ratan Tata), Angel One, and ICICI Direct. Zerodha and Groww are discount brokers -- they charge ₹0 to ₹20 per trade. Banks like ICICI or HDFC also offer trading but charge more."
           }
         },
         {
@@ -1086,6 +1340,18 @@
           "data": {
             "term": "Stockbroker / Brokerage",
             "definition": "A company that executes your buy and sell orders on the exchange. They make money by charging a brokerage fee per trade. In India: Zerodha, Groww, Upstox, Angel One, ICICI Direct."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Before 1996, how were shares held in India?",
+            "options": [
+              { "text": "In digital Demat accounts, same as today", "isCorrect": false },
+              { "text": "As physical paper certificates", "isCorrect": true },
+              { "text": "Shares didn't exist before 1996", "isCorrect": false },
+              { "text": "Through UPI-based wallets", "isCorrect": false }
+            ]
           }
         },
         {
@@ -1099,20 +1365,20 @@
         {
           "type": "text",
           "data": {
-            "content": "To open a Demat account, you need: your PAN card (mandatory), Aadhaar for KYC (Know Your Customer) verification, which is just the process of proving your identity, a bank account for fund transfers, and to be at least 18 years old (minors can have accounts under a parent's guardianship). The whole process is now fully online and takes 15 to 30 minutes. Account opening is free on most platforms."
+            "content": "To open a Demat account, you need: PAN card (mandatory), Aadhaar for KYC verification (proving your identity), a bank account for fund transfers, and you must be at least 18 (minors can have accounts under a parent's guardianship). The entire process is online now and takes 15-30 minutes. Account opening is free on most platforms."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "For beginners, always check the quantity before hitting 'Buy.' There's a famous story of a trader who meant to buy 1 share of a ₹5,000 stock and accidentally bought 1,000 shares, spending ₹50 lakh by mistake. Most apps now have confirmation screens, but still, check twice."
+            "content": "Pro tip for beginners: always double-check the quantity before tapping 'Buy.' Legend has it, a trader once meant to buy 1 share of a ₹5,000 stock and accidentally ordered 1,000 shares -- blowing ₹50 lakh in one fat-finger moment. Most apps have confirmation screens now. Still, check twice."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Once your account is funded, you can place orders. There are two main order types. A market order says 'buy this stock right now at whatever price it's currently trading.' A limit order says 'buy this stock, but only if the price drops to ₹X or below.' Market orders execute instantly. Limit orders wait until the price matches your condition, or expire at end of day if unfilled."
+            "content": "Once your account is funded, you place orders. Two main types. A market order says 'buy this right now at whatever price it's at.' A limit order says 'buy this only if the price drops to ₹X or below.' Market orders execute instantly. Limit orders wait -- and expire at end of day if unfilled."
           }
         },
         {
@@ -1120,6 +1386,17 @@
           "data": {
             "term": "Market Order vs Limit Order",
             "definition": "Market order: buy/sell immediately at current price. Limit order: buy/sell only when price hits a level you specify. Market = speed. Limit = control over price."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "You want to buy a stock, but only if it drops to ₹500 or below. It is currently at ₹540. Which order type should you use?",
+            "options": [
+              { "text": "Market order, to buy immediately at ₹540", "isCorrect": false },
+              { "text": "Limit order set at ₹500", "isCorrect": true },
+              { "text": "You cannot specify a price; the exchange decides", "isCorrect": false }
+            ]
           }
         },
         {
@@ -1133,7 +1410,7 @@
         {
           "type": "text",
           "data": {
-            "content": "When you sell a stock and make a profit, you'll owe tax. Short-term capital gains (STCG) applies if you held the stock for less than 1 year, taxed at 20% (as of 2024). Long-term capital gains (LTCG) applies if you held for more than 1 year, taxed at 12.5% on gains above ₹1.25 lakh per year. Understanding this matters when you decide whether to hold or sell."
+            "content": "When you sell a stock for a profit, the taxman comes knocking. If you held the stock for less than 1 year, you pay Short-Term Capital Gains (STCG) tax at 20%. If you held for more than 1 year, you pay Long-Term Capital Gains (LTCG) tax at 12.5% on gains above ₹1.25 lakh per year. Holding longer = paying less tax. Something to keep in mind before you sell."
           }
         },
         {
@@ -1144,10 +1421,22 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "You bought a stock for ₹5,000 and sold it 14 months later for ₹7,000. Which tax rate applies to your ₹2,000 profit?",
+            "options": [
+              { "text": "STCG at 20%, because all stock profits are short-term", "isCorrect": false },
+              { "text": "LTCG at 12.5%, because you held for more than 1 year", "isCorrect": true },
+              { "text": "No tax applies on stock market gains in India", "isCorrect": false },
+              { "text": "GST at 18%", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "You don't need a lot of money to start. Groww and Zerodha allow you to buy as little as 1 share of most stocks. If TCS is at ₹3,800, you can buy 1 share for ₹3,800. There's no minimum beyond 1 share."
+            "content": "You don't need big money to start. Groww and Zerodha let you buy as little as 1 share. If TCS is at ₹3,800, you can buy exactly 1 share for ₹3,800. There's no minimum beyond that. Your first trade can be smaller than your monthly phone recharge."
           }
         },
         {
@@ -1288,7 +1577,13 @@
         {
           "type": "text",
           "data": {
-            "content": "Picture this: it's 2021. You log into Zerodha and everything is green. Your portfolio is up. Your random IPO applications are getting allotted. Your friend who never cared about stocks is now asking you for stock tips. Your uncle who said 'stock market is gambling' has quietly opened a demat account. This feeling? This is a bull market."
+            "content": "It's 2021. You open Zerodha and everything is green. Your portfolio is up. Your random IPO applications are getting allotted. Your friend who never cared about stocks is now sending you stock tips on WhatsApp. That uncle who always called the stock market 'gambling'? Yeah, he quietly opened a demat account last week."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "That vibe, that energy where everything keeps going up and everyone's a genius? That's a bull market."
           }
         },
         {
@@ -1302,14 +1597,14 @@
         {
           "type": "text",
           "data": {
-            "content": "Now flip it. March 2020. Covid has hit. The market has crashed 38% in 40 days. Every headline is terrifying. Your portfolio looks like a disaster. That uncle has closed his demat account. Everyone's sure it's only going to get worse. This is a bear market."
+            "content": "Now flip the scene. March 2020. Covid just hit. Markets have crashed 38% in 40 days. Every headline is terrifying. Your portfolio looks like a horror movie. That uncle? He's deleted the Zerodha app. Everyone is convinced it's only going to get worse. That's a bear market."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Bull Market",
-            "definition": "A market condition where stock prices are rising, investor confidence is high, and optimism reigns. Technically defined as a 20%+ rise from a recent low, sustained over months. The bull 'charges up', hence the name."
+            "definition": "A market condition where stock prices are rising, investor confidence is high, and optimism reigns. Technically defined as a 20%+ rise from a recent low, sustained over months. The bull 'charges up' -- hence the name."
           }
         },
         {
@@ -1317,7 +1612,7 @@
           "data": {
             "character": "priya",
             "expression": "confused",
-            "text": "Why do they call it bull and bear though? That's such a random choice of animals."
+            "text": "Why bulls and bears though? That's such a random pair of animals yaar."
           }
         },
         {
@@ -1325,21 +1620,32 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "It's actually based on how they attack! A bull thrusts its horns upward, like rising prices. A bear swipes its paws downward, like falling prices. Once you picture it, you'll never forget."
+            "text": "Nah it actually makes sense! A bull attacks by thrusting its horns upward -- like rising prices. A bear swipes its paws downward -- like falling prices. Once you picture it, you'll never forget."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Bear Market",
-            "definition": "A market condition where stock prices are falling, investor confidence is low, and pessimism spreads. Technically defined as a 20%+ drop from a recent high. The bear 'swipes down', hence the name."
+            "definition": "A market condition where stock prices are falling, investor confidence is low, and pessimism spreads. Technically defined as a 20%+ drop from a recent high. The bear 'swipes down' -- hence the name."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A bull attacks by thrusting its horns upward. In stock market terms, a 'bull market' means:",
+            "options": [
+              { "text": "Prices are falling sharply and investors are fearful", "isCorrect": false },
+              { "text": "Prices are rising, confidence is high, and optimism reigns", "isCorrect": true },
+              { "text": "Trading volume is extremely low", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "The famous Wall Street charging bull statue in New York weighs 3,200 kilograms and was originally placed there as guerrilla art in 1989. It has become the worldwide symbol of optimistic markets. BSE has its own bull statue outside its building on Dalal Street!"
+            "content": "The famous Wall Street charging bull statue in New York weighs 3,200 kilograms and was originally guerrilla art -- someone just left it there in 1989. It became the worldwide symbol of bullish markets. BSE has its own bull statue outside its building on Dalal Street!"
           }
         },
         {
@@ -1353,20 +1659,32 @@
         {
           "type": "text",
           "data": {
-            "content": "Here's the historical pattern in Indian markets: from 2003 to 2008 was a massive bull run where Sensex went from around 3,000 to 21,000. Then the 2008 global financial crisis triggered a brutal bear market, and Sensex crashed to around 8,000 by 2009. Then another bull run, all the way up. Crashes in 2016 (demonetisation) and 2020 (Covid). Each time, full recovery and new highs within 1 to 3 years."
+            "content": "Here's the pattern in Indian markets: 2003-2008 was a massive bull run -- Sensex went from 3,000 to 21,000. Then the 2008 global financial crisis triggered a brutal bear market, crashing Sensex to around 8,000 by early 2009. Then another bull run. Covid crash in 2020 (-38%). Each time: full recovery and new highs within 1-3 years."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Bear markets are the stock market going on sale. When good companies get cheaper because everyone's scared, that's actually when smart investors buy more, not less. Warren Buffett's famous line: 'Be fearful when others are greedy, and greedy when others are fearful.'"
+            "content": "Bear markets are just the stock market running a clearance sale. When solid companies get cheaper because everyone's panicking, that's actually when smart investors load up. Buffett's famous line: 'Be fearful when others are greedy, and greedy when others are fearful.' Tattoo that on your brain."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "In March 2020, the Sensex crashed 38% due to Covid. By December 2020, what had happened?",
+            "options": [
+              { "text": "It had fallen another 20% and kept declining", "isCorrect": false },
+              { "text": "It recovered fully and continued to new highs around 47,000", "isCorrect": true },
+              { "text": "It stayed flat at the crash level for years", "isCorrect": false },
+              { "text": "SEBI suspended trading until 2021", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The dangerous thing about bear markets isn't the falling prices. It's your brain. When everyone's selling and every news channel is screaming disaster, every cell in your body wants to sell too. This is called panic selling, and it's how most regular investors lock in their losses. The people who stayed invested through 2020's crash and didn't panic-sell? They watched their portfolio hit all-time highs by early 2021."
+            "content": "The dangerous thing about bear markets isn't the falling prices. It's your brain. Every cell in your body screams 'SELL EVERYTHING' when headlines are terrifying and your portfolio is red. This panic-selling is how most regular investors lock in their losses. The people who stayed invested through 2020's crash? They watched their portfolios hit all-time highs by early 2021."
           }
         },
         {
@@ -1378,9 +1696,20 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "During a bear market, most retail investors panic and sell at the bottom. What typically happens to the market after a bear phase?",
+            "options": [
+              { "text": "It never recovers; those losses are permanent", "isCorrect": false },
+              { "text": "It eventually recovers and often reaches new highs", "isCorrect": true },
+              { "text": "Only foreign investors can buy during recovery", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "There's also a concept called a market correction, which is a drop of 10 to 20% from a recent peak. Corrections happen every 1 to 2 years on average. They're healthy, normal, and totally expected. A correction is not a crash. It's not a crisis. It's the market taking a breather before climbing again."
+            "content": "One more important term: a market correction. This is a drop of 10-20% from a recent peak. Corrections are healthy, normal, and happen every 1-2 years on average. A correction is NOT a crash. It's the market stretching its legs before climbing again. Don't confuse it with a bear market (20%+ sustained fall)."
           }
         },
         {
@@ -1391,10 +1720,21 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Ravi's portfolio dropped 12% from its peak. His friend says it is a 'market correction.' Is his friend right?",
+            "options": [
+              { "text": "No, any drop is a full bear market", "isCorrect": false },
+              { "text": "Yes, a 10-20% drop from a recent high is called a correction, which is normal", "isCorrect": true },
+              { "text": "No, corrections only happen once every decade", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
-            "variant": "tip",
-            "content": "Don't confuse a bull market with skill. When everything is rising, even random stock picks look smart. This is when new investors start to believe they're geniuses. Then the bear market arrives and the illusion shatters. True investing skill shows in how you handle the bears."
+            "variant": "warning",
+            "content": "Don't confuse a bull market with skill. When everything is rising, even random stock picks look genius. This is when new investors start believing they can't lose. Then the bear arrives and the illusion shatters. True investing skill shows in how you handle the bears, not the bulls."
           }
         },
         {
@@ -1744,6 +2084,20 @@
               }
             ],
             "feedback": "Chip nods. 'Nice diversification. Banking (stable, fundamental) + food tech (growth, volatile). Two very different risk profiles. This is how a thoughtful portfolio gets built.'"
+          },
+          {
+            "text": "Buy 6 shares of Infosys at ₹1,450 (₹8,700), it dipped on the Fed news but it's a strong company -- buy the dip",
+            "nextNodeId": "node-midday-c1",
+            "walletImpact": -8700,
+            "stocksBought": [
+              {
+                "symbol": "INFY",
+                "shares": 6,
+                "pricePerShare": 1450,
+                "totalCost": 8700
+              }
+            ],
+            "feedback": "Chip raises an eyebrow. 'Buying the dip on a quality company -- bold move. Infosys is solid long-term, and a 2% dip on Fed noise could be a gift. But you've put 87% in one stock. Concentrated bets cut both ways.'"
           }
         ],
         "isEnd": false
@@ -1780,6 +2134,26 @@
               }
             ],
             "feedback": "Chip thinks. 'Reasonable pivot. You took a small loss on Infosys but you're repositioning around a stronger catalyst. Cut losses, find the next opportunity.'"
+          },
+          {
+            "text": "Split your cash: 2 shares HDFC Bank at ₹1,633 (₹3,266) + 15 shares Zomato at ₹204 (₹3,060), diversify this time",
+            "nextNodeId": "node-closing-d",
+            "walletImpact": -6326,
+            "stocksBought": [
+              {
+                "symbol": "HDFCBANK",
+                "shares": 2,
+                "pricePerShare": 1633,
+                "totalCost": 3266
+              },
+              {
+                "symbol": "ZOMATO",
+                "shares": 15,
+                "pricePerShare": 204,
+                "totalCost": 3060
+              }
+            ],
+            "feedback": "Chip nods slowly. 'Learning from the Infosys mistake -- spreading across two sectors this time. Banking for stability, food tech for upside. You lost ₹204 on the morning trade, but you've still got ₹2,746 in reserve. Not bad for a recovery play.'"
           }
         ],
         "isEnd": false
@@ -1823,6 +2197,50 @@
             "nextNodeId": "node-closing-e",
             "walletImpact": 0,
             "feedback": "Chip: 'This is why portfolio management matters. Putting 88% in one stock meant you had no flexibility to act on the Tata Motors opportunity. Lesson learned: always keep some powder dry.'"
+          },
+          {
+            "text": "Sell 3 Infosys shares at ₹1,460 (₹4,380) to free up cash, then buy 4 Zomato at ₹202 (₹808)",
+            "nextNodeId": "node-closing-d",
+            "walletImpact": 3572,
+            "stocksSold": [
+              {
+                "symbol": "INFY",
+                "shares": 3,
+                "pricePerShare": 1460,
+                "totalReceived": 4380
+              }
+            ],
+            "stocksBought": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 4,
+                "pricePerShare": 202,
+                "totalCost": 808
+              }
+            ],
+            "feedback": "Chip: 'Trimming a concentrated position to diversify, now that's learning on the fly. You took a small loss on 3 Infosys shares but gained flexibility. Let's see if Zomato and your remaining Infosys pull through.'"
+          },
+          {
+            "text": "Sell 2 Infosys shares at ₹1,460 (₹2,920) and buy 3 shares of Tata Motors at ₹960 (₹2,880)",
+            "nextNodeId": "node-closing-i",
+            "walletImpact": 40,
+            "stocksSold": [
+              {
+                "symbol": "INFY",
+                "shares": 2,
+                "pricePerShare": 1460,
+                "totalReceived": 2920
+              }
+            ],
+            "stocksBought": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 3,
+                "pricePerShare": 960,
+                "totalCost": 2880
+              }
+            ],
+            "feedback": "Chip nods: 'You sold some Infosys at a loss to catch the Tata Motors EV wave. That's a decisive pivot. Selling a lagging stock to fund a catalyst-driven one shows adaptability, just don't make it a habit to chase every rally.'"
           }
         ],
         "isEnd": false
@@ -1851,6 +2269,20 @@
             "nextNodeId": "node-closing-g",
             "walletImpact": 0,
             "feedback": "Chip crosses fingers. 'You're betting on the fundamentals over the fear. It might work out. Or Zomato might fall further if the rumour gains traction. This is the risk of holding through uncertainty.'"
+          },
+          {
+            "text": "Sell 6 Zomato shares at ₹206 (₹1,236) to lock in partial gains, hold the remaining 5",
+            "nextNodeId": "node-closing-g",
+            "walletImpact": 1236,
+            "stocksSold": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 6,
+                "pricePerShare": 206,
+                "totalReceived": 1236
+              }
+            ],
+            "feedback": "Chip points approvingly. 'Selling half and holding half -- that's a classic risk management move. You've banked some profit while keeping skin in the game. If the rumour is nothing, you still benefit from 5 shares. If it's real, you've already protected some gains.'"
           }
         ],
         "isEnd": false
@@ -1879,6 +2311,28 @@
             "nextNodeId": "node-closing-i",
             "walletImpact": 0,
             "feedback": "Chip nods slowly. 'That's nuanced thinking. You're right, 3 contracts won, 1 cancelled = net 2 contracts ahead. The market might have overreacted to the bad news.'"
+          },
+          {
+            "text": "Sell 3 Tata Motors at ₹930 (₹2,790), use proceeds to buy 13 more Zomato at ₹208 (₹2,704), rebalance towards your winner",
+            "nextNodeId": "node-closing-i",
+            "walletImpact": 86,
+            "stocksSold": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 3,
+                "pricePerShare": 930,
+                "totalReceived": 2790
+              }
+            ],
+            "stocksBought": [
+              {
+                "symbol": "ZOMATO",
+                "shares": 13,
+                "pricePerShare": 208,
+                "totalCost": 2704
+              }
+            ],
+            "feedback": "Chip tilts head. 'Trimming the position that just got bad news and adding to the one with good morning results. Logical rebalancing. But you're now heavily weighted in Zomato -- if the competitor rumour circling around is real, that concentration could hurt.'"
           }
         ],
         "isEnd": false
@@ -1907,6 +2361,20 @@
             "nextNodeId": "node-closing-k",
             "walletImpact": 0,
             "feedback": "Chip raises a hand. 'You can't buy both at those quantities, that's ₹13,867 total. You'd need to reduce positions. Math matters in trading: always check your available capital before placing an order.'"
+          },
+          {
+            "text": "Buy 10 shares of Tata Motors at ₹930 (₹9,300), the contract cancellation was an overreaction and the EV story is still strong",
+            "nextNodeId": "node-closing-i",
+            "walletImpact": -9300,
+            "stocksBought": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 10,
+                "pricePerShare": 930,
+                "totalCost": 9300
+              }
+            ],
+            "feedback": "Chip whistles. 'Buying the dip on Tata Motors after the contract cancellation scare. You're betting the market overreacted and the EV thesis is intact. Gutsy. But going all-in on one stock is risky even when your logic is sound -- you've got zero cash left for surprises.'"
           }
         ],
         "isEnd": false
@@ -1935,6 +2403,20 @@
             "nextNodeId": "node-closing-m",
             "walletImpact": 0,
             "feedback": "Chip does a little fist bump. 'Discipline over greed. You have a good gain already. Locking it in at close is a valid, emotionally intelligent choice.'"
+          },
+          {
+            "text": "Sell 2 Tata Motors at ₹985 (₹1,970) to lock in partial profit, hold remaining 3 for more upside",
+            "nextNodeId": "node-closing-m",
+            "walletImpact": 1970,
+            "stocksSold": [
+              {
+                "symbol": "TATAMOTORS",
+                "shares": 2,
+                "pricePerShare": 985,
+                "totalReceived": 1970
+              }
+            ],
+            "feedback": "Chip grins. 'Selling a portion to lock in gains while keeping exposure -- classic risk management. You've banked ₹78 profit on those 2 shares and still have 3 riding the PLI wave. Textbook move.'"
           }
         ],
         "isEnd": false
@@ -1963,6 +2445,20 @@
             "nextNodeId": "node-closing-o",
             "walletImpact": 0,
             "feedback": "Chip: 'Brave or smart? Holding through the fear, betting the fundamentals outweigh the rumour. Tense final session ahead.'"
+          },
+          {
+            "text": "Hold Zomato but use ₹3,120 cash to buy 2 more HDFC Bank at ₹1,641 (₹3,282), wait -- you're ₹162 short. Buy 1 HDFC Bank (₹1,641) and keep the rest in cash",
+            "nextNodeId": "node-closing-o",
+            "walletImpact": -1641,
+            "stocksBought": [
+              {
+                "symbol": "HDFCBANK",
+                "shares": 1,
+                "pricePerShare": 1641,
+                "totalCost": 1641
+              }
+            ],
+            "feedback": "Chip nods. 'Adding to your stable position instead of chasing the volatile one. Smart capital allocation. You now have 4 HDFC Bank shares as your anchor and Zomato as your growth bet, with ₹1,479 in reserve.'"
           }
         ],
         "isEnd": false

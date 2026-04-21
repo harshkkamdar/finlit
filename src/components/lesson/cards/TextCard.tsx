@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useRef, type ReactNode } from 'react';
+import { useState, useRef, useCallback, type ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import TooltipPortal from '@/components/ui/TooltipPortal';
 
 // ── Inline Markdown Parser ────────────────────────────────────────────────────
 
@@ -48,13 +49,23 @@ interface InlineKeyTermProps {
 
 function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
   const [showTooltip, setShowTooltip] = useState(false);
-  const [position, setPosition] = useState<'above' | 'below'>('above');
+  const [tooltipPos, setTooltipPos] = useState<{ top: number; left: number; placement: 'above' | 'below' }>({
+    top: 0,
+    left: 0,
+    placement: 'above',
+  });
   const lastTouchRef = useRef(0);
+  const spanRef = useRef<HTMLSpanElement>(null);
 
-  function computePosition(el: HTMLElement) {
+  const computePosition = useCallback((el: HTMLElement) => {
     const rect = el.getBoundingClientRect();
-    setPosition(rect.top < 200 ? 'below' : 'above');
-  }
+    const placement = rect.top < 200 ? 'below' : 'above';
+    setTooltipPos({
+      top: placement === 'above' ? rect.top - 10 : rect.bottom + 10,
+      left: rect.left + rect.width / 2,
+      placement,
+    });
+  }, []);
 
   const handleTouchEnd = (e: React.TouchEvent) => {
     e.preventDefault();
@@ -64,7 +75,6 @@ function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
   };
 
   const handleClick = (e: React.MouseEvent) => {
-    // Skip synthesized click after touch
     if (Date.now() - lastTouchRef.current < 500) return;
     e.preventDefault();
     if (!showTooltip) computePosition(e.currentTarget as HTMLElement);
@@ -85,8 +95,9 @@ function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
   };
 
   return (
-    <span className="relative inline-block">
+    <span className="inline-block">
       <span
+        ref={spanRef}
         className="key-term-highlight font-semibold cursor-help"
         style={{
           ['--highlight-color' as string]: hexToRgba(chapterColor, 0.15),
@@ -106,31 +117,33 @@ function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
       </span>
       <AnimatePresence>
         {showTooltip && (
-          <motion.div
-            initial={{ opacity: 0, y: position === 'above' ? -6 : 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: position === 'above' ? -6 : 6 }}
-            transition={{ duration: 0.2, ease: [0.25, 1, 0.5, 1] }}
-            className={`absolute z-30 bg-dark text-white text-sm px-4 py-3.5 rounded-xl shadow-2xl font-body leading-relaxed ${
-              position === 'above'
-                ? 'bottom-full mb-2.5 left-1/2 -translate-x-1/2'
-                : 'top-full mt-2.5 left-1/2 -translate-x-1/2'
-            }`}
-            style={{
-              boxShadow: '0 8px 32px rgba(26,26,46,0.4)',
-              width: 'min(320px, calc(100vw - 48px))',
-            }}
-          >
-            <p className="font-display font-semibold mb-1" style={{ color: chapterColor }}>
-              {term}
-            </p>
-            <p className="text-white/85 leading-relaxed">{definition}</p>
-            <div
-              className={`absolute w-3 h-3 bg-dark rotate-45 rounded-[1px] left-1/2 -translate-x-1/2 ${
-                position === 'above' ? '-bottom-1.5' : '-top-1.5'
-              }`}
-            />
-          </motion.div>
+          <TooltipPortal>
+            <motion.div
+              initial={{ opacity: 0, y: tooltipPos.placement === 'above' ? -6 : 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: tooltipPos.placement === 'above' ? -6 : 6 }}
+              transition={{ duration: 0.2, ease: [0.25, 1, 0.5, 1] }}
+              className="fixed z-[9999] bg-dark text-white text-sm px-4 py-3.5 rounded-xl shadow-2xl font-body leading-relaxed pointer-events-none"
+              style={{
+                boxShadow: '0 8px 32px rgba(26,26,46,0.4)',
+                width: 'min(320px, calc(100vw - 48px))',
+                top: tooltipPos.placement === 'above' ? undefined : tooltipPos.top,
+                bottom: tooltipPos.placement === 'above' ? `calc(100vh - ${tooltipPos.top}px)` : undefined,
+                left: tooltipPos.left,
+                transform: 'translateX(-50%)',
+              }}
+            >
+              <p className="font-display font-semibold mb-1" style={{ color: chapterColor }}>
+                {term}
+              </p>
+              <p className="text-white/85 leading-relaxed">{definition}</p>
+              <div
+                className={`absolute w-3 h-3 bg-dark rotate-45 rounded-[1px] left-1/2 -translate-x-1/2 ${
+                  tooltipPos.placement === 'above' ? '-bottom-1.5' : '-top-1.5'
+                }`}
+              />
+            </motion.div>
+          </TooltipPortal>
         )}
       </AnimatePresence>
     </span>

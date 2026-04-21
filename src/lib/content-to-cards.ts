@@ -226,9 +226,9 @@ function convertSingleBlock(
       return [convertInteractiveBlock(block.data, startIndex)];
     case 'dialogue':
       return [convertDialogueBlock(block.data, startIndex)];
+    case 'quick-check':
+      return [convertQuickCheckBlock(block.data, startIndex)];
     default:
-      // Unknown block types (including future hand-authored 'quick-check' blocks
-      // added directly to content JSON) are silently skipped.
       return [];
   }
 }
@@ -319,6 +319,19 @@ function convertInteractiveBlock(
     id: `card-${index}`,
     type: 'interactive',
     data,
+  };
+}
+
+function convertQuickCheckBlock(
+  data: Record<string, unknown>,
+  index: number
+): QuickCheckCard {
+  const options = (data.options as Array<{ text: string; isCorrect: boolean }>) || [];
+  return {
+    id: `card-${index}`,
+    type: 'quick-check',
+    question: String(data.question || data.prompt || ''),
+    options,
   };
 }
 

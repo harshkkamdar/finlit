@@ -19,7 +19,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Imagine you're a farmer. You've got a ton of rice. Literally, bags and bags of rice. But what you really need is a new pair of shoes. So you walk to the cobbler and say, 'Hey, I'll give you 10 kg of rice for those shoes.' And the cobbler says, 'Cool, but I don't need rice. I need milk.'"
+            "content": "Picture this. You're a farmer with bags and bags of rice. But what you actually need is a new pair of shoes. So you haul yourself to the cobbler and say, 'Bhai, I'll trade you 10 kg of rice for those shoes.' The cobbler looks at you and goes, 'I don't want rice. I need milk.'"
           }
         },
         {
@@ -35,13 +35,20 @@
           "data": {
             "character": "priya",
             "expression": "confused",
-            "text": "Wait, so people used to just... walk around with sacks of rice hoping someone wanted to trade? That sounds exhausting."
+            "text": "Wait, people used to walk around with sacks of rice hoping someone wanted to trade? Yaar, that sounds like the worst shopping trip ever."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Now you've got a problem. You need to find someone who has milk AND wants rice, so you can trade with them, and THEN go back to the cobbler. This is called the double coincidence of wants, and it's the reason the barter system was an absolute nightmare."
+            "content": "Now you're stuck. You need someone who has milk AND wants rice. Then you trade with that person, go back to the cobbler, and hope he hasn't sold the shoes yet. This nightmare has a name."
+          }
+        },
+        {
+          "type": "key-term",
+          "data": {
+            "term": "Double Coincidence of Wants",
+            "definition": "Both people in a trade must want exactly what the other has. You want shoes, the cobbler wants milk. Nobody's happy. That's the core problem of barter."
           }
         },
         {
@@ -56,20 +63,40 @@
           "type": "key-term",
           "data": {
             "term": "Barter System",
-            "definition": "Trading goods directly for other goods, without using money. Works in theory, chaos in practice."
+            "definition": "Trading goods directly for other goods, no money involved. Sounds simple. In practice? Total chaos."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What is the 'double coincidence of wants'?",
+            "options": [
+              {
+                "text": "When two people want the same item at the same time",
+                "isCorrect": false
+              },
+              {
+                "text": "When both parties in a trade must want what the other has",
+                "isCorrect": true
+              },
+              {
+                "text": "When a trader finds two customers willing to pay double",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "In ancient India, cattle were one of the earliest forms of 'money.' The word 'rupee' comes from the Sanskrit 'rupya,' meaning silver coin. We've been at this for a while."
+            "content": "In ancient India, cattle were one of the earliest forms of 'money.' And the word 'rupee'? It comes from the Sanskrit 'rupya,' meaning silver coin. We've literally been figuring out money for thousands of years."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "People figured out pretty quickly that barter wasn't going to scale. So civilizations started using things that everyone agreed were valuable: shells, beads, salt (yes, actual salt, that's where the word 'salary' comes from), and eventually metals like gold and silver."
+            "content": "People got tired of the barter headache pretty fast. So civilizations started using things everyone agreed were valuable: shells, beads, salt (yes, actual salt -- that's where the word 'salary' comes from), and eventually metals like gold and silver."
           }
         },
         {
@@ -84,13 +111,37 @@
           "type": "key-term",
           "data": {
             "term": "Commodity Money",
-            "definition": "Using a physical thing (gold, silver, shells) as money because everyone agrees it has value."
+            "definition": "Using a physical thing -- gold, silver, cowrie shells -- as money because everyone agrees it has value. It's the upgrade from 'I'll trade you my rice for your shoes.'"
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Why did civilizations move from barter to commodity money like shells and salt?",
+            "options": [
+              {
+                "text": "Governments forced people to stop bartering",
+                "isCorrect": false
+              },
+              {
+                "text": "Shells and salt were easier to eat than other goods",
+                "isCorrect": false
+              },
+              {
+                "text": "Everyone agreed these items were valuable, making trades easier",
+                "isCorrect": true
+              },
+              {
+                "text": "Commodity money was invented by a single ruler",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Then came coins, standardized, stamped with a ruler's face (ancient flex), and easy to carry. India's Maurya Empire was minting coins around 300 BC. The game had changed."
+            "content": "Then came coins -- standardized, stamped with a ruler's face (the original flex), and easy to carry. India was already minting punch-marked coins by 600 BC -- centuries before the Maurya Empire rose to power. The game had levelled up."
           }
         },
         {
@@ -105,47 +156,99 @@
           "type": "dialogue",
           "data": {
             "character": "arjun",
-            "expression": "explaining",
-            "text": "So basically, the big innovation was that everyone agreed on ONE thing to use as money instead of trying to match up who wants what. Pretty smart."
+            "expression": "thinking",
+            "text": "But bhai, who convinced the first person to accept a shell as payment? Like, imagine someone handing you a shell and saying 'this is worth 5 kg of rice now.' You'd think they're pagal, na? How did that agreement even start?"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "But carrying a bag of gold coins to buy groceries? Not great. So paper money showed up. The idea was simple: the government says, 'This piece of paper is worth 100 rupees. Trust us.' And everyone... did. Mostly."
+            "content": "But lugging a bag of gold coins to buy groceries? Not great. So paper money showed up. The idea was wild: the government says, 'This piece of paper is worth ₹100. Trust us.' And everyone... did. Mostly."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What was the key idea behind paper money?",
+            "options": [
+              {
+                "text": "Paper was more valuable than gold",
+                "isCorrect": false
+              },
+              {
+                "text": "The government declares it has value, and everyone trusts that",
+                "isCorrect": true
+              },
+              {
+                "text": "Paper notes could be exchanged for cowrie shells",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Money is basically a group hallucination that works because we all agree it works. Wild, right?"
+            "content": "Money is basically a group hallucination that works because everyone agrees to hallucinate together. Think about that the next time you tap your UPI."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Fast forward to 2016. India gets UPI, Unified Payments Interface. Suddenly, the street vendor at the corner accepts Google Pay. Your cab driver has a QR code. You can split a dinner bill in 4 seconds. Money isn't even paper anymore, it's just numbers on a screen."
+            "content": "Fast forward to 2016. India gets UPI -- Unified Payments Interface. Suddenly, your street vendor accepts Google Pay. Your auto driver has a QR code. You can split a dinner bill in 4 seconds. Money isn't even paper anymore -- it's just numbers moving between phones."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "UPI (Unified Payments Interface)",
-            "definition": "India's real-time payment system that lets you transfer money instantly between bank accounts using a phone. Launched in 2016, now processes billions of transactions monthly."
+            "definition": "India's real-time payment system that lets you transfer money instantly between bank accounts using just a phone. Launched in 2016, it now processes billions of transactions every month. Yes, billions."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "When was UPI (Unified Payments Interface) launched in India?",
+            "options": [
+              {
+                "text": "2010",
+                "isCorrect": false
+              },
+              {
+                "text": "2016",
+                "isCorrect": true
+              },
+              {
+                "text": "2020",
+                "isCorrect": false
+              },
+              {
+                "text": "2005",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "surprised",
+            "text": "My dadi still doesn't trust UPI, yaar. She keeps cash in her cupboard. But my 8-year-old cousin pays for ice cream with a QR code. Same family, two totally different ideas of what money looks like."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "So money went from rice bags to QR codes in about 5,000 years. The form keeps changing, but the idea stays the same: it's a thing everyone agrees to accept in exchange for stuff. That agreement, that trust, is what makes money work. Take away the trust, and it's just metal, paper, or pixels."
+            "content": "So money went from rice bags to QR codes in about 5,000 years. The form keeps changing, but the idea stays the same: it's something everyone agrees to accept. That agreement -- that trust -- is the whole game. Take away the trust, and it's just metal, paper, or pixels."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Key takeaway: Money is a technology. It was invented to solve a problem (barter is hard). And like all technology, it keeps evolving. The next version might be CBDCs (Central Bank Digital Currencies), basically digital rupees issued by the RBI."
+            "content": "Key takeaway: Money is a technology. It was invented to solve a real problem (barter is a nightmare). And like all technology, it keeps evolving. The next version might be CBDCs -- Central Bank Digital Currencies -- basically digital rupees issued by the RBI."
           }
         }
       ],
@@ -280,7 +383,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Quick question: why is a 500 rupee note worth 500 rupees? Go on, think about it. The paper itself costs maybe 1 rupee to print. So why does everyone treat it like it's worth 500 times that?"
+            "content": "Here's a question that sounds dumb but isn't: why is a ₹500 note worth ₹500? The paper itself costs maybe ₹1 to print. So why does a shopkeeper, a cab driver, your canteen wala -- everyone -- treat it like it's worth 500 times that?"
           }
         },
         {
@@ -296,26 +399,46 @@
           "data": {
             "character": "priya",
             "expression": "thinking",
-            "text": "Hmm, is it because the government says so? Like, they printed 500 on it, so that's what it is?"
+            "text": "Hmm, is it because the government says so? Like, they slapped 500 on it, so that's just... what it is?"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here's the honest answer: because the Government of India says so, and because you, and every shopkeeper, cab driver, and vegetable vendor in the country, agrees. That's it. There's no gold sitting in a vault somewhere backing up each note. It's pure, collective trust."
+            "content": "Honestly? Pretty much. The Government of India says it's worth ₹500, and you, every shopkeeper, every Zomato delivery partner, every sabzi wala -- everyone agrees. There's no gold vault backing each note. It's pure, collective trust."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Fiat Money",
-            "definition": "Money that has value because the government declares it legal tender, not because it's backed by gold or any physical commodity. The word 'fiat' is Latin for 'let it be done.'"
+            "definition": "Money that has value because the government declares it so -- not because it's backed by gold or anything physical. 'Fiat' is Latin for 'let it be done.' Basically, the government said 'this is money now' and everyone went along with it."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What makes fiat money different from commodity money like gold coins?",
+            "options": [
+              {
+                "text": "Fiat money is always made of paper",
+                "isCorrect": false
+              },
+              {
+                "text": "Fiat money has value because the government declares it, not because of a physical commodity backing it",
+                "isCorrect": true
+              },
+              {
+                "text": "Fiat money can only be used digitally",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "For centuries, money was actually backed by gold. If you had a 100 rupee note, you could theoretically walk into the central bank and trade it for a fixed amount of gold. This was called the Gold Standard. Then in 1971, the US said 'nah, we're done with that,' and the entire world followed. Now money is just... faith."
+            "content": "For centuries, money was actually backed by gold. You had a ₹100 note? You could walk into the central bank and exchange it for a fixed amount of gold. This was called the Gold Standard. Then in 1971, the US said 'nah, we're done with that,' and the rest of the world followed. Now money is just... faith."
           }
         },
         {
@@ -330,20 +453,44 @@
           "type": "key-term",
           "data": {
             "term": "Legal Tender",
-            "definition": "Something the government legally requires people to accept as payment. If you try to refuse a 100 rupee note for a debt, you're actually breaking the law."
+            "definition": "Something the government legally requires people to accept as payment. If someone tries to pay you with a ₹100 note for a legitimate debt and you refuse it? You're technically breaking the law."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What does 'legal tender' mean?",
+            "options": [
+              {
+                "text": "Money that is legal to print at home",
+                "isCorrect": false
+              },
+              {
+                "text": "Something the government legally requires people to accept as payment",
+                "isCorrect": true
+              },
+              {
+                "text": "Currency that can only be used for government transactions",
+                "isCorrect": false
+              },
+              {
+                "text": "A tender or bid submitted in a legal auction",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "So the 500 rupees in your pocket is worth 500 rupees entirely because millions of people agree it is. The moment they stop agreeing? Problem."
+            "content": "The ₹500 in your pocket is worth ₹500 entirely because millions of people agree it is. The moment they stop agreeing? You've got fancy toilet paper."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "And yes, that 'moment they stop agreeing' thing actually happens. It's called hyperinflation, when trust in money collapses so badly that prices go haywire. Zimbabwe in 2008 printed a 100 trillion dollar note. Not because they were rich. Because their money meant nothing."
+            "content": "And that 'stop agreeing' thing actually happens. It's called hyperinflation -- when trust in money collapses so badly that prices go completely insane. Zimbabwe in 2008-09 printed a 100 TRILLION dollar note. Not because they were rich. Because their money meant nothing."
           }
         },
         {
@@ -358,34 +505,86 @@
           "type": "key-term",
           "data": {
             "term": "Hyperinflation",
-            "definition": "When inflation goes completely out of control, prices rising 50%+ per month. Usually happens when a government prints too much money, destroying trust in the currency."
+            "definition": "When inflation goes completely off the rails -- prices shooting up 50%+ per month. Usually happens when a government prints way too much money and trust in the currency evaporates."
           }
         },
         {
-          "type": "text",
+          "type": "quick-check",
           "data": {
-            "content": "India had its own trust-shaking moment. November 8, 2016. Prime Minister Modi appeared on TV at 8 PM and announced that 500 and 1,000 rupee notes, which made up 86% of cash in circulation, were no longer legal tender. Overnight. This was demonetization."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "fun-fact",
-            "content": "During demonetization, people literally queued outside banks for weeks to exchange their old notes. Paytm's downloads jumped 435% overnight. Crisis creates innovation."
+            "question": "What typically causes hyperinflation?",
+            "options": [
+              {
+                "text": "Too many banks opening in a country",
+                "isCorrect": false
+              },
+              {
+                "text": "A government printing excessive amounts of money, destroying trust in the currency",
+                "isCorrect": true
+              },
+              {
+                "text": "People saving too much money in their bank accounts",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "dialogue",
           "data": {
             "character": "arjun",
-            "expression": "explaining",
-            "text": "So if money only works because people trust it, demonetization basically tested that trust at the national level. And honestly? The system held, barely. People still trusted the rupee itself, just not the old notes."
+            "expression": "surprised",
+            "text": "Wait -- 100 TRILLION on a single note?! Bhai, I can't even imagine that many zeros. You'd need a wheelbarrow of cash just to buy bread. That's not money, that's a meme."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "So what keeps money trustworthy? Three things: scarcity (the government controls how much is printed), stability (prices don't go haywire), and acceptance (everyone keeps agreeing to use it). The RBI's whole job is basically to protect all three."
+            "content": "India had its own trust-shaking moment. November 8, 2016, 8 PM. PM Modi appeared on live TV and announced that ₹500 and ₹1,000 notes -- making up 86% of all cash in India -- were no longer legal tender. Overnight. Boom."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "During demonetization, people literally queued outside banks for weeks to exchange their old notes. Paytm's downloads shot up 435% overnight. One crisis, and India's digital payments revolution kicked into overdrive."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "surprised",
+            "text": "Bro, my dad still talks about demonetization night. He stood in line at the ATM for like three hours. Everyone was panicking, people were crying. But the wild part? Nobody stopped trusting the rupee itself. They just wanted the new notes. The currency survived its own cancellation."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "So what keeps money trustworthy? Three things. Scarcity: the government controls how much is printed. Stability: prices don't go haywire. Acceptance: everyone keeps agreeing to use it. The RBI's entire job is to protect all three."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Which of the following is NOT one of the three things that keeps money trustworthy?",
+            "options": [
+              {
+                "text": "Scarcity -- the government controls how much is printed",
+                "isCorrect": false
+              },
+              {
+                "text": "Stability -- prices don't go haywire",
+                "isCorrect": false
+              },
+              {
+                "text": "Portability -- money must be lightweight to carry",
+                "isCorrect": true
+              },
+              {
+                "text": "Acceptance -- everyone agrees to use it",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -400,7 +599,7 @@
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Think of it this way: money is like a group chat. It works because everyone is in it. The moment people start leaving, or stop believing, the whole thing falls apart. The RBI's job is to keep everyone in the chat."
+            "content": "Think of money like a group chat. It works because everyone's in it. The moment people start leaving or stop believing in it, the whole thing falls apart. The RBI's job? Keep everyone in the chat."
           }
         }
       ],
@@ -522,7 +721,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Your mom tells you a samosa used to cost 2 rupees. You're paying 20 today. She's not exaggerating, that's a 10x price increase over roughly 30 years. This is inflation doing its quiet, relentless thing."
+            "content": "Your mom says a samosa used to cost ₹2. You're paying ₹20 today. She's not exaggerating -- that's a 10x price jump in roughly 30 years. Something is quietly eating your money's power, and it has a name."
           }
         },
         {
@@ -538,40 +737,88 @@
           "data": {
             "character": "priya",
             "expression": "surprised",
-            "text": "2 rupees for a samosa?! I can't even get a chai for that anymore. This inflation thing is personal."
+            "text": "₹2 for a samosa?! Yaar, I can't even get a chai for that anymore. This inflation thing is personal."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Inflation",
-            "definition": "The rate at which prices rise over time, which reduces how much your money can buy. If inflation is 6%, something that cost 100 rupees last year now costs 106."
+            "definition": "The rate at which prices rise over time, quietly reducing what your money can buy. If inflation is 6%, something that cost ₹100 last year now costs ₹106. Same money, less stuff."
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "A bar chart with samosa icons showing rising prices from 1990 to 2024",
+            "src": "/illustrations/ch0/l3-price-chart.png",
+            "prompt": "A playful illustrated bar chart with samosa icons stacked to show rising prices over four decades: 2 rupees in 1990, 5 in 2000, 10 in 2010, 20 in 2024, amber colored bars on a light background, flat bold illustration style, hand-drawn feel, clear labels"
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "If inflation is 6%, what does that mean for a ₹100 item after one year?",
+            "options": [
+              {
+                "text": "It will cost ₹94",
+                "isCorrect": false
+              },
+              {
+                "text": "It will cost ₹106",
+                "isCorrect": true
+              },
+              {
+                "text": "It will cost ₹160",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here's the thing, a little inflation is actually normal and even healthy. India's RBI shoots for around 4% inflation per year. That's the goldilocks zone: prices go up gradually, people keep spending (because waiting means things get more expensive), and the economy keeps moving."
+            "content": "Here's the twist: a little inflation is actually healthy. India's RBI targets around 4% per year. That's the sweet spot -- prices rise gradually, people keep spending (because waiting means things cost more), and the economy keeps humming."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Inflation isn't your enemy, it's just math you need to know about. The real enemy is not understanding it and letting your savings get quietly eaten alive."
+            "content": "Inflation isn't the villain. YOUR villain is not knowing about it and letting your savings get quietly eaten alive while you're busy watching reels."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "But why do prices rise at all? Think of it this way. Say the government prints 1,000 rupees extra and hands it to you. You now want to buy stuff. But the number of samosas in the world hasn't increased, only your money has. So the samosa seller notices more people have more cash, and slowly... the price goes up. More money chasing the same goods equals prices rising."
+            "content": "But why do prices rise at all? Say the government prints ₹1,000 extra and hands it to everyone. You want to buy samosas. But the samosa wala hasn't made more samosas -- only your money increased. He sees a line of customers with fat wallets, and slowly... the price goes up."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Demand-Pull Inflation",
-            "definition": "When too much money chases too few goods. Everyone has cash and wants to buy, so sellers raise prices. Think of it as a bidding war for samosas."
+            "definition": "When too much money chases too few goods. Everyone's got cash and wants to buy, so sellers raise prices. Think of it as a bidding war for samosas."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A city gives every citizen a ₹10,000 bonus. Shops see a rush of buyers but have the same stock. What type of inflation is this likely to cause?",
+            "options": [
+              {
+                "text": "Cost-push inflation",
+                "isCorrect": false
+              },
+              {
+                "text": "Demand-pull inflation",
+                "isCorrect": true
+              },
+              {
+                "text": "Deflation",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -585,55 +832,99 @@
         {
           "type": "text",
           "data": {
-            "content": "There's another type too. Sometimes prices rise not because people have more money, but because it got more expensive to make stuff. When petrol prices spike, everything gets costlier. Trucks cost more to run, so groceries cost more to transport, so your sabzi costs more. This is cost-push inflation."
+            "content": "There's another type. Sometimes prices rise not because people have more money, but because making stuff got more expensive. When petrol prices spike, trucks cost more to run, groceries cost more to ship, and suddenly your sabzi costs more too."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Cost-Push Inflation",
-            "definition": "When production costs rise (like fuel, raw materials), forcing businesses to charge more. The cost gets 'pushed' through to you, the buyer."
+            "definition": "When production costs rise -- fuel, raw materials, transport -- forcing businesses to charge you more. The cost gets 'pushed' from the producer straight to your wallet."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Crude oil prices spike globally, making transport more expensive. Grocery prices rise as a result. This is an example of:",
+            "options": [
+              {
+                "text": "Demand-pull inflation, because people want more groceries",
+                "isCorrect": false
+              },
+              {
+                "text": "Deflation, because oil is a finite resource",
+                "isCorrect": false
+              },
+              {
+                "text": "Cost-push inflation, because production and transport costs increased",
+                "isCorrect": true
+              }
+            ]
           }
         },
         {
           "type": "dialogue",
           "data": {
             "character": "arjun",
-            "expression": "explaining",
-            "text": "So demand-pull is when people have too much money, and cost-push is when things just cost more to make. Both end up the same way for us though: stuff gets expensive."
+            "expression": "annoyed",
+            "text": "Demand-pull, cost-push -- bhai, kya farak padta hai? Either way MY samosa costs more. Whether it's because everyone got extra cash or because petrol went up, I'm the one paying ₹20 instead of ₹10. The reason doesn't make my wallet feel better."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Now here's where it gets personal. India's average inflation has been around 5-6% over the last decade. That sounds small. But at 6% inflation, prices double in roughly 12 years. The chai that costs 20 rupees today will cost 40 by the time you're in your late 20s."
+            "content": "Now here's where it hits home. India's average inflation has been around 5-6% over the last decade. Sounds small, right? But at 6% inflation, prices double in roughly 12 years. That ₹20 chai today? ₹40 by the time you're in your late 20s."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Food alone makes up nearly 46% of India's inflation measurement basket, way more than in Western countries. This means when onion prices skyrocket (and they always do eventually), it hits India's inflation numbers hard. Onions literally influence interest rates."
+            "content": "Food alone makes up nearly 46% of India's inflation basket -- way more than in Western countries. So when onion prices go crazy (and they always do), it literally moves national inflation numbers. Onions influence interest rates. Let that sink in."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "And the flip side is something called deflation, when prices actually fall. Sounds amazing, right? Free money! Except it's not. When prices fall, people think 'let me wait, things will be even cheaper tomorrow.' Everyone stops spending. Businesses earn less. They fire people. Those people spend less. The whole economy spirals down. Japan spent 30 years trying to escape deflation."
+            "content": "And then there's the opposite: deflation, when prices actually fall. Sounds amazing, right? Free money! Except... no. When prices fall, people think 'let me wait, things will be even cheaper tomorrow.' Everyone stops spending. Businesses earn less. They fire people. Those people spend less. The whole economy spirals. Japan spent over two decades trapped in this cycle."
           }
         },
         {
-          "type": "image",
+          "type": "quick-check",
           "data": {
-            "alt": "A bar chart with samosa icons showing rising prices from 1990 to 2024",
-            "src": "/illustrations/ch0/l3-price-chart.png",
-            "prompt": "A playful illustrated bar chart with samosa icons stacked to show rising prices over four decades: 2 rupees in 1990, 5 in 2000, 10 in 2010, 20 in 2024, amber colored bars on a light background, flat bold illustration style, hand-drawn feel, clear labels"
+            "question": "Why is deflation (falling prices) considered dangerous for an economy?",
+            "options": [
+              {
+                "text": "People buy too much and stores run out of stock",
+                "isCorrect": false
+              },
+              {
+                "text": "People delay spending hoping for even lower prices, causing a downward economic spiral",
+                "isCorrect": true
+              },
+              {
+                "text": "The government cannot collect taxes when prices fall",
+                "isCorrect": false
+              },
+              {
+                "text": "Banks automatically close during deflation",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "confused",
+            "text": "Hold on -- prices going DOWN is bad?! My whole life I've been waiting for things to get cheaper and you're telling me that would actually wreck the economy? Yaar, economics is just trolling us at this point."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "So how do we measure inflation? India uses the CPI, Consumer Price Index. Every month, the government checks the price of a giant 'basket' of things average Indians buy: food, fuel, clothing, healthcare, education. If that basket costs more than last month, inflation went up."
+            "content": "So how do you actually measure inflation? India uses the CPI -- Consumer Price Index. Every month, the government checks prices on a giant 'basket' of stuff regular Indians buy: food, fuel, clothing, healthcare, education. If that basket costs more than last month, inflation went up."
           }
         },
         {
@@ -647,8 +938,8 @@
         {
           "type": "callout",
           "data": {
-            "variant": "tip",
-            "content": "Key insight: inflation is the reason just saving money in a box under your bed is a bad idea. If inflation is 6% and your money earns 0%, you're losing 6% of your money's power every year. More on this when we get to investing."
+            "variant": "warning",
+            "content": "This is why hiding money under your mattress is a terrible idea. If inflation is 6% and your cash earns 0%, you're losing 6% of your money's buying power every single year. That ₹1 lakh becomes worth only about ₹56,000 in 10 years -- without you spending a single rupee."
           }
         }
       ],
@@ -780,17 +1071,17 @@
       "estimatedReadingTime": "10 minutes",
       "contentBlocks": [
         {
+          "type": "text",
+          "data": {
+            "content": "You deposit money in a bank. You imagine a big steel vault, stacks of cash, your name on a pile of notes. Safe and sound. Here's the truth: that picture is almost completely wrong."
+          }
+        },
+        {
           "type": "image",
           "data": {
             "alt": "A friendly stylized bank building with the doors wide open",
             "src": "/illustrations/ch0/l4-bank-building.png",
             "prompt": "A stylized Indian bank building with large open doors, warm welcoming light spilling out, a sign reading 'Bank' in English and Hindi, people walking in and out, warm amber tones, flat bold illustration style, inviting and friendly"
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Picture a bank vault. Big steel door, stacks of cash, your name (metaphorically) on a pile of notes. That's the image, right? The safe place where money just... sits. Except that's almost completely wrong."
           }
         },
         {
@@ -804,34 +1095,54 @@
         {
           "type": "text",
           "data": {
-            "content": "Here's what actually happens when you deposit 10,000 rupees in your SBI savings account: the bank takes most of that money and lends it to someone else. A home loan here, a business loan there. Your 10,000 rupees is out there in the world, working. The bank just promises to have your money available whenever you want it back."
+            "content": "When you deposit ₹10,000 in your SBI savings account, the bank takes most of that money and lends it to someone else. A home loan here, a business loan there. Your ₹10,000 is out in the world, working. The bank just promises to have it ready whenever you ask for it back."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Fractional Reserve Banking",
-            "definition": "The system where banks only keep a fraction of deposits as actual cash reserves, lending out the rest. If everyone asked for their money at the same time, the bank couldn't pay, which is why trust matters so much."
+            "definition": "Banks keep only a fraction of your deposits as actual cash reserves and lend out the rest. If everyone asked for their money at the same time, the bank literally couldn't pay. That's why trust matters so much in banking."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "In fractional reserve banking, what happens to most of the money you deposit?",
+            "options": [
+              {
+                "text": "It sits in a vault with your name on it",
+                "isCorrect": false
+              },
+              {
+                "text": "The bank lends most of it to other borrowers",
+                "isCorrect": true
+              },
+              {
+                "text": "It is sent directly to the RBI for safekeeping",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Wait, the bank lends out YOUR money? Yes. That's literally banking. And honestly? It's why the economy functions at all."
+            "content": "The bank lends out YOUR money? Yes. That's literally what banking is. And honestly, it's the reason the economy functions at all. You're welcome, India."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "But obviously the bank can't lend out everything. What if you need cash tomorrow? The RBI (India's central bank) has rules. Every bank must keep a minimum percentage of deposits as cash. This is called the Cash Reserve Ratio, currently around 4%. So out of every 100 rupees you deposit, 4 rupees must stay locked up."
+            "content": "But obviously the bank can't lend out everything -- what if you need cash tomorrow? The RBI has rules. Every bank must keep a minimum percentage as cash. This is called the Cash Reserve Ratio, currently around 4%. So out of every ₹100 you deposit, ₹4 must stay locked up with the RBI."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Cash Reserve Ratio (CRR)",
-            "definition": "The percentage of a bank's total deposits that must be kept as cash with the RBI. Currently around 4% in India. It's a safety buffer, and one of the RBI's tools to control how much money flows through the economy."
+            "definition": "The percentage of a bank's total deposits that must be kept as cash with the RBI. Currently around 4% in India. It's a safety buffer AND one of the RBI's tools to control how much money flows through the economy."
           }
         },
         {
@@ -845,14 +1156,38 @@
         {
           "type": "text",
           "data": {
-            "content": "There's also the Statutory Liquidity Ratio (SLR), around 18%, which requires banks to hold a chunk of deposits in government securities (safe investments). So out of 100 rupees you deposit: 4 goes to CRR, 18 to SLR, and roughly 78 can be lent out to borrowers."
+            "content": "There's also the SLR -- Statutory Liquidity Ratio -- around 18%. Banks must park this chunk in safe government securities. So out of every ₹100 you deposit: ₹4 goes to CRR, ₹18 to SLR, and about ₹78 gets lent out to borrowers."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Statutory Liquidity Ratio (SLR)",
-            "definition": "The percentage of deposits banks must hold in liquid assets like government bonds and gold. Currently around 18% in India. It ensures banks stay solvent even if lots of people withdraw money."
+            "definition": "The percentage of deposits banks must hold in safe liquid assets like government bonds and gold. Currently around 18% in India. It's a safety net ensuring banks don't go broke even if lots of people withdraw money at once."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Out of every ₹100 you deposit, roughly how much can the bank lend out (given CRR ~4% and SLR ~18%)?",
+            "options": [
+              {
+                "text": "About ₹4",
+                "isCorrect": false
+              },
+              {
+                "text": "About ₹22",
+                "isCorrect": false
+              },
+              {
+                "text": "About ₹78",
+                "isCorrect": true
+              },
+              {
+                "text": "About ₹100",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -860,20 +1195,7 @@
           "data": {
             "character": "priya",
             "expression": "surprised",
-            "text": "So only 4 out of every 100 rupees I deposit actually stays as cash? The rest is out there funding someone's home loan? That's kind of wild."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "So what kinds of banks are out there in India? The biggest is SBI, State Bank of India, which has over 500 million account holders. That's more accounts than the entire population of the US and UK combined. Then there are private banks like HDFC, ICICI, Axis. Newer payment banks like Paytm and Airtel that only handle smaller transactions."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "fun-fact",
-            "content": "SBI has more accounts than the United States has people. If SBI were a country, its customers would make it the third most populous nation on Earth. That's how central banking is to Indian life."
+            "text": "So only ₹4 out of every ₹100 I deposit actually stays as cash? The rest is out there funding someone's home loan? That's... kind of wild, yaar."
           }
         },
         {
@@ -887,7 +1209,68 @@
         {
           "type": "text",
           "data": {
-            "content": "Now, a key question: what happens if a bank actually goes bust? In India, you're protected up to 5 lakh rupees per depositor per bank by the DICGC, Deposit Insurance and Credit Guarantee Corporation. Think of it as insurance for your savings. Below 5 lakh, you'll get your money back even if the bank collapses."
+            "content": "What kinds of banks are there in India? The giant is SBI -- State Bank of India -- with over 500 million account holders. Then there are private banks like HDFC, ICICI, Axis. And newer payment banks like Airtel Payments Bank that handle smaller transactions but can't give loans (though some, like Paytm Payments Bank, have faced RBI restrictions)."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "fun-fact",
+            "content": "SBI has more accounts than the entire population of the United States. If SBI's customers were a country, it would be the third most populous nation on Earth. That's how central banking is to Indian life."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What is a key difference between a commercial bank (like SBI) and a payment bank (like Paytm Payments Bank)?",
+            "options": [
+              {
+                "text": "Commercial banks are digital; payment banks are physical",
+                "isCorrect": false
+              },
+              {
+                "text": "Payment banks can handle small transactions but cannot give loans",
+                "isCorrect": true
+              },
+              {
+                "text": "Commercial banks don't offer savings accounts",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Now the big question: what if a bank actually goes bust? In India, you're protected up to ₹5 lakh per depositor per bank by the DICGC -- Deposit Insurance and Credit Guarantee Corporation. Think of it as insurance for your savings. Below ₹5 lakh, you get your money back even if the bank collapses."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "If you have ₹7 lakh in a single bank and it collapses, how much does DICGC insurance guarantee you will get back?",
+            "options": [
+              {
+                "text": "₹7 lakh -- all deposits are fully insured",
+                "isCorrect": false
+              },
+              {
+                "text": "₹5 lakh -- the DICGC coverage limit per depositor per bank",
+                "isCorrect": true
+              },
+              {
+                "text": "Nothing -- there is no deposit insurance in India",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "surprised",
+            "text": "Only 5 lakh?! Bhai, that's it? So if my parents have like 8 lakh in one bank and it crashes, 3 lakh just vanishes? Nobody told us this. Why don't they teach this stuff in school?"
           }
         },
         {
@@ -901,8 +1284,8 @@
         {
           "type": "callout",
           "data": {
-            "variant": "tip",
-            "content": "Practical tip: if you have more than 5 lakh rupees in savings, consider spreading it across more than one bank. Each bank gives you separate 5 lakh protection. 5 lakh in HDFC plus 5 lakh in SBI equals 10 lakh fully insured."
+            "variant": "warning",
+            "content": "Got more than ₹5 lakh in savings? Spread it across banks. Each bank gives you separate ₹5 lakh protection. So ₹5 lakh in HDFC + ₹5 lakh in SBI = ₹10 lakh fully insured. Don't keep everything in one place."
           }
         }
       ],
@@ -1037,7 +1420,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Banks are incredibly generous, right? They keep your money safe, send you a debit card, give you a nice mobile app, and sometimes even offer interest on your savings. Why would they do all this for free? Spoiler: they don't."
+            "content": "Banks keep your money safe, give you a debit card, build you a slick app, and even pay you interest. Why would they do all this? Because they're generous? Nope. Banking is a business, and a seriously profitable one."
           }
         },
         {
@@ -1051,14 +1434,38 @@
         {
           "type": "text",
           "data": {
-            "content": "Banks make money through the oldest trick in finance: borrow cheap, lend expensive. They pay you 3% interest on your savings account. Then they lend that same money to someone else at 10% for a personal loan. The 7% difference? That's their profit. This gap is called the Net Interest Margin."
+            "content": "Here's the trick. Your bank pays you 3-4% interest on your savings account. Then it lends that same money to someone else at 10% for a personal loan. The 6-7% difference? That's their profit. This gap has a name."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Net Interest Margin (NIM)",
-            "definition": "The difference between what a bank earns on loans (lending rate) and what it pays on deposits (deposit rate). This spread is the core of how banks make money. A higher NIM means a more profitable bank."
+            "definition": "The difference between what a bank earns on loans (lending rate) and what it pays you on deposits (deposit rate). This spread is how banks print money -- legally. A higher NIM means a fatter bank."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A bank pays you 4% on your savings and charges borrowers 12% on personal loans. What is the bank's Net Interest Margin on this activity?",
+            "options": [
+              {
+                "text": "4%",
+                "isCorrect": false
+              },
+              {
+                "text": "8%",
+                "isCorrect": true
+              },
+              {
+                "text": "12%",
+                "isCorrect": false
+              },
+              {
+                "text": "16%",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1066,20 +1473,13 @@
           "data": {
             "character": "priya",
             "expression": "surprised",
-            "text": "Hold on. So the bank pays me 3% on my savings, but lends MY money out at 10%? They're making 7% off my money while I get 3%?!"
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "chip-says",
-            "content": "You know how your savings account pays 3% interest? The bank is lending your money at 9-10% to someone else. You're doing the work; the bank is taking the bigger cut."
+            "text": "Hold on. The bank pays me 3% on MY money, then lends MY money at 10%? They're pocketing 7% off my cash while I get the scraps?!"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "But loans aren't all the same. A home loan might be 8-9%. A personal loan could be 14-18%. A credit card? Often 36-42% per year. The higher the risk that you won't repay, the higher the rate the bank charges. Banks are constantly doing risk assessment, basically betting on whether you'll pay them back."
+            "content": "Not all loans cost the same. A home loan might be 8-9%. A personal loan: 14-18%. A credit card? Often 36-42% per year. The riskier the loan (meaning the higher the chance you won't pay it back), the higher the rate. Banks are constantly running risk calculations on you."
           }
         },
         {
@@ -1091,16 +1491,63 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Why do credit cards charge much higher interest (36-42%) than home loans (8-9%)?",
+            "options": [
+              {
+                "text": "Credit card companies are greedier than banks",
+                "isCorrect": false
+              },
+              {
+                "text": "Credit card debt is unsecured and riskier for the lender, so they charge more",
+                "isCorrect": true
+              },
+              {
+                "text": "Home loans are given by the government, so they are subsidized",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Your savings account pays 3% interest. The bank lends your money at 10%. You supply the raw material; the bank keeps the bigger cut. Welcome to capitalism."
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "And there's more than just interest. Banks also earn from: transaction fees (that 20 rupee charge for a bank transfer), forex services (exchanging currency), insurance commissions (when a banker sells you insurance at the counter), and ATM fees (beyond free transactions). All of these add up to what's called non-interest income."
+            "content": "Banks also earn from stuff beyond interest. That ₹20 charge for a bank transfer? Revenue. Exchanging currency at the airport? Revenue. Selling you insurance at the branch counter? Commission. Even ATM fees after your free transactions. All of this adds up."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Non-Interest Income",
-            "definition": "Money banks earn from sources other than lending. Fees for transactions, forex services, insurance sales, locker rentals, etc. Larger banks can earn thousands of crores from this alone."
+            "definition": "Money banks earn from sources other than lending -- transaction fees, forex services, insurance commissions, locker rentals. Big banks rake in thousands of crores from this alone."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Which of these is an example of a bank's non-interest income?",
+            "options": [
+              {
+                "text": "Interest earned on a home loan",
+                "isCorrect": false
+              },
+              {
+                "text": "A ₹20 fee charged for a bank transfer",
+                "isCorrect": true
+              },
+              {
+                "text": "Interest paid by a borrower on a personal loan",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1108,20 +1555,20 @@
           "data": {
             "character": "arjun",
             "expression": "thinking",
-            "text": "So banks have two income streams: the interest spread on loans, and all the fees they charge for services. No wonder banking is such a massive business."
+            "text": "Okay I'll give it to them, the hustle is real. They take MY money, lend it out at triple the rate, AND charge me fees on top? That's lowkey unfair but also... kind of genius? I'm not even mad, I'm impressed. Nah wait, I am mad."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Now here's something cool. When a bank lends out your 10,000 rupees, the borrower probably spends it, maybe pays a shop. That shop deposits the money in their bank. That bank lends most of it out again. And again. And again. One 10,000 rupee deposit can turn into 50,000 or more of loans across the system. This is the money multiplier effect."
+            "content": "Now here's something that'll blow your mind. When a bank lends your ₹10,000, the borrower spends it -- say, pays a shop. That shop deposits the money in their bank. Their bank lends most of it out again. And again. One ₹10,000 deposit can create ₹50,000 or more in total loans across the system."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Money Multiplier",
-            "definition": "How a single deposit gets multiplied through the banking system as banks repeatedly lend out their reserves. A deposit can create several times its original amount in total credit in the economy."
+            "definition": "How a single deposit gets multiplied through the banking system as banks repeatedly lend out reserves. Your ₹10,000 can create several times its value in total credit flowing through the economy. It's not magic -- it's math."
           }
         },
         {
@@ -1133,16 +1580,44 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "How does the money multiplier effect work?",
+            "options": [
+              {
+                "text": "Banks physically print more money from deposits",
+                "isCorrect": false
+              },
+              {
+                "text": "A single deposit gets repeatedly lent out across banks, creating multiple times its value in total credit",
+                "isCorrect": true
+              },
+              {
+                "text": "The RBI doubles every deposit made at commercial banks",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "surprised",
+            "text": "Ruko ruko ruko -- my ₹10,000 becomes ₹50,000 in the system?! That's literally money appearing out of nowhere. How is this not some kind of magic trick, yaar?"
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "India's banking system had a serious problem in the 2010s: a mountain of bad loans (called NPAs, or Non-Performing Assets) where borrowers weren't repaying. At the peak, Indian banks had over 10 lakh crore rupees in bad loans. That's 10 trillion rupees. This is why banks obsess over credit scores."
+            "content": "Indian banks had over ₹10 lakh crore in bad loans (NPAs) during the 2010s -- that's ₹10 TRILLION in loans where borrowers just... didn't pay back. This is why banks obsess over your credit score before lending you even ₹50,000."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Banks have a base rate, the lowest interest rate they'll offer to anyone, called MCLR (Marginal Cost of Funds-based Lending Rate). Think of it as the starting price. Your actual loan rate is this base rate plus an extra percentage based on how risky the bank thinks you are. So your home loan, car loan, and personal loan rates all start from MCLR and go up from there."
+            "content": "Banks have a base rate -- the lowest interest they'll offer anyone -- called MCLR. Think of it as the starting price. Your actual loan rate is MCLR plus extra based on how risky the bank thinks you are. Quick heads-up: most new loans today are actually linked to an External Benchmark (usually the RBI's repo rate) instead of MCLR, but the concept is the same -- there's a base rate plus a risk premium that the bank adds for you specifically."
           }
         },
         {
@@ -1156,8 +1631,8 @@
         {
           "type": "callout",
           "data": {
-            "variant": "tip",
-            "content": "Next time you see '8.5% per annum' on a home loan ad, remember: the bank borrowed that money (your deposits and other sources) at maybe 5-6%. They're making 2.5% on every rupee, on crores of rupees. Banking is a really profitable business, which is why it's so heavily regulated."
+            "variant": "warning",
+            "content": "Next time you see '8.5% per annum' on a home loan ad, know this: the bank borrowed that money (your deposits) at maybe 5-6%. They're pocketing 2.5% on every single rupee, across crores of rupees. Banking is insanely profitable -- which is exactly why the RBI regulates it so heavily."
           }
         }
       ],
@@ -1289,6 +1764,12 @@
       "estimatedReadingTime": "11 minutes",
       "contentBlocks": [
         {
+          "type": "text",
+          "data": {
+            "content": "Imagine the ultimate umpire at a cricket match. Not playing. Not cheering. Just making sure everyone follows the rules and the game stays fair. That's the Reserve Bank of India -- except instead of cricket, it's the entire Indian economy."
+          }
+        },
+        {
           "type": "image",
           "data": {
             "alt": "The Reserve Bank of India building in Mumbai, stylized and grand",
@@ -1297,43 +1778,57 @@
           }
         },
         {
-          "type": "text",
-          "data": {
-            "content": "Imagine a super senior umpire at a cricket match. Not playing, not cheering, just making sure everyone follows the rules and the game is fair. That's basically what the Reserve Bank of India does. Except instead of cricket, it's the entire Indian economy."
-          }
-        },
-        {
           "type": "dialogue",
           "data": {
             "character": "priya",
             "expression": "thinking",
-            "text": "So the RBI doesn't give loans to regular people? It's more like the boss of all the banks we actually use?"
+            "text": "So the RBI doesn't give loans to people like us? It's more like... the boss of all the banks we actually use?"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The RBI was established in 1935, even before India's independence. It was nationalized in 1949, a couple of years after independence, and its headquarters has been in Mumbai ever since. Every rupee in your wallet? RBI printed it. The interest rate on your parents' home loan? RBI influences that too."
+            "content": "The RBI was established in 1935 -- twelve years before India was even independent. It was nationalized in 1949 and has been headquartered in Mumbai ever since. Every rupee in your wallet? RBI printed it. Your parents' home loan EMI? RBI influences that too."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Reserve Bank of India (RBI)",
-            "definition": "India's central bank, the apex monetary authority. It issues currency, regulates all banks, manages monetary policy, and maintains financial stability. It reports to the Government of India but operates with significant independence."
+            "definition": "India's central bank and apex monetary authority. It prints currency, regulates every bank, manages monetary policy, and keeps the financial system stable. Think of it as the boss of all bosses in Indian finance."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "When was the Reserve Bank of India established?",
+            "options": [
+              {
+                "text": "1947, the year of Indian independence",
+                "isCorrect": false
+              },
+              {
+                "text": "1935, before Indian independence",
+                "isCorrect": true
+              },
+              {
+                "text": "1991, during economic liberalization",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "The RBI Governor is one of the most powerful economic positions in India. When the RBI Governor speaks, markets listen. A single speech can move the Sensex by hundreds of points."
+            "content": "The RBI Governor is one of the most powerful people in Indian finance. When they speak, stock markets literally move. A single speech can swing the Sensex by hundreds of points. That's power."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The RBI has four main jobs. First: issue currency. Every 10, 50, or 500 rupee note is printed by the RBI (coins are actually minted by the Ministry of Finance). Second: act as the banker's bank. Commercial banks like SBI and HDFC keep accounts with the RBI, just like you keep an account with SBI."
+            "content": "The RBI has four main jobs. First: print currency -- every ₹10, ₹50, or ₹500 note comes from the RBI (coins are minted by the Ministry of Finance). Second: be the banker's bank -- commercial banks like SBI and HDFC keep accounts with the RBI, just like you keep an account with SBI."
           }
         },
         {
@@ -1347,41 +1842,93 @@
         {
           "type": "text",
           "data": {
-            "content": "Third: monetary policy, controlling the amount of money flowing through the economy to keep prices stable. Fourth: regulate and supervise all banks and financial institutions, making sure they're safe, following the rules, and not taking stupid risks with your deposits."
+            "content": "Third: monetary policy -- controlling how much money flows through the economy to keep prices stable. Fourth: regulate and supervise every bank and financial institution, making sure they follow the rules and don't gamble recklessly with your deposits."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Which of these is NOT a function of the RBI?",
+            "options": [
+              {
+                "text": "Printing currency notes",
+                "isCorrect": false
+              },
+              {
+                "text": "Giving home loans directly to individuals",
+                "isCorrect": true
+              },
+              {
+                "text": "Regulating and supervising commercial banks",
+                "isCorrect": false
+              },
+              {
+                "text": "Controlling monetary policy",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "image",
+          "data": {
+            "alt": "India's forex reserve war chest shown as a treasure chest of dollars and gold",
+            "src": "/illustrations/ch0/l6-forex-reserves.png",
+            "prompt": "A large treasure chest overflowing with US dollar bills, gold bars, and currency symbols from different countries, labeled India's Forex Reserves with a figure over 600 billion dollars, the RBI logo on the chest, warm amber tones, flat bold illustration style, impressive and powerful"
           }
         },
         {
           "type": "dialogue",
           "data": {
             "character": "arjun",
-            "expression": "explaining",
-            "text": "Think of the RBI as the referee AND the coach. It sets the rules for all banks, but it also adjusts the game plan depending on whether inflation is too high or the economy needs a boost."
+            "expression": "confused",
+            "text": "So wait -- the RBI is like the school principal who nobody ever talks to directly, but somehow controls everything? Like, the principal doesn't teach you, but decides the timetable, the fees, the rules... and if they mess up, everyone suffers? That's the RBI?"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The RBI's most powerful lever is the repo rate, the interest rate at which commercial banks borrow money from the RBI. Think of the RBI as a giant bank that other banks borrow from when they need funds. The repo rate is what those banks pay."
+            "content": "The RBI's most powerful weapon? The repo rate. That's the interest rate commercial banks pay when they borrow money from the RBI. Think of the RBI as a giant bank that other banks borrow from when they need funds."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Repo Rate",
-            "definition": "The rate at which the RBI lends money to commercial banks. When repo rate goes up, it becomes costlier for banks to borrow, so banks raise loan rates, you pay more for EMIs (Equated Monthly Instalments, the fixed monthly payments on loans), people borrow and spend less, and inflation cools."
+            "definition": "The rate at which the RBI lends money to commercial banks. When it goes up, banks pay more to borrow, so they charge YOU more on loans, your EMIs rise, people borrow and spend less, and inflation cools down. One number, massive ripple effect."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What is the repo rate?",
+            "options": [
+              {
+                "text": "The rate at which you can borrow from a commercial bank",
+                "isCorrect": false
+              },
+              {
+                "text": "The interest rate at which the RBI lends money to commercial banks",
+                "isCorrect": true
+              },
+              {
+                "text": "The rate of return on government bonds",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "One number, the repo rate, can make your home loan EMI go up by 2,000 rupees a month. This is why people watch RBI announcements like cricket finals."
+            "content": "One number -- the repo rate -- can make your parents' home loan EMI jump by ₹2,000 a month. This is why people watch RBI policy announcements like IPL finals."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here's how the repo rate works in practice. Inflation is running at 7%, too high. RBI raises the repo rate from 6% to 6.5%. Banks now have to pay more to borrow, so they charge you more for loans. Your home loan goes from 8.5% to 9%. Your EMI increases. You decide not to buy that new phone on loan. Millions of people do the same. Demand cools. Prices stop rising as fast. Inflation drops. Mission accomplished."
+            "content": "Here's how it plays out. Inflation is at 7%, too high. RBI raises the repo rate from 6% to 6.5%. Banks now pay more to borrow, so they charge you more for loans. Your home loan goes from 8.5% to 9%. EMI goes up. You decide not to buy that new phone on EMI. Millions of people do the same. Demand cools. Prices stop rising as fast. Inflation drops."
           }
         },
         {
@@ -1396,28 +1943,47 @@
           "type": "key-term",
           "data": {
             "term": "Monetary Policy",
-            "definition": "The RBI's toolkit for managing the money supply and interest rates to control inflation and support economic growth. Main tools: repo rate, CRR, SLR, and open market operations."
+            "definition": "The RBI's toolkit for managing the money supply and interest rates. Main weapons: repo rate, CRR, SLR, and open market operations. It's how the RBI controls whether the economy runs hot or cold."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The RBI has a formal inflation target: keep CPI inflation at 4%, with a tolerance band of 2-6%. If inflation stays above 6% for three straight quarters, the RBI has to write a letter to the government explaining why and what it's going to do. It's genuinely called the 'letter of shame' informally."
+            "content": "The RBI has a formal target: keep CPI inflation at 4%, with a tolerance band of 2-6%. If inflation stays above 6% for three straight quarters, the RBI has to write a letter to the government explaining why and what it plans to do about it. Informally? It's called the 'letter of shame.'"
           }
         },
         {
-          "type": "image",
+          "type": "callout",
           "data": {
-            "alt": "India's forex reserve war chest shown as a treasure chest of dollars and gold",
-            "src": "/illustrations/ch0/l6-forex-reserves.png",
-            "prompt": "A large treasure chest overflowing with US dollar bills, gold bars, and currency symbols from different countries, labeled India's Forex Reserves with a figure around 640 billion dollars, the RBI logo on the chest, warm amber tones, flat bold illustration style, impressive and powerful"
+            "variant": "chip-says",
+            "content": "Imagine having to write a letter to the government saying 'sorry, I couldn't do my one job.' That's real accountability. Most institutions would never agree to that. The RBI did."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What happens if India's CPI inflation stays above 6% for three straight quarters?",
+            "options": [
+              {
+                "text": "The RBI Governor is automatically removed from office",
+                "isCorrect": false
+              },
+              {
+                "text": "The RBI must write a letter to the government explaining why and what it plans to do",
+                "isCorrect": true
+              },
+              {
+                "text": "The government takes over the RBI's monetary policy decisions",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Everything in finance connects back to the RBI. Stock markets, home loan EMIs, gold prices, your savings account interest, all influenced by RBI decisions. Getting comfortable with terms like 'repo rate hike' now will make you smarter about money for life."
+            "content": "Everything in finance connects back to the RBI. Stock markets, home loan EMIs, gold prices, your savings account interest -- all influenced by RBI decisions. Getting comfortable with terms like 'repo rate hike' now will make you sharper about money for the rest of your life."
           }
         }
       ],
@@ -1541,7 +2107,7 @@
         },
         {
           "type": "mcq-single",
-          "prompt": "Why does the RBI hold large foreign exchange reserves (currently ~$640 billion)?",
+          "prompt": "Why does the RBI hold large foreign exchange reserves (currently over $600 billion)?",
           "options": [
             {
               "text": "To earn investment returns and make the RBI profitable",
@@ -1560,7 +2126,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Forex reserves are India's financial safety net. When the rupee falls sharply, the RBI can sell dollars from its reserves to buy rupees, stabilizing the exchange rate. They also ensure India can always pay for imports (like oil) even if exports drop. Large reserves = more economic resilience. India's $640B makes it one of the top 5 forex reserve holders in the world.",
+          "explanation": "Forex reserves are India's financial safety net. When the rupee falls sharply, the RBI can sell dollars from its reserves to buy rupees, stabilizing the exchange rate. They also ensure India can always pay for imports (like oil) even if exports drop. Large reserves = more economic resilience. India's forex reserves make it one of the top 5 holders in the world.",
           "xpValue": 10
         }
       ]
@@ -1587,7 +2153,7 @@
     "nodes": [
       {
         "nodeId": "node-1",
-        "narrative": "The year is roughly 2000 BC. You're in a busy marketplace in ancient India. You're a rice farmer, and you have 10 kg of fresh rice on your back. You're hungry. What you really want is a hot bowl of lentil soup from the food stall across the market. The soup maker, Mala, is there stirring her pot. But Mala shakes her head when you offer rice. 'I have enough rice,' she says. 'I need cloth. Do you have cloth?'",
+        "narrative": "The year is roughly 2000 BC. You're in a busy marketplace in ancient India, a rice farmer with 10 kg of fresh rice on your back. You're starving. Across the market, Mala is stirring a pot of incredible-smelling lentil soup. You walk up and offer her rice. She shakes her head. 'I have enough rice,' she says. 'I need cloth. Got any cloth?'",
         "timeSkip": null,
         "chipComment": null,
         "choices": [
@@ -1595,257 +2161,311 @@
             "text": "Search the market for someone who has cloth AND wants rice",
             "nextNodeId": "node-2a",
             "walletImpact": 0,
-            "feedback": "Chip appears from nowhere: 'Good instinct. But this is going to take a while...'"
+            "feedback": "Chip: 'Good instinct. But you're about to learn why this takes forever...'"
           },
           {
-            "text": "Offer Mala a bigger pile of rice, maybe 3 kg for one bowl of soup?",
+            "text": "Offer Mala a ridiculous amount -- 3 kg of rice for one bowl of soup",
             "nextNodeId": "node-2b",
             "walletImpact": -30,
-            "feedback": "Chip winces. 'You just gave away 3 kg of rice for soup worth maybe 0.5 kg. Desperation pricing.'"
+            "feedback": "Chip winces: 'You just gave away 3 kg of rice for soup worth maybe half a kg. That's desperation pricing, and it hurts.'"
           },
           {
             "text": "Give up and go home hungry",
             "nextNodeId": "node-2c",
             "walletImpact": 0,
-            "feedback": "Chip: 'No. We're not doing that. You have a valuable thing (rice). The problem is finding the right exchange.'"
+            "feedback": "Chip: 'Nope. We're not doing that. You have something valuable (rice). The problem isn't what you have -- it's finding the right trade.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-2a",
-        "narrative": "You wander the market for what feels like an eternity. You find a cloth weaver, Arjun. But Arjun doesn't want rice, he wants pottery. The potter wants wheat. The wheat farmer wants leather sandals. The sandal maker wants... rice! Finally! But by the time you find him and trade rice for sandals, trade sandals for wheat, trade wheat for pottery, trade pottery for cloth, and go back to Mala, it's evening. The soup is cold. The market is closing.",
+        "narrative": "You wander the market for hours. You find a cloth weaver named Arjun -- but he doesn't want rice, he wants pottery. The potter wants wheat. The wheat farmer wants leather sandals. The sandal maker wants... rice! Finally! But by the time you trade rice for sandals, sandals for wheat, wheat for pottery, pottery for cloth, and get back to Mala -- it's evening. The soup is cold. The market is closing.",
         "timeSkip": null,
-        "chipComment": "Chip is exhausted just hearing this. 'You just spent 4 hours to get a bowl of soup. Barter is a full-time job.'",
+        "chipComment": "Chip looks exhausted: 'You just spent 4 hours to get one bowl of soup. Barter isn't a system. It's a full-time job.'",
         "choices": [
           {
-            "text": "Accept the cold soup and admit this system is broken",
+            "text": "Accept the cold soup and admit this system is completely broken",
             "nextNodeId": "node-3",
             "walletImpact": 10,
-            "feedback": "Chip: 'Finally. Recognizing a broken system is the first step to fixing it.'"
+            "feedback": "Chip: 'Recognizing a broken system is the first step to building a better one.'"
           },
           {
             "text": "Vow to come back tomorrow with exactly what each person needs",
             "nextNodeId": "node-3",
             "walletImpact": 5,
-            "feedback": "Chip: 'Points for determination. But imagine doing this every single day of your life...'"
+            "feedback": "Chip: 'Points for determination. But imagine doing this every. single. day. of your life...'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-2b",
-        "narrative": "Mala accepts your 3 kg of rice for one bowl of soup. You're fed but annoyed. You basically gave away three times what the soup was worth because you had no other option. This happens to you three more times over the next week, you always end up overpaying because you can't find exact matches for trades. By month's end, your rice supply is dangerously low.",
+        "narrative": "Mala takes your 3 kg of rice for one bowl of soup. You're fed but annoyed -- you paid three times what it was worth because you had no options. This keeps happening all week. You overpay on every trade because you can never find exact matches. By month's end, your rice supply is dangerously low.",
         "timeSkip": "One week later...",
-        "chipComment": "Chip: 'This is called exploitation through desperation. When your only payment option is rice, and someone knows you need food NOW, they can charge you whatever they want.'",
+        "chipComment": "Chip: 'This is exploitation through desperation. When your only payment option is rice, and someone knows you need food NOW, they can charge whatever they want.'",
         "choices": [
           {
-            "text": "Call a village meeting, there has to be a better way",
+            "text": "Call a village meeting -- there has to be a better way",
             "nextNodeId": "node-3",
             "walletImpact": 5,
             "feedback": "Chip: 'Yes! The village meeting is where everything changes.'"
+          },
+          {
+            "text": "Try negotiating better deals on your own first",
+            "nextNodeId": "node-3",
+            "walletImpact": 0,
+            "feedback": "Chip: 'You spent another week haggling. Some trades were better, some worse. Eventually you realize: individual effort can't fix a systemic problem.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-2c",
-        "narrative": "You go home hungry. The next day, the same problem. The day after, same. After a week of struggling to trade your rice for anything useful, you're frustrated and underfed. You notice everyone in the village has the same problem. The potter can't get cloth. The weaver can't get wheat. Everyone has things but nobody can easily trade them. The marketplace is chaos.",
+        "narrative": "You go home hungry. The next day? Same problem. The day after? Same. After a week of struggling to trade rice for anything useful, you're frustrated and underfed. Worse, everyone in the village has the same issue. The potter can't get cloth. The weaver can't get wheat. Everyone has things but nobody can easily trade them.",
         "timeSkip": "One week later...",
-        "chipComment": "Chip: 'This is what happens when there's no medium of exchange. Everyone has value but nobody can access it.'",
+        "chipComment": "Chip: 'This is what happens when there's no medium of exchange. Everyone has value but nobody can access it. Sound familiar?'",
         "choices": [
           {
-            "text": "Call a village meeting, there has to be a better way",
+            "text": "Call a village meeting -- there has to be a better way",
             "nextNodeId": "node-3",
             "walletImpact": 0,
-            "feedback": "Chip: 'Excellent. The village meeting is where everything changes.'"
+            "feedback": "Chip: 'Now you're thinking. The village meeting is where everything changes.'"
+          },
+          {
+            "text": "Start asking your neighbors if they face the same problems",
+            "nextNodeId": "node-3",
+            "walletImpact": 5,
+            "feedback": "Chip: 'Smart -- you gathered stories from the potter, the weaver, the leather worker. Everyone is struggling. Now you have evidence to take to a meeting.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-3",
-        "narrative": "You call a meeting under the old banyan tree. Thirty villagers show up, all grumbling about the same thing: trading is too hard. Everyone needs something different. The farmer needs cloth, the weaver needs food, the potter needs leather, the leather worker needs rice. Nobody can match up perfectly. An old woman named Savitri speaks up: 'We need something that everyone will accept. Something we can use to trade with anyone, for anything.'",
+        "narrative": "You call a meeting under the old banyan tree. Thirty villagers show up, all grumbling about the same thing: trading is a nightmare. The farmer needs cloth, the weaver needs food, the potter needs leather, the leather worker needs rice. Nobody matches up. An old woman named Savitri speaks up: 'We need something everyone will accept. Something we can use to trade with anyone, for anything.'",
         "timeSkip": "The next evening...",
         "chipComment": null,
         "choices": [
           {
-            "text": "Suggest using cowrie shells, they're pretty, rare, and hard to fake",
+            "text": "Suggest using cowrie shells -- they're pretty, rare, and hard to fake",
             "nextNodeId": "node-4a",
             "walletImpact": 0,
             "feedback": "Chip: 'Cowrie shells were actually used as currency across ancient India and Africa. You've stumbled onto something real.'"
           },
           {
-            "text": "Suggest using grain, everyone needs food, so everyone values it",
+            "text": "Suggest using grain -- everyone needs food, so everyone values it",
             "nextNodeId": "node-4b",
             "walletImpact": 0,
-            "feedback": "Chip: 'Smart thinking, commodity money! But there's a flaw you're about to discover...'"
+            "feedback": "Chip: 'Smart thinking -- commodity money! But there's a flaw you're about to discover the hard way...'"
           },
           {
             "text": "Suggest carving special wooden tokens that the village headman controls",
             "nextNodeId": "node-4c",
             "walletImpact": 0,
-            "feedback": "Chip: 'Look at you inventing fiat currency and central banking simultaneously. Ambitious.'"
+            "feedback": "Chip: 'Look at you, inventing fiat currency and central banking simultaneously. That's ambitious.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-4a",
-        "narrative": "The village agrees to use cowrie shells as currency. Everyone accepts them. Suddenly, trading is magical. You give Mala 5 shells for soup. Mala gives the cloth weaver 8 shells for cloth. The weaver buys wheat. The wheat farmer buys pottery. The whole market WORKS now. One month later, you've grown rich in shells, you realize you can trade all your rice at fair prices and use shells to buy whatever you need, whenever you need it.",
+        "narrative": "The village agrees to use cowrie shells as currency. Suddenly, trading is magical. You give Mala 5 shells for soup. Mala gives the weaver 8 shells for cloth. The weaver buys wheat. The wheat farmer buys pottery. The whole market WORKS. One month later, you've grown rich in shells -- you can sell all your rice at fair prices and buy whatever you need, whenever you need it.",
         "timeSkip": "One month later...",
-        "chipComment": "Chip is literally dancing: 'You just invented money. Sort of. The key insight: everyone agreed shells were valuable. That agreement IS the value.'",
+        "chipComment": "Chip is literally dancing: 'You just invented money. The key insight? Everyone agreed shells were valuable. That agreement IS the value.'",
         "choices": [
           {
-            "text": "Notice that shells are flowing well, but someone just arrived with 500 shells from the ocean",
+            "text": "Notice that someone just arrived from the coast with 500 shells -- trouble?",
             "nextNodeId": "node-5",
             "walletImpact": 20,
-            "feedback": "Chip: 'Uh oh. When you can suddenly get a lot more of something... its value drops. Supply and demand is about to ruin your day.'"
+            "feedback": "Chip: 'When you can suddenly flood the market with more of something... its value drops. Supply and demand is about to ruin your day.'"
+          },
+          {
+            "text": "Ignore the outsider with 500 shells -- the system is working fine",
+            "nextNodeId": "node-5",
+            "walletImpact": 10,
+            "feedback": "Chip: 'Ignoring a flood of new money doesn't stop inflation. Whether you notice it or not, prices are already rising around you.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-4b",
-        "narrative": "The village tries using grain as currency. It works... okay. But grain rots. In the monsoon, all your 'savings' get moldy. You can't save grain for winter easily. Bigger problem: how do you pay exact amounts? Half a grain is useless. Also, someone with a bad harvest suddenly has 'less money' through no fault of their own. After two months, the system is falling apart. Grain is too difficult to standardize.",
+        "narrative": "The village tries grain as currency. It works... okay. But grain rots. During the monsoon, half your 'savings' get moldy. You can't save for winter easily. Bigger problem: how do you pay exact amounts? Half a grain of rice is useless. And someone with a bad harvest suddenly has 'less money' through no fault of their own. After two months, the system is falling apart.",
         "timeSkip": "Two months later...",
-        "chipComment": "Chip: 'This is why commodity money (using actual useful goods) has limits. You want something durable, divisible, portable, and scarce. Grain fails most of those.'",
+        "chipComment": "Chip: 'This is why commodity money has limits. Good money needs to be durable, divisible, portable, and scarce. Grain fails most of those tests.'",
         "choices": [
           {
-            "text": "Switch to cowrie shells instead, harder to fake, easier to count, don't rot",
+            "text": "Switch to cowrie shells -- they don't rot, they're easy to count, and they're hard to fake",
             "nextNodeId": "node-4a",
             "walletImpact": -10,
-            "feedback": "Chip: 'Learning from failure. That's the move. The grain experiment cost you two months, but now you know what money needs to be.'"
+            "feedback": "Chip: 'Learning from failure -- that's the move. The grain experiment cost you two months, but now you know what money actually needs to be.'"
+          },
+          {
+            "text": "Try drying and preserving the grain better to fix the rotting problem",
+            "nextNodeId": "node-4a",
+            "walletImpact": -15,
+            "feedback": "Chip: 'You spent a month building grain storage. It helped with rotting but didn't fix divisibility or standardization. Time for something completely different.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-4c",
-        "narrative": "The headman carves 100 wooden tokens and declares each one worth '1 unit of trade.' The village accepts this. It works! For a while. Then Gopal, the headman's cousin, is spotted carving identical tokens in the forest. He brings 50 fake tokens to market. Suddenly there are more tokens than goods. Prices start rising. A bowl of soup costs 3 tokens instead of 1. Trust collapses. People go back to barter.",
+        "narrative": "The headman carves 100 wooden tokens and declares each one worth '1 unit of trade.' The village accepts this. It works! For a while. Then Gopal, the headman's cousin, is spotted carving identical tokens in the forest. He brings 50 fake tokens to market. Suddenly there are more tokens than goods. A bowl of soup costs 3 tokens instead of 1. Trust collapses. People go back to barter.",
         "timeSkip": "Three months later...",
         "chipComment": "Chip, grimly: 'You just experienced inflation AND currency fraud. Both caused by too many tokens with no scarcity control. Also? Never trust a cousin with a carving knife.'",
         "choices": [
           {
-            "text": "Rebuild with cowrie shells, they come from the ocean and can't be faked locally",
+            "text": "Rebuild with cowrie shells -- they come from the ocean and can't be faked locally",
             "nextNodeId": "node-4a",
             "walletImpact": -15,
-            "feedback": "Chip: 'Scarcity matters. You can't let anyone just make more money. This is a lesson governments still sometimes forget.'"
+            "feedback": "Chip: 'Scarcity matters. You can't let just anyone create more money. Governments still forget this lesson sometimes.'"
+          },
+          {
+            "text": "Punish Gopal and create stricter oversight on who can make tokens",
+            "nextNodeId": "node-4a",
+            "walletImpact": -10,
+            "feedback": "Chip: 'You created rules and consequences, but wooden tokens are still easy to carve. The fundamental problem: anyone with a knife can make money. You need something naturally scarce.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-5",
-        "narrative": "A trader named Vikram arrives from a coastal village with 500 cowrie shells. He's rich! But now there are way more shells in your village than before. Slowly, prices start rising. Mala, who used to charge 5 shells for soup, now charges 8. The potter raised his prices too. Your shells buy less than they did last month. The village elders are panicking.",
+        "narrative": "A trader named Vikram rolls in from a coastal village with 500 cowrie shells. He's loaded! But now there are way more shells floating around your village. Slowly, prices creep up. Mala, who charged 5 shells for soup, now charges 8. The potter raised prices too. Your shells buy less than they did last month. The village elders are panicking.",
         "timeSkip": "Three weeks later...",
-        "chipComment": "Chip: 'Classic. More shells chasing the same amount of goods = prices rise. You've just discovered inflation for the first time. Your ancestors figured this out 4,000 years ago.'",
+        "chipComment": "Chip: 'Classic. More shells chasing the same amount of goods = prices rise. You've just discovered inflation firsthand. Your ancestors figured this out 4,000 years ago.'",
         "choices": [
           {
-            "text": "Propose limiting how many shells can be brought into the village, scarcity control",
+            "text": "Propose limiting how many shells can enter the village -- scarcity control",
             "nextNodeId": "node-6a",
             "walletImpact": 10,
-            "feedback": "Chip: 'You just invented monetary policy! The RBI does exactly this, controlling how much money flows in the economy.'"
+            "feedback": "Chip: 'You just invented monetary policy! The RBI does exactly this -- controlling how much money flows through the economy.'"
           },
           {
             "text": "Accept the inflation and start hoarding goods instead of shells",
             "nextNodeId": "node-6b",
             "walletImpact": -5,
-            "feedback": "Chip: 'Hoarding during inflation is a common human response. But it makes the inflation worse. Now goods are scarcer too.'"
+            "feedback": "Chip: 'Hoarding during inflation is a common human response. But it makes the inflation worse -- now goods are scarcer too.'"
+          },
+          {
+            "text": "Demand that Vikram's shells be taxed -- the village should take a cut",
+            "nextNodeId": "node-6a",
+            "walletImpact": 5,
+            "feedback": "Chip: 'Interesting. You're basically proposing import duties on currency. Not a bad instinct, but the real fix is controlling the total supply, not just taxing newcomers.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-6a",
-        "narrative": "The village agrees: only shells verified by the elder can be used as money. Vikram's flood of shells is slowly absorbed over months. Prices stabilize. The economy hums along. Decades pass. The village grows into a town. There are now hundreds of traders and thousands of transactions. Shells are getting hard to carry in large amounts. A merchant suggests something radical: metal coins.",
+        "narrative": "The village agrees: only shells verified by the elder can be used as money. Vikram's flood of shells is slowly absorbed over months. Prices stabilize. The economy hums along. Decades pass. The village grows into a town with hundreds of traders and thousands of transactions. Shells are getting hard to carry in large amounts. A merchant suggests something radical: metal coins.",
         "timeSkip": "Several decades later...",
         "chipComment": null,
         "choices": [
           {
-            "text": "Support the idea, metals are durable, divisible, and hard to fake",
+            "text": "Support the idea -- metals are durable, divisible, and hard to fake",
             "nextNodeId": "node-7",
             "walletImpact": 15,
-            "feedback": "Chip: 'Welcome to the Coin Age. India's Maurya Empire was minting coins by 300 BC. You're ahead of your time.'"
+            "feedback": "Chip: 'Welcome to the Coin Age. India was minting punch-marked coins by 600 BC -- well before the Maurya Empire. You're ahead of your time.'"
+          },
+          {
+            "text": "Suggest keeping shells but adding metal coins for larger transactions only",
+            "nextNodeId": "node-7",
+            "walletImpact": 10,
+            "feedback": "Chip: 'A dual currency system! Interesting. In practice, metal coins became so convenient that shells were gradually abandoned. Evolution in action.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-6b",
-        "narrative": "You and others start hoarding grain and goods, using shells less. But this makes goods scarcer in the market, which makes prices rise even more. A vicious cycle sets in. The market slows. Traders stop coming. Your town starts to shrink. A wise elder eventually steps in and proposes controlling the supply of shells and building trust back into the system.",
+        "narrative": "You and others start hoarding grain and goods, using shells less. But this makes goods even scarcer in the market, driving prices up further. A vicious cycle. The market slows. Traders stop coming. Your town starts to shrink. Eventually, a wise elder steps in and proposes controlling the supply of shells and rebuilding trust.",
         "timeSkip": "Several months later...",
-        "chipComment": "Chip: 'Hoarding during uncertainty is understandable but makes things worse. The economy needs money to keep moving. When everyone holds, nothing flows.'",
+        "chipComment": "Chip: 'Hoarding during uncertainty feels safe but makes everything worse. The economy needs money to keep moving. When everyone holds, nothing flows.'",
         "choices": [
           {
-            "text": "Listen to the elder, agree to shell supply controls, rebuild trust",
+            "text": "Listen to the elder -- agree to shell supply controls and rebuild trust",
             "nextNodeId": "node-7",
             "walletImpact": 5,
-            "feedback": "Chip: 'Recovery is slow but possible. The lesson: economies need trust AND circulation. Both matter.'"
+            "feedback": "Chip: 'Recovery is slow but possible. The lesson: economies need both trust AND circulation.'"
+          },
+          {
+            "text": "Propose starting fresh with metal coins instead of trying to fix shells",
+            "nextNodeId": "node-7",
+            "walletImpact": 10,
+            "feedback": "Chip: 'Bold -- skip the shell recovery entirely. Metal coins are durable, divisible, and harder to counterfeit. Sometimes a crisis is the best time to upgrade.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-7",
-        "narrative": "Fast forward through centuries. Your village became a town became a kingdom. Coins made of silver and copper replace shells. The king stamps his face on every coin, a guarantee that this is real, official currency. Carrying coins is easier than shells. A ₹500 coin (well, a 500-unit coin) is a single metal disc instead of 500 shells. Trade explodes. Your kingdom becomes wealthy.\n\nNow you're a wealthy merchant. But carrying thousands of coins to buy a warehouse full of grain is dangerous. Bandits. Heavy sacks. The bank in the capital offers you a piece of paper: 'This note is worth 500 coins. We have the coins. Show this paper to any of our branches and receive your coins.' A promissory note. Paper money.",
+        "narrative": "Fast forward through centuries. Your village became a town became a kingdom. Silver and copper coins replaced shells. The king stamps his face on every coin -- a guarantee that this is real, official currency. Trade explodes. Your kingdom grows wealthy.\n\nNow you're a wealthy merchant. But carrying thousands of coins to buy a warehouse of grain is dangerous -- bandits, heavy sacks. The bank in the capital offers you a piece of paper: 'This note is worth 500 coins. We hold the coins. Show this paper at any branch and receive your coins.' A promissory note. Paper money.",
         "timeSkip": "Centuries later...",
-        "chipComment": "Chip, getting emotional: 'You're watching paper money being born. It's a receipt for real metal. And it's 1,000x easier to carry.'",
+        "chipComment": "Chip, getting emotional: 'You're watching paper money being born. It's a receipt for real metal. And it's 1,000 times easier to carry.'",
         "choices": [
           {
-            "text": "Use the paper note, it's convenient and the bank is trustworthy",
+            "text": "Use the paper note -- it's convenient and the bank is trustworthy",
             "nextNodeId": "node-8a",
             "walletImpact": 20,
-            "feedback": "Chip: 'Smart. Convenience beats clunky every time. This is why UPI beat cash.'"
+            "feedback": "Chip: 'Smart. Convenience beats clunky every time. This is exactly why UPI beat cash.'"
           },
           {
-            "text": "Refuse, you only trust actual coins you can touch",
+            "text": "Refuse -- you only trust actual coins you can hold in your hand",
             "nextNodeId": "node-8b",
             "walletImpact": -5,
-            "feedback": "Chip, sighing: 'This is the old-guard mindset. \"I don't trust things I can't see.\" You're going to lose business to merchants who are comfortable with paper.'"
+            "feedback": "Chip, sighing: 'The old-guard mindset. \"I don't trust things I can't see.\" Meanwhile, merchants using paper are running circles around you.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-8a",
-        "narrative": "Paper notes spread across the kingdom. Trade becomes faster, safer, more efficient. You become even wealthier. The king eventually says: 'These notes don't need to be redeemed for coins anymore. My word is enough. Trust the note because I say it's worth 500 units.' The notes are now fiat money, valuable purely by decree.\n\nFlash forward to November 8, 2016. An SMS pings on a smartphone. 'PM Modi announces demonetization of ₹500 and ₹1,000 notes.' Your 2016 descendant, Aarav, is holding ₹50,000 in ₹1,000 notes. They just became invalid overnight.",
+        "narrative": "Paper notes spread across the kingdom. Trade becomes faster, safer, more efficient. You become wealthier. Eventually the king declares: 'These notes don't need to be redeemed for coins anymore. My word is enough. Trust the note because I say it's worth 500 units.' The notes are now fiat money -- valuable purely by decree.\n\nFlash forward to November 8, 2016. An SMS pings on a smartphone. 'PM Modi announces demonetization of ₹500 and ₹1,000 notes.' Your 2016 descendant, Aarav, is holding ₹50,000 in ₹1,000 notes. They just became worthless overnight.",
         "timeSkip": "Centuries later... and then November 8, 2016.",
-        "chipComment": "Chip: 'Full circle. From shells that everyone agreed were valuable, to paper that the government says is valuable, to paper the government just... unvalued. Trust is fragile.'",
+        "chipComment": "Chip: 'Full circle. From shells everyone agreed were valuable, to paper the government says is valuable, to paper the government just... unvalued. Trust is fragile.'",
         "choices": [
           {
-            "text": "Rush to the bank to exchange the notes",
+            "text": "Rush to the bank to exchange the notes before the deadline",
             "nextNodeId": "node-9",
             "walletImpact": 45,
-            "feedback": "Chip: 'Smart. 99.3% of demonetized notes did find their way back to banks. The system held, barely.'"
+            "feedback": "Chip: 'Smart move. 99.3% of demonetized notes found their way back to banks. The system held -- barely.'"
           },
           {
             "text": "Panic and try to spend ₹50,000 at the grocery store before midnight",
             "nextNodeId": "node-end-good",
             "walletImpact": 25,
-            "feedback": "Chip: 'Every grocery store in India was swamped that night. Chaos. But this is where Paytm downloads went up 435%.'"
+            "feedback": "Chip: 'Every grocery store in India was swamped that night. Absolute chaos. But this is when Paytm downloads shot up 435%.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-8b",
-        "narrative": "You stick to coins. Other merchants, using paper notes, complete 10 transactions while you're counting out copper. They get better deals, travel lighter, build bigger businesses. You're left behind. By the time you accept paper money, you've lost two years of trade advantage. You make it back eventually, but the lesson stings.",
+        "narrative": "You stick to coins. Other merchants, using paper notes, complete 10 transactions while you're still counting copper. They get better deals, travel lighter, build bigger businesses. You fall behind. By the time you accept paper money, you've lost two years of trade advantage.",
         "timeSkip": null,
-        "chipComment": "Chip: 'Technology adoption curve. Early adopters win. This plays out again with credit cards, UPI, everything. Being skeptical is smart. Being paralyzed by skepticism? Expensive.'",
+        "chipComment": "Chip: 'Technology adoption curve. Early adopters win. This pattern repeats with credit cards, UPI, everything. Healthy skepticism is smart. Paralysis by skepticism? Expensive.'",
         "choices": [
           {
             "text": "Accept paper money and catch up",
             "nextNodeId": "node-8a",
             "walletImpact": 10,
-            "feedback": "Chip: 'Better late than never. The world moves forward whether you're on it or not.'"
+            "feedback": "Chip: 'Better late than never. The world moves forward whether you're on board or not.'"
+          },
+          {
+            "text": "Demand that paper notes be redeemable for coins at any time -- trust, but verify",
+            "nextNodeId": "node-8a",
+            "walletImpact": 15,
+            "feedback": "Chip: 'Smart compromise. You adopted the new tech but with a safety net. This is exactly how early paper money worked -- every note was a promise to pay in metal.'"
           }
         ],
         "isEnd": false
       },
       {
         "nodeId": "node-9",
-        "narrative": "2016 chaos becomes 2017 normalcy. UPI launches. Your descendant Aarav, scarred by demonetization, never wants to carry large amounts of cash again. He sets up Google Pay. His chai wala now has a QR code. His auto driver takes PhonePe. His college canteen takes UPI. Within 2 years, Aarav doesn't carry cash at all. From shells in a village market to a QR code in Mumbai, the entire journey has been about one thing: making it easier for people to trust each other enough to trade.",
+        "narrative": "2016 chaos becomes 2017 normalcy. UPI launches. Aarav, scarred by demonetization, never wants to carry large amounts of cash again. He sets up Google Pay. His chai wala has a QR code. His auto driver takes PhonePe. His college canteen runs on UPI. Within two years, Aarav doesn't carry cash at all. From shells in a village market to a QR code in Mumbai -- the entire journey has been about one thing: making it easier for people to trust each other enough to trade.",
         "timeSkip": "2017. The digital era.",
         "chipComment": null,
         "choices": [
@@ -1860,9 +2480,9 @@
       },
       {
         "nodeId": "node-end-complete",
-        "narrative": "You started with 10 kg of rice and a hunger problem. You watched the barter system fail, helped invent currency, navigated inflation, survived demonetization, and ended up with a QR code. Money isn't magic, it's a technology humans invented to solve a very simple problem: trading should be easy. Every rupee, every UPI beep, every automatic investment you set up is built on 5,000 years of this idea: we agree this has value, so it does.",
+        "narrative": "You started with 10 kg of rice and a hunger problem. You watched barter fail, helped invent currency, navigated inflation, survived demonetization, and ended up with a QR code. Money isn't magic -- it's a technology humans invented to solve a simple problem: trading should be easy. Every rupee, every UPI beep, every investment you'll ever make is built on 5,000 years of this idea: we agree this has value, so it does.",
         "timeSkip": null,
-        "chipComment": "Chip's most proud moment: 'Most adults don't know this story. You do now. And understanding where money came from? That's the foundation for understanding everything else about it.'",
+        "chipComment": "Chip's proudest moment: 'Most adults don't know this story. You do now. And understanding where money came from? That's the foundation for understanding everything else about it.'",
         "choices": [],
         "isEnd": true,
         "outcomeType": "excellent",
@@ -1871,9 +2491,9 @@
       },
       {
         "nodeId": "node-end-good",
-        "narrative": "You got through most of the monetary journey, even if you hit a few bumps along the way. You understand the core insight: money is a technology that works because of collective trust. A few detours cost you some 'trade value,' but the lessons they taught were worth it.",
+        "narrative": "You made it through most of the monetary journey, even if you hit a few bumps. You understand the core insight: money is a technology that works because of collective trust. A few detours cost you some 'trade value,' but the lessons were worth every unit.",
         "timeSkip": null,
-        "chipComment": "Chip: 'Not bad. You figured it out, with a few expensive lessons. That's honestly how most economic understanding happens: trial, error, and 'oh, THAT's why.'",
+        "chipComment": "Chip: 'Not bad at all. You figured it out -- with a few expensive lessons along the way. That's honestly how most economic understanding happens: trial, error, and \"oh, THAT's why.\"'",
         "choices": [],
         "isEnd": true,
         "outcomeType": "good",

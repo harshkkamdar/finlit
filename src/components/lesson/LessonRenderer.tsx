@@ -11,10 +11,11 @@ import {
   CheckCircle2,
   RotateCcw,
 } from 'lucide-react';
-import { useState, useMemo, useCallback, type ReactNode } from 'react';
+import { useState, useRef, useMemo, useCallback, type ReactNode } from 'react';
 import type { ContentBlock } from '@/types';
 import { isFormulaSafe } from '@/lib/formula-sanitizer';
 import NumberSystemTooltip from '@/components/ui/NumberSystemTooltip';
+import TooltipPortal from '@/components/ui/TooltipPortal';
 
 // ── Props ────────────────────────────────────────────────────────────────────
 
@@ -230,19 +231,30 @@ function CalloutBlock({ data, chapterColor }: BlockProps) {
 
 function KeyTermBlock({ data, chapterColor }: BlockProps) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
+  const spanRef = useRef<HTMLSpanElement>(null);
   const term = data.term as string;
   const definition = data.definition as string;
 
+  const handleMouseEnter = () => {
+    if (spanRef.current) {
+      const rect = spanRef.current.getBoundingClientRect();
+      setTooltipPos({ top: rect.bottom + 10, left: rect.left });
+    }
+    setShowTooltip(true);
+  };
+
   return (
-    <div className="max-w-[720px] my-1 relative inline-block">
+    <div className="max-w-[720px] my-1 inline-block">
       <span
+        ref={spanRef}
         className="font-semibold px-2 py-0.5 rounded-md cursor-help inline-flex items-center gap-1 font-body transition-colors duration-200 hover:opacity-80"
         style={{
           backgroundColor: hexToRgba(chapterColor, 0.12),
           borderBottom: `2px dotted ${hexToRgba(chapterColor, 0.5)}`,
           color: '#1A1A2E',
         }}
-        onMouseEnter={() => setShowTooltip(true)}
+        onMouseEnter={handleMouseEnter}
         onMouseLeave={() => setShowTooltip(false)}
       >
         {term}
@@ -250,21 +262,26 @@ function KeyTermBlock({ data, chapterColor }: BlockProps) {
 
       <AnimatePresence>
         {showTooltip && (
-          <motion.div
-            initial={{ opacity: 0, y: 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 6 }}
-            transition={{ duration: 0.2, ease: [0.25, 1, 0.5, 1] }}
-            className="absolute left-0 top-full mt-2.5 z-30 bg-dark text-white text-sm px-4 py-3.5 rounded-xl shadow-2xl max-w-sm font-body leading-relaxed"
-            style={{ boxShadow: '0 8px 32px rgba(26,26,46,0.4)' }}
-          >
-            <p className="font-display font-semibold mb-1" style={{ color: chapterColor }}>
-              {term}
-            </p>
-            <p className="text-white/85 leading-relaxed">{definition}</p>
-            {/* Arrow */}
-            <div className="absolute -top-1.5 left-5 w-3 h-3 bg-dark rotate-45 rounded-[1px]" />
-          </motion.div>
+          <TooltipPortal>
+            <motion.div
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 6 }}
+              transition={{ duration: 0.2, ease: [0.25, 1, 0.5, 1] }}
+              className="fixed z-[9999] bg-dark text-white text-sm px-4 py-3.5 rounded-xl shadow-2xl max-w-sm font-body leading-relaxed pointer-events-none"
+              style={{
+                boxShadow: '0 8px 32px rgba(26,26,46,0.4)',
+                top: tooltipPos.top,
+                left: tooltipPos.left,
+              }}
+            >
+              <p className="font-display font-semibold mb-1" style={{ color: chapterColor }}>
+                {term}
+              </p>
+              <p className="text-white/85 leading-relaxed">{definition}</p>
+              <div className="absolute -top-1.5 left-5 w-3 h-3 bg-dark rotate-45 rounded-[1px]" />
+            </motion.div>
+          </TooltipPortal>
         )}
       </AnimatePresence>
     </div>

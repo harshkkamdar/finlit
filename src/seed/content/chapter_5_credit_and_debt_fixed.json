@@ -74,7 +74,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Your cousin needs ₹20,000 right now. Broken phone, can't wait. He doesn't have the cash. But you do. So you lend it to him, and he promises to pay you back next month. Congrats, you just became a lender. And your cousin? He just used **credit**."
+            "content": "Your cousin needs ₹20,000 right now. Broken phone, can't wait. He doesn't have the cash, but you do. You lend it to him, and he promises to pay you back next month. Congrats -- you just became a lender, and your cousin just used **credit**."
           }
         },
         {
@@ -88,7 +88,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Credit is simply the ability to get money, goods, or services now and pay for them later. Every time someone takes a home loan, buys something on monthly instalments, or swipes a credit card, they're using credit. In India alone, over 100 million credit cards are active right now. Credit is everywhere."
+            "content": "Credit is simply the ability to get money, goods, or services now and pay for them later. Every home loan, every Flipkart Pay Later checkout, every credit card swipe -- that's credit in action. Over 100 million credit cards are active in India right now. Credit is everywhere around you."
           }
         },
         {
@@ -96,6 +96,18 @@
           "data": {
             "term": "Credit",
             "definition": "Borrowing money now with a promise to pay it back later, usually with extra (called interest)."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Arjun borrows ₹200 from Priya to buy lunch and pays her back ₹200 the next day. Is this credit?",
+            "options": [
+              { "text": "No, credit only happens with banks", "isCorrect": false },
+              { "text": "Yes -- he got something now and paid later, that's credit", "isCorrect": true },
+              { "text": "No, because no interest was charged", "isCorrect": false },
+              { "text": "Only if Priya wrote it down on paper", "isCorrect": false }
+            ]
           }
         },
         {
@@ -111,13 +123,13 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "Technically, yes! The difference is when a bank does it, they charge you extra for the favour. That extra is called interest. Banks aren't lending out of kindness."
+            "text": "Technically, haan! The difference is when a bank does it, they charge you extra for the favour. That extra is called interest. Banks aren't lending out of kindness, yaar."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here's the thing. If you lend your cousin ₹20,000 and he pays back exactly ₹20,000 next month, that's nice of you. If a bank does that, they go out of business. Banks charge **interest**, a fee for the time your money is with someone else."
+            "content": "Here's the thing. If you lend your cousin ₹20,000 and he pays back exactly ₹20,000 next month, that's sweet of you. If a bank did that, they'd shut down. Banks charge **interest** -- a fee for the time your money is with someone else."
           }
         },
         {
@@ -125,6 +137,18 @@
           "data": {
             "term": "Interest",
             "definition": "The cost of borrowing money. Lenders charge it as a percentage of the amount borrowed. The longer you take to repay, the more interest you pay."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Your cousin borrows ₹20,000 from you and returns exactly ₹20,000 next month. What interest rate did you charge?",
+            "options": [
+              { "text": "20%", "isCorrect": false },
+              { "text": "0% -- he paid back exactly what he borrowed", "isCorrect": true },
+              { "text": "There is no interest because it is not a bank loan", "isCorrect": false },
+              { "text": "10% -- standard rate for personal loans", "isCorrect": false }
+            ]
           }
         },
         {
@@ -156,16 +180,28 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Priya borrows ₹50,000 from a bank and agrees to pay back ₹56,000 over one year. What is the principal?",
+            "options": [
+              { "text": "₹56,000", "isCorrect": false },
+              { "text": "₹6,000", "isCorrect": false },
+              { "text": "₹50,000 -- the original amount borrowed", "isCorrect": true },
+              { "text": "₹1,06,000 -- add both numbers together", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "Now, credit comes in two flavours. **Secured credit** means you put up something valuable as collateral, like a home loan where the bank can take your house if you stop paying. **Unsecured credit** means nothing is pledged. Credit cards and personal loans are unsecured."
+            "content": "Credit comes in two flavours. **Secured credit** means you put up something valuable as collateral -- like a home loan where the bank can take your house if you stop paying. **Unsecured credit** means nothing is pledged. Credit cards and personal loans are unsecured."
           }
         },
         {
           "type": "callout",
           "data": {
-            "variant": "tip",
-            "content": "Unsecured credit is basically a lender saying 'I trust you... but I'm going to charge you extra just in case.' That 'just in case' is why credit cards charge 36% a year and home loans charge 9%."
+            "variant": "chip-says",
+            "content": "Unsecured credit is basically the lender saying 'I trust you... but I'm charging you extra just in case.' That 'just in case' tax is why credit cards hit you with 36% a year while home loans charge only 9%."
           }
         },
         {
@@ -174,6 +210,18 @@
             "alt": "Comparison of secured vs unsecured credit with examples like home loan and credit card",
             "src": "/illustrations/ch5/l1-secured-unsecured.png",
             "prompt": "Flat educational illustration in red palette (#E74C3C), split layout comparing secured credit (house icon, car icon, gold icon with lock symbol) vs unsecured credit (credit card, personal loan document), bold shapes, clean background"
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A home loan where the bank can seize your house if you stop paying is an example of:",
+            "options": [
+              { "text": "Unsecured credit", "isCorrect": false },
+              { "text": "Secured credit -- the house is collateral", "isCorrect": true },
+              { "text": "Interest-free credit", "isCorrect": false },
+              { "text": "UPI credit -- because it's digital", "isCorrect": false }
+            ]
           }
         },
         {
@@ -186,7 +234,19 @@
           "type": "callout",
           "data": {
             "variant": "warning",
-            "content": "Credit is not extra money. It is future money borrowed into today. Every rupee you spend on credit is a rupee your future self has to earn and pay back, plus interest."
+            "content": "Credit is not extra money. It is future money pulled into today. Every rupee you spend on credit is a rupee your future self has to earn and pay back -- plus interest. Treat it like borrowed oxygen, not free air."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Why do credit cards charge much higher interest rates (36%) than home loans (9%)?",
+            "options": [
+              { "text": "Credit cards are unsecured, so the lender takes more risk with no collateral to fall back on", "isCorrect": true },
+              { "text": "Home loans are newer financial products", "isCorrect": false },
+              { "text": "Credit card companies are greedy, but home loan banks are fair", "isCorrect": false },
+              { "text": "RBI sets different limits for each product", "isCorrect": false }
+            ]
           }
         },
         {
@@ -326,7 +386,7 @@
         {
           "type": "text",
           "data": {
-            "content": "You get a credit card in the mail. ₹1,00,000 limit. Rewards points. Airport lounge access. A welcome bonus. Honestly? It feels like the bank is being really nice to you. They are not being nice to you."
+            "content": "Picture this: a shiny credit card arrives in the mail. ₹1,00,000 limit. Reward points. Airport lounge access. A welcome bonus. Feels like the bank is being really generous, right? They are not being generous. Not even a little."
           }
         },
         {
@@ -338,9 +398,25 @@
           }
         },
         {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "excited",
+            "text": "Arjun, mera papa ka credit card has cashback on everything. It's basically free money, no?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "serious",
+            "text": "That's exactly what the bank wants you to think. Cashback is the candy. The 36% interest rate if you miss a payment? That's the trap door underneath it."
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "Here's how a credit card actually works: you spend, and the bank pays the merchant on your behalf. You then owe the bank that money. If you pay the **full balance** by the due date, you pay zero interest. If you don't? The math gets scary very fast."
+            "content": "Here's how a credit card actually works: you spend, the bank pays the merchant on your behalf, and you owe the bank that money. Pay the **full balance** by the due date? Zero interest. Don't pay in full? The math gets terrifying, fast."
           }
         },
         {
@@ -351,32 +427,28 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Priya's credit card charges 3% per month. What does that work out to per year?",
+            "options": [
+              { "text": "3% -- monthly and yearly rates are the same", "isCorrect": false },
+              { "text": "36% -- multiply the monthly rate by 12", "isCorrect": true },
+              { "text": "15% -- banks give a discount on the annual rate", "isCorrect": false },
+              { "text": "It depends on how much you spend", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "warning",
-            "content": "Reality check: 36% APR. That means if you leave ₹1,00,000 unpaid on your credit card for one year, you owe ₹1,36,000. For comparison, a home loan charges around 9% a year. Credit cards are 4x more expensive."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "priya",
-            "expression": "surprised",
-            "text": "36% a year?! That's insane. Why would anyone use a credit card then?"
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "arjun",
-            "expression": "confident",
-            "text": "Because there's a loophole. It's called the grace period. If you pay the full bill on time, you pay zero interest. Zero. The bank earns nothing from you. That's the secret smart credit card users know."
+            "content": "Reality check: 36% APR. If you leave ₹1,00,000 unpaid on your credit card for one year, you owe ₹1,36,000. A home loan charges around 9% a year. Your credit card is 4x more expensive than a house loan. Let that sink in."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Most Indian credit cards give you 18 to 45 days from the statement date to pay your bill. If you clear the *entire* balance in that window, you pay zero interest. This is called the **grace period**, and card companies don't exactly advertise it loudly."
+            "content": "Most Indian credit cards give you 18 to 45 days from the statement date to pay your bill. Clear the *entire* balance in that window and you pay zero interest. This is called the **grace period** -- the one cheat code card companies don't loudly advertise."
           }
         },
         {
@@ -384,6 +456,26 @@
           "data": {
             "term": "Grace Period",
             "definition": "The interest-free window (typically 18 to 45 days) between your credit card statement date and your due date. Pay the full balance before the due date and you pay no interest at all."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "confident",
+            "text": "The grace period is the loophole. Pay your full bill on time and the bank earns nothing from you. Zero. Nada. That's the secret smart credit card users know."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "You spent ₹25,000 on your credit card this month. When do you pay zero interest?",
+            "options": [
+              { "text": "If you pay at least ₹5,000 by the due date", "isCorrect": false },
+              { "text": "If you pay the full ₹25,000 by the due date within the grace period", "isCorrect": true },
+              { "text": "You always pay interest on credit card purchases", "isCorrect": false },
+              { "text": "If you call the bank and ask them to waive it", "isCorrect": false }
+            ]
           }
         },
         {
@@ -397,7 +489,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Now let's talk about the trap. Your credit card bill shows two numbers: the **total amount due** and the **minimum amount due**, usually 5% of your balance, or ₹500, whichever is higher. The bank lets you pay just the minimum. This feels generous. It is not generous."
+            "content": "Now here's where it gets dangerous. Your credit card bill shows two numbers: the **total amount due** and the **minimum amount due** -- usually 5% of your balance, or ₹500, whichever is higher. The bank lets you pay just the minimum. This feels generous. It is the opposite of generous."
           }
         },
         {
@@ -405,6 +497,18 @@
           "data": {
             "term": "Minimum Payment",
             "definition": "The smallest amount you can pay on your credit card bill without being penalized. Typically 5% of the outstanding balance or ₹500, whichever is higher. Paying only the minimum is one of the most expensive financial decisions you can make."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Priya's credit card bill is ₹5,000. She pays only the minimum ₹250. What happens to the remaining ₹4,750?",
+            "options": [
+              { "text": "It disappears", "isCorrect": false },
+              { "text": "It stays at ₹4,750 with no extra cost", "isCorrect": false },
+              { "text": "Interest is charged on the unpaid amount at 3% per month", "isCorrect": true },
+              { "text": "The bank forgives it as a first-time courtesy", "isCorrect": false }
+            ]
           }
         },
         {
@@ -418,27 +522,58 @@
         {
           "type": "text",
           "data": {
-            "content": "Let that sink in. A ₹50,000 credit card balance, paying only the minimum (5%) every month at 3% monthly interest, takes over 9 years to clear. You end up paying ₹1,15,499. More than double the original amount. ₹65,499 in pure interest. Gone."
+            "content": "Let that sink in. A ₹50,000 credit card balance, paying only the minimum (5%) every month at 3% monthly interest? It takes over 9 years to clear. You end up paying ₹1,15,499. More than double the original amount. ₹65,499 gone in pure interest."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Banks make about 60 to 70% of their credit card revenue from interest charges on revolving balances, not from merchant fees or annual fees. The ideal customer for a bank is someone who pays the minimum every month and never fully clears their balance."
+            "content": "Banks make about 60 to 70% of their credit card revenue from interest charges on revolving balances -- not from merchant fees or annual fees. Their ideal customer? Someone who pays the minimum every month and never fully clears the balance. You don't want to be their ideal customer."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A ₹50,000 credit card balance paid at only the minimum (5%) each month at 3% monthly interest takes how long to fully clear?",
+            "options": [
+              { "text": "About 2 years", "isCorrect": false },
+              { "text": "About 5 years", "isCorrect": false },
+              { "text": "Over 9 years, costing ₹65,499 in interest alone", "isCorrect": true },
+              { "text": "About 1 year if you're disciplined", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here's why the math is so brutal: credit card interest compounds monthly. Each month, you are charged 3% not just on what you originally spent, but on the balance that includes last month's interest. Interest on interest on interest. That's compounding, and while it's beautiful in an investment, it's devastating in debt."
+            "content": "Here's why the math is so brutal. Credit card interest compounds monthly. Each month, you get charged 3% not just on what you originally spent, but on the balance that includes last month's interest. Interest on interest on interest. Compounding is beautiful in an investment. It's devastating in debt."
           }
         },
         {
           "type": "callout",
           "data": {
-            "variant": "tip",
-            "content": "Use your credit card like a debit card. Only spend what you already have in your bank account, then pay the full bill every month. You get the rewards. The bank gets nothing."
+            "variant": "chip-says",
+            "content": "Use your credit card like a debit card. Spend only what you already have in your bank account, then pay the full bill every month. You get the rewards, the bank gets nothing. Chip approves this energy."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Credit card interest compounds monthly. What does this mean in practice?",
+            "options": [
+              { "text": "You are charged interest only on your original spending amount each month", "isCorrect": false },
+              { "text": "Each month, interest is charged on the entire balance including previously added interest", "isCorrect": true },
+              { "text": "Interest is calculated once a year and divided into 12 equal parts", "isCorrect": false },
+              { "text": "You only pay interest in the month you made the purchase", "isCorrect": false }
+            ]
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "warning",
+            "content": "Never share your credit card CVV. Not even with your best friend. Especially not with your best friend."
           }
         },
         {
@@ -588,7 +723,7 @@
         {
           "type": "text",
           "data": {
-            "content": "You have seen the ad: 'Only ₹999/month!' For a ₹80,000 phone. Your brain hears ₹999 and thinks, I can handle that. Your bank account is less enthusiastic. Here's what the ad doesn't show you: the total you will actually pay."
+            "content": "You've seen the ad: 'iPhone 15, only ₹2,999/month!' Your brain hears ₹2,999 and thinks, easy peasy. Your bank account has a very different opinion. Here's what the ad conveniently leaves out: the total you'll actually end up paying."
           }
         },
         {
@@ -597,6 +732,22 @@
             "alt": "A flashy phone ad showing 'Only ₹999/month' with the hidden total cost revealed underneath",
             "src": "/illustrations/ch5/l3-emi-ad-trick.png",
             "prompt": "Flat illustration in red palette (#E74C3C), a smartphone with a flashy price tag showing 'Only ₹999/month', below it a magnifying glass revealing the true total cost of ₹95,854, bold educational style"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "excited",
+            "text": "Arjun, this phone is only ₹3,994 a month! That's literally nothing. I'm getting it."
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "arjun",
+            "expression": "explaining",
+            "text": "Priya, multiply that by 24 months. It's ₹95,854. For an ₹80,000 phone. You're paying ₹15,854 extra just because you didn't want to pay at once. That's not 'nothing.'"
           }
         },
         {
@@ -609,23 +760,19 @@
         {
           "type": "text",
           "data": {
-            "content": "Let's do the math on that ₹80,000 phone. A typical Bajaj Finance or credit card EMI plan charges around 18% per year (1.5% per month). On a 24-month plan, your EMI works out to ₹3,994 per month. 24 times ₹3,994 equals **₹95,854 total**. You paid ₹15,854 in interest for the privilege of not paying upfront."
+            "content": "Let's break down that ₹80,000 phone. A typical Bajaj Finance or credit card EMI plan charges around 18% per year (1.5% per month). On a 24-month plan, your EMI is ₹3,994 per month. Multiply: 24 times ₹3,994 equals **₹95,854 total**. That extra ₹15,854? Pure interest."
           }
         },
         {
-          "type": "dialogue",
+          "type": "quick-check",
           "data": {
-            "character": "priya",
-            "expression": "thinking",
-            "text": "Hold on. So that phone actually costs ₹95,854? Not ₹80,000? The ad basically lied?"
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "arjun",
-            "expression": "explaining",
-            "text": "The ad showed the EMI amount, not the total cost. It's like a restaurant showing you the price of one samosa when you are buying a box of 24. Technically true, but designed to make you not think about the full number."
+            "question": "An ₹80,000 phone on 24-month EMI at 18% APR costs ₹3,994/month. What is the total amount you actually pay?",
+            "options": [
+              { "text": "₹80,000 -- EMI just splits the price evenly", "isCorrect": false },
+              { "text": "₹95,854 -- you pay ₹15,854 extra in interest", "isCorrect": true },
+              { "text": "₹83,994 -- just one month of interest is added", "isCorrect": false },
+              { "text": "₹80,000 plus a small processing fee of ₹500", "isCorrect": false }
+            ]
           }
         },
         {
@@ -639,7 +786,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Now let's talk about **No-Cost EMI**, the one that's supposed to be free. The pitch: buy a ₹80,000 phone, pay ₹13,333/month for 6 months. No interest! The fine print: there's often a processing fee (typically 1% to 2%), and the discount you would have gotten on the product is quietly removed by the merchant."
+            "content": "Now let's talk about **No-Cost EMI** -- the one that's supposed to be free. Buy an ₹80,000 phone, pay ₹13,333/month for 6 months, zero interest! Except there's often a processing fee (1% to 2%), and the cash discount you would have gotten is quietly removed by the merchant."
           }
         },
         {
@@ -652,14 +799,26 @@
         {
           "type": "callout",
           "data": {
-            "variant": "fun-fact",
-            "content": "'No-cost EMI' on a ₹80,000 phone often includes a ₹1,200 processing fee. That is ₹1,200 divided over 6 months, or ₹200/month in disguised interest. Small? Yes. Free? No."
+            "variant": "chip-says",
+            "content": "'No-cost EMI' on an ₹80,000 phone often includes a ₹1,200 processing fee. That's ₹200/month in disguised interest. Small? Sure. Free? Chip calls that a lie."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A 'No-Cost EMI' plan on an ₹80,000 phone charges a ₹1,200 processing fee. Is this truly zero cost?",
+            "options": [
+              { "text": "Yes, processing fees are different from interest", "isCorrect": false },
+              { "text": "No -- the processing fee is a disguised cost, so you pay more than the sticker price", "isCorrect": true },
+              { "text": "Yes, because the interest rate is listed as 0%", "isCorrect": false },
+              { "text": "It depends on whether you use a credit card or debit card", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here is what actually happens inside an EMI calculation. Say you borrow ₹1,20,000 at 15% per year (1.25%/month) for 12 months. Your EMI is ₹10,831/month. In Month 1, ₹1,500 of that is interest (1.25% of ₹1,20,000) and ₹9,331 is principal repayment. By Month 12, only ₹134 is interest and ₹10,697 is principal. The interest front-loads toward the beginning."
+            "content": "Here's what happens inside an EMI. Say you borrow ₹1,20,000 at 15% per year (1.25%/month) for 12 months. Your EMI is ₹10,831/month. In Month 1, ₹1,500 of that is interest (1.25% of ₹1,20,000) and ₹9,331 is principal. By Month 12, only ₹134 is interest and ₹10,697 is principal. Interest front-loads toward the beginning."
           }
         },
         {
@@ -671,16 +830,28 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "In a 12-month EMI plan, when do you pay the most interest relative to principal?",
+            "options": [
+              { "text": "In the last few months, because the debt has been there longest", "isCorrect": false },
+              { "text": "In the early months, because interest is calculated on a larger outstanding balance", "isCorrect": true },
+              { "text": "Every month is the same -- that is what 'equated' means in EMI", "isCorrect": false },
+              { "text": "In the middle months, because the bank spreads it evenly", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "The EMI test: Before saying yes to any EMI, ask yourself, what is the TOTAL amount I will pay by the end? If that number does not feel worth it compared to the product, skip it. The sticker price is a lie. The total is the truth."
+            "content": "The EMI test: before saying yes to any EMI, ask yourself, what is the TOTAL amount I will pay by the end? If that number feels painful compared to the product's value, skip it. The sticker price is a lie. The total is the truth."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "One more thing: stacking EMIs is dangerous. One ₹3,994/month EMI on a phone is manageable if you earn ₹40,000/month. Add a ₹10,831/month laptop EMI and a ₹5,000/month TV EMI and suddenly ₹19,825 of your salary is committed before you have paid rent, food, or anything else. This is called **EMI creep**, and it sneaks up on you."
+            "content": "One more danger: stacking EMIs. One phone EMI of ₹3,994/month is manageable on a ₹40,000 salary. Add a ₹10,831 laptop EMI and a ₹5,000 TV EMI and suddenly ₹19,825 of your salary is gone before rent, food, or anything else. This is called **EMI creep**, and it sneaks up on you."
           }
         },
         {
@@ -694,7 +865,19 @@
           "type": "callout",
           "data": {
             "variant": "warning",
-            "content": "Rule of thumb: Your total monthly EMI payments should not exceed 30 to 40% of your take-home income. If they do, you are in EMI creep territory."
+            "content": "Rule of thumb: your total monthly EMI payments should not exceed 30 to 40% of your take-home income. Cross that line and you're in EMI creep territory. One surprise expense and things go south fast."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Arjun earns ₹40,000/month. He has a phone EMI of ₹3,994, a laptop EMI of ₹10,831, and a TV EMI of ₹5,000. What percentage of his salary goes to EMIs?",
+            "options": [
+              { "text": "About 25%, well within the safe range", "isCorrect": false },
+              { "text": "About 50%, which is deep in EMI creep territory and above the 30-40% limit", "isCorrect": true },
+              { "text": "About 35%, right at the border but fine", "isCorrect": false },
+              { "text": "About 15%, barely noticeable", "isCorrect": false }
+            ]
           }
         },
         {
@@ -844,7 +1027,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Imagine every financial decision you have ever made, every loan repayment, every credit card bill, every time you applied for credit, was recorded in a file. Now imagine a bank can open that file before they decide whether to lend you money. That file is your **credit report**. The number that summarises it is your **CIBIL score**."
+            "content": "Imagine someone kept a diary of every financial decision you've ever made. Every loan repayment, every credit card bill, every time you applied for credit -- all logged. Banks can read that diary before deciding whether to lend you money. That diary is your **credit report**. The number that summarises it? Your **CIBIL score**."
           }
         },
         {
@@ -863,17 +1046,11 @@
           }
         },
         {
-          "type": "text",
-          "data": {
-            "content": "Your score matters more than you think. A person with an 800 CIBIL score might get a home loan at 8.5% interest. The same loan for someone with a 620 score? 10.5%, or outright rejection. On a ₹50 lakh home loan over 20 years, that 2% difference costs you an extra **₹14 lakh** in interest. Your score is literally money."
-          }
-        },
-        {
           "type": "dialogue",
           "data": {
             "character": "priya",
-            "expression": "worried",
-            "text": "₹14 lakh extra just because of a number? That's like buying a whole car with the extra interest!"
+            "expression": "curious",
+            "text": "So it's like your academic marks, but for money? Like, a bank checks your 'score' before giving you a loan?"
           }
         },
         {
@@ -881,20 +1058,38 @@
           "data": {
             "character": "arjun",
             "expression": "thinking",
-            "text": "Exactly. And it gets wilder. Some employers in India now check CIBIL scores before hiring for finance roles. Some landlords check before renting you a flat. It is becoming your general money reputation."
+            "text": "Exactly, but worse. Bad marks, you retake the exam. Bad CIBIL score? You pay lakhs more in interest over your lifetime. Some employers check it before hiring you for finance roles. Even landlords check it now."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Your score matters more than you think. A person with an 800 CIBIL score might get a home loan at 8.5% interest. Same loan for someone with a 620 score? 10.5%, or outright rejection. On a ₹50 lakh home loan over 20 years, that 2% difference costs you an extra **₹14 lakh** in interest. Your score is literally money."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Two people apply for the same ₹50 lakh home loan. Person A (CIBIL 800) gets 8.5% interest. Person B (CIBIL 620) gets 10.5%. Over 20 years, how much MORE does Person B pay?",
+            "options": [
+              { "text": "About ₹2 lakh more", "isCorrect": false },
+              { "text": "About ₹14 lakh more -- enough to buy a car", "isCorrect": true },
+              { "text": "The same amount -- interest rates are fixed by RBI", "isCorrect": false },
+              { "text": "About ₹50,000 more", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "You can check your own CIBIL score for free once a year at cibil.com. Checking your own score is a 'soft inquiry' and does NOT lower it. Only loan or credit card applications trigger 'hard inquiries' that affect it."
+            "content": "You can check your own CIBIL score for free once a year at cibil.com. Checking your own score is a 'soft inquiry' and does NOT lower it. Only loan or credit card applications trigger 'hard inquiries' that affect it. So check away."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "So what goes into this number? Five factors, and knowing their weights tells you exactly where to focus your energy. **Payment History (35%)** is the biggest. Did you pay on time? One missed payment can drop your score by 50 to 100 points."
+            "content": "So what goes into this number? Five factors, and knowing their weights tells you exactly where to focus. **Payment History (35%)** is the biggest. Did you pay on time? One missed payment can drop your score by 50 to 100 points. That's the financial equivalent of getting caught cheating on an exam."
           }
         },
         {
@@ -906,9 +1101,21 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Which single factor has the BIGGEST impact on your CIBIL score?",
+            "options": [
+              { "text": "Credit mix (having different types of loans)", "isCorrect": false },
+              { "text": "Payment history -- whether you pay on time (35% weight)", "isCorrect": true },
+              { "text": "How many credit cards you own", "isCorrect": false },
+              { "text": "Your monthly income level", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "**Credit Utilization (30%)** is the second biggest factor. Of your total credit limit, how much are you using? Using more than 30% hurts your score. If your credit card limit is ₹1,00,000, try to keep your balance under ₹30,000 at any time, even if you pay it fully each month. The snapshot taken at your statement date is what gets reported."
+            "content": "**Credit Utilization (30%)** is the second biggest factor. Of your total credit limit, how much are you using? Using more than 30% hurts your score. If your credit card limit is ₹1,00,000, keep your balance under ₹30,000 at any time -- even if you pay it fully each month. The snapshot on your statement date is what CIBIL sees."
           }
         },
         {
@@ -919,16 +1126,28 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Priya's credit card limit is ₹1,00,000 and she currently has ₹45,000 outstanding. What is her credit utilization ratio, and is it healthy?",
+            "options": [
+              { "text": "45% -- this is above the healthy 30% threshold and will hurt her score", "isCorrect": true },
+              { "text": "55% -- you calculate it from the remaining limit", "isCorrect": false },
+              { "text": "4.5% -- divide by 10 for the ratio", "isCorrect": false },
+              { "text": "45% -- but this is fine, anything under 50% is healthy", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Even if you pay your credit card in full every month, your reported utilization depends on the balance on your statement date. If you spend ₹80,000 of a ₹1,00,000 limit and pay it off after the statement, CIBIL still sees 80% utilization. Pay before the statement date to keep it low."
+            "content": "Even if you pay your credit card in full every month, your reported utilization depends on the balance on your statement date. Spend ₹80,000 of a ₹1,00,000 limit and pay it off after the statement? CIBIL still sees 80% utilization. Pay before the statement date to keep it low."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "The remaining three factors: **Credit History Length (15%)** rewards keeping old accounts open. **Credit Mix (10%)** likes seeing different types of credit. **New Credit Inquiries (10%)** means every time you apply for a card or loan, a hard inquiry drops your score by 5 to 10 points temporarily."
+            "content": "The remaining three factors: **Credit History Length (15%)** rewards keeping old accounts open -- don't close your first credit card even if you barely use it. **Credit Mix (10%)** likes seeing different types of credit. **New Credit Inquiries (10%)** means every time you apply for a card or loan, a hard inquiry drops your score by 5 to 10 points."
           }
         },
         {
@@ -936,6 +1155,25 @@
           "data": {
             "term": "Hard Inquiry",
             "definition": "A credit check triggered when you apply for a new loan or credit card. Shows on your CIBIL report and drops your score slightly (typically 5 to 10 points). Multiple hard inquiries in a short period signal financial desperation to lenders."
+          }
+        },
+        {
+          "type": "callout",
+          "data": {
+            "variant": "chip-says",
+            "content": "Applying for 5 credit cards in one month doesn't make you look popular with banks. It makes you look desperate. Each application is a hard inquiry. Space them out, or better yet, research first and apply once."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Checking your own CIBIL score on cibil.com will lower your credit score. True or false?",
+            "options": [
+              { "text": "True -- any credit check lowers your score", "isCorrect": false },
+              { "text": "False -- checking your own score is a soft inquiry and does NOT affect it", "isCorrect": true },
+              { "text": "It depends on how many times you check per year", "isCorrect": false },
+              { "text": "True -- but only if you check more than once", "isCorrect": false }
+            ]
           }
         },
         {
@@ -950,7 +1188,7 @@
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Building a score from zero: Start with a secured credit card (where you deposit a fixed amount as collateral). Use it for small monthly purchases like a Swiggy order or phone recharge. Pay the full bill every month. In 12 to 18 months, you will have a solid CIBIL score without any risk."
+            "content": "Building a score from zero: get a secured credit card (you deposit a fixed amount as collateral). Use it for small monthly purchases -- a Swiggy order, a phone recharge. Pay the full bill every month. In 12 to 18 months, you'll have a solid CIBIL score without any risk."
           }
         },
         {
@@ -1088,7 +1326,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Not all debt is equal. Some debt is the reason doctors, engineers, and entrepreneurs exist. Other debt is the reason people eat instant noodles for six months because they bought a TV on a credit card. The difference is what the debt is *doing for you*."
+            "content": "Your friend's dad took a ₹40 lakh education loan and now earns ₹25 lakh a year as a doctor. Your neighbour put a ₹1,50,000 Goa trip on his credit card and is still paying it off two years later. Both borrowed money. One is thriving, the other is drowning. Not all debt is created equal."
           }
         },
         {
@@ -1096,7 +1334,7 @@
           "data": {
             "character": "priya",
             "expression": "confused",
-            "text": "How can debt ever be a good thing? Isn't the whole point of this chapter that borrowing money is dangerous?"
+            "text": "How can debt ever be a good thing? Isn't this whole chapter about how borrowing money is dangerous?"
           }
         },
         {
@@ -1104,13 +1342,13 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "Borrowing for something that makes you richer over time is smart. Borrowing for something that loses value the moment you buy it? That is where people get stuck. A scalpel is dangerous too, but a surgeon uses it to save lives."
+            "text": "A scalpel is dangerous too, but a surgeon uses it to save lives. Borrowing for something that makes you richer over time is smart. Borrowing for something that loses value the moment you buy it? That's how people get stuck."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here is the test for good debt: **does it increase your future income or net worth by more than it costs?** An education loan at 9% interest that gets you into a job paying ₹50,000/month more than you would otherwise earn? Brilliant. A vacation loan at 24% for a trip you could have saved for? That is a problem."
+            "content": "Here's the test for good debt: **does it increase your future income or net worth by more than it costs?** An education loan at 9% that gets you a job paying ₹50,000/month more than before? Brilliant. A vacation loan at 24% for a trip you could have saved for? That's a problem with an interest rate attached."
           }
         },
         {
@@ -1118,6 +1356,18 @@
           "data": {
             "term": "Good Debt",
             "definition": "Debt used to acquire something that increases your income or net worth over time by more than the cost of borrowing. Examples: education loans, home loans, business loans used for genuine growth."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Which of these is most likely an example of good debt?",
+            "options": [
+              { "text": "A personal loan at 24% APR for a Goa vacation", "isCorrect": false },
+              { "text": "A Flipkart Pay Later purchase for designer clothes", "isCorrect": false },
+              { "text": "An education loan at 9% APR that leads to a higher-paying career", "isCorrect": true },
+              { "text": "A credit card splurge on the latest iPhone", "isCorrect": false }
+            ]
           }
         },
         {
@@ -1138,41 +1388,65 @@
         {
           "type": "text",
           "data": {
-            "content": "Let's look at the education loan example. Pooja takes a ₹8,00,000 loan at 9% per year for an MBA. Her EMI over 7 years is about ₹12,860/month. Total paid: roughly ₹10,80,240. But her post-MBA salary jumps from ₹30,000/month to ₹90,000/month. In just 18 months, the extra income alone covers the entire loan cost."
+            "content": "Let's look at good debt in action. Priya takes a ₹8,00,000 loan at 9% per year for an MBA. Her EMI over 7 years is about ₹12,860/month, totalling roughly ₹10,80,240. But her post-MBA salary jumps from ₹30,000/month to ₹90,000/month. In just 18 months, the extra income alone covers the entire loan cost."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Pooja paid ₹10.8 lakh in total loan costs. Her salary increased by ₹60,000/month, which is ₹7.2 lakh in Year 1 alone. Return on debt: massive. This is what good debt looks like in practice."
+            "content": "Priya paid ₹10.8 lakh in total loan costs. Her salary increased by ₹60,000/month -- that's ₹7.2 lakh extra in Year 1 alone. Return on debt: absolutely massive. This is what good debt looks like when it works."
           }
         },
         {
           "type": "image",
           "data": {
-            "alt": "Timeline showing Pooja's education loan cost versus her increased lifetime earnings",
+            "alt": "Timeline showing Priya's education loan cost versus her increased lifetime earnings",
             "src": "/illustrations/ch5/l5-education-roi.png",
             "prompt": "Flat timeline illustration in red palette (#E74C3C), showing ₹10.8 lakh total loan cost on one side and growing salary bars from ₹30k to ₹90k per month on the other side, with ROI arrow, bold educational style"
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Priya's MBA loan costs ₹10.8 lakh total. Her salary jumps by ₹60,000/month after the degree. How long until the extra income covers the entire loan cost?",
+            "options": [
+              { "text": "About 5 years -- education loans take a long time to pay off", "isCorrect": false },
+              { "text": "About 18 months -- ₹60,000 extra per month adds up fast", "isCorrect": true },
+              { "text": "Never -- the interest keeps growing", "isCorrect": false },
+              { "text": "Exactly 12 months -- one year of extra salary", "isCorrect": false }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "Now let's look at bad debt. Rahul puts a ₹1,50,000 vacation on his credit card and pays the minimum for a year. After 12 months, he has paid ₹54,000 in minimums but still owes about ₹1,27,000. The vacation? Over. The photos? On Instagram. The debt? Very much alive."
+            "content": "Now let's look at bad debt. Arjun puts a ₹1,50,000 vacation on his credit card and pays the minimum for a year. After 12 months, he's paid ₹54,000 in minimums but still owes about ₹1,27,000. The vacation? Over. The photos? On Instagram. The debt? Very much alive and charging 3% monthly interest."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "warning",
-            "content": "The golden rule of bad debt: if the experience or thing you are borrowing for is gone before the debt is paid off, you have bad debt. The vacation ends in 10 days. The credit card debt might last 3 years."
+            "content": "The golden rule of bad debt: if the experience or thing you borrowed for is gone before the debt is paid off, you have bad debt. The vacation ends in 10 days. The credit card debt might last 3 years. That math should terrify you."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Arjun put a ₹1,50,000 vacation on his credit card and pays only the minimum for a year. After 12 months, he still owes about ₹1,27,000. Why is this considered bad debt?",
+            "options": [
+              { "text": "Because the interest rate is too high", "isCorrect": false },
+              { "text": "Because the vacation is over but the debt is still very much alive -- he borrowed for something that's already gone", "isCorrect": true },
+              { "text": "Because he should have used a debit card instead", "isCorrect": false },
+              { "text": "Because vacations are never worth spending money on", "isCorrect": false }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here is a nuanced one: a home loan. Is it good debt or bad debt? Mostly good, because property values generally appreciate, and owning costs less than renting long-term in many Indian cities. But a ₹2 crore loan for a house you cannot afford on your current salary? Now it is a trap. Good debt can become bad debt if you overborrow."
+            "content": "Here's a nuanced one: your parents' home loan. Good debt or bad debt? Mostly good -- property values generally appreciate, and owning beats renting long-term in many Indian cities. But a ₹2 crore loan for a house you can't afford on your current salary? That turns good debt into a trap. Overborrowing makes anything dangerous."
           }
         },
         {
@@ -1180,6 +1454,18 @@
           "data": {
             "term": "Debt-to-Income Ratio (DTI)",
             "definition": "The percentage of your monthly income going toward debt repayments. Formula: (Total Monthly Debt Payments / Monthly Gross Income) x 100. Below 36% is generally healthy. Above 50% is considered high risk by lenders."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Can a home loan ever become bad debt?",
+            "options": [
+              { "text": "No, home loans are always good debt because property appreciates", "isCorrect": false },
+              { "text": "Yes, if you borrow far more than you can afford and the EMIs choke your other financial goals", "isCorrect": true },
+              { "text": "Only if the interest rate is above 15%", "isCorrect": false },
+              { "text": "Only if you sell the house at a loss", "isCorrect": false }
+            ]
           }
         },
         {
@@ -1193,8 +1479,20 @@
         {
           "type": "callout",
           "data": {
-            "variant": "tip",
-            "content": "The bottom line: debt is a tool. A hammer is great for nails, terrible for windows. Borrow to build, not to consume. And when you do borrow, know the cost: the interest rate, the total amount, the time it takes. Math first, emotions second."
+            "variant": "chip-says",
+            "content": "The bottom line: debt is a tool, like a hammer. Great for nails, terrible for windows. Borrow to build, not to consume. And when you do borrow, know the cost -- interest rate, total amount, time to repay. Math first, emotions second. Chip has spoken."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Your total monthly debt payments are ₹18,000 and your monthly income is ₹50,000. What is your debt-to-income ratio and is it healthy?",
+            "options": [
+              { "text": "36% -- right at the borderline of the healthy zone", "isCorrect": true },
+              { "text": "18% -- well within the safe range", "isCorrect": false },
+              { "text": "64% -- dangerously high", "isCorrect": false },
+              { "text": "32% -- comfortably below the limit", "isCorrect": false }
+            ]
           }
         },
         {
@@ -1350,7 +1648,7 @@
       {
         "nodeId": "node-1",
         "month": 1,
-        "narrative": "Month 1. Your credit card arrives. Shiny. Embossed. Feels important. Your college friend Ankit just posted photos from Goa, 'Best trip ever.' He's already in the group chat: 'Same trip next weekend? Just 15K each. Who's in?' You haven't set up a budget yet. Your ₹40,000 just landed.",
+        "narrative": "Month 1. Your credit card arrives. Shiny. Embossed. Feels important. Your college friend Ankit just posted photos from Goa -- 'Best trip ever.' He's already in the group chat: 'Same trip next weekend? Just 15K each. Who's in?' You haven't set up a budget yet. Your ₹40,000 just landed.",
         "timeSkip": null,
         "walletBalance": 40000,
         "creditBalance": 0,
@@ -1360,21 +1658,21 @@
             "nextNodeId": "node-2a",
             "walletImpact": 0,
             "creditImpact": 15000,
-            "feedback": "Chip nervously looks at the calendar. 'You just put ₹15,000 on a card charging 3%/month. That's ₹450 in interest if you don't clear it this month. But hey, the photos will be amazing.'"
+            "feedback": "Chip nervously looks at the calendar. 'You just put ₹15,000 on a card charging 3%/month. That's ₹450 in interest if you don't clear it this month. But hey, the Instagram reels will be fire.'"
           },
           {
             "text": "Skip Goa, suggest a day trip nearby instead (₹1,500 split)",
             "nextNodeId": "node-2b",
             "walletImpact": -1500,
             "creditImpact": 0,
-            "feedback": "Chip is pleased. 'FOMO is expensive. Real ones will plan something else with you. Your bank account will thank you next month.'"
+            "feedback": "Chip is pleased. 'FOMO is expensive -- like, literally ₹15,000 expensive. Real ones will plan something else with you. Your bank account will thank you next month.'"
           },
           {
             "text": "Go to Goa but pay from your salary, not the credit card (₹15,000)",
             "nextNodeId": "node-2c",
             "walletImpact": -15000,
             "creditImpact": 0,
-            "feedback": "Chip nods. 'Fair play. You spent money, but not borrowed money. No interest. Just a smaller wallet this month. Good decision.'"
+            "feedback": "Chip nods. 'Fair play. You spent money, but not borrowed money. No interest. Just a smaller wallet this month. Solid decision, yaar.'"
           }
         ],
         "isEnd": false
@@ -1392,21 +1690,21 @@
             "nextNodeId": "node-3a-clean",
             "walletImpact": -35000,
             "creditImpact": -15000,
-            "feedback": "Chip's relieved face. 'Yes. FULL PAYMENT. Zero interest. Zero debt. The trip cost ₹15,000, not ₹17,000 or ₹20,000. You used the card like a pro.'"
+            "feedback": "Chip does a tiny victory dance. 'FULL PAYMENT. Zero interest. Zero debt. The trip cost ₹15,000, not ₹17,000 or ₹20,000. You used the card like an absolute pro.'"
           },
           {
             "text": "Pay ₹8,000, more than minimum, but keep some cash.",
             "nextNodeId": "node-3a-partial",
             "walletImpact": -28000,
             "creditImpact": -8000,
-            "feedback": "Chip pulls out a calculator. 'You now owe ₹7,000 + 3% monthly interest = ₹7,210 next month. It's not terrible, but the clock is ticking.'"
+            "feedback": "Chip pulls out a calculator. 'You now owe ₹7,000 + 3% monthly interest = ₹7,210 next month. It's not terrible, but the interest clock just started ticking.'"
           },
           {
             "text": "Pay only the minimum, ₹750. Worry about it later.",
             "nextNodeId": "node-3a-minimum",
             "walletImpact": -20750,
             "creditImpact": -750,
-            "feedback": "Chip covers their eyes. '₹750 paid. But ₹14,250 is still there, and 3% interest just started. Next month's balance: ₹14,677. The trip is getting more expensive by the day.'"
+            "feedback": "Chip covers their eyes. '₹750 paid. But ₹14,250 is still sitting there, and 3% interest just kicked in. Next month's balance: ₹14,677. The trip is getting more expensive every single day.'"
           }
         ],
         "isEnd": false
@@ -1414,7 +1712,7 @@
       {
         "nodeId": "node-2b",
         "month": 1,
-        "narrative": "You suggested a local trip. Two people actually came. Good day. Now Month 2 begins, your office announces a team lunch at a fancy restaurant. ₹2,800 is your share. Your credit card is right there, untouched, glowing with potential.",
+        "narrative": "You suggested a local trip. Two people actually came. Good day. Now Month 2 begins -- your office announces a team lunch at a fancy restaurant. ₹2,800 is your share. Your credit card is right there, untouched, glowing with potential.",
         "timeSkip": "Month 2...",
         "walletBalance": 38500,
         "creditBalance": 0,
@@ -1424,14 +1722,21 @@
             "nextNodeId": "node-3b-clean",
             "walletImpact": -2800,
             "creditImpact": 0,
-            "feedback": "Chip: 'A salary, a budget, and no debt. This is what financial health looks like at 22. Most people can't say this.'"
+            "feedback": "Chip: 'A salary, a budget, and no debt. This is what financial health looks like at 22. Most people your age can't say this. Respect.'"
           },
           {
             "text": "Put it on the credit card, earn reward points at least.",
             "nextNodeId": "node-3b-card",
             "walletImpact": 0,
             "creditImpact": 2800,
-            "feedback": "Chip: 'Completely fine, IF you pay the full bill when it arrives. Reward points only make sense when you clear the balance monthly. Mark the due date right now.'"
+            "feedback": "Chip: 'Completely fine IF you pay the full bill when it arrives. Reward points only make sense when you clear the balance monthly. Mark. The. Due. Date. Right. Now.'"
+          },
+          {
+            "text": "Skip the team lunch. ₹2,800 is too much for one meal.",
+            "nextNodeId": "node-3b-clean",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Saved ₹2,800, but team lunches are networking. Sometimes spending money on relationships is an investment. This time you saved cash, which is fine -- just don't make it a habit of skipping every social event.'"
           }
         ],
         "isEnd": false
@@ -1439,7 +1744,7 @@
       {
         "nodeId": "node-2c",
         "month": 1,
-        "narrative": "Great trip. Clean conscience. No credit card debt. Month 2 starts. Your phone dies. Completely. The screen is shattered, the battery's dead, and your job requires being reachable. You need a phone. You've been eyeing a ₹70,000 model.",
+        "narrative": "Great trip. Clean conscience. No credit card debt. Month 2 starts. Your phone dies. Completely. Shattered screen, dead battery, and your job requires being reachable. You need a phone. You've been eyeing a ₹70,000 model on Flipkart.",
         "timeSkip": "Month 2...",
         "walletBalance": 25000,
         "creditBalance": 0,
@@ -1449,21 +1754,21 @@
             "nextNodeId": "node-3c-emi",
             "walletImpact": 0,
             "creditImpact": 70000,
-            "feedback": "Chip calculates fast: '₹4,563 × 18 = ₹82,134 total. That's ₹12,134 in interest on a phone that'll be worth ₹30,000 in 2 years. Could you manage with a ₹20,000 phone instead?'"
+            "feedback": "Chip calculates fast: '₹4,563 x 18 = ₹82,134 total. That's ₹12,134 in interest on a phone that'll be worth ₹30,000 in 2 years. Could you manage with a ₹20,000 phone instead?'"
           },
           {
             "text": "Buy a ₹20,000 phone, covers everything you need, pay outright",
             "nextNodeId": "node-3c-smart",
             "walletImpact": -20000,
             "creditImpact": 0,
-            "feedback": "Chip quietly applauds. 'You identified a need, not a want. ₹20,000 phone, no debt. Upgrade when you've saved specifically for it. Textbook.'"
+            "feedback": "Chip quietly applauds. 'You identified a need, not a want. ₹20,000 phone, no debt. Upgrade when you've saved specifically for it. Textbook move.'"
           },
           {
             "text": "Borrow ₹70,000 from a friend and buy outright, repay over 3 months",
             "nextNodeId": "node-3c-friend",
             "walletImpact": 0,
             "creditImpact": 0,
-            "feedback": "Chip: 'Smart to avoid bank interest. But mixing money and friendship is risky. Can you definitely repay ₹23,333/month for 3 months on a ₹40,000 salary? Do the math first.'"
+            "feedback": "Chip: 'Smart to avoid bank interest. But mixing money and friendship is risky. Can you definitely repay ₹23,333/month for 3 months on a ₹40,000 salary? Do the math first, yaar.'"
           }
         ],
         "isEnd": false
@@ -1471,7 +1776,7 @@
       {
         "nodeId": "node-3a-clean",
         "month": 2,
-        "narrative": "Clean slate. Zero debt. Month 2. You're browsing Amazon and spot a laptop flash sale, ₹85,000 laptop for ₹72,000. 15% off. Sale ends in 4 hours. You do need a personal laptop, you've been borrowing your roommate's. Your credit card is sitting there.",
+        "narrative": "Clean slate. Zero debt. Month 2. You're browsing Amazon and spot a laptop flash sale -- ₹85,000 laptop for ₹72,000. 15% off. Sale ends in 4 hours. You do need a personal laptop; you've been borrowing your roommate's. Your credit card is sitting there.",
         "timeSkip": "Month 2...",
         "walletBalance": 45000,
         "creditBalance": 0,
@@ -1481,14 +1786,21 @@
             "nextNodeId": "node-4-laptop-credit",
             "walletImpact": 0,
             "creditImpact": 72000,
-            "feedback": "Chip: 'The discount is real. But ₹72,000 on a card you need to pay next month. Can you clear ₹72,000 from next month's salary after expenses? Think before you click.'"
+            "feedback": "Chip: 'The discount is real. But ₹72,000 on a card you need to pay next month? Can you clear ₹72,000 from next month's salary after expenses? Think before you click Add to Cart.'"
           },
           {
             "text": "Save for 2 more months and buy later (miss the sale)",
             "nextNodeId": "node-4-laptop-save",
             "walletImpact": 0,
             "creditImpact": 0,
-            "feedback": "Chip: 'The sale was real but so is the discipline. In 2 months you'll have ₹80,000 saved. You'll buy the laptop without debt, maybe at another sale price. This is future-you taking care of present-you.'"
+            "feedback": "Chip: 'The sale was real but so is the discipline. In 2 months you'll have ₹80,000+ saved. You'll buy the laptop without debt, maybe at another sale price. Future-you is taking care of present-you.'"
+          },
+          {
+            "text": "Buy a ₹35,000 budget laptop now from your savings, does the job fine",
+            "nextNodeId": "node-4-laptop-save",
+            "walletImpact": -35000,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Not the flashiest choice, but you got what you needed without debt. A ₹35,000 laptop handles work, browsing, and Netflix. The ₹72,000 one would have been nicer, sure -- but ₹37,000 nicer? With interest? Nah.'"
           }
         ],
         "isEnd": false
@@ -1506,14 +1818,21 @@
             "nextNodeId": "node-4-clear-both",
             "walletImpact": -15710,
             "creditImpact": -7210,
-            "feedback": "Chip: 'Expensive month, but you're debt-free again. The interest on that ₹7,210 was ₹210. Consider it ₹210 tuition on why to pay in full. Lesson received.'"
+            "feedback": "Chip: 'Expensive month, but you're debt-free again. The interest on that ₹7,210 was ₹210. Consider that ₹210 tuition on why to always pay in full. Lesson received.'"
           },
           {
             "text": "Pay the bike, pay only the minimum on the card (₹361)",
             "nextNodeId": "node-4-debt-grows",
             "walletImpact": -8861,
             "creditImpact": -361,
-            "feedback": "Chip, worriedly: 'Your card balance is now ₹7,065 after minimum payment. Next month: ₹7,065 + 3% interest = ₹7,277. This is how balances grow quietly.'"
+            "feedback": "Chip, worriedly: 'Your card balance is now ₹7,065 after minimum payment. Next month: ₹7,065 + 3% interest = ₹7,277. This is how balances grow quietly while you're not watching.'"
+          },
+          {
+            "text": "Put the bike repair on your credit card too, preserve your cash",
+            "nextNodeId": "node-4-debt-grows",
+            "walletImpact": 0,
+            "creditImpact": 8500,
+            "feedback": "Chip winces: 'Card balance is now ₹15,710 and growing. You had the cash for the repair but chose to borrow at 36% APR instead. That ₹8,500 repair will cost you ₹8,755 next month with interest. Cash was the better move here.'"
           }
         ],
         "isEnd": false
@@ -1531,14 +1850,21 @@
             "nextNodeId": "node-4-spiraling",
             "walletImpact": 0,
             "creditImpact": 10000,
-            "feedback": "Chip's emergency alarm goes off. 'You now have ₹24,677 on a credit card charging 3%/month. That's ₹740 in interest next month alone, before you pay a single rupee. This is how the spiral starts.'"
+            "feedback": "Chip's emergency alarm goes off. 'You now have ₹24,677 on a credit card charging 3%/month. That's ₹740 in interest next month alone -- before you pay a single rupee of principal. This is how the spiral starts.'"
           },
           {
             "text": "Give ₹5,000 from your wallet, explain you're still getting settled",
             "nextNodeId": "node-4-half-gift",
             "walletImpact": -5000,
             "creditImpact": 0,
-            "feedback": "Chip: 'Difficult conversation, but the right move. Giving ₹10,000 you don't have on a card at 36% APR would have cost you ₹12,600 in real terms by the time you paid it off. Family understands. Debt doesn't care.'"
+            "feedback": "Chip: 'Difficult conversation, but the right move. Giving ₹10,000 you don't have on a card at 36% APR would actually cost ₹12,600 by the time you paid it off. Family understands. Debt doesn't care about family feelings.'"
+          },
+          {
+            "text": "Give ₹10,000 from your wallet and live extremely tight this month",
+            "nextNodeId": "node-4-half-gift",
+            "walletImpact": -10000,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Gutsy. You're down to ₹9,250 for the rest of the month with ₹14,677 on the card. But at least you didn't pile more onto the credit card. Tight month ahead, but you stopped the bleeding from getting worse.'"
           }
         ],
         "isEnd": false
@@ -1556,14 +1882,21 @@
             "nextNodeId": "node-4-scam",
             "walletImpact": -20000,
             "creditImpact": 0,
-            "feedback": "Chip is screaming: 'Chip warned you. 40% guaranteed returns is impossible. FDs give 7%. Mutual funds average 12% per year. 40% in 6 months = scam. This is a Ponzi scheme. The money is almost certainly gone.'"
+            "feedback": "Chip is screaming: '40% guaranteed returns is IMPOSSIBLE. FDs give 7%. Mutual funds average 12% per year. 40% in 6 months = scam. This is a Ponzi scheme. The money is almost certainly gone. Chip warned you.'"
           },
           {
             "text": "Decline. Guaranteed high returns are a scam red flag.",
             "nextNodeId": "node-4-smart-decline",
             "walletImpact": 0,
             "creditImpact": 0,
-            "feedback": "Chip's proudest moment: 'This. Is. The. Move. Guaranteed 40% returns are impossible in legitimate markets. You just saved ₹20,000 by knowing one rule: if it sounds too good to be true, it absolutely is.'"
+            "feedback": "Chip's proudest moment: 'THIS. IS. THE. MOVE. Guaranteed 40% returns are impossible in legitimate markets. You just saved ₹20,000 by knowing one rule: if it sounds too good to be true, it absolutely is.'"
+          },
+          {
+            "text": "Ask for more details -- company name, SEBI registration, past returns proof",
+            "nextNodeId": "node-4-smart-decline",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip approves: 'Asking the right questions is the best financial skill. No SEBI registration? No audited returns? No company website? That's not an investment, that's a WhatsApp forward with a bank account number. You just dodged a scam by being curious.'"
           }
         ],
         "isEnd": false
@@ -1581,14 +1914,21 @@
             "nextNodeId": "node-4-smart-card",
             "walletImpact": -2800,
             "creditImpact": -2800,
-            "feedback": "Chip shows you the reward points: '84 reward points earned. Zero interest paid. This is how you use a credit card, as a debit card with benefits. The bank earned nothing from you. Chip is beaming.'"
+            "feedback": "Chip shows you the reward points: '84 reward points earned. Zero interest paid. This is how you use a credit card -- as a debit card with benefits. The bank earned nothing from you. Chip is beaming.'"
           },
           {
             "text": "Pay the minimum (₹500). Keep the rest in savings.",
             "nextNodeId": "node-4-small-mistake",
             "walletImpact": -500,
             "creditImpact": -500,
-            "feedback": "Chip does the math: '₹2,300 still outstanding. Next month: ₹2,300 × 1.03 = ₹2,369. You're paying 3% monthly (36% annual) to 'save' ₹2,300 in a savings account earning 4% annual. You're losing money every month on that choice.'"
+            "feedback": "Chip does the math: '₹2,300 still outstanding. Next month: ₹2,300 x 1.03 = ₹2,369. You're paying 3% monthly (36% annual) to save ₹2,300 in a savings account earning 4% annual. You're literally losing money every month on this choice.'"
+          },
+          {
+            "text": "Set up auto-pay for full balance and never think about it again",
+            "nextNodeId": "node-4-smart-card",
+            "walletImpact": -2800,
+            "creditImpact": -2800,
+            "feedback": "Chip throws confetti: 'Auto-pay for full balance is the single best credit card decision you can make. You'll never miss a payment, never pay interest, and your CIBIL score builds automatically. Set it and forget it. Genius move.'"
           }
         ],
         "isEnd": false
@@ -1596,7 +1936,7 @@
       {
         "nodeId": "node-3c-emi",
         "month": 3,
-        "narrative": "The ₹4,563/month EMI starts. Month 3 arrives. You now have ₹40,000 salary − ₹4,563 EMI − ₹10,000 rent − ₹5,000 groceries − ₹5,000 expenses = ₹15,437 left. Tight but manageable. Then: your laptop's keyboard stops working. Repair quote: ₹6,000. It's your work laptop.",
+        "narrative": "The ₹4,563/month EMI starts. Month 3 arrives. ₹40,000 salary minus ₹4,563 EMI minus ₹10,000 rent minus ₹5,000 groceries minus ₹5,000 expenses = ₹15,437 left. Tight but manageable. Then: your laptop's keyboard stops working. Repair quote: ₹6,000. It's your work laptop.",
         "timeSkip": "Month 3...",
         "walletBalance": 15437,
         "creditBalance": 70000,
@@ -1606,14 +1946,21 @@
             "nextNodeId": "node-4-stacking-debt",
             "walletImpact": 0,
             "creditImpact": 6000,
-            "feedback": "Chip, with deep concern: 'You now have an EMI loan AND credit card debt. Two different interest clocks running simultaneously. This is EMI creep plus credit card debt, a dangerous combination.'"
+            "feedback": "Chip, with deep concern: 'You now have an EMI loan AND credit card debt. Two different interest clocks running simultaneously. This is EMI creep plus credit card debt -- a dangerous combo that can spiral fast.'"
           },
           {
             "text": "Pay the ₹6,000 repair from your remaining cash. Tight month.",
             "nextNodeId": "node-4-disciplined-emi",
             "walletImpact": -6000,
             "creditImpact": 0,
-            "feedback": "Chip: 'Only ₹9,437 left for the rest of the month. It's uncomfortable. But you didn't add credit card debt on top of your EMI. Discomfort now > interest payments forever.'"
+            "feedback": "Chip: 'Only ₹9,437 left for the rest of the month. Uncomfortable? Yes. But you didn't add credit card debt on top of your EMI. Discomfort now beats interest payments forever.'"
+          },
+          {
+            "text": "Ask your company's IT department to cover it -- it's a work laptop after all",
+            "nextNodeId": "node-4-disciplined-emi",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Now THAT's thinking. If it's a company laptop, the repair is their expense, not yours. Always check before paying out of pocket. You just saved ₹6,000 by asking one question.'"
           }
         ],
         "isEnd": false
@@ -1621,7 +1968,7 @@
       {
         "nodeId": "node-3c-smart",
         "month": 3,
-        "narrative": "₹20,000 phone. No debt. Month 3. Your salary hits. You have ₹40,000 incoming. For the first time, you sit down and actually make a budget. Rent ₹10,000. Groceries ₹5,000. Transport ₹3,000. Entertainment ₹3,000. That leaves ₹19,000. What do you do with it?",
+        "narrative": "₹20,000 phone. No debt. Month 3. Your salary hits. For the first time, you sit down and actually make a budget. Rent ₹10,000. Groceries ₹5,000. Transport ₹3,000. Entertainment ₹3,000. That leaves ₹19,000. What do you do with it?",
         "timeSkip": "Month 3...",
         "walletBalance": 45000,
         "creditBalance": 0,
@@ -1638,7 +1985,14 @@
             "nextNodeId": "node-4-spender",
             "walletImpact": -19000,
             "creditImpact": 0,
-            "feedback": "Chip: 'No judgment, you earned it and you're not in debt. But ₹19,000 spent three months in a row = ₹57,000 that could have been an emergency fund. What happens when something breaks?'"
+            "feedback": "Chip: 'No judgment -- you earned it and you're not in debt. But ₹19,000 spent three months in a row = ₹57,000 that could have been an emergency fund. What happens when something breaks? Something always breaks.'"
+          },
+          {
+            "text": "Split it: ₹10,000 into savings, ₹9,000 for fun",
+            "nextNodeId": "node-4-saver",
+            "walletImpact": -9000,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Balance. You saved AND lived. ₹10,000/month in savings builds to ₹1.2 lakhs in a year. And you still had fun without guilt or debt. This is sustainable financial discipline, not deprivation.'"
           }
         ],
         "isEnd": false
@@ -1663,7 +2017,14 @@
             "nextNodeId": "node-5-laptop-minimum",
             "walletImpact": -23600,
             "creditImpact": -3600,
-            "feedback": "Chip's worried: '₹68,400 remaining. Next month's interest: ₹2,052. You now owe ₹70,452. The laptop cost ₹72,000, you've barely made a dent. This will take 18+ months to clear at this rate, costing you ₹20,000+ in interest.'"
+            "feedback": "Chip's worried: '₹68,400 remaining. Next month's interest: ₹2,052. You now owe ₹70,452. The laptop cost ₹72,000 and you've barely made a dent. This will take 18+ months at this rate, costing you ₹20,000+ in interest.'"
+          },
+          {
+            "text": "Call the bank and convert the balance to a 6-month EMI at a lower rate",
+            "nextNodeId": "node-5-laptop-partial",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Smart damage control. Converting revolving credit (36% APR) to an EMI (typically 15-18% APR) cuts your interest rate in half. Your EMI will be about ₹12,500/month for 6 months. Still expensive, but way better than 3% monthly compounding.'"
           }
         ],
         "isEnd": false
@@ -1671,7 +2032,7 @@
       {
         "nodeId": "node-4-laptop-save",
         "month": 4,
-        "narrative": "Two months later. You've saved ₹80,000. Another sale is happening, not 15% off, but the laptop is at its regular price of ₹85,000. Still, you have the cash.",
+        "narrative": "Two months later. You've saved ₹80,000. Another sale is happening -- not 15% off, but the laptop is at its regular price of ₹85,000. Still, you have the cash.",
         "timeSkip": "2 months later...",
         "walletBalance": 80000,
         "creditBalance": 0,
@@ -1682,6 +2043,20 @@
             "walletImpact": -85000,
             "creditImpact": 0,
             "feedback": "Chip, beaming: 'You paid ₹85,000 vs the sale price of ₹72,000. Difference: ₹13,000. But credit card interest on ₹72,000 for 2+ months would have been ₹4,000-6,000 anyway. And you kept zero debt, zero stress. This is how adults buy things.'"
+          },
+          {
+            "text": "Put the ₹85,000 on credit card for reward points, then immediately pay the full bill from savings",
+            "nextNodeId": "node-end-excellent",
+            "walletImpact": -85000,
+            "creditImpact": 0,
+            "feedback": "Chip approves: 'Same ₹85,000 spent but you earned reward points on the purchase. Zero interest because you paid in full immediately. This is the credit-card-as-debit-card strategy. Smart and disciplined.'"
+          },
+          {
+            "text": "Buy the laptop on 12-month No-Cost EMI instead, keep the ₹80,000 in savings",
+            "nextNodeId": "node-end-good",
+            "walletImpact": 0,
+            "creditImpact": 85000,
+            "feedback": "Chip does the math: 'The No-Cost EMI will have a processing fee of around ₹1,200-1,700. Your savings earn about 4% per year -- roughly ₹2,600 on ₹80,000 in 12 months. So you come out maybe ₹900-1,400 ahead, but you now have a 12-month EMI commitment and a high credit utilization hit on your CIBIL. Close call, not terrible.'"
           }
         ],
         "isEnd": false
@@ -1706,7 +2081,14 @@
             "nextNodeId": "node-end-good",
             "walletImpact": -10000,
             "creditImpact": 0,
-            "feedback": "Chip: 'Spent, not saved. No debt, at least. But a ₹10,000 emergency fund is the difference between a rough month and a credit card spiral next time something breaks. Consider it for next bonus.'"
+            "feedback": "Chip: 'Spent, not saved. No debt, at least. But a ₹10,000 emergency fund is the difference between a rough month and a credit card spiral next time something breaks. Think about it for the next bonus.'"
+          },
+          {
+            "text": "Put ₹5,000 in savings, treat yourself with the other ₹5,000",
+            "nextNodeId": "node-end-excellent",
+            "walletImpact": -5000,
+            "creditImpact": 0,
+            "feedback": "Chip: 'The 50-50 split. You rewarded yourself AND started saving. This is sustainable. You won't burn out from being too strict, and you won't be broke from being too loose. Balanced king energy.'"
           }
         ],
         "isEnd": false
@@ -1714,7 +2096,7 @@
       {
         "nodeId": "node-4-debt-grows",
         "month": 3,
-        "narrative": "Credit card balance is quietly growing: ₹7,277. Month 3: your company sends out a performance review. You get a 'meets expectations', no bonus this cycle. Meanwhile, your phone bill is overdue: ₹1,800.",
+        "narrative": "Credit card balance is quietly growing: ₹7,277. Month 3: your company sends out a performance review. You get a 'meets expectations' -- no bonus this cycle. Meanwhile, your phone bill is overdue: ₹1,800.",
         "timeSkip": "Month 3...",
         "walletBalance": 30000,
         "creditBalance": 7277,
@@ -1724,14 +2106,21 @@
             "nextNodeId": "node-end-okay",
             "walletImpact": -9077,
             "creditImpact": -7277,
-            "feedback": "Chip: 'Finally clear. That ₹7,000 Goa debt ended up costing ₹7,277, ₹277 in interest over 2 months. Not a disaster, but consider: ₹277 is 3 cups of coffee you paid to a bank for borrowing ₹7,000. Never again.'"
+            "feedback": "Chip: 'Finally clear. That ₹7,000 Goa debt ended up costing ₹7,277 -- ₹277 in interest over 2 months. Not a disaster, but that's 3 cups of chai you paid to a bank for borrowing ₹7,000. Never again.'"
           },
           {
             "text": "Put the phone bill on the credit card too. You'll clear everything next month.",
             "nextNodeId": "node-end-poor",
             "walletImpact": 0,
             "creditImpact": 1800,
-            "feedback": "Chip, shaking their head: '₹9,077 on the card now. Month 4 balance with interest: ₹9,349. You've been saying 'next month' for 3 months. The interest isn't waiting for next month.'"
+            "feedback": "Chip, shaking their head: '₹9,077 on the card now. Month 4 balance with interest: ₹9,349. You've been saying next month for 3 months. The interest isn't waiting for next month.'"
+          },
+          {
+            "text": "Pay the phone bill from wallet, pay ₹5,000 toward the card (more than minimum but not full)",
+            "nextNodeId": "node-end-okay",
+            "walletImpact": -6800,
+            "creditImpact": -5000,
+            "feedback": "Chip: '₹2,277 left on the card, becomes ₹2,345 next month. Better than minimum payments, but you had ₹30,000 available. Why leave ₹2,277 on a card at 36% APR when you could clear it? Every month you wait costs you ₹68 in interest. Just kill it.'"
           }
         ],
         "isEnd": false
@@ -1739,7 +2128,7 @@
       {
         "nodeId": "node-4-spiraling",
         "month": 3,
-        "narrative": "₹24,677 on the card. That's nearly half your credit limit. Month 3: minimum payment due is ₹1,234. Your interest this month alone is ₹740. You're paying ₹1,234 but ₹740 goes straight to interest, only ₹494 reduces the actual debt. The spiral is real.",
+        "narrative": "₹24,677 on the card. That's nearly half your credit limit. Month 3: minimum payment due is ₹1,234. Your interest this month alone is ₹740. You're paying ₹1,234 but ₹740 goes straight to interest -- only ₹494 actually reduces the debt. The spiral is real.",
         "timeSkip": "Month 3...",
         "walletBalance": 14250,
         "creditBalance": 24677,
@@ -1749,14 +2138,21 @@
             "nextNodeId": "node-5-recovery",
             "walletImpact": -12000,
             "creditImpact": -12000,
-            "feedback": "Chip exhales: 'Balance down to ₹13,417. With another aggressive payment next month, you can escape this. It'll cost you about ₹2,000 in interest total, painful, but survivable. Stay the course.'"
+            "feedback": "Chip exhales: 'Balance down to ₹13,417. With another aggressive payment next month, you can escape this. It'll cost you about ₹2,000 in interest total -- painful, but survivable. Stay the course.'"
           },
           {
             "text": "Pay the minimum and hope your situation improves",
             "nextNodeId": "node-end-terrible",
             "walletImpact": -1234,
             "creditImpact": -1234,
-            "feedback": "Chip: 'At minimum payments only, your ₹24,677 will take 7+ years and ₹32,000 in interest to clear. The Goa trip and wedding gift are still costing you money in 2031. This is the trap. This is why it's called 'The Credit Trap.'"
+            "feedback": "Chip: 'At minimum payments only, your ₹24,677 will take 7+ years and ₹32,000 in interest to clear. The Goa trip and wedding gift are still costing you money in 2031. This is the trap. This is why it's called The Credit Trap.'"
+          },
+          {
+            "text": "Call the bank, explain your situation, ask about a repayment plan at lower interest",
+            "nextNodeId": "node-5-recovery",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Calling the bank is not weakness -- it's strategy. Many banks offer hardship programs or balance conversion to EMI at lower rates (15-18% instead of 36%). You could drop your interest by half just by asking. Always negotiate with your lender.'"
           }
         ],
         "isEnd": false
@@ -1774,14 +2170,21 @@
             "nextNodeId": "node-end-poor",
             "walletImpact": 0,
             "creditImpact": 10000,
-            "feedback": "Chip: 'Scam + credit card debt. You lost ₹20,000 to a fraud and now owe ₹10,000 at 36% APR. Two bad decisions. File a complaint with cybercrime.gov.in and pay off that card the moment you can.'"
+            "feedback": "Chip: 'Scam + credit card debt. You lost ₹20,000 to a fraud and now owe ₹10,000 at 36% APR. Two bad decisions stacking. File a complaint at cybercrime.gov.in and pay off that card the moment you can.'"
           },
           {
             "text": "Borrow from a family member interest-free. Repay within 2 months.",
             "nextNodeId": "node-end-okay",
             "walletImpact": 0,
             "creditImpact": 0,
-            "feedback": "Chip: 'Smart recovery. You lost ₹20,000 to a scam, painful, but you didn't compound it with high-interest debt. File a police complaint. Tell your friends so they don't fall for the same thing. Losing money is recoverable. Losing more money is not.'"
+            "feedback": "Chip: 'Smart recovery. You lost ₹20,000 to a scam -- painful, but you didn't compound it with high-interest debt. File a police complaint. Tell your friends so they don't fall for the same thing. Losing money is recoverable. Losing more money isn't.'"
+          },
+          {
+            "text": "Cut expenses drastically this month -- skip eating out, pause subscriptions, manage from what you have",
+            "nextNodeId": "node-end-okay",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Resourceful. You trimmed your lifestyle temporarily instead of taking on debt. ₹25,000 is tight but doable if you cut non-essentials. This is an emergency budget, and this is exactly when you use one. The scam money is gone, but your financial habits are intact.'"
           }
         ],
         "isEnd": false
@@ -1789,7 +2192,7 @@
       {
         "nodeId": "node-4-smart-decline",
         "month": 4,
-        "narrative": "Month 4. You're building steadily. ₹60,000 in savings between months 1-3. No debt. Your manager tells you there's an opportunity to take on a new project, it means 2 extra weekends of work but pays a ₹15,000 project bonus. You're tired. But ₹15,000 is ₹15,000.",
+        "narrative": "Month 4. You're building steadily. ₹60,000 in savings between months 1-3. No debt. Your manager tells you there's an opportunity to take on a new project -- 2 extra weekends of work but pays a ₹15,000 project bonus. You're tired. But ₹15,000 is ₹15,000.",
         "timeSkip": "Month 4...",
         "walletBalance": 60000,
         "creditBalance": 0,
@@ -1799,7 +2202,7 @@
             "nextNodeId": "node-end-excellent",
             "walletImpact": 15000,
             "creditImpact": 0,
-            "feedback": "Chip: 'No debt. Savings growing. Extra income invested. You are the hero of this story. Seriously, most 22-year-olds are in credit card debt right now and you're stacking savings. Debt Dodger badge: earned.'"
+            "feedback": "Chip: 'No debt. Savings growing. Extra income invested. You are the hero of this story. Seriously -- most 22-year-olds are in credit card debt right now and you're stacking savings. Debt Dodger badge: earned.'"
           },
           {
             "text": "Skip the project. Rest is important too.",
@@ -1807,6 +2210,13 @@
             "walletImpact": 0,
             "creditImpact": 0,
             "feedback": "Chip: 'Totally valid. Burnout is real and rest is productive. You have ₹60,000 in savings, zero debt at month 4. That's genuinely excellent. The bonus would have been nice but you made a conscious choice, not a financial mistake.'"
+          },
+          {
+            "text": "Take the project and use ₹10,000 of the bonus to start a SIP in an index fund",
+            "nextNodeId": "node-end-excellent",
+            "walletImpact": 5000,
+            "creditImpact": 0,
+            "feedback": "Chip is doing cartwheels: 'Emergency fund built AND you started investing. A ₹10,000/month SIP in an index fund at even 12% annual returns grows to ₹2.3 lakhs in 2 years. You're not just avoiding debt, you're building wealth. At 22. Legend.'"
           }
         ],
         "isEnd": false
@@ -1831,7 +2241,14 @@
             "nextNodeId": "node-end-good",
             "walletImpact": 0,
             "creditImpact": 0,
-            "feedback": "Chip: 'Not wrong, but not quite right either. Credit cards are traps when misused, but used correctly (pay in full, build credit history) they're powerful tools. The issue isn't the card. It's the behavior.'"
+            "feedback": "Chip: 'Not wrong, but not quite right either. Credit cards are traps when misused, but used correctly -- pay in full, build credit history -- they're powerful tools. The issue isn't the card. It's the behaviour.'"
+          },
+          {
+            "text": "'Get one, set up auto-pay for full balance, and never spend more than 30% of the limit.'",
+            "nextNodeId": "node-end-excellent",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip: 'That's advanced-level advice. Auto-pay prevents missed payments (CIBIL score protected), 30% utilization keeps the credit score healthy, and paying in full means zero interest. You basically gave your friend a financial literacy masterclass in one sentence.'"
           }
         ],
         "isEnd": false
@@ -1849,7 +2266,21 @@
             "nextNodeId": "node-end-excellent",
             "walletImpact": -30000,
             "creditImpact": 0,
-            "feedback": "Chip's eyes water a little: 'THIS is why you save. An emergency hit, a real one, and you handled it with savings, not debt. This is the emergency fund working exactly as designed. You are financially prepared. That's rare at 22.'"
+            "feedback": "Chip's eyes water a little: 'THIS is why you save. An emergency hit -- a real one -- and you handled it with savings, not debt. This is the emergency fund working exactly as designed. You are financially prepared at 22. That's genuinely rare.'"
+          },
+          {
+            "text": "Put the ₹30,000 deposit on your credit card instead, keep the RD intact to earn interest",
+            "nextNodeId": "node-end-good",
+            "walletImpact": 0,
+            "creditImpact": 30000,
+            "feedback": "Chip crunches numbers: 'Your RD earns about 7% per year -- that's ₹175/month on ₹30,000. Your credit card charges 3% per month -- ₹900/month on ₹30,000. Even if you clear the card next month, you pay ₹900 to save ₹175. You lost ₹725 on this move. When credit card interest is involved, paying from savings almost always wins.'"
+          },
+          {
+            "text": "Use ₹20,000 from savings and negotiate with the new landlord to pay the remaining ₹10,000 next month",
+            "nextNodeId": "node-end-excellent",
+            "walletImpact": -20000,
+            "creditImpact": 0,
+            "feedback": "Chip: 'Negotiation is a financial skill. You kept ₹25,000 in savings for other emergencies, avoided credit card debt entirely, and the new landlord agreed because you were upfront. Communication + savings = no debt. Beautiful.'"
           }
         ],
         "isEnd": false
@@ -1867,7 +2298,7 @@
             "nextNodeId": "node-end-poor",
             "walletImpact": 0,
             "creditImpact": 15000,
-            "feedback": "Chip: 'Family absolutely comes first, but ₹21,000 on a credit card at 36% APR, on top of an EMI, with ₹10,000 in your account... this is financially precarious. We need to make a debt-clearing plan immediately.'"
+            "feedback": "Chip: 'Family absolutely comes first. But ₹21,000 on a credit card at 36% APR, on top of an EMI, with ₹10,000 in your account... this is financially precarious. You need a debt-clearing plan immediately.'"
           },
           {
             "text": "Transfer ₹10,000 from savings and ask another family member to contribute the rest",
@@ -1875,6 +2306,13 @@
             "walletImpact": -10000,
             "creditImpact": 0,
             "feedback": "Chip: 'You helped. You didn't bury yourself in debt to do it. Coordinating with other family members to share an emergency cost is smart, not selfish. Your ₹6,000 credit card balance is still there, but manageable.'"
+          },
+          {
+            "text": "Give ₹10,000 from savings, put ₹5,000 on credit card for the rest",
+            "nextNodeId": "node-end-okay",
+            "walletImpact": -10000,
+            "creditImpact": 5000,
+            "feedback": "Chip: 'You helped with ₹15,000 total. ₹10,000 from cash, ₹5,000 on card. Card balance is now ₹11,000 -- not great, but you limited the credit card damage. Clear that ₹11,000 aggressively next month before the interest compounds further.'"
           }
         ],
         "isEnd": false
@@ -1899,7 +2337,14 @@
             "nextNodeId": "node-end-poor",
             "walletImpact": -8000,
             "creditImpact": -8000,
-            "feedback": "Chip: 'So close. ₹5,817 remaining, which becomes ₹5,991 next month. You'll clear it eventually, but another month of interest. When you have the ability to end debt, end it. Don't let it live rent-free in your head (and your wallet) any longer than necessary.'"
+            "feedback": "Chip: 'So close. ₹5,817 remaining, which becomes ₹5,991 next month. You had the ability to end this debt right now and chose not to. When you can kill debt, kill it. Don't let it live rent-free in your wallet.'"
+          },
+          {
+            "text": "Pay ₹13,820 AND set up an auto-pay for full balance going forward",
+            "nextNodeId": "node-end-good",
+            "walletImpact": -13820,
+            "creditImpact": -13417,
+            "feedback": "Chip: 'Cleared AND future-proofed. The auto-pay means you'll never accidentally pay just the minimum again. You learned a ₹1,500 lesson and made sure it never repeats. That's growth, not just recovery.'"
           }
         ],
         "isEnd": false
@@ -1917,7 +2362,21 @@
             "nextNodeId": "node-end-good",
             "walletImpact": -25000,
             "creditImpact": -25000,
-            "feedback": "Chip: 'Total laptop cost: ₹72,000 + roughly ₹2,800 in 2 months of interest = ₹74,800. Could have been worse. The laptop needed to be bought, just maybe save first next time. Good recovery overall.'"
+            "feedback": "Chip: 'Total laptop cost: ₹72,000 + roughly ₹2,800 in 2 months of interest = ₹74,800. Could have been worse. The laptop needed to be bought -- just maybe save first next time. Good recovery overall.'"
+          },
+          {
+            "text": "Call the bank and convert the ₹43,260 balance to a 6-month EMI at 15% APR instead of 36% revolving interest",
+            "nextNodeId": "node-end-good",
+            "walletImpact": 0,
+            "creditImpact": 0,
+            "feedback": "Chip does quick math: 'Smart move. Converting to EMI drops your rate from 3%/month (36% APR) to about 1.25%/month (15% APR). Your EMI will be roughly ₹7,530/month for 6 months, total ₹45,180. That is about ₹1,920 in interest vs ₹3,500+ if you kept revolving. You traded flexibility for a lower rate. Not bad when you are already in debt.'"
+          },
+          {
+            "text": "Pay the minimum only. You need cash in hand right now.",
+            "nextNodeId": "node-end-poor",
+            "walletImpact": -2163,
+            "creditImpact": -2163,
+            "feedback": "Chip: '₹41,097 remaining, becoming ₹42,330 next month. At minimum payments, this laptop purchase will cost you ₹90,000+ over 18 months. The ₹72,000 sale price was supposed to save you money. Instead, you're paying more than the original ₹85,000 price.'"
           }
         ],
         "isEnd": false
@@ -1925,7 +2384,7 @@
       {
         "nodeId": "node-end-excellent",
         "month": 6,
-        "narrative": "6 months in. Your credit card shows: Balance ₹0. Interest paid across all 6 months: ₹0 to ₹480. Your savings account has ₹35,000–₹90,000 depending on your path. Your CIBIL score has been building steadily, on track for 720+ by year end. Chip is doing a full victory dance.",
+        "narrative": "6 months in. Your credit card shows: Balance ₹0. Interest paid across all 6 months: ₹0 to ₹480. Your savings account has ₹35,000-₹90,000 depending on your path. Your CIBIL score has been building steadily, on track for 720+ by year end. Chip is doing a full victory dance.",
         "timeSkip": "6 months later...",
         "choices": [],
         "outcome": {
@@ -1941,15 +2400,15 @@
       {
         "nodeId": "node-end-good",
         "month": 6,
-        "narrative": "6 months in. You made some imperfect calls but course-corrected. Total interest paid: ₹500–₹2,500. You're not in a spiral. Your savings exist, your credit card is mostly under control. Chip nods with respect.",
+        "narrative": "6 months in. You made some imperfect calls but course-corrected. Total interest paid: ₹500-₹2,500. You're not in a spiral. Your savings exist, your credit card is mostly under control. Chip nods with respect.",
         "timeSkip": "6 months later...",
         "choices": [],
         "outcome": {
           "title": "Credit Aware",
-          "description": "You stumbled a couple of times but recovered. You understand now that paying in full beats paying minimums, not just mathematically, but emotionally. Debt has weight. Less of it is better.",
+          "description": "You stumbled a couple of times but recovered. You understand now that paying in full beats paying minimums -- not just mathematically, but emotionally. Debt has weight. Less of it is better.",
           "badgeEarned": "credit-aware",
           "financialHealth": "Good",
-          "interestPaidLabel": "Interest paid: ₹500–₹2,500",
+          "interestPaidLabel": "Interest paid: ₹500-₹2,500",
           "lesson": "Good decisions and quick corrections. You're ahead of most people your age."
         },
         "isEnd": true
@@ -1957,7 +2416,7 @@
       {
         "nodeId": "node-end-okay",
         "month": 6,
-        "narrative": "6 months in. You made some expensive mistakes and paid for them, literally. Total interest paid: ₹2,500–₹6,000. You're clear of debt now, but you felt the weight of it. Chip has the look of a teacher who watched a student barely pass.",
+        "narrative": "6 months in. You made some expensive mistakes and paid for them -- literally. Total interest paid: ₹2,500-₹6,000. You're clear of debt now, but you felt the weight of it. Chip has the look of a teacher who watched a student barely pass.",
         "timeSkip": "6 months later...",
         "choices": [],
         "outcome": {
@@ -1965,7 +2424,7 @@
           "description": "You know now what minimum payments actually cost. You felt the stress of a growing balance. Those aren't comfortable feelings, but they're useful ones. You won't make the same mistakes in Year 2.",
           "badgeEarned": "hard-lesson-learned",
           "financialHealth": "Fair",
-          "interestPaidLabel": "Interest paid: ₹2,500–₹6,000",
+          "interestPaidLabel": "Interest paid: ₹2,500-₹6,000",
           "lesson": "Expensive tuition, but you graduated. The lessons from this chapter are now personal."
         },
         "isEnd": true
@@ -1973,7 +2432,7 @@
       {
         "nodeId": "node-end-poor",
         "month": 6,
-        "narrative": "6 months in. You're still carrying credit card debt, somewhere between ₹8,000 and ₹22,000. The interest is grinding you down ₹300–₹700 every month. You feel it. Chip is worried but not giving up on you.",
+        "narrative": "6 months in. You're still carrying credit card debt, somewhere between ₹8,000 and ₹22,000. The interest is grinding you down ₹300-₹700 every month. You feel it. Chip is worried but not giving up on you.",
         "timeSkip": "6 months later...",
         "choices": [],
         "outcome": {
@@ -1981,8 +2440,8 @@
           "description": "You're in the cycle that this chapter warned you about. The minimum payment trap is real and you're living it. The good news: you know exactly why and exactly how to get out. Make a payoff plan. Pay the maximum you can each month. Do not add to the balance.",
           "badgeEarned": null,
           "financialHealth": "Poor",
-          "interestPaidLabel": "Interest paid: ₹6,000–₹15,000 (and counting)",
-          "lesson": "You've now seen firsthand why banks love minimum payments. The exit is the same as the entry, one payment at a time. But go bigger."
+          "interestPaidLabel": "Interest paid: ₹6,000-₹15,000 (and counting)",
+          "lesson": "You've now seen firsthand why banks love minimum payments. The exit is the same as the entry -- one payment at a time. But go bigger."
         },
         "isEnd": true
       },
@@ -1998,14 +2457,14 @@
           "badgeEarned": null,
           "financialHealth": "Critical",
           "interestPaidLabel": "Interest paid: ₹15,000+ (and the principal barely moved)",
-          "lesson": "The trap is real. Now you know why Chapter 5 exists. Replay this simulation, the way out starts with the choices you didn't make."
+          "lesson": "The trap is real. Now you know why Chapter 5 exists. Replay this simulation -- the way out starts with the choices you didn't make."
         },
         "isEnd": true
       },
       {
         "nodeId": "node-3c-friend",
         "month": 2,
-        "narrative": "Phone sorted. No bank interest, smart. But Month 3 arrives and the first repayment is due: ₹23,333. Your salary is ₹40,000. Rent ₹10,000, groceries ₹5,000, expenses ₹5,000. That leaves ₹20,000, and you owe ₹23,333. You're ₹3,333 short this month.",
+        "narrative": "Phone sorted. No bank interest -- smart. But Month 3 arrives and the first repayment is due: ₹23,333. Your salary is ₹40,000. Rent ₹10,000, groceries ₹5,000, expenses ₹5,000. That leaves ₹20,000, and you owe ₹23,333. You're ₹3,333 short this month.",
         "timeSkip": "Month 3...",
         "walletBalance": 25000,
         "creditBalance": 0,
@@ -2015,7 +2474,7 @@
             "nextNodeId": "node-end-okay",
             "walletImpact": -20000,
             "creditImpact": 0,
-            "feedback": "Chip: 'You had the hard conversation. Your friend agreed, this time. But note what just happened: a ₹70,000 phone purchase turned into a friendship negotiation. Money and friendships mix, but not easily. Repay as fast as you can.'"
+            "feedback": "Chip: 'You had the hard conversation. Your friend agreed, this time. But note what happened: a ₹70,000 phone purchase turned into a friendship negotiation. Money and friendships mix, but not easily. Repay as fast as you can.'"
           },
           {
             "text": "Put the ₹3,333 shortfall on your credit card, pay the friend in full",
@@ -2047,14 +2506,21 @@
             "nextNodeId": "node-end-good",
             "walletImpact": -8000,
             "creditImpact": 0,
-            "feedback": "Chip: 'You earned this. EMI is paid, expenses are covered, and the trip is from real cash, not borrowed money. This is what disciplined spending looks like: you enjoy life within your means. Enjoy Coorg.'"
+            "feedback": "Chip: 'You earned this. EMI is paid, expenses are covered, and the trip is from real cash -- not borrowed money. This is what disciplined spending looks like: you enjoy life within your means. Enjoy Coorg.'"
           },
           {
             "text": "Skip the trip and put ₹15,000 toward pre-paying the phone EMI instead",
             "nextNodeId": "node-end-excellent",
             "walletImpact": -15000,
             "creditImpact": -15000,
-            "feedback": "Chip is impressed: 'Prepaying the EMI reduces your principal, which cuts future interest. That ₹15,000 prepayment saves you roughly ₹2,700 in interest over the remaining tenure. A Coorg trip vs ₹2,700 saved, you made a real financial trade-off and chose wisely.'"
+            "feedback": "Chip is impressed: 'Prepaying the EMI reduces your principal, which cuts future interest. That ₹15,000 prepayment saves you roughly ₹2,700 in interest over the remaining tenure. Coorg trip vs ₹2,700 saved -- you made a real trade-off and chose wisely.'"
+          },
+          {
+            "text": "Go on the trip AND put ₹5,000 toward EMI prepayment -- balance both",
+            "nextNodeId": "node-end-good",
+            "walletImpact": -13000,
+            "creditImpact": -5000,
+            "feedback": "Chip: 'Trip enjoyed, EMI reduced, no new debt. The ₹5,000 prepayment saves about ₹900 in future interest. Not as much as ₹15,000 would have saved, but you lived AND made progress. Sustainable financial behaviour beats extreme discipline that burns you out.'"
           }
         ],
         "isEnd": false
@@ -2079,7 +2545,14 @@
             "nextNodeId": "node-end-poor",
             "walletImpact": -10000,
             "creditImpact": -10000,
-            "feedback": "Chip: '₹4,677 still on the card, which becomes ₹4,817 next month with 3% interest. You had the cash to clear it completely this month. Stretching it out cost you another ₹140 for no reason. When you have the money, pay the debt, always.'"
+            "feedback": "Chip: '₹4,677 still on the card, which becomes ₹4,817 next month with 3% interest. You had the cash to clear it completely this month. Stretching it out cost you another ₹140 for no reason. When you have the money, pay the debt. Always.'"
+          },
+          {
+            "text": "Pay the full ₹14,677 AND set a monthly reminder to always pay in full going forward",
+            "nextNodeId": "node-end-good",
+            "walletImpact": -14677,
+            "creditImpact": -14677,
+            "feedback": "Chip: 'Cleared and learned. A payment reminder is surprisingly powerful -- most people who carry credit card balances do it by accident, not on purpose. You're making it impossible to forget. Smart systems beat good intentions.'"
           }
         ],
         "isEnd": false
@@ -2087,7 +2560,7 @@
       {
         "nodeId": "node-4-small-mistake",
         "month": 4,
-        "narrative": "Month 4. Credit card balance: ₹2,369 (₹2,300 + ₹69 interest). It's small. It barely registers. That's exactly what makes it dangerous, small balances feel harmless, so they linger. Your salary arrives. You have ₹40,000.",
+        "narrative": "Month 4. Credit card balance: ₹2,369 (₹2,300 + ₹69 interest). It's small. It barely registers. That's exactly what makes it dangerous -- small balances feel harmless, so they linger. Your salary arrives. You have ₹40,000.",
         "timeSkip": "Month 4...",
         "walletBalance": 65000,
         "creditBalance": 2369,
@@ -2097,14 +2570,21 @@
             "nextNodeId": "node-end-good",
             "walletImpact": -2369,
             "creditImpact": -2369,
-            "feedback": "Chip: 'The team lunch ended up costing ₹2,869 total, ₹69 in interest for one month of procrastination. Lesson logged. You caught it early. The real danger of small balances is not the amount, it's the habit of leaving them there.'"
+            "feedback": "Chip: 'The team lunch ended up costing ₹2,869 total -- ₹69 in interest for one month of procrastination. Lesson logged. You caught it early. The real danger of small balances isn't the amount. It's the habit of leaving them there.'"
           },
           {
             "text": "Pay minimum again (₹500). It's such a small balance, no rush.",
             "nextNodeId": "node-end-poor",
             "walletImpact": -500,
             "creditImpact": -500,
-            "feedback": "Chip, quietly: '₹1,940 remaining. Becomes ₹1,998 next month. Then ₹2,058. This is how people carry a 'small' balance for 18 months and realize they've paid more in interest than the original purchase. Small debt, left alone, is still debt.'"
+            "feedback": "Chip, quietly: '₹1,940 remaining. Becomes ₹1,998 next month. Then ₹2,058. This is how people carry a small balance for 18 months and realize they've paid more in interest than the original purchase. Small debt, left alone, is still debt.'"
+          },
+          {
+            "text": "Pay the full ₹2,369 and set up auto-pay so this never happens again",
+            "nextNodeId": "node-end-excellent",
+            "walletImpact": -2369,
+            "creditImpact": -2369,
+            "feedback": "Chip: 'Paid AND automated. You turned a small mistake into a permanent fix. Auto-pay for full balance is the single best financial habit you can set up on a credit card. It costs nothing, saves everything, and means you never accidentally carry a balance again.'"
           }
         ],
         "isEnd": false
@@ -2112,7 +2592,7 @@
       {
         "nodeId": "node-4-spender",
         "month": 4,
-        "narrative": "Month 4. You spent the surplus, no regrets, it was fun. Zero debt, zero savings. Then: your landlord's water pump breaks. The whole building is without water for 4 days until the repair is done, costing each tenant ₹2,800. Your wallet has ₹26,000 from this month's salary minus expenses.",
+        "narrative": "Month 4. You spent the surplus -- no regrets, it was fun. Zero debt, zero savings. Then: your landlord's water pump breaks. The whole building is without water for 4 days. Repair cost per tenant: ₹2,800. Your wallet has ₹26,000 from this month's salary minus expenses.",
         "timeSkip": "Month 4...",
         "walletBalance": 26000,
         "creditBalance": 0,
@@ -2122,7 +2602,7 @@
             "nextNodeId": "node-end-good",
             "walletImpact": -2800,
             "creditImpact": 0,
-            "feedback": "Chip: 'You handled it, this time. But notice how close it felt. Three months of spending your surplus means a ₹2,800 surprise is a meaningful dent. One bigger emergency, a medical bill, a phone repair, and you'd have needed the credit card. The emergency fund conversation is real.'"
+            "feedback": "Chip: 'You handled it, this time. But notice how close it felt. Three months of spending your surplus means a ₹2,800 surprise is a real dent. One bigger emergency -- a medical bill, a phone repair -- and you'd have needed the credit card. The emergency fund conversation is real.'"
           },
           {
             "text": "Put the ₹2,800 on the credit card. This month's cash is already allocated.",
@@ -2130,6 +2610,13 @@
             "walletImpact": 0,
             "creditImpact": 2800,
             "feedback": "Chip: 'The exact scenario three months of unsaved surplus leads to: a small, ordinary emergency lands on a credit card at 36% APR. ₹2,800 at 3%/month adds ₹84 in interest if you clear it next month, or much more if you don't. Your fun budget just got taxed.'"
+          },
+          {
+            "text": "Pay ₹2,800 from wallet and finally start an emergency fund with ₹5,000 this month",
+            "nextNodeId": "node-end-good",
+            "walletImpact": -7800,
+            "creditImpact": 0,
+            "feedback": "Chip: 'The wake-up call worked. ₹2,800 paid from cash, and you're finally building a buffer. Even ₹5,000 is a start -- it covers one surprise expense without touching credit. The best time to start an emergency fund was 3 months ago. The second best time is right now.'"
           }
         ],
         "isEnd": false
@@ -2137,7 +2624,7 @@
       {
         "nodeId": "node-5-laptop-minimum",
         "month": 4,
-        "narrative": "Month 4. Your card balance is now ₹70,452, you've paid ₹3,600 but owe more than you started with thanks to ₹2,052 in interest. Your salary arrives. After essentials, you have ₹20,000. The minimum payment this month is ₹3,523. Every rupee above the minimum attacks the principal.",
+        "narrative": "Month 4. Your card balance is now ₹70,452 -- you paid ₹3,600 but owe more than you started with thanks to ₹2,052 in interest. Your salary arrives. After essentials, you have ₹20,000. The minimum payment this month is ₹3,523. Every rupee above the minimum attacks the principal.",
         "timeSkip": "Month 4...",
         "walletBalance": 20000,
         "creditBalance": 70452,
@@ -2147,7 +2634,7 @@
             "nextNodeId": "node-end-poor",
             "walletImpact": -20000,
             "creditImpact": -20000,
-            "feedback": "Chip: '₹50,452 still remaining, becomes ₹51,965 next month. You're fighting back now, but this will take 3+ more months of aggressive payments, costing roughly ₹6,000–₹8,000 total in interest. The laptop cost ₹72,000. You'll actually pay around ₹80,000. Painful but survivable.'"
+            "feedback": "Chip: '₹50,452 still remaining, becomes ₹51,965 next month. You're fighting back now, but this will take 3+ more months of aggressive payments, costing roughly ₹6,000-₹8,000 total in interest. The laptop cost ₹72,000. You'll actually pay around ₹80,000. Painful but survivable.'"
           },
           {
             "text": "Pay the minimum again (₹3,523). Money is too tight right now.",
@@ -2155,6 +2642,13 @@
             "walletImpact": -3523,
             "creditImpact": -3523,
             "feedback": "Chip's alarm is flashing red: '₹66,929 remaining. With 3% monthly interest, minimum-only payments on ₹70,000 will take 2+ years and cost ₹20,000+ in interest. The laptop depreciates to ₹30,000 while you're still paying off ₹70,000. This is the trap in full effect.'"
+          },
+          {
+            "text": "Pay ₹15,000 and sell some stuff you don't need to raise extra cash for next month's payment",
+            "nextNodeId": "node-end-okay",
+            "walletImpact": -15000,
+            "creditImpact": -15000,
+            "feedback": "Chip: '₹55,452 remaining. If you can sell some unused items -- old phone, gaming console, clothes -- and raise ₹10,000-15,000, you accelerate the payoff significantly. Turning stuff you don't use into debt reduction is a real strategy. Every ₹1,000 extra saves ₹30/month in interest.'"
           }
         ],
         "isEnd": false

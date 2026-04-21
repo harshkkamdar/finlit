@@ -3,7 +3,7 @@
   "title": "The Shield",
   "subtitle": "Fraud Protection",
   "accentColor": "shield-blue",
-  "description": "Scammers are getting smarter. But now, so are you. This chapter is your armor, learn to spot, dodge, and report the tricks that cost Indians ₹7,000+ crore every year.",
+  "description": "Scammers are getting smarter. But now, so are you. This chapter is your armor -- learn to spot, dodge, and report the tricks that cost Indians Rs 7,000+ crore every year.",
   "estimatedDuration": "90-120 minutes",
   "totalXP": 600,
   "researchAndOutline": {
@@ -53,19 +53,19 @@
       ]
     },
     "realIndianExamples": [
-      "iQube/Speak Asia Online Ponzi (2011) - ₹2,000 crore scam, 2 million victims lured with 'paid surveys'",
-      "GainBitcoin scam (2017-18) - Amit Bhardwaj promised 10 Bitcoin/month returns, fled with ~₹2,000 crore",
+      "iQube/Speak Asia Online Ponzi (2011) - Rs 2,000 crore scam, 2 million victims lured with 'paid surveys'",
+      "GainBitcoin scam (2017-18) - Amit Bhardwaj promised 10 Bitcoin/month returns, fled with ~Rs 2,000 crore",
       "Mhada lottery scam - fake winners asked to pay 'processing fee' to claim flat",
       "OLX Car/Bike scam - Army officer photo used, fake payment screenshot sent, item never delivered",
       "Fake KYC call script: 'Your Jio/Airtel SIM will be blocked in 2 hours. Press 1 to update KYC' - classic IVR phishing",
       "TRAI impersonation: 'Your number is being used for illegal activities. A CBI case has been filed.'",
       "Screen sharing scam: 'Sir, please install AnyDesk so I can help you update your bank KYC' - then they drain the account",
-      "QR code scam: Seller on OLX says 'I'll send ₹5,000 as advance. Please scan this QR to receive.' QR actually sends ₹5,000 OUT.",
+      "QR code scam: Seller on OLX says 'I'll send Rs 5,000 as advance. Please scan this QR to receive.' QR actually sends Rs 5,000 OUT.",
       "Fake Google Pay/PhonePe customer care numbers on Google Search - paid ads by scammers",
       "SIM swap: Scammer visits Airtel/Jio store with fake ID, ports your number, receives all OTPs",
-      "2024 stat: Indians lost ₹7,061 crore to cyber fraud in just April-September 2024 (MHA data)",
+      "2024 stat: Indians lost Rs 7,061 crore to cyber fraud in just April-September 2024 (MHA data)",
       "Aadhaar-enabled Payment System (AePS) fraud - biometric cloning to drain accounts in Jharkhand, Bihar",
-      "Fake IPO allotment scams on Telegram: 'You got LIC IPO allotment, pay ₹500 processing fee'"
+      "Fake IPO allotment scams on Telegram: 'You got LIC IPO allotment, pay Rs 500 processing fee'"
     ],
     "learningObjectives": [
       "Identify the psychological tactics scammers use (fear, greed, urgency) before they can be applied",
@@ -86,7 +86,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Here is a number that should stop you cold: Indians lost **Rs 7,061 crore** to cyber fraud in just six months of 2024. That is enough money to buy roughly 14,000 new cars. And these were not all gullible people. Engineers, doctors, lawyers, teachers. Smart people. People just like you."
+            "content": "Here is a number that should make you sit up: Indians lost **Rs 7,061 crore** to cyber fraud in just six months of 2024. That is enough to buy roughly 14,000 brand-new cars. And these were not all gullible people -- engineers, doctors, IIT grads, senior executives. Smart people. People just like your parents. People just like you will be."
           }
         },
         {
@@ -94,33 +94,33 @@
           "data": {
             "character": "priya",
             "expression": "confused",
-            "text": "Wait, if smart people fall for scams too, then what even makes a scam work? Like, why do people just... hand over their money?"
+            "text": "Wait, hold on. If smart people fall for scams too, then what even makes a scam work? Like, why do people just... hand over their money?"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Great question. The real question is not 'are scammers targeting people like me?' They are. The real question is: **why do scams work?** Because once you understand the psychology, you become almost impossible to fool."
+            "content": "That is the million-rupee question. And the answer is not 'because people are stupid.' The answer is because scammers have figured out your brain's shortcuts. Once you understand those shortcuts, you become nearly impossible to fool."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Scammers do not win because they are geniuses. They win because they have figured out exactly which buttons to press in your brain. Let us learn what those buttons are."
+            "content": "Scammers do not win because they are geniuses. They win because they know which buttons to press in your brain -- the same buttons that helped your ancestors run from tigers. Let us learn what those buttons are, so nobody presses them on you."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Every successful scam, from a Rs 500 fake lottery to a Rs 2,000 crore Ponzi scheme, runs on the same three-legged stool. Remove one leg and the whole thing collapses. The three legs are: **Fear**, **Greed**, and **Urgency**."
+            "content": "Every successful scam -- from a Rs 500 fake lottery to a Rs 2,000 crore Ponzi scheme -- runs on the same three-legged stool. Remove one leg and the whole thing collapses. Those three legs? **Fear**, **Greed**, and **Urgency**."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "Social Engineering",
-            "definition": "Manipulating people psychologically to make them give up money or sensitive information. No hacking required, just convincing acting and knowledge of how humans think."
+            "definition": "Manipulating people psychologically to make them give up money or sensitive information. No hacking required -- just convincing acting and knowledge of how humans think."
           }
         },
         {
@@ -134,7 +134,13 @@
         {
           "type": "text",
           "data": {
-            "content": "**Fear** is the most powerful. A scammer who calls saying 'Sir, your Aadhaar has been linked to money laundering. A CBI officer will arrive at your home unless you cooperate NOW' is banking on one thing: panic. Panic shuts down logical thinking. When you are scared, your brain shifts from 'let me think this through' to 'just make this stop.'"
+            "content": "You get a call: 'Sir, your Aadhaar has been linked to money laundering. A CBI officer will arrive at your home unless you cooperate NOW.' Your heart starts racing. That is **Fear** at work -- the most powerful of the three legs."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Fear shuts down your thinking brain. When you are panicking, you shift from 'let me think about this' to 'just make this stop.' That is exactly what the scammer wants. Panic is their best friend."
           }
         },
         {
@@ -146,15 +152,39 @@
           }
         },
         {
-          "type": "text",
+          "type": "quick-check",
           "data": {
-            "content": "**Greed** is more gentle but equally deadly. 'You have been selected for a special IPO allotment. Put in Rs 50,000 now to confirm your slot.' Nobody wants to miss out on easy money. The scammer knows that, and they use it."
+            "question": "What are the three psychological levers that power every scam?",
+            "options": [
+              {
+                "text": "Anger, Sadness, and Confusion",
+                "isCorrect": false
+              },
+              {
+                "text": "Fear, Greed, and Urgency",
+                "isCorrect": true
+              },
+              {
+                "text": "Trust, Hope, and Excitement",
+                "isCorrect": false
+              },
+              {
+                "text": "Boredom, Curiosity, and Loneliness",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "**Urgency** is the closer. It prevents you from doing the one thing that would expose every scam: **pausing and thinking**. 'This offer is only valid for the next 15 minutes.' 'Your SIM will be deactivated in 2 hours.' 'The officer is already on his way.' Time pressure is artificial. Always."
+            "content": "**Greed** works more quietly but is equally deadly. You get a Telegram DM: 'You have been selected for a special IPO allotment. Put in Rs 50,000 now to confirm your slot -- expected 3x returns in a month.' Nobody wants to miss out on easy money. The scammer is counting on that."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "**Urgency** is the closer. It stops you from doing the one thing that would expose every scam: **pausing and thinking**. 'This offer expires in 15 minutes.' 'Your SIM will be deactivated in 2 hours.' 'The officer is already on his way.' That time pressure? It is always fake."
           }
         },
         {
@@ -162,7 +192,27 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "Think of it like this. Fear makes you panic, Greed makes you dream, and Urgency makes sure you do not stop to think. A scammer just needs two of the three and you are already in trouble."
+            "text": "Yaar, think of it like this. Fear makes you panic, Greed makes you dream, and Urgency makes sure you do not stop to think. A scammer just needs two out of three -- and you are already in trouble."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A scammer uses the Fear lever. What does that do to your brain?",
+            "options": [
+              {
+                "text": "It makes you curious about the offer",
+                "isCorrect": false
+              },
+              {
+                "text": "It shifts you from logical thinking to panic mode",
+                "isCorrect": true
+              },
+              {
+                "text": "It makes you want to earn more money",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -184,7 +234,7 @@
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "The Pause Protocol: Next time something makes you feel fear plus urgency at the same time, STOP. Hang up. Do not click. Do not transfer. Give yourself 10 minutes and call the organization directly using the number on their official website, not the one in the suspicious message."
+            "content": "The Pause Protocol: Next time something makes you feel fear plus urgency at the same time, STOP. Hang up. Do not click. Do not transfer. Give yourself 10 minutes and call the organization directly using the number on their official website -- never the number from the suspicious message."
           }
         },
         {
@@ -195,23 +245,63 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "What is 'vishing'?",
+            "options": [
+              {
+                "text": "Hacking someone's computer remotely",
+                "isCorrect": false
+              },
+              {
+                "text": "Scamming someone over a phone call by pretending to be from a trusted organization",
+                "isCorrect": true
+              },
+              {
+                "text": "Sending fake emails that look like bank messages",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "One more thing: scammers are not random. They often know your name, your bank, sometimes even the last 4 digits of your card because leaked data is bought and sold online. This 'insider knowledge' makes them feel legitimate. It is not. It just means your data was in a breach, which has happened to literally hundreds of millions of Indians."
+            "content": "One more thing that throws people off: scammers often know your name, your bank, sometimes even the last 4 digits of your card. They buy this from data leaks -- leaked databases of hundreds of millions of Indians are sold online. This 'insider knowledge' makes them sound real. It is not proof of anything."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "India's cybercrime helpline, 1930, received over 1.5 million calls in 2023. That is roughly one call every 20 seconds. You are not alone, and this is very, very common."
+            "content": "India's cybercrime helpline, 1930, received over 1.5 million calls in 2023. That is roughly one call every 20 seconds. You are not alone, and this is way more common than you think."
           }
         },
         {
           "type": "key-term",
           "data": {
             "term": "KYC (Know Your Customer)",
-            "definition": "A verification process where banks and financial companies confirm your identity using documents like Aadhaar, PAN, and address proof. Banks do require KYC updates occasionally, but they notify you through their official app or registered mail, never through WhatsApp messages or random phone calls."
+            "definition": "A verification process where banks and financial companies confirm your identity using documents like Aadhaar, PAN, and address proof. Banks do require KYC updates occasionally, but they notify you through their official app or registered mail -- never through WhatsApp messages or random phone calls."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "If a caller knows your name, bank, and the last 4 digits of your card, does that prove they are from your bank?",
+            "options": [
+              {
+                "text": "Yes, only your bank would know those details",
+                "isCorrect": false
+              },
+              {
+                "text": "No, this data is commonly available from data breaches and leaks",
+                "isCorrect": true
+              },
+              {
+                "text": "Maybe, you should share your OTP to verify",
+                "isCorrect": false
+              }
+            ]
           }
         }
       ],
@@ -255,7 +345,7 @@
               "correctCategory": "Fear"
             },
             {
-              "text": "'You have won ₹25 lakh in the BSNL Lucky Draw'",
+              "text": "'You have won Rs 25 lakh in the BSNL Lucky Draw'",
               "correctCategory": "Greed"
             },
             {
@@ -267,7 +357,7 @@
               "correctCategory": "Fear"
             },
             {
-              "text": "'Invest ₹10,000 now and get ₹50,000 in 3 months, guaranteed'",
+              "text": "'Invest Rs 10,000 now and get Rs 50,000 in 3 months, guaranteed'",
               "correctCategory": "Greed"
             },
             {
@@ -306,7 +396,7 @@
           "type": "true-false",
           "prompt": "If a scammer knows your name, bank name, and the last 4 digits of your card, it proves they're really from your bank.",
           "correctAnswer": false,
-          "explanation": "This is one of scammers' most powerful tricks, using leaked data to seem legitimate. Millions of Indians' data (names, phone numbers, partial card numbers) have been leaked from apps, hospitals, telcos, and e-commerce sites. A scammer buying this data can sound remarkably convincing. Real banks will NEVER use this information to 'verify' themselves, it's supposed to be YOU proving your identity to THEM, not the other way.",
+          "explanation": "This is one of scammers' most powerful tricks -- using leaked data to seem legitimate. Millions of Indians' data (names, phone numbers, partial card numbers) have been leaked from apps, hospitals, telcos, and e-commerce sites. A scammer buying this data can sound remarkably convincing. Real banks will NEVER use this information to 'verify' themselves -- it's supposed to be YOU proving your identity to THEM, not the other way.",
           "xpValue": 10
         },
         {
@@ -348,7 +438,7 @@
         {
           "type": "text",
           "data": {
-            "content": "You are selling your old phone on OLX. A buyer messages you, claims to be an Army officer posted in Ladakh, can not meet in person, but he is very interested. He offers full price, no negotiation. 'I will transfer the advance payment right now. Just scan this QR code to receive the money.'"
+            "content": "You are selling your old phone on OLX for Rs 12,000. A buyer messages you -- says he is an Army officer posted in Ladakh, cannot meet in person, but he is very interested. He offers full price, zero bargaining. 'I will transfer the advance right now. Just scan this QR code to receive the money.'"
           }
         },
         {
@@ -356,13 +446,13 @@
           "data": {
             "character": "priya",
             "expression": "thinking",
-            "text": "Hmm, that sounds weirdly smooth. Like, who pays full price without even bargaining? And why does he need me to scan something to RECEIVE money?"
+            "text": "Okay, that already feels off. Who pays full price without even bargaining? And since when do you need to scan something to RECEIVE money? That is like being asked to open your wallet to get paid."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "You scan the QR code. Your UPI app opens. You enter your PIN. And Rs 5,000 leaves your account. You did not receive anything, you **sent** money. The 'buyer' has vanished. Welcome to the most common UPI scam in India."
+            "content": "You scan the QR code. Your UPI app opens. You enter your PIN. And Rs 5,000 leaves your account. You did not receive anything -- you **sent** money. The 'buyer' has blocked you. Welcome to India's most common UPI scam."
           }
         },
         {
@@ -376,7 +466,27 @@
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "The most important thing you will learn in this entire chapter: **Scanning a QR code can ONLY send money. You CANNOT receive money by scanning a QR code.** Ever. If someone tells you to scan a QR to receive payment, it is a scam. Full stop."
+            "content": "Tattoo this on your brain: **Scanning a QR code can ONLY send money. You CANNOT receive money by scanning a QR code.** Ever. Period. If someone asks you to scan a QR to receive payment, that is a scam. No exceptions. Not on GPay, not on PhonePe, not on Paytm. Nowhere."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Can you receive money by scanning a QR code?",
+            "options": [
+              {
+                "text": "Yes, if the sender sets it up correctly",
+                "isCorrect": false
+              },
+              {
+                "text": "No, scanning a QR code can only send money, never receive it",
+                "isCorrect": true
+              },
+              {
+                "text": "Yes, but only on Google Pay",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -397,7 +507,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Here is how UPI actually works. There are two directions: **Send** (you initiate, you enter PIN, money goes OUT) and **Receive** (someone sends to your UPI ID, no PIN needed, money comes IN). You only ever enter your PIN when money is going OUT. So if someone asks you to enter your PIN to 'receive' money, something is deeply wrong."
+            "content": "Here is how UPI actually works. Two directions: **Send** (you initiate, you enter PIN, money goes OUT) and **Receive** (someone sends to your UPI ID, no PIN needed, money comes IN). You only ever enter your PIN when money is leaving. If someone asks you to enter your PIN to 'receive' money, stop right there."
           }
         },
         {
@@ -409,9 +519,29 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "When you receive money via UPI, what do you need to do?",
+            "options": [
+              {
+                "text": "Enter your UPI PIN to accept the payment",
+                "isCorrect": false
+              },
+              {
+                "text": "Approve a collect request notification",
+                "isCorrect": false
+              },
+              {
+                "text": "Nothing at all -- the money arrives automatically",
+                "isCorrect": true
+              }
+            ]
+          }
+        },
+        {
           "type": "text",
           "data": {
-            "content": "Now let us talk about **Collect Requests**, the sneakier version. A scammer sends you a collect request through GPay or PhonePe or Paytm. It looks like a payment notification. The message might say 'Anil Kumar has sent you Rs 5,000. Approve to receive.' But approving it does not receive money. It **authorizes** them to pull Rs 5,000 from your account."
+            "content": "Now the sneakier version: **Collect Requests**. A scammer sends you a collect request through GPay or PhonePe. It looks like a payment notification. The message says 'Anil Kumar has sent you Rs 5,000. Approve to receive.' But approving does not receive money -- it **authorizes** them to pull Rs 5,000 from your account."
           }
         },
         {
@@ -419,7 +549,31 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "Here is the simple rule I follow. If I need to enter my PIN or approve something, money is leaving. If money is coming to me, I literally do nothing. No PIN, no approval, nothing. It just shows up."
+            "text": "Simple rule, bhai. If I need to enter my PIN or approve something, money is leaving. If money is coming to me, I literally do nothing. No PIN, no approval, nothing. It just shows up in my account. That is it."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "You get a notification: 'Approve to receive Rs 2,000 from Rahul.' You don't know any Rahul. What is really happening?",
+            "options": [
+              {
+                "text": "Someone named Rahul is trying to send you money",
+                "isCorrect": false
+              },
+              {
+                "text": "It is a collect request -- approving it will SEND Rs 2,000 FROM your account to the scammer",
+                "isCorrect": true
+              },
+              {
+                "text": "Your UPI app has a glitch, restart it and try again",
+                "isCorrect": false
+              },
+              {
+                "text": "It is safe to approve small amounts like Rs 2,000",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -432,14 +586,34 @@
         {
           "type": "text",
           "data": {
-            "content": "The AnyDesk scam is particularly nasty. Someone calls saying they are from Google Pay customer care (which does not exist, GPay has no phone support). They say there is an issue with your account and they need to 'see your screen to fix it.' Once AnyDesk is installed and you grant access, they can see everything, including OTPs that pop up on your screen."
+            "content": "The AnyDesk scam is particularly nasty. Someone calls saying they are from Google Pay customer care (which does not even exist -- GPay has no phone support). They say your account has a problem and need to 'see your screen to fix it.' Once AnyDesk is installed, they see everything -- including OTPs popping up on your screen."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "Google Pay, PhonePe, and Paytm do NOT have customer care phone numbers that call you. Their support is only through the app or official website. Any number claiming to be 'UPI customer care' on Google Search is almost certainly a scam. Some of them are paid ads by scammers."
+            "content": "Google Pay, PhonePe, and Paytm do NOT have customer care phone numbers that call you. Their support is only through the app. Any number claiming to be 'UPI customer care' on Google Search is almost certainly a scam -- some are literally paid ads placed by fraudsters. Yes, scammers buy Google Ads."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Someone asks you to install AnyDesk to fix a 'Google Pay issue.' What should you do?",
+            "options": [
+              {
+                "text": "Install it -- they just want to help fix the problem",
+                "isCorrect": false
+              },
+              {
+                "text": "Refuse -- Google Pay has no phone support, and AnyDesk gives full screen access to scammers",
+                "isCorrect": true
+              },
+              {
+                "text": "Install it but watch your screen carefully",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -453,21 +627,41 @@
         {
           "type": "text",
           "data": {
-            "content": "Another growing scam: **fake merchant QR codes**. Someone swaps the QR code at a small shop with their own. You scan what you think is the food stall's code, but the money goes to a scammer. The shop owner does not know. You paid. Nobody received it legitimately. Always check that the name shown on your UPI app matches who you think you are paying before entering your PIN."
+            "content": "Another growing scam: **fake merchant QR codes**. Someone sticks their own QR code on top of a chai stall's real QR. You scan what you think is the shop's code, but the money goes to a scammer. The shopkeeper does not know. Always check that the payee name on your UPI app matches the shop before entering your PIN."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Your UPI app shows a different payee name than the shop you are paying at. What should you do?",
+            "options": [
+              {
+                "text": "Pay anyway, business names can differ from registered names",
+                "isCorrect": false
+              },
+              {
+                "text": "Stop the payment and alert the shopkeeper -- the QR code may have been swapped by a scammer",
+                "isCorrect": true
+              },
+              {
+                "text": "Pay a small test amount first to see where it goes",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Before every UPI payment: (1) Check the payee name, does it match who you expect? (2) Check the amount, is this what you agreed? (3) Check your balance after, did it change correctly? 10 seconds of verification beats hours of trying to recover lost money."
+            "content": "Before every UPI payment: (1) Check the payee name -- does it match who you expect? (2) Check the amount -- is this what you agreed? (3) Check your balance after -- did it change correctly? 10 seconds of verification beats hours of trying to recover lost money."
           }
         }
       ],
       "exercises": [
         {
           "type": "scenario",
-          "scenario": "You're selling your second-hand cycle for ₹4,000 on OLX. A buyer named 'Captain Rajesh Singh' says he's in the Army and can't come pick it up but will courier it. He sends a QR code and says: 'Scan this to receive your payment. Once I see you've received it, I'll arrange the courier.'",
+          "scenario": "You're selling your second-hand cycle for Rs 4,000 on OLX. A buyer named 'Captain Rajesh Singh' says he's in the Army and can't come pick it up but will courier it. He sends a QR code and says: 'Scan this to receive your payment. Once I see you've received it, I'll arrange the courier.'",
           "prompt": "What's happening here?",
           "options": [
             {
@@ -475,7 +669,7 @@
               "isCorrect": false
             },
             {
-              "text": "Scam, scanning the QR will send ₹4,000 FROM your account, not to it",
+              "text": "Scam, scanning the QR will send Rs 4,000 FROM your account, not to it",
               "isCorrect": true
             },
             {
@@ -487,7 +681,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "This is the textbook OLX Army officer scam. The 'Army posting' creates empathy and explains why they can't meet in person. The QR code is set to pull ₹4,000 from your account, not send to you. The 'once I see you've received it' creates false legitimacy. Real buyers pay you first by entering your UPI ID, you don't need to do anything to receive money.",
+          "explanation": "This is the textbook OLX Army officer scam. The 'Army posting' creates empathy and explains why they can't meet in person. The QR code is set to pull Rs 4,000 from your account, not send to you. The 'once I see you've received it' creates false legitimacy. Real buyers pay you first by entering your UPI ID, you don't need to do anything to receive money.",
           "xpValue": 15
         },
         {
@@ -530,7 +724,7 @@
           ],
           "items": [
             {
-              "text": "Scanning a merchant's QR code at a shop and paying ₹200",
+              "text": "Scanning a merchant's QR code at a shop and paying Rs 200",
               "correctCategory": "Safe"
             },
             {
@@ -554,7 +748,7 @@
               "correctCategory": "Scam"
             }
           ],
-          "explanation": "The pattern: anything involving scanning from a stranger or approving from an unknown number = scam. Legitimate transactions flow from your choice, you initiate payment to someone you've verified, or you share your ID so others can send to you.",
+          "explanation": "The pattern: anything involving scanning from a stranger or approving from an unknown number = scam. Legitimate transactions flow from your choice -- you initiate payment to someone you've verified, or you share your ID so others can send to you.",
           "xpValue": 15
         },
         {
@@ -586,13 +780,13 @@
     {
       "lessonId": "6.3",
       "title": "OTP Fraud",
-      "subtitle": "The Last Door - And Why You Must Never Open It",
+      "subtitle": "The Last Door -- And Why You Must Never Open It",
       "estimatedReadingTime": "9 minutes",
       "contentBlocks": [
         {
           "type": "text",
           "data": {
-            "content": "Picture your bank account as a locker. Your password is the key. Your PIN is the second lock. But there is one more door, the last line of defense that protects your money even if someone has everything else. That door is your **OTP**."
+            "content": "Think of your bank account as a locker room with three doors. Your password is the first door. Your PIN is the second. But the final door -- the one that stands between a scammer and your money even if they have cracked everything else -- is your **OTP**."
           }
         },
         {
@@ -613,7 +807,27 @@
         {
           "type": "text",
           "data": {
-            "content": "OTP stands for One-Time Password. It is a 6-digit number that expires in 30 to 60 seconds and is sent ONLY to your registered mobile number. The entire point of an OTP is that even if a scammer has your password and PIN, they still cannot get in because they do not have your physical phone."
+            "content": "OTP stands for One-Time Password. It is a 6-digit number that expires in 30 to 60 seconds, sent ONLY to your registered mobile. The entire point? Even if a scammer has your password and PIN, they still cannot get in because they do not have your physical phone."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What is the purpose of an OTP in banking?",
+            "options": [
+              {
+                "text": "It is a permanent password for your account",
+                "isCorrect": false
+              },
+              {
+                "text": "It is a temporary code to verify that you authorized a transaction",
+                "isCorrect": true
+              },
+              {
+                "text": "It is a code that the bank uses to contact you",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -621,20 +835,46 @@
           "data": {
             "character": "priya",
             "expression": "surprised",
-            "text": "So the OTP is literally the last wall between a scammer and my money? And people just... tell it to strangers on the phone?"
+            "text": "So the OTP is literally the last wall between a scammer and your money? And people just... tell it to strangers on the phone?!"
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "The person who needs your OTP the most is the person trying to steal from you. Legitimate systems do not need you to read out your OTP. They send it to verify YOU, not to verify THEM."
+            "content": "Never share your OTP. Not with your bank. Not with your mom. Not with anyone who calls claiming to be from Paytm. The person who needs your OTP the most is the person trying to rob you. Real systems send the OTP to verify YOU -- they never need you to read it out loud."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here is a real script used by scammers who call pretending to be SBI or HDFC customer care: 'Sir, we noticed an unauthorized login attempt on your account. To secure your account, I need to verify your identity. I am sending you an OTP right now, please tell me what it says so I can block the suspicious access.' The OTP they are sending? That is the one they just triggered to transfer money OUT of your account."
+            "content": "Here is a real script scammers use when they call pretending to be SBI or HDFC: 'Sir, we noticed an unauthorized login attempt on your account. To secure your account, I need to verify your identity. I am sending you an OTP -- please tell me what it says so I can block the suspicious access.'"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "Sounds helpful, right? Here is what is actually happening: the scammer triggered a transaction to steal your money, and that OTP is the authorization code for THAT transaction. You read it out, they type it in, and your money is gone."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "A 'bank employee' calls and asks you to share your OTP to 'block a suspicious transaction.' What is actually happening?",
+            "options": [
+              {
+                "text": "They are protecting your account from fraud",
+                "isCorrect": false
+              },
+              {
+                "text": "The OTP they triggered is for a transaction they want to steal from you",
+                "isCorrect": true
+              },
+              {
+                "text": "They need the OTP to verify their own identity",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -655,7 +895,13 @@
         {
           "type": "text",
           "data": {
-            "content": "SIM swap is more sophisticated. The scammer already has your name, address, and partial bank details from leaked data. They walk into a Jio or Airtel store with a fake Aadhaar and say your old SIM was lost. Once they get your number on their SIM, all OTPs go to them. First sign that this is happening: your phone suddenly loses network signal entirely. If that happens out of nowhere, call your telecom operator immediately from another phone."
+            "content": "SIM swap is more sophisticated. The scammer already has your name and address from leaked data. They walk into a Jio or Airtel store with a fake Aadhaar and say your old SIM was lost. Once they get your number on their SIM, all OTPs go to them."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The first sign of a SIM swap? Your phone suddenly loses network signal entirely -- not just weak bars, but zero bars in a place where you normally have full signal. If that happens out of nowhere, call your telecom operator immediately from another phone."
           }
         },
         {
@@ -667,11 +913,31 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "Your phone suddenly loses network signal completely in an area where it normally works. What could this indicate?",
+            "options": [
+              {
+                "text": "Routine network maintenance by your telecom operator",
+                "isCorrect": false
+              },
+              {
+                "text": "A possible SIM swap attack -- someone may have ported your number to their SIM",
+                "isCorrect": true
+              },
+              {
+                "text": "Your phone battery is too low for signal",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
           "type": "dialogue",
           "data": {
             "character": "arjun",
             "expression": "worried",
-            "text": "The scary part about SIM swap is that your phone just goes dead. No warning, no message. By the time you figure out what happened, they have already received your OTPs and moved your money."
+            "text": "The scary part about SIM swap is that your phone just goes dead. No warning, no message. By the time you figure out what happened, they have already received your OTPs and emptied your account. Speed matters -- seconds, not hours."
           }
         },
         {
@@ -684,32 +950,56 @@
         {
           "type": "text",
           "data": {
-            "content": "There is also **OTP forwarding malware**: apps that hide in your phone and automatically forward all incoming SMSes (including OTPs) to scammers. This is why you should never install apps from outside the Play Store or App Store, especially ones sent to you via WhatsApp links."
+            "content": "There is also **OTP forwarding malware** -- apps that hide in your phone and automatically forward all incoming SMSes (including OTPs) to scammers. This is why you should never install apps from outside the Play Store or App Store, especially ones sent via WhatsApp links like 'Install this modified GPay for extra cashback.'"
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Your friend sends you an APK file on WhatsApp: 'Bro install this modified PhonePe, it gives 5% extra cashback.' What should you do?",
+            "options": [
+              {
+                "text": "Install it -- your friend would not send something harmful",
+                "isCorrect": false
+              },
+              {
+                "text": "Do not install it -- apps from outside Play Store or App Store can contain OTP-forwarding malware",
+                "isCorrect": true
+              },
+              {
+                "text": "Install it but disable SMS permissions",
+                "isCorrect": false
+              },
+              {
+                "text": "Scan it with your phone's antivirus first, then install",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "Simple OTP hygiene: (1) Never share an OTP with anyone on a call. (2) Never type an OTP into a website you did not navigate to yourself. (3) If your phone loses signal suddenly, call your operator immediately. (4) Enable SIM lock or port protection, most operators offer this."
+            "content": "Simple OTP hygiene: (1) Never share an OTP with anyone on a call. (2) Never type an OTP into a website you did not navigate to yourself. (3) If your phone loses signal suddenly, call your operator immediately from another phone. (4) Enable SIM lock or port protection -- most operators offer this for free."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "RBI made it mandatory for banks to mention the transaction purpose in OTP messages. If your OTP SMS does not say what it is for, that is a red flag in itself. A good OTP message always tells you: what is happening, what amount, and to whom."
+            "content": "RBI made it mandatory for banks to mention the transaction purpose in OTP messages. If your OTP SMS does not say what it is for -- what amount, to whom -- that is a red flag in itself. A good OTP message always tells you: what is happening, how much, and where."
           }
         }
       ],
       "exercises": [
         {
           "type": "scenario",
-          "scenario": "You receive a call: 'Hello, I'm Priya from HDFC Bank. We've detected a suspicious ₹49,000 transaction on your account from Bengaluru. To block this, I'm sending you an OTP. Please share it with me immediately so we can cancel the transaction.'",
+          "scenario": "You receive a call: 'Hello, I'm Priya from HDFC Bank. We've detected a suspicious Rs 49,000 transaction on your account from Bengaluru. To block this, I'm sending you an OTP. Please share it with me immediately so we can cancel the transaction.'",
           "prompt": "What's the correct response?",
           "options": [
             {
-              "text": "Share the OTP, you need to stop the ₹49,000 transaction",
+              "text": "Share the OTP, you need to stop the Rs 49,000 transaction",
               "isCorrect": false
             },
             {
@@ -725,14 +1015,14 @@
               "isCorrect": false
             }
           ],
-          "explanation": "The ₹49,000 suspicious transaction is bait, it makes you feel like sharing the OTP will protect you. But the OTP they're asking for is actually for the ₹49,000 transaction they're trying to initiate. Hang up. Log into your actual HDFC app or call their official number to check. Real fraud alerts are informational, they don't need your OTP to 'block' a transaction.",
+          "explanation": "The Rs 49,000 suspicious transaction is bait -- it makes you feel like sharing the OTP will protect you. But the OTP they're asking for is actually for the Rs 49,000 transaction they're trying to initiate. Hang up. Log into your actual HDFC app or call their official number to check. Real fraud alerts are informational -- they don't need your OTP to 'block' a transaction.",
           "xpValue": 15
         },
         {
           "type": "true-false",
-          "prompt": "If an OTP message says it's for a ₹30,000 transfer that you didn't initiate, you should enter it into the site you're on to 'cancel' the transfer.",
+          "prompt": "If an OTP message says it's for a Rs 30,000 transfer that you didn't initiate, you should enter it into the site you're on to 'cancel' the transfer.",
           "correctAnswer": false,
-          "explanation": "An OTP can only AUTHORIZE a transaction, it cannot cancel one. If you see an OTP for a transaction you didn't start, it means someone else triggered it. Don't enter the OTP anywhere. Call your bank immediately to report unauthorized activity. Entering the OTP completes the transaction, the opposite of canceling it.",
+          "explanation": "An OTP can only AUTHORIZE a transaction -- it cannot cancel one. If you see an OTP for a transaction you didn't start, it means someone else triggered it. Don't enter the OTP anywhere. Call your bank immediately to report unauthorized activity. Entering the OTP completes the transaction, the opposite of canceling it.",
           "xpValue": 10
         },
         {
@@ -756,12 +1046,12 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Sudden unexplained signal loss is a key warning sign of a SIM swap attack. While you're wondering what's wrong with your phone, a scammer might have your number on their SIM and is receiving your OTPs. Call your operator (Jio: 199, Airtel: 121, Vi: 199) from a family member's phone immediately. Faster is better, every minute matters.",
+          "explanation": "Sudden unexplained signal loss is a key warning sign of a SIM swap attack. While you're wondering what's wrong with your phone, a scammer might have your number on their SIM and is receiving your OTPs. Call your operator (Jio: 199, Airtel: 121, Vi: 199) from a family member's phone immediately. Faster is better -- every minute matters.",
           "xpValue": 15
         },
         {
           "type": "sorting",
-          "prompt": "Sort these situations, should you share or not share your OTP?",
+          "prompt": "Sort these situations -- should you share or not share your OTP?",
           "categories": [
             "Share OTP",
             "NEVER Share OTP"
@@ -820,7 +1110,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "All five are red flags. Scammers call YOU (banks only call for pre-scheduled callbacks or post-complaint follow-ups). They create urgency. They use leaked data to sound credible. They reframe OTP sharing as protective. And they use professional automated phone menus that sound just like a real bank's system, you can literally buy a fake one for Rs 5,000 online. None of this indicates legitimacy.",
+          "explanation": "All five are red flags. Scammers call YOU (banks only call for pre-scheduled callbacks or post-complaint follow-ups). They create urgency. They use leaked data to sound credible. They reframe OTP sharing as protective. And they use professional automated phone menus that sound just like a real bank's system -- you can literally buy a fake one for Rs 5,000 online. None of this indicates legitimacy.",
           "xpValue": 10
         }
       ]
@@ -832,6 +1122,26 @@
       "estimatedReadingTime": "11 minutes",
       "contentBlocks": [
         {
+          "type": "text",
+          "data": {
+            "content": "You get added to a WhatsApp group called 'Stock Market Millionaires.' A guy named 'Finance Guru Suresh Ji' posts a screenshot every morning: 'Today's trade: +Rs 28,000 in 2 hours using my secret algorithm.' Other members are cheering: 'Suresh Ji zindabad!' Sounds legit?"
+          }
+        },
+        {
+          "type": "dialogue",
+          "data": {
+            "character": "priya",
+            "expression": "surprised",
+            "text": "Rs 28,000 in 2 hours?! That is literally more than most adults earn in a month. How can anyone believe that?"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "People believe it because the scam validates itself first. In 2018, a man named Amit Bhardwaj promised his audience something wild: invest your Bitcoin with him, and he would return 10 Bitcoin per month for every 10 invested. 100% monthly returns. He collected Rs 2,000 to 8,000 crore before it all collapsed. His scheme was called GainBitcoin."
+          }
+        },
+        {
           "type": "key-term",
           "data": {
             "term": "Ponzi Scheme",
@@ -841,21 +1151,7 @@
         {
           "type": "text",
           "data": {
-            "content": "In 2018, a man named Amit Bhardwaj stood on a stage and promised his audience something extraordinary: invest your Bitcoin with him, and he would return 10 Bitcoin every month per 10 Bitcoin invested. That is a 100% monthly return. He collected somewhere between Rs 2,000 to Rs 8,000 crore from investors before the scheme collapsed. His company was called GainBitcoin."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "priya",
-            "expression": "surprised",
-            "text": "100% monthly returns?! That is literally doubling your money every month. How did anyone believe that was real?"
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "In 2010-2011, Speak Asia Online promised Rs 11,000 per month to anyone who paid Rs 11,000 to join and filled out online surveys. About 2 million Indians signed up. The surveys were fake. The money came from new joiners, not from any real business. Classic Ponzi. When new joiners dried up, it collapsed."
+            "content": "In 2010-2011, Speak Asia Online promised Rs 11,000 per month to anyone who paid Rs 11,000 to join and filled out online 'surveys.' About 2 million Indians signed up. The surveys were fake. The money came from new joiners. Classic Ponzi. When new members dried up, it collapsed, and everyone's money vanished."
           }
         },
         {
@@ -867,16 +1163,36 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "In a Ponzi scheme, where do the 'returns' paid to early investors come from?",
+            "options": [
+              {
+                "text": "From real profits generated by the investment",
+                "isCorrect": false
+              },
+              {
+                "text": "From money put in by newer investors",
+                "isCorrect": true
+              },
+              {
+                "text": "From a government subsidy fund",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "India's best legitimate investment, Nifty 50 index, has returned around 12 to 14% annually over 20 years. If someone is promising you 30% monthly, that is 360% annually. From where, exactly?"
+            "content": "India's best legitimate investment -- the Nifty 50 index -- has returned about 12 to 14% annually over 20 years. If someone promises you 30% monthly, that is 360% annually. Where is this magic money tree? Can I also visit it?"
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Here is the thing about Ponzi schemes: they feel real for a while. Early investors actually receive their 'returns.' Word spreads. Your uncle made money. Your neighbor made money. The scheme recruits faster. This is exactly why smart, educated people fall for them. The scheme validates itself until it does not."
+            "content": "Here is the thing about Ponzi schemes: they feel real for a while. Early investors actually receive their 'returns.' Word spreads. Your uncle made money. Your neighbor made money. So you put money in. This is exactly how smart people get trapped -- the scheme validates itself until it suddenly does not."
           }
         },
         {
@@ -890,7 +1206,27 @@
         {
           "type": "text",
           "data": {
-            "content": "Today's version of investment scams often runs through **Telegram groups** and **WhatsApp**. You get added to a group called 'NSE Trading Tips - Members Only.' A 'mentor' posts screenshots of massive profits daily. Members (actually fake accounts) cheer and post their own 'wins.' They invite you to join a premium group for Rs 5,000. Once you pay, poof."
+            "content": "Today's version runs through **Telegram groups** and **Instagram DMs**. You get added to a group with a 'mentor' posting daily profit screenshots. Members (actually fake accounts or bots) cheer and post their own 'wins.' Then comes the hook: join the premium group for Rs 5,000. Once you pay, poof -- 'Suresh Ji' was never real."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "India's Nifty 50 index has returned about 12-14% annually over 20 years. Someone promises you 30% monthly returns. Is this realistic?",
+            "options": [
+              {
+                "text": "Yes, if they have a special algorithm",
+                "isCorrect": false
+              },
+              {
+                "text": "No, 30% monthly is 360% annually -- far beyond what any legitimate investment can deliver",
+                "isCorrect": true
+              },
+              {
+                "text": "Maybe, crypto can deliver those kinds of returns",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -912,13 +1248,37 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "The simplest test is this: can you verify the company on SEBI's website? If they are not registered, do not give them a single rupee. Takes two minutes. Go to sebi.gov.in and search."
+            "text": "Easiest test in the world, bhai. Can you verify the company or advisor on SEBI's website? Go to sebi.gov.in, search their name. If they are not registered, do not give them a single rupee. Takes two minutes. Literally two minutes."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "How can you verify if an investment advisor or platform is legitimate in India?",
+            "options": [
+              {
+                "text": "Check if they have a professional website and good reviews",
+                "isCorrect": false
+              },
+              {
+                "text": "Check their SEBI registration at sebi.gov.in",
+                "isCorrect": true
+              },
+              {
+                "text": "Ask them for a money-back guarantee",
+                "isCorrect": false
+              },
+              {
+                "text": "See if your friends have invested with them",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "**Fake trading apps** are the newest evolution. You are recruited on Instagram or Telegram to a platform that looks exactly like a real broker. Professional UI, live market data, portfolio tracking. You 'invest' Rs 10,000. You watch it grow to Rs 50,000 on screen. You try to withdraw. Suddenly there are 'taxes' to pay, 'compliance fees,' 'withdrawal processing charges.' Every fee you pay disappears. The Rs 50,000 on screen was never real."
+            "content": "**Fake trading apps** are the newest evolution. You get recruited on Instagram or Telegram to a platform that looks like a real broker -- slick UI, live charts, portfolio tracking. You 'invest' Rs 10,000. You watch it grow to Rs 50,000 on screen. You try to withdraw. Suddenly there are 'taxes,' 'compliance fees,' 'withdrawal processing charges.' Every fee you pay disappears. The Rs 50,000 was never real."
           }
         },
         {
@@ -930,24 +1290,48 @@
           }
         },
         {
+          "type": "quick-check",
+          "data": {
+            "question": "You invested Rs 10,000 on a trading app and it shows Rs 50,000 profit. When you try to withdraw, they ask for Rs 8,000 in 'processing fees.' What is happening?",
+            "options": [
+              {
+                "text": "Normal withdrawal fees -- pay and collect your Rs 50,000",
+                "isCorrect": false
+              },
+              {
+                "text": "The Rs 50,000 was never real -- it is a fake app designed to extract more money from you through endless fees",
+                "isCorrect": true
+              },
+              {
+                "text": "Ask for a receipt of the fees, then it is safe to pay",
+                "isCorrect": false
+              },
+              {
+                "text": "Pay the fee since you will still profit Rs 32,000 after all deductions",
+                "isCorrect": false
+              }
+            ]
+          }
+        },
+        {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "You can literally buy a fake trading app interface online for a few thousand rupees. The charts move, the portfolio updates, the profits look real. But there is no actual connection to any stock exchange. It is all just a frontend designed to take your money."
+            "content": "You can literally buy a fake trading app interface online for a few thousand rupees. The charts move, the portfolio updates, profits look real. But there is zero connection to any actual stock exchange. It is pure theatre designed to take your money."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "tip",
-            "content": "If you have already lost money to an investment scam, you might be targeted AGAIN by 'recovery agents' who claim they can get your money back for an upfront fee. They cannot. This is a secondary scam targeting people who have already been victimized. The only legitimate recovery path is the police and cybercrime.gov.in."
+            "content": "If you have already lost money to an investment scam, you might be targeted AGAIN by 'recovery agents' who claim they can get your money back for an upfront fee. They cannot. This is a secondary scam targeting people who have already been victimized. The only legitimate recovery path is through police and cybercrime.gov.in."
           }
         }
       ],
       "exercises": [
         {
           "type": "scenario",
-          "scenario": "A cousin adds you to a WhatsApp group called 'Wealth Builders India.' The admin, 'Finance Guru Suresh Ji,' posts screenshots every day showing profits: 'Today's trade: +₹28,000 in 2 hours using my secret algorithm.' Other members post 'Thank you Suresh Ji! Changed my life!' He invites you to invest a minimum ₹25,000 to join his 'premium strategy.' He's been doing this for 8 months and your cousin says he's 'legit.'",
+          "scenario": "A cousin adds you to a WhatsApp group called 'Wealth Builders India.' The admin, 'Finance Guru Suresh Ji,' posts screenshots every day showing profits: 'Today's trade: +Rs 28,000 in 2 hours using my secret algorithm.' Other members post 'Thank you Suresh Ji! Changed my life!' He invites you to invest a minimum Rs 25,000 to join his 'premium strategy.' He's been doing this for 8 months and your cousin says he's 'legit.'",
           "prompt": "Which red flags are present in this scenario? (Choose the best answer)",
           "options": [
             {
@@ -963,27 +1347,27 @@
               "isCorrect": false
             },
             {
-              "text": "The only concern is the ₹25,000 minimum, if you invest less, the risk is lower",
+              "text": "The only concern is the Rs 25,000 minimum, if you invest less, the risk is lower",
               "isCorrect": false
             }
           ],
-          "explanation": "This is a textbook Telegram/WhatsApp investment fraud. Daily screenshots of profits are trivially easy to fake. 'Members' are often bot accounts or paid participants. 8 months of operation proves nothing, Speak Asia ran for years before collapsing. Your cousin being in it doesn't validate it, they might already be a victim who's hoping to earn referral commissions. Check SEBI first. If Suresh Ji isn't registered, it's over.",
+          "explanation": "This is a textbook Telegram/WhatsApp investment fraud. Daily screenshots of profits are trivially easy to fake. 'Members' are often bot accounts or paid participants. 8 months of operation proves nothing -- Speak Asia ran for years before collapsing. Your cousin being in it doesn't validate it; they might already be a victim who's hoping to earn referral commissions. Check SEBI first. If Suresh Ji isn't registered, it's over.",
           "xpValue": 15
         },
         {
           "type": "mcq-single",
-          "prompt": "An app promises '3% daily returns on crypto investments, verified by 50,000 users.' You invest ₹20,000 and the app shows your balance growing to ₹1,10,000 in 40 days. When you try to withdraw, they say you owe ₹8,000 in 'GST and processing fees.' What's happening?",
+          "prompt": "An app promises '3% daily returns on crypto investments, verified by 50,000 users.' You invest Rs 20,000 and the app shows your balance growing to Rs 1,10,000 in 40 days. When you try to withdraw, they say you owe Rs 8,000 in 'GST and processing fees.' What's happening?",
           "options": [
             {
               "text": "Legitimate, withdrawal fees are normal in crypto platforms",
               "isCorrect": false
             },
             {
-              "text": "Fake trading app scam, the ₹1,10,000 was never real; the fees will also disappear",
+              "text": "Fake trading app scam, the Rs 1,10,000 was never real; the fees will also disappear",
               "isCorrect": true
             },
             {
-              "text": "Pay the fee, you'll still profit ₹82,000 after all",
+              "text": "Pay the fee, you'll still profit Rs 82,000 after all",
               "isCorrect": false
             },
             {
@@ -991,14 +1375,14 @@
               "isCorrect": false
             }
           ],
-          "explanation": "3% daily = ~90% monthly = ~2,700% annually. Physically impossible from real markets. The growing balance was fake, just numbers on a screen. When they ask for 'fees before withdrawal,' those fees will also vanish. Then there will be more fees. This pattern is called an 'advance fee scam' layered on top of a fake trading platform. No legitimate platform requires you to pay in order to receive your own money.",
+          "explanation": "3% daily = ~90% monthly = ~2,700% annually. Physically impossible from real markets. The growing balance was fake -- just numbers on a screen. When they ask for 'fees before withdrawal,' those fees will also vanish. Then there will be more fees. This pattern is called an 'advance fee scam' layered on top of a fake trading platform. No legitimate platform requires you to pay in order to receive your own money.",
           "xpValue": 15
         },
         {
           "type": "true-false",
           "prompt": "SEBI-registered investment advisors are allowed to guarantee returns on their recommendations.",
           "correctAnswer": false,
-          "explanation": "SEBI explicitly prohibits registered advisors from guaranteeing returns. The stock market has risk by nature, anyone guaranteeing returns is either lying or operating illegally. This is one of the fastest ways to spot a fraud: if they guarantee returns, they're not legitimate, regardless of how professional they look.",
+          "explanation": "SEBI explicitly prohibits registered advisors from guaranteeing returns. The stock market has risk by nature -- anyone guaranteeing returns is either lying or operating illegally. This is one of the fastest ways to spot a fraud: if they guarantee returns, they're not legitimate, regardless of how professional they look.",
           "xpValue": 10
         },
         {
@@ -1030,7 +1414,7 @@
               "correctCategory": "Legitimate"
             },
             {
-              "text": "Pay ₹2,000 fee to withdraw your own profits",
+              "text": "Pay Rs 2,000 fee to withdraw your own profits",
               "correctCategory": "Red Flag"
             }
           ],
@@ -1062,7 +1446,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "Traditional registered chit funds (covered under the Chit Funds Act) are legitimate, members pool money, bid for the pot, and the organizer is registered. Red flags: no receipts, returns tied to recruitment, unregistered operation, and disappearing promoters. Real chit fund organizers are registered with State Governments and issue formal receipts.",
+          "explanation": "Traditional registered chit funds (covered under the Chit Funds Act) are legitimate -- members pool money, bid for the pot, and the organizer is registered. Red flags: no receipts, returns tied to recruitment, unregistered operation, and disappearing promoters. Real chit fund organizers are registered with State Governments and issue formal receipts.",
           "xpValue": 10
         }
       ]
@@ -1076,7 +1460,7 @@
         {
           "type": "text",
           "data": {
-            "content": "Your grandmother gets a phone call. A serious voice says: 'Namaskar, I am calling from the Aadhaar Seva Kendra. Your Aadhaar card is about to be permanently suspended because it has not been updated. Your bank accounts linked to this Aadhaar will also be frozen. To prevent this, please provide your Aadhaar number, bank account details, and the OTP we are sending to your mobile.'"
+            "content": "Your grandmother gets a phone call. A serious, official-sounding voice says: 'Namaskar, I am calling from the Aadhaar Seva Kendra. Your Aadhaar card is about to be permanently suspended. Your bank accounts linked to this Aadhaar will also be frozen. Please provide your Aadhaar number, bank details, and the OTP we are sending to your mobile.'"
           }
         },
         {
@@ -1084,20 +1468,40 @@
           "data": {
             "character": "priya",
             "expression": "worried",
-            "text": "This is scary because Nani would totally believe this. She does not know that UIDAI never calls people. And if she is home alone, there is nobody to tell her it is a scam."
+            "text": "This is scary because Nani would totally believe this. She has no clue that UIDAI never calls people. And if she is home alone during the day, there is nobody around to tell her it is a scam."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "She is 68. She does not know that Aadhaar cannot be 'suspended for not updating.' She does not know that UIDAI would never call asking for OTPs. She is scared. She is alone at home. She cooperates. By the time the family finds out, Rs 1.8 lakh has been transferred out."
+            "content": "She is 68. She does not know that Aadhaar cannot be 'suspended for not updating.' She is scared. She cooperates. By the time the family finds out, Rs 1.8 lakh has been transferred out. This story happens thousands of times a week across India."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Scammers specifically target older adults because they may be less familiar with digital systems, more trusting of authority, and often home during the day when family cannot intervene. This is not a judgment. It is a tactic scammers rely on."
+            "content": "Scammers target older adults deliberately -- not because elders are dumb, but because they may be less familiar with digital systems, more trusting of authority figures, and often home alone during the day when nobody can intervene. This is a calculated tactic, not a character flaw."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "Why do scammers specifically target older adults?",
+            "options": [
+              {
+                "text": "Because older adults have more money than young people",
+                "isCorrect": false
+              },
+              {
+                "text": "Because they may be less familiar with digital systems, more trusting of authority, and often home alone during the day",
+                "isCorrect": true
+              },
+              {
+                "text": "Because older adults cannot use smartphones",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1111,7 +1515,7 @@
         {
           "type": "text",
           "data": {
-            "content": "**The Aadhaar Suspension Call:** 'Your Aadhaar will be blocked. Provide your number, bank details, and OTP.' Truth: UIDAI does not call citizens. Aadhaar cannot be suspended for non-use. The UIDAI helpline is 1947. That is how you call them, not how they call you."
+            "content": "**The Aadhaar Suspension Call:** 'Your Aadhaar will be blocked. Provide your number, bank details, and OTP.' The truth? UIDAI does not call citizens. Aadhaar cannot be suspended for non-use. The UIDAI helpline is 1947 -- that is how you call THEM, not how they call you."
           }
         },
         {
@@ -1124,7 +1528,27 @@
         {
           "type": "text",
           "data": {
-            "content": "**The Fake CBI/Police Call:** 'A criminal case has been filed against your family member for money laundering. Pay to settle this quietly and avoid arrest.' This is called **digital arrest**: holding someone in prolonged fear over a phone call. In 2024, Indians lost over Rs 2,140 crore to digital arrest scams alone."
+            "content": "**The Fake CBI/Police Call** is even more terrifying. 'A criminal case has been filed against your family member for money laundering. Pay to settle this quietly and avoid arrest.' This is called **digital arrest** -- keeping someone in prolonged fear over a phone call. In 2024, Indians lost over Rs 2,140 crore to digital arrest scams alone."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What is a 'digital arrest' scam?",
+            "options": [
+              {
+                "text": "When police arrest someone online through a warrant",
+                "isCorrect": false
+              },
+              {
+                "text": "When scammers impersonate police or CBI and keep victims on a call for hours, demanding money to settle a fake case",
+                "isCorrect": true
+              },
+              {
+                "text": "When your phone is locked remotely by hackers",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1139,13 +1563,43 @@
           "type": "key-term",
           "data": {
             "term": "AePS (Aadhaar-enabled Payment System)",
-            "definition": "A payment system that uses your Aadhaar number and fingerprint to withdraw or transact from your bank account, no card or phone needed. Useful in rural India but vulnerable to fingerprint cloning."
+            "definition": "A payment system that uses your Aadhaar number and fingerprint to withdraw or transact from your bank account -- no card or phone needed. Useful in rural India but vulnerable to fingerprint cloning."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "**The AePS Biometric Scam** is terrifying and growing in rural India. Scammers clone fingerprint data, sometimes from biometric logs of MGNREGA work, and use cloned silicone fingerprints to authenticate Aadhaar-enabled withdrawals from bank accounts. States like Jharkhand and Bihar have seen the most cases. Mitigation: lock your Aadhaar biometrics via myAadhaar.uidai.gov.in or the mAadhaar app."
+            "content": "**The AePS Biometric Scam** is growing fast in rural India. Scammers clone fingerprint data -- sometimes from biometric logs of MGNREGA work or government enrollment -- and use silicone fingerprints to authenticate Aadhaar-enabled withdrawals. States like Jharkhand and Bihar have seen the most cases."
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "content": "The fix is simple: lock your Aadhaar biometrics via myAadhaar.uidai.gov.in or the mAadhaar app. When locked, nobody can use your fingerprint for any AePS transaction. Unlock only when you actually need it, then lock again."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "How can you protect yourself from AePS biometric fraud?",
+            "options": [
+              {
+                "text": "Avoid giving your fingerprint anywhere, including government offices",
+                "isCorrect": false
+              },
+              {
+                "text": "Lock your Aadhaar biometrics at myAadhaar.uidai.gov.in or the mAadhaar app, and unlock only when needed",
+                "isCorrect": true
+              },
+              {
+                "text": "AePS fraud cannot be prevented, it is a government system flaw",
+                "isCorrect": false
+              },
+              {
+                "text": "Change your Aadhaar number every year",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1153,7 +1607,7 @@
           "data": {
             "character": "arjun",
             "expression": "confident",
-            "text": "The key is giving your family practical tools, not lectures. Nobody wants to be told they are gullible. Set up a family code word. Register DND. Lock their Aadhaar biometrics. These are things you can do in one afternoon."
+            "text": "The key is giving your family practical tools, not lectures. Nobody wants to be told they are gullible. Set up a family code word. Register DND. Lock their Aadhaar biometrics. These are things you can do in one Sunday afternoon."
           }
         },
         {
@@ -1161,6 +1615,26 @@
           "data": {
             "variant": "tip",
             "content": "The Family Code Word System: Agree on a secret word or phrase with your parents and grandparents that only your family knows. If anyone calls claiming to be a family member in trouble ('Your grandson has been arrested, send money now'), they must use the code word to verify. Scammers cannot know your word."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What is the Family Code Word System and why is it useful?",
+            "options": [
+              {
+                "text": "A password for the family Wi-Fi network",
+                "isCorrect": false
+              },
+              {
+                "text": "A secret word only your family knows, used to verify identity during emergency calls -- it defeats voice cloning scams",
+                "isCorrect": true
+              },
+              {
+                "text": "A code you share with your bank for extra security",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1181,14 +1655,14 @@
         {
           "type": "text",
           "data": {
-            "content": "Practical things to set up with your elders: (1) Add DND to their number via 1909 to reduce scam calls. (2) Show them how to hang up and call you first when any 'authority' calls asking for money or info. (3) Lock their Aadhaar biometrics. (4) Add transaction alerts on their bank accounts so you get notified of any unusual activity."
+            "content": "Practical things to set up with your elders this weekend: (1) Add DND to their number via 1909 to reduce scam calls. (2) Show them how to hang up and call you first when any 'authority' calls asking for money or info. (3) Lock their Aadhaar biometrics. (4) Add transaction alerts on their bank accounts so you get notified of any unusual activity."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "AI voice cloning can now replicate a person's voice from just a few seconds of audio, like a birthday video on the family WhatsApp group. Scammers use cloned voices to impersonate family members in emergency calls. A code word system defeats this completely."
+            "content": "AI voice cloning can now replicate a person's voice from just a few seconds of audio -- like a birthday video on the family WhatsApp group. Scammers use cloned voices to impersonate family members in 'emergency' calls. A code word system defeats this completely, because no AI can guess your family's secret word."
           }
         }
       ],
@@ -1215,12 +1689,12 @@
               "isCorrect": false
             }
           ],
-          "explanation": "UIDAI (the Aadhaar authority) does NOT call citizens. Aadhaar cannot be 'cancelled for not updating.' The caller knows your grandfather's number because it was bought from leaked data, that's all they know. Telling your grandfather to hang up is the correct response. Then reassure him: his Aadhaar is fine. The UIDAI helpline is 1947 if you want to double-check, but he should CALL them, not receive calls FROM them.",
+          "explanation": "UIDAI (the Aadhaar authority) does NOT call citizens. Aadhaar cannot be 'cancelled for not updating.' The caller knows your grandfather's number because it was bought from leaked data -- that's all they know. Telling your grandfather to hang up is the correct response. Then reassure him: his Aadhaar is fine. The UIDAI helpline is 1947 if you want to double-check, but he should CALL them, not receive calls FROM them.",
           "xpValue": 15
         },
         {
           "type": "scenario",
-          "scenario": "Your mother receives a call from someone claiming to be a 'CBI officer.' He says your father's company account has been linked to a money laundering case. He insists your mother stay on the video call and not speak to anyone, 'this is a government investigation, you cannot inform others.' He's been on the call for 3 hours. Your mother texts you secretly: 'Someone from CBI is investigating Papa. I'm scared.'",
+          "scenario": "Your mother receives a call from someone claiming to be a 'CBI officer.' He says your father's company account has been linked to a money laundering case. He insists your mother stay on the video call and not speak to anyone -- 'this is a government investigation, you cannot inform others.' He's been on the call for 3 hours. Your mother texts you secretly: 'Someone from CBI is investigating Papa. I'm scared.'",
           "prompt": "What's the correct response?",
           "options": [
             {
@@ -1240,12 +1714,12 @@
               "isCorrect": false
             }
           ],
-          "explanation": "This is the 'digital arrest' scam, keeping victims isolated on a call for hours, creating psychological pressure to pay. The 'don't inform others' instruction is designed to prevent exactly what your mother did (texting you). Real government investigations involve written notices, in-person visits, and legal processes, never 3-hour video calls demanding silence. Tell her to hang up NOW. The call is the crime.",
+          "explanation": "This is the 'digital arrest' scam -- keeping victims isolated on a call for hours, creating psychological pressure to pay. The 'don't inform others' instruction is designed to prevent exactly what your mother did (texting you). Real government investigations involve written notices, in-person visits, and legal processes -- never 3-hour video calls demanding silence. Tell her to hang up NOW. The call is the crime.",
           "xpValue": 15
         },
         {
           "type": "sorting",
-          "prompt": "Sort these elder-protection actions, should you do them or skip them?",
+          "prompt": "Sort these elder-protection actions -- should you do them or skip them?",
           "categories": [
             "Do This",
             "Skip This"
@@ -1276,19 +1750,19 @@
               "correctCategory": "Do This"
             }
           ],
-          "explanation": "Practical protection beats lectures. DND reduces contact with scammers. Transaction alerts give you early warning. Aadhaar biometric lock prevents AePS fraud. A code word system defuses the 'grandchild in trouble' scam. And shame after a scam only makes recovery harder, understanding and action is what helps.",
+          "explanation": "Practical protection beats lectures. DND reduces contact with scammers. Transaction alerts give you early warning. Aadhaar biometric lock prevents AePS fraud. A code word system defuses the 'grandchild in trouble' scam. And shame after a scam only makes recovery harder -- understanding and action is what helps.",
           "xpValue": 15
         },
         {
           "type": "mcq-single",
-          "prompt": "Your grandmother says 'They told me I've won ₹12 lakh in an SBI lucky draw but I need to pay ₹3,000 to release the prize money.' What's true?",
+          "prompt": "Your grandmother says 'They told me I've won Rs 12 lakh in an SBI lucky draw but I need to pay Rs 3,000 to release the prize money.' What's true?",
           "options": [
             {
               "text": "SBI does run lucky draws, she should pay the fee and claim her prize",
               "isCorrect": false
             },
             {
-              "text": "Pay only ₹500 as a token amount to test if it's real",
+              "text": "Pay only Rs 500 as a token amount to test if it's real",
               "isCorrect": false
             },
             {
@@ -1300,14 +1774,14 @@
               "isCorrect": false
             }
           ],
-          "explanation": "SBI does not run 'lucky draws' where random winners are called. This is a classic advance fee fraud, the ₹3,000 'processing fee' will vanish, and then there will be more fees (GST, tax, insurance, etc.) until the victim stops paying. The prize never arrives. No legitimate lottery or prize ever requires you to pay money to collect your winnings, that's illegal in India.",
+          "explanation": "SBI does not run 'lucky draws' where random winners are called. This is a classic advance fee fraud -- the Rs 3,000 'processing fee' will vanish, and then there will be more fees (GST, tax, insurance, etc.) until the victim stops paying. The prize never arrives. No legitimate lottery or prize ever requires you to pay money to collect your winnings -- that's illegal in India.",
           "xpValue": 10
         },
         {
           "type": "true-false",
           "prompt": "Locking your Aadhaar biometrics on the UIDAI website means you can never use your fingerprint for Aadhaar verification again, even for legitimate purposes.",
           "correctAnswer": false,
-          "explanation": "Aadhaar biometric lock is temporary and reversible. You can unlock it anytime via myAadhaar.uidai.gov.in or the mAadhaar app using an OTP to your registered mobile. When locked, nobody, including scammers with cloned fingerprints, can use your biometric for AePS withdrawals. Unlock only when you need to use it, then lock again. This is especially important for elders whose fingerprint data may have been captured during MGNREGA or other government scheme enrollment.",
+          "explanation": "Aadhaar biometric lock is temporary and reversible. You can unlock it anytime via myAadhaar.uidai.gov.in or the mAadhaar app using an OTP to your registered mobile. When locked, nobody -- including scammers with cloned fingerprints -- can use your biometric for AePS withdrawals. Unlock only when you need to use it, then lock again. This is especially important for elders whose fingerprint data may have been captured during MGNREGA or other government scheme enrollment.",
           "xpValue": 10
         }
       ]
@@ -1321,7 +1795,7 @@
         {
           "type": "text",
           "data": {
-            "content": "First: take a breath. This is not the end. Every year, Indian cybercrime authorities recover hundreds of crores of scammed money because victims acted fast. Speed is everything. The faster you move, the better the chance your money is still recoverable."
+            "content": "First: breathe. This is not the end. Every year, Indian authorities recover hundreds of crores of scammed money -- because victims acted fast. The key word here? Fast. The faster you move in the next 30 minutes, the better your chances of getting your money back."
           }
         },
         {
@@ -1329,20 +1803,20 @@
           "data": {
             "character": "arjun",
             "expression": "explaining",
-            "text": "Think of it like this: the money you lost is sitting in the scammer's account. But it will not stay there long. They move it fast, break it into small transfers, pull it out at ATMs. Your job is to freeze that account before they empty it."
+            "text": "Think of it like this: the money you lost is sitting in the scammer's account right now. But it will not stay there long. They move it fast -- break it into small transfers, pull it out at ATMs, route it through 5 different accounts. Your job is to freeze that account before they empty it."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "Second: it is not your fault. These scammers are professionals. They run scripts that have been tested on millions of people. They know exactly what to say and when. You are not the first and you will not be the last. What matters now is the next 30 minutes."
+            "content": "Second: it is NOT your fault. These scammers are professionals who run scripts tested on millions of people. They know exactly what to say and when to say it. You are not the first person they have fooled and you will not be the last. What matters now is what you do in the next 30 minutes."
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "chip-says",
-            "content": "Time is literally money right now. Every minute you wait, that money moves further. Freeze the transaction first, report second, feel the feelings third."
+            "content": "Time is literally money right now. Every minute you spend feeling bad is a minute the scammer spends moving your cash further away. Freeze the transaction first, report second, feel the feelings third. You have permission to fall apart AFTER you make those calls."
           }
         },
         {
@@ -1370,7 +1844,27 @@
         {
           "type": "text",
           "data": {
-            "content": "**Step 1 (0 to 5 minutes): Call your bank's fraud helpline immediately.** Major bank numbers: SBI 1800-111-109, HDFC 1800-202-6161, ICICI 1800-1080, Axis 1800-419-5959, Kotak 1860-266-0811. Tell them: 'I have been a victim of fraud, I need to freeze my account and raise a chargeback.' Ask them to generate a complaint ticket number and keep it."
+            "content": "**Step 1 (0 to 5 minutes): Call your bank's fraud helpline immediately.** Major bank numbers: SBI 1800-111-109, HDFC 1800-202-6161, ICICI 1800-1080, Axis 1800-419-5959, Kotak 1860-266-0811. Tell them: 'I have been a victim of fraud, I need to freeze my account and raise a chargeback.' Get a complaint ticket number."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "After being scammed, what is the very first thing you should do?",
+            "options": [
+              {
+                "text": "Post about it on social media to warn others",
+                "isCorrect": false
+              },
+              {
+                "text": "Call your bank's fraud helpline to freeze your account and raise a chargeback",
+                "isCorrect": true
+              },
+              {
+                "text": "Wait 24 hours to see if the money comes back automatically",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1383,7 +1877,27 @@
         {
           "type": "text",
           "data": {
-            "content": "**Step 2 (5 to 15 minutes): Call 1930.** This is the National Cyber Crime Helpline and it operates 24/7. When you call, give them: your name, the scammer's phone number or UPI ID or bank account, the amount lost, and roughly when it happened. They can coordinate with banks across India to freeze the destination account before the money is withdrawn."
+            "content": "**Step 2 (5 to 15 minutes): Call 1930.** This is the National Cyber Crime Helpline, available 24/7. Give them: your name, the scammer's phone number or UPI ID or bank account, the amount lost, and roughly when it happened. They can coordinate with banks across India to freeze the destination account before the money is withdrawn."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "What is the 1930 helpline for?",
+            "options": [
+              {
+                "text": "General police complaints",
+                "isCorrect": false
+              },
+              {
+                "text": "India's 24/7 National Cyber Crime Helpline that can coordinate with banks to freeze scammer accounts",
+                "isCorrect": true
+              },
+              {
+                "text": "A toll-free banking customer support number",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1399,13 +1913,33 @@
           "data": {
             "character": "priya",
             "expression": "thinking",
-            "text": "So the order is: bank first to freeze, then 1930 to coordinate across banks, then cybercrime.gov.in for the official record. All within 30 minutes. Got it."
+            "text": "So the order is: bank first to freeze, then 1930 to coordinate across banks, then cybercrime.gov.in for the official record. All within 30 minutes. Okay, I am writing this down."
           }
         },
         {
           "type": "text",
           "data": {
-            "content": "**Step 3 (15 to 30 minutes): File at cybercrime.gov.in.** Go to the website, click 'Report Cyber Crime,' and select 'Financial Fraud.' You will need: the scammer's contact details, the amount and transaction ID from your bank app, date and time of fraud, and your account details. This generates an official complaint number you can use for follow-up."
+            "content": "**Step 3 (15 to 30 minutes): File at cybercrime.gov.in.** Click 'Report Cyber Crime,' select 'Financial Fraud.' You will need: the scammer's contact details, the transaction ID from your bank app, date and time of fraud, and your account details. This generates an official complaint number for tracking."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "After being scammed, a 'recovery agent' online offers to get your money back for an upfront fee. Is this legitimate?",
+            "options": [
+              {
+                "text": "Yes, ethical hackers can trace and reverse transactions",
+                "isCorrect": false
+              },
+              {
+                "text": "No, this is a secondary scam targeting people who have already been victimized",
+                "isCorrect": true
+              },
+              {
+                "text": "Maybe, if they provide references from past clients",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
@@ -1426,14 +1960,38 @@
         {
           "type": "text",
           "data": {
-            "content": "**What are the real chances of recovery?** Honest answer: it depends on speed and the type of fraud. UPI frauds reported within the first hour have better recovery rates because funds can still be in transit. Investment scam money is harder to recover since it often gets broken into small transfers quickly. But even partial recovery is possible, and the reports you file contribute to patterns that help catch scammers."
+            "content": "**What are the real chances of recovery?** Honest answer: it depends on speed. UPI frauds reported within the first hour have the best recovery rates because funds can still be in transit. Investment scam money is harder to recover since it gets broken into small transfers quickly. But even partial recovery is possible, and your reports help catch repeat scammers."
+          }
+        },
+        {
+          "type": "quick-check",
+          "data": {
+            "question": "You reported a UPI fraud to your bank within 5 minutes and also called 1930 within 15 minutes. Why does this speed matter?",
+            "options": [
+              {
+                "text": "It does not matter -- recovery takes the same time regardless",
+                "isCorrect": false
+              },
+              {
+                "text": "Because the scammer's account can be frozen before they withdraw your money, maximizing recovery chances",
+                "isCorrect": true
+              },
+              {
+                "text": "Because banks only accept fraud complaints within the first hour",
+                "isCorrect": false
+              },
+              {
+                "text": "Because 1930 charges less if you call sooner",
+                "isCorrect": false
+              }
+            ]
           }
         },
         {
           "type": "callout",
           "data": {
             "variant": "fun-fact",
-            "content": "In 2023-24, the Ministry of Home Affairs reported that swift action via 1930 and cybercrime.gov.in helped freeze fraudulent funds worth Rs 1,127 crore. That is money that went back to victims. Reporting works. Always report."
+            "content": "In 2023-24, the Ministry of Home Affairs reported that swift action via 1930 and cybercrime.gov.in helped freeze fraudulent funds worth Rs 1,127 crore. That is real money that went back to real victims. Reporting works. Always report."
           }
         }
       ],
@@ -1477,7 +2035,7 @@
         },
         {
           "type": "mcq-single",
-          "prompt": "You were scammed ₹40,000 via UPI 3 hours ago. You've already called your bank. What should you do next?",
+          "prompt": "You were scammed Rs 40,000 via UPI 3 hours ago. You've already called your bank. What should you do next?",
           "options": [
             {
               "text": "Wait to see if the bank reverses it automatically",
@@ -1496,12 +2054,12 @@
               "isCorrect": false
             }
           ],
-          "explanation": "After calling your bank, 1930 and cybercrime.gov.in are the next stops. The scammer's UPI ID (visible in your transaction history) and the transaction reference number are the key pieces of evidence. 3 hours is still early enough for a potential freeze, the median time for a successful freeze is within 6-8 hours of the fraud. Social media can come later, reporting first maximizes recovery chances.",
+          "explanation": "After calling your bank, 1930 and cybercrime.gov.in are the next stops. The scammer's UPI ID (visible in your transaction history) and the transaction reference number are the key pieces of evidence. 3 hours is still early enough for a potential freeze -- the median time for a successful freeze is within 6-8 hours of the fraud. Social media can come later; reporting first maximizes recovery chances.",
           "xpValue": 10
         },
         {
           "type": "scenario",
-          "scenario": "After being scammed, your father searches Google for 'cyber fraud money recovery service' and finds a company that says: 'We recover scammed money using our network of ethical hackers. 90% success rate. Pay ₹3,000 upfront and we'll return ₹40,000 within 7 days.' He's considering paying.",
+          "scenario": "After being scammed, your father searches Google for 'cyber fraud money recovery service' and finds a company that says: 'We recover scammed money using our network of ethical hackers. 90% success rate. Pay Rs 3,000 upfront and we'll return Rs 40,000 within 7 days.' He's considering paying.",
           "prompt": "What's this 'recovery service'?",
           "options": [
             {
@@ -1509,7 +2067,7 @@
               "isCorrect": false
             },
             {
-              "text": "A secondary scam targeting fraud victims, pay ₹3,000 and lose that too",
+              "text": "A secondary scam targeting fraud victims, pay Rs 3,000 and lose that too",
               "isCorrect": true
             },
             {
@@ -1521,7 +2079,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "This is one of the cruelest scams, targeting people at their most vulnerable, immediately after they've already lost money. No private 'ethical hacker' can recover scammed money. Recovery only happens through official channels (bank freezes, police, NPCI). These 'recovery services' take your upfront fee and disappear. If references are provided, they're fake. The only path is 1930 and cybercrime.gov.in.",
+          "explanation": "This is one of the cruelest scams -- targeting people at their most vulnerable, immediately after they've already lost money. No private 'ethical hacker' can recover scammed money. Recovery only happens through official channels (bank freezes, police, NPCI). These 'recovery services' take your upfront fee and disappear. If references are provided, they're fake. The only path is 1930 and cybercrime.gov.in.",
           "xpValue": 15
         },
         {
@@ -1549,14 +2107,14 @@
               "isCorrect": true
             }
           ],
-          "explanation": "All five are critical evidence. The scammer's number, conversation logs, transaction IDs, their UPI ID, and any links/QR codes they shared all help build the complaint and assist authorities in tracing the fraud. Don't delete any messages or call logs, they're evidence. The more documentation you have, the stronger your case on cybercrime.gov.in and with police.",
+          "explanation": "All five are critical evidence. The scammer's number, conversation logs, transaction IDs, their UPI ID, and any links/QR codes they shared all help build the complaint and assist authorities in tracing the fraud. Don't delete any messages or call logs -- they're evidence. The more documentation you have, the stronger your case on cybercrime.gov.in and with police.",
           "xpValue": 10
         },
         {
           "type": "true-false",
           "prompt": "If you're a victim of UPI fraud, reporting it on the UPI app itself (PhonePe/Google Pay) does nothing useful.",
           "correctAnswer": false,
-          "explanation": "Reporting fraud within your UPI app sends the complaint directly to NPCI (National Payments Corporation of India), which can flag and freeze the scammer's UPI ID across all UPI-linked apps simultaneously, not just yours. This is actually one of the fastest ways to escalate UPI-specific fraud, and it works alongside (not instead of) calling 1930 and filing on cybercrime.gov.in.",
+          "explanation": "Reporting fraud within your UPI app sends the complaint directly to NPCI (National Payments Corporation of India), which can flag and freeze the scammer's UPI ID across all UPI-linked apps simultaneously -- not just yours. This is actually one of the fastest ways to escalate UPI-specific fraud, and it works alongside (not instead of) calling 1930 and filing on cybercrime.gov.in.",
           "xpValue": 10
         }
       ]
@@ -1599,7 +2157,7 @@
         "type": "sms",
         "display": {
           "from": "SBI-ALERTS",
-          "message": "Dear Customer, your SBI account ending 4521 has been debited by ₹850 on 15-Mar at Amazon. Available balance: ₹23,440. If not done by you, call 1800-111-109."
+          "message": "Dear Customer, your SBI account ending 4521 has been debited by Rs 850 on 15-Mar at Amazon. Available balance: Rs 23,440. If not done by you, call 1800-111-109."
         },
         "prompt": "What is this?",
         "choices": [
@@ -1607,13 +2165,13 @@
             "text": "Legitimate bank transaction alert",
             "nextNodeId": "node-3",
             "scoreImpact": 10,
-            "feedback": "✓ Correct! This is a real transaction alert. Key signs: no link to click, official SBI sender ID, mentions actual account ending (partial, never full), real SBI helpline number. Nothing to do here."
+            "feedback": "Correct! This is a real transaction alert. Key signs: no link to click, official SBI sender ID, mentions partial account number (never full), and the real SBI helpline number. Nothing to do here."
           },
           {
             "text": "Phishing SMS, call the number to report it",
             "nextNodeId": "node-3",
             "scoreImpact": -5,
-            "feedback": "✗ This was actually legitimate. The sender is 'SBI-ALERTS' (official), there's no suspicious link, and the helpline 1800-111-109 is SBI's real number. Suspicious SMSes usually have short links and urgent language."
+            "feedback": "This was actually legitimate. The sender is 'SBI-ALERTS' (official), there is no suspicious link, and 1800-111-109 is SBI's real number. Suspicious SMSes usually have short links and urgent language pressuring you to act."
           }
         ],
         "isEnd": false
@@ -1623,27 +2181,27 @@
         "type": "whatsapp",
         "display": {
           "from": "+91 98XXX XXXXX (Unknown)",
-          "message": "Hi! I saw your listing on OLX for the guitar. I'm interested. I'm posted in Kargil with the Army and can't come pick up but I'll pay ₹8,000 via UPI advance. Please share your UPI ID or scan my QR code to receive the money 🙏"
+          "message": "Hi! I saw your listing on OLX for the guitar. I'm interested. I'm posted in Kargil with the Army and can't come pick up but I'll pay Rs 8,000 via UPI advance. Please share your UPI ID or scan my QR code to receive the money."
         },
-        "prompt": "You are selling a guitar on OLX for ₹8,500. What do you do?",
+        "prompt": "You are selling a guitar on OLX for Rs 8,500. What do you do?",
         "choices": [
           {
             "text": "Share your UPI ID, receiving money requires no other action",
             "nextNodeId": "node-4",
             "scoreImpact": 10,
-            "feedback": "✓ Smart. Sharing your UPI ID is safe, the sender enters your ID and their own PIN. You do nothing. Money arrives. If they insist you need to 'scan to receive', that's when you know it's a scam."
+            "feedback": "Smart. Sharing your UPI ID is safe -- the sender enters your ID and their own PIN. You do nothing. Money arrives. If they insist you need to 'scan to receive', that is when you know it is a scam."
           },
           {
             "text": "Scan the QR code they're offering to receive the advance",
             "nextNodeId": "node-4-bad",
             "scoreImpact": -20,
-            "feedback": "✗ You scanned the QR. ₹5,000 just left your account. The 'Army officer' has vanished. Scanning a QR code sends money, it cannot receive it. This is the most common OLX scam in India."
+            "feedback": "You scanned the QR. Rs 5,000 just left your account. The 'Army officer' has vanished. Scanning a QR code sends money -- it cannot receive it. This is the most common OLX scam in India."
           },
           {
             "text": "Ignore completely, Army officer story sounds suspicious",
             "nextNodeId": "node-4",
             "scoreImpact": 5,
-            "feedback": "⚠ Cautious, but you could have handled it better. The Army story IS suspicious (it's a common script), but you could share your UPI ID safely and verify the payment arrived before doing anything else."
+            "feedback": "Cautious, but you could have handled it better. The Army story IS suspicious (it is a common script), but you could share your UPI ID safely and verify the payment arrived before doing anything else."
           }
         ],
         "isEnd": false
@@ -1651,7 +2209,7 @@
       {
         "nodeId": "node-4-bad",
         "type": "consequence",
-        "narrative": "Your UPI app shows 'Payment of ₹5,000 to Prashant K. successful.' Your phone rings, it's Riya calling about lunch plans. You stare at the transaction. The 'buyer' has blocked you on WhatsApp.",
+        "narrative": "Your UPI app shows 'Payment of Rs 5,000 to Prashant K. successful.' Your phone rings -- it's a friend calling about lunch plans. You stare at the transaction. The 'buyer' has blocked you on WhatsApp.",
         "timeSkip": null,
         "choices": [
           {
@@ -1659,6 +2217,12 @@
             "nextNodeId": "node-4",
             "scoreImpact": 5,
             "feedback": "Good recovery instinct. Report it, then continue."
+          },
+          {
+            "text": "Ignore it and hope the money comes back on its own",
+            "nextNodeId": "node-4-bad-worse",
+            "scoreImpact": -10,
+            "feedback": "Ignoring fraud gives the scammer time to withdraw your money. Every minute you wait reduces recovery chances. Always report immediately to 1930 and your bank."
           }
         ],
         "isEnd": false
@@ -1676,19 +2240,19 @@
             "text": "Hang up immediately, HDFC never asks for OTPs on calls",
             "nextNodeId": "node-5",
             "scoreImpact": 15,
-            "feedback": "✓ Perfect. Banks NEVER ask for your OTP over a call. The OTP she triggered is for a transaction she's trying to initiate. Hanging up is exactly right. Call HDFC directly at 1800-202-6161 to verify your account is safe."
+            "feedback": "Perfect. Banks NEVER ask for your OTP over a call. The OTP she triggered is for a transaction she is trying to initiate. Hanging up is exactly right. Call HDFC directly at 1800-202-6161 to verify your account is safe."
           },
           {
             "text": "Share the OTP, you need to stop the suspicious login",
             "nextNodeId": "node-5-bad",
             "scoreImpact": -25,
-            "feedback": "✗ You shared the OTP. A transaction for ₹18,500 was just authorized from your account. The OTP she asked for was for THIS transaction, she triggered it herself. Banks never need your OTP to 'protect' your account."
+            "feedback": "You shared the OTP. A transaction for Rs 18,500 was just authorized from your account. The OTP she asked for was for THIS transaction -- she triggered it herself. Banks never need your OTP to 'protect' your account."
           },
           {
             "text": "Ask for her employee ID before sharing",
             "nextNodeId": "node-5-bad-2",
             "scoreImpact": -10,
-            "feedback": "✗ Asking for employee ID seems smart, but she'll have one ready. The question is never 'is this person who they say they are?' The question is: 'Does a bank EVER need my OTP?' Answer: No. Hang up."
+            "feedback": "Asking for employee ID seems smart, but she will have one ready -- she can make up any 8-digit number. The question is never 'is this person who they say they are?' The question is: 'Does a bank EVER need my OTP over a call?' Answer: No. Hang up."
           }
         ],
         "isEnd": false
@@ -1696,7 +2260,7 @@
       {
         "nodeId": "node-5-bad",
         "type": "consequence",
-        "narrative": "Your phone pings. HDFC SMS: 'Your account has been debited ₹18,500 for online transaction. If not done by you, call 1800-202-6161.' The caller has already hung up.",
+        "narrative": "Your phone pings. HDFC SMS: 'Your account has been debited Rs 18,500 for online transaction. If not done by you, call 1800-202-6161.' The caller has already hung up.",
         "timeSkip": null,
         "choices": [
           {
@@ -1704,6 +2268,12 @@
             "nextNodeId": "node-5",
             "scoreImpact": 5,
             "feedback": "Good. Every second matters now. Continue."
+          },
+          {
+            "text": "Try calling the scammer back to demand your money",
+            "nextNodeId": "node-5-bad-worse",
+            "scoreImpact": -10,
+            "feedback": "Calling the scammer back is pointless and dangerous -- they may try to extract more money or information from you. The number is likely a burner phone. Report to your bank and 1930 instead."
           }
         ],
         "isEnd": false
@@ -1711,14 +2281,20 @@
       {
         "nodeId": "node-5-bad-2",
         "type": "consequence",
-        "narrative": "She gives you a convincing 8-digit ID: 'EMP-47821.' You share the OTP. Your account is debited ₹18,500. Employee IDs can be faked in 3 seconds.",
+        "narrative": "She gives you a convincing 8-digit ID: 'EMP-47821.' You share the OTP. Your account is debited Rs 18,500. Employee IDs can be faked in 3 seconds.",
         "timeSkip": null,
         "choices": [
           {
             "text": "Call HDFC's real helpline to freeze and report",
             "nextNodeId": "node-5",
             "scoreImpact": 5,
-            "feedback": "Good recovery. But remember: the question is never 'is this person real?' It's 'does a bank ever need my OTP?' They don't."
+            "feedback": "Good recovery. But remember: the question is never 'is this person real?' It is 'does a bank ever need my OTP over a call?' They do not."
+          },
+          {
+            "text": "Search Google for 'HDFC fraud recovery service' and pay for help",
+            "nextNodeId": "node-5-bad-2-worse",
+            "scoreImpact": -10,
+            "feedback": "Online 'fraud recovery services' are themselves scams targeting people who have already been victimized. The only legitimate path is your bank's official helpline and the 1930 cybercrime helpline."
           }
         ],
         "isEnd": false
@@ -1728,8 +2304,8 @@
         "type": "email",
         "display": {
           "from": "noreply@amazon-india-support.co.in",
-          "subject": "Your Amazon Order Refund, ₹1,299",
-          "message": "Dear Customer, we are processing a refund of ₹1,299 for order #408-XXXXX. To complete the refund, please verify your UPI ID by approving the collect request we have sent. This approval is required within 2 hours."
+          "subject": "Your Amazon Order Refund, Rs 1,299",
+          "message": "Dear Customer, we are processing a refund of Rs 1,299 for order #408-XXXXX. To complete the refund, please verify your UPI ID by approving the collect request we have sent. This approval is required within 2 hours."
         },
         "prompt": "You do have a recent Amazon return pending. What do you do?",
         "choices": [
@@ -1737,19 +2313,19 @@
             "text": "Delete, fake email. Amazon refunds go directly to your account, no approval needed",
             "nextNodeId": "node-6",
             "scoreImpact": 15,
-            "feedback": "✓ Excellent catch. Three red flags: (1) Domain is 'amazon-india-support.co.in', not amazon.in. (2) Amazon NEVER sends collect requests. (3) 2-hour urgency is a pressure tactic. Real refunds credit automatically, you approve nothing."
+            "feedback": "Excellent catch. Three red flags: (1) Domain is 'amazon-india-support.co.in', not amazon.in. (2) Amazon NEVER sends collect requests. (3) 2-hour urgency is a pressure tactic. Real refunds credit automatically -- you approve nothing."
           },
           {
             "text": "Approve the collect request, you're expecting this refund",
             "nextNodeId": "node-6-bad",
             "scoreImpact": -20,
-            "feedback": "✗ You approved the collect request. ₹1,299 left your account, not arrived. The fake email used your actual pending refund (bought from data leaks or guessed) to make this seem legitimate. Always verify the sender domain before acting."
+            "feedback": "You approved the collect request. Rs 1,299 left your account, not arrived. The fake email used your actual pending refund (bought from data leaks or guessed) to make this seem legitimate. Always verify the sender domain before acting."
           },
           {
             "text": "Call Amazon customer care to verify",
             "nextNodeId": "node-6",
             "scoreImpact": 8,
-            "feedback": "✓ Smart, verifying is always right. When you call, they'll confirm refunds credit automatically and no approval is required. The email is fake."
+            "feedback": "Smart -- verifying is always right. When you call, they will confirm refunds credit automatically and no approval is required. The email is fake."
           }
         ],
         "isEnd": false
@@ -1757,14 +2333,20 @@
       {
         "nodeId": "node-6-bad",
         "type": "consequence",
-        "narrative": "'Payment of ₹1,299 successful', outgoing. The refund never arrives. The email domain was a fake. Your actual Amazon refund will arrive in 3-5 days automatically, nothing you needed to do.",
+        "narrative": "'Payment of Rs 1,299 successful' -- outgoing. The refund never arrives. The email domain was a fake. Your actual Amazon refund will arrive in 3-5 days automatically. Nothing you needed to do.",
         "timeSkip": null,
         "choices": [
           {
             "text": "Note: approve no collect requests from strangers. Move on.",
             "nextNodeId": "node-6",
             "scoreImpact": 0,
-            "feedback": null
+            "feedback": "Lesson learned. Moving on."
+          },
+          {
+            "text": "Reply to the fake Amazon email asking them to reverse the transaction",
+            "nextNodeId": "node-6-bad-worse",
+            "scoreImpact": -10,
+            "feedback": "Replying to a scam email confirms your email is active and may lead to more phishing attempts. The email was not from Amazon. Never engage with the scammer -- report through official channels."
           }
         ],
         "isEnd": false
@@ -1774,28 +2356,28 @@
         "type": "upi-notification",
         "display": {
           "from": "PhonePe",
-          "notification": "Collect Request: Arjun has requested ₹450 from you (Split: Dinner at Social, your share)",
-          "context": "You went to dinner with your friends Arjun, Priya, and Karan last night. Total bill was ₹1,800."
+          "notification": "Collect Request: Arjun has requested Rs 450 from you (Split: Dinner at Social, your share)",
+          "context": "You went to dinner with your friends Arjun, Priya, and Karan last night. Total bill was Rs 1,800."
         },
         "prompt": "What do you do with this collect request?",
         "choices": [
           {
-            "text": "Approve it, ₹450 is exactly your share of ₹1,800 split 4 ways",
+            "text": "Approve it, Rs 450 is exactly your share of Rs 1,800 split 4 ways",
             "nextNodeId": "node-7",
             "scoreImpact": 10,
-            "feedback": "✓ Correct. This is a legitimate collect request from someone you know, for an amount that matches a known event (last night's dinner, ₹1,800 ÷ 4 = ₹450). Arjun's name, the context, and the amount all check out."
+            "feedback": "Correct. This is a legitimate collect request from someone you know, for an amount that matches a known event (last night's dinner, Rs 1,800 divided by 4 = Rs 450). Arjun's name, the context, and the amount all check out."
           },
           {
             "text": "Reject it, never approve collect requests",
             "nextNodeId": "node-7",
             "scoreImpact": -5,
-            "feedback": "✗ You rejected a legitimate request from your friend. Collect requests from known contacts for verified amounts are fine to approve. The rule isn't 'never approve collect requests', it's 'never approve from strangers or unknown sources.'"
+            "feedback": "You rejected a legitimate request from your friend. Collect requests from known contacts for verified amounts are fine to approve. The rule is not 'never approve collect requests' -- it is 'never approve from strangers or unknown sources.'"
           },
           {
             "text": "Call Arjun to confirm before approving",
             "nextNodeId": "node-7",
             "scoreImpact": 10,
-            "feedback": "✓ Also correct! Verifying with a quick call before approving is always safe. Arjun will confirm, you approve. Extra cautious, totally fine."
+            "feedback": "Also correct! Verifying with a quick call before approving is always safe. Arjun will confirm, you approve. Extra cautious, totally fine."
           }
         ],
         "isEnd": false
@@ -1805,27 +2387,27 @@
         "type": "phone-call",
         "display": {
           "caller": "+91 83XXX XXXXX",
-          "scenario": "A panicked voice: 'Beta, yeh meri nani hai. Mere phone mein problem aa gayi. Main temporarily ek doosre number se bol rahi hoon. Mujhe abhi turant ₹15,000 chahiye, medical emergency hai. Baad mein sab explain karuungi.' (It's your grandmother's voice, or sounds like it.)"
+          "scenario": "A panicked voice: 'Beta, yeh meri nani hai. Mere phone mein problem aa gayi. Main temporarily ek doosre number se bol rahi hoon. Mujhe abhi turant Rs 15,000 chahiye, medical emergency hai. Baad mein sab explain karuungi.' (It sounds exactly like your grandmother's voice.)"
         },
         "prompt": "You haven't spoken to your grandmother recently. She does have some health issues.",
         "choices": [
           {
-            "text": "Transfer ₹15,000, it sounds urgent and it's Nani's voice",
+            "text": "Transfer Rs 15,000, it sounds urgent and it's Nani's voice",
             "nextNodeId": "node-8-bad",
             "scoreImpact": -20,
-            "feedback": "✗ AI voice cloning can replicate a person's voice from social media clips. The 'new number due to phone problem' story prevents you from calling back to verify. This is an increasingly common scam, always verify through a second channel."
+            "feedback": "AI voice cloning can replicate a person's voice from social media clips. The 'new number due to phone problem' story prevents you from calling back to verify. This is an increasingly common scam -- always verify through a second channel."
           },
           {
             "text": "Use your family code word to verify, or call Nani's original number",
             "nextNodeId": "node-8",
             "scoreImpact": 15,
-            "feedback": "✓ Perfect response. Call her original number to verify, if she's actually in an emergency, she'll answer or someone will. If the caller can't provide your family code word, it's a scam. Voice cloning is real and growing."
+            "feedback": "Perfect response. Call her original number to verify -- if she is actually in an emergency, she will answer or someone will. If the caller cannot provide your family code word, it is a scam. Voice cloning is real and growing."
           },
           {
             "text": "Tell the caller to contact another family member instead",
             "nextNodeId": "node-8",
             "scoreImpact": 8,
-            "feedback": "✓ Smart redirect, buying time to verify is the right instinct. Meanwhile, call Nani's actual number immediately to check."
+            "feedback": "Smart redirect -- buying time to verify is the right instinct. Meanwhile, call Nani's actual number immediately to check."
           }
         ],
         "isEnd": false
@@ -1833,7 +2415,7 @@
       {
         "nodeId": "node-8-bad",
         "type": "consequence",
-        "narrative": "You transfer ₹15,000. An hour later, you call your grandmother's real number to check on her. She's absolutely fine, never called you, phone is working perfectly. Her voice was cloned from her birthday video on the family WhatsApp.",
+        "narrative": "You transfer Rs 15,000. An hour later, you call your grandmother's real number to check on her. She is absolutely fine, never called you, phone is working perfectly. Her voice was cloned from her birthday video on the family WhatsApp.",
         "timeSkip": null,
         "choices": [
           {
@@ -1841,6 +2423,12 @@
             "nextNodeId": "node-8",
             "scoreImpact": 5,
             "feedback": "Report it. Also: discuss a family code word with everyone today."
+          },
+          {
+            "text": "Try to scam them back by sending a fake payment request",
+            "nextNodeId": "node-8-bad-worse",
+            "scoreImpact": -15,
+            "feedback": "Trying to 'scam back' a scammer is illegal, dangerous, and never works. They are professionals who have done this thousands of times. You risk losing more money or facing legal trouble yourself. Report to 1930 and your bank."
           }
         ],
         "isEnd": false
@@ -1858,19 +2446,19 @@
             "text": "Call 09876-543210 to prevent disconnection",
             "nextNodeId": "node-9-bad",
             "scoreImpact": -15,
-            "feedback": "✗ That number connects directly to scammers who will ask for your Aadhaar, bank details, and eventually an OTP. TRAI (Telecom Regulatory Authority of India) does not send disconnection notices via SMS. The sender 'VM-TRAISS' is fake, TRAI's sender ID would be 'TRAI' or from official DoT systems."
+            "feedback": "That number connects directly to scammers who will ask for your Aadhaar, bank details, and eventually an OTP. TRAI does not send disconnection notices via SMS. The sender 'VM-TRAISS' is fake -- TRAI's sender ID would be 'TRAI' or from official DoT systems."
           },
           {
             "text": "Ignore, TRAI disconnection notices don't work like this",
             "nextNodeId": "node-9",
             "scoreImpact": 15,
-            "feedback": "✓ Correct. TRAI does not text individuals about disconnection. Telecom operators (Jio, Airtel) send official notices, not random 10-digit numbers. The 2-hour urgency is classic Fear + Urgency. Your phone is fine."
+            "feedback": "Correct. TRAI does not text individuals about disconnection. Telecom operators send official notices, not random 10-digit numbers. The 2-hour urgency is classic Fear + Urgency. Your phone is fine."
           },
           {
             "text": "Forward to your telecom operator's official number to check",
             "nextNodeId": "node-9",
             "scoreImpact": 10,
-            "feedback": "✓ Smart verification step. Your operator will confirm it's fake. Jio: 199 | Airtel: 121 | Vi: 199."
+            "feedback": "Smart verification step. Your operator will confirm it is fake. Jio: 199 | Airtel: 121 | Vi: 199."
           }
         ],
         "isEnd": false
@@ -1878,7 +2466,7 @@
       {
         "nodeId": "node-9-bad",
         "type": "consequence",
-        "narrative": "The call connects. A serious voice begins a lengthy script about your number being 'flagged for 2,847 illegal messages.' They ask for your Aadhaar and an OTP. You're now in a vishing call, a live scam.",
+        "narrative": "The call connects. A serious voice begins a lengthy script about your number being 'flagged for 2,847 illegal messages.' They ask for your Aadhaar and an OTP. You are now in a vishing call -- a live scam.",
         "timeSkip": null,
         "choices": [
           {
@@ -1886,6 +2474,12 @@
             "nextNodeId": "node-9",
             "scoreImpact": 5,
             "feedback": "Correct exit. Never too late to hang up."
+          },
+          {
+            "text": "Stay on the call and give them your Aadhaar to 'clear your name'",
+            "nextNodeId": "node-9-bad-worse",
+            "scoreImpact": -20,
+            "feedback": "Sharing your Aadhaar number on a scam call gives them a key piece of your identity. Combined with other leaked data, they can attempt SIM swaps, open fake accounts, or commit identity theft in your name. Hang up immediately."
           }
         ],
         "isEnd": false
@@ -1895,28 +2489,28 @@
         "type": "instagram-dm",
         "display": {
           "from": "@wealthwithsunilji",
-          "message": "Bhai, join our exclusive trading group. Our members made ₹45,000 last month with just ₹10,000 investment. Today is the last day for this month's batch. DM me NOW. ₹500 joining fee only. Screenshot proof below 👇",
-          "attachment": "A screenshot showing a trade app with 'Profit: ₹45,230' in green"
+          "message": "Bhai, join our exclusive trading group. Our members made Rs 45,000 last month with just Rs 10,000 investment. Today is the last day for this month's batch. DM me NOW. Rs 500 joining fee only. Screenshot proof below.",
+          "attachment": "A screenshot showing a trade app with 'Profit: Rs 45,230' in green"
         },
         "prompt": "The screenshot looks convincing. What do you do?",
         "choices": [
           {
-            "text": "Pay ₹500 to join, seems like a small risk for big potential",
+            "text": "Pay Rs 500 to join, seems like a small risk for big potential",
             "nextNodeId": "node-10-bad",
             "scoreImpact": -15,
-            "feedback": "✗ There is no 'small risk' entry fee to legitimate trading groups. The screenshot is trivially easy to fake, anyone can Photoshop a green number. ₹500 is the first payment. Next comes ₹5,000 for 'premium access,' then more."
+            "feedback": "There is no 'small risk' entry fee to legitimate trading. The screenshot is trivially easy to fake -- anyone can Photoshop a green number. Rs 500 is the first payment. Next comes Rs 5,000 for 'premium access,' then more."
           },
           {
             "text": "Ignore and report the account",
             "nextNodeId": "node-10",
             "scoreImpact": 15,
-            "feedback": "✓ Perfect. This is a classic social media investment recruitment scam. Report @wealthwithsunilji to Instagram, it protects others too. Any 'guaranteed profit' screenshot from an unknown account is bait."
+            "feedback": "Perfect. This is a classic social media investment recruitment scam. Report @wealthwithsunilji to Instagram -- it protects others too. Any 'guaranteed profit' screenshot from an unknown account is bait."
           },
           {
             "text": "Ask for their SEBI registration number before paying",
             "nextNodeId": "node-10",
             "scoreImpact": 12,
-            "feedback": "✓ Smart. They won't have one (or will send a fake). No SEBI registration = no money. Legitimate investment advisors are always registered and display their number openly."
+            "feedback": "Smart. They will not have one (or will send a fake). No SEBI registration = no money. Legitimate investment advisors are always registered and display their number openly."
           }
         ],
         "isEnd": false
@@ -1924,14 +2518,20 @@
       {
         "nodeId": "node-10-bad",
         "type": "consequence",
-        "narrative": "You pay ₹500. You're added to a WhatsApp group with 247 members cheering daily 'profits.' A week later, Sunil DMs you: 'Bhai, premium tier is ₹7,000 for the real strategies. Your ₹500 trial is expiring.' The group members are bots.",
+        "narrative": "You pay Rs 500. You are added to a WhatsApp group with 247 members cheering daily 'profits.' A week later, Sunil DMs you: 'Bhai, premium tier is Rs 7,000 for the real strategies. Your Rs 500 trial is expiring.' The group members are bots.",
         "timeSkip": "One week later...",
         "choices": [
           {
             "text": "Stop here, report to cybercrime.gov.in and don't pay further",
             "nextNodeId": "node-10",
             "scoreImpact": 5,
-            "feedback": "Correct exit. ₹500 lost. Don't add ₹7,000 to it."
+            "feedback": "Correct exit. Rs 500 lost. Do not add Rs 7,000 to it."
+          },
+          {
+            "text": "Pay the Rs 7,000 for premium access -- you might recover your Rs 500 through the 'real strategies'",
+            "nextNodeId": "node-10-bad-worse",
+            "scoreImpact": -15,
+            "feedback": "This is exactly how investment scams escalate. The Rs 500 is gone. The Rs 7,000 will also vanish. Then there will be a Rs 15,000 'VIP tier.' Each payment makes it harder to walk away because you keep thinking you can recover the previous loss. Stop now."
           }
         ],
         "isEnd": false
@@ -1941,7 +2541,7 @@
         "type": "bank-notification",
         "display": {
           "from": "HDFC Bank App",
-          "notification": "Your Fixed Deposit of ₹50,000 is maturing on 28-Mar. Would you like to renew? Log in to your HDFC app to choose renewal options."
+          "notification": "Your Fixed Deposit of Rs 50,000 is maturing on 28-Mar. Would you like to renew? Log in to your HDFC app to choose renewal options."
         },
         "prompt": "You do have an FD at HDFC. What do you do?",
         "choices": [
@@ -1949,13 +2549,13 @@
             "text": "Open the HDFC app yourself (not from a link in the notification) and check FD options",
             "nextNodeId": "node-end-great",
             "scoreImpact": 10,
-            "feedback": "✓ Excellent instinct. Opening the app yourself (not tapping any link) is exactly right. This notification is legitimate, but building the habit of navigating to apps yourself, rather than tapping notification links, keeps you safe even when a notification might be fake."
+            "feedback": "Excellent instinct. Opening the app yourself (not tapping any link) is exactly right. This notification is legitimate, but building the habit of navigating to apps yourself, rather than tapping notification links, keeps you safe even when a notification might be fake."
           },
           {
             "text": "Tap 'Log in' from the notification directly",
             "nextNodeId": "node-end-learning",
             "scoreImpact": 5,
-            "feedback": "✓ In this case the notification is legitimate. But as a habit, opening apps yourself is safer than tapping notification links. Fake app notifications can redirect to phishing pages."
+            "feedback": "In this case the notification is legitimate. But as a habit, opening apps yourself is safer than tapping notification links. Fake app notifications can redirect to phishing pages."
           },
           {
             "text": "Ignore, FDs auto-renew anyway",
@@ -1967,29 +2567,176 @@
         "isEnd": false
       },
       {
+        "nodeId": "node-4-bad-worse",
+        "type": "consequence",
+        "narrative": "Two days pass. You check your bank statement hoping the money reappeared. It did not. The scammer has already withdrawn your Rs 5,000 and closed the account. Because you waited, the bank cannot freeze the destination account. The money is gone.",
+        "timeSkip": "Two days later...",
+        "choices": [
+          {
+            "text": "File a late report on cybercrime.gov.in anyway -- it still helps catch repeat offenders",
+            "nextNodeId": "node-4",
+            "scoreImpact": 0,
+            "feedback": "Better late than never, but your recovery chances have dropped significantly. Always report within the first 30 minutes."
+          },
+          {
+            "text": "Give up entirely and consider it a life lesson",
+            "nextNodeId": "node-4",
+            "scoreImpact": -5,
+            "feedback": "Understandable frustration, but even a late report helps. Your complaint adds to a pattern that helps authorities catch this scammer when they target others. File at cybercrime.gov.in. It takes 10 minutes."
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5-bad-worse",
+        "type": "consequence",
+        "narrative": "You call back. The scammer picks up: 'Sir, we are processing your refund. Please share the new OTP we are sending to complete the reversal.' Another OTP arrives. You have walked into a second trap.",
+        "timeSkip": null,
+        "choices": [
+          {
+            "text": "Hang up and call HDFC's real helpline at 1800-202-6161",
+            "nextNodeId": "node-5",
+            "scoreImpact": 0,
+            "feedback": "You narrowly avoided a second loss. Scammers always have a follow-up script ready for people who call back. Never call a scammer's number -- only use official helplines."
+          },
+          {
+            "text": "Share the new OTP since you need the reversal",
+            "nextNodeId": "node-5",
+            "scoreImpact": -15,
+            "feedback": "A second OTP shared means a second transaction authorized. You have now lost Rs 37,000 total. Each OTP you share is a separate transaction. Call your bank immediately at 1800-202-6161 and freeze everything."
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-5-bad-2-worse",
+        "type": "consequence",
+        "narrative": "You find 'CyberRecovery India' online, pay Rs 5,000 as their 'investigation fee.' They ask for your bank login 'to trace the transaction.' It is a secondary scam. You have now lost Rs 23,500 total and shared even more banking details with criminals.",
+        "timeSkip": null,
+        "choices": [
+          {
+            "text": "Stop everything and call HDFC directly at 1800-202-6161",
+            "nextNodeId": "node-5",
+            "scoreImpact": 0,
+            "feedback": "Two painful lessons in one day. Recovery services found via Google are almost always scams. The only legitimate recovery path is your bank + 1930 + cybercrime.gov.in."
+          },
+          {
+            "text": "Change all your banking passwords immediately and then call 1930",
+            "nextNodeId": "node-5",
+            "scoreImpact": 3,
+            "feedback": "Good thinking on the password change since you shared credentials with a fake recovery service. But call your bank first to freeze your account -- password changes alone are not enough if they already have your details."
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-6-bad-worse",
+        "type": "consequence",
+        "narrative": "You reply to the fake Amazon email: 'Please reverse my transaction.' They respond: 'We need your UPI PIN and registered mobile number to process the reversal.' Replying has confirmed your email is active. You start receiving more phishing emails daily.",
+        "timeSkip": null,
+        "choices": [
+          {
+            "text": "Stop replying, mark as spam, and report on cybercrime.gov.in",
+            "nextNodeId": "node-6",
+            "scoreImpact": 0,
+            "feedback": "Never engage with scam emails. Replying confirms you are a real, responsive target. Block, report, and move on."
+          },
+          {
+            "text": "Reply asking them to prove they are Amazon first",
+            "nextNodeId": "node-6",
+            "scoreImpact": -5,
+            "feedback": "Every reply gives scammers more information about you and confirms your email is active. They will craft increasingly convincing responses. Stop all contact. Block and report."
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-8-bad-worse",
+        "type": "consequence",
+        "narrative": "You send a collect request to the scammer's UPI ID for Rs 15,000. They screenshot your request and threaten to file a police complaint against YOU for harassment. You are now both out Rs 15,000 and being threatened by criminals.",
+        "timeSkip": null,
+        "choices": [
+          {
+            "text": "Stop all contact with the scammer and report everything to 1930",
+            "nextNodeId": "node-8",
+            "scoreImpact": 0,
+            "feedback": "Attempting to fight scammers on your own only makes things worse. Let the authorities handle it through proper channels. Report to 1930, your bank, and cybercrime.gov.in."
+          },
+          {
+            "text": "Block the scammer's number and report the fraud to your bank",
+            "nextNodeId": "node-8",
+            "scoreImpact": 2,
+            "feedback": "Blocking is good but not sufficient. Also call 1930 and file at cybercrime.gov.in. The scammer's threat of a police complaint against you is empty -- you are the victim here."
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-9-bad-worse",
+        "type": "consequence",
+        "narrative": "You share your Aadhaar number. The 'officer' now has your name, phone number, and Aadhaar. Three days later, your phone loses signal. Someone has used your Aadhaar to attempt a SIM swap. Your OTPs are now going to a stranger's phone.",
+        "timeSkip": "Three days later...",
+        "choices": [
+          {
+            "text": "Rush to your telecom store with original ID to reclaim your number",
+            "nextNodeId": "node-9",
+            "scoreImpact": 0,
+            "feedback": "Sharing your Aadhaar on a scam call can lead to identity theft, SIM swaps, and unauthorized account access. Lock your Aadhaar biometrics immediately at myAadhaar.uidai.gov.in."
+          },
+          {
+            "text": "Call your bank from a family member's phone and freeze your accounts",
+            "nextNodeId": "node-9",
+            "scoreImpact": 3,
+            "feedback": "Smart priority -- securing your bank accounts first while your SIM is compromised. Then visit the telecom store with your original ID to reclaim your number. Also lock your Aadhaar biometrics at myAadhaar.uidai.gov.in."
+          }
+        ],
+        "isEnd": false
+      },
+      {
+        "nodeId": "node-10-bad-worse",
+        "type": "consequence",
+        "narrative": "You pay Rs 7,000. The 'premium group' has the same fake screenshots. Two weeks later, Sunil DMs again: 'Bhai, VIP tier is Rs 15,000 for the algo bot.' The rabbit hole has no bottom. You have lost Rs 7,500 total with zero real returns.",
+        "timeSkip": "Two weeks later...",
+        "choices": [
+          {
+            "text": "Stop all payments and report to cybercrime.gov.in",
+            "nextNodeId": "node-10",
+            "scoreImpact": 0,
+            "feedback": "Investment scams are designed to escalate. Each payment makes the next one feel more justified -- 'I have already invested so much.' This is the sunk cost fallacy in action. Cut your losses now."
+          },
+          {
+            "text": "Pay the Rs 15,000 VIP fee -- at this point, you need to recover what you have already lost",
+            "nextNodeId": "node-10",
+            "scoreImpact": -10,
+            "feedback": "This is exactly the sunk cost fallacy that investment scammers exploit. You have lost Rs 7,500. Paying Rs 15,000 more will not recover it -- it will make your total loss Rs 22,500. The 'algo bot' does not exist. Stop now and report to cybercrime.gov.in."
+          }
+        ],
+        "isEnd": false
+      },
+      {
         "nodeId": "node-end-great",
         "type": "end",
-        "narrative": "Your phone buzzes one last time. A message from Chip: 'Okay. That was a LOT for one Wednesday morning. You handled it well. You spotted the fake OTP call. You flagged the Amazon email. You didn't scan the mystery QR. You protected your grandmother (or learned why you should). You are genuinely hard to scam now. That's not nothing, most people don't figure this out until it costs them money.' Scam Spotter badge: unlocked. 🛡️",
+        "narrative": "Your phone buzzes one last time. A message from Chip: 'That was a LOT for one Wednesday morning. But you handled it. You spotted the fake OTP call. You flagged the Amazon email. You did not scan the mystery QR. You protected your grandmother (or learned why you should). You are genuinely hard to scam now. That is not nothing -- most people do not figure this out until it costs them money.' Scam Spotter badge: unlocked.",
         "timeSkip": "4:45 PM - end of the longest Wednesday",
-        "scoreMessage": "Elite Scam Spotter, You caught everything that mattered.",
+        "scoreMessage": "Elite Scam Spotter. You caught everything that mattered.",
         "choices": [],
         "isEnd": true
       },
       {
         "nodeId": "node-end-good",
         "type": "end",
-        "narrative": "Evening. You survived Wednesday relatively intact, a few close calls, but no major losses. Chip gives you a cautious thumbs up: 'You did okay. A couple of spots where you hesitated when you should have been certain, but okay. The fact that you're thinking about this stuff at all puts you ahead of 80% of people. Keep sharpening.' Some badges unlocked. Some lessons reinforced.",
+        "narrative": "Evening. You survived Wednesday relatively intact -- a few close calls, but no major losses. Chip gives you a cautious thumbs up: 'You did okay. A couple of spots where you hesitated when you should have been certain, but okay. The fact that you are thinking about this stuff at all puts you ahead of 80% of people. Keep sharpening.' Some badges unlocked. Some lessons reinforced.",
         "timeSkip": "Evening",
-        "scoreMessage": "Good Spotter, A few close calls, but you held your ground.",
+        "scoreMessage": "Good Spotter. A few close calls, but you held your ground.",
         "choices": [],
         "isEnd": true
       },
       {
         "nodeId": "node-end-learning",
         "type": "end",
-        "narrative": "It's been a rough Wednesday. Some money was lost. Some decisions didn't land right. Chip pulls up a chair: 'Look, you got hit. It happens, these people are professionals. The important thing is you know exactly what went wrong and why. And now you do. You won't make those same calls again. That's what this chapter was for.' Recovery guidance unlocked. File those reports.",
+        "narrative": "It has been a rough Wednesday. Some money was lost. Some decisions did not land right. Chip pulls up a chair: 'Look, you got hit. It happens -- these people are professionals. The important thing is you know exactly what went wrong and why. And now you do. You will not make those same calls again. That is what this chapter was for.' Recovery guidance unlocked. File those reports.",
         "timeSkip": "Evening",
-        "scoreMessage": "Learning Mode, Some hits taken, but every lesson is locked in now.",
+        "scoreMessage": "Learning Mode. Some hits taken, but every lesson is locked in now.",
         "choices": [],
         "isEnd": true
       }
@@ -2001,11 +2748,11 @@
       "type": "scenario",
       "title": "The Prize Call",
       "content": {
-        "scenario": "You get a call: 'Congratulations! Your mobile number has been selected in the Jio 25th Anniversary Mega Lucky Draw. You have won ₹7,50,000 and a Samsung phone. To claim your prize, pay ₹2,100 as GST processing fee via UPI to this number: 9876XXXXXX. Prize will be delivered in 24 hours.'",
+        "scenario": "You get a call: 'Congratulations! Your mobile number has been selected in the Jio 25th Anniversary Mega Lucky Draw. You have won Rs 7,50,000 and a Samsung phone. To claim your prize, pay Rs 2,100 as GST processing fee via UPI to this number: 9876XXXXXX. Prize will be delivered in 24 hours.'",
         "prompt": "What's the right move?",
         "options": [
           {
-            "text": "Pay the ₹2,100, GST is legitimate and ₹7.5 lakh is worth it",
+            "text": "Pay the Rs 2,100, GST is legitimate and Rs 7.5 lakh is worth it",
             "isCorrect": false
           },
           {
@@ -2021,7 +2768,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "This is an advance fee scam. There is no Jio lucky draw. If you pay ₹2,100, there will be more fees, 'insurance,' 'customs,' 'delivery charges', until you stop paying. The prize never arrives. The rule is absolute: real prizes do not require payment to claim. GST on prizes is deducted by the organizer, never collected upfront from the winner. Hang up. If you're tempted, Google 'Jio lucky draw', you'll find no such thing exists."
+        "explanation": "This is an advance fee scam. There is no Jio lucky draw. If you pay Rs 2,100, there will be more fees -- 'insurance,' 'customs,' 'delivery charges' -- until you stop paying. The prize never arrives. The rule is absolute: real prizes do not require payment to claim. GST on prizes is deducted by the organizer, never collected upfront from the winner. Hang up. If you are tempted, Google 'Jio lucky draw' -- you will find no such thing exists."
       },
       "xpReward": 25,
       "requiredChaptersCompleted": 5
@@ -2031,7 +2778,7 @@
       "type": "scenario",
       "title": "The KYC Update Message",
       "content": {
-        "scenario": "WhatsApp message from +91 7834XXXXXX: 'Dear SBI Customer, your KYC has expired. Your account will be frozen in 24 hours. Update now: [link], SBI Bank Team.' The link goes to 'sbi-kyc-update2024.in'.",
+        "scenario": "WhatsApp message from +91 7834XXXXXX: 'Dear SBI Customer, your KYC has expired. Your account will be frozen in 24 hours. Update now: [link]. SBI Bank Team.' The link goes to 'sbi-kyc-update2024.in'.",
         "prompt": "What do you do?",
         "options": [
           {
@@ -2051,7 +2798,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Three dead giveaways: (1) WhatsApp is not how banks send official KYC notices. (2) The domain 'sbi-kyc-update2024.in' is fake, SBI's real domain is onlinesbi.sbi. (3) Random mobile numbers don't represent SBI. The link would take you to a phishing page that harvests your login credentials. Never click banking links from WhatsApp. If your KYC actually needs updating, you'd see a notice in the SBI YONO app or receive physical mail."
+        "explanation": "Three dead giveaways: (1) WhatsApp is not how banks send official KYC notices. (2) The domain 'sbi-kyc-update2024.in' is fake -- SBI's real domain is onlinesbi.sbi. (3) Random mobile numbers do not represent SBI. The link would take you to a phishing page that harvests your login credentials. Never click banking links from WhatsApp. If your KYC actually needs updating, you would see a notice in the SBI YONO app or receive physical mail."
       },
       "xpReward": 25,
       "requiredChaptersCompleted": 5
@@ -2081,7 +2828,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Google Pay, PhonePe, and Paytm do NOT have customer care phone numbers you can call for support, it's in-app only. The number you called via Google was a paid ad placed by scammers, this is real and documented. AnyDesk gives them your entire screen, including any OTPs that pop up. Once installed, they see everything. The stuck transaction? They'd have fixed it themselves, by draining your account. For real payment issues: use the Help section inside the app."
+        "explanation": "Google Pay, PhonePe, and Paytm do NOT have customer care phone numbers you can call -- support is in-app only. The number you called via Google was a paid ad placed by scammers. This is real and documented. AnyDesk gives them your entire screen, including any OTPs that pop up. Once installed, they see everything. The stuck transaction? They would have 'fixed' it by draining your account. For real payment issues: use the Help section inside the app."
       },
       "xpReward": 30,
       "requiredChaptersCompleted": 6
@@ -2091,7 +2838,7 @@
       "type": "mini-simulation",
       "title": "Your Dadi's Scary Morning",
       "content": {
-        "setup": "Your grandmother calls you at 10 AM, very frightened. A 'CBI officer' has been on the phone with her for 45 minutes. He says your grandfather's account was used for illegal transactions. He told her not to tell anyone, 'this is a confidential investigation.'",
+        "setup": "Your grandmother calls you at 10 AM, very frightened. A 'CBI officer' has been on the phone with her for 45 minutes. He says your grandfather's account was used for illegal transactions. He told her not to tell anyone -- 'this is a confidential investigation.'",
         "startNodeId": "dc-node-1",
         "nodes": [
           {
@@ -2108,7 +2855,7 @@
                 "text": "Tell Dadi immediately: this is a scam, hang up right now, I'm coming over",
                 "nextNodeId": "dc-node-end-great",
                 "scoreImpact": 15,
-                "feedback": "✓ Perfect. The 'don't tell anyone' instruction is the biggest red flag, it's designed to isolate victims. Real CBI investigations involve written notices and in-person visits, never 45-minute phone calls. Your confidence here breaks the spell."
+                "feedback": "Perfect. The 'don't tell anyone' instruction is the biggest red flag -- it is designed to isolate victims. Real CBI investigations involve written notices and in-person visits, never 45-minute phone calls. Your confidence here breaks the spell."
               }
             ],
             "isEnd": false
@@ -2121,14 +2868,20 @@
                 "text": "Tell Dadi to hang up, this escalating pressure proves it's a scam",
                 "nextNodeId": "dc-node-end-great",
                 "scoreImpact": 10,
-                "feedback": "✓ You got there. Escalating threats are the final tell. Real investigations don't intensify because a family member called. Hang up, go over, reassure her."
+                "feedback": "You got there. Escalating threats are the final tell. Real investigations do not intensify because a family member called. Hang up, go over, reassure her."
+              },
+              {
+                "text": "Call the local police station yourself to verify if there is actually a case",
+                "nextNodeId": "dc-node-end-great",
+                "scoreImpact": 7,
+                "feedback": "Verifying with real police is smart, but tell Dadi to hang up FIRST. Every extra minute on that call increases the scammer's psychological hold. Local police will confirm there is no such case."
               }
             ],
             "isEnd": false
           },
           {
             "nodeId": "dc-node-end-great",
-            "narrative": "Dadi hangs up. You go over. She's shaken but fine. Together, you register a complaint at cybercrime.gov.in for the attempt. Chip: 'You protected your family today. That matters more than any investment return.'",
+            "narrative": "Dadi hangs up. You go over. She is shaken but fine. Together, you register a complaint at cybercrime.gov.in for the attempt. Chip: 'You protected your family today. That matters more than any investment return.'",
             "choices": [],
             "isEnd": true
           }
@@ -2152,11 +2905,11 @@
       "OTP mechanics: Correctly described as one-directional authorization",
       "GainBitcoin/Speak Asia scam details: Accurate to documented cases",
       "AePS fingerprint fraud in Jharkhand/Bihar: Documented issue, accurately represented",
-      "₹7,061 crore figure: MHA cybercrime data for Apr-Sep 2024 period",
-      "Digital arrest ₹2,140 crore: 2024 MHA figure, accurately cited",
+      "Rs 7,061 crore figure: MHA cybercrime data for Apr-Sep 2024 period",
+      "Digital arrest Rs 2,140 crore: 2024 MHA figure, accurately cited",
       "Voice cloning caveat: Accurately noted as emerging threat, not overstated"
     ],
-    "progressiveDifficulty": "6.1 establishes psychology (conceptual). 6.2-6.3 move to specific mechanics (UPI, OTP). 6.4 covers more complex investment fraud. 6.5 applies knowledge to protecting others (requires synthesis). 6.6 is procedural, what to do after the fact. Simulation reinforces all lessons in rapid succession. Daily challenges extend to edge cases.",
+    "progressiveDifficulty": "6.1 establishes psychology (conceptual). 6.2-6.3 move to specific mechanics (UPI, OTP). 6.4 covers more complex investment fraud. 6.5 applies knowledge to protecting others (requires synthesis). 6.6 is procedural -- what to do after the fact. Simulation reinforces all lessons in rapid succession. Daily challenges extend to edge cases.",
     "keyTermsCheck": "All key terms (Social Engineering, Vishing, Phishing, KYC, QR Code Payment, UPI Collect Request, Screen Mirroring Scam, OTP, OTP Forwarding Malware, SIM Swap Fraud, Ponzi Scheme, Pump and Dump, SEBI, AePS, Digital Arrest, DND, Chargeback, FIR, 1930 helpline) defined before first use in content and exercises.",
     "chipMomentsPerLesson": {
       "6.1": 3,

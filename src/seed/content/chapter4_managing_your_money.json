@@ -1,1435 +1,1748 @@
 {
-  "chapterId": "chapter-4",
-  "title": "Managing Your Money",
-  "tagline": "Let's actually do this.",
-  "description": "Learn the real skills of personal finance: tracking income and expenses, budgeting with the 50/30/20 rule, building an emergency fund, and creating a spending plan that actually works for Indian teens.",
-  "color": "#1ABC9C",
-  "colorName": "teal",
-  "estimatedDuration": "45-60 minutes",
-  "totalXP": 500,
-  "lessons": [
-    {
-      "lessonId": "lesson-4-1",
-      "title": "Income vs. Expenses",
-      "estimatedReadingMinutes": 10,
-      "contentBlocks": [
-        {
-          "type": "text",
-          "data": {
-            "content": "Here's a scenario. You get your pocket money or your first stipend. Maybe it's 2,000 rupees, maybe it's 5,000. For about two days, you feel like you can do anything. Then a Swiggy order here, a movie there, a random Amazon purchase, and suddenly your UPI balance looks like a horror movie countdown."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "priya",
-            "expression": "thinking",
-            "text": "I got 3,000 rupees for my birthday last month. I genuinely have no idea where it all went. Like, zero clue."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "That feeling? Super common. And it's not because you're bad with money. It's because nobody ever showed you the two forces that run your entire financial life: **income** (money flowing in) and **expenses** (money flowing out). Everything in personal finance comes down to the gap between these two."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Income",
-            "definition": "Any money coming IN to you: pocket money, birthday gifts, freelance gigs, part-time jobs, stipends. All of it counts."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Expenses",
-            "definition": "Any money going OUT: food, transport, subscriptions, shopping, movie tickets, everything. Every single rupee that leaves your wallet or UPI."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "Two arrows showing money flowing in as income and money flowing out as expenses",
-            "src": "/illustrations/ch4/l1-income-vs-expenses.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). Two bold arrows: a green-teal arrow pointing INTO a wallet labeled 'Income' (pocket money, gifts, part-time job icons nearby), and a red-coral arrow pointing OUT labeled 'Expenses' (food, phone, shopping bag icons). Clean, modern, fills the frame. No text except labels."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Now here's where it gets interesting. There are two types of expenses, and mixing them up is where most people mess up. **Fixed expenses** stay the same every month: your phone recharge, that Netflix subscription, your coaching class fees. You know exactly what they'll cost."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Fixed Expenses",
-            "definition": "Costs that stay the same every month regardless of what you do. Phone plan, subscriptions, tuition fees, loan instalments."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "fun-fact",
-            "content": "The average Indian teenager spends around 800 to 1,500 rupees a month on food delivery apps alone. That's 10,000 to 18,000 rupees a year quietly disappearing through Swiggy and Zomato orders."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "**Variable expenses** change every month depending on your choices. How many times you ate out, whether you took an auto or walked, that impulse buy on Flipkart. This is where your real control lives. You can't easily change your phone plan. But you 100% control how many bubble teas you order this week."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Variable Expenses",
-            "definition": "Costs that change from month to month depending on your choices. Eating out, transport, shopping, entertainment. This is where you have the most control over your spending."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "arjun",
-            "expression": "explaining",
-            "text": "I tracked my expenses for one week. Just one. I was spending 150 rupees a day on snacks and chai outside college. That's 4,500 a month. My entire pocket money increase from last year was going to the canteen."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "Pie chart showing typical monthly expense breakdown for an Indian teen",
-            "src": "/illustrations/ch4/l1-expense-breakdown.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A clean pie chart showing expense categories for an Indian teenager: Food & snacks (biggest slice), Transport (auto/metro), Phone recharge, Entertainment (movies/OTT), Shopping, and Savings. Each slice in a different shade of teal/mint. Bold, minimal, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "The formula is dead simple: **Income minus Expenses equals Surplus (or Deficit)**. Surplus means money is left over and you have options. Deficit means you spent more than you earned and you're in trouble. This equation is the scoreboard of your financial life."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "tip",
-            "content": "Try this: for just one week, note every UPI payment and every cash expense in your phone's notes app. Most people are genuinely shocked when they see the actual numbers. Awareness alone changes how you spend."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "A simple equation showing Income minus Expenses equals Surplus or Deficit",
-            "src": "/illustrations/ch4/l1-surplus-deficit.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). Bold equation: Income (shown as stack of coins) MINUS Expenses (shown as shopping bags and food) EQUALS either a happy green surplus arrow pointing up or a red deficit arrow pointing down. Clean, bold shapes, no stick figures, fills the space."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "chip-says",
-            "content": "Most people have a rough idea of how much they earn. Almost nobody has an accurate idea of how much they spend. The first step to managing money is just knowing the actual numbers."
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "type": "sorting",
-          "prompt": "Sort these monthly expenses into Fixed vs. Variable",
-          "categories": ["Fixed", "Variable"],
-          "items": [
-            { "text": "Rent (₹9,500/month)", "correctCategory": "Fixed" },
-            { "text": "Grocery shopping (₹3,200 this month)", "correctCategory": "Variable" },
-            { "text": "Phone loan instalment (₹1,800/month)", "correctCategory": "Fixed" },
-            { "text": "Auto fares this week (₹450)", "correctCategory": "Variable" },
-            { "text": "Netflix subscription (₹199/month)", "correctCategory": "Fixed" },
-            { "text": "Weekend dinner with friends (₹800)", "correctCategory": "Variable" }
-          ],
-          "explanation": "Fixed expenses are locked in — rent and loan payments don't care if you had a slow month. Variable expenses are in your control. That's exactly where your budgeting focus should go: reduce the variables, not stress about the fixed.",
-          "xpValue": 15
-        },
-        {
-          "type": "mcq-single",
-          "prompt": "Arjun earns ₹32,000/month. His total expenses this month were ₹29,500. What's his financial position?",
-          "options": [
-            { "text": "Deficit of ₹2,500", "isCorrect": false },
-            { "text": "Surplus of ₹2,500", "isCorrect": true },
-            { "text": "Surplus of ₹29,500", "isCorrect": false },
-            { "text": "Break-even, neither surplus nor deficit", "isCorrect": false }
-          ],
-          "explanation": "₹32,000 − ₹29,500 = ₹2,500 surplus. That's his leftover money. Not bad, but also not a ton of cushion, which is why the next lessons matter.",
-          "xpValue": 10
-        },
-        {
-          "type": "scenario",
-          "scenario": "Priya gets ₹25,000/month salary. Her fixed expenses: rent ₹8,000, phone loan instalment ₹1,200, insurance ₹500. Her variable expenses last month: groceries ₹3,500, eating out ₹4,200, transport ₹1,800, shopping ₹3,000, misc ₹1,500.",
-          "prompt": "How much did Priya actually save this month?",
-          "options": [
-            { "text": "₹0, she spent everything", "isCorrect": false },
-            { "text": "₹1,300", "isCorrect": true },
-            { "text": "₹5,500", "isCorrect": false },
-            { "text": "She went into deficit", "isCorrect": false }
-          ],
-          "explanation": "Fixed: ₹8,000 + ₹1,200 + ₹500 = ₹9,700. Variable: ₹3,500 + ₹4,200 + ₹1,800 + ₹3,000 + ₹1,500 = ₹14,000. Total: ₹23,700. Surplus: ₹25,000 − ₹23,700 = ₹1,300. She saved something, but ₹4,200 on eating out (nearly 17% of income!) is worth a look.",
-          "xpValue": 15
-        },
-        {
-          "type": "true-false",
-          "prompt": "Variable expenses are impossible to reduce because you need them to survive.",
-          "correctAnswer": false,
-          "explanation": "Variable expenses are literally the ones you have the most control over! Eating out vs. cooking, Ola vs. metro, branded shampoo vs. generic — these are all choices. Fixed expenses (rent, loan payments) are much harder to change quickly.",
-          "xpValue": 10
-        },
-        {
-          "type": "mcq-multi",
-          "prompt": "Which of these would count as income for a 21-year-old? (Select all that apply)",
-          "options": [
-            { "text": "Monthly salary from internship", "isCorrect": true },
-            { "text": "Cash gift from grandparents for Diwali", "isCorrect": true },
-            { "text": "Selling old textbooks online", "isCorrect": true },
-            { "text": "Money borrowed from a friend", "isCorrect": false }
-          ],
-          "explanation": "Salary, gifts, and selling stuff all count as income, money genuinely coming in. But borrowed money is NOT income; it's a liability because you have to pay it back. Counting loans as income is how people accidentally think they're richer than they are.",
-          "xpValue": 10
-        }
-      ]
-    },
-    {
-      "lessonId": "lesson-4-2",
-      "title": "The 50/30/20 Rule",
-      "estimatedReadingMinutes": 11,
-      "contentBlocks": [
-        {
-          "type": "text",
-          "data": {
-            "content": "Here's the problem with most budgeting advice: it's either too vague ('spend less!') or way too complicated (spreadsheets with 47 categories that nobody fills in after week two). What if there was one rule, just one, that gave you a solid framework for your entire income?"
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "priya",
-            "expression": "skeptical",
-            "text": "Every adult tells me to 'save more' but nobody actually explains HOW. Like, how much is enough? What counts as saving? It's so vague."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Great news, Priya. There IS a simple answer. It's called the **50/30/20 Rule**, and it's been around since the early 2000s because it actually works. The idea: every rupee you earn goes into one of three buckets. Needs: 50%. Wants: 30%. Savings: 20%. That's it. Done."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Take-Home Income",
-            "definition": "The actual money you receive after any deductions like taxes or PF. This is the number you use for budgeting, not your gross salary."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "50/30/20 Rule",
-            "definition": "A budgeting framework where 50% of your take-home income goes to Needs, 30% to Wants, and 20% to Savings or debt repayment."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "Three buckets showing the 50/30/20 budget split with Indian examples",
-            "src": "/illustrations/ch4/l2-503020-buckets.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). Three bold buckets in different teal shades. First bucket (darkest teal, 50%) labeled 'Needs' with icons: house, groceries, metro card. Second bucket (medium teal, 30%) labeled 'Wants' with icons: pizza, movie tickets, sneakers. Third bucket (lightest mint, 20%) labeled 'Savings' with icons: piggy bank, coins. Clean, bold shapes, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Let's say you get 5,000 rupees pocket money a month. That means: 2,500 for Needs (transport, phone recharge, school supplies). 1,500 for Wants (eating out, movies, that thing you want on Amazon). 1,000 for Savings (yes, even as a teenager). Simple math, powerful habit."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "fun-fact",
-            "content": "The 50/30/20 rule was popularized by Elizabeth Warren (before she became a US Senator) in her book 'All Your Worth.' It was designed to be so simple that anyone could follow it without a finance degree."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "**Needs** are non-negotiables, things you genuinely cannot function without. For a college student in India, that's transport to campus, phone recharge, basic meals, study materials. For someone earning a salary in Bangalore, it's rent, groceries (home-cooked, not restaurant), electricity, and basic transport."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "arjun",
-            "expression": "explaining",
-            "text": "Here's where people mess up: eating out is a WANT, not a need. You need food, yes. You don't need butter chicken from Zomato with surge pricing. Home cooking is a need. Restaurant food is a want."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "**Wants** are the things that make life fun but aren't survival. Eating out with friends, Netflix, new clothes, that 500-rupee coffee at Starbucks. The 30% bucket says you absolutely get to enjoy life. Just within a number."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "chip-says",
-            "content": "Most young people have the Wants and Savings buckets completely swapped. They spend 30% on fun and 'try to save' 20%. Spoiler: the saving rarely happens. Flip the script. Save first, then enjoy the rest."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Pay Yourself First",
-            "definition": "The habit of transferring money to savings BEFORE spending on anything else. Treat savings like a bill that's due on day one of every month."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "**Savings** is the last 20%. And here's the mindset shift: savings isn't what's left over after you spend. It's what you set aside FIRST. Transfer that money on the day your income arrives, before you spend anything. Even if it's just 500 rupees a month. Future you will be extremely grateful."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "Example 50/30/20 split applied to 5000 rupees pocket money",
-            "src": "/illustrations/ch4/l2-pocket-money-split.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A 5000 rupee note at the top, with three arrows splitting down to three labeled sections: Needs 2500 (bus pass, phone icon), Wants 1500 (pizza, headphones icon), Savings 1000 (piggy bank icon). Bold, clean shapes, minimal text, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Real talk though: this rule is a **guide, not a law**. If your expenses don't fit perfectly into 50/30/20, that's fine. Even 60/25/15 or 70/20/10 is infinitely better than having no plan at all. The real goal is having a framework so money doesn't just vanish."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "tip",
-            "content": "If the numbers feel tight, start with the Savings bucket. Even saving 500 rupees a month is the habit that matters. Scale it up as your income grows. The percentage matters less than the consistency."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "Visual comparing someone with a budget plan versus without one",
-            "src": "/illustrations/ch4/l2-plan-vs-no-plan.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). Split panel: LEFT shows a calm person with organized money buckets, wallet still has cash at month end, labeled 'With a plan'. RIGHT shows a stressed person with money flying away in all directions, empty wallet, labeled 'Without a plan'. Bold flat shapes, expressive but no stick figures, fills the space."
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "type": "calculator",
-          "title": "50/30/20 Budget Calculator",
-          "inputs": [
-            { "label": "Monthly take-home salary (₹)", "key": "salary", "default": 30000 }
-          ],
-          "formula": "{ needs: salary * 0.50, wants: salary * 0.30, savings: salary * 0.20 }",
-          "outputLabel": "Your budget split",
-          "followUpQuestion": {
-            "prompt": "On a salary of ₹30,000, how much should ideally go toward 'Wants' per month?",
-            "options": [
-              { "text": "₹15,000", "isCorrect": false },
-              { "text": "₹9,000", "isCorrect": true },
-              { "text": "₹6,000", "isCorrect": false },
-              { "text": "₹12,000", "isCorrect": false }
-            ],
-            "explanation": "30% of ₹30,000 = ₹9,000 for Wants. That's ₹300/day on average for eating out, entertainment, shopping, fun. Not nothing, but definitely a real number that keeps you on track."
+  "chapter": {
+    "chapterId": "chapter-4",
+    "title": "Managing Your Money",
+    "tagline": "Let's actually do this.",
+    "description": "Learn the real skills of personal finance: tracking income and expenses, budgeting with the 50/30/20 rule, building an emergency fund, and creating a spending plan that actually works for Indian teens.",
+    "color": "#1ABC9C",
+    "colorName": "teal",
+    "estimatedDuration": "45-60 minutes",
+    "totalXP": 500,
+    "lessons": [
+      {
+        "id": "lesson-4-1",
+        "title": "Income vs. Expenses",
+        "estimatedReadingMinutes": 10,
+        "contentBlocks": [
+          {
+            "type": "text",
+            "data": {
+              "content": "Picture this. You get your pocket money — maybe 2,000 rupees, maybe 5,000. For about two days, you feel unstoppable. Then a Zomato order here, a movie plan there, some random Amazon impulse buy... and suddenly your UPI balance looks like a horror movie countdown."
+            }
           },
-          "xpValue": 15
-        },
-        {
-          "type": "scenario",
-          "scenario": "Meera earns ₹26,000/month. Her expenses: rent ₹8,500, groceries ₹3,200, auto/metro ₹1,800, phone bill ₹349, eating out ₹3,800, OTT subscriptions ₹498, gym ₹999, new kurtas she bought online ₹2,400, savings transferred ₹3,000.",
-          "prompt": "Which 50/30/20 bucket is Meera most over-budget in?",
-          "options": [
-            { "text": "Needs, her fixed costs are too high", "isCorrect": false },
-            { "text": "Wants, she's spending more than 30% on lifestyle", "isCorrect": false },
-            { "text": "Savings, she's not saving enough compared to the 20% target", "isCorrect": true },
-            { "text": "She's perfectly balanced", "isCorrect": false }
-          ],
-          "explanation": "Meera's Needs (rent + groceries + transport + phone): ₹13,849, that's 53% of income, slightly over but close. Her Wants (eating out + OTTs + gym + clothes): ₹7,697, that's about 30%, right on target. Her Savings: ₹3,000, that's only 11.5%, well under the 20% target of ₹5,200. To fix this, she'd need to trim her Needs or Wants to free up another ₹2,200 for savings.",
-          "xpValue": 15
-        },
-        {
-          "type": "sorting",
-          "prompt": "Sort these expenses into the correct 50/30/20 bucket",
-          "categories": ["Needs (50%)", "Wants (30%)", "Savings (20%)"],
-          "items": [
-            { "text": "Rent for shared flat", "correctCategory": "Needs (50%)" },
-            { "text": "Weekend trip to Coorg", "correctCategory": "Wants (30%)" },
-            { "text": "Monthly SIP (auto-investing in a mutual fund)", "correctCategory": "Savings (20%)" },
-            { "text": "Mobile data plan (₹349)", "correctCategory": "Needs (50%)" },
-            { "text": "Dinner at a restaurant", "correctCategory": "Wants (30%)" },
-            { "text": "Emergency fund top-up", "correctCategory": "Savings (20%)" },
-            { "text": "Electricity bill", "correctCategory": "Needs (50%)" },
-            { "text": "New pair of sneakers", "correctCategory": "Wants (30%)" }
-          ],
-          "explanation": "Needs = survival basics. Wants = quality of life. Savings = future you. The tricky ones: a basic phone plan is a Need; eating out is always a Want; auto-investments (like SIPs in mutual funds) and emergency fund contributions both count as Savings.",
-          "xpValue": 15
-        },
-        {
-          "type": "true-false",
-          "prompt": "The 50/30/20 rule means you must save exactly 20% of your income, anything less is a failure.",
-          "correctAnswer": false,
-          "explanation": "The 50/30/20 rule is a framework, not a test to pass or fail. If you're saving 10% consistently and building the habit, that's better than saving 0% while stressing about perfection. Adjust the percentages to your real life, just always have a number for savings.",
-          "xpValue": 10
-        },
-        {
-          "type": "mcq-single",
-          "prompt": "Rahul's phone dies and he needs to buy a replacement to work (he's a delivery driver). He buys a basic smartphone on monthly instalments, ₹1,500/month. Which budget bucket does this instalment belong in?",
-          "options": [
-            { "text": "Wants (30%), it's a phone, which is a luxury", "isCorrect": false },
-            { "text": "Needs (50%), it's required for his income", "isCorrect": true },
-            { "text": "Savings (20%), buying assets is like saving", "isCorrect": false },
-            { "text": "It doesn't fit any bucket and should be avoided", "isCorrect": false }
-          ],
-          "explanation": "Since Rahul's livelihood literally depends on having a working phone, this is a Need. If he were upgrading from a working phone to a fancier model, it'd be a Want. Context matters, it's not the item, it's the function it serves.",
-          "xpValue": 10
-        }
-      ]
-    },
-    {
-      "lessonId": "lesson-4-3",
-      "title": "Emergency Funds - Why You Need One",
-      "estimatedReadingMinutes": 10,
-      "contentBlocks": [
-        {
-          "type": "text",
-          "data": {
-            "content": "Imagine this. You're going along fine, managing your money, feeling good about yourself. Then your phone screen cracks (repair: 4,000 rupees). Then you need to suddenly travel home because a family member is sick (train ticket: 2,500). Both in the same month. Where does that money come from?"
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "priya",
+              "expression": "thinking",
+              "text": "Yaar, I got 3,000 rupees for my birthday last month. Genuinely no idea where it all went. Like, zero clue. Poof — gone."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "That vanishing-money feeling? Totally normal. You're not bad with money — nobody ever showed you the two forces running your entire financial life. **Income** is money flowing in. **Expenses** is money flowing out. Everything in personal finance comes down to the gap between these two."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Income",
+              "definition": "Any money coming IN to you: pocket money, birthday gifts, freelance gigs, part-time tutoring, stipends. All of it counts."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Expenses",
+              "definition": "Any money going OUT: food, transport, subscriptions, shopping, movie tickets — every single rupee that leaves your wallet or UPI app."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Priya earned Rs.3,000 from birthday gifts and spent it all without tracking. What two forces should she have been watching?",
+              "options": [
+                { "text": "Savings and investments", "isCorrect": false },
+                { "text": "Income (money in) and expenses (money out)", "isCorrect": true },
+                { "text": "Loans and interest rates", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "Two arrows showing money flowing in as income and money flowing out as expenses",
+              "src": "/illustrations/ch4/l1-income-vs-expenses.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). Two bold arrows: a green-teal arrow pointing INTO a wallet labeled 'Income' (pocket money, gifts, part-time job icons nearby), and a red-coral arrow pointing OUT labeled 'Expenses' (food, phone, shopping bag icons). Clean, modern, fills the frame. No text except labels."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Here's where it gets interesting. There are two types of expenses, and mixing them up is where most people mess up their money. **Fixed expenses** stay the same every month — your phone recharge, that Netflix subscription, coaching class fees. You know the exact number before the month even starts."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Fixed Expenses",
+              "definition": "Costs that stay the same every month regardless of what you do. Phone plan, subscriptions, tuition fees, loan instalments."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Your Netflix subscription of Rs.199/month is an example of which type of expense?",
+              "options": [
+                { "text": "Variable expense, because you can cancel it anytime", "isCorrect": false },
+                { "text": "Fixed expense, because the amount stays the same every month", "isCorrect": true },
+                { "text": "It is not an expense since it is entertainment", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "fun-fact",
+              "content": "The average Indian teenager spends around 800 to 1,500 rupees a month on food delivery apps alone. That's up to 18,000 rupees a year quietly vanishing through Swiggy and Zomato — enough to buy a decent phone."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "**Variable expenses** change every month depending on your choices. How many times you split a Zomato order with friends, whether you took an auto or walked, that impulse Flipkart buy at 2 AM. This is where your real control lives — you can't easily change your phone plan, but you 100% control how many bubble teas you order this week."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Variable Expenses",
+              "definition": "Costs that change from month to month depending on your choices. Eating out, transport, shopping, entertainment — this is where you have the most control."
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "arjun",
+              "expression": "explaining",
+              "text": "Bro, I tracked my spending for just one week. ONE. I was blowing 150 rupees a day on canteen snacks and chai. That's 4,500 a month — my entire pocket money raise from last year was going straight to samosas."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Which of the following is a variable expense?",
+              "options": [
+                { "text": "Monthly phone recharge of Rs.299", "isCorrect": false },
+                { "text": "Splitting a Zomato order with friends for Rs.350", "isCorrect": true },
+                { "text": "Coaching class fees of Rs.2,000 per month", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "Pie chart showing typical monthly expense breakdown for an Indian teen",
+              "src": "/illustrations/ch4/l1-expense-breakdown.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A clean pie chart showing expense categories for an Indian teenager: Food & snacks (biggest slice), Transport (auto/metro), Phone recharge, Entertainment (movies/OTT), Shopping, and Savings. Each slice in a different shade of teal/mint. Bold, minimal, fills the space."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "The formula is dead simple: **Income minus Expenses equals Surplus (or Deficit)**. Surplus means you have money left over — options, freedom, breathing room. Deficit means you spent more than you earned — and that's when stress kicks in."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "tip",
+              "content": "Try this right now: open your UPI app and scroll through last week's transactions. Add them up. Most people are genuinely shocked when they see the real number. Awareness alone changes how you spend."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Arjun's pocket money is Rs.5,000 this month. He spent Rs.5,800 on food, transport, and shopping. What is his financial position?",
+              "options": [
+                { "text": "Surplus of Rs.800", "isCorrect": false },
+                { "text": "Deficit of Rs.800", "isCorrect": true },
+                { "text": "Break-even", "isCorrect": false },
+                { "text": "Surplus of Rs.5,800", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "A simple equation showing Income minus Expenses equals Surplus or Deficit",
+              "src": "/illustrations/ch4/l1-surplus-deficit.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). Bold equation: Income (shown as stack of coins) MINUS Expenses (shown as shopping bags and food) EQUALS either a happy green surplus arrow pointing up or a red deficit arrow pointing down. Clean, bold shapes, no stick figures, fills the space."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "chip-says",
+              "content": "Here's the thing nobody tells you: most people have a rough idea of how much they earn, but almost nobody has an accurate idea of how much they spend. Step one of managing money? Just know the actual numbers. That's it. That's the whole first step."
+            }
           }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "priya",
-            "expression": "worried",
-            "text": "Last month my laptop charger died right before exams. 2,800 rupees for a replacement. I had to borrow from three different friends. It was so embarrassing."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "This isn't bad luck. Unexpected expenses aren't actually that unexpected. They happen to everyone, every few months, like clockwork. The question isn't IF something will cost you money out of nowhere. The question is: when it does, do you have a safety net?"
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Emergency Fund",
-            "definition": "A separate stash of money set aside ONLY for genuine emergencies: medical issues, urgent travel, broken essentials. Not for sales, not for fun."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "An umbrella protecting money from unexpected expenses raining down",
-            "src": "/illustrations/ch4/l3-emergency-umbrella.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A large teal umbrella shielding a stack of coins and rupee notes. Above the umbrella, rain drops shaped like common emergencies: a cracked phone, a medical cross, a broken bike, a train ticket. Below the umbrella, the money is safe and dry. Bold flat shapes, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "So what counts as a genuine emergency? Medical costs, urgent family travel, a broken phone or laptop you need for work or school. What does NOT count: a Myntra sale, a concert you forgot to budget for, or running out of money because you overspent on food delivery. Those are planning problems, not emergencies."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "chip-says",
-            "content": "An emergency fund isn't boring savings. It's the wall between you and debt when life throws surprises. Even as a teenager, having 5,000 to 10,000 rupees set aside means you never have to frantically borrow from friends or family."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "How much should you save? The standard adult rule is 3 to 6 months of essential expenses. But as a teen or college student, even having 5,000 to 15,000 rupees saved up gives you a real safety net. Start with a goal of saving 500 rupees a month. In 10 months, you've got a 5,000-rupee emergency fund."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "arjun",
-            "expression": "confident",
-            "text": "I started putting 300 rupees aside every month in a separate UPI account. After 8 months, when my cycle needed repairs, I just paid for it. No stress, no borrowing. It felt amazing."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "A progress bar showing emergency fund building up month by month",
-            "src": "/illustrations/ch4/l3-fund-progress.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A horizontal progress bar filling up over 10 months, starting from 0 and reaching 5000 rupees. Each month's addition of 500 is marked. A small flag at the 5000 target. Below, three icons showing what the fund can cover: phone repair, medical visit, emergency travel. Bold, clean, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "The key rule: keep this money **separate** from your spending money. If it's sitting in the same account you use for Paytm and Swiggy, you WILL spend it. Open a separate savings account or even keep it as cash in an envelope at home. Out of sight, out of temptation."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "fun-fact",
-            "content": "In India, a single hospital visit for something like a fracture or appendicitis can cost 50,000 to 1,50,000 rupees even at a decent hospital. Health insurance helps, but having emergency cash means you're never stuck waiting for approvals."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Here's what an emergency fund really protects you from: **debt**. Without one, every surprise expense becomes borrowed money, from friends, from family, from those sketchy instant loan apps. Your emergency fund saves you from owing people and paying interest."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Liquid Savings",
-            "definition": "Money that's easy and quick to access with no penalties or waiting period. Your emergency fund needs to be liquid, not locked in a fixed deposit."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "Two paths: one person with an emergency fund stays calm, another without one panics",
-            "src": "/illustrations/ch4/l3-two-paths.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). Split panel showing two scenarios after a phone breaks. LEFT: person with emergency fund calmly pays, life continues normally. RIGHT: person without fund panics, borrows from friends, stress symbols everywhere. Bold flat shapes, expressive faces but no stick figures, fills the space."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "tip",
-            "content": "Start today. Literally today. Transfer 200 or 500 rupees to a separate account or put it in an envelope. The amount doesn't matter as much as starting the habit. You can always increase it later."
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "type": "calculator",
-          "title": "Emergency Fund Calculator",
-          "inputs": [
-            { "label": "Monthly essential expenses (₹)", "key": "expenses", "default": 15000 },
-            { "label": "Target months of coverage", "key": "months", "default": 3 }
-          ],
-          "formula": "expenses * months",
-          "outputLabel": "Your emergency fund target",
-          "followUpQuestion": {
-            "prompt": "If your monthly essential expenses are ₹18,000 and you want 3 months of coverage, what's your emergency fund target?",
-            "options": [
-              { "text": "₹18,000", "isCorrect": false },
-              { "text": "₹36,000", "isCorrect": false },
-              { "text": "₹54,000", "isCorrect": true },
-              { "text": "₹1,08,000", "isCorrect": false }
+        ],
+        "exercises": [
+          {
+            "type": "sorting",
+            "prompt": "Sort these monthly expenses into Fixed vs. Variable",
+            "categories": ["Fixed", "Variable"],
+            "items": [
+              { "text": "Rent (₹9,500/month)", "correctCategory": "Fixed" },
+              { "text": "Grocery shopping (₹3,200 this month)", "correctCategory": "Variable" },
+              { "text": "Phone loan instalment (₹1,800/month)", "correctCategory": "Fixed" },
+              { "text": "Auto fares this week (₹450)", "correctCategory": "Variable" },
+              { "text": "Netflix subscription (₹199/month)", "correctCategory": "Fixed" },
+              { "text": "Weekend dinner with friends (₹800)", "correctCategory": "Variable" }
             ],
-            "explanation": "₹18,000 x 3 months = ₹54,000. That's your 3-month target. A 6-month target would be ₹1,08,000. Start with 3 months, it's a real milestone that's achievable in under 2 years at ₹3,000/month.",
+            "explanation": "Fixed expenses are locked in — rent and loan payments don't care if you had a slow month. Variable expenses are in your control. That's exactly where your budgeting focus should go: reduce the variables, not stress about the fixed.",
             "xpValue": 15
           },
-          "xpValue": 15
-        },
+          {
+            "type": "mcq-single",
+            "prompt": "Arjun earns ₹32,000/month. His total expenses this month were ₹29,500. What's his financial position?",
+            "options": [
+              { "text": "Deficit of ₹2,500", "isCorrect": false },
+              { "text": "Surplus of ₹2,500", "isCorrect": true },
+              { "text": "Surplus of ₹29,500", "isCorrect": false },
+              { "text": "Break-even, neither surplus nor deficit", "isCorrect": false }
+            ],
+            "explanation": "₹32,000 − ₹29,500 = ₹2,500 surplus. That's his leftover money. Not bad, but also not a ton of cushion, which is why the next lessons matter.",
+            "xpValue": 10
+          },
+          {
+            "type": "scenario",
+            "scenario": "Priya gets ₹25,000/month salary. Her fixed expenses: rent ₹8,000, phone loan instalment ₹1,200, insurance ₹500. Her variable expenses last month: groceries ₹3,500, eating out ₹4,200, transport ₹1,800, shopping ₹3,000, misc ₹1,500.",
+            "prompt": "How much did Priya actually save this month?",
+            "options": [
+              { "text": "₹0, she spent everything", "isCorrect": false },
+              { "text": "₹1,300", "isCorrect": true },
+              { "text": "₹5,500", "isCorrect": false },
+              { "text": "She went into deficit", "isCorrect": false }
+            ],
+            "explanation": "Fixed: ₹8,000 + ₹1,200 + ₹500 = ₹9,700. Variable: ₹3,500 + ₹4,200 + ₹1,800 + ₹3,000 + ₹1,500 = ₹14,000. Total: ₹23,700. Surplus: ₹25,000 − ₹23,700 = ₹1,300. She saved something, but ₹4,200 on eating out (nearly 17% of income!) is worth a look.",
+            "xpValue": 15
+          },
+          {
+            "type": "true-false",
+            "prompt": "Variable expenses are impossible to reduce because you need them to survive.",
+            "correctAnswer": false,
+            "explanation": "Variable expenses are literally the ones you have the most control over! Eating out vs. cooking, Ola vs. metro, branded shampoo vs. generic — these are all choices. Fixed expenses (rent, loan payments) are much harder to change quickly.",
+            "xpValue": 10
+          },
+          {
+            "type": "mcq-multi",
+            "prompt": "Which of these would count as income for a 21-year-old? (Select all that apply)",
+            "options": [
+              { "text": "Monthly salary from internship", "isCorrect": true },
+              { "text": "Cash gift from grandparents for Diwali", "isCorrect": true },
+              { "text": "Selling old textbooks online", "isCorrect": true },
+              { "text": "Money borrowed from a friend", "isCorrect": false }
+            ],
+            "explanation": "Salary, gifts, and selling stuff all count as income, money genuinely coming in. But borrowed money is NOT income; it's a liability because you have to pay it back. Counting loans as income is how people accidentally think they're richer than they are.",
+            "xpValue": 10
+          }
+        ]
+      },
+      {
+        "id": "lesson-4-2",
+        "title": "The 50/30/20 Rule",
+        "estimatedReadingMinutes": 11,
+        "contentBlocks": [
+          {
+            "type": "text",
+            "data": {
+              "content": "Here's the problem with most money advice you'll hear from adults: it's either too vague ('just spend less, beta!') or insanely complicated (spreadsheets with 47 categories that nobody fills in after week two). What if there was one single rule that could handle your entire income?"
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "priya",
+              "expression": "skeptical",
+              "text": "Every uncle-aunty tells me to 'save more' but nobody actually explains HOW much. Like, is 100 rupees enough? 1,000? It's so frustratingly vague."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Fair question, Priya. There IS a simple answer. It's called the **50/30/20 Rule**, and it's survived since the early 2000s because it genuinely works. Every rupee you earn goes into one of three buckets. Needs: 50%. Wants: 30%. Savings: 20%. That's the whole thing."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Take-Home Income",
+              "definition": "The actual money you receive after any deductions like taxes or PF. This is the number you budget with, not your gross salary."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "50/30/20 Rule",
+              "definition": "A budgeting framework where 50% of your take-home income goes to Needs, 30% to Wants, and 20% to Savings or debt repayment."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "In the 50/30/20 rule, what percentage goes to savings?",
+              "options": [
+                { "text": "50%", "isCorrect": false },
+                { "text": "30%", "isCorrect": false },
+                { "text": "20%", "isCorrect": true }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "Three buckets showing the 50/30/20 budget split with Indian examples",
+              "src": "/illustrations/ch4/l2-503020-buckets.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). Three bold buckets in different teal shades. First bucket (darkest teal, 50%) labeled 'Needs' with icons: house, groceries, metro card. Second bucket (medium teal, 30%) labeled 'Wants' with icons: pizza, movie tickets, sneakers. Third bucket (lightest mint, 20%) labeled 'Savings' with icons: piggy bank, coins. Clean, bold shapes, fills the space."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Say you get 5,000 rupees pocket money a month. Here's the split: 2,500 for Needs (bus pass, phone recharge, school supplies). 1,500 for Wants (splitting Zomato orders, movies, that thing you've been eyeing on Amazon). 1,000 straight to Savings. Simple math, powerful habit."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "fun-fact",
+              "content": "The 50/30/20 rule was popularized by Elizabeth Warren (before she became a US Senator) in her book 'All Your Worth.' It was designed to be so simple that literally anyone could follow it without a finance degree or a spreadsheet addiction."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "You get Rs.8,000 pocket money this month. According to the 50/30/20 rule, how much can you spend on Wants (movies, eating out, shopping)?",
+              "options": [
+                { "text": "Rs.4,000", "isCorrect": false },
+                { "text": "Rs.2,400", "isCorrect": true },
+                { "text": "Rs.1,600", "isCorrect": false },
+                { "text": "Rs.8,000 — it is all pocket money so it is all wants", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "**Needs** are the non-negotiables — things you genuinely cannot function without. For you, that might be metro/bus fare to school, phone recharge, basic meals, and study materials. For someone earning a salary in Bangalore, it's rent, groceries (home-cooked, not restaurant), electricity, and transport."
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "arjun",
+              "expression": "explaining",
+              "text": "Here's where people mess up every single time: eating out is a WANT, not a need. You need food, haan. But you don't need butter chicken from Zomato at surge pricing. Dal-chawal at home is a need. Restaurant food is a want. Simple."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "**Wants** are the things that make life fun but aren't survival. Eating out with your squad, Netflix, new clothes, that 500-rupee Starbucks coffee you keep posting on Instagram. The 30% bucket says you absolutely get to enjoy life — just within a number."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "You order butter chicken from Zomato for Rs.350. Which 50/30/20 bucket does this fall into?",
+              "options": [
+                { "text": "Needs, because food is a basic necessity", "isCorrect": false },
+                { "text": "Wants, because restaurant or delivery food is a lifestyle choice", "isCorrect": true },
+                { "text": "Savings, because you saved time by not cooking", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "chip-says",
+              "content": "Most young people have the Wants and Savings buckets completely backwards. They blow 30% on fun and 'try to save' the 20% from whatever's left. Spoiler: the saving rarely happens. Flip the script. Save first, then enjoy the rest guilt-free."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Pay Yourself First",
+              "definition": "The habit of transferring money to savings BEFORE spending on anything else. Treat savings like a bill that's due on day one of every month."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "**Savings** is your 20%. And here's the mindset shift that changes everything: savings isn't what's left over after you spend. It's what you set aside FIRST. The day your pocket money or income arrives, move that 20% somewhere you won't touch it. Even 500 rupees a month. Future you will literally thank present you."
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "Example 50/30/20 split applied to 5000 rupees pocket money",
+              "src": "/illustrations/ch4/l2-pocket-money-split.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A 5000 rupee note at the top, with three arrows splitting down to three labeled sections: Needs 2500 (bus pass, phone icon), Wants 1500 (pizza, headphones icon), Savings 1000 (piggy bank icon). Bold, clean shapes, minimal text, fills the space."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "What does 'Pay Yourself First' mean?",
+              "options": [
+                { "text": "Spend on your wants before paying any bills", "isCorrect": false },
+                { "text": "Transfer money to savings before spending on anything else", "isCorrect": true },
+                { "text": "Pay off all your debts before saving anything", "isCorrect": false },
+                { "text": "Only spend money on yourself, never on others", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Real talk though: this rule is a **guide, not a law**. If your Diwali shopping month doesn't fit 50/30/20 perfectly, that's fine. Even 60/25/15 or 70/20/10 is infinitely better than having zero plan. The real goal is giving every rupee a purpose so money doesn't just vanish."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "tip",
+              "content": "If the numbers feel tight, start with the Savings bucket first. Even 500 rupees a month builds the habit. You can scale it up as your income grows. The consistency matters way more than the percentage."
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "Visual comparing someone with a budget plan versus without one",
+              "src": "/illustrations/ch4/l2-plan-vs-no-plan.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). Split panel: LEFT shows a calm person with organized money buckets, wallet still has cash at month end, labeled 'With a plan'. RIGHT shows a stressed person with money flying away in all directions, empty wallet, labeled 'Without a plan'. Bold flat shapes, expressive but no stick figures, fills the space."
+            }
+          }
+        ],
+        "exercises": [
+          {
+            "type": "calculator",
+            "title": "50/30/20 Budget Calculator",
+            "inputs": [
+              { "label": "Monthly take-home salary (₹)", "key": "salary", "default": 30000 }
+            ],
+            "formula": "{ needs: salary * 0.50, wants: salary * 0.30, savings: salary * 0.20 }",
+            "outputLabel": "Your budget split",
+            "followUpQuestion": {
+              "prompt": "On a salary of ₹30,000, how much should ideally go toward 'Wants' per month?",
+              "options": [
+                { "text": "₹15,000", "isCorrect": false },
+                { "text": "₹9,000", "isCorrect": true },
+                { "text": "₹6,000", "isCorrect": false },
+                { "text": "₹12,000", "isCorrect": false }
+              ],
+              "explanation": "30% of ₹30,000 = ₹9,000 for Wants. That's ₹300/day on average for eating out, entertainment, shopping, fun. Not nothing, but definitely a real number that keeps you on track."
+            },
+            "xpValue": 15
+          },
+          {
+            "type": "scenario",
+            "scenario": "Meera earns ₹26,000/month. Her expenses: rent ₹8,500, groceries ₹3,200, auto/metro ₹1,800, phone bill ₹349, eating out ₹3,800, OTT subscriptions ₹498, gym ₹999, new kurtas she bought online ₹2,400, savings transferred ₹3,000.",
+            "prompt": "Which 50/30/20 bucket is Meera most over-budget in?",
+            "options": [
+              { "text": "Needs, her fixed costs are too high", "isCorrect": false },
+              { "text": "Wants, she's spending more than 30% on lifestyle", "isCorrect": false },
+              { "text": "Savings, she's not saving enough compared to the 20% target", "isCorrect": true },
+              { "text": "She's perfectly balanced", "isCorrect": false }
+            ],
+            "explanation": "Meera's Needs (rent + groceries + transport + phone): ₹13,849, that's 53% of income, slightly over but close. Her Wants (eating out + OTTs + gym + clothes): ₹7,697, that's about 30%, right on target. Her Savings: ₹3,000, that's only 11.5%, well under the 20% target of ₹5,200. To fix this, she'd need to trim her Needs or Wants to free up another ₹2,200 for savings.",
+            "xpValue": 15
+          },
+          {
+            "type": "sorting",
+            "prompt": "Sort these expenses into the correct 50/30/20 bucket",
+            "categories": ["Needs (50%)", "Wants (30%)", "Savings (20%)"],
+            "items": [
+              { "text": "Rent for shared flat", "correctCategory": "Needs (50%)" },
+              { "text": "Weekend trip to Coorg", "correctCategory": "Wants (30%)" },
+              { "text": "Monthly SIP (auto-investing in a mutual fund)", "correctCategory": "Savings (20%)" },
+              { "text": "Mobile data plan (₹349)", "correctCategory": "Needs (50%)" },
+              { "text": "Dinner at a restaurant", "correctCategory": "Wants (30%)" },
+              { "text": "Emergency fund top-up", "correctCategory": "Savings (20%)" },
+              { "text": "Electricity bill", "correctCategory": "Needs (50%)" },
+              { "text": "New pair of sneakers", "correctCategory": "Wants (30%)" }
+            ],
+            "explanation": "Needs = survival basics. Wants = quality of life. Savings = future you. The tricky ones: a basic phone plan is a Need; eating out is always a Want; auto-investments (like SIPs in mutual funds) and emergency fund contributions both count as Savings.",
+            "xpValue": 15
+          },
+          {
+            "type": "true-false",
+            "prompt": "The 50/30/20 rule means you must save exactly 20% of your income, anything less is a failure.",
+            "correctAnswer": false,
+            "explanation": "The 50/30/20 rule is a framework, not a test to pass or fail. If you're saving 10% consistently and building the habit, that's better than saving 0% while stressing about perfection. Adjust the percentages to your real life, just always have a number for savings.",
+            "xpValue": 10
+          },
+          {
+            "type": "mcq-single",
+            "prompt": "Rahul's phone dies and he needs to buy a replacement to work (he's a delivery driver). He buys a basic smartphone on monthly instalments, ₹1,500/month. Which budget bucket does this instalment belong in?",
+            "options": [
+              { "text": "Wants (30%), it's a phone, which is a luxury", "isCorrect": false },
+              { "text": "Needs (50%), it's required for his income", "isCorrect": true },
+              { "text": "Savings (20%), buying assets is like saving", "isCorrect": false },
+              { "text": "It doesn't fit any bucket and should be avoided", "isCorrect": false }
+            ],
+            "explanation": "Since Rahul's livelihood literally depends on having a working phone, this is a Need. If he were upgrading from a working phone to a fancier model, it'd be a Want. Context matters, it's not the item, it's the function it serves.",
+            "xpValue": 10
+          }
+        ]
+      },
+      {
+        "id": "lesson-4-3",
+        "title": "Emergency Funds - Why You Need One",
+        "estimatedReadingMinutes": 10,
+        "contentBlocks": [
+          {
+            "type": "text",
+            "data": {
+              "content": "Imagine you're cruising along, managing your money, feeling good about life. Then your phone screen cracks — repair: 4,000 rupees. Then a family member gets sick and you need to rush home — train ticket: 2,500 rupees. Both in the same month. Where does that money come from?"
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "priya",
+              "expression": "worried",
+              "text": "Last month my laptop charger died right before exams. 2,800 rupees for a replacement. I had to borrow from THREE different friends. It was so awkward, never again."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Here's the truth: unexpected expenses aren't actually that unexpected. They happen to everyone, every few months, like clockwork. The question isn't IF something will cost you money out of nowhere. The question is: when it happens, do you have a safety net ready?"
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Emergency Fund",
+              "definition": "A separate stash of money set aside ONLY for genuine emergencies: medical issues, urgent travel, broken essentials. Not for sales, not for fun, not for 'but it was on discount.'"
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Priya had to borrow from three friends to replace her laptop charger. What could have prevented this?",
+              "options": [
+                { "text": "A credit card with a high limit", "isCorrect": false },
+                { "text": "An emergency fund set aside for unexpected costs", "isCorrect": true },
+                { "text": "Buying a cheaper laptop that does not need a charger", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "An umbrella protecting money from unexpected expenses raining down",
+              "src": "/illustrations/ch4/l3-emergency-umbrella.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A large teal umbrella shielding a stack of coins and rupee notes. Above the umbrella, rain drops shaped like common emergencies: a cracked phone, a medical cross, a broken bike, a train ticket. Below the umbrella, the money is safe and dry. Bold flat shapes, fills the space."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "So what counts as a real emergency? Medical costs, urgent family travel, a broken phone or laptop you actually need for school. What does NOT count: a Myntra sale, a concert you forgot to budget for, or running out of money because you over-ordered on Swiggy. Those are planning problems, not emergencies."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "chip-says",
+              "content": "Think of your emergency fund as the wall between you and debt. Even as a teenager, having 5,000 to 10,000 rupees stashed away means you never have to do the embarrassing 'yaar, can you lend me...' phone call. That wall is priceless."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "A big Myntra sale is happening with 50% off sneakers. Is this a valid reason to dip into your emergency fund?",
+              "options": [
+                { "text": "Yes, 50% off is too good to miss", "isCorrect": false },
+                { "text": "No, a sale is a want, not a genuine emergency", "isCorrect": true },
+                { "text": "Yes, if the sneakers will eventually become a need", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "How much should you save? The adult rule is 3 to 6 months of essential expenses. But as a teenager, even 5,000 to 15,000 rupees gives you a real safety net. Start with 500 rupees a month. In 10 months, you've built a 5,000-rupee emergency fund. That's enough to handle most surprises without borrowing."
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "arjun",
+              "expression": "confident",
+              "text": "I started putting aside just 300 rupees every month in a separate UPI account. After 8 months, my cycle needed repairs — 2,400 rupees. I just paid for it. No stress, no borrowing. Best feeling ever."
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "A progress bar showing emergency fund building up month by month",
+              "src": "/illustrations/ch4/l3-fund-progress.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A horizontal progress bar filling up over 10 months, starting from 0 and reaching 5000 rupees. Each month's addition of 500 is marked. A small flag at the 5000 target. Below, three icons showing what the fund can cover: phone repair, medical visit, emergency travel. Bold, clean, fills the space."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Arjun saved Rs.300 per month for 8 months. How much did he have in his emergency fund?",
+              "options": [
+                { "text": "Rs.300", "isCorrect": false },
+                { "text": "Rs.2,400", "isCorrect": true },
+                { "text": "Rs.3,000", "isCorrect": false },
+                { "text": "Rs.8,000", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "The golden rule: keep this money **separate** from your spending account. If it sits in the same place you use for Paytm and Zomato, you WILL spend it. Open a different savings account, use a separate UPI ID, or even keep cash in an envelope at home. Out of sight, out of temptation."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "fun-fact",
+              "content": "A single hospital visit for something like a fracture or appendicitis can cost 50,000 to 1,50,000 rupees in India, even at a decent hospital. Health insurance helps, but having emergency cash means you're never stuck waiting for claim approvals while you're in pain."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Why should your emergency fund be kept separate from your regular spending account?",
+              "options": [
+                { "text": "Banks give higher interest on separate accounts", "isCorrect": false },
+                { "text": "If it is in the same account you use for daily spending, you will likely spend it", "isCorrect": true },
+                { "text": "It is illegal to keep emergency savings in a spending account", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Here's what your emergency fund really protects you from: **debt**. Without one, every surprise expense becomes borrowed money — from friends, from family, or worse, from those sketchy instant loan apps that charge insane interest. Your emergency fund is the difference between 'handled it' and 'owe people money.'"
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Liquid Savings",
+              "definition": "Money that's easy and quick to access with no penalties or waiting period. Your emergency fund needs to be liquid — not locked in a fixed deposit you can't touch for 3 years."
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "Two paths: one person with an emergency fund stays calm, another without one panics",
+              "src": "/illustrations/ch4/l3-two-paths.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). Split panel showing two scenarios after a phone breaks. LEFT: person with emergency fund calmly pays, life continues normally. RIGHT: person without fund panics, borrows from friends, stress symbols everywhere. Bold flat shapes, expressive faces but no stick figures, fills the space."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "tip",
+              "content": "Start today. Not tomorrow, not Monday — today. Transfer 200 or 500 rupees to a separate spot. The amount barely matters. Starting the habit is everything. You can always increase it later."
+            }
+          }
+        ],
+        "exercises": [
+          {
+            "type": "calculator",
+            "title": "Emergency Fund Calculator",
+            "inputs": [
+              { "label": "Monthly essential expenses (₹)", "key": "expenses", "default": 15000 },
+              { "label": "Target months of coverage", "key": "months", "default": 3 }
+            ],
+            "formula": "expenses * months",
+            "outputLabel": "Your emergency fund target",
+            "followUpQuestion": {
+              "prompt": "If your monthly essential expenses are ₹18,000 and you want 3 months of coverage, what's your emergency fund target?",
+              "options": [
+                { "text": "₹18,000", "isCorrect": false },
+                { "text": "₹36,000", "isCorrect": false },
+                { "text": "₹54,000", "isCorrect": true },
+                { "text": "₹1,08,000", "isCorrect": false }
+              ],
+              "explanation": "₹18,000 x 3 months = ₹54,000. That's your 3-month target. A 6-month target would be ₹1,08,000. Start with 3 months, it's a real milestone that's achievable in under 2 years at ₹3,000/month.",
+              "xpValue": 15
+            },
+            "xpValue": 15
+          },
+          {
+            "type": "scenario",
+            "scenario": "Vikram has ₹20,000 in savings. He's been thinking of investing it in a mutual fund. Then his motorbike's engine needs replacement, ₹14,000. He has no emergency fund. His options: take it from savings, use a credit card, or borrow from family.",
+            "prompt": "What does this situation illustrate?",
+            "options": [
+              { "text": "Vikram shouldn't have bought a motorbike", "isCorrect": false },
+              { "text": "Unexpected expenses happen, a dedicated emergency fund prevents them from derailing your finances", "isCorrect": true },
+              { "text": "Savings accounts are better than mutual funds", "isCorrect": false },
+              { "text": "Vikram should have spent less on food to save more", "isCorrect": false }
+            ],
+            "explanation": "Vikram's savings are now at ₹6,000, barely anything left. If he'd had an emergency fund of ₹45,000 separate from his investing money, he'd cover the repair without touching his investment. The emergency fund and investment fund are two different pots for two different purposes.",
+            "xpValue": 15
+          },
+          {
+            "type": "mcq-multi",
+            "prompt": "Which of these qualify as genuine emergencies that an emergency fund should be used for? (Select all that apply)",
+            "options": [
+              { "text": "Unexpected hospitalization for ₹40,000", "isCorrect": true },
+              { "text": "iPhone 16 launch sale, 20% off this weekend only", "isCorrect": false },
+              { "text": "Job loss, 2 months of rent while job-hunting", "isCorrect": true },
+              { "text": "Rent cheque bounced because you forgot to transfer", "isCorrect": false },
+              { "text": "Flight home for a family medical crisis", "isCorrect": true }
+            ],
+            "explanation": "Real emergencies are unplanned, urgent, and genuinely necessary, health, job loss, family crisis. A sale is not an emergency (it's a want with a deadline, the classic trap). Bouncing rent because of a planning error is a budget problem, not an emergency. Your fund is precious, guard it.",
+            "xpValue": 10
+          },
+          {
+            "type": "mcq-single",
+            "prompt": "Where is the BEST place to keep your emergency fund?",
+            "options": [
+              { "text": "Under your mattress (cash, always accessible)", "isCorrect": false },
+              { "text": "A high-interest savings account or liquid mutual fund", "isCorrect": true },
+              { "text": "A 3-year fixed deposit for maximum interest", "isCorrect": false },
+              { "text": "Invested in the stock market for better returns", "isCorrect": false }
+            ],
+            "explanation": "Emergency funds need to be accessible quickly (within 1-2 days) AND earn some interest. A high-interest savings account (6-7% at small finance banks) or liquid mutual fund hits both. Cash earns nothing and can be stolen. A long FD locks your money and charges a penalty for early withdrawal. Stocks can be down 30% exactly when you need the money.",
+            "xpValue": 10
+          },
+          {
+            "type": "true-false",
+            "prompt": "If you have a credit card with a high limit, you don't need an emergency fund.",
+            "correctAnswer": false,
+            "explanation": "A credit card is debt, not savings. Using it for emergencies means you pay 36-48% annual interest on top of the emergency cost, a ₹40,000 medical bill becomes ₹53,000+ if you take 9 months to pay it off. An emergency fund costs you nothing. A credit card costs you plenty.",
+            "xpValue": 10
+          }
+        ]
+      },
+      {
+        "id": "lesson-4-4",
+        "title": "Budgeting Your Allowance or Income",
+        "estimatedReadingMinutes": 12,
+        "contentBlocks": [
+          {
+            "type": "text",
+            "data": {
+              "content": "Budgets have a massive image problem. You hear 'budget' and picture some sad spreadsheet that sucks all joy out of life. But here's what a budget actually is: a **plan for your money**. Instead of wondering where it all went at month-end, you decide where it goes at the start."
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "priya",
+              "expression": "skeptical",
+              "text": "Budgeting sounds like something my parents would force me to do. Like writing a diary — nobody actually keeps it up past a week, let's be real."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Okay fair, but think about it this way. When you're planning your Diwali shopping, you already do a version of budgeting — you figure out how much you can spend on crackers, on gifts, on new clothes, and you make it fit. A monthly budget is the exact same thing, just for your whole life."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "tip",
+              "content": "One mindset flip that changes everything: a budget doesn't restrict your spending. It ALLOWS you to spend guilt-free because you planned for it. If your budget says 1,500 for eating out, spending 1,200 at a restaurant feels great. Without a budget, the same 1,200 feels suspicious and stressful."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "What is the best way to think about a budget?",
+              "options": [
+                { "text": "A punishment that stops you from having fun", "isCorrect": false },
+                { "text": "A plan for your money that you set at the start of the month", "isCorrect": true },
+                { "text": "A diary of regrets about past spending", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "A phone screen showing a simple budget app with categories and amounts",
+              "src": "/illustrations/ch4/l4-budget-app.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A smartphone screen showing a clean budget app interface. Categories listed: Needs (rent, food, transport), Wants (eating out, entertainment), Savings. Each has a teal progress bar showing spent vs. budgeted. Total at bottom shows 'Left to spend: 2,953'. Bold, modern app design, fills the space."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "The simplest way to budget: list your income at the top, then list every expense below it. Make sure the total expenses are less than the income. Sounds obvious, right? But most people have literally never written it all down in one place."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "A smarter approach is **Zero-Based Budgeting**. Every rupee you earn gets assigned a job. 1,200 goes to transport. 1,500 goes to food. 1,000 goes to savings. Income minus all assignments equals zero. You haven't spent it all — you've *planned* it all. Nothing is floating around unaccounted for."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Zero-Based Budgeting",
+              "definition": "A method where every rupee of income is assigned a specific purpose until Income minus All Allocations equals 0. Nothing is 'leftover' and nothing is unplanned."
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "arjun",
+              "expression": "excited",
+              "text": "I just use a notes app on my phone. Every 1st, I write down my pocket money and assign every rupee. Takes 10 minutes max. And bro, I've saved more in 3 months than I did the entire previous year. It's wild."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "In zero-based budgeting, what should Income minus All Allocations equal?",
+              "options": [
+                { "text": "A large positive number so you have leftover money", "isCorrect": false },
+                { "text": "Zero, because every rupee is assigned a specific purpose", "isCorrect": true },
+                { "text": "A negative number so you know you are spending wisely", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "A zero-based budget example for a student with 5000 rupees",
+              "src": "/illustrations/ch4/l4-zero-based-budget.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A clean budget template showing: Income 5000 at top. Below: Transport 1200, Phone recharge 299, Food/snacks 1500, Entertainment 800, Clothes 500, Savings 701. Total allocations: 5000. Remaining: 0. Checkmark next to zero. Teal color scheme, bold flat design, fills the space."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "What about when your income isn't regular? Maybe you earn different amounts from tutoring or freelance work each month. The trick: budget based on your **lowest expected month**. If you earn between 3,000 and 8,000, budget for 3,000. Anything extra is a bonus you split between savings and fun."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "If your tutoring income varies between Rs.4,000 and Rs.10,000 per month, what amount should you base your budget on?",
+              "options": [
+                { "text": "Rs.10,000, the maximum you could earn", "isCorrect": false },
+                { "text": "Rs.7,000, the average of the two", "isCorrect": false },
+                { "text": "Rs.4,000, the lowest expected income", "isCorrect": true }
+              ]
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "chip-says",
+              "content": "You WILL mess up your budget sometimes. Everyone does. A budget isn't a promise to be perfect — it's a system to catch yourself when you drift. Missing one month and getting back on track? Totally normal. Missing every month and never checking? That's the real problem."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Three ways to track your spending right now: check your **PhonePe/Paytm** transaction history (it's already tracking every UPI payment), use a simple notes app where you log each expense the same day, or try apps like **Money Manager** or **Walnut** that auto-categorize. Low-tech works just as well as high-tech."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Expense Tracking",
+              "definition": "Recording every purchase you make — UPI, cash, or card — so you can see exactly where your money actually went versus where you planned for it to go."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "fun-fact",
+              "content": "Research shows that people who simply write down their expenses end up spending 15-20% less without any other effort. Your brain automatically thinks twice before ordering that third Zomato meal when you've already logged the first two."
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "A calendar showing a monthly money review date circled",
+              "src": "/illustrations/ch4/l4-money-date.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A calendar page with the last Sunday circled in teal and labeled 'Money Date'. Around it: icons of a phone showing transactions, a checklist, a small piggy bank with a checkmark. Mood is calm and organized, not stressful. Bold flat shapes, fills the space."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Pro tip: schedule a **monthly money check-in** with yourself. Just 15 minutes on the last Sunday of each month. Look at what you spent. Did you hit your savings goal? Which category blew up? Any subscriptions you forgot about? This is where you catch small leaks before they become floods."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Lifestyle Creep",
+              "definition": "When your spending automatically rises to match every increase in income, leaving you no better off despite earning more. The sneaky enemy of actually building wealth."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "Priya's pocket money increased from Rs.3,000 to Rs.5,000. She immediately started ordering more food, buying more clothes, and going out more — now she saves the same Rs.0 as before. What is this called?",
+              "options": [
+                { "text": "Smart spending, because she is enjoying her extra income", "isCorrect": false },
+                { "text": "Lifestyle creep, because her spending rose to match her income increase", "isCorrect": true },
+                { "text": "Inflation, because everything costs more now", "isCorrect": false },
+                { "text": "Budgeting, because she is spending her full income", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "tip",
+              "content": "When you get more pocket money or a raise someday, resist the urge to upgrade everything immediately. Keep spending roughly the same and route the extra to savings. This one habit is literally how people with modest incomes build real wealth over time."
+            }
+          }
+        ],
+        "exercises": [
+          {
+            "type": "scenario",
+            "scenario": "Aditya earns ₹22,000/month from his first job. He sits down on the 1st of the month and writes out his plan: Rent ₹7,500, Groceries ₹3,000, Transport ₹1,200, Phone ₹299, Eating out ₹2,000, Entertainment ₹800, Clothes ₹1,201, Emergency fund ₹3,000, Savings ₹3,000. Every rupee has a job. He then tracks every expense during the month to make sure he sticks to the plan.",
+            "prompt": "Which budgeting method is Aditya using?",
+            "options": [
+              { "text": "50/30/20 only", "isCorrect": false },
+              { "text": "Zero-based budgeting", "isCorrect": true },
+              { "text": "The 50/30/20 rule with no tracking", "isCorrect": false },
+              { "text": "Spending whatever feels right each month", "isCorrect": false }
+            ],
+            "explanation": "Aditya assigned every rupee of his ₹22,000 a specific purpose: ₹7,500 + ₹3,000 + ₹1,200 + ₹299 + ₹2,000 + ₹800 + ₹1,201 + ₹3,000 + ₹3,000 = ₹22,000. Income minus all allocations equals zero. Nothing is unplanned, nothing is 'floating'. That's zero-based budgeting.",
+            "xpValue": 15
+          },
+          {
+            "type": "mcq-single",
+            "prompt": "Priya's income varies between ₹10,000 and ₹18,000 per month doing freelance design work. When building her monthly budget, she should base it on:",
+            "options": [
+              { "text": "₹18,000, the maximum she could earn", "isCorrect": false },
+              { "text": "₹14,000, her average monthly income", "isCorrect": false },
+              { "text": "₹10,000, her minimum reliable income", "isCorrect": true },
+              { "text": "₹0, freelance income can't be budgeted", "isCorrect": false }
+            ],
+            "explanation": "When income varies, always budget for the floor, your lowest reliable amount. If she budgets for ₹18,000 and earns ₹10,000 one month, she's in deficit. If she budgets for ₹10,000 and earns ₹18,000, she has ₹8,000 extra to split between savings and fun. The conservative approach always wins.",
+            "xpValue": 10
+          },
+          {
+            "type": "sorting",
+            "prompt": "Rajan gets a ₹5,000 raise (now ₹35,000/month). Sort these responses to his new income into Smart Move vs. Lifestyle Creep",
+            "categories": ["Smart Move", "Lifestyle Creep"],
+            "items": [
+              { "text": "Increase monthly savings or investments by ₹2,000/month", "correctCategory": "Smart Move" },
+              { "text": "Move from shared flat to solo apartment (+₹5,000 rent)", "correctCategory": "Lifestyle Creep" },
+              { "text": "Upgrade eating out budget from ₹2,000 to ₹5,000/month", "correctCategory": "Lifestyle Creep" },
+              { "text": "Keep expenses the same, put ₹5,000 into emergency fund faster", "correctCategory": "Smart Move" },
+              { "text": "Add a small ₹1,000 'fun' increase and save the rest", "correctCategory": "Smart Move" },
+              { "text": "Subscribe to every OTT platform now that he 'can afford it'", "correctCategory": "Lifestyle Creep" }
+            ],
+            "explanation": "A raise is an opportunity. Lifestyle creep means your expenses grow as fast as your income, leaving you no richer in real terms. Smart moves direct most of the new income toward financial goals, with a small enjoyment bump. You can absolutely enjoy more as you earn more, just not ALL of it, immediately.",
+            "xpValue": 15
+          },
+          {
+            "type": "mcq-multi",
+            "prompt": "Which of these are good habits for sticking to a monthly budget? (Select all that apply)",
+            "options": [
+              { "text": "Tracking every UPI and cash expense", "isCorrect": true },
+              { "text": "Reviewing your budget once a month", "isCorrect": true },
+              { "text": "Deleting your banking app so you don't see the balance", "isCorrect": false },
+              { "text": "Setting up an automatic transfer to savings on salary day", "isCorrect": true },
+              { "text": "Building a slightly flexible 'miscellaneous' buffer", "isCorrect": true }
+            ],
+            "explanation": "Tracking, reviewing, and automating are the three pillars of budget consistency. A misc buffer (₹500-₹1,000) handles the small surprises without blowing your plan. Ignoring your balance is the opposite of budgeting, out of sight doesn't mean out of debt.",
+            "xpValue": 10
+          },
+          {
+            "type": "true-false",
+            "prompt": "A budget fails if you spend even ₹1 more than planned in any category.",
+            "correctAnswer": false,
+            "explanation": "A budget is a living plan, not a rigid contract. Going ₹200 over on groceries and ₹300 under on transport is perfectly fine, the overall balance is what matters. The goal is awareness and direction, not military precision. Flexibility is what makes a budget sustainable long-term.",
+            "xpValue": 10
+          }
+        ]
+      },
+      {
+        "id": "lesson-4-5",
+        "title": "Budget Simulator Prep",
+        "estimatedReadingMinutes": 5,
+        "contentBlocks": [
+          {
+            "type": "text",
+            "data": {
+              "content": "Alright, you've got the theory down. You know the 50/30/20 split. You know what an emergency fund is. You know what budgeting actually means. Now comes the real test: living it out, decision by decision."
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "priya",
+              "expression": "excited",
+              "text": "Wait, we get to actually simulate a whole month? Like making real decisions about rent and food and everything? This is SO much better than just reading about it."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "The Month One simulator puts you in someone's shoes on their first real job. 30,000 rupees salary. One month in Bangalore. Real decisions at every turn. Rent is due. A friend's birthday pops up. A medical thing hits out of nowhere. You'll make choices and see immediately what they do to your wallet."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "In the Month One simulator, what is the salary you start with?",
+              "options": [
+                { "text": "Rs.20,000", "isCorrect": false },
+                { "text": "Rs.30,000", "isCorrect": true },
+                { "text": "Rs.50,000", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "Preview of the Month One simulator showing a wallet with 30,000 rupees and a Bangalore apartment",
+              "src": "/illustrations/ch4/l5-simulator-preview.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A phone screen mockup of the simulator. Shows a teal wallet icon displaying '30,000' with a progress bar labeled 'Month: Day 1'. Next to it, a simple illustrated Bangalore scene with apartment building, auto-rickshaw, and chai stall. Mood is exciting and slightly challenging. Bold flat shapes, fills the space."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "chip-says",
+              "content": "Fair warning: there's no perfect run on this simulator. There are smart decisions and expensive ones, but no path where everything works out magically. The point is feeling the trade-offs before real life throws them at you. Ready?"
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Before you start, remember three things. **Needs come first**: pay rent, buy groceries, keep the lights on. **Emergency fund before fun**: seriously, you just learned why. And most importantly: **small daily decisions add up way more than you think**."
+            }
+          },
+          {
+            "type": "key-term",
+            "data": {
+              "term": "Trade-off",
+              "definition": "When choosing one option means giving up another. Every rupee you spend on one thing is a rupee you can't spend or save elsewhere. The simulator is all about feeling these trade-offs in real time."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "If you take a Rs.150 auto instead of a Rs.25 metro ride every working day for a month (24 days), how much extra do you spend?",
+              "options": [
+                { "text": "Rs.1,250", "isCorrect": false },
+                { "text": "Rs.3,000", "isCorrect": true },
+                { "text": "Rs.600", "isCorrect": false },
+                { "text": "Rs.4,500", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "dialogue",
+            "data": {
+              "character": "arjun",
+              "expression": "confident",
+              "text": "I tried to end the month with 6,000 saved. Tight, but totally doable if you cook at home and skip one or two splurges. Think of it like a game — the savings number is your score."
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "A badge showing Budget Boss achievement for saving 20% in Month One",
+              "src": "/illustrations/ch4/l5-budget-boss-badge.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A circular badge/medal design with 'Budget Boss' text and a trophy icon in the center. Around the edge: '20% Savings Target'. Teal and gold colors. Bold, celebratory but clean design. Fills the space."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "tip",
+              "content": "Badge target: End the month with Rs.6,000 or more saved (that's 20% of Rs.30,000). That earns you the 'Budget Boss' badge. Totally achievable — but it requires real choices at every step."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "You'll face decisions about cooking vs. ordering in, cheap transport vs. comfortable transport, saying yes to friends vs. protecting your budget. No single right answer for any of them. But by the end, you'll have a gut feel for what actually matters and what's just noise."
+            }
+          },
+          {
+            "type": "quick-check",
+            "data": {
+              "question": "What is a trade-off in the context of money decisions?",
+              "options": [
+                { "text": "Trading stocks on the share market", "isCorrect": false },
+                { "text": "Choosing one option means giving up another because every rupee can only be spent once", "isCorrect": true },
+                { "text": "Exchanging old rupee notes for new ones at a bank", "isCorrect": false }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "data": {
+              "alt": "A split path showing different financial outcomes based on choices made during the month",
+              "src": "/illustrations/ch4/l5-choices-paths.png",
+              "prompt": "Flat illustration with teal color palette (#1ABC9C). A branching path starting from 'Day 1' with multiple choice points. One path leads to a happy ending with savings (teal, bright), another leads to a tight ending with barely anything left (dimmer). Shows key decision moments: rent, groceries, birthday dinner, emergency. Bold flat shapes, fills the space."
+            }
+          },
+          {
+            "type": "callout",
+            "data": {
+              "variant": "fun-fact",
+              "content": "Studies show that people who practice financial decisions in simulations make 23% better money choices in real life. Your brain learns from simulated stress the same way it learns from real stress — minus the actual consequences. Free practice, real results."
+            }
+          },
+          {
+            "type": "text",
+            "data": {
+              "content": "Remember: every choice here — cooking vs. ordering food, saying yes or no to a trip — mirrors the exact decisions you'll face when you start earning for real. The stakes right now are zero. The learning is 100% real. Let's go."
+            }
+          }
+        ],
+        "exercises": [
+          {
+            "type": "mcq-single",
+            "prompt": "You start the Month One simulator with ₹30,000. What should be your FIRST financial action?",
+            "options": [
+              { "text": "Go out and celebrate your first salary!", "isCorrect": false },
+              { "text": "Pay rent and set aside emergency fund contribution", "isCorrect": true },
+              { "text": "Check what's on sale online", "isCorrect": false },
+              { "text": "Invest everything in the stock market", "isCorrect": false }
+            ],
+            "explanation": "Needs (like rent) and savings transfers come first, before any discretionary spending. Paying rent and contributing to your emergency fund on day one means the 'important money' is safe no matter what happens during the rest of the month.",
+            "xpValue": 10
+          },
+          {
+            "type": "true-false",
+            "prompt": "Saving ₹6,000 from a ₹30,000 salary in Month One (your very first month) is unrealistic and too hard.",
+            "correctAnswer": false,
+            "explanation": "₹6,000 from ₹30,000 is exactly 20%, the savings target of the 50/30/20 rule. With ₹15,000 for needs, ₹9,000 for wants, and ₹6,000 saved, the math works. It's tight (especially for Bangalore), but it's doable, especially if you cook, use public transport, and skip one or two splurges. That's the point of the simulator.",
+            "xpValue": 10
+          }
+        ]
+      }
+    ],
+    "simulation": {
+      "title": "Month One",
+      "description": "You just got your first real job offer, junior analyst at a Bangalore tech startup. Salary: ₹30,000/month. You've moved into a shared flat with a college friend. This is it. Month One starts now.",
+      "startingWallet": 30000,
+      "optimalWalletOutcome": 6000,
+      "badgeId": "budget-boss",
+      "badgeName": "Budget Boss",
+      "badgeDescription": "Saved ₹6,000 or more in Month One, hit the 20% savings target on the first try.",
+      "badgeThreshold": { "type": "wallet_minimum", "value": 6000 },
+      "startNodeId": "node-1",
+      "nodes": [
         {
-          "type": "scenario",
-          "scenario": "Vikram has ₹20,000 in savings. He's been thinking of investing it in a mutual fund. Then his motorbike's engine needs replacement, ₹14,000. He has no emergency fund. His options: take it from savings, use a credit card, or borrow from family.",
-          "prompt": "What does this situation illustrate?",
-          "options": [
-            { "text": "Vikram shouldn't have bought a motorbike", "isCorrect": false },
-            { "text": "Unexpected expenses happen, a dedicated emergency fund prevents them from derailing your finances", "isCorrect": true },
-            { "text": "Savings accounts are better than mutual funds", "isCorrect": false },
-            { "text": "Vikram should have spent less on food to save more", "isCorrect": false }
+          "nodeId": "node-1",
+          "narrative": "Day 1. Salary just hit: ₹30,000. It's sitting in your account, glowing on the screen. Your flatmate Rohan is already texting: 'Dude first salary! There's this new place in Koramangala, ₹1,500 a head minimum. We're going.' Meanwhile, your rent of ₹9,500 is due in 3 days.",
+          "timeSkip": null,
+          "choices": [
+            {
+              "text": "Pay rent immediately AND transfer ₹3,000 to emergency fund savings",
+              "nextNodeId": "node-2a",
+              "walletImpact": -12500,
+              "feedback": "Chip gives you a solid nod. 'Needs and savings locked on day one. You've got ₹17,500 to work with for the month. Strong start, very strong.'"
+            },
+            {
+              "text": "Go out with Rohan tonight (₹1,500), pay rent later this week",
+              "nextNodeId": "node-2b",
+              "walletImpact": -1500,
+              "feedback": "Chip raises an eyebrow. 'First salary, first night out. Classic move. Just don't forget — rent is coming in 3 days and it doesn't care about your Koramangala memories.'"
+            },
+            {
+              "text": "Pay rent immediately, skip the emergency fund for now",
+              "nextNodeId": "node-2c",
+              "walletImpact": -9500,
+              "feedback": "Chip sighs gently. 'Rent paid — good instinct. But skipping the emergency fund is a gamble. Something ALWAYS comes up. Mark my words.'"
+            }
           ],
-          "explanation": "Vikram's savings are now at ₹6,000, barely anything left. If he'd had an emergency fund of ₹45,000 separate from his investing money, he'd cover the repair without touching his investment. The emergency fund and investment fund are two different pots for two different purposes.",
-          "xpValue": 15
+          "isEnd": false
         },
         {
-          "type": "mcq-multi",
-          "prompt": "Which of these qualify as genuine emergencies that an emergency fund should be used for? (Select all that apply)",
-          "options": [
-            { "text": "Unexpected hospitalization for ₹40,000", "isCorrect": true },
-            { "text": "iPhone 16 launch sale, 20% off this weekend only", "isCorrect": false },
-            { "text": "Job loss, 2 months of rent while job-hunting", "isCorrect": true },
-            { "text": "Rent cheque bounced because you forgot to transfer", "isCorrect": false },
-            { "text": "Flight home for a family medical crisis", "isCorrect": true }
+          "nodeId": "node-2a",
+          "narrative": "Rent and emergency fund: sorted. You have ₹17,500 left. It's Day 3 and your kitchen is completely empty — not even chai patti. Option: stock up properly with a big grocery run, or just keep ordering food until you feel settled in.",
+          "timeSkip": "Day 3...",
+          "choices": [
+            {
+              "text": "Big grocery run — rice, dal, veggies, eggs, the works (₹2,500)",
+              "nextNodeId": "node-3a",
+              "walletImpact": -2500,
+              "feedback": "Chip approves. 'Kitchen stocked for two weeks. Every meal you cook saves ₹100-₹200 versus Swiggy. Over a month, that's serious money.'"
+            },
+            {
+              "text": "Just eat out this week, do groceries later (₹4,000 this week on food)",
+              "nextNodeId": "node-3b",
+              "walletImpact": -4000,
+              "feedback": "Chip grimaces. '₹4,000 on food in one week. Not catastrophic, but this month just got noticeably tighter. Hope you like cooking in Week 2.'"
+            },
+            {
+              "text": "Split the difference — small grocery run (₹1,200) plus a few cheap meals out (₹1,000)",
+              "nextNodeId": "node-3a",
+              "walletImpact": -2200,
+              "feedback": "Chip: 'Balanced approach. You've got basics at home and didn't blow the food budget. Practical.'"
+            }
           ],
-          "explanation": "Real emergencies are unplanned, urgent, and genuinely necessary, health, job loss, family crisis. A sale is not an emergency (it's a want with a deadline, the classic trap). Bouncing rent because of a planning error is a budget problem, not an emergency. Your fund is precious, guard it.",
-          "xpValue": 10
+          "isEnd": false
         },
         {
-          "type": "mcq-single",
-          "prompt": "Where is the BEST place to keep your emergency fund?",
-          "options": [
-            { "text": "Under your mattress (cash, always accessible)", "isCorrect": false },
-            { "text": "A high-interest savings account or liquid mutual fund", "isCorrect": true },
-            { "text": "A 3-year fixed deposit for maximum interest", "isCorrect": false },
-            { "text": "Invested in the stock market for better returns", "isCorrect": false }
+          "nodeId": "node-2b",
+          "narrative": "Fun night out — dinner plus drinks with Rohan = ₹1,500. Great memories. You wake up to a rent reminder notification. Pay it: ₹9,500 gone. You're at ₹19,000 now. Kitchen still completely empty — Week 1 groceries needed.",
+          "timeSkip": "Day 4...",
+          "choices": [
+            {
+              "text": "Do a proper grocery run (₹2,500) and commit to cooking this week",
+              "nextNodeId": "node-3a",
+              "walletImpact": -2500,
+              "feedback": "Chip nods. 'Late start but you're course-correcting. Kitchen stocked. Smart recovery.'"
+            },
+            {
+              "text": "Keep eating out for now, settle into a routine before cooking (₹4,000 for the week)",
+              "nextNodeId": "node-3b",
+              "walletImpact": -4000,
+              "feedback": "Chip does the math quietly. 'Between the night out and eating all week, you've spent ₹14,000 in 4 days. Just 12 days left. Yikes.'"
+            },
+            {
+              "text": "Quick grocery basics (₹1,500) and ask Rohan to cook together this week to save money",
+              "nextNodeId": "node-3a",
+              "walletImpact": -1500,
+              "feedback": "Chip: 'Teamwork budget hack! Cooking together splits the effort and the cost. Rohan might even be a decent chef. Win-win.'"
+            }
           ],
-          "explanation": "Emergency funds need to be accessible quickly (within 1-2 days) AND earn some interest. A high-interest savings account (6-7% at small finance banks) or liquid mutual fund hits both. Cash earns nothing and can be stolen. A long FD locks your money and charges a penalty for early withdrawal. Stocks can be down 30% exactly when you need the money.",
-          "xpValue": 10
+          "isEnd": false
         },
         {
-          "type": "true-false",
-          "prompt": "If you have a credit card with a high limit, you don't need an emergency fund.",
-          "correctAnswer": false,
-          "explanation": "A credit card is debt, not savings. Using it for emergencies means you pay 36-48% annual interest on top of the emergency cost, a ₹40,000 medical bill becomes ₹53,000+ if you take 9 months to pay it off. An emergency fund costs you nothing. A credit card costs you plenty.",
-          "xpValue": 10
+          "nodeId": "node-2c",
+          "narrative": "Rent paid, ₹20,500 remaining but no emergency fund. Your phone is running slow and you keep seeing ads for a mid-range phone (₹12,999 on Flipkart, ₹1,083/month on EMI). Your current phone works, it's just frustrating.",
+          "timeSkip": "Day 3...",
+          "choices": [
+            {
+              "text": "Do a grocery run (₹2,500), ignore the phone ad completely",
+              "nextNodeId": "node-3a",
+              "walletImpact": -2500,
+              "feedback": "Chip smiles. 'Phone works. Food is essential. You just picked needs over wants. Correct priorities.'"
+            },
+            {
+              "text": "Buy the phone on EMI (₹1,083/month starts now) plus groceries (₹2,500)",
+              "nextNodeId": "node-3c",
+              "walletImpact": -3583,
+              "feedback": "Chip squints. 'New phone when the old one still works, no emergency fund, and now you've added a monthly EMI. That's a want dressed up as a need. Just saying.'"
+            },
+            {
+              "text": "Groceries (₹2,500) and set up emergency fund with ₹2,000 (better late than never)",
+              "nextNodeId": "node-3a",
+              "walletImpact": -4500,
+              "feedback": "Chip: 'Ah, the guilt kicked in! But seriously, good call. Even ₹2,000 in an emergency fund is better than zero. Better late than never is actually great financial wisdom.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-3a",
+          "narrative": "Kitchen is stocked, Week 2 arrives. Your college friend Tanya's birthday is Saturday. She's planned dinner at a fancy place in Indiranagar — your share will be ₹1,200 to ₹1,500. You also haven't transferred anything extra to savings this month.",
+          "timeSkip": "Week 2...",
+          "choices": [
+            {
+              "text": "Go to the dinner (₹1,200), you can save a bit less this month",
+              "nextNodeId": "node-4a",
+              "walletImpact": -1200,
+              "feedback": "Chip: 'Friendship is real and it matters. Just know the month is tighter now. Worth it? Probably. Plan for it next time.'"
+            },
+            {
+              "text": "Skip the dinner, send a heartfelt message plus a small online gift (₹300)",
+              "nextNodeId": "node-4b",
+              "walletImpact": -300,
+              "feedback": "Chip: 'Bold call. Some friends totally get it. Some might feel hurt. But your budget just thanked you. ₹900 saved.'"
+            },
+            {
+              "text": "Go but suggest a cheaper restaurant to the group first (settle on ₹600)",
+              "nextNodeId": "node-4c",
+              "walletImpact": -600,
+              "feedback": "Chip: 'The negotiation move. Socially a little risky, financially brilliant. Respect for speaking up.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-3b",
+          "narrative": "Food's been expensive but you're surviving. Week 2 hits with a double whammy: Tanya's birthday dinner (₹1,200 your share), AND your office announces a formal dress-code event next week. You don't own formal clothes. Cheapest option: basic shirt and trousers from a local store (₹2,500). Premium outfit for 'first impression': ₹5,500.",
+          "timeSkip": "Week 2...",
+          "choices": [
+            {
+              "text": "Skip Tanya's dinner, buy the basic office outfit (₹2,500)",
+              "nextNodeId": "node-4d",
+              "walletImpact": -2500,
+              "feedback": "Chip: 'Work comes first — your career is your income source. Tanya will understand. Wise priorities.'"
+            },
+            {
+              "text": "Go to dinner AND buy the premium outfit (₹1,200 + ₹5,500 = ₹6,700)",
+              "nextNodeId": "node-4e",
+              "walletImpact": -6700,
+              "feedback": "Chip is calculating frantically. 'You're draining fast. This month is going to be extremely tight from here. Hope nothing unexpected happens... (it will).'"
+            },
+            {
+              "text": "Buy the basic outfit, attend dinner but cap your share at ₹600 (order light)",
+              "nextNodeId": "node-4c",
+              "walletImpact": -3100,
+              "feedback": "Chip exhales. 'Compromise. Work need covered, friendship partially covered, budget damaged but not destroyed. Decent damage control.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-3c",
+          "narrative": "New phone on EMI plus groceries — sorted. Week 2 arrives. Your manager asks the team to subscribe to a paid collaboration tool (₹850/month, company will reimburse in 60 days — but you pay upfront). AND Tanya's birthday dinner is Saturday (₹1,200 share).",
+          "timeSkip": "Week 2...",
+          "choices": [
+            {
+              "text": "Pay for both — work tool ₹850 and birthday dinner ₹1,200",
+              "nextNodeId": "node-4f",
+              "walletImpact": -2050,
+              "feedback": "Chip: 'Work need covered, friendship covered. But with a phone EMI already running, every rupee matters now. Tread carefully from here.'"
+            },
+            {
+              "text": "Pay work tool only, skip dinner and send Tanya a message (₹850)",
+              "nextNodeId": "node-4d",
+              "walletImpact": -850,
+              "feedback": "Chip: 'Work reimbursement coming eventually. Social life on hold for now. Practical and painful — welcome to adulting.'"
+            },
+            {
+              "text": "Pay work tool, attend dinner but keep it cheap — order just one item (₹400)",
+              "nextNodeId": "node-4c",
+              "walletImpact": -1250,
+              "feedback": "Chip: 'You showed up, you kept it light, and the work expense is handled. Middle path executed well.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-4a",
+          "narrative": "Week 3. The unexpected thing happens (it always does). You wake up with food poisoning — bad street food yesterday. Doctor visit: ₹500 consultation. Medicines: ₹800. Total health cost: ₹1,300. This is exactly the kind of thing an emergency fund is for.",
+          "timeSkip": "Week 3 - Tuesday morning...",
+          "choices": [
+            {
+              "text": "Pay from your remaining money (₹1,300 from wallet)",
+              "nextNodeId": "node-5a",
+              "walletImpact": -1300,
+              "feedback": "Chip looks thoughtful. 'Handled it. But notice: that ₹1,300 was supposed to be savings or fun money. This is literally why emergency funds exist. Lesson learned?'"
+            },
+            {
+              "text": "Ask Rohan to lend you ₹1,300 (you'll pay back next month)",
+              "nextNodeId": "node-5b",
+              "walletImpact": 0,
+              "feedback": "Chip winces. 'Month One and already borrowing from your flatmate. Rohan is cool about it, but this is a habit you really don't want to start.'"
+            },
+            {
+              "text": "Visit the government hospital (free consultation) and buy generic medicines from Jan Aushadhi (₹350 total)",
+              "nextNodeId": "node-5d",
+              "walletImpact": -350,
+              "feedback": "Chip: 'Government hospital plus generic medicines. Same treatment, fraction of the cost. You just saved ₹950. This is the kind of awareness that builds wealth over time.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-4b",
+          "narrative": "Tanya was a bit quiet about you skipping, but she understood. Week 3: food poisoning hits (bad street food). Doctor ₹500 plus medicines ₹800 = ₹1,300. Since you kept earlier costs low, this stings less — but it's still unplanned.",
+          "timeSkip": "Week 3...",
+          "choices": [
+            {
+              "text": "Pay the ₹1,300 from your budget — you can absorb it",
+              "nextNodeId": "node-5a",
+              "walletImpact": -1300,
+              "feedback": "Chip: 'Handled. You're lower than ideal but still in positive territory because you kept earlier costs down. That restraint is paying off right now.'"
+            },
+            {
+              "text": "Visit the government hospital (free) and buy generic medicines from Jan Aushadhi store (₹400 total)",
+              "nextNodeId": "node-5d",
+              "walletImpact": -400,
+              "feedback": "Chip: 'Smart move. Government hospitals and generic medicine stores save serious money. Same treatment, fraction of the cost. ₹900 saved that stays in your wallet.'"
+            },
+            {
+              "text": "Borrow ₹1,300 from Rohan and pay him back later",
+              "nextNodeId": "node-5b",
+              "walletImpact": 0,
+              "feedback": "Chip: 'You have the money to cover this, but you're choosing to borrow anyway. That's a red flag. When you can afford it, pay your own way.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-4c",
+          "narrative": "Good middle ground on the dinner. Week 3 brings an unexpected surprise: your laptop charger dies (and you work from home some days). Branded replacement: ₹2,800. Compatible third-party charger (same wattage, reliable brand): ₹950.",
+          "timeSkip": "Week 3 - Thursday...",
+          "choices": [
+            {
+              "text": "Buy the branded charger (₹2,800) — work tools should be quality",
+              "nextNodeId": "node-5c",
+              "walletImpact": -2800,
+              "feedback": "Chip: 'Quality argument is valid. But ₹2,800 when you're already stretched? That's premium pricing for peace of mind you might not need.'"
+            },
+            {
+              "text": "Buy the third-party charger (₹950) — same function, lower cost",
+              "nextNodeId": "node-5d",
+              "walletImpact": -950,
+              "feedback": "Chip nods. 'Same voltage, same outcome. ₹1,850 saved. That's basically a full emergency fund contribution right there.'"
+            },
+            {
+              "text": "Ask your office if they can provide a charger since you work from home (₹0 if they say yes)",
+              "nextNodeId": "node-5d",
+              "walletImpact": 0,
+              "feedback": "Chip: 'Now THAT is financial thinking. Asking costs nothing. Worst case they say no and you buy the third-party one. Best case: free charger. Always ask.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-4d",
+          "narrative": "Work event handled. Tanya situation managed. Week 3: your work-from-home setup needs a chair (you've been sitting on the floor — your back is staging a revolt). Options: decent IKEA chair (₹3,500), second-hand one from OLX (₹500), or just tolerate it for 2 more weeks.",
+          "timeSkip": "Week 3...",
+          "choices": [
+            {
+              "text": "Buy the IKEA chair (₹3,500) — you'll use it every single day",
+              "nextNodeId": "node-5c",
+              "walletImpact": -3500,
+              "feedback": "Chip: 'Long-term thinking, but expensive timing. Your back says thank you. Your budget says please don't do this again this month.'"
+            },
+            {
+              "text": "Buy the second-hand OLX chair (₹500) — functional is all you need right now",
+              "nextNodeId": "node-5d",
+              "walletImpact": -500,
+              "feedback": "Chip applauds. 'OLX is massively underrated. ₹500 for something that works perfectly fine? Budget win of the month.'"
+            },
+            {
+              "text": "Survive 2 more weeks on the floor, handle it in Month 2 budget",
+              "nextNodeId": "node-5d",
+              "walletImpact": 0,
+              "feedback": "Chip: 'Commitment to the budget is admirable. Your spine might file a complaint, but your wallet is throwing a party.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-4e",
+          "narrative": "You're stretched thin after the dinner and premium outfit. Week 3: Rohan suggests a weekend trip to Nandi Hills with friends (₹1,800 for petrol plus food). It sounds amazing. But your wallet is looking worryingly pale.",
+          "timeSkip": "Week 3 - Friday...",
+          "choices": [
+            {
+              "text": "Go on the trip (₹1,800) — you really need the break",
+              "nextNodeId": "node-5e",
+              "walletImpact": -1800,
+              "feedback": "Chip covers his face. 'You're now dangerously low. Even a small unexpected expense — a doctor visit, a phone repair — could push you into deficit territory.'"
+            },
+            {
+              "text": "Skip the trip, be honest with Rohan about being tight on money",
+              "nextNodeId": "node-5f",
+              "walletImpact": 0,
+              "feedback": "Chip breathes out slowly. 'Good call. Real friends understand money struggles, especially in Month One. This decision might be what saves the entire month.'"
+            },
+            {
+              "text": "Suggest a cheaper alternative — chai and sunset at Cubbon Park (₹200 total)",
+              "nextNodeId": "node-5f",
+              "walletImpact": -200,
+              "feedback": "Chip: 'Creative substitution! You still hung out, still made memories, but spent ₹1,600 less. This is what budget-smart social life looks like.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-4f",
+          "narrative": "Work tool and birthday handled. Week 3: partial reimbursement arrives — ₹750 instead of ₹850 (receipt format issue). ₹100 lost to paperwork. Meanwhile, grocery supplies are running low.",
+          "timeSkip": "Week 3...",
+          "choices": [
+            {
+              "text": "Restock groceries properly (₹1,800 for the next 10 days)",
+              "nextNodeId": "node-5d",
+              "walletImpact": -1050,
+              "feedback": "Chip: 'Reimbursement partially covered groceries. Cooking at home is the right call here. Keep it going.'"
+            },
+            {
+              "text": "Just order food delivery this week, deal with groceries next month (₹3,000)",
+              "nextNodeId": "node-5c",
+              "walletImpact": -2250,
+              "feedback": "Chip: 'You're paying a convenience premium when you're already pressed. This is exactly how months slide into deficit. Cooking is the move.'"
+            },
+            {
+              "text": "Cook with Rohan — split a joint grocery run (₹900 your share) and meal prep together",
+              "nextNodeId": "node-5d",
+              "walletImpact": -150,
+              "feedback": "Chip: 'Splitting groceries AND cooking together? That's half the cost for the same meals. Rohan is basically a financial asset at this point.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-5a",
+          "narrative": "Medical bill handled. Week 4 — final stretch. You've been tracking expenses and the month is tighter than expected. Your phone data plan runs out 3 days before month-end. Options: basic top-up ₹199 (covers 3 days) or upgrade to ₹399 unlimited (28-day plan).",
+          "timeSkip": "Week 4 - Day 25...",
+          "choices": [
+            {
+              "text": "Top up with the ₹199 basic plan — you just need 3 days of internet",
+              "nextNodeId": "node-6a",
+              "walletImpact": -199,
+              "feedback": "Chip: 'Exactly what you need. Not a rupee more. This is the discipline that separates tight months from deficit months.'"
+            },
+            {
+              "text": "Buy the ₹399 unlimited plan — it's only ₹200 more and lasts a full month",
+              "nextNodeId": "node-6b",
+              "walletImpact": -399,
+              "feedback": "Chip: '\"It's only ₹200 more\" — that phrase has destroyed more budgets than inflation. But okay, if the extra data genuinely helps with work, it's defensible.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-5b",
+          "narrative": "Borrowed ₹1,300 from Rohan. Week 4: phone data needs topping up. AND Rohan casually mentions the ₹1,300. He's not pressuring you, but you both know it's there.",
+          "timeSkip": "Week 4...",
+          "choices": [
+            {
+              "text": "Repay Rohan immediately (₹1,300) plus basic phone top-up (₹199)",
+              "nextNodeId": "node-6c",
+              "walletImpact": -1499,
+              "feedback": "Chip: 'Debt repaid. Clean slate. This is integrity — and it's worth more than ₹1,300 to your friendship. Well done.'"
+            },
+            {
+              "text": "Repay Rohan next month, just top up phone for now (₹199)",
+              "nextNodeId": "node-6d",
+              "walletImpact": -199,
+              "feedback": "Chip sighs. 'You have the money. Pay it back. Rolling informal debt is how friendships quietly break. Don't let ₹1,300 become a wall between you two.'"
+            },
+            {
+              "text": "Repay ₹700 now (half), promise the rest by next week, plus phone top-up (₹199)",
+              "nextNodeId": "node-6b",
+              "walletImpact": -899,
+              "feedback": "Chip: 'Partial repayment shows good faith. Not ideal, but better than ignoring it completely. Clear the rest as soon as next month's salary hits.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-5c",
+          "narrative": "Month is stretched thin. Final week: you spot a one-day freelance gig — helping a friend's startup with data entry. Pays ₹1,500 for Sunday work. Doesn't conflict with your main job.",
+          "timeSkip": "Week 4 - the Sunday before month end...",
+          "choices": [
+            {
+              "text": "Take the freelance gig (+₹1,500 earned)",
+              "nextNodeId": "node-6e",
+              "walletImpact": 1500,
+              "feedback": "Chip pumps his fist. 'Extra income! Spend less OR earn more — you just pulled the second lever. This changes the end-of-month math completely.'"
+            },
+            {
+              "text": "Skip it — you need Sunday to rest and recharge",
+              "nextNodeId": "node-6f",
+              "walletImpact": 0,
+              "feedback": "Chip nods slowly. 'Rest is valid, especially if burnout is a risk. Just know the month ends with less cushion. Health is wealth too, literally.'"
+            },
+            {
+              "text": "Take the gig AND ask if there's more work next weekend (+₹1,500 now, potential future income)",
+              "nextNodeId": "node-6e",
+              "walletImpact": 1500,
+              "feedback": "Chip: 'Side income AND networking for more? That's not just earning, that's building an income stream. Future you is taking notes.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-5d",
+          "narrative": "Looking decent. Week 4: Rohan wants to do a Swiggy order because you're both exhausted. 'Let's just split one big order, ₹600 each.' You have groceries at home though.",
+          "timeSkip": "Week 4 - Friday evening...",
+          "choices": [
+            {
+              "text": "Order Swiggy with Rohan (₹600) — you deserve one treat this month",
+              "nextNodeId": "node-6b",
+              "walletImpact": -600,
+              "feedback": "Chip: 'One Swiggy order is fine. You budgeted for some wants and this qualifies. Enjoy it without guilt.'"
+            },
+            {
+              "text": "Cook together with what you have — offer to make dinner (₹0 extra)",
+              "nextNodeId": "node-6a",
+              "walletImpact": 0,
+              "feedback": "Chip: 'Cooked together, saved ₹600, and honestly home food on a Friday is underrated. That's a budget win AND a flatmate bonding moment.'"
+            },
+            {
+              "text": "Compromise: cook at home but order one dessert to share (₹150 each)",
+              "nextNodeId": "node-6a",
+              "walletImpact": -150,
+              "feedback": "Chip: 'Home-cooked meal with a Swiggy dessert chaser? ₹150 instead of ₹600 and you still get that delivery dopamine hit. Clever.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-5e",
+          "narrative": "Nandi Hills was beautiful, but expensive timing. Final week: you're dangerously low. Need groceries for 5 more days. Every rupee counts now.",
+          "timeSkip": "Week 4 - Monday...",
+          "choices": [
+            {
+              "text": "Buy bare essentials only — dal, rice, eggs, veggies (₹700)",
+              "nextNodeId": "node-6f",
+              "walletImpact": -700,
+              "feedback": "Chip: 'Survival shopping. Not glamorous but it gets you through the week. You made it — barely.'"
+            },
+            {
+              "text": "Ask Rohan to split a bulk grocery run and cook together all week (₹450 your share)",
+              "nextNodeId": "node-6f",
+              "walletImpact": -450,
+              "feedback": "Chip: 'Splitting costs with your flatmate is underrated. Same food, lower per-person cost. Teamwork saves the month.'"
+            },
+            {
+              "text": "Pick up a quick freelance data-entry gig online over the weekend (+₹1,000) and buy proper groceries (₹900)",
+              "nextNodeId": "node-6b",
+              "walletImpact": 100,
+              "feedback": "Chip: 'Hustle mode activated. You earned extra AND ate properly. Two levers in personal finance: spend less or earn more. You just pulled both. Respect.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-5f",
+          "narrative": "Skipped the trip. Smart call financially. Week 4: Rohan feels bad you missed Nandi Hills. He suggests ordering pizza tonight to make up for it. ₹450 your share.",
+          "timeSkip": "Week 4 - Friday...",
+          "choices": [
+            {
+              "text": "Order pizza (₹450) — a small win you actually earned by skipping the trip",
+              "nextNodeId": "node-6b",
+              "walletImpact": -450,
+              "feedback": "Chip smiles. 'You skipped a ₹1,800 trip and spent ₹450 on pizza. Net savings: ₹1,350. That's a budget win any way you slice it (pun intended).'"
+            },
+            {
+              "text": "Cook together instead — save even the ₹450",
+              "nextNodeId": "node-6a",
+              "walletImpact": 0,
+              "feedback": "Chip: 'Maximum savings, zero regret. You've absolutely nailed this month from a numbers perspective.'"
+            },
+            {
+              "text": "Suggest making pizza at home from scratch — flour, sauce, cheese (₹200 total for both of you, your share ₹100)",
+              "nextNodeId": "node-6a",
+              "walletImpact": -100,
+              "feedback": "Chip: 'Homemade pizza night! Cheaper than delivery, way more fun, and you learned a life skill. Honestly the best option here.'"
+            }
+          ],
+          "isEnd": false
+        },
+        {
+          "nodeId": "node-6a",
+          "narrative": "Month end. Your next salary arrives tomorrow. You open your account and do the final tally. Whatever's left from ₹30,000 after all your spending — that's your Month One savings.",
+          "timeSkip": "Day 30. Month end.",
+          "choices": [],
+          "isEnd": true,
+          "endingType": "excellent",
+          "endingNarrative": "Month One done. You navigated rent, groceries, a birthday, a health scare, and a bunch of daily decisions — and came out with real savings. Chip is doing a little victory dance. This is exactly how it's supposed to feel.",
+          "endingChipQuote": "Chip's verdict: You didn't just survive Month One. You *planned* Month One. That's the difference between people who build wealth and people who wonder where it all went."
+        },
+        {
+          "nodeId": "node-6b",
+          "narrative": "Month end. Salary arrives tomorrow. Final tally time.",
+          "timeSkip": "Day 30.",
+          "choices": [],
+          "isEnd": true,
+          "endingType": "good",
+          "endingNarrative": "Month One is done. You had some extra spends here and there but kept things mostly on track. Not a perfect run but a solid one. The habits are forming.",
+          "endingChipQuote": "Chip's verdict: Good first month. A few 'it's only ₹200' moments, but you're learning. Month Two, let's tighten those edges."
+        },
+        {
+          "nodeId": "node-6c",
+          "narrative": "Month end. You repaid Rohan, covered your needs, and kept your word. Salary arrives tomorrow.",
+          "timeSkip": "Day 30.",
+          "choices": [],
+          "isEnd": true,
+          "endingType": "good",
+          "endingNarrative": "Clean finish. You borrowed once and repaid it fully. No lingering debts, no awkward friendship dynamics. The emergency fund was missing but you now know exactly why it matters.",
+          "endingChipQuote": "Chip's verdict: Integrity check: passed. Now in Month Two, build that emergency fund so Rohan never has to be your backup plan again."
+        },
+        {
+          "nodeId": "node-6d",
+          "narrative": "Month end. Rohan hasn't mentioned the ₹1,300 again but you both know it's there. You've got some money left but you chose not to repay him yet.",
+          "timeSkip": "Day 30.",
+          "choices": [],
+          "isEnd": true,
+          "endingType": "okay",
+          "endingNarrative": "Month One technically survived. But you ended it with informal debt you chose not to clear when you could have. That ₹1,300 is going to sit between you and Rohan until you fix it. Money and friendships are tricky.",
+          "endingChipQuote": "Chip's note: The budget number might look okay, but rolling debt to a friend is real debt. Clear it first in Month Two. Then focus on that emergency fund."
+        },
+        {
+          "nodeId": "node-6e",
+          "narrative": "Freelance income boosted your month. Day 30, final tally.",
+          "timeSkip": "Day 30.",
+          "choices": [],
+          "isEnd": true,
+          "endingType": "excellent",
+          "endingNarrative": "Bonus: you found extra income when you needed it. The month was tight but you turned it around. Your savings aren't just from being careful — they're from being resourceful.",
+          "endingChipQuote": "Chip's insight: Earning more and spending less are both levers. You used both. That's what separates good money managers from great ones."
+        },
+        {
+          "nodeId": "node-6f",
+          "narrative": "Month end. Slim margins. You made it through with essentials covered, but the savings number is small — or zero.",
+          "timeSkip": "Day 30.",
+          "choices": [],
+          "isEnd": true,
+          "endingType": "poor",
+          "endingNarrative": "You survived Month One, barely. Rent paid, food covered, no serious debt. But there's almost nothing left. One more unexpected expense and you'd have been in deficit. This month showed you exactly where the leaks are.",
+          "endingChipQuote": "Chip's honest take: You made it out. That counts. But surviving is not the same as thriving. In Month Two, pick just one or two things to do differently — cooking more, skipping one trip. Small changes, big difference."
         }
       ]
     },
-    {
-      "lessonId": "lesson-4-4",
-      "title": "Budgeting Your Allowance or Income",
-      "estimatedReadingMinutes": 12,
-      "contentBlocks": [
-        {
-          "type": "text",
-          "data": {
-            "content": "Budgets have a reputation problem. People hear 'budget' and picture a sad spreadsheet that sucks the fun out of everything. But here's the real definition: a budget is just a **plan for your money**. Instead of wondering where it went at the end of the month, you decide where it goes at the start."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "priya",
-            "expression": "skeptical",
-            "text": "Budgeting sounds like something my parents would make me do. Like writing a diary. Nobody actually keeps it up."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Fair point. But think of it like cricket. A batsman doesn't just swing at every ball and hope something works. They have a game plan: which shots to play, when to defend, when to attack. Budgeting is your game plan for money. Without it, you're just swinging."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "tip",
-            "content": "One mindset shift that changes everything: a budget doesn't restrict you from spending. It ALLOWS you to spend guilt-free, because you planned for it. If your budget says 2,000 for eating out, spending 1,800 at a restaurant feels great. Without a budget, the same 1,800 feels suspicious."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "A phone screen showing a simple budget app with categories and amounts",
-            "src": "/illustrations/ch4/l4-budget-app.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A smartphone screen showing a clean budget app interface. Categories listed: Needs (rent, food, transport), Wants (eating out, entertainment), Savings. Each has a teal progress bar showing spent vs. budgeted. Total at bottom shows 'Left to spend: 2,953'. Bold, modern app design, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "The simplest way to budget: list your income at the top, then list every expense you can think of below it. Make sure the expenses are less than the income. Sounds obvious, but most people have never actually written it all down in one place."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "A smarter approach is **Zero-Based Budgeting**. Every rupee you earn gets assigned a job. 2,000 goes to transport. 1,500 goes to food. 1,000 goes to savings. Income minus all assignments equals zero. You haven't spent it all, you've *allocated* it all. Nothing is unaccounted for."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Zero-Based Budgeting",
-            "definition": "A method where every rupee of income is assigned a specific purpose until Income minus All Allocations equals 0. Nothing is 'leftover' and nothing is unplanned."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "arjun",
-            "expression": "excited",
-            "text": "I use a notes app on my phone. Every month on the 1st, I write down my pocket money and assign every rupee. It takes literally 10 minutes. And I've saved more in 3 months than I did in the entire previous year."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "A zero-based budget example for a student with 5000 rupees",
-            "src": "/illustrations/ch4/l4-zero-based-budget.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A clean budget template showing: Income 5000 at top. Below: Transport 1200, Phone recharge 299, Food/snacks 1500, Entertainment 800, Clothes 500, Savings 701. Total allocations: 5000. Remaining: 0. Checkmark next to zero. Teal color scheme, bold flat design, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "What about when your income isn't regular? If you earn different amounts from tutoring or freelance work each month, budget based on your **lowest expected month**. If you earn between 3,000 and 8,000, budget for 3,000. Anything above that is a bonus you can split between savings and fun."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "chip-says",
-            "content": "You WILL break your budget sometimes. Everyone does. A budget isn't a promise to be perfect, it's a system to catch yourself when you drift. Missing one month and course-correcting is completely normal. Missing every month and never looking is the problem."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Three ways to track your spending in India right now: **Paytm/PhonePe** transaction history (it's already tracking your UPI payments), a simple notes app where you type every expense same-day, or apps like **Money Manager** or **Walnut** that auto-categorize. Low-tech works just as well as high-tech."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Expense Tracking",
-            "definition": "Recording every purchase you make, whether UPI, cash, or card, so you can see exactly where your money actually went versus where you planned for it to go."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "fun-fact",
-            "content": "Research shows that people who just write down their expenses spend about 15 to 20% less without any other effort. Awareness alone changes behavior. You're less likely to order a third Swiggy meal when you've written down the first two."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "A calendar showing a monthly money review date circled",
-            "src": "/illustrations/ch4/l4-money-date.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A calendar page with the last Sunday circled in teal and labeled 'Money Date'. Around it: icons of a phone showing transactions, a checklist, a small piggy bank with a checkmark. Mood is calm and organized, not stressful. Bold flat shapes, fills the space."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Pro tip: schedule a **monthly money check-in** with yourself. 15 minutes on the last Sunday of the month. Look at what you spent. Did you hit your savings goal? Which category blew up? Any subscriptions you forgot about? This is where you catch small leaks before they become floods."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Lifestyle Creep",
-            "definition": "When your spending automatically rises to match every increase in income, leaving you no better off despite earning more. The sneaky enemy of building wealth."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "tip",
-            "content": "When you get more pocket money or a raise someday, don't immediately upgrade everything. Keep your spending roughly the same and route the extra to savings. This is how people who earn modest incomes still build real wealth over time."
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "type": "scenario",
-          "scenario": "Aditya earns ₹22,000/month from his first job. He sits down on the 1st of the month and writes out his plan: Rent ₹7,500, Groceries ₹3,000, Transport ₹1,200, Phone ₹299, Eating out ₹2,000, Entertainment ₹800, Clothes ₹1,201, Emergency fund ₹3,000, Savings ₹3,000. Every rupee has a job. He then tracks every expense during the month to make sure he sticks to the plan.",
-          "prompt": "Which budgeting method is Aditya using?",
+    "dailyChallenges": [
+      {
+        "date": null,
+        "type": "scenario",
+        "title": "The Unexpected Auto Ride",
+        "content": {
+          "scenario": "It's raining and you're running late for college. The metro station is a 10-minute walk. An auto-rickshaw is right outside your building, asking for 150 rupees. The metro would cost 30 rupees but you'll get wet and might be 15 minutes late.",
+          "prompt": "What's the smartest financial move here?",
           "options": [
-            { "text": "50/30/20 only", "isCorrect": false },
-            { "text": "Zero-based budgeting", "isCorrect": true },
-            { "text": "The 50/30/20 rule with no tracking", "isCorrect": false },
-            { "text": "Spending whatever feels right each month", "isCorrect": false }
+            { "text": "Always take the auto, time is more valuable than money", "isCorrect": false },
+            { "text": "Check if this is a one-time thing or a daily habit, one auto ride is fine but daily ones add up to 3,600/month", "isCorrect": true },
+            { "text": "Walk in the rain to save every rupee", "isCorrect": false },
+            { "text": "Skip college entirely to avoid the expense", "isCorrect": false }
           ],
-          "explanation": "Aditya assigned every rupee of his ₹22,000 a specific purpose: ₹7,500 + ₹3,000 + ₹1,200 + ₹299 + ₹2,000 + ₹800 + ₹1,201 + ₹3,000 + ₹3,000 = ₹22,000. Income minus all allocations equals zero. Nothing is unplanned, nothing is 'floating'. That's zero-based budgeting.",
-          "xpValue": 15
+          "explanation": "One auto ride in the rain is a reasonable expense. But if you take one every day, that's 150 x 24 working days = 3,600 a month versus 30 x 24 = 720 for the metro. The difference of 2,880 per month is almost enough for your emergency fund. The key is knowing when it's a one-time convenience versus a daily habit eating your budget."
         },
-        {
-          "type": "mcq-single",
-          "prompt": "Priya's income varies between ₹10,000 and ₹18,000 per month doing freelance design work. When building her monthly budget, she should base it on:",
+        "xpReward": 25,
+        "requiredChaptersCompleted": 4
+      },
+      {
+        "date": null,
+        "type": "scenario",
+        "title": "The Group Dinner Split",
+        "content": {
+          "scenario": "Your friend group of 6 goes out for dinner. You ordered a dosa for 180 rupees. Your friends ordered starters, mains, and desserts. The total bill is 6,600 and someone says 'let's just split equally, that's 1,100 each.'",
+          "prompt": "What should you do?",
           "options": [
-            { "text": "₹18,000, the maximum she could earn", "isCorrect": false },
-            { "text": "₹14,000, her average monthly income", "isCorrect": false },
-            { "text": "₹10,000, her minimum reliable income", "isCorrect": true },
-            { "text": "₹0, freelance income can't be budgeted", "isCorrect": false }
+            { "text": "Pay the 1,100 to avoid being 'that person'", "isCorrect": false },
+            { "text": "Politely say you'd prefer to pay for what you ordered, or suggest splitting more fairly", "isCorrect": true },
+            { "text": "Never go out with friends again to avoid this situation", "isCorrect": false },
+            { "text": "Order expensive items next time to 'make up for it'", "isCorrect": false }
           ],
-          "explanation": "When income varies, always budget for the floor, your lowest reliable amount. If she budgets for ₹18,000 and earns ₹10,000 one month, she's in deficit. If she budgets for ₹10,000 and earns ₹18,000, she has ₹8,000 extra to split between savings and fun. The conservative approach always wins.",
-          "xpValue": 10
+          "explanation": "Paying 1,100 for a 180-rupee dosa is a 920-rupee social tax. It's completely okay to politely suggest paying for what you ordered. Most friends will respect it. If they don't, that's useful information too. Being honest about money with friends is a skill that saves you thousands over a year."
         },
-        {
-          "type": "sorting",
-          "prompt": "Rajan gets a ₹5,000 raise (now ₹35,000/month). Sort these responses to his new income into Smart Move vs. Lifestyle Creep",
-          "categories": ["Smart Move", "Lifestyle Creep"],
-          "items": [
-            { "text": "Increase monthly savings or investments by ₹2,000/month", "correctCategory": "Smart Move" },
-            { "text": "Move from shared flat to solo apartment (+₹5,000 rent)", "correctCategory": "Lifestyle Creep" },
-            { "text": "Upgrade eating out budget from ₹2,000 to ₹5,000/month", "correctCategory": "Lifestyle Creep" },
-            { "text": "Keep expenses the same, put ₹5,000 into emergency fund faster", "correctCategory": "Smart Move" },
-            { "text": "Add a small ₹1,000 'fun' increase and save the rest", "correctCategory": "Smart Move" },
-            { "text": "Subscribe to every OTT platform now that he 'can afford it'", "correctCategory": "Lifestyle Creep" }
-          ],
-          "explanation": "A raise is an opportunity. Lifestyle creep means your expenses grow as fast as your income, leaving you no richer in real terms. Smart moves direct most of the new income toward financial goals, with a small enjoyment bump. You can absolutely enjoy more as you earn more, just not ALL of it, immediately.",
-          "xpValue": 15
-        },
-        {
-          "type": "mcq-multi",
-          "prompt": "Which of these are good habits for sticking to a monthly budget? (Select all that apply)",
+        "xpReward": 25,
+        "requiredChaptersCompleted": 4
+      },
+      {
+        "date": null,
+        "type": "scenario",
+        "title": "The Subscription Audit",
+        "content": {
+          "scenario": "You check your bank statement and notice these monthly subscriptions: Netflix 199, Spotify 119, Amazon Prime 149, YouTube Premium 129, a gym you haven't visited in 2 months 999. Total: 1,595 per month.",
+          "prompt": "What's the best approach to handle this?",
           "options": [
-            { "text": "Tracking every UPI and cash expense", "isCorrect": true },
-            { "text": "Reviewing your budget once a month", "isCorrect": true },
-            { "text": "Deleting your banking app so you don't see the balance", "isCorrect": false },
-            { "text": "Setting up an automatic transfer to savings on salary day", "isCorrect": true },
-            { "text": "Building a slightly flexible 'miscellaneous' buffer", "isCorrect": true }
+            { "text": "Cancel everything, subscriptions are a waste", "isCorrect": false },
+            { "text": "Keep everything, it's only 1,595 per month", "isCorrect": false },
+            { "text": "Cancel the ones you don't actively use (especially the gym) and keep 1-2 you actually value", "isCorrect": true },
+            { "text": "Switch to annual plans for all of them to save a little", "isCorrect": false }
           ],
-          "explanation": "Tracking, reviewing, and automating are the three pillars of budget consistency. A misc buffer (₹500-₹1,000) handles the small surprises without blowing your plan. Ignoring your balance is the opposite of budgeting, out of sight doesn't mean out of debt.",
-          "xpValue": 10
+          "explanation": "The gym alone is 999 rupees for something you're not using. That's 11,988 a year going nowhere. Cancel it, and restart only when you actually go regularly. For OTT, pick 1-2 you genuinely watch and rotate the others. The goal isn't zero subscriptions, it's paying only for what you actually use. Even saving 1,000 a month here means 12,000 a year back in your pocket."
         },
-        {
-          "type": "true-false",
-          "prompt": "A budget fails if you spend even ₹1 more than planned in any category.",
-          "correctAnswer": false,
-          "explanation": "A budget is a living plan, not a rigid contract. Going ₹200 over on groceries and ₹300 under on transport is perfectly fine, the overall balance is what matters. The goal is awareness and direction, not military precision. Flexibility is what makes a budget sustainable long-term.",
-          "xpValue": 10
-        }
-      ]
-    },
-    {
-      "lessonId": "lesson-4-5",
-      "title": "Budget Simulator Prep",
-      "estimatedReadingMinutes": 5,
-      "contentBlocks": [
-        {
-          "type": "text",
-          "data": {
-            "content": "Alright. You've got the theory down. You know the 50/30/20 split. You know what an emergency fund is. You know what budgeting actually means. Now comes the real test: living it."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "priya",
-            "expression": "excited",
-            "text": "Wait, we get to actually simulate a whole month? Like making real decisions about rent and food and everything? This is way better than just reading about it."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "The Month One simulator puts you in the shoes of someone on their first real job. 30,000 rupees salary. One month in Bangalore. Real decisions at every turn. Rent is due. A friend's birthday is coming. A medical thing pops up out of nowhere. You'll make choices and see immediately what they do to your wallet."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "Preview of the Month One simulator showing a wallet with 30,000 rupees and a Bangalore apartment",
-            "src": "/illustrations/ch4/l5-simulator-preview.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A phone screen mockup of the simulator. Shows a teal wallet icon displaying '30,000' with a progress bar labeled 'Month: Day 1'. Next to it, a simple illustrated Bangalore scene with apartment building, auto-rickshaw, and chai stall. Mood is exciting and slightly challenging. Bold flat shapes, fills the space."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "chip-says",
-            "content": "There's no perfect run on this simulator. There are good decisions and expensive ones. The point isn't to 'win', it's to feel the trade-offs before you face them in real life. Ready?"
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Before you start, a quick reminder of what to watch for. **Needs come first**: pay rent, buy groceries, keep the lights on. **Emergency fund before fun**: seriously. And the most important thing: **small daily decisions add up more than you think**. Choosing a 150-rupee auto over a 25-rupee metro every day adds up to 3,750 a month. That's your entire emergency fund contribution, gone."
-          }
-        },
-        {
-          "type": "key-term",
-          "data": {
-            "term": "Trade-off",
-            "definition": "When choosing one option means giving up another. Every rupee you spend on one thing is a rupee you can't spend or save elsewhere. The simulator is all about feeling these trade-offs in real time."
-          }
-        },
-        {
-          "type": "dialogue",
-          "data": {
-            "character": "arjun",
-            "expression": "confident",
-            "text": "I tried to end the month with 6,000 saved. It's tight but totally doable if you cook at home and skip one or two splurges. Think of it as a game."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "A badge showing Budget Boss achievement for saving 20% in Month One",
-            "src": "/illustrations/ch4/l5-budget-boss-badge.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A circular badge/medal design with 'Budget Boss' text and a trophy icon in the center. Around the edge: '20% Savings Target'. Teal and gold colors. Bold, celebratory but clean design. Fills the space."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "tip",
-            "content": "Badge target: End the month with 6,000 or more saved (20% of 30,000). That's the 'Budget Boss' badge. It's totally achievable, but it requires real choices, not just the obviously good ones."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "You'll face decisions about cooking vs. ordering in, cheap transport vs. comfortable transport, saying yes to friends vs. protecting your budget. There's no single right answer to any of them. But by the end, you'll have a gut feeling for what matters and what's just noise."
-          }
-        },
-        {
-          "type": "text",
-          "data": {
-            "content": "Remember: the simulator is practice for real life. Every choice you make here, from cooking vs. ordering food to saying yes or no to a trip, mirrors the exact decisions you'll face when you start earning for real. The stakes here are zero. The learning is real. Let's go."
-          }
-        },
-        {
-          "type": "image",
-          "data": {
-            "alt": "A split path showing different financial outcomes based on choices made during the month",
-            "src": "/illustrations/ch4/l5-choices-paths.png",
-            "prompt": "Flat illustration with teal color palette (#1ABC9C). A branching path starting from 'Day 1' with multiple choice points. One path leads to a happy ending with savings (teal, bright), another leads to a tight ending with barely anything left (dimmer). Shows key decision moments: rent, groceries, birthday dinner, emergency. Bold flat shapes, fills the space."
-          }
-        },
-        {
-          "type": "callout",
-          "data": {
-            "variant": "fun-fact",
-            "content": "Studies show that people who practice financial decisions in simulations make 23% better money choices in real life. Your brain learns from the simulated stress just like it would from real stress, but without the real consequences."
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "type": "mcq-single",
-          "prompt": "You start the Month One simulator with ₹30,000. What should be your FIRST financial action?",
-          "options": [
-            { "text": "Go out and celebrate your first salary!", "isCorrect": false },
-            { "text": "Pay rent and set aside emergency fund contribution", "isCorrect": true },
-            { "text": "Check what's on sale online", "isCorrect": false },
-            { "text": "Invest everything in the stock market", "isCorrect": false }
-          ],
-          "explanation": "Needs (like rent) and savings transfers come first, before any discretionary spending. Paying rent and contributing to your emergency fund on day one means the 'important money' is safe no matter what happens during the rest of the month.",
-          "xpValue": 10
-        },
-        {
-          "type": "true-false",
-          "prompt": "Saving ₹6,000 from a ₹30,000 salary in Month One (your very first month) is unrealistic and too hard.",
-          "correctAnswer": false,
-          "explanation": "₹6,000 from ₹30,000 is exactly 20%, the savings target of the 50/30/20 rule. With ₹15,000 for needs, ₹9,000 for wants, and ₹6,000 saved, the math works. It's tight (especially for Bangalore), but it's doable, especially if you cook, use public transport, and skip one or two splurges. That's the point of the simulator.",
-          "xpValue": 10
-        }
-      ]
-    }
-  ],
-  "simulation": {
-    "title": "Month One",
-    "description": "You just got your first real job offer, junior analyst at a Bangalore tech startup. Salary: ₹30,000/month. You've moved into a shared flat with a college friend. This is it. Month One starts now.",
-    "startingWallet": 30000,
-    "optimalWalletOutcome": 6000,
-    "badgeId": "budget-boss",
-    "badgeName": "Budget Boss",
-    "badgeDescription": "Saved ₹6,000 or more in Month One, hit the 20% savings target on the first try.",
-    "badgeThreshold": { "type": "wallet_minimum", "value": 6000 },
-    "startNodeId": "node-1",
-    "nodes": [
-      {
-        "nodeId": "node-1",
-        "narrative": "Day 1. Salary just hit: ₹30,000. It's sitting in your account. Your flatmate Rohan is already texting: 'Dude first salary! We're going out tonight, there's this new place in Koramangala, ₹1,500 a head minimum.' Meanwhile, your rent of ₹9,500 is due in 3 days.",
-        "timeSkip": null,
-        "choices": [
-          {
-            "text": "Pay rent immediately AND transfer ₹3,000 to emergency fund savings",
-            "nextNodeId": "node-2a",
-            "walletImpact": -12500,
-            "feedback": "Chip gives you a solid nod. 'Needs and savings locked. You've got ₹17,500 to work with for the month. Strong start.'"
-          },
-          {
-            "text": "Go out with Rohan tonight (₹1,500), pay rent later this week",
-            "nextNodeId": "node-2b",
-            "walletImpact": -1500,
-            "feedback": "Chip raises an eyebrow. 'First salary, first night out. Very classic. Just remember rent is coming in 3 days.'"
-          },
-          {
-            "text": "Pay rent immediately, skip the emergency fund for now",
-            "nextNodeId": "node-2c",
-            "walletImpact": -9500,
-            "feedback": "Chip sighs gently. 'Rent paid, good. But skipping the emergency fund is a gamble. Something always comes up.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-2a",
-        "narrative": "Rent and emergency fund: sorted. You have ₹17,500 left. It's Week 1 and you need to stock up your kitchen, your flat is empty. Option: cook at home (spend ₹2,500 on groceries, set up for two weeks) or just eat out until you feel settled (₹150-₹300 per meal, roughly ₹3,500-₹5,000 for the week).",
-        "timeSkip": "Day 3...",
-        "choices": [
-          {
-            "text": "Big grocery run, stock up properly (₹2,500)",
-            "nextNodeId": "node-3a",
-            "walletImpact": -2500,
-            "feedback": "Chip approves. 'Kitchen stocked. Every meal you cook saves you ₹100-₹200 vs. Swiggy. Over a month, that's real money.'"
-          },
-          {
-            "text": "Just eat out this week, do groceries next week (₹4,000 this week)",
-            "nextNodeId": "node-3b",
-            "walletImpact": -4000,
-            "feedback": "Chip grimaces. 'Oof. ₹4,000 on food this week alone. Not catastrophic but this month's getting tighter.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-2b",
-        "narrative": "Fun night out, dinner + drinks with Rohan = ₹1,500. Good memories. You wake up to a rent reminder. You pay it (₹9,500 gone). You're at ₹19,000 now. Week 1 groceries still needed.",
-        "timeSkip": "Day 4...",
-        "choices": [
-          {
-            "text": "Do a proper grocery run (₹2,500) and commit to cooking this week",
-            "nextNodeId": "node-3a",
-            "walletImpact": -2500,
-            "feedback": "Chip nods. 'Late start but you're on track now. Kitchen stocked.'"
-          },
-          {
-            "text": "Keep eating out, settle into a routine before cooking (₹4,000)",
-            "nextNodeId": "node-3b",
-            "walletImpact": -4000,
-            "feedback": "Chip does the math quietly. 'Between the night out and eating all week, you've spent ₹14,000 in 4 days. 12 days left.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-2c",
-        "narrative": "Rent paid, ₹20,500 remaining. Week 1 groceries needed. Your phone is also running low on storage and showing ads for a new mid-range phone (₹12,999 on Flipkart, ₹1,083/month in instalments). Your current phone works, it's just slow.",
-        "timeSkip": "Day 3...",
-        "choices": [
-          {
-            "text": "Do a grocery run (₹2,500), ignore the phone ad",
-            "nextNodeId": "node-3a",
-            "walletImpact": -2500,
-            "feedback": "Chip smiles. 'Phone is functional. Food is essential. Correct priorities.'"
-          },
-          {
-            "text": "Buy the phone on instalments (₹1,083/month) + groceries (₹2,500)",
-            "nextNodeId": "node-3c",
-            "walletImpact": -3583,
-            "feedback": "Chip squints. 'New phone, working phone already, no emergency fund. This is a want dressed as a need. Just saying.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-3a",
-        "narrative": "Kitchen is stocked. Week 2 arrives. Your college friend Tanya's birthday is on Saturday. She's planning dinner at a restaurant in Indiranagar, her friends are going all out. Your share will probably be ₹1,200-₹1,500. You also haven't transferred anything to savings yet this month.",
-        "timeSkip": "Week 2...",
-        "choices": [
-          {
-            "text": "Go to the dinner (₹1,200), you can save less this month",
-            "nextNodeId": "node-4a",
-            "walletImpact": -1200,
-            "feedback": "Chip: 'Friendship is real. Just know the month is tighter now.'"
-          },
-          {
-            "text": "Skip the dinner, send a heartfelt message + small online gift (₹300)",
-            "nextNodeId": "node-4b",
-            "walletImpact": -300,
-            "feedback": "Chip: 'Bold call. Some friends get it. Some won't. Budget wins.'"
-          },
-          {
-            "text": "Go to dinner but suggest a cheaper restaurant first (settle on ₹600)",
-            "nextNodeId": "node-4c",
-            "walletImpact": -600,
-            "feedback": "Chip: 'The negotiation gambit. Risky socially, smart financially. Respect.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-3b",
-        "narrative": "Food's been expensive but you're surviving. Week 2: Tanya's birthday dinner (₹1,200 share), AND your company requires you to attend a work event, formal dress code. You don't have formal clothes. Cheapest option: a decent shirt + trousers for ₹2,500 at a local store. Or you could buy a premium outfit (₹5,500) for a 'good first impression.'",
-        "timeSkip": "Week 2...",
-        "choices": [
-          {
-            "text": "Skip Tanya's dinner, buy the basic office outfit (₹2,500)",
-            "nextNodeId": "node-4d",
-            "walletImpact": -2500,
-            "feedback": "Chip: 'Work comes first. Tanya will understand. Wise.'"
-          },
-          {
-            "text": "Go to dinner AND buy the premium outfit (₹1,200 + ₹5,500 = ₹6,700)",
-            "nextNodeId": "node-4e",
-            "walletImpact": -6700,
-            "feedback": "Chip is calculating frantically. 'You're draining fast. This month is going to be very, very tight.'"
-          },
-          {
-            "text": "Buy the basic outfit, go to dinner with a smaller gift contribution (₹600)",
-            "nextNodeId": "node-4c",
-            "walletImpact": -3100,
-            "feedback": "Chip exhales. 'Compromise. Work need covered, friendship partially covered. Not bad given the situation.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-3c",
-        "narrative": "New phone + groceries sorted. Week 2 arrives. Suddenly your manager asks the team to use a paid collaboration tool (₹850/month, company will reimburse in 60 days but you have to pay upfront). AND Tanya's birthday dinner (₹1,200 share).",
-        "timeSkip": "Week 2...",
-        "choices": [
-          {
-            "text": "Pay both, work tool ₹850 and birthday dinner ₹1,200",
-            "nextNodeId": "node-4f",
-            "walletImpact": -2050,
-            "feedback": "Chip: 'Work needs covered, friend covered. But with a phone instalment now running, every rupee counts.'"
-          },
-          {
-            "text": "Pay work tool, skip dinner (₹850)",
-            "nextNodeId": "node-4d",
-            "walletImpact": -850,
-            "feedback": "Chip: 'Work reimbursement coming. Friendship on hold. Practical.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-4a",
-        "narrative": "Week 3. The unexpected thing happens. You wake up with food poisoning, bad street food yesterday. Doctor visit: ₹500 consultation fee. Medicines: ₹800. You missed a day of work (no pay cut, thankfully, startup is cool about it). Total health cost: ₹1,300. You have no emergency fund.",
-        "timeSkip": "Week 3 - Tuesday morning...",
-        "choices": [
-          {
-            "text": "Pay from your remaining money (₹1,300 from wallet)",
-            "nextNodeId": "node-5a",
-            "walletImpact": -1300,
-            "feedback": "Chip looks thoughtful. 'Handled. But notice: you just used your potential savings. This is why emergency funds exist.'"
-          },
-          {
-            "text": "Ask Rohan to lend you ₹1,300 (you'll pay back next month)",
-            "nextNodeId": "node-5b",
-            "walletImpact": 0,
-            "feedback": "Chip winces. 'Month One and already borrowing. Not ideal. Rohan's cool about it but this is a habit you don't want to start.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-4b",
-        "narrative": "Tanya was a bit quiet but understood. Week 3: food poisoning hits (street food). Doctor ₹500 + medicines ₹800 = ₹1,300. Since you haven't built an emergency fund yet, this comes straight from your budget.",
-        "timeSkip": "Week 3...",
-        "choices": [
-          {
-            "text": "Pay it, ₹1,300 from budget",
-            "nextNodeId": "node-5a",
-            "walletImpact": -1300,
-            "feedback": "Chip: 'Handled. You're lower than ideal but still in positive territory because you kept earlier costs down.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-4c",
-        "narrative": "Good middle ground. Week 3: classic unexpected surprise, your laptop charger dies (work from home is part of the deal). You need a replacement. Branded: ₹2,800. Compatible third-party (same wattage, reliable brand): ₹950.",
-        "timeSkip": "Week 3 - Thursday...",
-        "choices": [
-          {
-            "text": "Buy the branded charger (₹2,800), work tools should be quality",
-            "nextNodeId": "node-5c",
-            "walletImpact": -2800,
-            "feedback": "Chip: 'Quality argument is valid. But ₹2,800 when you're already stretched hurts.'"
-          },
-          {
-            "text": "Buy the third-party charger (₹950), same function, lower cost",
-            "nextNodeId": "node-5d",
-            "walletImpact": -950,
-            "feedback": "Chip nods. 'Same voltage, same outcome. ₹1,850 saved. That's your emergency fund contribution right there.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-4d",
-        "narrative": "Work event handled. Tanya skipped or handled cheaply. Week 3: your work area needs a chair (you've been sitting on the floor, your back is complaining). Options: a ₹3,500 decent chair from IKEA, or using a ₹500 second-hand one from OLX.",
-        "timeSkip": "Week 3...",
-        "choices": [
-          {
-            "text": "Buy the IKEA chair (₹3,500), you'll use it every day",
-            "nextNodeId": "node-5c",
-            "walletImpact": -3500,
-            "feedback": "Chip: 'Long-term thinking, but expensive timing. Hope the month's math still works out.'"
-          },
-          {
-            "text": "Buy the second-hand OLX chair (₹500)",
-            "nextNodeId": "node-5d",
-            "walletImpact": -500,
-            "feedback": "Chip applauds. 'OLX is underrated. ₹500 for something that works fine? Budget WIN.'"
-          },
-          {
-            "text": "Survive another 2 weeks on the floor, wait for Month 2 budget",
-            "nextNodeId": "node-5d",
-            "walletImpact": 0,
-            "feedback": "Chip: 'Commitment to the budget. Your back might disagree but your wallet won't.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-4e",
-        "narrative": "You're stretched pretty thin. Week 3: your flatmate Rohan suggests a weekend trip to Nandi Hills with friends (₹1,800 for petrol + food). It sounds amazing. But your wallet is looking pale.",
-        "timeSkip": "Week 3 - Friday...",
-        "choices": [
-          {
-            "text": "Go on the trip (₹1,800), you need the break",
-            "nextNodeId": "node-5e",
-            "walletImpact": -1800,
-            "feedback": "Chip covers his face. 'You're now dangerously low. Even a small emergency will wreck you.'"
-          },
-          {
-            "text": "Skip the trip, be honest with Rohan about money",
-            "nextNodeId": "node-5f",
-            "walletImpact": 0,
-            "feedback": "Chip breathes out. 'Good call. Real friends understand. And this might be what saves the month.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-4f",
-        "narrative": "Work tool and birthday handled. Week 3: you get a company reimbursement... but it's ₹750, not ₹850 (something about the receipt format). ₹100 lost to paperwork. Minor annoyance. Meanwhile, your grocery supplies are running low.",
-        "timeSkip": "Week 3...",
-        "choices": [
-          {
-            "text": "Restock groceries properly (₹1,800 for next 10 days)",
-            "nextNodeId": "node-5d",
-            "walletImpact": -1050,
-            "feedback": "Chip: 'Reimbursement partially covered groceries. Not bad. Cooking is the right call.'"
-          },
-          {
-            "text": "Just order food this week, groceries next month (₹3,000)",
-            "nextNodeId": "node-5c",
-            "walletImpact": -2250,
-            "feedback": "Chip: 'You're paying a premium for convenience when you're already pressed. This is how months go into deficit.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-5a",
-        "narrative": "Medical handled. Week 4. Final stretch. You've been tracking your expenses and the month is tighter than you expected. But you have one more decision: your phone data plan runs out 3 days before month end. Options: prepaid top-up ₹199 (basic plan) or upgrade to ₹399 (unlimited for 28 days).",
-        "timeSkip": "Week 4 - Day 25...",
-        "choices": [
-          {
-            "text": "Top up with the ₹199 basic plan, just need internet for 3 days",
-            "nextNodeId": "node-6a",
-            "walletImpact": -199,
-            "feedback": "Chip: 'Exactly what you need. Not a rupee more.'"
-          },
-          {
-            "text": "Buy the ₹399 unlimited, it's only ₹200 more",
-            "nextNodeId": "node-6b",
-            "walletImpact": -399,
-            "feedback": "Chip: '\"It's only ₹200\" is how budgets slowly die. But okay, if the data matters.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-5b",
-        "narrative": "Borrowed ₹1,300 from Rohan. Week 4: you need to top up your phone data. AND Rohan casually mentions the ₹1,300 you owe. You have enough to repay him this month.",
-        "timeSkip": "Week 4...",
-        "choices": [
-          {
-            "text": "Repay Rohan immediately (₹1,300) + basic phone top-up (₹199)",
-            "nextNodeId": "node-6c",
-            "walletImpact": -1499,
-            "feedback": "Chip: 'Debt repaid. Clean slate. This is integrity. Well done.'"
-          },
-          {
-            "text": "Repay Rohan next month, top up phone (₹199)",
-            "nextNodeId": "node-6d",
-            "walletImpact": -199,
-            "feedback": "Chip sighs. 'You have the money. Pay it back. Rolling debt to friends is how friendships break.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-5c",
-        "narrative": "Month is stretched. Final week: you've been offered a one-day freelance gig, helping a friend's startup with some data entry (₹1,500 for the day, Sunday). It doesn't conflict with your main job.",
-        "timeSkip": "Week 4 - the Sunday before end of month...",
-        "choices": [
-          {
-            "text": "Take the freelance gig (+₹1,500)",
-            "nextNodeId": "node-6e",
-            "walletImpact": 1500,
-            "feedback": "Chip pumps his fist. 'Extra income! This changes the end-of-month math. Well played.'"
-          },
-          {
-            "text": "Skip it, you need the Sunday to rest",
-            "nextNodeId": "node-6f",
-            "walletImpact": 0,
-            "feedback": "Chip nods slowly. 'Rest is valid. Just know the month ends with less cushion.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-5d",
-        "narrative": "Looking decent. Week 4: Rohan wants to do a Swiggy order because both of you are tired. His suggestion: 'Let's just order one big meal together, ₹600 each.' You have groceries at home.",
-        "timeSkip": "Week 4 - Friday evening...",
-        "choices": [
-          {
-            "text": "Order Swiggy with Rohan (₹600)",
-            "nextNodeId": "node-6b",
-            "walletImpact": -600,
-            "feedback": "Chip: 'One Swiggy is fine. You budgeted for wants. This qualifies.'"
-          },
-          {
-            "text": "Cook with what you have, offer to split the cooking (₹0 extra)",
-            "nextNodeId": "node-6a",
-            "walletImpact": 0,
-            "feedback": "Chip: 'Cooked together, saved ₹600, and honestly probably tastier. Win.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-5e",
-        "narrative": "Nandi Hills trip happened. Beautiful, but expensive timing. Final week: you're dangerously low. You need a few groceries to last 5 days. You have just enough.",
-        "timeSkip": "Week 4 - Monday...",
-        "choices": [
-          {
-            "text": "Buy essentials only, dal, rice, eggs, veggies (₹700)",
-            "nextNodeId": "node-6f",
-            "walletImpact": -700,
-            "feedback": "Chip: 'Bare minimum, but it's enough to survive the week. You made it. Barely.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-5f",
-        "narrative": "Skipped the trip. Good call financially. Week 4: clear head, some money left. Rohan wants to order pizza at home tonight (₹450 your share) to make up for missing Nandi Hills.",
-        "timeSkip": "Week 4 - Friday...",
-        "choices": [
-          {
-            "text": "Order pizza (₹450), you deserve a small win",
-            "nextNodeId": "node-6b",
-            "walletImpact": -450,
-            "feedback": "Chip smiles. 'You skipped a ₹1,800 trip and spent ₹450 on pizza. That's a budget win any way you look at it.'"
-          },
-          {
-            "text": "Cook together instead, save the ₹450",
-            "nextNodeId": "node-6a",
-            "walletImpact": 0,
-            "feedback": "Chip: 'Maximum savings, minimum regret. You've nailed this month.'"
-          }
-        ],
-        "isEnd": false
-      },
-      {
-        "nodeId": "node-6a",
-        "narrative": "Month end. Your salary arrives tomorrow. You open your account and do the final tally. Whatever's left from ₹30,000 after all your spending, that's your savings for Month One.",
-        "timeSkip": "Day 30. Month end.",
-        "choices": [],
-        "isEnd": true,
-        "endingType": "excellent",
-        "endingNarrative": "Month One done. You navigated rent, groceries, a birthday, a health scare, and a bunch of daily decisions, and came out with real savings. Chip is doing a little victory dance. This is exactly how it's supposed to feel.",
-        "endingChipQuote": "Chip's verdict: You didn't just survive Month One. You *planned* Month One. That's the difference between people who build wealth and people who wonder where it all went."
-      },
-      {
-        "nodeId": "node-6b",
-        "narrative": "Month end. Salary arrives tomorrow. Final tally time.",
-        "timeSkip": "Day 30.",
-        "choices": [],
-        "isEnd": true,
-        "endingType": "good",
-        "endingNarrative": "Month One is done. You had some extra spends here and there but kept things mostly on track. Not a perfect run but a solid one. The habits are forming.",
-        "endingChipQuote": "Chip's verdict: Good first month. A few 'it's only ₹200' moments, but you're learning. Month Two, let's tighten those edges."
-      },
-      {
-        "nodeId": "node-6c",
-        "narrative": "Month end. You repaid Rohan, covered your needs, and kept your word. Salary arrives tomorrow.",
-        "timeSkip": "Day 30.",
-        "choices": [],
-        "isEnd": true,
-        "endingType": "good",
-        "endingNarrative": "Clean finish. You borrowed once and repaid it fully. No lingering debts, no awkward friendship dynamics. The emergency fund was missing but you now know exactly why it matters.",
-        "endingChipQuote": "Chip's verdict: Integrity check: passed. Now in Month Two, build that emergency fund so Rohan never has to be your backup plan again."
-      },
-      {
-        "nodeId": "node-6d",
-        "narrative": "Month end. Rohan hasn't mentioned the ₹1,300 again but you know it's there. You've got some money left but you chose not to repay him yet.",
-        "timeSkip": "Day 30.",
-        "choices": [],
-        "isEnd": true,
-        "endingType": "okay",
-        "endingNarrative": "Month One technically survived. But you ended it with informal debt you chose not to clear when you could have. That ₹1,300 is going to sit between you and Rohan until you fix it. Money and friendships are tricky.",
-        "endingChipQuote": "Chip's note: The budget number might look okay, but rolling debt to a friend is real debt. Clear it first in Month Two. Then focus on that emergency fund."
-      },
-      {
-        "nodeId": "node-6e",
-        "narrative": "Freelance income boosted your month. Day 30, final tally.",
-        "timeSkip": "Day 30.",
-        "choices": [],
-        "isEnd": true,
-        "endingType": "excellent",
-        "endingNarrative": "Bonus: you found extra income when you needed it. The month was tight but you turned it around. Your savings aren't just from being careful, they're from being resourceful.",
-        "endingChipQuote": "Chip's insight: Earning more and spending less are both levers. You used both. That's what separates good money managers from great ones."
-      },
-      {
-        "nodeId": "node-6f",
-        "narrative": "Month end. Slim margins. You made it through with essentials covered, but the savings number is small, or zero.",
-        "timeSkip": "Day 30.",
-        "choices": [],
-        "isEnd": true,
-        "endingType": "poor",
-        "endingNarrative": "You survived Month One, barely. Rent paid, food covered, no serious debt. But there's almost nothing left. One unexpected expense and you'd have been in deficit. This month showed you exactly where the leaks are.",
-        "endingChipQuote": "Chip's honest take: You made it out. That counts. But surviving is not the same as thriving. In Month Two, pick just one or two things to do differently, cooking more, skipping one trip. Small changes, big difference."
+        "xpReward": 25,
+        "requiredChaptersCompleted": 4
       }
     ]
-  },
-  "dailyChallenges": [
-    {
-      "date": null,
-      "type": "scenario",
-      "title": "The Unexpected Auto Ride",
-      "content": {
-        "scenario": "It's raining and you're running late for college. The metro station is a 10-minute walk. An auto-rickshaw is right outside your building, asking for 150 rupees. The metro would cost 30 rupees but you'll get wet and might be 15 minutes late.",
-        "prompt": "What's the smartest financial move here?",
-        "options": [
-          { "text": "Always take the auto, time is more valuable than money", "isCorrect": false },
-          { "text": "Check if this is a one-time thing or a daily habit, one auto ride is fine but daily ones add up to 3,600/month", "isCorrect": true },
-          { "text": "Walk in the rain to save every rupee", "isCorrect": false },
-          { "text": "Skip college entirely to avoid the expense", "isCorrect": false }
-        ],
-        "explanation": "One auto ride in the rain is a reasonable expense. But if you take one every day, that's 150 x 24 working days = 3,600 a month versus 30 x 24 = 720 for the metro. The difference of 2,880 per month is almost enough for your emergency fund. The key is knowing when it's a one-time convenience versus a daily habit eating your budget."
-      },
-      "xpReward": 25,
-      "requiredChaptersCompleted": 4
-    },
-    {
-      "date": null,
-      "type": "scenario",
-      "title": "The Group Dinner Split",
-      "content": {
-        "scenario": "Your friend group of 6 goes out for dinner. You ordered a dosa for 180 rupees. Your friends ordered starters, mains, and desserts. The total bill is 6,600 and someone says 'let's just split equally, that's 1,100 each.'",
-        "prompt": "What should you do?",
-        "options": [
-          { "text": "Pay the 1,100 to avoid being 'that person'", "isCorrect": false },
-          { "text": "Politely say you'd prefer to pay for what you ordered, or suggest splitting more fairly", "isCorrect": true },
-          { "text": "Never go out with friends again to avoid this situation", "isCorrect": false },
-          { "text": "Order expensive items next time to 'make up for it'", "isCorrect": false }
-        ],
-        "explanation": "Paying 1,100 for a 180-rupee dosa is a 920-rupee social tax. It's completely okay to politely suggest paying for what you ordered. Most friends will respect it. If they don't, that's useful information too. Being honest about money with friends is a skill that saves you thousands over a year."
-      },
-      "xpReward": 25,
-      "requiredChaptersCompleted": 4
-    },
-    {
-      "date": null,
-      "type": "scenario",
-      "title": "The Subscription Audit",
-      "content": {
-        "scenario": "You check your bank statement and notice these monthly subscriptions: Netflix 199, Spotify 119, Amazon Prime 149, YouTube Premium 129, a gym you haven't visited in 2 months 999. Total: 1,595 per month.",
-        "prompt": "What's the best approach to handle this?",
-        "options": [
-          { "text": "Cancel everything, subscriptions are a waste", "isCorrect": false },
-          { "text": "Keep everything, it's only 1,595 per month", "isCorrect": false },
-          { "text": "Cancel the ones you don't actively use (especially the gym) and keep 1-2 you actually value", "isCorrect": true },
-          { "text": "Switch to annual plans for all of them to save a little", "isCorrect": false }
-        ],
-        "explanation": "The gym alone is 999 rupees for something you're not using. That's 11,988 a year going nowhere. Cancel it, and restart only when you actually go regularly. For OTT, pick 1-2 you genuinely watch and rotate the others. The goal isn't zero subscriptions, it's paying only for what you actually use. Even saving 1,000 a month here means 12,000 a year back in your pocket."
-      },
-      "xpReward": 25,
-      "requiredChaptersCompleted": 4
-    }
-  ]
+  }
 }

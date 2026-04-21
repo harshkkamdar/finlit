@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Lock, HelpCircle } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
+import TooltipPortal from '@/components/ui/TooltipPortal';
 
 interface BadgeData {
   name: string;
@@ -45,6 +46,8 @@ export default function BadgeCard({
   earnedAt,
 }: BadgeCardProps) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
+  const cardRef = useRef<HTMLDivElement>(null);
   const isSecretLocked = badge.isSecret && !earned;
   const Icon = getLucideIcon(badge.icon);
 
@@ -61,7 +64,14 @@ export default function BadgeCard({
       tabIndex={0}
       whileHover={earned ? { scale: 1.05 } : undefined}
       className="relative flex flex-col items-center text-center focus-visible:ring-2 focus-visible:ring-primary/50 focus-visible:ring-offset-2 outline-none rounded-lg"
-      onMouseEnter={() => setShowTooltip(true)}
+      ref={cardRef}
+      onMouseEnter={() => {
+        if (cardRef.current) {
+          const rect = cardRef.current.getBoundingClientRect();
+          setTooltipPos({ top: rect.bottom + 8, left: rect.left + rect.width / 2 });
+        }
+        setShowTooltip(true);
+      }}
       onMouseLeave={() => setShowTooltip(false)}
     >
       {/* Circle badge */}
@@ -146,22 +156,29 @@ export default function BadgeCard({
 
       {/* Tooltip */}
       {showTooltip && (
-        <motion.div
-          initial={{ opacity: 0, y: 4 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="absolute -bottom-2 translate-y-full z-30 bg-dark text-white text-xs px-3 py-2 rounded-lg shadow-xl max-w-[180px] font-body"
-        >
-          {isSecretLocked ? (
-            <p className="text-white/70">
-              This is a secret badge. Keep exploring to unlock it!
-            </p>
-          ) : earned ? (
-            <p>{badge.description}</p>
-          ) : (
-            <p className="text-white/70">{badge.description}</p>
-          )}
-          <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-dark rotate-45" />
-        </motion.div>
+        <TooltipPortal>
+          <motion.div
+            initial={{ opacity: 0, y: 4 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="fixed z-[9999] bg-dark text-white text-xs px-3 py-2 rounded-lg shadow-xl max-w-[180px] font-body pointer-events-none"
+            style={{
+              top: tooltipPos.top,
+              left: tooltipPos.left,
+              transform: 'translateX(-50%)',
+            }}
+          >
+            {isSecretLocked ? (
+              <p className="text-white/70">
+                This is a secret badge. Keep exploring to unlock it!
+              </p>
+            ) : earned ? (
+              <p>{badge.description}</p>
+            ) : (
+              <p className="text-white/70">{badge.description}</p>
+            )}
+            <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-dark rotate-45" />
+          </motion.div>
+        </TooltipPortal>
       )}
     </motion.div>
   );
