@@ -1273,9 +1273,6 @@ export default function SimulationRenderer({
     const endNode = currentNode ?? null;
     return (
       <div className="fixed inset-0 z-50 bg-dark text-white overflow-y-auto">
-        {/* Letterbox top */}
-        <div className="h-12 bg-black w-full" />
-
         <SimulationResults
           decisions={decisionHistory}
           walletFinal={walletBalance}
@@ -1289,9 +1286,6 @@ export default function SimulationRenderer({
           chapterNumber={chapterNumber}
           onBack={handleComplete}
         />
-
-        {/* Letterbox bottom */}
-        <div className="h-12 bg-black w-full" />
       </div>
     );
   }
@@ -1317,11 +1311,8 @@ export default function SimulationRenderer({
         )}
       </AnimatePresence>
 
-      {/* Letterbox top */}
-      <div className="h-12 bg-black w-full" />
-
       {/* Wallet / Score display — fixed top right */}
-      <div className="fixed top-16 right-6 z-40 flex flex-col gap-2 items-end">
+      <div className="fixed top-6 right-6 z-40 flex flex-col gap-2 items-end">
         {showScoreUI && (
           <WalletDisplay
             balance={score}
@@ -1352,133 +1343,132 @@ export default function SimulationRenderer({
         )}
       </div>
 
-      {/* Content */}
-      <div className="max-w-[800px] mx-auto px-6 py-12">
-        {/* Node content with transitions */}
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentNodeId}
-            initial={
-              prefersReducedMotion ? { opacity: 1 } : { opacity: 0, y: 16 }
-            }
-            animate={{ opacity: 1, y: 0 }}
-            exit={
-              prefersReducedMotion ? { opacity: 0 } : { opacity: 0, y: -16 }
-            }
-            transition={{ duration: 0.5 }}
-          >
-            {currentNode && (
-              <>
-                {/* Ch1 time label */}
-                {isCh1 && currentNode.timeLabel && (
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    className="flex items-center gap-2 mb-4 max-w-[640px] mx-auto"
-                  >
-                    <Clock className="w-4 h-4" style={{ color: accentColor }} />
-                    <span
-                      className="font-mono text-sm"
-                      style={{ color: accentColor }}
+      {/* Vertically centered content */}
+      <div className="min-h-full flex items-center justify-center px-6 py-12">
+        <div className="max-w-[800px] w-full">
+          {/* Node content with transitions */}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentNodeId}
+              initial={
+                prefersReducedMotion ? { opacity: 1 } : { opacity: 0, y: 16 }
+              }
+              animate={{ opacity: 1, y: 0 }}
+              exit={
+                prefersReducedMotion ? { opacity: 0 } : { opacity: 0, y: -16 }
+              }
+              transition={{ duration: 0.5 }}
+            >
+              {currentNode && (
+                <>
+                  {/* Ch1 time label */}
+                  {isCh1 && currentNode.timeLabel && (
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      className="flex items-center gap-2 mb-4 max-w-[640px] mx-auto"
                     >
-                      {currentNode.timeLabel}
-                    </span>
-                  </motion.div>
-                )}
+                      <Clock className="w-4 h-4" style={{ color: accentColor }} />
+                      <span
+                        className="font-mono text-sm"
+                        style={{ color: accentColor }}
+                      >
+                        {currentNode.timeLabel}
+                      </span>
+                    </motion.div>
+                  )}
 
-                {/* Ch5 month label */}
-                {isCh5 && currentNode.month != null && (
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    className="flex items-center gap-2 mb-4 max-w-[640px] mx-auto"
-                  >
-                    <span
-                      className="font-mono text-xs uppercase tracking-wider px-3 py-1 rounded-full"
-                      style={{
-                        backgroundColor: `${accentColor}15`,
-                        color: accentColor,
-                      }}
+                  {/* Ch5 month label */}
+                  {isCh5 && currentNode.month != null && (
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      className="flex items-center gap-2 mb-4 max-w-[640px] mx-auto"
                     >
-                      Month {currentNode.month}
-                    </span>
-                  </motion.div>
-                )}
+                      <span
+                        className="font-mono text-xs uppercase tracking-wider px-3 py-1 rounded-full"
+                        style={{
+                          backgroundColor: `${accentColor}15`,
+                          color: accentColor,
+                        }}
+                      >
+                        Month {currentNode.month}
+                      </span>
+                    </motion.div>
+                  )}
 
-                {/* Narrative — Ch6 wraps in message card */}
-                {isCh6 && currentNode.type ? (
-                  <MessageCard node={currentNode} accentColor={accentColor}>
+                  {/* Narrative — Ch6 wraps in message card */}
+                  {isCh6 && currentNode.type ? (
+                    <MessageCard node={currentNode} accentColor={accentColor}>
+                      <TypewriterText
+                        text={currentNode.narrative}
+                        reducedMotion={prefersReducedMotion}
+                      />
+                    </MessageCard>
+                  ) : (
                     <TypewriterText
                       text={currentNode.narrative}
                       reducedMotion={prefersReducedMotion}
                     />
-                  </MessageCard>
-                ) : (
-                  <TypewriterText
-                    text={currentNode.narrative}
-                    reducedMotion={prefersReducedMotion}
-                  />
-                )}
-
-                {/* Ch0 Chip comment */}
-                {isCh0 && currentNode.chipComment && (
-                  <ChipComment
-                    comment={currentNode.chipComment}
-                    accentColor={accentColor}
-                  />
-                )}
-
-                {/* Feedback toast with continue button */}
-                <AnimatePresence>
-                  {activeFeedback && (
-                    <FeedbackToast
-                      feedback={activeFeedback}
-                      accentColor={accentColor}
-                      onContinue={handleContinue}
-                      reducedMotion={prefersReducedMotion}
-                    />
                   )}
-                </AnimatePresence>
 
-                {/* Stock impact display (Ch1) */}
-                <AnimatePresence>
-                  {activeStockChoice && (
-                    <StockImpactDisplay
-                      choice={activeStockChoice}
+                  {/* Ch0 Chip comment */}
+                  {isCh0 && currentNode.chipComment && (
+                    <ChipComment
+                      comment={currentNode.chipComment}
                       accentColor={accentColor}
                     />
                   )}
-                </AnimatePresence>
 
-                {/* Choices */}
-                {!activeFeedback && (
-                  <div className="space-y-3 mt-10 max-w-[640px] mx-auto">
-                    {currentNode.choices.map((choice, i) => (
-                      <SimChoiceCard
-                        key={`${currentNodeId}-${i}`}
-                        text={choice.text}
-                        index={i}
+                  {/* Feedback toast with continue button */}
+                  <AnimatePresence>
+                    {activeFeedback && (
+                      <FeedbackToast
+                        feedback={activeFeedback}
                         accentColor={accentColor}
-                        onClick={() => handleChoice(choice, i)}
-                        disabled={isTransitioning}
-                        selected={selectedChoiceIndex === i}
-                        faded={
-                          selectedChoiceIndex !== null &&
-                          selectedChoiceIndex !== i
-                        }
+                        onContinue={handleContinue}
                         reducedMotion={prefersReducedMotion}
                       />
-                    ))}
-                  </div>
-                )}
-              </>
-            )}
-          </motion.div>
-        </AnimatePresence>
-      </div>
+                    )}
+                  </AnimatePresence>
 
-      {/* Letterbox bottom */}
-      <div className="h-12 bg-black w-full" />
+                  {/* Stock impact display (Ch1) */}
+                  <AnimatePresence>
+                    {activeStockChoice && (
+                      <StockImpactDisplay
+                        choice={activeStockChoice}
+                        accentColor={accentColor}
+                      />
+                    )}
+                  </AnimatePresence>
+
+                  {/* Choices */}
+                  {!activeFeedback && (
+                    <div className="space-y-3 mt-10 max-w-[640px] mx-auto">
+                      {currentNode.choices.map((choice, i) => (
+                        <SimChoiceCard
+                          key={`${currentNodeId}-${i}`}
+                          text={choice.text}
+                          index={i}
+                          accentColor={accentColor}
+                          onClick={() => handleChoice(choice, i)}
+                          disabled={isTransitioning}
+                          selected={selectedChoiceIndex === i}
+                          faded={
+                            selectedChoiceIndex !== null &&
+                            selectedChoiceIndex !== i
+                          }
+                          reducedMotion={prefersReducedMotion}
+                        />
+                      ))}
+                    </div>
+                  )}
+                </>
+              )}
+            </motion.div>
+          </AnimatePresence>
+        </div>
+      </div>
     </div>
   );
 }
