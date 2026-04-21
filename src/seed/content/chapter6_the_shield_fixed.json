@@ -2148,6 +2148,12 @@
             "nextNodeId": "node-2",
             "scoreImpact": 0,
             "feedback": null
+          },
+          {
+            "text": "Hmm, multiple buzzes... let me check carefully",
+            "nextNodeId": "node-2",
+            "scoreImpact": 5,
+            "feedback": "Good instinct. Approaching unexpected notifications with a hint of caution is a healthy habit -- it means you're less likely to tap something without thinking."
           }
         ],
         "isEnd": false

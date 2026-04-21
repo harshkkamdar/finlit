@@ -2474,6 +2474,12 @@
             "nextNodeId": "node-end-complete",
             "walletImpact": 0,
             "feedback": "Chip: 'You just lived 4,000 years of monetary history. Most people never think about any of this. You're not most people.'"
+          },
+          {
+            "text": "Think about what made each leap possible: trust",
+            "nextNodeId": "node-end-complete",
+            "walletImpact": 0,
+            "feedback": "Chip: 'Exactly. Shells, coins, paper, pixels -- the technology changed every time, but the underlying ingredient never did. Trust is the real currency.'"
           }
         ],
         "isEnd": false

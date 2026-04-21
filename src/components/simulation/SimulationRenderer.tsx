@@ -375,29 +375,89 @@ function ChipComment({
   );
 }
 
-/* ── Feedback Toast ─────────────────────────────────────────────────── */
+/* ── Feedback Toast with Continue Button + Auto-forward Timer ─────── */
+
+const AUTO_ADVANCE_MS = 10000;
 
 function FeedbackToast({
   feedback,
   accentColor,
+  onContinue,
+  reducedMotion,
 }: {
   feedback: string;
   accentColor: string;
+  onContinue: () => void;
+  reducedMotion: boolean;
 }) {
+  const [elapsed, setElapsed] = useState(0);
+  const startRef = useRef(Date.now());
+
+  useEffect(() => {
+    startRef.current = Date.now();
+    setElapsed(0);
+    const interval = setInterval(() => {
+      const now = Date.now();
+      const ms = now - startRef.current;
+      setElapsed(ms);
+      if (ms >= AUTO_ADVANCE_MS) {
+        clearInterval(interval);
+        onContinue();
+      }
+    }, 50);
+    return () => clearInterval(interval);
+  }, [onContinue]);
+
+  const progress = Math.min(elapsed / AUTO_ADVANCE_MS, 1);
+  const secondsLeft = Math.ceil((AUTO_ADVANCE_MS - elapsed) / 1000);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -8 }}
-      className="mt-6 max-w-[640px] mx-auto rounded-xl p-4"
-      style={{
-        borderLeft: `4px solid ${accentColor}`,
-        backgroundColor: `${accentColor}12`,
-      }}
+      className="mt-6 max-w-[640px] mx-auto"
     >
-      <p className="text-white/90 font-body leading-relaxed text-sm md:text-base">
-        {feedback}
-      </p>
+      <div
+        className="rounded-xl p-5"
+        style={{
+          borderLeft: `4px solid ${accentColor}`,
+          backgroundColor: `${accentColor}12`,
+        }}
+      >
+        <p className="text-white/90 font-body leading-relaxed text-sm md:text-base">
+          {feedback}
+        </p>
+      </div>
+
+      {/* Continue button with countdown */}
+      <div className="flex items-center justify-end gap-3 mt-4">
+        <span className="text-white/30 font-mono text-xs">
+          {secondsLeft}s
+        </span>
+
+        <motion.button
+          initial={reducedMotion ? {} : { opacity: 0, y: 6 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          onClick={onContinue}
+          className="relative flex items-center gap-2 px-5 py-2.5 rounded-xl font-display font-semibold text-sm text-dark overflow-hidden focus-visible:outline-none focus-visible:ring-2"
+          style={{
+            backgroundColor: accentColor,
+            ['--tw-ring-color' as string]: accentColor,
+          }}
+        >
+          {/* Timer progress bar behind text */}
+          <div
+            className="absolute inset-0 bg-black/20 origin-right"
+            style={{
+              transform: `scaleX(${1 - progress})`,
+              transition: 'transform 50ms linear',
+            }}
+          />
+          <span className="relative z-10">Continue</span>
+        </motion.button>
+      </div>
     </motion.div>
   );
 }
@@ -1059,6 +1119,7 @@ export default function SimulationRenderer({
     null
   );
   const [isEnd, setIsEnd] = useState(false);
+  const [pendingChoice, setPendingChoice] = useState<SimulationChoice | null>(null);
 
   const currentNode = getNodeById(simulation.nodes, currentNodeId);
 
@@ -1092,6 +1153,7 @@ export default function SimulationRenderer({
       // Show feedback
       if (choice.feedback) {
         setActiveFeedback(choice.feedback);
+        setPendingChoice(choice);
       }
 
       // Show stock trades (Ch1)
@@ -1113,34 +1175,12 @@ export default function SimulationRenderer({
         setScore((prev) => prev + choice.scoreImpact!);
       }
 
-      // Transition after delay — give users time to read feedback
-      const delay = choice.feedback ? 5000 : 800;
-      setTimeout(() => {
-        setActiveFeedback(null);
-        setActiveStockChoice(null);
-        setSelectedChoiceIndex(null);
-
-        const nextNode = getNodeById(simulation.nodes, choice.nextNodeId);
-        setCurrentNodeId(choice.nextNodeId);
-        setPathIds((prev) => [...prev, choice.nextNodeId]);
-
-        if (nextNode?.isEnd) {
-          // If end node has explicit balances, use them
-          if (nextNode.walletBalance != null) {
-            setPreviousBalance(walletBalance + (choice.walletImpact ?? 0));
-            setWalletBalance(nextNode.walletBalance);
-          }
-          if (nextNode.creditBalance != null) {
-            setPreviousCredit(
-              creditBalance + (choice.creditImpact ?? 0)
-            );
-            setCreditBalance(nextNode.creditBalance);
-          }
-          setIsEnd(true);
-        }
-
-        setIsTransitioning(false);
-      }, delay);
+      // If no feedback, advance immediately after short delay
+      if (!choice.feedback) {
+        setTimeout(() => {
+          advanceToNode(choice);
+        }, 800);
+      }
     },
     [
       currentNodeId,
@@ -1155,6 +1195,44 @@ export default function SimulationRenderer({
       isCh5,
     ]
   );
+
+  /* ── Advance to next node (called by Continue or auto-timer) ────── */
+  const advanceToNode = useCallback(
+    (choice: SimulationChoice) => {
+      setActiveFeedback(null);
+      setActiveStockChoice(null);
+      setSelectedChoiceIndex(null);
+      setPendingChoice(null);
+
+      const nextNode = getNodeById(simulation.nodes, choice.nextNodeId);
+      setCurrentNodeId(choice.nextNodeId);
+      setPathIds((prev) => [...prev, choice.nextNodeId]);
+
+      if (nextNode?.isEnd) {
+        if (nextNode.walletBalance != null) {
+          setPreviousBalance(walletBalance + (choice.walletImpact ?? 0));
+          setWalletBalance(nextNode.walletBalance);
+        }
+        if (nextNode.creditBalance != null) {
+          setPreviousCredit(
+            creditBalance + (choice.creditImpact ?? 0)
+          );
+          setCreditBalance(nextNode.creditBalance);
+        }
+        setIsEnd(true);
+      }
+
+      setIsTransitioning(false);
+    },
+    [simulation.nodes, walletBalance, creditBalance]
+  );
+
+  /* ── Handle continue (from button or auto-timer) ────────────────── */
+  const handleContinue = useCallback(() => {
+    if (pendingChoice) {
+      advanceToNode(pendingChoice);
+    }
+  }, [pendingChoice, advanceToNode]);
 
   /* ── Handle completion ───────────────────────────────────────────── */
   const handleComplete = useCallback(() => {
@@ -1194,7 +1272,7 @@ export default function SimulationRenderer({
   if (isEnd) {
     const endNode = currentNode ?? null;
     return (
-      <div className="bg-dark min-h-screen text-white relative">
+      <div className="fixed inset-0 z-50 bg-dark text-white overflow-y-auto">
         {/* Letterbox top */}
         <div className="h-12 bg-black w-full" />
 
@@ -1226,7 +1304,7 @@ export default function SimulationRenderer({
   const showCreditUI = isCh5;
 
   return (
-    <div className="bg-dark min-h-screen text-white relative">
+    <div className="fixed inset-0 z-50 bg-dark text-white overflow-y-auto">
       {/* Time skip overlay */}
       <AnimatePresence>
         {showTimeSkip && (
@@ -1350,12 +1428,14 @@ export default function SimulationRenderer({
                   />
                 )}
 
-                {/* Feedback toast */}
+                {/* Feedback toast with continue button */}
                 <AnimatePresence>
                   {activeFeedback && (
                     <FeedbackToast
                       feedback={activeFeedback}
                       accentColor={accentColor}
+                      onContinue={handleContinue}
+                      reducedMotion={prefersReducedMotion}
                     />
                   )}
                 </AnimatePresence>
