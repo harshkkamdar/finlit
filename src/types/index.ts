@@ -3,7 +3,7 @@ import { Types } from "mongoose";
 // ── Content & Exercise sub-types ──────────────────────────────────────
 
 export interface ContentBlock {
-  type: "text" | "callout" | "key-term" | "image" | "interactive" | "dialogue";
+  type: "text" | "callout" | "key-term" | "image" | "interactive" | "dialogue" | "quick-check";
   data: Record<string, unknown>;
 }
 
