@@ -188,7 +188,7 @@ export default function OnboardingCard({
               ))}
             </div>
             <p className="font-mono text-[9px] text-muted/40 mt-1 tracking-[0.2em]">
-              FINLIT-2026-MEMBER
+              FINOLINGO-2026-MEMBER
             </p>
           </div>
         </div>

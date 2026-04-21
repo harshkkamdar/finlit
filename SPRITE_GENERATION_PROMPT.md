@@ -1,4 +1,4 @@
-# FinLit Character Illustration Prompts
+# FinoLingo Character Illustration Prompts
 
 Generate these across **6 separate chats** (1 per character + 1 for context illustrations). Each chat builds on the style established in Chat 1.
 
@@ -10,7 +10,7 @@ Start here. Chip establishes the visual style that all other characters must mat
 
 ### Prompt:
 
-I'm building character illustrations for a financial literacy app called FinLit. I need you to establish and lock in a visual style with this first character, then I'll come back for 4 more human characters in the same style.
+I'm building character illustrations for a financial literacy app called FinoLingo. I need you to establish and lock in a visual style with this first character, then I'll come back for 4 more human characters in the same style.
 
 **Art style rules (follow these EXACTLY):**
 - Flat vector illustration, clean confident outlines (2-3px stroke weight)

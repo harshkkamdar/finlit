@@ -304,7 +304,7 @@ function normalizeDailyChallenge(challenge: any): any {
 // ── Main seed function ───────────────────────────────────────────────────────
 
 async function seed() {
-  console.log("=== FinLit Database Seeder (JSON Content) ===\n");
+  console.log("=== FinoLingo Database Seeder (JSON Content) ===\n");
 
   try {
     // ── Connect to MongoDB ─────────────────────────────────────────────

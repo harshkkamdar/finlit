@@ -256,7 +256,7 @@ export default function ProfileClient({
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'FinLit-Certificate.pdf';
+        a.download = 'FinoLingo-Certificate.pdf';
         a.click();
         URL.revokeObjectURL(url);
       } else {
@@ -626,7 +626,7 @@ export default function ProfileClient({
                   Congratulations! You have completed all chapters.
                 </h3>
                 <p className="text-sm text-muted font-body mt-1">
-                  Download your official FinLit certificate of completion.
+                  Download your official FinoLingo certificate of completion.
                 </p>
               </div>
               <Button

@@ -70,7 +70,7 @@ export default function OnboardingPage() {
         className="text-center mb-10"
       >
         <h1 className="font-display text-4xl font-bold text-dark mb-2">
-          Welcome to FinLit
+          Welcome to FinoLingo
           {userName ? `, ${userName.split(" ")[0]}` : ""}!
         </h1>
         <p className="font-body text-base text-muted">

@@ -89,8 +89,8 @@ export async function GET() {
       opacity: 0,
     });
 
-    // ── FinLit branding in header ──
-    const brandText = "FinLit";
+    // ── FinoLingo branding in header ──
+    const brandText = "FinoLingo";
     const brandSize = 36;
     const brandWidth = helveticaBold.widthOfTextAtSize(brandText, brandSize);
     page.drawText(brandText, {
@@ -169,7 +169,7 @@ export async function GET() {
 
     // ── Description ──
     const descText =
-      "has successfully completed the FinLit Financial Literacy Program";
+      "has successfully completed the FinoLingo Financial Literacy Program";
     const descSize = 14;
     const descWidth = helvetica.widthOfTextAtSize(descText, descSize);
     page.drawText(descText, {
@@ -296,7 +296,7 @@ export async function GET() {
       status: 200,
       headers: {
         "Content-Type": "application/pdf",
-        "Content-Disposition": `inline; filename="FinLit-Certificate-${user.name.replace(/\s+/g, "_")}.pdf"`,
+        "Content-Disposition": `inline; filename="FinoLingo-Certificate-${user.name.replace(/\s+/g, "_")}.pdf"`,
       },
     });
   } catch (error) {

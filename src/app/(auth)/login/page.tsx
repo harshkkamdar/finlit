@@ -107,7 +107,7 @@ export default function LoginPage() {
 
         {/* Disclaimer */}
         <p className="text-xs text-muted/70 font-body text-center mt-4">
-          This platform is for educational purposes only. FinLit is not
+          This platform is for educational purposes only. FinoLingo is not
           directly affiliated with any government or private agency.
         </p>
 

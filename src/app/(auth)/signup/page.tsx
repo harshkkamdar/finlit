@@ -260,7 +260,7 @@ export default function SignupPage() {
 
           {/* Disclaimer */}
           <p className="text-[11px] text-muted/60 font-body text-center mt-4 leading-relaxed">
-            By creating an account, you acknowledge that FinLit is for
+            By creating an account, you acknowledge that FinoLingo is for
             educational purposes only and does not constitute financial
             advice. We are not SEBI-registered advisors. Any financial
             decisions you make are your own responsibility. Information

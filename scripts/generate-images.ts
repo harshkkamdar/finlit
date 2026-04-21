@@ -1,5 +1,5 @@
 /**
- * Image Generation Script for FinLit
+ * Image Generation Script for FinoLingo
  *
  * Reads all seed JSON files, extracts image blocks with `prompt` fields,
  * generates images via Gemini API, and saves them to /public/illustrations/ch{N}/
@@ -144,7 +144,7 @@ async function main() {
   const pending = tasks.filter((t) => !fs.existsSync(t.filePath));
   const skipped = tasks.length - pending.length;
 
-  console.log(`\n=== FinLit Image Generator ===`);
+  console.log(`\n=== FinoLingo Image Generator ===`);
   console.log(`Total image tasks: ${tasks.length}`);
   console.log(`Already exist (skip): ${skipped}`);
   console.log(`To generate: ${pending.length}\n`);

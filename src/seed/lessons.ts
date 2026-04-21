@@ -1,5 +1,5 @@
 // Lessons are created with a placeholder chapterId that will be replaced during seeding.
-// Each lesson has realistic educational content for the FinLit platform.
+// Each lesson has realistic educational content for the FinoLingo platform.
 
 export const lessons = [
   // ─── Chapter 0: What Even is Money? ──────────────────────────────────

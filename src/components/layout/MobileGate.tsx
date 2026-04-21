@@ -22,7 +22,7 @@ export default function MobileGate() {
       <div className="text-center max-w-sm">
         <div className="text-7xl mb-6">&#x1FA99;</div>
         <h1 className="font-display text-2xl font-bold text-dark mb-3">
-          FinLit is best experienced on a desktop
+          FinoLingo is best experienced on a desktop
         </h1>
         <p className="font-body text-muted text-base leading-relaxed">
           Please switch to a larger screen for the full experience. We promise
