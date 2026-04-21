@@ -162,7 +162,7 @@ export default function SignupPage() {
             FINANCIAL ID
           </h1>
           <p className="font-body text-white/70 text-xs mt-0.5">
-            Fin<span className="text-accent font-semibold">Lit</span> Member
+            Fino<span className="text-accent font-semibold">Lingo</span> Member
             Card
           </p>
         </div>

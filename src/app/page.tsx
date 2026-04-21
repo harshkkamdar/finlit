@@ -3,13 +3,13 @@ import { auth } from "@/lib/auth";
 import Link from "next/link";
 
 const chapters = [
-  { n: 0, title: "What Even is Money?", desc: "Barter to UPI — how money actually works in India." },
-  { n: 1, title: "The Stock Market", desc: "Sensex, Nifty, and why companies sell tiny pieces of themselves." },
-  { n: 2, title: "Investing 101", desc: "SIPs, mutual funds, compound interest — your money making money." },
-  { n: 3, title: "Your Money Psychology", desc: "Why you blow money on sales and how to stop." },
-  { n: 4, title: "Managing Your Money", desc: "Budgeting that doesn't feel like punishment." },
-  { n: 5, title: "Credit & Debt", desc: "Credit scores, EMIs, and the debt traps nobody warns you about." },
-  { n: 6, title: "Fraud Protection", desc: "Spot scams before they spot you." },
+  { n: 0, title: "What Even is Money?", desc: "Barter to UPI — how money actually works in India.", color: "#F5A623", darkText: true },
+  { n: 1, title: "The Stock Market", desc: "Sensex, Nifty, and why companies sell tiny pieces of themselves.", color: "#2ECC71", darkText: true },
+  { n: 2, title: "Investing 101", desc: "SIPs, mutual funds, compound interest — your money making money.", color: "#4A90D9", darkText: false },
+  { n: 3, title: "Your Money Psychology", desc: "Why you blow money on sales and how to stop.", color: "#8E44AD", darkText: false },
+  { n: 4, title: "Managing Your Money", desc: "Budgeting that doesn't feel like punishment.", color: "#1ABC9C", darkText: true },
+  { n: 5, title: "Credit & Debt", desc: "Credit scores, EMIs, and the debt traps nobody warns you about.", color: "#E74C3C", darkText: false },
+  { n: 6, title: "Fraud Protection", desc: "Spot scams before they spot you.", color: "#2980B9", darkText: false },
 ] as const;
 
 const steps = [
@@ -124,8 +124,8 @@ export default async function Home() {
                 <span
                   className="font-mono text-xs font-bold w-7 h-7 rounded-md flex items-center justify-center shrink-0 mt-0.5"
                   style={{
-                    backgroundColor: `var(--color-chapter-${ch.n})`,
-                    color: ch.n === 0 || ch.n === 1 || ch.n === 4 ? "#1A1A2E" : "#FFFFFF",
+                    backgroundColor: ch.color,
+                    color: ch.darkText ? "#1A1A2E" : "#FFFFFF",
                   }}
                 >
                   {ch.n}

@@ -60,7 +60,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <h1 className="font-display text-3xl font-bold text-primary tracking-tight">
-            Fin<span className="text-accent">Lit</span>
+            Fino<span className="text-accent">Lingo</span>
           </h1>
           <p className="font-body text-muted text-sm mt-2">
             Your financial literacy journey starts here

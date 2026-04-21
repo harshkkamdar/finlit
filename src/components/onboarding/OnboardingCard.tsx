@@ -106,7 +106,7 @@ export default function OnboardingCard({
                   FINANCIAL ID
                 </h2>
                 <p className="font-body text-white/60 text-xs mt-0.5">
-                  Fin<span className="text-accent font-semibold">Lit</span>{" "}
+                  Fino<span className="text-accent font-semibold">Lingo</span>{" "}
                   Member Card
                 </p>
               </div>
@@ -204,7 +204,7 @@ export default function OnboardingCard({
           {/* Green header */}
           <div className="bg-primary px-6 py-4">
             <h2 className="font-display text-lg font-bold text-white tracking-tight text-center">
-              Fin<span className="text-accent">Lit</span>
+              Fino<span className="text-accent">Lingo</span>
             </h2>
           </div>
 
@@ -243,7 +243,7 @@ export default function OnboardingCard({
           <div className="absolute bottom-0 left-0 right-0 px-6 pb-5 text-center">
             <div className="border-t border-gray-100 pt-4">
               <p className="font-display text-sm font-bold text-dark/20">
-                Fin<span className="text-accent/30">Lit</span>
+                Fino<span className="text-accent/30">Lingo</span>
               </p>
               <p className="font-mono text-[9px] text-muted/30 mt-0.5">
                 Gamified Financial Literacy

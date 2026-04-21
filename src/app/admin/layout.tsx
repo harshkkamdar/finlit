@@ -41,7 +41,7 @@ export default async function AdminLayout({
           <div className="flex items-center gap-2.5">
             <Shield className="w-6 h-6 text-accent" />
             <h1 className="font-display text-xl font-bold text-white tracking-tight">
-              Fin<span className="text-accent">Lit</span>{' '}
+              Fino<span className="text-accent">Lingo</span>{' '}
               <span className="text-white/50 text-sm font-normal">Admin</span>
             </h1>
           </div>
