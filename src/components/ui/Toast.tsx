@@ -71,7 +71,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
     <ToastContext.Provider value={{ toast: addToast }}>
       {children}
 
-      <div className="fixed top-6 right-6 z-[100] flex flex-col gap-3 pointer-events-none">
+      <div className="fixed top-4 left-4 right-4 sm:top-6 sm:right-6 sm:left-auto z-[100] safe-top flex flex-col gap-3 pointer-events-none">
         <AnimatePresence mode="popLayout">
           {toasts.map((t) => {
             const config = variantConfig[t.variant];
@@ -88,7 +88,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
                 className={`
                   pointer-events-auto flex items-center gap-3
                   px-4 py-3 rounded-xl border shadow-lg
-                  min-w-[320px] max-w-[420px]
+                  w-full sm:min-w-[320px] sm:w-auto sm:max-w-[420px]
                   ${config.bg} ${config.border}
                 `}
               >
@@ -98,7 +98,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
                 </p>
                 <button
                   onClick={() => removeToast(t.id)}
-                  className="shrink-0 p-1 rounded-md hover:bg-black/5 transition-colors"
+                  className="shrink-0 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-md hover:bg-black/5 transition-colors"
                   aria-label="Dismiss"
                 >
                   <X className="w-4 h-4 text-muted" />
