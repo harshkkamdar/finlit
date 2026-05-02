@@ -3,7 +3,6 @@ import { auth } from "@/lib/auth";
 import dbConnect from "@/lib/db";
 import User from "@/models/User";
 import Chapter from "@/models/Chapter";
-import MobileGate from "@/components/layout/MobileGate";
 import AppShell from "@/components/layout/AppShell";
 
 export default async function MainLayout({
@@ -70,11 +69,8 @@ export default async function MainLayout({
   };
 
   return (
-    <>
-      <MobileGate />
-      <AppShell user={shellUser} chapters={sidebarChapters}>
-        {children}
-      </AppShell>
-    </>
+    <AppShell user={shellUser} chapters={sidebarChapters}>
+      {children}
+    </AppShell>
   );
 }

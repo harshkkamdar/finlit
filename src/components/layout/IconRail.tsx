@@ -36,7 +36,7 @@ export default function IconRail() {
 
   return (
     <nav
-      className="fixed left-0 top-0 h-screen w-[56px] flex flex-col items-center z-50"
+      className="hidden lg:flex fixed left-0 top-0 h-[100dvh] w-[56px] flex-col items-center z-50"
       style={{
         background:
           'linear-gradient(180deg, var(--color-dark) 0%, var(--color-dark-bottom) 100%)',
