@@ -32,7 +32,7 @@ export default function BadgeToast({
           animate={{ x: 0, opacity: 1, scale: 1 }}
           exit={{ x: 400, opacity: 0, scale: 0.95 }}
           transition={{ type: 'spring', stiffness: 260, damping: 24 }}
-          className="fixed top-6 right-6 z-[110] pointer-events-auto"
+          className="fixed top-4 left-4 right-4 sm:top-6 sm:right-6 sm:left-auto z-[110] safe-top pointer-events-auto"
         >
           <div
             className="
@@ -41,7 +41,7 @@ export default function BadgeToast({
               bg-surface rounded-xl
               border-2 border-accent/50
               shadow-xl shadow-accent/15
-              min-w-[320px] max-w-[400px]
+              w-full sm:min-w-[320px] sm:w-auto sm:max-w-[400px]
             "
           >
             {/* Subtle gold shimmer accent */}

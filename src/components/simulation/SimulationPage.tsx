@@ -309,7 +309,7 @@ export default function SimulationPageClient({
   // Loading overlay while submitting
   if (isSubmitting) {
     return (
-      <div className="min-h-screen bg-dark/95 flex items-center justify-center">
+      <div className="min-h-[100dvh] bg-dark/95 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="w-12 h-12 border-3 border-accent border-t-transparent rounded-full animate-spin" />
           <p className="text-white/60 font-body">

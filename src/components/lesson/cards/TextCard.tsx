@@ -136,7 +136,7 @@ function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
                 boxShadow: '0 8px 32px rgba(26,26,46,0.4)',
                 width: 'min(320px, calc(100vw - 48px))',
                 top: tooltipPos.placement === 'above' ? undefined : tooltipPos.top,
-                bottom: tooltipPos.placement === 'above' ? `calc(100vh - ${tooltipPos.top}px)` : undefined,
+                bottom: tooltipPos.placement === 'above' ? `calc(100dvh - ${tooltipPos.top}px)` : undefined,
                 left: tooltipPos.left,
                 transform: 'translateX(-50%)',
               }}
