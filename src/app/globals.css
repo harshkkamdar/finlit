@@ -214,6 +214,37 @@ button:not(:disabled):active,
   background-size: 200% 100%;
 }
 
+/* Lesson path: active node pulse rings */
+@keyframes path-pulse-ring {
+  0% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+}
+
+.path-pulse {
+  border: 2px solid;
+  animation: path-pulse-ring 2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.path-pulse-delayed {
+  animation-delay: 1s;
+}
+
+/* Lesson path: gentle nudge on START pill */
+@keyframes path-pill-nudge {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(2px); }
+}
+
+.path-start-pill {
+  animation: path-pill-nudge 1.6s ease-in-out infinite;
+}
+
 /* Streak flame animation */
 @keyframes flame-flicker {
   0%, 100% { transform: scaleY(1) scaleX(1); }

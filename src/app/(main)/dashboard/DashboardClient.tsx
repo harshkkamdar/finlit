@@ -40,27 +40,27 @@ export default function DashboardClient({
   return (
     <div>
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-10">
+      <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 lg:gap-6 mb-8 lg:mb-10">
         {/* Title */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: [0.25, 1, 0.5, 1] }}
         >
-          <h1 className="font-display text-3xl font-bold text-dark mb-1">
+          <h1 className="font-display text-2xl lg:text-3xl font-bold text-dark mb-1">
             Your Learning Journey
           </h1>
-          <p className="text-muted font-body text-base">
+          <p className="text-muted font-body text-sm lg:text-base">
             Master financial literacy, one chapter at a time
           </p>
         </motion.div>
 
-        {/* Stats bar */}
+        {/* Stats bar — hidden on mobile (top bar shows streak + XP already) */}
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4, delay: 0.15, ease: [0.25, 1, 0.5, 1] }}
-          className="shrink-0"
+          className="hidden lg:block shrink-0"
         >
           <Card variant="elevated" className="!p-4">
             <div className="flex items-center gap-6">
