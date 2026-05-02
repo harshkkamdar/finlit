@@ -49,13 +49,13 @@ export default function QuickCheckCard({
     [hasAnswered]
   );
 
-  // Auto-advance after 1.5s
+  // Auto-advance after 2.5s. Tap-to-skip handled by the parent surface.
   useEffect(() => {
     if (!hasAnswered || !onAutoAdvance) return;
 
     const timer = setTimeout(() => {
       onAutoAdvance();
-    }, 1500);
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, [hasAnswered, onAutoAdvance]);
@@ -81,12 +81,12 @@ export default function QuickCheckCard({
       </div>
 
       {/* Question */}
-      <h3 className="font-display text-2xl font-bold text-dark mb-6 leading-snug">
+      <h3 className="font-display text-xl lg:text-2xl font-bold text-dark mb-5 lg:mb-6 leading-snug">
         {question}
       </h3>
 
       {/* Options */}
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-2.5 lg:gap-3">
         {options.map((option, idx) => {
           const isSelected = selectedIndex === idx;
           const isThisCorrect = option.isCorrect;
@@ -116,7 +116,7 @@ export default function QuickCheckCard({
               key={idx}
               onClick={() => handleSelect(idx)}
               disabled={hasAnswered}
-              className="w-full text-left px-5 py-3.5 rounded-xl border-2 font-body text-[15px] transition-all disabled:cursor-default"
+              className="w-full text-left px-4 lg:px-5 py-4 lg:py-3.5 rounded-xl border-2 font-body text-[15px] transition-all disabled:cursor-default min-h-[64px] lg:min-h-0"
               style={{
                 borderColor,
                 backgroundColor: bgColor,
@@ -187,26 +187,39 @@ export default function QuickCheckCard({
         })}
       </div>
 
-      {/* Feedback message */}
+      {/* Feedback message + auto-advance hint */}
       <AnimatePresence>
         {hasAnswered && (
           <motion.div
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="mt-5 text-center"
+            className="mt-5"
           >
             {isCorrect ? (
-              <p className="text-success font-body font-medium text-sm">
+              <p className="text-success font-body font-medium text-sm text-center">
                 Correct! Nice recall.
               </p>
             ) : (
-              <p className="text-muted font-body text-sm">
+              <p className="text-muted font-body text-sm text-center">
                 The answer is{' '}
                 <span className="font-medium text-dark">
                   {correctOption?.text ?? ''}
                 </span>
               </p>
+            )}
+
+            {/* Skip-progress bar — visualises the 2.5s auto-advance window */}
+            {onAutoAdvance && (
+              <div className="mt-4 h-0.5 w-full max-w-[200px] mx-auto rounded-full bg-border overflow-hidden">
+                <motion.div
+                  className="h-full rounded-full"
+                  style={{ backgroundColor: chapterColor }}
+                  initial={{ width: '0%' }}
+                  animate={{ width: '100%' }}
+                  transition={{ duration: 2.5, ease: 'linear' }}
+                />
+              </div>
             )}
           </motion.div>
         )}

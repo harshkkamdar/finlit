@@ -98,58 +98,78 @@ export default function DialogueCard({
 
   return (
     <div
-      className="lesson-card !p-0 relative overflow-hidden"
+      className="lesson-card relative overflow-hidden"
       style={{ background: `linear-gradient(180deg, ${hexToRgba(accent, 0.02)}, ${hexToRgba(accent, 0.08)})` }}
     >
-      {/* Character sprite — bottom left, large, filling ~38% width */}
-      {/* overflow-hidden clips any filename/label text baked into the bottom of character PNGs */}
-      <div className="absolute bottom-0 left-0 w-[38%] max-w-[260px] overflow-hidden">
-        <Image
-          src={spriteSrc}
-          alt=""
-          role="presentation"
-          width={260}
-          height={260}
-          className="w-full h-auto object-contain scale-110 origin-top"
-        />
-      </div>
+      {/* Mobile/tablet: stack column. Desktop: side-by-side. */}
+      <div className="flex flex-col items-center md:flex-row md:items-center md:justify-start gap-4 md:gap-0 md:relative md:h-full">
+        {/* Character sprite */}
+        <div className="w-32 sm:w-40 md:absolute md:bottom-0 md:left-0 md:w-[38%] md:max-w-[260px] overflow-hidden shrink-0">
+          <Image
+            src={spriteSrc}
+            alt=""
+            role="presentation"
+            width={260}
+            height={260}
+            className="w-full h-auto object-contain md:scale-110 md:origin-top"
+            priority
+          />
+        </div>
 
-      {/* Speech bubble — center-right, vertically centered, filling remaining space */}
-      <div className="absolute inset-0 flex items-center justify-end pl-[36%] pr-5 py-6">
-        <div className="w-full">
-          <span
-            className="text-[11px] font-display font-bold uppercase tracking-wider mb-2 block"
-            style={{ color: accent }}
-          >
-            {config.name}
-          </span>
-          <div
-            className="relative rounded-2xl px-6 py-5"
-            style={{
-              backgroundColor: hexToRgba(accent, 0.08),
-              border: `1.5px solid ${hexToRgba(accent, 0.2)}`,
-            }}
-          >
-            {/* Speech bubble tail pointing left toward character */}
+        {/* Speech bubble */}
+        <div className="w-full md:absolute md:inset-0 md:flex md:items-center md:justify-end md:pl-[36%] md:pr-5 md:py-6">
+          <div className="w-full">
+            <span
+              className="text-[11px] font-display font-bold uppercase tracking-wider mb-2 block"
+              style={{ color: accent }}
+            >
+              {config.name}
+            </span>
             <div
-              className="absolute left-[-10px] top-1/2 -translate-y-1/2 w-0 h-0"
+              className="relative rounded-2xl px-5 py-4 md:px-6 md:py-5"
               style={{
-                borderTop: '10px solid transparent',
-                borderBottom: '10px solid transparent',
-                borderRight: `10px solid ${hexToRgba(accent, 0.2)}`,
+                backgroundColor: hexToRgba(accent, 0.08),
+                border: `1.5px solid ${hexToRgba(accent, 0.2)}`,
               }}
-            />
-            <div
-              className="absolute left-[-8px] top-1/2 -translate-y-1/2 w-0 h-0"
-              style={{
-                borderTop: '9px solid transparent',
-                borderBottom: '9px solid transparent',
-                borderRight: `9px solid ${hexToRgba(accent, 0.08)}`,
-              }}
-            />
-            <p className="text-dark/85 font-body text-[17px] leading-relaxed">
-              {parseInlineMarkdown(text)}
-            </p>
+            >
+              {/* Mobile tail (top, pointing up at character) */}
+              <div
+                className="md:hidden absolute top-[-10px] left-1/2 -translate-x-1/2 w-0 h-0"
+                style={{
+                  borderLeft: '10px solid transparent',
+                  borderRight: '10px solid transparent',
+                  borderBottom: `10px solid ${hexToRgba(accent, 0.2)}`,
+                }}
+              />
+              <div
+                className="md:hidden absolute top-[-8px] left-1/2 -translate-x-1/2 w-0 h-0"
+                style={{
+                  borderLeft: '9px solid transparent',
+                  borderRight: '9px solid transparent',
+                  borderBottom: `9px solid ${hexToRgba(accent, 0.08)}`,
+                }}
+              />
+              {/* Desktop tail (left, pointing at character) */}
+              <div
+                className="hidden md:block absolute left-[-10px] top-1/2 -translate-y-1/2 w-0 h-0"
+                style={{
+                  borderTop: '10px solid transparent',
+                  borderBottom: '10px solid transparent',
+                  borderRight: `10px solid ${hexToRgba(accent, 0.2)}`,
+                }}
+              />
+              <div
+                className="hidden md:block absolute left-[-8px] top-1/2 -translate-y-1/2 w-0 h-0"
+                style={{
+                  borderTop: '9px solid transparent',
+                  borderBottom: '9px solid transparent',
+                  borderRight: `9px solid ${hexToRgba(accent, 0.08)}`,
+                }}
+              />
+              <p className="text-dark/85 font-body text-base md:text-[17px] leading-relaxed">
+                {parseInlineMarkdown(text)}
+              </p>
+            </div>
           </div>
         </div>
       </div>

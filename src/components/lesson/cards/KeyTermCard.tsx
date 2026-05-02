@@ -31,7 +31,7 @@ export default function KeyTermCard({ term, definition, chapterColor }: KeyTermC
 
       {/* Term */}
       <h2
-        className="font-display text-2xl font-bold mb-4"
+        className="font-display text-2xl lg:text-3xl font-bold mb-3 lg:mb-4"
         style={{ color: chapterColor }}
       >
         {term}
@@ -44,7 +44,7 @@ export default function KeyTermCard({ term, definition, chapterColor }: KeyTermC
       />
 
       {/* Definition */}
-      <p className="text-dark/85 font-body text-lg leading-relaxed max-w-lg mx-auto">
+      <p className="text-dark/85 font-body text-base lg:text-lg leading-relaxed max-w-lg mx-auto">
         {definition}
       </p>
     </div>

@@ -173,7 +173,7 @@ export default function VisualCard({
       <div className="lesson-card !p-0 overflow-hidden">
         <div className="h-[2px]" style={{ backgroundColor: chapterColor }} />
         <div
-          className="flex items-center justify-center px-6 py-8 min-h-[200px]"
+          className="flex items-center justify-center px-6 py-8 min-h-[160px] lg:min-h-[200px]"
           style={{ backgroundColor: `${hexToRgba(chapterColor, 0.04)}` }}
         >
           {!imageLoaded ? (
@@ -188,7 +188,7 @@ export default function VisualCard({
             <img
               src={src}
               alt={alt}
-              className="max-h-[340px] w-auto object-contain drop-shadow-sm"
+              className="max-h-[220px] sm:max-h-[280px] lg:max-h-[340px] w-auto object-contain drop-shadow-sm"
               onError={() => setImageError(true)}
             />
           )}
@@ -223,7 +223,7 @@ export default function VisualCard({
           <img
             src={imageSrc}
             alt={alt}
-            className="max-h-[320px] w-auto object-contain"
+            className="max-h-[220px] sm:max-h-[280px] lg:max-h-[320px] w-auto object-contain"
           />
         </div>
       </div>
@@ -238,7 +238,7 @@ export default function VisualCard({
         <div className="h-1" style={{ backgroundColor: chapterColor }} />
 
         <div
-          className="flex flex-col items-center justify-center gap-3 p-8 min-h-[200px] relative overflow-hidden"
+          className="flex flex-col items-center justify-center gap-3 p-8 min-h-[160px] lg:min-h-[200px] relative overflow-hidden"
           style={{ backgroundColor: '#F9FAFB' }}
         >
           <div
@@ -287,7 +287,7 @@ export default function VisualCard({
         <img
           src={src}
           alt={alt}
-          className="w-full max-h-[400px] object-cover"
+          className="w-full max-h-[260px] sm:max-h-[320px] lg:max-h-[400px] object-cover"
           onError={() => setImageError(true)}
         />
       </div>

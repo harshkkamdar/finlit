@@ -158,53 +158,75 @@ export default function CalloutCard({
 
     return (
       <div
-        className="lesson-card !p-0 relative overflow-hidden"
+        className="lesson-card relative overflow-hidden"
         style={{ background: 'linear-gradient(180deg, rgba(245,166,35,0.02), rgba(245,166,35,0.08))' }}
       >
-        {/* Chip sprite — bottom left, large, filling ~38% width */}
-        <div className="absolute bottom-0 left-0 w-[38%] max-w-[260px]">
-          <Image
-            src={spriteSrc}
-            alt={`Chip looking ${expression}`}
-            width={260}
-            height={260}
-            className="w-full h-auto object-contain"
-          />
-        </div>
+        {/* Mobile/tablet: stack column. Desktop: side-by-side. */}
+        <div className="flex flex-col items-center md:flex-row md:items-center md:justify-start gap-4 md:gap-0 md:relative md:h-full">
+          {/* Chip sprite */}
+          <div className="w-32 sm:w-40 md:absolute md:bottom-0 md:left-0 md:w-[38%] md:max-w-[260px] shrink-0">
+            <Image
+              src={spriteSrc}
+              alt={`Chip looking ${expression}`}
+              width={260}
+              height={260}
+              className="w-full h-auto object-contain"
+              priority
+            />
+          </div>
 
-        {/* Speech bubble — center-right, vertically centered, filling remaining space */}
-        <div className="absolute inset-0 flex items-center justify-end pl-[36%] pr-5 py-6">
-          <div className="w-full">
-            <span className="text-[11px] font-display font-bold uppercase tracking-wider text-amber-600 mb-2 block">
-              Chip
-            </span>
-            <div
-              className="relative rounded-2xl px-6 py-5"
-              style={{
-                backgroundColor: 'rgba(245,166,35,0.08)',
-                border: '1.5px solid rgba(245,166,35,0.22)',
-              }}
-            >
-              {/* Speech bubble tail pointing left toward Chip */}
+          {/* Speech bubble */}
+          <div className="w-full md:absolute md:inset-0 md:flex md:items-center md:justify-end md:pl-[36%] md:pr-5 md:py-6">
+            <div className="w-full">
+              <span className="text-[11px] font-display font-bold uppercase tracking-wider text-amber-600 mb-2 block">
+                Chip
+              </span>
               <div
-                className="absolute left-[-10px] top-1/2 -translate-y-1/2 w-0 h-0"
+                className="relative rounded-2xl px-5 py-4 md:px-6 md:py-5"
                 style={{
-                  borderTop: '10px solid transparent',
-                  borderBottom: '10px solid transparent',
-                  borderRight: '10px solid rgba(245,166,35,0.22)',
+                  backgroundColor: 'rgba(245,166,35,0.08)',
+                  border: '1.5px solid rgba(245,166,35,0.22)',
                 }}
-              />
-              <div
-                className="absolute left-[-8px] top-1/2 -translate-y-1/2 w-0 h-0"
-                style={{
-                  borderTop: '9px solid transparent',
-                  borderBottom: '9px solid transparent',
-                  borderRight: '9px solid rgba(245,166,35,0.08)',
-                }}
-              />
-              <p className="text-dark/85 font-body text-[17px] leading-relaxed">
-                {parseInlineMarkdown(cleanedText)}
-              </p>
+              >
+                {/* Tail: above on mobile (points up to sprite), left on desktop */}
+                {/* Mobile tail (top, pointing up) */}
+                <div
+                  className="md:hidden absolute top-[-10px] left-1/2 -translate-x-1/2 w-0 h-0"
+                  style={{
+                    borderLeft: '10px solid transparent',
+                    borderRight: '10px solid transparent',
+                    borderBottom: '10px solid rgba(245,166,35,0.22)',
+                  }}
+                />
+                <div
+                  className="md:hidden absolute top-[-8px] left-1/2 -translate-x-1/2 w-0 h-0"
+                  style={{
+                    borderLeft: '9px solid transparent',
+                    borderRight: '9px solid transparent',
+                    borderBottom: '9px solid rgba(245,166,35,0.08)',
+                  }}
+                />
+                {/* Desktop tail (left, pointing at Chip) */}
+                <div
+                  className="hidden md:block absolute left-[-10px] top-1/2 -translate-y-1/2 w-0 h-0"
+                  style={{
+                    borderTop: '10px solid transparent',
+                    borderBottom: '10px solid transparent',
+                    borderRight: '10px solid rgba(245,166,35,0.22)',
+                  }}
+                />
+                <div
+                  className="hidden md:block absolute left-[-8px] top-1/2 -translate-y-1/2 w-0 h-0"
+                  style={{
+                    borderTop: '9px solid transparent',
+                    borderBottom: '9px solid transparent',
+                    borderRight: '9px solid rgba(245,166,35,0.08)',
+                  }}
+                />
+                <p className="text-dark/85 font-body text-base md:text-[17px] leading-relaxed">
+                  {parseInlineMarkdown(cleanedText)}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -223,12 +245,12 @@ export default function CalloutCard({
         border: `2px solid ${borderColor}`,
       }}
     >
-      <div className="flex items-start gap-4">
+      <div className="flex items-start gap-3 lg:gap-4">
         {/* Icon or emoji */}
         <div className="shrink-0 mt-0.5">
           {IconComponent ? (
             <div
-              className="w-10 h-10 rounded-xl flex items-center justify-center"
+              className="w-9 h-9 lg:w-10 lg:h-10 rounded-xl flex items-center justify-center"
               style={{
                 backgroundColor: hexToRgba(
                   variant === 'fun-fact'
@@ -241,7 +263,7 @@ export default function CalloutCard({
               }}
             >
               <IconComponent
-                className="w-5 h-5"
+                className="w-4 h-4 lg:w-5 lg:h-5"
                 style={{
                   color:
                     variant === 'fun-fact'
@@ -253,17 +275,17 @@ export default function CalloutCard({
               />
             </div>
           ) : (
-            <span className="text-3xl">{config.emoji}</span>
+            <span className="text-2xl lg:text-3xl">{config.emoji}</span>
           )}
         </div>
 
         {/* Content */}
-        <div className="flex-1">
-          <p className="font-display font-semibold text-dark text-sm mb-2 tracking-wide uppercase">
+        <div className="flex-1 min-w-0">
+          <p className="font-display font-semibold text-dark text-xs lg:text-sm mb-2 tracking-wide uppercase">
             {displayTitle}
           </p>
           <p
-            className={`text-dark/80 font-body text-lg leading-relaxed ${
+            className={`text-dark/80 font-body text-base lg:text-lg leading-relaxed ${
               config.textStyle === 'italic' ? 'italic' : ''
             }`}
           >

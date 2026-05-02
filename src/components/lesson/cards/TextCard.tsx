@@ -60,9 +60,17 @@ function InlineKeyTerm({ term, definition, chapterColor }: InlineKeyTermProps) {
   const computePosition = useCallback((el: HTMLElement) => {
     const rect = el.getBoundingClientRect();
     const placement = rect.top < 200 ? 'below' : 'above';
+    // Clamp horizontal center so the tooltip never spills off either edge.
+    // Tooltip width is min(320, vw - 48); half = min(160, (vw - 48) / 2).
+    const vw = window.innerWidth;
+    const halfTooltip = Math.min(160, (vw - 48) / 2);
+    const minLeft = halfTooltip + 16;
+    const maxLeft = vw - halfTooltip - 16;
+    const rawLeft = rect.left + rect.width / 2;
+    const clampedLeft = Math.max(minLeft, Math.min(maxLeft, rawLeft));
     setTooltipPos({
       top: placement === 'above' ? rect.top - 10 : rect.bottom + 10,
-      left: rect.left + rect.width / 2,
+      left: clampedLeft,
       placement,
     });
   }, []);
@@ -191,11 +199,11 @@ export default function TextCard({ text, chapterColor, keyTerms = [], illustrati
 
       {/* Inline illustration */}
       {illustration && illustrationSrc && (
-        <div className="-mx-8 -mt-6 mb-5 flex items-center justify-center bg-fill-subtle px-4 py-5">
+        <div className="-mx-5 -mt-5 lg:-mx-8 lg:-mt-6 mb-4 lg:mb-5 flex items-center justify-center bg-fill-subtle px-3 py-4 lg:px-4 lg:py-5">
           <img
             src={illustrationSrc}
             alt={illustration.alt}
-            className="max-h-[280px] w-auto object-contain drop-shadow-sm"
+            className="max-h-[220px] lg:max-h-[280px] w-auto object-contain drop-shadow-sm"
           />
         </div>
       )}
@@ -204,7 +212,7 @@ export default function TextCard({ text, chapterColor, keyTerms = [], illustrati
         {paragraphs.map((paragraph, idx) => (
           <p
             key={idx}
-            className="text-lg leading-[1.8] text-dark/90 font-body mb-4 last:mb-0"
+            className="text-base lg:text-lg leading-[1.7] lg:leading-[1.8] text-dark/90 font-body mb-3 lg:mb-4 last:mb-0"
           >
             {renderWithKeyTerms(paragraph, keyTerms, chapterColor)}
           </p>
