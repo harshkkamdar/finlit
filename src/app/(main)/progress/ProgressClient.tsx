@@ -112,9 +112,9 @@ export default function ProgressClient({ user, badges }: ProgressClientProps) {
   return (
     <div className="space-y-8">
       {/* ── League & XP Section ─────────────────────────────────────────── */}
-      <div className="flex items-start gap-8">
+      <div className="flex flex-col lg:flex-row items-stretch lg:items-start gap-4 lg:gap-8">
         {/* League progress */}
-        <div className="flex-1 bg-surface border border-border rounded-xl p-6">
+        <div className="flex-1 bg-surface border border-border rounded-xl p-5 lg:p-6">
           <div className="flex items-center gap-3 mb-5">
             <div
               className="w-10 h-10 rounded-lg flex items-center justify-center"
@@ -196,8 +196,8 @@ export default function ProgressClient({ user, badges }: ProgressClientProps) {
           </div>
         </div>
 
-        {/* Quick stats */}
-        <div className="w-[200px] space-y-3 shrink-0">
+        {/* Quick stats — full-width grid on mobile, fixed-width column on desktop */}
+        <div className="w-full grid grid-cols-2 gap-3 lg:w-[200px] lg:block lg:space-y-3 lg:shrink-0">
           <StatCard
             icon={<Flame className="w-4 h-4 text-orange-500" />}
             label="Current streak"
@@ -243,7 +243,7 @@ export default function ProgressClient({ user, badges }: ProgressClientProps) {
               <h3 className="text-xs font-medium text-muted uppercase tracking-wider mb-3">
                 {category}
               </h3>
-              <div className="grid grid-cols-4 gap-3">
+              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3">
                 {categoryBadges.map((badge) => {
                   // Hide secret badges that haven't been earned
                   if (badge.isSecret && !badge.earned) {

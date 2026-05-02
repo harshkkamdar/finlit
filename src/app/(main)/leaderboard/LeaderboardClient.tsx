@@ -98,7 +98,7 @@ export default function LeaderboardClient({
       {/* Top 3 Podium */}
       {top3.length >= 3 && (
         <motion.div variants={itemVariants}>
-          <div className="grid grid-cols-3 gap-4 items-end">
+          <div className="grid grid-cols-3 gap-2 sm:gap-4 items-end">
             {/* Rank 2 - Left */}
             <PodiumCard
               entry={top3[1]}
@@ -127,7 +127,7 @@ export default function LeaderboardClient({
       {/* If fewer than 3 users, show them in a simple list */}
       {top3.length > 0 && top3.length < 3 && (
         <motion.div variants={itemVariants}>
-          <div className="grid grid-cols-3 gap-4 items-end">
+          <div className="grid grid-cols-3 gap-2 sm:gap-4 items-end">
             {top3.map((entry, i) => (
               <PodiumCard
                 key={entry._id}
@@ -163,7 +163,7 @@ export default function LeaderboardClient({
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     className={`
-                      flex items-center gap-4 px-6 py-3.5 transition-colors
+                      flex items-center gap-3 sm:gap-4 px-4 sm:px-6 py-3 sm:py-3.5 transition-colors
                       ${isCurrentUser ? 'bg-primary-light/50' : 'hover:bg-fill-subtle'}
                       ${entry.rank % 2 === 0 && !isCurrentUser ? 'bg-fill-subtle/50' : ''}
                     `}
@@ -301,7 +301,12 @@ function PodiumCard({
   elevated?: boolean;
 }) {
   const config = podiumColors[rank];
-  const avatarSize = elevated ? 80 : 64;
+  // Smaller avatars on mobile for the 3-column grid; render at desktop size
+  // (browser scales image down automatically). Class controls box size.
+  const avatarSizeDesktop = elevated ? 80 : 64;
+  const avatarSizeClass = elevated
+    ? 'w-14 h-14 sm:w-20 sm:h-20'
+    : 'w-12 h-12 sm:w-16 sm:h-16';
   const RankIcon = rank === 1 ? Crown : Medal;
 
   return (
@@ -312,7 +317,7 @@ function PodiumCard({
       <Card
         variant="elevated"
         className={`
-          !p-5 text-center relative overflow-hidden
+          !p-3 sm:!p-5 text-center relative overflow-hidden
           ${config.bg} border-2 ${config.border}
           ${isCurrentUser ? 'ring-2 ' + config.ring : ''}
         `}
@@ -330,21 +335,17 @@ function PodiumCard({
           </div>
         </div>
 
-        {/* Avatar */}
+        {/* Avatar — smaller on mobile (3-col tight grid) */}
         <div className="flex justify-center mb-3">
           <div
-            className="rounded-full overflow-hidden border-4 shadow-lg"
-            style={{
-              width: avatarSize,
-              height: avatarSize,
-              borderColor: config.accent + '60',
-            }}
+            className={`${avatarSizeClass} rounded-full overflow-hidden border-2 sm:border-4 shadow-lg`}
+            style={{ borderColor: config.accent + '60' }}
           >
             <img
-              src={generateAvatar(entry.avatarSeed, avatarSize)}
+              src={generateAvatar(entry.avatarSeed, avatarSizeDesktop)}
               alt={entry.name}
-              width={avatarSize}
-              height={avatarSize}
+              width={avatarSizeDesktop}
+              height={avatarSizeDesktop}
               className="w-full h-full"
             />
           </div>
@@ -360,18 +361,18 @@ function PodiumCard({
 
         {/* Name */}
         <p
-          className={`font-display text-sm font-semibold truncate ${
+          className={`font-display text-xs sm:text-sm font-semibold truncate ${
             isCurrentUser ? 'text-primary' : 'text-dark'
           }`}
         >
           {entry.name}
           {isCurrentUser && (
-            <span className="text-xs text-primary/60 ml-1">(You)</span>
+            <span className="text-[10px] sm:text-xs text-primary/60 ml-1">(You)</span>
           )}
         </p>
 
         {/* XP */}
-        <p className="font-mono text-lg font-bold text-accent tabular-nums mt-1">
+        <p className="font-mono text-sm sm:text-lg font-bold text-accent tabular-nums mt-1">
           {entry.xp.toLocaleString()} XP
         </p>
 
