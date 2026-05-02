@@ -358,6 +358,11 @@ export default function LessonPageClient({
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [cardProgress, setCardProgress] = useState({ current: 0, total: 0 });
   const handleBadgeDismiss = useCallback(() => setBadgeToast({ name: '', visible: false }), []);
+  // Stable callback so LessonCardDeck's effect doesn't re-fire infinitely
+  const handleCardProgress = useCallback(
+    (current: number, total: number) => setCardProgress({ current, total }),
+    []
+  );
 
   const progressPercent = totalLessons > 0
     ? Math.round((lessonIndex / totalLessons) * 100)
@@ -565,9 +570,7 @@ export default function LessonPageClient({
               chapterColor={chapter.colorAccent}
               exerciseCount={lesson.exercises.length}
               onContentComplete={handleContentComplete}
-              onProgress={(current, total) =>
-                setCardProgress({ current, total })
-              }
+              onProgress={handleCardProgress}
             />
           </motion.div>
         )}

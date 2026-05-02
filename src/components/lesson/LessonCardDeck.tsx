@@ -105,10 +105,16 @@ export default function LessonCardDeck({
   const isLastCard = currentIndex >= totalCards - 1;
   const currentCard = cards[currentIndex] as LessonCard | undefined;
 
-  // Emit progress to parent (used by mobile chrome's top bar)
+  // Emit progress to parent (used by mobile chrome's top bar). Use a ref for
+  // the callback so an unstable parent callback can't trigger an infinite
+  // setState->rerender->newCallback->rerender loop.
+  const onProgressRef = useRef(onProgress);
   useEffect(() => {
-    onProgress?.(currentIndex, totalCards);
-  }, [currentIndex, totalCards, onProgress]);
+    onProgressRef.current = onProgress;
+  });
+  useEffect(() => {
+    onProgressRef.current?.(currentIndex, totalCards);
+  }, [currentIndex, totalCards]);
 
   // ── Navigation ──────────────────────────────────────────────────────────────
 
