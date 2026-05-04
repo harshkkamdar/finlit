@@ -278,17 +278,17 @@ export default function ProfileClient({
     >
       {/* Page header */}
       <motion.div variants={itemVariants}>
-        <h1 className="font-display text-3xl font-bold text-dark">Your Profile</h1>
-        <p className="text-muted font-body mt-1">Track your progress and achievements</p>
+        <h1 className="font-display text-2xl lg:text-3xl font-bold text-dark">Your Profile</h1>
+        <p className="text-muted font-body text-sm lg:text-base mt-1">Track your progress and achievements</p>
       </motion.div>
 
       {/* Top section: User info card */}
       <motion.div variants={itemVariants}>
-        <Card variant="elevated" className="!p-8">
-          <div className="flex items-start gap-8 relative">
+        <Card variant="elevated" className="!p-5 sm:!p-6 lg:!p-8">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 sm:gap-6 lg:gap-8 relative">
             {/* Avatar */}
             <div className="shrink-0 relative">
-              <div className="w-[120px] h-[120px] rounded-full overflow-hidden border-4 border-primary-light shadow-lg">
+              <div className="w-[96px] h-[96px] sm:w-[112px] sm:h-[112px] lg:w-[120px] lg:h-[120px] rounded-full overflow-hidden border-4 border-primary-light shadow-lg">
                 <img
                   src={avatarUri}
                   alt="Your avatar"
@@ -302,7 +302,7 @@ export default function ProfileClient({
                 disabled={rerollingAvatar}
                 title="New avatar"
                 aria-label="Re-roll avatar"
-                className="absolute bottom-0 right-0 w-8 h-8 rounded-full bg-primary text-white shadow-md flex items-center justify-center hover:bg-primary/90 transition-colors disabled:opacity-50"
+                className="absolute bottom-0 right-0 w-10 h-10 rounded-full bg-primary text-white shadow-md flex items-center justify-center hover:bg-primary/90 transition-colors disabled:opacity-50"
               >
                 <RefreshCw className={`w-4 h-4 ${rerollingAvatar ? 'animate-spin' : ''}`} />
               </button>
@@ -399,7 +399,7 @@ export default function ProfileClient({
                         onClick={handleSaveAge}
                         disabled={saving}
                         aria-label="Save age"
-                        className="min-w-[28px] min-h-[28px] p-1 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors flex items-center justify-center"
+                        className="min-w-[36px] min-h-[36px] p-2 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors flex items-center justify-center"
                       >
                         <Check className="w-3.5 h-3.5" />
                       </button>
@@ -409,7 +409,7 @@ export default function ProfileClient({
                           setEditAge(String(currentAge));
                         }}
                         aria-label="Cancel editing age"
-                        className="min-w-[28px] min-h-[28px] p-1 rounded-md bg-fill-muted text-muted hover:bg-border transition-colors flex items-center justify-center"
+                        className="min-w-[36px] min-h-[36px] p-2 rounded-md bg-fill-muted text-muted hover:bg-border transition-colors flex items-center justify-center"
                       >
                         <X className="w-3.5 h-3.5" />
                       </button>
@@ -449,7 +449,7 @@ export default function ProfileClient({
 
       {/* Stats row */}
       <motion.div variants={itemVariants}>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-5">
           {/* Total XP */}
           <Card variant="bordered" className="!p-5 text-center">
             <Sparkles className="w-6 h-6 text-accent mx-auto mb-2" />
@@ -533,17 +533,17 @@ export default function ProfileClient({
 
       {/* Badges Grid */}
       <motion.div variants={itemVariants}>
-        <Card variant="default" className="!p-6">
-          <div className="flex items-center justify-between mb-6">
-            <h3 className="font-display text-lg font-semibold text-dark">
+        <Card variant="default" className="!p-4 lg:!p-6">
+          <div className="flex items-center justify-between mb-4 lg:mb-6">
+            <h3 className="font-display text-base lg:text-lg font-semibold text-dark">
               Your Badges
             </h3>
-            <Badge variant="default" className="!text-sm">
+            <Badge variant="default" className="!text-xs lg:!text-sm">
               {earnedCount} / {totalCount} earned
             </Badge>
           </div>
 
-          <div className="grid grid-cols-3 gap-6 sm:grid-cols-4">
+          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-5 lg:gap-6">
             {sortedBadges.map((badge) => (
               <BadgeCard
                 key={badge._id}

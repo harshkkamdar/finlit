@@ -80,7 +80,7 @@ export default function OnboardingCard({
         }
       }}
       style={{ perspective: 1000 }}
-      className="w-[350px] h-[480px]"
+      className="w-full max-w-[350px] aspect-[350/480]"
     >
       <motion.div
         animate={{ rotateY: isFlipped ? 180 : 0 }}

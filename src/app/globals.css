@@ -141,9 +141,44 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
-.card-interactive:hover {
-  box-shadow: var(--shadow-card-hover);
-  transform: translateY(-2px);
+@media (hover: hover) {
+  .card-interactive:hover {
+    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-2px);
+  }
+}
+
+@media (hover: none) {
+  .card-interactive:active {
+    transform: scale(0.98);
+  }
+}
+
+/* Safe-area helpers (notched devices, home indicator) */
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.safe-x {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Mobile chrome offsets — main padding to clear the fixed top bar (h-14)
+   and bottom tab bar (~80px). Includes notch / home-indicator insets so
+   content never hides behind iOS safe areas. lg+ resets to 0 because the
+   desktop sidebars/top bar handle their own spacing. */
+.mobile-top-pad {
+  padding-top: calc(3.5rem + env(safe-area-inset-top));
+}
+.mobile-bottom-pad {
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+}
+@media (min-width: 1024px) {
+  .mobile-top-pad { padding-top: 0; }
+  .mobile-bottom-pad { padding-bottom: 0; }
 }
 
 /* Lesson card — the main deck card style */
@@ -152,13 +187,19 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-card);
-  padding: 1.5rem 2rem;
+  padding: 1.25rem 1.25rem;
   max-width: 680px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow-y: auto;
+}
+
+@media (min-width: 1024px) {
+  .lesson-card {
+    padding: 1.5rem 2rem;
+  }
 }
 
 /* Button press animation */
@@ -192,6 +233,37 @@ button:not(:disabled):active,
   animation: skeleton-pulse 1.5s ease-in-out infinite;
   background: linear-gradient(90deg, var(--color-fill-muted), var(--color-fill-subtle), var(--color-fill-muted));
   background-size: 200% 100%;
+}
+
+/* Lesson path: active node pulse rings */
+@keyframes path-pulse-ring {
+  0% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+}
+
+.path-pulse {
+  border: 2px solid;
+  animation: path-pulse-ring 2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.path-pulse-delayed {
+  animation-delay: 1s;
+}
+
+/* Lesson path: gentle nudge on START pill */
+@keyframes path-pill-nudge {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(2px); }
+}
+
+.path-start-pill {
+  animation: path-pill-nudge 1.6s ease-in-out infinite;
 }
 
 /* Streak flame animation */
@@ -230,8 +302,10 @@ button:not(:disabled):active,
   transition: background 0.15s ease;
 }
 
-.key-term-highlight:hover {
-  background: var(--highlight-color-hover, rgba(245, 166, 35, 0.25));
+@media (hover: hover) {
+  .key-term-highlight:hover {
+    background: var(--highlight-color-hover, rgba(245, 166, 35, 0.25));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

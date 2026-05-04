@@ -270,7 +270,7 @@ function OptionCard({
       whileHover={!disabled ? { y: -2, boxShadow: '0 4px 16px rgba(26,26,46,0.07), 0 2px 6px rgba(26,26,46,0.04)' } : undefined}
       whileTap={!disabled ? { scale: 0.99 } : undefined}
       className={`
-        w-full px-4 py-3 rounded-xl border text-left relative
+        w-full px-4 py-4 lg:py-3 min-h-[64px] lg:min-h-0 rounded-xl border text-left relative
         flex items-center gap-3 transition-all duration-200 ease-[cubic-bezier(0.25,1,0.5,1)]
         disabled:cursor-default
         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
@@ -872,9 +872,10 @@ function CalculatorExercise({
               </label>
               <input
                 type="number"
+                inputMode="decimal"
                 value={inputValues[inp.key] ?? ''}
                 onChange={(e) => handleInputChange(inp.key, e.target.value)}
-                className="w-full px-4 py-2.5 rounded-lg border-2 border-[#E5E5E0] bg-[#F7F7F4] font-mono text-lg text-dark focus:outline-none focus:border-opacity-50 focus:ring-2 focus:ring-opacity-10 transition-all"
+                className="w-full px-4 py-3 lg:py-2.5 min-h-[48px] lg:min-h-0 rounded-lg border-2 border-[#E5E5E0] bg-[#F7F7F4] font-mono text-lg text-dark focus:outline-none focus:border-opacity-50 focus:ring-2 focus:ring-opacity-10 transition-all"
                 style={{
                   // @ts-expect-error -- CSS custom focus styles via inline
                   '--tw-ring-color': `${accent}1A`,
@@ -888,7 +889,7 @@ function CalculatorExercise({
             whileHover={{ scale: 1.02, y: -1 }}
             whileTap={{ scale: 0.98 }}
             onClick={handleCalculate}
-            className="w-full py-3.5 rounded-xl font-display font-semibold text-white transition-all"
+            className="w-full min-h-[48px] py-3.5 rounded-xl font-display font-semibold text-white transition-all"
             style={{
               backgroundColor: accent,
               boxShadow: `0 4px 16px ${accent}30`,
@@ -1560,7 +1561,7 @@ export default function ExerciseRenderer({
                   whileTap={currentAnswer.selected.length > 0 ? { scale: 0.98 } : undefined}
                   onClick={handleMultiSubmit}
                   disabled={currentAnswer.selected.length === 0}
-                  className="mt-3 w-full py-3 rounded-xl text-white font-display font-semibold text-sm transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+                  className="mt-3 w-full min-h-[48px] py-3 rounded-xl text-white font-display font-semibold text-sm transition-all disabled:opacity-40 disabled:cursor-not-allowed"
                   style={{
                     backgroundColor: currentAnswer.selected.length > 0 ? accent : '#9CA3AF',
                     boxShadow: currentAnswer.selected.length > 0 ? `0 4px 16px ${accent}30` : undefined,
@@ -1613,7 +1614,7 @@ export default function ExerciseRenderer({
                 whileHover={{ scale: 1.03, x: 2 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={handleNext}
-                className="flex items-center gap-2 px-6 py-3 rounded-xl text-white font-display font-semibold text-sm transition-all duration-200"
+                className="flex items-center gap-2 px-6 py-3 min-h-[48px] rounded-xl text-white font-display font-semibold text-sm transition-all duration-200"
                 style={{
                   backgroundColor: accent,
                   boxShadow: `0 4px 16px ${accent}25`,

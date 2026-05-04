@@ -133,14 +133,17 @@ function SliderCalculator({ data, chapterColor }: BlockProps) {
           max={max}
           value={sliderValue}
           onChange={(e) => setSliderValue(Number(e.target.value))}
-          className="w-full h-2 rounded-full appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-md [&::-webkit-slider-thumb]:cursor-pointer"
+          className="w-full h-2 rounded-full appearance-none cursor-pointer touch-none [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-7 [&::-webkit-slider-thumb]:h-7 lg:[&::-webkit-slider-thumb]:w-5 lg:[&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-md [&::-webkit-slider-thumb]:cursor-pointer"
           style={{
             background: `linear-gradient(to right, ${chapterColor} ${fillPercent}%, #E5E7EB ${fillPercent}%)`,
           }}
         />
         <style>{`
           input[type="range"]::-webkit-slider-thumb { background-color: ${chapterColor}; }
-          input[type="range"]::-moz-range-thumb { background-color: ${chapterColor}; width:20px; height:20px; border-radius:50%; border:2px solid white; box-shadow:0 1px 4px rgba(0,0,0,0.15); cursor:pointer; }
+          input[type="range"]::-moz-range-thumb { background-color: ${chapterColor}; width:28px; height:28px; border-radius:50%; border:2px solid white; box-shadow:0 1px 4px rgba(0,0,0,0.15); cursor:pointer; }
+          @media (min-width: 1024px) {
+            input[type="range"]::-moz-range-thumb { width:20px; height:20px; }
+          }
         `}</style>
         <div className="flex justify-between mt-1">
           <span className="text-xs text-muted font-mono">{min.toLocaleString('en-IN')}</span>
@@ -158,7 +161,7 @@ function SliderCalculator({ data, chapterColor }: BlockProps) {
           initial={{ scale: 0.95, opacity: 0.5 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.2 }}
-          className="font-mono text-2xl font-bold"
+          className="font-mono text-3xl lg:text-2xl font-bold"
           style={{ color: chapterColor }}
         >
           {outputPrefix}{computedOutput}{outputSuffix}
@@ -325,14 +328,17 @@ function BudgetAllocator({ data, chapterColor }: BlockProps) {
           step={1000}
           value={salary}
           onChange={(e) => setSalary(Number(e.target.value))}
-          className="w-full h-2 rounded-full appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-md [&::-webkit-slider-thumb]:cursor-pointer"
+          className="w-full h-2 rounded-full appearance-none cursor-pointer touch-none [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-7 [&::-webkit-slider-thumb]:h-7 lg:[&::-webkit-slider-thumb]:w-5 lg:[&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-md [&::-webkit-slider-thumb]:cursor-pointer"
           style={{
             background: `linear-gradient(to right, ${chapterColor} ${fillPercent}%, #E5E7EB ${fillPercent}%)`,
           }}
         />
         <style>{`
           input[type="range"]::-webkit-slider-thumb { background-color: ${chapterColor}; }
-          input[type="range"]::-moz-range-thumb { background-color: ${chapterColor}; width:20px; height:20px; border-radius:50%; border:2px solid white; }
+          input[type="range"]::-moz-range-thumb { background-color: ${chapterColor}; width:28px; height:28px; border-radius:50%; border:2px solid white; }
+          @media (min-width: 1024px) {
+            input[type="range"]::-moz-range-thumb { width:20px; height:20px; }
+          }
         `}</style>
       </div>
 

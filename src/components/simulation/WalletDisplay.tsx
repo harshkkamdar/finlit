@@ -144,19 +144,19 @@ export default function WalletDisplay({
   return (
     <motion.div
       className={`
-        relative rounded-xl p-4
+        relative rounded-xl px-3 py-2.5 sm:px-4 sm:py-3 lg:p-4
         bg-black/40 backdrop-blur-md
-        shadow-xl min-w-[160px]
+        shadow-xl min-w-0 sm:min-w-[140px] lg:min-w-[160px]
         ${className}
       `}
       style={{ borderWidth: 1, borderStyle: 'solid', borderColor }}
       animate={boxShadowAnim}
       transition={{ duration: 0.8 }}
     >
-      {/* Label row */}
-      <div className="flex items-center gap-2 mb-1">
+      {/* Label row — compressed on mobile (icon only) */}
+      <div className="flex items-center gap-2 mb-0.5 sm:mb-1">
         <Icon
-          className="w-4 h-4"
+          className="w-4 h-4 shrink-0"
           style={{
             color: creditMode && isCreditDanger
               ? '#ef4444'
@@ -166,7 +166,7 @@ export default function WalletDisplay({
           }}
         />
         <span
-          className="text-xs font-body uppercase tracking-wider"
+          className="hidden sm:inline text-xs font-body uppercase tracking-wider"
           style={{
             color: creditMode && isCreditDanger
               ? 'rgba(239,68,68,0.8)'
@@ -183,7 +183,7 @@ export default function WalletDisplay({
           /* Score mode: X / Y */
           <>
             <motion.span
-              className="font-mono text-2xl font-bold tabular-nums"
+              className="font-mono text-xl sm:text-2xl font-bold tabular-nums"
               style={{ color: valueColor }}
               transition={{ duration: 0.3 }}
             >
@@ -196,9 +196,9 @@ export default function WalletDisplay({
         ) : (
           /* Currency mode */
           <>
-            <span className="text-white/80 font-mono text-lg">&#x20B9;</span>
+            <span className="text-white/80 font-mono text-base sm:text-lg">&#x20B9;</span>
             <motion.span
-              className="font-mono text-2xl font-bold tabular-nums"
+              className="font-mono text-xl sm:text-2xl font-bold tabular-nums"
               style={{ color: valueColor }}
               transition={{ duration: 0.3 }}
             >

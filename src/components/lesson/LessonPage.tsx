@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, BookOpen, Sparkles, Award, RotateCcw, Check, X, ChevronRight, Lightbulb } from 'lucide-react';
+import { ArrowLeft, Sparkles, Award, RotateCcw, Check, X, ChevronRight, Lightbulb } from 'lucide-react';
 import Link from 'next/link';
 import LessonCardDeck from '@/components/lesson/LessonCardDeck';
 import ExerciseRenderer from '@/components/exercise/ExerciseRenderer';
@@ -356,11 +356,23 @@ export default function LessonPageClient({
     visible: boolean;
   }>({ name: '', visible: false });
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [cardProgress, setCardProgress] = useState({ current: 0, total: 0 });
   const handleBadgeDismiss = useCallback(() => setBadgeToast({ name: '', visible: false }), []);
+  // Stable callback so LessonCardDeck's effect doesn't re-fire infinitely
+  const handleCardProgress = useCallback(
+    (current: number, total: number) => setCardProgress({ current, total }),
+    []
+  );
 
   const progressPercent = totalLessons > 0
     ? Math.round((lessonIndex / totalLessons) * 100)
     : 0;
+
+  // Card-level progress for the mobile sticky top bar (cards phase only)
+  const cardPhasePct =
+    cardProgress.total > 0
+      ? ((cardProgress.current + 1) / cardProgress.total) * 100
+      : 0;
 
   // Scroll to top when transitioning to exercises or results
   useEffect(() => {
@@ -423,7 +435,7 @@ export default function LessonPageClient({
             errorData?.error || `Something went wrong (${res.status}). Please try again.`
           );
         }
-      } catch (error) {
+      } catch {
         setSubmitError('Failed to submit. Please check your connection and try again.');
       } finally {
         setIsSubmitting(false);
@@ -436,8 +448,13 @@ export default function LessonPageClient({
     setSubmitError(null);
   }, []);
 
+  const isCardPhase = !showExercise && !exerciseResult;
+
   return (
-    <div className="relative flex flex-col" style={{ minHeight: 'calc(100vh - 64px)' }}>
+    <div
+      className="relative flex flex-col"
+      style={{ minHeight: 'calc(100dvh - 64px)' }}
+    >
       {/* Badge toast */}
       <BadgeToast
         badgeName={badgeToast.name}
@@ -457,12 +474,50 @@ export default function LessonPageClient({
         </div>
       )}
 
-      {/* Top bar */}
+      {/* ── Mobile sticky top bar: close X + card progress + counter ─────── */}
+      <div className="lg:hidden sticky top-0 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 safe-top bg-bg/95 backdrop-blur-md border-b border-border">
+        <div className="flex items-center gap-3 h-14">
+          <Link
+            href={`/chapter/${chapter._id}`}
+            aria-label="Close lesson"
+            className="inline-flex items-center justify-center w-10 h-10 -ml-2 rounded-lg text-muted hover:text-dark transition-colors"
+          >
+            <X className="w-5 h-5" />
+          </Link>
+
+          <div className="flex-1 min-w-0">
+            <div className="w-full h-1.5 rounded-full bg-border overflow-hidden">
+              <motion.div
+                className="h-full rounded-full"
+                style={{ backgroundColor: chapter.colorAccent }}
+                animate={{
+                  width: `${
+                    isCardPhase
+                      ? cardPhasePct
+                      : exerciseResult
+                        ? 100
+                        : 80
+                  }%`,
+                }}
+                transition={{ duration: 0.3, ease: [0.25, 1, 0.5, 1] }}
+              />
+            </div>
+          </div>
+
+          {isCardPhase && cardProgress.total > 0 && (
+            <span className="text-xs font-mono text-muted shrink-0 tabular-nums">
+              {cardProgress.current + 1}/{cardProgress.total}
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* ── Desktop top bar (back link + lesson-level progress) ─────────── */}
       <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3 }}
-        className="flex items-center gap-4 mb-4"
+        className="hidden lg:flex items-center gap-4 mb-4"
       >
         <Link
           href={`/chapter/${chapter._id}`}
@@ -475,7 +530,6 @@ export default function LessonPageClient({
           <span className="sm:hidden">Back</span>
         </Link>
 
-        {/* Thin progress bar */}
         <div className="flex-1 max-w-[300px]">
           <ProgressBar
             value={progressPercent}
@@ -489,12 +543,12 @@ export default function LessonPageClient({
         </span>
       </motion.div>
 
-      {/* Lesson title */}
+      {/* Lesson title — desktop only (mobile relies on top bar progress) */}
       <motion.div
         initial={{ opacity: 0, y: -5 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.1 }}
-        className="mb-4 text-center"
+        className="hidden lg:block mb-4 text-center"
       >
         <h1 className="font-display text-xl font-bold text-dark">
           {lesson.title}
@@ -516,6 +570,7 @@ export default function LessonPageClient({
               chapterColor={chapter.colorAccent}
               exerciseCount={lesson.exercises.length}
               onContentComplete={handleContentComplete}
+              onProgress={handleCardProgress}
             />
           </motion.div>
         )}

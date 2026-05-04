@@ -99,7 +99,7 @@ export default function Sidebar({ chapters }: SidebarProps) {
 
   return (
     <aside
-      className="fixed left-[56px] top-0 h-screen w-[220px] flex flex-col z-40"
+      className="hidden lg:flex fixed left-[56px] top-0 h-[100dvh] w-[220px] flex-col z-40"
       style={{
         background: "linear-gradient(180deg, var(--color-dark) 0%, var(--color-dark-bottom) 100%)",
         borderRight: "1px solid rgba(255,255,255,0.06)",

@@ -1,11 +1,11 @@
 import type { MetadataRoute } from "next";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE } from "@/lib/seo";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "FinoLingo — Learn Money. For Real.",
-    short_name: "FinoLingo",
-    description:
-      "A gamified financial literacy platform for young Indian adults. Master budgeting, investing, and personal finance through interactive lessons and challenges.",
+    name: SITE_TITLE,
+    short_name: SITE_NAME,
+    description: SITE_DESCRIPTION,
     start_url: "/",
     display: "standalone",
     background_color: "#FAFAF8",

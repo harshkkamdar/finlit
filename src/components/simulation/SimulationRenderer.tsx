@@ -165,7 +165,7 @@ function TitleCard({
         style={{ backgroundColor: accentColor }}
       />
 
-      <div className="max-w-2xl mx-auto px-8 text-center relative z-10">
+      <div className="max-w-2xl mx-auto px-6 sm:px-8 text-center relative z-10">
         {/* Accent line */}
         <motion.div
           initial={reducedMotion ? {} : { width: 0 }}
@@ -189,7 +189,7 @@ function TitleCard({
           initial={reducedMotion ? {} : { opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.55, duration: 0.7, ease: [0.25, 1, 0.5, 1] }}
-          className="font-display text-5xl md:text-6xl text-white font-bold mb-5 leading-[1.1]"
+          className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-4 sm:mb-5 leading-[1.1]"
         >
           {title}
         </motion.h1>
@@ -198,7 +198,7 @@ function TitleCard({
           initial={reducedMotion ? {} : { opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.85, duration: 0.5 }}
-          className="font-body text-lg text-white/50 mb-12 leading-relaxed max-w-lg mx-auto"
+          className="font-body text-base sm:text-lg text-white/50 mb-8 sm:mb-12 leading-relaxed max-w-lg mx-auto"
         >
           {description}
         </motion.p>
@@ -210,7 +210,7 @@ function TitleCard({
           whileHover={reducedMotion ? undefined : { scale: 1.05, y: -2 }}
           whileTap={reducedMotion ? undefined : { scale: 0.97 }}
           onClick={onBegin}
-          className="inline-flex items-center gap-2 px-12 py-4 rounded-xl font-display font-semibold text-lg text-dark transition-all duration-200 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-dark"
+          className="inline-flex items-center gap-2 px-8 sm:px-12 py-4 min-h-[52px] rounded-xl font-display font-semibold text-base sm:text-lg text-dark transition-all duration-200 shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-dark"
           style={{
             backgroundColor: accentColor,
             boxShadow: `0 8px 40px ${accentColor}40`,
@@ -245,7 +245,7 @@ function TimeSkipOverlay({
   if (reducedMotion) {
     return (
       <div className="fixed inset-0 z-50 bg-black flex items-center justify-center">
-        <p className="font-display text-3xl text-white/90 text-center px-8">
+        <p className="font-display text-2xl sm:text-3xl text-white/90 text-center px-6 sm:px-8">
           {text}
         </p>
       </div>
@@ -271,7 +271,7 @@ function TimeSkipOverlay({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.5 }}
-        className="font-display text-3xl md:text-4xl text-white/90 text-center px-8"
+        className="font-display text-2xl sm:text-3xl md:text-4xl text-white/90 text-center px-6 sm:px-8"
       >
         {text}
       </motion.p>
@@ -1311,8 +1311,8 @@ export default function SimulationRenderer({
         )}
       </AnimatePresence>
 
-      {/* Wallet / Score display — fixed top right */}
-      <div className="fixed top-6 right-6 z-40 flex flex-col gap-2 items-end">
+      {/* Wallet / Score display — fixed top right (safe-area padding for notched devices) */}
+      <div className="fixed top-3 right-3 sm:top-4 sm:right-4 lg:top-6 lg:right-6 z-40 flex flex-col gap-2 items-end safe-top safe-x">
         {showScoreUI && (
           <WalletDisplay
             balance={score}
@@ -1344,7 +1344,7 @@ export default function SimulationRenderer({
       </div>
 
       {/* Vertically centered content */}
-      <div className="min-h-full flex items-center justify-center px-6 py-12">
+      <div className="min-h-full flex items-center justify-center px-4 sm:px-6 py-8 sm:py-12 pt-20 sm:pt-16 lg:pt-12">
         <div className="max-w-[800px] w-full">
           {/* Node content with transitions */}
           <AnimatePresence mode="wait">
