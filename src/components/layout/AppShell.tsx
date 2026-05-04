@@ -69,7 +69,7 @@ export default function AppShell({ user, chapters, children }: AppShellProps) {
           showChapterSidebar
             ? 'lg:ml-[276px]'
             : 'lg:ml-14'
-        } ${isFullscreenMobile ? '' : 'pb-20 lg:pb-0'}`}
+        } ${isFullscreenMobile ? '' : 'mobile-top-pad mobile-bottom-pad'}`}
         aria-label="Main content"
       >
         {/* Desktop top bar with XP chip — shown only at lg+ */}

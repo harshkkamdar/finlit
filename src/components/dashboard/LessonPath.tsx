@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Check, Lock, Play } from 'lucide-react';
+import { useIsDesktop } from '@/lib/use-media-query';
 
 interface LessonItem {
   _id: string;
@@ -39,9 +40,13 @@ function hexToRgba(hex: string, alpha: number): string {
 export default function LessonPath({ lessons, chapterColor }: LessonPathProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerWidth, setContainerWidth] = useState(0);
-  const [isDesktop, setIsDesktop] = useState(false);
+  const isDesktopOrNull = useIsDesktop();
+  // Treat the SSR/first-paint null as mobile so the initial render matches
+  // the most common viewport (mobile-first); useSyncExternalStore swaps in
+  // the real value on the client without a layout-thrashing setState cycle.
+  const isDesktop = isDesktopOrNull ?? false;
 
-  // Track container width and breakpoint via ResizeObserver / matchMedia
+  // Track container width via ResizeObserver
   useEffect(() => {
     const node = containerRef.current;
     if (!node) return;
@@ -51,16 +56,7 @@ export default function LessonPath({ lessons, chapterColor }: LessonPathProps) {
       if (entry) setContainerWidth(entry.contentRect.width);
     });
     ro.observe(node);
-
-    const mq = window.matchMedia('(min-width: 1024px)');
-    setIsDesktop(mq.matches);
-    const onChange = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
-    mq.addEventListener('change', onChange);
-
-    return () => {
-      ro.disconnect();
-      mq.removeEventListener('change', onChange);
-    };
+    return () => ro.disconnect();
   }, []);
 
   const nodeSize = isDesktop ? NODE_SIZE_DESKTOP : NODE_SIZE_MOBILE;
@@ -149,6 +145,7 @@ export default function LessonPath({ lessons, chapterColor }: LessonPathProps) {
               isActive={isActive}
               isLocked={isLocked}
               nodeSize={nodeSize}
+              pillSide={offset >= 0 ? 'left' : 'right'}
             />
           </motion.div>
         );
@@ -164,6 +161,9 @@ interface LessonNodeProps {
   isActive: boolean;
   isLocked: boolean;
   nodeSize: number;
+  // Which side of the node the START pill sits on. We aim away from the
+  // viewport edge so the pill never clips on narrow screens.
+  pillSide: 'left' | 'right';
 }
 
 function LessonNode({
@@ -173,6 +173,7 @@ function LessonNode({
   isActive,
   isLocked,
   nodeSize,
+  pillSide,
 }: LessonNodeProps) {
   // Wrap the entire node + caption + (start pill) in a single tap target
   const href = isLocked ? '#' : `/lesson/${lesson._id}`;
@@ -246,10 +247,13 @@ function LessonNode({
           )}
         </div>
 
-        {/* START pill — only on active node, juts to the right */}
+        {/* START pill — only on active node, sits on the side that won't
+            clip past the container edge. */}
         {isActive && (
           <div
-            className="absolute left-full ml-3 path-start-pill flex items-center gap-1.5 px-3.5 py-2 rounded-xl font-display font-semibold text-white text-sm shadow-lg whitespace-nowrap"
+            className={`absolute path-start-pill flex items-center gap-1.5 px-3.5 py-2 rounded-xl font-display font-semibold text-white text-sm shadow-lg whitespace-nowrap ${
+              pillSide === 'left' ? 'right-full mr-3' : 'left-full ml-3'
+            }`}
             style={{
               backgroundColor: chapterColor,
               boxShadow: `0 4px 14px ${hexToRgba(chapterColor, 0.4)}`,

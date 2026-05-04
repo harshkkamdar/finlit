@@ -435,7 +435,7 @@ export default function LessonPageClient({
             errorData?.error || `Something went wrong (${res.status}). Please try again.`
           );
         }
-      } catch (error) {
+      } catch {
         setSubmitError('Failed to submit. Please check your connection and try again.');
       } finally {
         setIsSubmitting(false);

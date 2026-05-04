@@ -166,6 +166,21 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: env(safe-area-inset-right);
 }
 
+/* Mobile chrome offsets — main padding to clear the fixed top bar (h-14)
+   and bottom tab bar (~80px). Includes notch / home-indicator insets so
+   content never hides behind iOS safe areas. lg+ resets to 0 because the
+   desktop sidebars/top bar handle their own spacing. */
+.mobile-top-pad {
+  padding-top: calc(3.5rem + env(safe-area-inset-top));
+}
+.mobile-bottom-pad {
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+}
+@media (min-width: 1024px) {
+  .mobile-top-pad { padding-top: 0; }
+  .mobile-bottom-pad { padding-bottom: 0; }
+}
+
 /* Lesson card — the main deck card style */
 .lesson-card {
   background: var(--color-surface);

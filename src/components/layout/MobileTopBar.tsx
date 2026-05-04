@@ -30,7 +30,7 @@ export default function MobileTopBar({
 
   return (
     <header
-      className="lg:hidden sticky top-0 z-40 safe-top bg-bg/90 backdrop-blur-md border-b border-border"
+      className="lg:hidden fixed top-0 left-0 right-0 z-40 safe-top bg-bg/90 backdrop-blur-md border-b border-border"
       role="banner"
     >
       <div className="flex items-center justify-between h-14 px-4">
