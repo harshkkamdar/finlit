@@ -40,3 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .gstack/
+
+# scratch design exports (e.g. raw Untitled exports from design tools)
+/public/Untitled*
