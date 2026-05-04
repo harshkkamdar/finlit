@@ -1,23 +1,25 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date();
   return [
     {
-      url: "https://finolingo.com",
-      lastModified: new Date(),
+      url: `${SITE_URL}/`,
+      lastModified: now,
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: "https://finolingo.com/login",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
+      url: `${SITE_URL}/login`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.4,
     },
     {
-      url: "https://finolingo.com/signup",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
+      url: `${SITE_URL}/signup`,
+      lastModified: now,
+      changeFrequency: "yearly",
       priority: 0.5,
     },
   ];

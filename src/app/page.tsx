@@ -1,11 +1,12 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 import Link from "next/link";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 const chapters = [
-  { n: 0, title: "What Even is Money?", desc: "Barter to UPI — how money actually works in India.", color: "#F5A623", darkText: true },
+  { n: 0, title: "What Even is Money?", desc: "Barter to UPI, and how money actually works in India.", color: "#F5A623", darkText: true },
   { n: 1, title: "The Stock Market", desc: "Sensex, Nifty, and why companies sell tiny pieces of themselves.", color: "#2ECC71", darkText: true },
-  { n: 2, title: "Investing 101", desc: "SIPs, mutual funds, compound interest — your money making money.", color: "#4A90D9", darkText: false },
+  { n: 2, title: "Investing 101", desc: "SIPs, mutual funds, and compound interest. Your money making money.", color: "#4A90D9", darkText: false },
   { n: 3, title: "Your Money Psychology", desc: "Why you blow money on sales and how to stop.", color: "#8E44AD", darkText: false },
   { n: 4, title: "Managing Your Money", desc: "Budgeting that doesn't feel like punishment.", color: "#1ABC9C", darkText: true },
   { n: 5, title: "Credit & Debt", desc: "Credit scores, EMIs, and the debt traps nobody warns you about.", color: "#E74C3C", darkText: false },
@@ -15,8 +16,64 @@ const chapters = [
 const steps = [
   { num: "1", title: "Read a lesson", desc: "Bite-sized cards that explain one concept at a time. No jargon walls." },
   { num: "2", title: "Play a simulation", desc: "Make financial decisions in realistic scenarios. See what happens." },
-  { num: "3", title: "Earn XP & badges", desc: "Track your streak, climb the leaderboard, unlock your certificate." },
+  { num: "3", title: "Earn XP and badges", desc: "Track your streak, climb the leaderboard, unlock your certificate." },
 ] as const;
+
+// Structured data: tells Google what this site is, who runs it, and that the
+// curriculum is a free educational course aimed at young Indian adults.
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/icon`,
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: SITE_NAME,
+      description: SITE_DESCRIPTION,
+      publisher: { "@id": `${SITE_URL}/#organization` },
+      inLanguage: "en-IN",
+    },
+    {
+      "@type": "Course",
+      name: "FinoLingo: Financial Literacy for Young Adults in India",
+      description: SITE_DESCRIPTION,
+      url: SITE_URL,
+      provider: { "@id": `${SITE_URL}/#organization` },
+      inLanguage: "en-IN",
+      educationalLevel: "Beginner",
+      audience: {
+        "@type": "EducationalAudience",
+        educationalRole: "student",
+        audienceType: "Young adults aged 18 to 25 in India",
+      },
+      about: chapters.map((c) => c.title),
+      hasCourseInstance: {
+        "@type": "CourseInstance",
+        courseMode: "Online",
+        courseWorkload: "PT5H",
+        inLanguage: "en-IN",
+      },
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "INR",
+        category: "Free",
+        availability: "https://schema.org/InStock",
+        url: `${SITE_URL}/signup`,
+      },
+    },
+  ],
+};
 
 export default async function Home() {
   const session = await auth();
@@ -27,6 +84,11 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-bg flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       {/* Skip link */}
       <a
         href="#main-content"
@@ -55,7 +117,7 @@ export default async function Home() {
               href="/signup"
               className="bg-primary text-white px-5 py-2.5 rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm min-h-[44px] flex items-center"
             >
-              Sign up free
+              Sign up
             </Link>
           </div>
         </nav>
@@ -143,32 +205,34 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* Final CTA */}
-        <section className="px-6 sm:px-8 py-16 sm:py-20 bg-primary">
-          <div className="max-w-5xl mx-auto text-center">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-white mb-3">
-              Ready to start?
-            </h2>
-            <p className="text-white/80 text-base mb-8 max-w-md mx-auto">
-              Takes 30 seconds to sign up. Your first lesson is waiting.
-            </p>
+        {/* Close: free, signup link, no full-bleed promo */}
+        <section className="px-6 sm:px-8 py-16 sm:py-20 border-t border-border">
+          <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+            <div className="max-w-xl">
+              <h2 className="font-display text-2xl sm:text-3xl font-bold text-dark mb-2">
+                Free, and stays that way.
+              </h2>
+              <p className="text-muted text-base">
+                No paywall, no upsell. Sign up and start with Chapter 1.
+              </p>
+            </div>
             <Link
               href="/signup"
-              className="inline-flex items-center bg-white text-primary px-8 py-3.5 rounded-lg font-display font-bold text-base hover:bg-white/90 transition-colors min-h-[44px]"
+              className="inline-flex items-center bg-primary text-white px-7 py-3.5 rounded-lg font-display font-bold text-base hover:bg-primary/90 transition-colors min-h-[44px] shrink-0"
             >
-              Create your free account
+              Create an account
             </Link>
           </div>
         </section>
       </main>
 
       {/* Footer */}
-      <footer className="px-6 sm:px-8 py-6 border-t border-border">
-        <div className="max-w-5xl mx-auto flex items-center justify-between text-sm text-muted">
+      <footer className="px-6 sm:px-8 py-8 border-t border-border">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-sm text-muted">
           <span className="font-display font-semibold text-dark">
             Fino<span className="text-primary">Lingo</span>
           </span>
-          <span>Built by Karam</span>
+          <span>© {new Date().getFullYear()} FinoLingo. Built by Karam.</span>
         </div>
       </footer>
     </div>
