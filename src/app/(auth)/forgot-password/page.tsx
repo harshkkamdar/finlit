@@ -3,7 +3,8 @@ import ForgotPasswordClient from "./ForgotPasswordClient";
 
 export const metadata: Metadata = {
   title: "Reset password",
-  description: "Recover access to your FinoLingo account.",
+  description:
+    "Request a secure password reset link for your FinoLingo account.",
   alternates: { canonical: "/forgot-password" },
 };
 
