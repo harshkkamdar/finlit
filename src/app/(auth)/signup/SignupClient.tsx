@@ -32,6 +32,7 @@ type SignupPhase = "form" | "flip" | "flyaway";
 export default function SignupClient() {
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
+  const [errorIsConflict, setErrorIsConflict] = useState(false);
   const [loading, setLoading] = useState(false);
   const [phase, setPhase] = useState<SignupPhase>("form");
   const [avatarSeed, setAvatarSeed] = useState("");
@@ -58,6 +59,7 @@ export default function SignupClient() {
 
   async function onSubmit(data: SignupFormValues) {
     setError(null);
+    setErrorIsConflict(false);
     setLoading(true);
 
     try {
@@ -76,6 +78,7 @@ export default function SignupClient() {
 
       if (!res.ok) {
         setError(body.error || "Signup failed. Please try again.");
+        setErrorIsConflict(res.status === 409);
         setLoading(false);
         return;
       }
@@ -206,7 +209,28 @@ export default function SignupClient() {
           {/* Error banner */}
           {error && (
             <div className="mb-5 px-4 py-3 rounded-lg bg-red-50 border border-error/20">
-              <p className="text-sm font-body text-error">{error}</p>
+              <p className="text-sm font-body text-error">
+                {error}
+                {errorIsConflict && (
+                  <>
+                    {" "}
+                    <Link
+                      href="/login"
+                      className="font-medium underline hover:no-underline"
+                    >
+                      Sign in
+                    </Link>
+                    {" or "}
+                    <Link
+                      href="/forgot-password"
+                      className="font-medium underline hover:no-underline"
+                    >
+                      reset your password
+                    </Link>
+                    {"."}
+                  </>
+                )}
+              </p>
             </div>
           )}
 

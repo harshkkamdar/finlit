@@ -1,26 +1,36 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { z } from "zod/v4";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { signIn } from "next-auth/react";
 import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 
-const loginSchema = z.object({
-  email: z.email("Please enter a valid email address"),
-  password: z.string().min(1, "Password is required"),
-});
+const forgotPasswordSchema = z
+  .object({
+    email: z.email("Please enter a valid email address"),
+    age: z
+      .string()
+      .min(1, "Age is required")
+      .refine(
+        (val) => !isNaN(parseInt(val, 10)) && parseInt(val, 10) > 0,
+        "Please enter a valid age"
+      ),
+    password: z.string().min(8, "Password must be at least 8 characters"),
+    confirmPassword: z.string().min(1, "Please confirm your password"),
+  })
+  .refine((data) => data.password === data.confirmPassword, {
+    message: "Passwords do not match",
+    path: ["confirmPassword"],
+  });
 
-type LoginForm = z.infer<typeof loginSchema>;
+type ForgotPasswordForm = z.infer<typeof forgotPasswordSchema>;
 
-export default function LoginClient() {
+export default function ForgotPasswordClient() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const resetSuccess = searchParams.get("reset") === "1";
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -28,28 +38,34 @@ export default function LoginClient() {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<LoginForm>({
-    resolver: zodResolver(loginSchema),
+  } = useForm<ForgotPasswordForm>({
+    resolver: zodResolver(forgotPasswordSchema),
   });
 
-  async function onSubmit(data: LoginForm) {
+  async function onSubmit(data: ForgotPasswordForm) {
     setError(null);
     setLoading(true);
 
     try {
-      const result = await signIn("credentials", {
-        email: data.email,
-        password: data.password,
-        redirect: false,
+      const res = await fetch("/api/auth/forgot-password", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: data.email,
+          age: parseInt(data.age, 10),
+          password: data.password,
+        }),
       });
 
-      if (result?.error) {
-        setError("Invalid email or password. Please try again.");
+      const body = await res.json();
+
+      if (!res.ok) {
+        setError(body.error || "Something went wrong. Please try again.");
         setLoading(false);
         return;
       }
 
-      router.push("/dashboard");
+      router.push("/login?reset=1");
     } catch {
       setError("Something went wrong. Please try again.");
       setLoading(false);
@@ -59,33 +75,21 @@ export default function LoginClient() {
   return (
     <div className="w-full max-w-md">
       <div className="bg-surface rounded-xl p-8 shadow-lg shadow-black/5">
-        {/* Logo */}
         <div className="text-center mb-8">
           <h1 className="font-display text-3xl font-bold text-primary tracking-tight">
             Fino<span className="text-accent">Lingo</span>
           </h1>
           <p className="font-body text-muted text-sm mt-2">
-            Your financial literacy journey starts here
+            Reset your password by verifying your details
           </p>
         </div>
 
-        {/* Reset success banner */}
-        {resetSuccess && (
-          <div className="mb-6 px-4 py-3 rounded-lg bg-green-50 border border-primary/20">
-            <p className="text-sm font-body text-primary">
-              Password updated. Please sign in.
-            </p>
-          </div>
-        )}
-
-        {/* Error banner */}
         {error && (
           <div className="mb-6 px-4 py-3 rounded-lg bg-red-50 border border-error/20">
             <p className="text-sm font-body text-error">{error}</p>
           </div>
         )}
 
-        {/* Form */}
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
           <Input
             label="Email"
@@ -97,22 +101,30 @@ export default function LoginClient() {
           />
 
           <Input
-            label="Password"
+            label="Age (as on signup)"
+            type="number"
+            placeholder="18"
+            error={errors.age?.message}
+            {...register("age")}
+          />
+
+          <Input
+            label="New password"
             type="password"
-            placeholder="Enter your password"
-            autoComplete="current-password"
+            placeholder="Min. 8 characters"
+            autoComplete="new-password"
             error={errors.password?.message}
             {...register("password")}
           />
 
-          <div className="flex justify-end -mt-1">
-            <Link
-              href="/forgot-password"
-              className="text-xs font-body text-muted hover:text-primary hover:underline"
-            >
-              Forgot password?
-            </Link>
-          </div>
+          <Input
+            label="Confirm new password"
+            type="password"
+            placeholder="Re-enter new password"
+            autoComplete="new-password"
+            error={errors.confirmPassword?.message}
+            {...register("confirmPassword")}
+          />
 
           <Button
             type="submit"
@@ -121,24 +133,22 @@ export default function LoginClient() {
             className="w-full"
             size="lg"
           >
-            Sign In
+            Update Password
           </Button>
         </form>
 
-        {/* Disclaimer */}
         <p className="text-xs text-muted/70 font-body text-center mt-4">
-          This platform is for educational purposes only. FinoLingo is not
-          directly affiliated with any government or private agency.
+          For your security, we verify the age you provided at signup before
+          updating your password.
         </p>
 
-        {/* Footer link */}
         <p className="text-center mt-6 text-sm font-body text-muted">
-          Don&apos;t have an account?{" "}
+          Remembered it?{" "}
           <Link
-            href="/signup"
+            href="/login"
             className="text-primary font-medium hover:underline"
           >
-            Create one
+            Back to sign in
           </Link>
         </p>
       </div>

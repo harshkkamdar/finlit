@@ -144,6 +144,35 @@ export default async function Home() {
           </div>
         </section>
 
+        {/* Mission */}
+        <section className="px-6 sm:px-8 py-16 sm:py-20 border-t border-border">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold text-dark mb-6">
+              Why FinoLingo exists
+            </h2>
+            <div className="max-w-2xl space-y-4 text-base text-muted leading-relaxed">
+              <p>
+                Most young Indians never learn money in school. We graduate
+                knowing trigonometry but not how a SIP works, what a credit
+                score means, or how to spot a UPI scam. Then real life starts,
+                and the cost of figuring it out alone is brutal.
+              </p>
+              <p>
+                FinoLingo turns personal finance into something you actually
+                want to do. Bite-sized lessons, real-world simulations where
+                you make the calls, and gamification that keeps you coming
+                back. Seven chapters, from what money even is to how to dodge
+                the fraud aimed straight at your generation.
+              </p>
+              <p>
+                It&apos;s free, and stays free. No paywall, no premium tier,
+                no upsell to a course later. If you can sign up, you get
+                everything.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* How it works */}
         <section className="px-6 sm:px-8 py-16 sm:py-20 bg-fill-subtle border-t border-b border-border">
           <div className="max-w-5xl mx-auto">
@@ -232,6 +261,12 @@ export default async function Home() {
           <span className="font-display font-semibold text-dark">
             Fino<span className="text-primary">Lingo</span>
           </span>
+          <Link
+            href="/about"
+            className="hover:text-primary transition-colors"
+          >
+            About
+          </Link>
           <span>© {new Date().getFullYear()} FinoLingo. Built by Karam.</span>
         </div>
       </footer>
