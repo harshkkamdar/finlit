@@ -2,6 +2,8 @@ import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 import Link from "next/link";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/seo";
+import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
 
 const chapters = [
   { n: 0, title: "What Even is Money?", desc: "Barter to UPI, and how money actually works in India.", color: "#F5A623", darkText: true },
@@ -97,31 +99,7 @@ export default async function Home() {
         Skip to content
       </a>
 
-      {/* Nav */}
-      <header className="border-b border-border">
-        <nav
-          aria-label="Main navigation"
-          className="flex items-center justify-between px-6 sm:px-8 py-4 max-w-5xl mx-auto w-full"
-        >
-          <Link href="/" className="font-display text-2xl font-bold text-dark">
-            Fino<span className="text-primary">Lingo</span>
-          </Link>
-          <div className="flex items-center gap-2 sm:gap-4">
-            <Link
-              href="/login"
-              className="text-dark font-medium hover:text-primary transition-colors px-3 py-2 min-h-[44px] flex items-center text-sm"
-            >
-              Log in
-            </Link>
-            <Link
-              href="/signup"
-              className="bg-primary text-white px-5 py-2.5 rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm min-h-[44px] flex items-center"
-            >
-              Sign up
-            </Link>
-          </div>
-        </nav>
-      </header>
+      <SiteHeader active="home" />
 
       <main id="main-content" className="flex-1">
         {/* Hero */}
@@ -255,21 +233,7 @@ export default async function Home() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="px-6 sm:px-8 py-8 border-t border-border">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-sm text-muted">
-          <span className="font-display font-semibold text-dark">
-            Fino<span className="text-primary">Lingo</span>
-          </span>
-          <Link
-            href="/about"
-            className="hover:text-primary transition-colors"
-          >
-            About
-          </Link>
-          <span>© {new Date().getFullYear()} FinoLingo. Built by Karam.</span>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
