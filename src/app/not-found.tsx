@@ -1,4 +1,11 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Page not found',
+  // 404s should not be indexed — they have no canonical content.
+  robots: { index: false, follow: false },
+};
 
 export default function NotFound() {
   return (

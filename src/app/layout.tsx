@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { ToastProvider } from "@/components/ui/Toast";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 import {
   SITE_DESCRIPTION,
   SITE_KEYWORDS,
@@ -88,6 +89,7 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col font-body">
         <ToastProvider>{children}</ToastProvider>
+        <GoogleAnalytics />
       </body>
     </html>
   );

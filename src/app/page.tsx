@@ -21,6 +21,35 @@ const steps = [
   { num: "3", title: "Earn XP and badges", desc: "Track your streak, climb the leaderboard, unlock your certificate." },
 ] as const;
 
+// Q&A is rendered as visible content below AND emitted as FAQPage JSON-LD.
+// Google's FAQ-rich-result policy requires the on-page text to match the schema.
+const faqs = [
+  {
+    q: "Is FinoLingo really free?",
+    a: "Yes. All seven chapters, every lesson, simulation, daily challenge, and the end-of-course certificate are free. There is no paywall, no premium tier, and no course you have to buy later.",
+  },
+  {
+    q: "Who is FinoLingo for?",
+    a: "Young adults aged 18 to 25 in India who never got taught money in school. If you have a UPI app, are about to start your first job, or just want to stop being confused by SIPs and credit scores — this is built for you.",
+  },
+  {
+    q: "What will I actually learn?",
+    a: "Seven chapters: what money is, how the stock market works, investing basics (SIPs, mutual funds, compounding), money psychology, budgeting, credit and debt, and how to spot fraud aimed at your generation. All in plain English with India-specific context.",
+  },
+  {
+    q: "How long does it take to finish?",
+    a: "About five hours of focused learning across all seven chapters. Most people do it in bite-sized sessions over two to three weeks, fifteen minutes a day.",
+  },
+  {
+    q: "Is FinoLingo giving financial advice?",
+    a: "No. FinoLingo is for educational purposes only. We are not SEBI-registered advisors and nothing here is a recommendation to buy, sell, or invest. Decisions you make with your money are yours.",
+  },
+  {
+    q: "Do I need any background in finance to start?",
+    a: "Zero background needed. Chapter 0 starts with what money even is — barter, currency, UPI — and every later chapter builds on the previous one. If you can read this sentence, you can start.",
+  },
+] as const;
+
 // Structured data: tells Google what this site is, who runs it, and that the
 // curriculum is a free educational course aimed at young Indian adults.
 const structuredData = {
@@ -73,6 +102,15 @@ const structuredData = {
         availability: "https://schema.org/InStock",
         url: `${SITE_URL}/signup`,
       },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${SITE_URL}/#faq`,
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
     },
   ],
 };
@@ -209,6 +247,34 @@ export default async function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* FAQ — visible Q&A matched by FAQPage JSON-LD above */}
+        <section className="px-6 sm:px-8 py-16 sm:py-20 border-t border-border">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold text-dark mb-3">
+              Common questions
+            </h2>
+            <p className="text-muted text-base mb-10 max-w-lg">
+              Short, honest answers. If something is missing, the{" "}
+              <Link href="/about" className="text-primary hover:underline">
+                About page
+              </Link>{" "}
+              covers the why.
+            </p>
+            <dl className="max-w-3xl divide-y divide-border border-y border-border">
+              {faqs.map((f) => (
+                <div key={f.q} className="py-5 sm:py-6">
+                  <dt className="font-display text-base sm:text-lg font-semibold text-dark mb-2">
+                    {f.q}
+                  </dt>
+                  <dd className="text-sm sm:text-base text-muted leading-relaxed">
+                    {f.a}
+                  </dd>
+                </div>
+              ))}
+            </dl>
           </div>
         </section>
 

@@ -16,9 +16,43 @@ export const metadata: Metadata = {
   },
 };
 
+const aboutStructuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": `${SITE_URL}/about#aboutpage`,
+      url: `${SITE_URL}/about`,
+      name: `About ${SITE_NAME}`,
+      description: `Why ${SITE_NAME} exists, what we built, and who built it.`,
+      isPartOf: { "@id": `${SITE_URL}/#website` },
+      about: { "@id": `${SITE_URL}/#organization` },
+      inLanguage: "en-IN",
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": `${SITE_URL}/#organization`,
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/icon` },
+      areaServed: { "@type": "Country", name: "India" },
+      audience: {
+        "@type": "EducationalAudience",
+        educationalRole: "student",
+        audienceType: "Young adults aged 18 to 25 in India",
+      },
+    },
+  ],
+};
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-bg flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutStructuredData) }}
+      />
+
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-medium"

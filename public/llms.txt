@@ -1,0 +1,38 @@
+# FinoLingo
+
+> FinoLingo is a free, gamified financial literacy web app for young adults (18-25) in India. Seven chapters take a complete beginner from "what is money" through investing, budgeting, credit, and fraud protection — in plain English, with India-specific context.
+
+Tone: friendly, sharp, witty. Mascot: Chip. Educational use only — not financial advice.
+
+## Core pages
+
+- [Home](https://finolingo.com/): Mission, chapter overview, how it works, FAQ, signup CTA.
+- [About](https://finolingo.com/about): Why FinoLingo exists, what it is, what it is not.
+- [Sign up](https://finolingo.com/signup): Free account creation.
+- [Log in](https://finolingo.com/login): Returning users.
+
+## What the curriculum covers
+
+- Chapter 0 — What Even is Money? Barter to UPI, and how money actually works in India.
+- Chapter 1 — The Stock Market. Sensex, Nifty, and why companies sell tiny pieces of themselves.
+- Chapter 2 — Investing 101. SIPs, mutual funds, compound interest. Your money making money.
+- Chapter 3 — Your Money Psychology. Why you blow money on sales and how to stop.
+- Chapter 4 — Managing Your Money. Budgeting that doesn't feel like punishment.
+- Chapter 5 — Credit & Debt. Credit scores, EMIs, and the debt traps nobody warns you about.
+- Chapter 6 — Fraud Protection. Spot scams before they spot you.
+
+## Format
+
+- Bite-sized lesson cards
+- Interactive exercises (sorting, matching, multiple choice, drag-and-drop)
+- Branching simulations with realistic financial decisions
+- Daily challenges, XP, streaks, badges, a downloadable certificate
+- ~5 hours of total focused learning across all seven chapters
+
+## Pricing
+
+Free. No paywall, no premium tier, no upsell.
+
+## Disclaimer
+
+FinoLingo is for educational purposes only. Not financial advice. Not SEBI-registered. Nothing on the site is a recommendation to buy, sell, or invest.
