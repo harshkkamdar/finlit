@@ -57,6 +57,11 @@ const UserSchema = new Schema(
       enum: ["student", "admin"],
       default: "student",
     },
+    // Internal QA/test accounts. Excluded from every user-facing surface
+    // (leaderboards) and from aggregate analytics so they can rack up any
+    // amount of XP/badges without polluting real data. Still visible in the
+    // admin user-management list so they remain manageable.
+    isTestAccount: { type: Boolean, default: false },
     avatarSeed: { type: String, default: () => Math.random().toString(36).substring(2, 10) },
     xp: { type: Number, default: 0 },
     currentStreak: { type: Number, default: 0 },

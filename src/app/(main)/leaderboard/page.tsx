@@ -13,7 +13,7 @@ export default async function LeaderboardPage() {
 
   await dbConnect();
 
-  const topUsers = await User.find({})
+  const topUsers = await User.find({ isTestAccount: { $ne: true } })
     .select('name xp league avatarSeed')
     .sort({ xp: -1 })
     .limit(100)
@@ -44,7 +44,10 @@ export default async function LeaderboardPage() {
     if (currentUser) {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const cu = currentUser as any;
-      const rank = await User.countDocuments({ xp: { $gt: cu.xp } });
+      const rank = await User.countDocuments({
+        xp: { $gt: cu.xp },
+        isTestAccount: { $ne: true },
+      });
       currentUserRank = {
         _id: cu._id.toString(),
         name: cu.name,

@@ -11,7 +11,7 @@ export async function GET() {
       return Response.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const topUsers = await User.find({})
+    const topUsers = await User.find({ isTestAccount: { $ne: true } })
       .select("name xp league avatarSeed")
       .sort({ xp: -1 })
       .limit(100)
@@ -44,6 +44,7 @@ export async function GET() {
         const rank = await User.countDocuments({
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           xp: { $gt: (currentUser as any).xp },
+          isTestAccount: { $ne: true },
         });
         currentUserRank = {
           // eslint-disable-next-line @typescript-eslint/no-explicit-any

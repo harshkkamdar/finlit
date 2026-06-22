@@ -47,7 +47,12 @@ export default function AdminAnalyticsPage() {
         // Fetch users to compute basic analytics
         const res = await fetch('/api/admin/users');
         if (res.ok) {
-          const users = await res.json();
+          const allUsers = await res.json();
+          // Exclude internal QA/test accounts from platform metrics so a test
+          // account's XP can't skew totals or the average.
+          const users = allUsers.filter(
+            (u: { isTestAccount?: boolean }) => !u.isTestAccount
+          );
 
           const totalUsers = users.length;
           const totalXP = users.reduce(

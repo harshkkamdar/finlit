@@ -31,7 +31,7 @@ export async function GET(request: Request) {
     }
 
     const users = await User.find(query)
-      .select("name email xp league currentStreak createdAt role avatarSeed")
+      .select("name email xp league currentStreak createdAt role avatarSeed isTestAccount")
       .sort({ createdAt: -1 })
       .lean();
 
