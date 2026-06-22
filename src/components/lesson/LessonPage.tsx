@@ -93,17 +93,24 @@ function LessonResultsScreen({
 }) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(null);
   const accent = chapterColor || '#F5A623';
-  const pct = exerciseResult.maxScore > 0 ? exerciseResult.score / exerciseResult.maxScore : 0;
-  const isPerfect = pct === 1;
-  const isGood = pct > 0.7;
+  // Content-only lessons (no exercises) still record a completion. Treat them as
+  // a clean "done" rather than a misleading 0/0 score.
+  const hasExercises = exerciseResult.maxScore > 0;
+  const pct = hasExercises ? exerciseResult.score / exerciseResult.maxScore : 1;
+  const isPerfect = hasExercises && pct === 1;
+  const isGood = !hasExercises || pct > 0.7;
 
-  const headline = isPerfect
+  const headline = !hasExercises
+    ? 'Lesson complete!'
+    : isPerfect
     ? 'Perfect!'
     : isGood
     ? 'Nice work!'
     : "You'll get there";
 
-  const subtitle = isPerfect
+  const subtitle = !hasExercises
+    ? 'You finished this one. Ready to keep going?'
+    : isPerfect
     ? "You nailed every single question. That's seriously impressive."
     : isGood
     ? `You scored ${exerciseResult.score}/${exerciseResult.maxScore}. Strong understanding!`
@@ -389,13 +396,6 @@ export default function LessonPageClient({
     }
   }, [exerciseResult]);
 
-  // Called when the card deck reaches the end of content cards
-  const handleContentComplete = useCallback(() => {
-    if (lesson.exercises.length > 0) {
-      setShowExercise(true);
-    }
-  }, [lesson.exercises.length]);
-
   const handleExerciseComplete = useCallback(
     async (score: number, maxScore: number, answerSelections?: { questionIndex: number; selectedOptions: number[] }[]) => {
       setSubmitError(null);
@@ -443,6 +443,17 @@ export default function LessonPageClient({
     },
     [lesson]
   );
+
+  // Called when the card deck reaches the end of content cards.
+  const handleContentComplete = useCallback(() => {
+    if (lesson.exercises.length > 0) {
+      setShowExercise(true);
+    } else {
+      // Content-only lesson (no exercises): record the completion directly so
+      // the user can advance instead of getting stuck on the final card.
+      handleExerciseComplete(0, 0, []);
+    }
+  }, [lesson.exercises.length, handleExerciseComplete]);
 
   const handleRetrySubmit = useCallback(() => {
     setSubmitError(null);
