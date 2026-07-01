@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import { useState, useRef, useMemo, useCallback, type ReactNode } from 'react';
 import type { ContentBlock } from '@/types';
-import { isFormulaSafe } from '@/lib/formula-sanitizer';
+import { isFormulaSafe, getLocalNames } from '@/lib/formula-sanitizer';
 import NumberSystemTooltip from '@/components/ui/NumberSystemTooltip';
 import TooltipPortal from '@/components/ui/TooltipPortal';
 
@@ -378,19 +378,24 @@ function SliderCalculator({ data, chapterColor }: BlockProps) {
   const outputPrefix = (config?.outputPrefix as string) || '';
   const outputSuffix = (config?.outputSuffix as string) || '';
 
-  // Parse the variable name from the formula
+  // Parse the input variable name from the formula: the first identifier that isn't a
+  // reserved word or a name the formula declares locally. Skipping locals matters for
+  // IIFE formulas like `(() => { let bal = balance; ... })()`, where the real input is
+  // `balance`, not the helper `bal`.
   const variableName = useMemo(() => {
-    // Look for a word that isn't a JS keyword or number
     const matches = formula.match(/\b([a-zA-Z_]\w*)\b/g);
-    const jsKeywords = new Set([
+    const reserved = new Set([
       'Math', 'pow', 'sqrt', 'abs', 'round', 'floor', 'ceil',
       'log', 'min', 'max', 'PI', 'E', 'Number', 'parseInt',
       'parseFloat', 'Infinity', 'NaN', 'undefined', 'null',
       'true', 'false', 'return', 'var', 'let', 'const',
+      'if', 'else', 'while', 'for', 'do', 'function', 'typeof',
+      'break', 'continue',
+      ...getLocalNames(formula),
     ]);
     if (matches) {
       for (const m of matches) {
-        if (!jsKeywords.has(m) && isNaN(Number(m))) {
+        if (!reserved.has(m) && isNaN(Number(m))) {
           return m;
         }
       }

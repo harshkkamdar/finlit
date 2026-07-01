@@ -771,16 +771,10 @@ function CalculatorExercise({
       const keys = inputs.map((inp) => inp.key);
       const values = keys.map((k) => inputValues[k] ?? 0);
 
-      let fnBody = formula.trim();
-
-      if (fnBody.startsWith('{') && !fnBody.startsWith('{(') && !fnBody.includes('return')) {
-        fnBody = `return (${fnBody})`;
-      } else if (
-        !fnBody.includes('return') &&
-        !fnBody.startsWith('(')
-      ) {
-        fnBody = `return (${fnBody})`;
-      }
+      // Formulas are expressions (arithmetic, an object literal, or an IIFE), so wrap
+      // the whole thing in a return. Parenthesising also disambiguates an object
+      // literal `{ ... }` from a statement block. This mirrors the slider-card path.
+      const fnBody = `return (${formula.trim()});`;
 
       if (!isFormulaSafe(fnBody, keys)) {
         setCalcError('Formula contains invalid operations.');

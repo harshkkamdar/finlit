@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback, type ReactNode } from 'react';
+import { useState, useCallback, type ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   SlidersHorizontal,
@@ -8,7 +8,7 @@ import {
   CheckCircle2,
   RotateCcw,
 } from 'lucide-react';
-import { isFormulaSafe } from '@/lib/formula-sanitizer';
+import { isFormulaSafe, getFormulaInputs } from '@/lib/formula-sanitizer';
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -34,64 +34,117 @@ function hexToRgba(hex: string, alpha: number): string {
 
 // ── Slider Calculator ─────────────────────────────────────────────────────────
 
+interface CalcField {
+  key: string;
+  label: string;
+  min: number;
+  max: number;
+  step: number;
+  default: number;
+  slider: boolean;
+}
+
+function formatCalcNumber(n: number): string {
+  if (typeof n !== 'number' || !isFinite(n)) return '\u2014';
+  const rounded = Math.round(n * 100) / 100;
+  return Number.isInteger(rounded)
+    ? rounded.toLocaleString('en-IN')
+    : rounded.toLocaleString('en-IN', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+}
+
+/**
+ * Universal calculator card. Supports one or many inputs (declared via `config.inputs`,
+ * via legacy `inputLabel`/`secondInputLabel`, or inferred from the formula), rendered as
+ * sliders when a numeric range is known and as number fields otherwise. Handles both
+ * single-number results and object results (whose fields are labelled by splitting
+ * `outputLabel` on `|`).
+ */
 function SliderCalculator({ data, chapterColor }: BlockProps) {
-  const config = data.config as Record<string, unknown> | undefined;
+  const config = (data.config as Record<string, unknown>) || {};
   const title = (data.title as string) || 'Calculator';
   const description = (data.description as string) || '';
 
-  const inputLabel = (config?.inputLabel as string) || 'Value';
-  const min = Number(config?.min ?? 0);
-  const max = Number(config?.max ?? 100);
-  const formula = (config?.formula as string) || '0';
-  const outputLabel = (config?.outputLabel as string) || 'Result';
-  const outputPrefix = (config?.outputPrefix as string) || '';
-  const outputSuffix = (config?.outputSuffix as string) || '';
+  const formula = (config.formula as string) || '0';
+  const outputLabel = (config.outputLabel as string) || 'Result';
+  const outputPrefix = (config.outputPrefix as string) || '';
+  const outputSuffix = (config.outputSuffix as string) || '';
+  const subOutput = (config.subOutput as string) || (config.comparisonNote as string) || '';
+  const positiveMessage = (config.positiveMessage as string) || '';
+  const negativeMessage = (config.negativeMessage as string) || '';
+  const comparisonFormula = (config.comparisonFormula as string) || '';
+  const comparisonLabel = (config.comparisonLabel as string) || '';
 
-  const variableName = useMemo(() => {
-    const matches = formula.match(/\b([a-zA-Z_]\w*)\b/g);
-    const jsKeywords = new Set([
-      'Math', 'pow', 'sqrt', 'abs', 'round', 'floor', 'ceil',
-      'log', 'min', 'max', 'PI', 'E', 'Number', 'parseInt',
-      'parseFloat', 'Infinity', 'NaN', 'undefined', 'null',
-      'true', 'false', 'return', 'var', 'let', 'const',
-    ]);
-    if (matches) {
-      for (const m of matches) {
-        if (!jsKeywords.has(m) && isNaN(Number(m))) {
-          return m;
-        }
-      }
-    }
-    return 'x';
-  }, [formula]);
+  // Resolve the input fields the formula needs: prefer an explicit `config.inputs`
+  // array, else pair the formula's variables with legacy single/second labels.
+  // (No manual memoization — the React Compiler handles it; a manual useMemo here
+  // trips on the `config` fallback object which isn't referentially stable.)
+  const vars = getFormulaInputs(formula);
+  const explicitInputs = Array.isArray(config.inputs)
+    ? (config.inputs as Array<Record<string, unknown>>)
+    : null;
+  const legacyLabels = [config.inputLabel, config.secondInputLabel]
+    .filter((l): l is string => typeof l === 'string');
 
-  const defaultValue = Math.round((min + max) / 2);
-  const [sliderValue, setSliderValue] = useState(defaultValue);
+  const rawFields: Array<Record<string, unknown>> =
+    explicitInputs ?? vars.map((key, i) => ({ key, label: legacyLabels[i] }));
+  const singleField = rawFields.length === 1;
 
-  const computedOutput = useMemo(() => {
+  const fields: CalcField[] = rawFields.map((raw, i) => {
+    const key = String(raw.key ?? vars[i] ?? `x${i}`);
+    // A single-input card may carry its range on the config itself (legacy sliders).
+    const rawMin = raw.min ?? (singleField ? config.min : undefined);
+    const rawMax = raw.max ?? (singleField ? config.max : undefined);
+    const rawStep = raw.step ?? (singleField ? config.step : undefined);
+    const def = raw.default != null ? Number(raw.default) : NaN;
+    const hasRange = rawMin != null && rawMax != null;
+    const min = Number(rawMin ?? 0);
+    const max = Number(rawMax ?? Math.max(4 * (Number.isFinite(def) ? def : 0), 100));
+    return {
+      key,
+      label: String(raw.label ?? legacyLabels[i] ?? key),
+      min,
+      max,
+      step: Number(rawStep ?? Math.max(1, Math.round((max - min) / 100))),
+      default: Number.isFinite(def) ? def : Math.round((min + max) / 2),
+      slider: hasRange,
+    };
+  });
+
+  const [values, setValues] = useState<Record<string, number>>(() => {
+    const initial: Record<string, number> = {};
+    fields.forEach((f) => { initial[f.key] = f.default; });
+    return initial;
+  });
+
+  const setValue = (key: string, value: number) => {
+    setValues((prev) => ({ ...prev, [key]: value }));
+  };
+
+  const evaluate = (expr: string): number | Record<string, number> | null => {
     try {
-      if (!isFormulaSafe(formula, [variableName])) {
-        return 'Invalid formula';
-      }
+      const keys = fields.map((f) => f.key);
+      const body = `return (${expr.trim()});`;
+      if (!isFormulaSafe(body, keys)) return null;
       // eslint-disable-next-line no-new-func
-      const fn = new Function(variableName, `return (${formula});`);
-      const result = fn(sliderValue);
-      if (typeof result === 'number' && !isNaN(result)) {
-        if (Number.isInteger(result)) {
-          return result.toLocaleString('en-IN');
-        }
-        return result.toLocaleString('en-IN', {
-          minimumFractionDigits: 0,
-          maximumFractionDigits: 2,
-        });
-      }
-      return String(result);
+      const fn = new Function(...keys, body);
+      return fn(...keys.map((k) => values[k] ?? 0));
     } catch {
-      return '\u2014';
+      return null;
     }
-  }, [formula, variableName, sliderValue]);
+  };
 
-  const fillPercent = ((sliderValue - min) / (max - min)) * 100;
+  const result = evaluate(formula);
+  const comparison = comparisonFormula ? evaluate(comparisonFormula) : null;
+
+  const objectEntries =
+    result && typeof result === 'object'
+      ? Object.entries(result).map(([k, v], i) => ({
+          label: outputLabel.split('|').map((s) => s.trim())[i] ?? k,
+          value: v as number,
+        }))
+      : null;
+  const numberResult = typeof result === 'number' ? result : null;
+  const invalid = result === null;
 
   return (
     <>
@@ -112,32 +165,64 @@ function SliderCalculator({ data, chapterColor }: BlockProps) {
         </p>
       )}
 
-      <div className="mb-6">
-        <div className="flex items-center justify-between mb-2">
-          <label className="text-sm font-body font-medium text-dark/80">
-            {inputLabel}
-          </label>
-          <span
-            className="font-mono text-sm font-semibold px-2.5 py-0.5 rounded-md"
-            style={{
-              backgroundColor: hexToRgba(chapterColor, 0.1),
-              color: chapterColor,
-            }}
-          >
-            {sliderValue.toLocaleString('en-IN')}
-          </span>
-        </div>
-        <input
-          type="range"
-          min={min}
-          max={max}
-          value={sliderValue}
-          onChange={(e) => setSliderValue(Number(e.target.value))}
-          className="w-full h-2 rounded-full appearance-none cursor-pointer touch-none [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-7 [&::-webkit-slider-thumb]:h-7 lg:[&::-webkit-slider-thumb]:w-5 lg:[&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-md [&::-webkit-slider-thumb]:cursor-pointer"
-          style={{
-            background: `linear-gradient(to right, ${chapterColor} ${fillPercent}%, #E5E7EB ${fillPercent}%)`,
-          }}
-        />
+      <div className="space-y-4 mb-6">
+        {fields.map((field) => {
+          const value = values[field.key] ?? field.default;
+          const fillPercent =
+            field.max > field.min
+              ? ((value - field.min) / (field.max - field.min)) * 100
+              : 0;
+          return (
+            <div key={field.key}>
+              <div className="flex items-center justify-between mb-2">
+                <label className="text-sm font-body font-medium text-dark/80">
+                  {field.label}
+                </label>
+                <span
+                  className="font-mono text-sm font-semibold px-2.5 py-0.5 rounded-md"
+                  style={{ backgroundColor: hexToRgba(chapterColor, 0.1), color: chapterColor }}
+                >
+                  {value.toLocaleString('en-IN')}
+                </span>
+              </div>
+              {field.slider ? (
+                <>
+                  <input
+                    type="range"
+                    min={field.min}
+                    max={field.max}
+                    step={field.step}
+                    value={value}
+                    onChange={(e) => setValue(field.key, Number(e.target.value))}
+                    className="w-full h-2 rounded-full appearance-none cursor-pointer touch-none [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-7 [&::-webkit-slider-thumb]:h-7 lg:[&::-webkit-slider-thumb]:w-5 lg:[&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-md [&::-webkit-slider-thumb]:cursor-pointer"
+                    style={{
+                      background: `linear-gradient(to right, ${chapterColor} ${fillPercent}%, #E5E7EB ${fillPercent}%)`,
+                    }}
+                  />
+                  <div className="flex justify-between mt-1">
+                    <span className="text-xs text-muted font-mono">
+                      {field.min.toLocaleString('en-IN')}
+                    </span>
+                    <span className="text-xs text-muted font-mono">
+                      {field.max.toLocaleString('en-IN')}
+                    </span>
+                  </div>
+                </>
+              ) : (
+                <input
+                  type="number"
+                  inputMode="numeric"
+                  value={Number.isFinite(value) ? value : ''}
+                  onChange={(e) =>
+                    setValue(field.key, e.target.value === '' ? 0 : Number(e.target.value))
+                  }
+                  className="w-full px-4 py-2.5 rounded-lg border border-border bg-white font-mono text-base text-dark outline-none focus:ring-2 transition-shadow"
+                  style={{ ['--tw-ring-color' as string]: hexToRgba(chapterColor, 0.35) }}
+                />
+              )}
+            </div>
+          );
+        })}
         <style>{`
           input[type="range"]::-webkit-slider-thumb { background-color: ${chapterColor}; }
           input[type="range"]::-moz-range-thumb { background-color: ${chapterColor}; width:28px; height:28px; border-radius:50%; border:2px solid white; box-shadow:0 1px 4px rgba(0,0,0,0.15); cursor:pointer; }
@@ -145,27 +230,63 @@ function SliderCalculator({ data, chapterColor }: BlockProps) {
             input[type="range"]::-moz-range-thumb { width:20px; height:20px; }
           }
         `}</style>
-        <div className="flex justify-between mt-1">
-          <span className="text-xs text-muted font-mono">{min.toLocaleString('en-IN')}</span>
-          <span className="text-xs text-muted font-mono">{max.toLocaleString('en-IN')}</span>
-        </div>
       </div>
 
       <div
         className="rounded-lg p-4 text-center"
         style={{ backgroundColor: hexToRgba(chapterColor, 0.06) }}
       >
-        <p className="text-sm text-muted font-body mb-1">{outputLabel}</p>
-        <motion.p
-          key={computedOutput}
-          initial={{ scale: 0.95, opacity: 0.5 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.2 }}
-          className="font-mono text-3xl lg:text-2xl font-bold"
-          style={{ color: chapterColor }}
-        >
-          {outputPrefix}{computedOutput}{outputSuffix}
-        </motion.p>
+        {objectEntries ? (
+          <div className={`grid gap-3 ${objectEntries.length > 2 ? 'grid-cols-3' : 'grid-cols-2'}`}>
+            {objectEntries.map((entry) => (
+              <div key={entry.label}>
+                <p className="text-xs text-muted font-body mb-1">{entry.label}</p>
+                <motion.p
+                  key={entry.value}
+                  initial={{ scale: 0.95, opacity: 0.5 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 0.2 }}
+                  className="font-mono text-lg lg:text-xl font-bold"
+                  style={{ color: chapterColor }}
+                >
+                  {formatCalcNumber(entry.value)}
+                </motion.p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <>
+            <p className="text-sm text-muted font-body mb-1">{outputLabel}</p>
+            <motion.p
+              key={String(numberResult)}
+              initial={{ scale: 0.95, opacity: 0.5 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.2 }}
+              className="font-mono text-3xl lg:text-2xl font-bold"
+              style={{ color: chapterColor }}
+            >
+              {invalid
+                ? '—'
+                : `${outputPrefix}${formatCalcNumber(numberResult as number)}${outputSuffix}`}
+            </motion.p>
+            {numberResult !== null && positiveMessage && negativeMessage && (
+              <p className="text-sm font-body mt-2 text-dark/70">
+                {numberResult >= 0 ? positiveMessage : negativeMessage}
+              </p>
+            )}
+          </>
+        )}
+        {comparison !== null && typeof comparison === 'number' && comparisonLabel && (
+          <p className="text-sm text-muted font-body mt-3 pt-3 border-t border-border">
+            {comparisonLabel}:{' '}
+            <span className="font-mono font-semibold text-dark/80">
+              {formatCalcNumber(comparison)}
+            </span>
+          </p>
+        )}
+        {subOutput && (
+          <p className="text-xs text-muted font-body italic mt-2">{subOutput}</p>
+        )}
       </div>
     </>
   );
@@ -560,6 +681,9 @@ export default function InteractiveCard({ data, chapterColor }: InteractiveCardP
     switch (interactiveType) {
       case 'slider-calculator':
       case 'income-expense-calculator':
+      case 'compound-interest-calculator':
+      case 'rule-of-72-calculator':
+      case 'start-age-comparison':
         return <SliderCalculator data={data} chapterColor={chapterColor} />;
       case 'poll':
       case 'scenario-predictor':
